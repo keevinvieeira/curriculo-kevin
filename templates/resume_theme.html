@@ -7,14 +7,14 @@
     <style>
         @page {
             size: a4;
-            margin: 0.7cm 0.7cm 0.7cm 0.7cm;
+            margin: 0.4cm 0.5cm 0.4cm 0.5cm;
         }
         html, body {
             background-color: #ffffff !important;
             color: #2d3748 !important;
             font-family: 'Helvetica', 'Arial', sans-serif;
-            line-height: 1.3;
-            font-size: 8pt;
+            line-height: 1.18;
+            font-size: 7.1pt;
             margin: 0;
             padding: 0;
         }
@@ -25,128 +25,111 @@
         /* Header */
         .header {
             border-bottom: 2px solid #1a365d;
-            padding-bottom: 5px;
-            margin-bottom: 10px;
+            padding-bottom: 2px;
+            margin-bottom: 4px;
         }
         .name {
-            font-size: 17pt;
+            font-size: 14pt;
             font-weight: bold;
             color: #1a365d !important;
-            margin-bottom: 3px;
+            margin-bottom: 1px;
             letter-spacing: -0.5px;
         }
         .contact-info {
-            font-size: 8pt;
+            font-size: 7.2pt;
             color: #4a5568 !important;
-            margin-top: 3px;
-        }
-        /* Layout Table */
-        .layout-table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-top: 2px;
-        }
-        .main-column {
-            width: 68%;
-            vertical-align: top;
-            padding-right: 12px;
-        }
-        .sidebar-column {
-            width: 32%;
-            vertical-align: top;
-            padding-left: 12px;
-            border-left: 1px solid #e2e8f0;
+            margin-top: 1px;
         }
         /* Sections */
         .section {
-            margin-bottom: 10px;
+            margin-bottom: 4px;
         }
         .section-title {
-            font-size: 9pt;
+            font-size: 8pt;
             font-weight: bold;
             text-transform: uppercase;
             color: #1a365d !important;
             border-bottom: 1px solid #e2e8f0;
-            padding-bottom: 2px;
-            margin-bottom: 6px;
+            padding-bottom: 1px;
+            margin-bottom: 3px;
             letter-spacing: 0.5px;
         }
         .summary-text {
-            font-size: 7.8pt;
+            font-size: 7.1pt;
             text-align: justify;
-            margin-bottom: 8px;
-            line-height: 1.35;
+            margin-bottom: 4px;
+            line-height: 1.18;
         }
         /* Experience */
         .experience-item {
-            margin-bottom: 8px;
+            margin-bottom: 4px;
         }
         .experience-dates {
-            font-size: 7.5pt;
+            font-size: 6.8pt;
             color: #718096 !important;
             text-align: right;
         }
         .role-title {
-            font-size: 8.5pt;
+            font-size: 7.6pt;
             font-weight: bold;
             color: #1a365d !important;
         }
         .company-name {
-            font-size: 8pt;
+            font-size: 7.4pt;
             font-weight: bold;
             color: #2b6cb0 !important;
         }
         .experience-location {
-            font-size: 7.5pt;
+            font-size: 6.8pt;
             color: #718096 !important;
-            margin-bottom: 2px;
+            margin-bottom: 1px;
         }
         .bullet-list {
-            margin-top: 2px;
-            margin-bottom: 2px;
-            padding-left: 10px;
+            margin-top: 1px;
+            margin-bottom: 1px;
+            padding-left: 8px;
         }
         .bullet-item {
-            font-size: 7.6pt;
-            margin-bottom: 2px;
+            font-size: 7pt;
+            margin-bottom: 1px;
             text-align: justify;
-            line-height: 1.3;
+            line-height: 1.18;
         }
         /* Sidebar items */
         .skills-category {
-            margin-bottom: 6px;
+            margin-bottom: 3px;
         }
         .skills-category-title {
-            font-size: 7.5pt;
+            font-size: 7pt;
             font-weight: bold;
             text-transform: uppercase;
             color: #2b6cb0 !important;
             margin-bottom: 1px;
         }
         .skills-list {
-            font-size: 7.2pt;
+            font-size: 6.8pt;
             color: #2d3748 !important;
-            line-height: 1.25;
+            line-height: 1.16;
         }
         .education-item, .cert-item {
-            margin-bottom: 6px;
+            margin-bottom: 3px;
         }
         .education-title, .cert-title {
-            font-size: 7.5pt;
+            font-size: 7pt;
             font-weight: bold;
             color: #1a365d !important;
         }
         .education-inst, .cert-issuer {
-            font-size: 7.2pt;
+            font-size: 6.8pt;
             color: #2d3748 !important;
         }
         .education-dates, .cert-status {
-            font-size: 7pt;
+            font-size: 6.5pt;
             color: #718096 !important;
         }
         .language-item {
-            margin-bottom: 4px;
-            font-size: 7.5pt;
+            margin-bottom: 2px;
+            font-size: 7pt;
         }
         .language-name {
             font-weight: bold;
@@ -154,13 +137,21 @@
         }
         .language-proficiency {
             color: #718096 !important;
-            font-size: 7pt;
+            font-size: 6.5pt;
         }
-        .info-text {
-            font-size: 7.2pt;
-            text-align: justify;
-            color: #2d3748 !important;
-            line-height: 1.3;
+        .col-main {
+            float: left;
+            width: 66%;
+            padding-right: 8px;
+        }
+        .col-side {
+            float: right;
+            width: 32%;
+            padding-left: 8px;
+            border-left: 1px solid #e2e8f0;
+        }
+        .clear-cols {
+            clear: both;
         }
     </style>
 </head>
@@ -175,115 +166,110 @@
         </div>
     </div>
 
-    <table class="layout-table">
-        <tr>
-            <!-- Left Main Column -->
-            <td class="main-column">
-                {% if summary %}
-                <div class="section">
-                    <div class="section-title">{{ titles.summary }}</div>
-                    <div class="summary-text">{{ summary }}</div>
-                </div>
-                {% endif %}
+    <div class="col-main">
+        {% if summary %}
+        <div class="section">
+            <div class="section-title">{{ titles.summary }}</div>
+            <div class="summary-text">{{ summary }}</div>
+        </div>
+        {% endif %}
 
-                {% if experience %}
-                <div class="section">
-                    <div class="section-title">{{ titles.experience }}</div>
-                    {% for exp in experience %}
-                    <div class="experience-item">
-                        <table style="width: 100%; border-collapse: collapse; margin-bottom: 1px;">
-                            <tr>
-                                <td style="text-align: left; vertical-align: top;">
-                                    <span class="role-title">{{ exp.role }}</span>
-                                    <span class="company-name">| {{ exp.company }}</span>
-                                </td>
-                                <td style="text-align: right; vertical-align: top; width: 110px;" class="experience-dates">
-                                    {{ exp.dates }}
-                                </td>
-                            </tr>
-                        </table>
-                        {% if exp.location %}
-                        <div class="experience-location">{{ exp.location }}</div>
-                        {% endif %}
-                        <ul class="bullet-list">
-                            {% for bullet in exp.bullets %}
-                            <li class="bullet-item">{{ bullet }}</li>
-                            {% endfor %}
-                        </ul>
-                    </div>
-                    {% endfor %}
-                </div>
+        {% if experience %}
+        <div class="section">
+            <div class="section-title">{{ titles.experience }}</div>
+            {% for exp in experience %}
+            <div class="experience-item">
+                <table style="width: 100%; border-collapse: collapse; margin-bottom: 1px;">
+                    <tr>
+                        <td style="text-align: left; vertical-align: top;">
+                            <span class="role-title">{{ exp.role }}</span>
+                            <span class="company-name">| {{ exp.company }}</span>
+                        </td>
+                        <td style="text-align: right; vertical-align: top; width: 110px;" class="experience-dates">
+                            {{ exp.dates }}
+                        </td>
+                    </tr>
+                </table>
+                {% if exp.location %}
+                <div class="experience-location">{{ exp.location }}</div>
                 {% endif %}
-            </td>
+                <ul class="bullet-list">
+                    {% for bullet in exp.bullets %}
+                    <li class="bullet-item">{{ bullet }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+            {% endfor %}
+        </div>
+        {% endif %}
+    </div>
 
-            <!-- Right Sidebar Column -->
-            <td class="sidebar-column">
-                {% if skills %}
-                <div class="section">
-                    <div class="section-title">{{ titles.skills }}</div>
-                    {% for cat in skills %}
-                    <div class="skills-category">
-                        <div class="skills-category-title">{{ cat.category }}</div>
-                        <div class="skills-list">
-                            {% if cat.skills is string %}
-                                {{ cat.skills }}
-                            {% else %}
-                                {{ cat.skills | join(', ') }}
-                            {% endif %}
-                        </div>
-                    </div>
-                    {% endfor %}
+    <div class="col-side">
+        {% if skills %}
+        <div class="section">
+            <div class="section-title">{{ titles.skills }}</div>
+            {% for cat in skills %}
+            <div class="skills-category">
+                <div class="skills-category-title">{{ cat.category }}</div>
+                <div class="skills-list">
+                    {% if cat.skills is string %}
+                        {{ cat.skills }}
+                    {% else %}
+                        {{ cat.skills | join(', ') }}
+                    {% endif %}
                 </div>
-                {% endif %}
+            </div>
+            {% endfor %}
+        </div>
+        {% endif %}
 
-                {% if education %}
-                <div class="section">
-                    <div class="section-title">{{ titles.education }}</div>
-                    {% for edu in education %}
-                    <div class="education-item">
-                        <div class="education-title">{{ edu.degree }}</div>
-                        <div class="education-inst">{{ edu.institution }}</div>
-                        <div class="education-dates">{{ edu.dates }}</div>
-                    </div>
-                    {% endfor %}
-                </div>
-                {% endif %}
+        {% if education %}
+        <div class="section">
+            <div class="section-title">{{ titles.education }}</div>
+            {% for edu in education %}
+            <div class="education-item">
+                <div class="education-title">{{ edu.degree }}</div>
+                <div class="education-inst">{{ edu.institution }}</div>
+                <div class="education-dates">{{ edu.dates }}</div>
+            </div>
+            {% endfor %}
+        </div>
+        {% endif %}
 
-                {% if certifications %}
-                <div class="section">
-                    <div class="section-title">{{ titles.certifications }}</div>
-                    {% for cert in certifications %}
-                    <div class="cert-item">
-                        <div class="cert-title">{{ cert.name }}</div>
-                        <div class="cert-issuer">{{ cert.issuer }}</div>
-                        <div class="cert-status">{{ cert.status }}</div>
-                    </div>
-                    {% endfor %}
-                </div>
-                {% endif %}
+        {% if certifications %}
+        <div class="section">
+            <div class="section-title">{{ titles.certifications }}</div>
+            {% for cert in certifications %}
+            <div class="cert-item">
+                <div class="cert-title">{{ cert.name }}</div>
+                <div class="cert-issuer">{{ cert.issuer }}</div>
+                <div class="cert-status">{{ cert.status }}</div>
+            </div>
+            {% endfor %}
+        </div>
+        {% endif %}
 
-                {% if languages %}
-                <div class="section">
-                    <div class="section-title">{{ titles.languages }}</div>
-                    {% for lang in languages %}
-                    <div class="language-item">
-                        <span class="language-name">{{ lang.language }}</span> - 
-                        <span class="language-proficiency">{{ lang.proficiency }}</span>
-                    </div>
-                    {% endfor %}
-                </div>
-                {% endif %}
+        {% if languages %}
+        <div class="section">
+            <div class="section-title">{{ titles.languages }}</div>
+            {% for lang in languages %}
+            <div class="language-item">
+                <span class="language-name">{{ lang.language }}</span> - 
+                <span class="language-proficiency">{{ lang.proficiency }}</span>
+            </div>
+            {% endfor %}
+        </div>
+        {% endif %}
 
-                {% if additional_information %}
-                <div class="section">
-                    <div class="section-title">{{ titles.additional_info }}</div>
-                    {% for info in additional_information %}
-                    <div class="info-text">{{ info }}</div>
-                    {% endfor %}
-                </div>
-                {% endif %}
-            </td>
-        </tr>
-    </table>
+        {% if additional_information %}
+        <div class="section">
+            <div class="section-title">{{ titles.additional_info }}</div>
+            {% for info in additional_information %}
+            <div class="info-text">{{ info }}</div>
+            {% endfor %}
+        </div>
+        {% endif %}
+    </div>
+    <div class="clear-cols"></div>
 </body>
 </html>
