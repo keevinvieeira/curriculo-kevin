@@ -4,16 +4,6 @@ import json
 import re
 import datetime
 from urllib.parse import urlparse
-from utils import (
-    load_master_resume,
-    save_master_resume,
-    render_html_resume,
-    convert_html_to_pdf,
-    convert_resume_to_markdown,
-    build_generic_adapted_resume,
-    AdaptedResume,
-    JobMaterials
-)
 
 # Page configuration for a premium, clean look
 st.set_page_config(
@@ -22,6 +12,22 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded"
 )
+
+try:
+    from utils import (
+        load_master_resume,
+        save_master_resume,
+        render_html_resume,
+        convert_html_to_pdf,
+        convert_resume_to_markdown,
+        build_generic_adapted_resume,
+        AdaptedResume,
+        JobMaterials
+    )
+except Exception as e:
+    st.error(f"⚠️ Erro ao carregar módulos (ImportError): {e}")
+    st.exception(e)
+    st.stop()
 
 # Custom CSS to elevate visual design and force high-contrast white card for previews
 st.markdown("""

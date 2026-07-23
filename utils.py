@@ -4,12 +4,21 @@ import requests
 from io import BytesIO
 from typing import List, Optional, Dict, Any
 from pydantic import BaseModel, Field
-from google import genai
-from google.genai import types
 from jinja2 import Template
 from bs4 import BeautifulSoup
-from xhtml2pdf import pisa
 from dotenv import load_dotenv
+
+try:
+    from google import genai
+    from google.genai import types
+except Exception:
+    genai = None
+    types = None
+
+try:
+    from xhtml2pdf import pisa
+except Exception:
+    pisa = None
 
 # Load environment variables
 load_dotenv()
@@ -249,6 +258,8 @@ def render_html_resume(adapted_resume: AdaptedResume, target_lang: str = "pt", t
 
 def convert_html_to_pdf(html_content: str) -> bytes:
     """Convert HTML content to PDF bytes using xhtml2pdf."""
+    if pisa is None:
+        raise RuntimeError("xhtml2pdf não está disponível neste ambiente.")
     pdf_buffer = BytesIO()
     pisa_status = pisa.CreatePDF(html_content, dest=pdf_buffer)
     if pisa_status.err:
