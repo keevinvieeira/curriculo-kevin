@@ -10,6 +10,7 @@ from utils import (
     render_html_resume,
     convert_html_to_pdf,
     convert_resume_to_markdown,
+    build_generic_adapted_resume,
     AdaptedResume,
     JobMaterials
 )
@@ -660,10 +661,56 @@ with tab_tracker:
 # ====================
 with tab_editor:
     st.subheader("📝 Gerenciamento de Currículo Mestre")
-    st.write("Esta área permite que você visualize e faça atualizações rápidas no seu banco de dados de currículo (`master_resume.json`).")
+    st.write("Esta área permite visualizar o seu banco de dados mestre (`master_resume.json`), baixar o currículo mestre genérico em PDF ou fazer edições diretas.")
     
     try:
         master_data_editor = load_master_resume()
+        
+        # Section for Downloading Generic Master Resume PDF
+        st.markdown("""
+            <div class="card" style="border-left: 5px solid #2b6cb0; background-color: #f7fafc; margin-bottom: 1.5rem; padding: 1.2rem;">
+                <h3 style="color:#1a365d; margin: 0 0 8px 0; font-size:1.15rem; font-weight:800; display:flex; align-items:center; gap:8px;">
+                    📄 Exportar Currículo Mestre Completo (PDF Genérico)
+                </h3>
+                <p style="color:#4a5568; font-size:0.9rem; margin-bottom: 12px; line-height: 1.5;">
+                    Gere e baixe a versão em PDF do seu currículo mestre completo destacando todas as suas principais experiências profissionais com métricas de resultado, competências e certificações (em Português ou Inglês), sem estar atrelado a nenhuma vaga específica.
+                </p>
+            </div>
+        """, unsafe_allow_html=True)
+        
+        col_dl_pt, col_dl_en, _ = st.columns([1, 1, 1])
+        with col_dl_pt:
+            try:
+                gen_pt = build_generic_adapted_resume(master_data_editor, target_lang="pt")
+                html_gen_pt = render_html_resume(gen_pt, target_lang="pt")
+                pdf_gen_pt = convert_html_to_pdf(html_gen_pt)
+                st.download_button(
+                    label="⬇️ Baixar Currículo Mestre PDF (Português)",
+                    data=pdf_gen_pt,
+                    file_name="Curriculo_Mestre_Kevin_Augusto_Vieira_PT.pdf",
+                    mime="application/pdf",
+                    use_container_width=True
+                )
+            except Exception as e_pt:
+                st.error(f"Erro ao gerar PDF PT: {e_pt}")
+                
+        with col_dl_en:
+            try:
+                gen_en = build_generic_adapted_resume(master_data_editor, target_lang="en")
+                html_gen_en = render_html_resume(gen_en, target_lang="en")
+                pdf_gen_en = convert_html_to_pdf(html_gen_en)
+                st.download_button(
+                    label="⬇️ Baixar Currículo Mestre PDF (English)",
+                    data=pdf_gen_en,
+                    file_name="Master_Resume_Kevin_Augusto_Vieira_EN.pdf",
+                    mime="application/pdf",
+                    use_container_width=True
+                )
+            except Exception as e_en:
+                st.error(f"Erro ao gerar PDF EN: {e_en}")
+
+        st.markdown("---")
+
         json_str = json.dumps(master_data_editor, ensure_ascii=False, indent=2)
         
         col_ed_left, col_ed_right = st.columns([2, 1])

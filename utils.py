@@ -317,3 +317,109 @@ def convert_resume_to_markdown(adapted_resume: AdaptedResume, target_lang: str =
         md.append("")
         
     return "\n".join(md)
+
+def build_generic_adapted_resume(master_resume: Dict[str, Any], target_lang: str = "pt") -> AdaptedResume:
+    """Build a comprehensive generic AdaptedResume object directly from the master resume JSON."""
+    lang_code = "en" if target_lang.lower() in ["en", "english", "inglês", "ingles"] else "pt"
+    
+    p = master_resume.get("personal_info", {})
+    name = p.get("name", "Kevin Augusto Vieira")
+    loc = p.get("location", {}).get(lang_code, "Curitiba, PR")
+    phone = p.get("phone", "")
+    email = p.get("email", "")
+    linkedin = p.get("linkedin", "")
+    github = p.get("github", "")
+    website = p.get("website", "")
+    
+    # Summary
+    summaries = master_resume.get("professional_summaries", [])
+    summary_text = summaries[0].get("content", {}).get(lang_code, "") if summaries else ""
+    
+    # Experiences
+    experiences: List[ExperienceItem] = []
+    for comp in master_resume.get("work_experience", []):
+        company = comp.get("company", "")
+        roles = comp.get("roles", [])
+        role_title = roles[0].get("title", {}).get(lang_code, "") if roles else ""
+        dates = roles[0].get("dates", {}).get(lang_code, "") if roles else ""
+        location = comp.get("location", {}).get(lang_code, "") if comp.get("location") else None
+        
+        bullets: List[str] = []
+        for b in comp.get("bullets", []):
+            text = b.get(lang_code, "")
+            if text:
+                bullets.append(text)
+                
+        if company and role_title and bullets:
+            experiences.append(ExperienceItem(
+                company=company,
+                role=role_title,
+                dates=dates,
+                location=location,
+                bullets=bullets
+            ))
+            
+    # Technical Skills
+    skills_data = master_resume.get("technical_skills", {}).get(lang_code, [])
+    skills: List[SkillCategory] = []
+    for item in skills_data:
+        skills.append(SkillCategory(
+            category=item.get("category", ""),
+            skills=item.get("skills", [])
+        ))
+        
+    # Education
+    education: List[EducationItem] = []
+    for edu in master_resume.get("education", []):
+        institution = edu.get("institution", "")
+        degree_dict = edu.get("degree", {})
+        degree = degree_dict.get(lang_code, degree_dict.get("pt", "")) if isinstance(degree_dict, dict) else str(degree_dict)
+        dates = edu.get("dates", "")
+        education.append(EducationItem(
+            institution=institution,
+            degree=degree,
+            dates=dates
+        ))
+        
+    # Certifications
+    certifications: List[CertificationItem] = []
+    for cert in master_resume.get("certifications", []):
+        name_cert = cert.get("name", "")
+        issuer = cert.get("issuer", "")
+        status_dict = cert.get("status", {})
+        status = status_dict.get(lang_code, status_dict.get("pt", "")) if isinstance(status_dict, dict) else str(status_dict)
+        certifications.append(CertificationItem(
+            name=name_cert,
+            issuer=issuer,
+            status=status
+        ))
+        
+    # Languages
+    languages_data = master_resume.get("languages", {}).get(lang_code, [])
+    languages: List[LanguageItem] = []
+    for lang_item in languages_data:
+        languages.append(LanguageItem(
+            language=lang_item.get("language", ""),
+            proficiency=lang_item.get("proficiency", "")
+        ))
+        
+    # Additional Information
+    additional_info = master_resume.get("additional_information", {}).get(lang_code, None)
+    
+    return AdaptedResume(
+        name=name,
+        location=loc,
+        phone=phone,
+        email=email,
+        linkedin=linkedin,
+        github=github,
+        website=website,
+        summary=summary_text,
+        experience=experiences,
+        skills=skills,
+        education=education,
+        certifications=certifications,
+        languages=languages,
+        additional_information=additional_info
+    )
+

@@ -80,8 +80,8 @@
         },
         {
           "tags": ["ai_implementation", "crm_enablement", "prompt_engineering"],
-          "pt": "Liderança na implantação da IA nativa da Meta dentro do CRM dos Meta Pros: Conduziu o treinamento operacional sobre funcionalidades, preferências e competências (skills) de IA, estabeleceu fóruns de compartilhamento de melhores práticas e construiu bibliotecas estruturadas de prompts para otimização de vendas. Atuou como canal de comunicação estratégico (ponte) entre a Meta e os analistas, além de idealizar e coordenar uma competição de engenharia de prompt gamificada patrocinada pela Meta com premiações oficiais para incentivar a adoção.",
-          "en": "Led the implementation of Meta's native AI inside the Meta Pros CRM: Orchestrated operational training covering AI features, system preferences, and skills, established best practice sharing forums, and compiled structured prompt libraries for sales optimization. Served as the key communication bridge between Meta and the analyst team, and designed and coordinated a Meta-sponsored gamified prompting competition with official rewards to drive user adoption."
+          "pt": "Implantação de IA e Adoção Recorde: Liderou a integração da IA nativa no CRM desde o onboarding dos consultores com acompanhamento presencial side-by-side de 3 semanas. Elevou a média de uso de 4 para 10 prompts/dia por consultor (+150%), tornando a operação a #1 em crescimento de adoção de IA na Meta globalmente, otimizando também a qualidade contextual dos prompts em chamadas ao vivo.",
+          "en": "Native AI CRM Adoption & Quality: Spearheaded native AI integration into sales CRMs starting from onboarding, executing 3-week hands-on side-by-side coaching. Boosted daily consultant prompt usage from 4 to 10 prompts/day (+150%), earning official recognition from Meta as the #1 operation worldwide for AI tool adoption growth while improving live call prompt quality."
         },
         {
           "tags": ["coaching", "sales", "quality_assurance"],
@@ -99,24 +99,9 @@
           "en": "Implement structured sales methodologies and frameworks, ensuring operational alignment with the OCIR framework and Meta's proprietary quality assurance methodology."
         },
         {
-          "tags": ["training", "bootcamp", "collaboration"],
-          "pt": "Facilitação de treinamentos, workshops e bootcamps gamificados, garantindo a assimilação de soluções avançadas de mídia e colaborando ativamente com as equipes de Produto, Vendas, Qualidade, Análise de Dados e Treinamento.",
-          "en": "Facilitate trainings, workshops, and gamified bootcamps, ensuring the absorption of advanced media solutions while actively collaborating with Product, Sales, Quality Assurance, Data Analytics, and Training teams."
-        },
-        {
-          "tags": ["stakeholder_management", "communication"],
-          "pt": "Interface direta com stakeholders regionais e globais da Meta (LATAM e Global) em reuniões regulares para alinhamento estratégico da operação, feedback do mercado (Voice of Customer/Sales) e sucesso do cliente.",
-          "en": "Interface directly with regional and global Meta stakeholders (LATAM and Global) in recurring meetings to align operational strategy, share market feedback (Voice of Customer/Sales), and ensure customer success."
-        },
-        {
-          "tags": ["bi", "analytics", "data"],
-          "pt": "Geração de insights estratégicos via Business Intelligence (BI) para analisar a performance e a curva de adoção das ferramentas e produtos, apoiando a tomada de decisão baseada em dados.",
-          "en": "Generate strategic insights via Business Intelligence (BI) to analyze tool and product performance and adoption curves, supporting data-driven decision-making."
-        },
-        {
-          "tags": ["project_management", "pmo", "governance"],
-          "pt": "Liderança do Next Level Bootcamp: Idealizou, estruturou e governou de ponta a ponta a execução do programa Next Level Bootcamp, gerenciando cronogramas rígidos, definindo critérios de sucesso e elevando a maturidade operacional e técnica das equipes de consultoria.",
-          "en": "Project Governance & Enablement: Coordinated and governed the end-to-end execution of the Next Level Bootcamp program under strict PMO guidelines, managing master schedules, defining milestone success criteria, and driving operational resource planning."
+          "tags": ["project_management", "pmo", "bootcamp", "ramp_up"],
+          "pt": "Liderança do Next Level Bootcamp (Piloto): Idealizou, gamificou (badges digitais) e governou o programa piloto para 12 consultores com 100% de conclusão. Reduziu a curva de ramp-up e tempo de produtividade (time-to-productivity) dos novos contratados de 6 para 3 meses (-50%), alcançando 90%+ de nota de qualidade nas primeiras auditorias e 90% de satisfação dos consultores (CSAT), convertendo os participantes em Top Performers.",
+          "en": "Next Level Bootcamp Pilot & Ramp-up Reduction: Designed, gamified (digital badges), and governed the pilot enablement program for 12 consultants with 100% completion. Reduced new hire ramp-up time from 6 to 3 months (-50%), achieving 90%+ quality audit scores on initial reviews, 90% consultant CSAT, and converting all graduating consultants into operational Top Performers."
         },
         {
           "tags": ["cross_functional", "collaboration", "documentation"],
@@ -226,39 +211,24 @@
       ],
       "bullets": [
         {
-          "tags": ["agency_management", "branding", "premium"],
-          "pt": "Fundação e gestão de agência no modelo boutique, atuando com posicionamento digital premium através de atendimento personalizado sob medida, foco em qualidade/alta entrega (em detrimento de volume em massa) e desenvolvimento de projetos de alto valor agregado.",
-          "en": "Founded and managed a boutique-model agency, delivering premium digital positioning through highly personalized, tailor-made client service, focusing on top-tier quality execution (rather than mass volume) and high-value project delivery."
+          "tags": ["agency_management", "branding", "volume"],
+          "pt": "Fundação e Gestão de Agência Boutique: Manteve ritmo de fechamento e entrega de 2 contratos de alto valor a cada 3 meses ao longo de 5 anos (40+ projetos entregues), gerenciando desde o posicionamento de marca até a arquitetura web para PMEs.",
+          "en": "Boutique Agency Leadership & Volume: Sustained a steady deal closure and project delivery cadence of 2 high-value contracts every 3 months across 5 years (40+ custom projects delivered), overseeing everything from brand positioning to web architecture for SMBs."
+        },
+        {
+          "tags": ["cro", "chatbots", "lead_generation"],
+          "pt": "Otimização de Conversão (CRO) e Chatbots: Implementou interfaces de chatbot e fluxos de UX que elevaram a captação de leads de 8 para 20-30 contatos/mês (+250%) em sites corporativos, além de criar landing pages para a construção civil que geravam 5 leads qualificados/dia.",
+          "en": "Conversion Rate Optimization (CRO) & Chatbots: Implemented chatbot interfaces and UX flows that boosted monthly lead capture from 8 to 20-30 contacts/month (+250%) on client websites, and designed real estate LPs generating 5 qualified leads/day."
+        },
+        {
+          "tags": ["e_commerce", "monetization", "zero_to_one"],
+          "pt": "Lançamento de E-Commerce de 0 a 1: Desenvolveu loja virtual do zero que atingiu R$ 10.000 em faturamento nos primeiros 3 meses de operação de forma 100% orgânica (R$0 em ads), alavancada apenas por posicionamento estratégico no Instagram.",
+          "en": "0-to-1 E-Commerce Monetization: Built a custom e-commerce platform from scratch that achieved R$ 10,000 in revenue within its first 3 months operating 100% organically ($0 ad spend) driven purely by strategic Instagram positioning."
         },
         {
           "tags": ["ux_ui", "web_development", "seo", "lgpd"],
-          "pt": "Liderança ponta a ponta de projetos de UX/UI Design e Desenvolvimento Web de alta conversão. Estruturou a adequação técnica dos sites à LGPD, criando políticas de privacidade, termos de uso personalizados e sistemas de cookies de consentimento.",
-          "en": "Led end-to-end UX/UI Design and high-conversion Web Development projects. Built technical LGPD compliance frameworks for client websites, authoring custom privacy policies, terms of use, and cookie consent mechanisms."
-        },
-        {
-          "tags": ["marketing_strategy", "sales", "funnel"],
-          "pt": "Atuação como Consultor Estratégico de Marketing e Vendas, desenhando o funil de aquisição digital dos clientes pós-lançamento dos sites, integrando estratégias de tráfego orgânico, conversão em página e inbound marketing.",
-          "en": "Served as a Strategic Marketing and Sales Consultant, mapping out post-launch digital acquisition funnels for clients by integrating organic traffic strategies, landing page optimization, and inbound marketing."
-        },
-        {
-          "tags": ["sales", "account_management", "business_development"],
-          "pt": "Gestão completa do ciclo comercial e novos negócios (Sales/Account Management), desde a prospecção ativa de clientes, mapeamento de necessidades (briefing), desenho de escopo técnico, precificação e fechamento de contratos.",
-          "en": "Managed the full commercial lifecycle and new business acquisition (Sales/Account Management), spanning active prospecting, needs mapping (briefing), technical scope definition, pricing, and contract closure."
-        },
-        {
-          "tags": ["project_management", "timeline", "quality"],
-          "pt": "Gerenciamento de projetos com foco em prazos e entregas, aplicando frameworks de organização interna para gerenciar múltiplos cronogramas de clientes simultaneamente, mitigando riscos de atraso e garantindo a qualidade final do produto entregue.",
-          "en": "Handled project management with a strict focus on deadlines and deliverables, utilizing internal workflow frameworks to oversee multiple client timelines simultaneously, mitigating delay risks, and ensuring high-quality product output."
-        },
-        {
-          "tags": ["agency_management", "onboarding", "leadership"],
-          "pt": "Liderança de Contas da Agência: Gerenciou agência boutique especializada com foco em PMEs, liderando a transição completa de onboarding de clientes e direcionando projetos de desenvolvimento web, identidade de marca e posicionamento.",
-          "en": "Agency Account Leadership: Managed a specialized boutique agency focused on SMBs, leading the complete client onboarding transition and directing web development, brand identity, and positioning projects from conception to final delivery."
-        },
-        {
-          "tags": ["digital_campaigns", "conversion", "ux_writing"],
-          "pt": "Otimização de Campanhas Digitais: Projetou ativos da web de alta conversão, landing pages de e-commerce e roteiros de otimização de busca (SEO), aplicando princípios de UX writing para alinhar as jornadas do cliente com os objetivos de crescimento.",
-          "en": "Digital Campaign Optimization: Engineered high-converting web assets, e-commerce landing pages, and search optimization (SEO) roadmaps, applying UX writing principles to align customer journeys with client growth objectives."
+          "pt": "Conformidade LGPD em 100% dos Projetos: Estruturou a adequação técnica à Lei Geral de Proteção de Dados em todos os sites desenvolvidos, criando políticas de privacidade, termos de uso personalizados e sistemas de consentimento de cookies.",
+          "en": "100% Technical LGPD Compliance: Implemented data protection frameworks across 100% of delivered client websites, authoring custom privacy policies, terms of use, and cookie consent mechanisms."
         },
         {
           "tags": ["budget", "controls", "timeline"],
@@ -317,44 +287,24 @@
       ],
       "bullets": [
         {
-          "tags": ["growth", "marketing", "funnel", "channels"],
-          "pt": "Liderança ponta a ponta da estratégia de Growth e Marketing Digital da empresa, gerenciando desde a aquisição de clientes (SEO, marketing de conteúdo e campanhas de Ads) até a retenção via funis automatizados, e-mail marketing e canais conversacionais (WhatsApp).",
-          "en": "Led end-to-end growth and digital marketing strategies, managing the full funnel from customer acquisition (SEO, content marketing, and paid ads) to retention via automated email marketing workflows and conversational channels (WhatsApp)."
+          "tags": ["infoproduct", "e_learning", "tripwire", "roi"],
+          "pt": "Lançamento de Infoproduto (0 a 1): Idealizou e lançou o 1º curso digital da empresa (MasterStudy LMS/WordPress) como um produto de entrada (tripwire) para a metodologia pioneira Thinking Environment. Conquistou 50 vendas nos primeiros 2 meses com ROI de 1.0x a 1.5x, validando a aquisição de leads de forma autossustentável.",
+          "en": "0-to-1 Infoproduct & Tripwire ROI Strategy: Designed and launched the brand's first digital course (MasterStudy LMS/WordPress) as an entry-level tripwire offer for the pioneer Thinking Environment methodology. Secured 50 sales in the first 2 months with a 1.0x-1.5x ROI, self-sustaining customer acquisition."
         },
         {
-          "tags": ["infoproduct", "e_learning", "wordpress", "copywriting"],
-          "pt": "Gestão e desenvolvimento do primeiro infoproduto (curso digital) da marca, atuando desde a concepção do escopo, roteirização, copywriting e edição até a implantação técnica da plataforma educacional (MasterStudy LMS via WordPress).",
-          "en": "Managed the development and launch of the brand’s first digital information product (online course), overseeing scope conception, scriptwriting, copywriting, editing, and technical deployment of the LMS platform (MasterStudy LMS via WordPress)."
+          "tags": ["crm", "automation", "email_marketing", "high_ticket"],
+          "pt": "Funil Automatizado de High-Ticket (~R$ 50k em Receita): Estruturou funil de e-mail marketing automatizado de 10 etapas (Bitrix24/Sendpulse) que atraiu 10.000+ acessos e converteu 10 matriculados em formações presenciais de R$ 5.000 (~R$ 50k em receita de tickets altos gerada por automação).",
+          "en": "Automated High-Ticket Nurturing Funnel (~R$ 50k Revenue): Built an automated 10-stage email nurturing funnel (Bitrix24/Sendpulse) attracting 10,000+ visits, converting ~10 enrollments for R$ 5,000 in-person masterclasses (~R$ 50k high-ticket revenue driven via automation)."
+        },
+        {
+          "tags": ["inbound", "seo", "content_marketing"],
+          "pt": "Inbound Marketing e SEO Orgânico: Redigiu ~10 artigos estratégicos no blog alinhados à metodologia Thinking Environment, gerando ~1.000 visitas orgânicas e ~100 leads qualificados de alto valor (taxa de conversão visitor-to-lead de ~10%).",
+          "en": "Inbound Organic SEO & Content Marketing: Authored ~10 strategic technical blog articles on the Thinking Environment methodology, generating ~1,000 organic visits and ~100 qualified high-value leads (~10% visitor-to-lead conversion rate)."
         },
         {
           "tags": ["thinking_environment", "narratives", "copywriting"],
           "pt": "Especialização na metodologia global Thinking Environment para a construção de narrativas técnicas de alto impacto, aplicando os conceitos de escuta e facilitação na criação de conteúdos estratégicos para mídias sociais, posicionamento institucional e anúncios pagos.",
           "en": "Specialized in the global Thinking Environment methodology to build high-impact technical narratives, applying active listening and facilitation concepts to create strategic content for social media, brand positioning, and paid media."
-        },
-        {
-          "tags": ["crm", "automation", "lead_nurturing", "webhooks"],
-          "pt": "Otimização de processos comerciais e automações de CRM via API/Webhooks, estruturando fluxos inteligentes de lead nurturing para maximizar a conversão de vendas e reduzir o atrito na jornada do cliente.",
-          "en": "Optimized commercial workflows and CRM automations via API/Webhooks, structuring intelligent lead nurturing flows to maximize sales conversion and reduce friction along the customer journey."
-        },
-        {
-          "tags": ["customer_success", "feedback", "growth_strategy"],
-          "pt": "Atuação direta no relacionamento com clientes e suporte estratégico, garantindo o sucesso do cliente (Customer Success) e mapeando feedbacks qualitativos para retroalimentar as estratégias de crescimento e produto da empresa.",
-          "en": "Managed client relationships and strategic support directly, ensuring Customer Success and mapping qualitative feedback to continuously improve growth and product strategies."
-        },
-        {
-          "tags": ["crm", "automation", "integration"],
-          "pt": "Coordenação de Funil e Integração de CRM: Automatizou fluxos de comunicação e pipelines de geração de leads entre os CRMs Bitrix24 e Sendpulse via webhooks, aumentando o rastreamento e eficiência operacional.",
-          "en": "Funnel Coordination & CRM Integration: Automated communication pipelines and lead generation workflows between Bitrix24 and Sendpulse CRMs via webhooks, enhancing internal project tracking and execution efficiency."
-        },
-        {
-          "tags": ["ops", "crm", "admin", "process"],
-          "pt": "Gestão das operações internas da organização, incluindo manutenção e implementação de CRM, e gerenciamento da plataforma de matrículas nos cursos.",
-          "en": "Managed internal operations of the organization, including CRM maintenance and implementation, and management of the course enrollment platform."
-        },
-        {
-          "tags": ["admin", "support", "materials"],
-          "pt": "Suporte administrativo, preparação de materiais logísticos e de treinamento, e apoio na comunicação institucional com clientes e fornecedores.",
-          "en": "Provided administrative support, prepared logistical and training materials, and supported institutional communication with clients and suppliers."
         }
       ]
     },
@@ -389,8 +339,8 @@
         },
         {
           "tags": ["facilitation", "collective_intelligence", "art_of_hosting"],
-          "pt": "Facilitação e Inteligência Coletiva: Planejamento e moderação de 5 eventos e rodas de conversa pela cidade utilizando abordagens de Art of Hosting (A Arte de Anfitriar) e Thinking Environment. Aplicação prática de estruturas de facilitação avançadas, como dinâmicas de Aquário (Fishbowl) e círculos de diálogo para promover conexões profundas e seguras entre os participantes.",
-          "en": "Facilitation & Collective Intelligence: Planned and moderated 5 events and conversation circles across the city using Art of Hosting and Thinking Environment approaches. Practical application of advanced facilitation structures like Fishbowl and dialogue circles to promote deep and safe connections among participants."
+          "pt": "Facilitação e Inteligência Coletiva: Planejamento e moderação de 5 edições de rodas de conversa pela cidade (média de 20 participantes por encontro, engajando ~100 pessoas) utilizando abordagens de Art of Hosting (A Arte de Anfitriar) e Thinking Environment, aplicando dinâmicas como Aquário (Fishbowl) e círculos de diálogo.",
+          "en": "Facilitation & Collective Intelligence: Planned and moderated 5 community event editions across the city (average of 20 participants per meeting, engaging 100+ total attendees) utilizing Art of Hosting and Thinking Environment frameworks (Fishbowl dynamics and dialogue circles)."
         },
         {
           "tags": ["business_development", "partnerships", "b2b"],
