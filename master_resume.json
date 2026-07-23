@@ -1,0 +1,609 @@
+{
+  "personal_info": {
+    "name": "Kevin Augusto Vieira",
+    "location": {
+      "pt": "Curitiba, PR",
+      "en": "Curitiba, PR, Brazil"
+    },
+    "phone": "+55 (41) 99694-1615",
+    "email": "kevin.aug.vieira@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/kevin-augusto/",
+    "github": "",
+    "website": ""
+  },
+  "professional_summaries": [
+    {
+      "tags": ["general", "marketing", "product", "sales_enablement"],
+      "content": {
+        "pt": "Como Product Manager e especialista em GTM, meu foco é liderar a validação de novos produtos digitais e otimizar jornadas de usuários por meio de automação e inteligência de dados. Combino habilidades analíticas com mentalidade ágil (Scrum/Kanban) para traduzir hipóteses de mercado em MVPs rápidos e de baixo custo operacional. Minha trajetória inclui a cofundação de startups e a liderança de estratégias de produto e capacitação técnica em Big Techs (Meta na Wipro). Sou experiente em desenhar arquiteturas de produto que utilizam IAs (como Claude e ChatGPT) e orquestradores (como n8n) para automatizar o atendimento e a atração de leads. Minha formação acadêmica em Filosofia apoia diretamente a aplicação ética de inteligência artificial, atuando ativamente na mitigação de vieses de raça e gênero, na governança de dados confidenciais e na conformidade regulatória de ponta a ponta.",
+        "en": "As a Product Manager and GTM specialist, my focus is leading the validation of new digital products and optimizing user journeys through automation and data intelligence. I combine analytical skills with an agile mindset (Scrum/Kanban) to translate market hypotheses into fast, low-operating-cost MVPs. My background includes co-founding startups and leading product strategy and technical enablement at Big Techs (Meta at Wipro). I am experienced in designing product architectures that utilize AIs (such as Claude and ChatGPT) and orchestrators (such as n8n) to automate customer support and lead attraction. My academic background in Philosophy directly supports the ethical deployment of AI systems, actively driving gender and race bias mitigation, confidentiality guidelines, and end-to-end regulatory compliance."
+      }
+    },
+    {
+      "tags": ["operations", "project_management", "ops"],
+      "content": {
+        "pt": "Especialista Sênior em Marketing, Produto e Go-To-Market (GTM) com mais de 8 anos de experiência gerenciando o ciclo de vida de produtos digitais, lançando campanhas estratégicas e otimizando canais de vendas B2B e B2C. Sólida bagagem em traduzir inteligência de dados (MIS) em estratégias comerciais, governar cronogramas complexos de projetos e liderar programas de capacitação técnica de larga escala. Profissional com forte capacidade de execução analítica, mentalidade de dono e facilidade em gerenciar a interface com múltiplos stakeholders em projetos globais e regionais.",
+        "en": "Senior Digital Marketing & Product Specialist with over 8 years of experience managing digital campaigns, web development, and brand positioning lifecycles within fast-paced agency and startup environments. Proven track record leading end-to-end project lifecycles, driving seamless client onboarding, managing budgets, and coordinating resource scheduling across multi-disciplinary teams. Expert in translating client business objectives into structured scopes of work, mitigating timeline risks, and ensuring premium delivery standards. Combines a highly organized, PMO-aligned approach with a sharp founder's mentality to build strong client relationships and optimize internal workflow scalability."
+      }
+    }
+  ],
+  "work_experience": [
+    {
+      "company": "Wipro Brasil",
+      "project": "Meta Project",
+      "location": {
+        "pt": "Curitiba, PR",
+        "en": "Curitiba, Brazil"
+      },
+      "roles": [
+        {
+          "title": {
+            "pt": "Marketing Coordinator / Product Enablement Expert (Meta)",
+            "en": "Marketing Coordinator / Product Enablement Expert (Meta)"
+          },
+          "dates": {
+            "pt": "Setembro 2024 – Julho 2026",
+            "en": "September 2024 – July 2026"
+          }
+        },
+        {
+          "title": {
+            "pt": "Especialista em Operações de Marketing / GTM e Sales Enablement",
+            "en": "Marketing Operations / Sales Enablement & GTM Specialist"
+          },
+          "dates": {
+            "pt": "Setembro 2024 – Julho 2026",
+            "en": "September 2024 – July 2026"
+          }
+        }
+      ],
+      "bullets": [
+        {
+          "tags": ["sales_enablement", "marketing", "product_positioning"],
+          "pt": "Responsável pela execução de ativações de enablement, estratégias de adoção e posicionamento prático de produtos para impulsionar a produtividade de vendas e o crescimento de receita no Projeto Libra (Meta).",
+          "en": "Responsible for executing enablement activations, adoption strategies, and tactical product positioning to drive sales productivity and revenue growth for Project Libra (Meta)."
+        },
+        {
+          "tags": ["technical_reference", "marketing", "ads"],
+          "pt": "Referência técnica na operação em estratégias de anúncios na Meta, atuando na absorção de materiais oficiais do cliente e replicação estratégica de inovações de produto e Go-to-Market (GTM) para mais de 150 Meta Marketing Pros.",
+          "en": "Act as the operation's technical reference for Meta ad strategies, absorbing official client materials and strategically replicating product innovations and Go-to-Market (GTM) strategies for 150+ Meta Marketing Pros."
+        },
+        {
+          "tags": ["sales_enablement", "leadership"],
+          "pt": "Liderança dos pilares de Sales Excellence e Sales Productivity, traduzindo atualizações do portfólio de produtos da Meta em propostas de valor claras, pitches comerciais e frameworks práticos de vendas para o time do front.",
+          "en": "Lead Sales Excellence and Sales Productivity pillars, translating Meta product portfolio updates into clear value propositions, sales pitches, and practical commercial frameworks for frontline teams."
+        },
+        {
+          "tags": ["training", "crm", "ai"],
+          "pt": "Capacitação técnica da equipe em ferramentas internas da Meta, liderando o aculturamento e replicação de treinamentos sobre o uso de CRMs proprietários e implementação prática de IAs nativas.",
+          "en": "Provide technical training to the team on Meta internal tools, driving onboarding and replicating training programs on proprietary CRMs and practical native AI implementations."
+        },
+        {
+          "tags": ["ai_implementation", "crm_enablement", "prompt_engineering"],
+          "pt": "Liderança na implantação da IA nativa da Meta dentro do CRM dos Meta Pros: Conduziu o treinamento operacional sobre funcionalidades, preferências e competências (skills) de IA, estabeleceu fóruns de compartilhamento de melhores práticas e construiu bibliotecas estruturadas de prompts para otimização de vendas. Atuou como canal de comunicação estratégico (ponte) entre a Meta e os analistas, além de idealizar e coordenar uma competição de engenharia de prompt gamificada patrocinada pela Meta com premiações oficiais para incentivar a adoção.",
+          "en": "Led the implementation of Meta's native AI inside the Meta Pros CRM: Orchestrated operational training covering AI features, system preferences, and skills, established best practice sharing forums, and compiled structured prompt libraries for sales optimization. Served as the key communication bridge between Meta and the analyst team, and designed and coordinated a Meta-sponsored gamified prompting competition with official rewards to drive user adoption."
+        },
+        {
+          "tags": ["coaching", "sales", "quality_assurance"],
+          "pt": "Acompanhamento, orientação e desenvolvimento contínuo dos agentes de marketing/vendas por meio de monitoria ativa, escuta de calls e feedbacks estruturados focados em performance comercial e excelência de atendimento.",
+          "en": "Conduct continuous monitoring, coaching, and development for marketing/sales agents through active quality assurance, call listening, and structured feedback loops focused on sales performance and service excellence."
+        },
+        {
+          "tags": ["ops", "root_cause_analysis", "playbooks"],
+          "pt": "Aplicação de análise de causa raiz para identificar lacunas de conhecimento no time, desenhando planos de ação corretivos e construindo playbooks, scripts e materiais de suporte comercial.",
+          "en": "Apply root cause analysis to identify knowledge gaps within the team, designing corrective action plans and building playbooks, scripts, and sales enablement materials."
+        },
+        {
+          "tags": ["sales", "methodology", "quality_assurance"],
+          "pt": "Implementação de metodologias de vendas e frameworks estruturados, garantindo o alinhamento da operação com o framework OCIR e com a metodologia própria de qualidade da Meta.",
+          "en": "Implement structured sales methodologies and frameworks, ensuring operational alignment with the OCIR framework and Meta's proprietary quality assurance methodology."
+        },
+        {
+          "tags": ["training", "bootcamp", "collaboration"],
+          "pt": "Facilitação de treinamentos, workshops e bootcamps gamificados, garantindo a assimilação de soluções avançadas de mídia e colaborando ativamente com as equipes de Produto, Vendas, Qualidade, Análise de Dados e Treinamento.",
+          "en": "Facilitate trainings, workshops, and gamified bootcamps, ensuring the absorption of advanced media solutions while actively collaborating with Product, Sales, Quality Assurance, Data Analytics, and Training teams."
+        },
+        {
+          "tags": ["stakeholder_management", "communication"],
+          "pt": "Interface direta com stakeholders regionais e globais da Meta (LATAM e Global) em reuniões regulares para alinhamento estratégico da operação, feedback do mercado (Voice of Customer/Sales) e sucesso do cliente.",
+          "en": "Interface directly with regional and global Meta stakeholders (LATAM and Global) in recurring meetings to align operational strategy, share market feedback (Voice of Customer/Sales), and ensure customer success."
+        },
+        {
+          "tags": ["bi", "analytics", "data"],
+          "pt": "Geração de insights estratégicos via Business Intelligence (BI) para analisar a performance e a curva de adoção das ferramentas e produtos, apoiando a tomada de decisão baseada em dados.",
+          "en": "Generate strategic insights via Business Intelligence (BI) to analyze tool and product performance and adoption curves, supporting data-driven decision-making."
+        },
+        {
+          "tags": ["project_management", "pmo", "governance"],
+          "pt": "Liderança do Next Level Bootcamp: Idealizou, estruturou e governou de ponta a ponta a execução do programa Next Level Bootcamp, gerenciando cronogramas rígidos, definindo critérios de sucesso e elevando a maturidade operacional e técnica das equipes de consultoria.",
+          "en": "Project Governance & Enablement: Coordinated and governed the end-to-end execution of the Next Level Bootcamp program under strict PMO guidelines, managing master schedules, defining milestone success criteria, and driving operational resource planning."
+        },
+        {
+          "tags": ["cross_functional", "collaboration", "documentation"],
+          "pt": "Colaboração Interfuncional: Atuou como ponte estratégica entre linhas globais de produtos, garantia de qualidade e equipes de consultoria terceirizadas para manter documentação de projeto clara, gerenciar prazos e alinhar entregas com objetivos de negócios.",
+          "en": "Cross-Functional Collaboration: Acted as the strategic bridge between global product lines, quality assurance, and outsourced consultant teams to maintain clear project documentation, manage timelines, and align deliverables with core business objectives."
+        },
+        {
+          "tags": ["data", "analytics", "power_bi"],
+          "pt": "Relatórios de Desempenho: Parceria direta com a equipe de inteligência de dados (MIS) para escopar, solicitar e explorar painéis automatizados no Power BI e Excel, interpretando métricas de comportamento para subsidiar decisões críticas e otimizar funis.",
+          "en": "Performance Reporting: Partnered with the MIS data team to leverage Power BI and Excel dashboards, translating complex operational data into actionable progress reports and performance reviews for senior leadership."
+        },
+        {
+          "tags": ["compliance", "security", "bcp", "governance"],
+          "pt": "Segurança e Governança de Dados: Participou ativamente da estruturação do Plano de Continuidade de Negócios (BCP) e elaborou manuais de governança sobre políticas de compartilhamento de dados externos em ambiente de alta restrição. Recebeu capacitações contínuas de Wipro/Meta em segurança da informação (phishing, engenharia social, tailgating e compliance).",
+          "en": "Data Security & Compliance Governance: Contributed to the development of the Business Continuity Plan (BCP) and drafted internal governance manuals detailing data sharing limits under highly restricted settings. Trained extensively by Wipro/Meta in policy compliance and information security (anti-phishing, social engineering prevention, and physical security)."
+        }
+      ]
+    },
+    {
+      "company": "Meu Barzin (Startup)",
+      "location": {
+        "pt": "Curitiba, PR",
+        "en": "Curitiba, Brazil"
+      },
+      "roles": [
+        {
+          "title": {
+            "pt": "Co-Founder & Product Manager",
+            "en": "Co-Founder & Product Manager"
+          },
+          "dates": {
+            "pt": "Dezembro 2025 – Março 2026",
+            "en": "December 2025 – March 2026"
+          }
+        },
+        {
+          "title": {
+            "pt": "Co-Founder & Responsável por Produto e GTM",
+            "en": "Co-Founder & Product & Go-To-Market (GTM) Lead"
+          },
+          "dates": {
+            "pt": "Dezembro 2025 – Março 2026",
+            "en": "December 2025 – March 2026"
+          }
+        }
+      ],
+      "bullets": [
+        {
+          "tags": ["product_strategy", "monetization", "business_model"],
+          "pt": "Concepção do MVP: Idealizou o ecossistema conversacional no WhatsApp integrado ao 'Meu Barzin Pass' (assinatura mensal de R$ 19,90 com benefício 'Compre 1, Leve 2' em bares locais), desenhando o modelo de negócios e validando a monetização com parceiros B2B.",
+          "en": "MVP Conception: Conceptualized the conversational WhatsApp ecosystem integrated with 'Meu Barzin Pass' (R$19.90 monthly subscription with buy-one-get-one deals at local bars), designing the monetization business model and validating B2B partnership value."
+        },
+        {
+          "tags": ["product_architecture", "ux", "ai", "automation"],
+          "pt": "Arquitetura Conversacional e UX: Desenhou fluxos conversacionais inteligentes via ManyChat e n8n, integrando RAG e regras de 'Alucinação Zero' para que o agente (mascote Capizin, Sommelier de Bares) fizesse buscas ricas de bares locais sem inventar dados.",
+          "en": "Conversational Architecture & UX: Designed intelligent conversation flows via ManyChat and n8n, integrating RAG and 'Zero Hallucination' rules to enable the AI agent (mascot Capizin, Bar Sommelier) to search and recommend venues without errors."
+        },
+        {
+          "tags": ["data_strategy", "web_scraping", "supabase"],
+          "pt": "Varredura e Tratamento de Dados: Mapeou, extraiu e higienizou dados de quase 200 bares de Curitiba via Web Scraping para criar um banco de dados de RAG confiável no Supabase hospedado em VPS.",
+          "en": "Data Scraping & Cleansing: Mapped, extracted, and cleansed data from nearly 200 bars in Curitiba via web scraping to build a reliable RAG database in Supabase hosted over a VPS."
+        },
+        {
+          "tags": ["growth", "funnel", "metrics"],
+          "pt": "Geração de Demanda e Métricas: Captou 505 leads qualificados de topo de funil com campanhas orgânicas e anúncios (além de crescer o Instagram para 2.000+ seguidores), alcançando uma taxa de 22,3% de usuários altamente engajados (conversando 4+ vezes com a IA).",
+          "en": "Demand Gen & Metrics: Captured 505 qualified top-of-funil leads via organic and paid campaigns (growing Instagram to 2,000+ followers), achieving a 22.3% high-engagement rate (users interacting 4+ times with the AI)."
+        },
+        {
+          "tags": ["business_development", "sales", "b2b"],
+          "pt": "Desenvolvimento de Negócios B2B: Liderou a prospecção direta de bares de grande relevância em Curitiba, assinando parcerias de peso para o piloto de benefícios (como o Gal Gastrobar e o Officina).",
+          "en": "B2B Business Development: Led direct sales outreach and partner pitching, securing critical pilot partnerships with top Curitiba venues like Gal Gastrobar and Officina."
+        },
+        {
+          "tags": ["discovery", "learning", "cro"],
+          "pt": "Mapeamento de Gargalos de Conversão: Conduziu entrevistas qualitativas e mapeamentos de funil que identificaram que a falta de liquidez de parceiros na oferta e atritos de latência de API (43,9% de drop na primeira mensagem) eram os principais impeditivos para a conversão de assinaturas.",
+          "en": "Conversion Bottleneck Mapping: Conducted qualitative user interviews and funnel mappings that revealed that lack of merchant partner density (supply liquidity) and API processing latency (43.9% first-message dropout) were the primary conversion barriers for subscription growth."
+        }
+      ]
+    },
+    {
+      "company": "AK Branding & Web Design",
+      "location": {
+        "pt": "Curitiba, PR",
+        "en": "Curitiba, PR"
+      },
+      "roles": [
+        {
+          "title": {
+            "pt": "Founder & Product Design Consultant",
+            "en": "Founder & Product Design Consultant"
+          },
+          "dates": {
+            "pt": "Março 2019 – Setembro 2024",
+            "en": "March 2019 – September 2024"
+          }
+        },
+        {
+          "title": {
+            "pt": "Fundador & Consultor de Projetos de Marketing",
+            "en": "Founder & Marketing Project Consultant"
+          },
+          "dates": {
+            "pt": "Março 2019 – Setembro 2024",
+            "en": "March 2019 – September 2024"
+          }
+        }
+      ],
+      "bullets": [
+        {
+          "tags": ["agency_management", "branding", "premium"],
+          "pt": "Fundação e gestão de agência no modelo boutique, atuando com posicionamento digital premium através de atendimento personalizado sob medida, foco em qualidade/alta entrega (em detrimento de volume em massa) e desenvolvimento de projetos de alto valor agregado.",
+          "en": "Founded and managed a boutique-model agency, delivering premium digital positioning through highly personalized, tailor-made client service, focusing on top-tier quality execution (rather than mass volume) and high-value project delivery."
+        },
+        {
+          "tags": ["ux_ui", "web_development", "seo", "lgpd"],
+          "pt": "Liderança ponta a ponta de projetos de UX/UI Design e Desenvolvimento Web de alta conversão. Estruturou a adequação técnica dos sites à LGPD, criando políticas de privacidade, termos de uso personalizados e sistemas de cookies de consentimento.",
+          "en": "Led end-to-end UX/UI Design and high-conversion Web Development projects. Built technical LGPD compliance frameworks for client websites, authoring custom privacy policies, terms of use, and cookie consent mechanisms."
+        },
+        {
+          "tags": ["marketing_strategy", "sales", "funnel"],
+          "pt": "Atuação como Consultor Estratégico de Marketing e Vendas, desenhando o funil de aquisição digital dos clientes pós-lançamento dos sites, integrando estratégias de tráfego orgânico, conversão em página e inbound marketing.",
+          "en": "Served as a Strategic Marketing and Sales Consultant, mapping out post-launch digital acquisition funnels for clients by integrating organic traffic strategies, landing page optimization, and inbound marketing."
+        },
+        {
+          "tags": ["sales", "account_management", "business_development"],
+          "pt": "Gestão completa do ciclo comercial e novos negócios (Sales/Account Management), desde a prospecção ativa de clientes, mapeamento de necessidades (briefing), desenho de escopo técnico, precificação e fechamento de contratos.",
+          "en": "Managed the full commercial lifecycle and new business acquisition (Sales/Account Management), spanning active prospecting, needs mapping (briefing), technical scope definition, pricing, and contract closure."
+        },
+        {
+          "tags": ["project_management", "timeline", "quality"],
+          "pt": "Gerenciamento de projetos com foco em prazos e entregas, aplicando frameworks de organização interna para gerenciar múltiplos cronogramas de clientes simultaneamente, mitigando riscos de atraso e garantindo a qualidade final do produto entregue.",
+          "en": "Handled project management with a strict focus on deadlines and deliverables, utilizing internal workflow frameworks to oversee multiple client timelines simultaneously, mitigating delay risks, and ensuring high-quality product output."
+        },
+        {
+          "tags": ["agency_management", "onboarding", "leadership"],
+          "pt": "Liderança de Contas da Agência: Gerenciou agência boutique especializada com foco em PMEs, liderando a transição completa de onboarding de clientes e direcionando projetos de desenvolvimento web, identidade de marca e posicionamento.",
+          "en": "Agency Account Leadership: Managed a specialized boutique agency focused on SMBs, leading the complete client onboarding transition and directing web development, brand identity, and positioning projects from conception to final delivery."
+        },
+        {
+          "tags": ["digital_campaigns", "conversion", "ux_writing"],
+          "pt": "Otimização de Campanhas Digitais: Projetou ativos da web de alta conversão, landing pages de e-commerce e roteiros de otimização de busca (SEO), aplicando princípios de UX writing para alinhar as jornadas do cliente com os objetivos de crescimento.",
+          "en": "Digital Campaign Optimization: Engineered high-converting web assets, e-commerce landing pages, and search optimization (SEO) roadmaps, applying UX writing principles to align customer journeys with client growth objectives."
+        },
+        {
+          "tags": ["budget", "controls", "timeline"],
+          "pt": "Controles de Orçamento e Cronograma: Controlou escopos de projetos e orçamentos financeiros para múltiplas contas concorrentes, coordenando fluxos de trabalho internos e gerenciando execução de recursos especializados para evitar gargalos.",
+          "en": "Budget & Timeline Controls: Controlled project scopes and financial budgets for multiple concurrent accounts, coordinating internal workflows and managing specialized resource execution to prevent project roadblocks."
+        }
+      ]
+    },
+    {
+      "company": "Munzner",
+      "location": {
+        "pt": "Curitiba, PR",
+        "en": "Curitiba, PR"
+      },
+      "roles": [
+        {
+          "title": {
+            "pt": "Marketing & Growth Specialist",
+            "en": "Marketing & Growth Specialist"
+          },
+          "dates": {
+            "pt": "Outubro 2018 – Agosto 2024",
+            "en": "October 2018 – August 2024"
+          }
+        },
+        {
+          "title": {
+            "pt": "Especialista em Automação de Marketing e Campanhas",
+            "en": "Marketing Automation & Campaign Specialist"
+          },
+          "dates": {
+            "pt": "Outubro 2018 – Agosto 2024",
+            "en": "October 2018 – August 2024"
+          }
+        },
+        {
+          "title": {
+            "pt": "Marketing Specialist",
+            "en": "Marketing Specialist"
+          },
+          "dates": {
+            "pt": "Fevereiro 2021 – Setembro 2024",
+            "en": "February 2021 – September 2024"
+          }
+        },
+        {
+          "title": {
+            "pt": "Internal Process Analyst",
+            "en": "Internal Process Analyst"
+          },
+          "dates": {
+            "pt": "Outubro 2018 – Fevereiro 2021",
+            "en": "October 2018 – February 2021"
+          }
+        }
+      ],
+      "bullets": [
+        {
+          "tags": ["growth", "marketing", "funnel", "channels"],
+          "pt": "Liderança ponta a ponta da estratégia de Growth e Marketing Digital da empresa, gerenciando desde a aquisição de clientes (SEO, marketing de conteúdo e campanhas de Ads) até a retenção via funis automatizados, e-mail marketing e canais conversacionais (WhatsApp).",
+          "en": "Led end-to-end growth and digital marketing strategies, managing the full funnel from customer acquisition (SEO, content marketing, and paid ads) to retention via automated email marketing workflows and conversational channels (WhatsApp)."
+        },
+        {
+          "tags": ["infoproduct", "e_learning", "wordpress", "copywriting"],
+          "pt": "Gestão e desenvolvimento do primeiro infoproduto (curso digital) da marca, atuando desde a concepção do escopo, roteirização, copywriting e edição até a implantação técnica da plataforma educacional (MasterStudy LMS via WordPress).",
+          "en": "Managed the development and launch of the brand’s first digital information product (online course), overseeing scope conception, scriptwriting, copywriting, editing, and technical deployment of the LMS platform (MasterStudy LMS via WordPress)."
+        },
+        {
+          "tags": ["thinking_environment", "narratives", "copywriting"],
+          "pt": "Especialização na metodologia global Thinking Environment para a construção de narrativas técnicas de alto impacto, aplicando os conceitos de escuta e facilitação na criação de conteúdos estratégicos para mídias sociais, posicionamento institucional e anúncios pagos.",
+          "en": "Specialized in the global Thinking Environment methodology to build high-impact technical narratives, applying active listening and facilitation concepts to create strategic content for social media, brand positioning, and paid media."
+        },
+        {
+          "tags": ["crm", "automation", "lead_nurturing", "webhooks"],
+          "pt": "Otimização de processos comerciais e automações de CRM via API/Webhooks, estruturando fluxos inteligentes de lead nurturing para maximizar a conversão de vendas e reduzir o atrito na jornada do cliente.",
+          "en": "Optimized commercial workflows and CRM automations via API/Webhooks, structuring intelligent lead nurturing flows to maximize sales conversion and reduce friction along the customer journey."
+        },
+        {
+          "tags": ["customer_success", "feedback", "growth_strategy"],
+          "pt": "Atuação direta no relacionamento com clientes e suporte estratégico, garantindo o sucesso do cliente (Customer Success) e mapeando feedbacks qualitativos para retroalimentar as estratégias de crescimento e produto da empresa.",
+          "en": "Managed client relationships and strategic support directly, ensuring Customer Success and mapping qualitative feedback to continuously improve growth and product strategies."
+        },
+        {
+          "tags": ["crm", "automation", "integration"],
+          "pt": "Coordenação de Funil e Integração de CRM: Automatizou fluxos de comunicação e pipelines de geração de leads entre os CRMs Bitrix24 e Sendpulse via webhooks, aumentando o rastreamento e eficiência operacional.",
+          "en": "Funnel Coordination & CRM Integration: Automated communication pipelines and lead generation workflows between Bitrix24 and Sendpulse CRMs via webhooks, enhancing internal project tracking and execution efficiency."
+        },
+        {
+          "tags": ["ops", "crm", "admin", "process"],
+          "pt": "Gestão das operações internas da organização, incluindo manutenção e implementação de CRM, e gerenciamento da plataforma de matrículas nos cursos.",
+          "en": "Managed internal operations of the organization, including CRM maintenance and implementation, and management of the course enrollment platform."
+        },
+        {
+          "tags": ["admin", "support", "materials"],
+          "pt": "Suporte administrativo, preparação de materiais logísticos e de treinamento, e apoio na comunicação institucional com clientes e fornecedores.",
+          "en": "Provided administrative support, prepared logistical and training materials, and supported institutional communication with clients and suppliers."
+        }
+      ]
+    },
+    {
+      "company": "Conversas Brasileiras",
+      "location": {
+        "pt": "Curitiba, PR",
+        "en": "Curitiba, Paraná, Brazil"
+      },
+      "roles": [
+        {
+          "title": {
+            "pt": "Co-Founder",
+            "en": "Co-Founder"
+          },
+          "dates": {
+            "pt": "Agosto 2018 – Setembro 2019",
+            "en": "August 2018 – September 2019"
+          }
+        }
+      ],
+      "bullets": [
+        {
+          "tags": ["social_innovation", "facilitation", "community"],
+          "pt": "O 'Conversas Brasileiras' foi uma iniciativa social e experimental voltada para a criação de espaços de diálogo, fomento ao pensamento crítico e ativação da inteligência coletiva através de metodologias de facilitação humana e inovação social.",
+          "en": "The 'Conversas Brasileiras' was a social and experimental initiative aimed at creating dialogue spaces, fostering critical thinking, and activating collective intelligence through human facilitation methodologies and social innovation."
+        },
+        {
+          "tags": ["community_management", "content_creation"],
+          "pt": "Gestão e Engajamento de Comunidade (Community Management): Idealização e condução do projeto de ponta a ponta, criando conteúdos estratégicos e canais de comunicação para atrair, engajar e reter membros alinhados com o propósito do ecossistema.",
+          "en": "Community Management & Engagement: Conceptualized and led the project end-to-end, creating strategic content and communication channels to attract, engage, and retain members aligned with the ecosystem's purpose."
+        },
+        {
+          "tags": ["facilitation", "collective_intelligence", "art_of_hosting"],
+          "pt": "Facilitação e Inteligência Coletiva: Planejamento e moderação de 5 eventos e rodas de conversa pela cidade utilizando abordagens de Art of Hosting (A Arte de Anfitriar) e Thinking Environment. Aplicação prática de estruturas de facilitação avançadas, como dinâmicas de Aquário (Fishbowl) e círculos de diálogo para promover conexões profundas e seguras entre os participantes.",
+          "en": "Facilitation & Collective Intelligence: Planned and moderated 5 events and conversation circles across the city using Art of Hosting and Thinking Environment approaches. Practical application of advanced facilitation structures like Fishbowl and dialogue circles to promote deep and safe connections among participants."
+        },
+        {
+          "tags": ["business_development", "partnerships", "b2b"],
+          "pt": "Desenvolvimento de Negócios e Parcerias B2B: Prospecção e negociação estratégica com espaços locais, como co-workings e centros culturais, garantindo a infraestrutura necessária para os encontros através de parcerias de benefício mútuo.",
+          "en": "Business Development & B2B Partnerships: Strategic prospecting and negotiation with local venues like co-workings and cultural centers, securing the necessary infrastructure for meetings through mutual-benefit partnerships."
+        },
+        {
+          "tags": ["business_models", "experimentation", "pricing"],
+          "pt": "Experimentação de Modelos de Negócio: Concepção e teste prático de formatos de monetização consciente (como precificação baseada em valor percebido / pay-what-you-want), gerando aprendizados valiosos sobre comportamento de consumo, sustentabilidade financeira de projetos e validação de hipóteses de mercado.",
+          "en": "Business Model Experimentation: Conceptualized and practically tested conscious monetization formats (such as value-perceived pricing / pay-what-you-want), generating valuable insights on consumer behavior, project financial sustainability, and market hypothesis validation."
+        }
+      ]
+    },
+    {
+      "company": "Alvesa Transportes Logística Ltda.",
+      "location": {
+        "pt": "Curitiba, PR",
+        "en": "Curitiba, PR"
+      },
+      "roles": [
+        {
+          "title": {
+            "pt": "Administrative Assistant",
+            "en": "Administrative Assistant"
+          },
+          "dates": {
+            "pt": "Maio 2015 – Maio 2016",
+            "en": "May 2015 – May 2016"
+          }
+        }
+      ],
+      "bullets": [
+        {
+          "tags": ["admin", "finance", "ops"],
+          "pt": "Suporte às operações financeiras, incluindo controle de receitas e despesas, folha de pagamento, impostos e contas a pagar.",
+          "en": "Supported financial operations, including controlling revenues and expenses, payroll, taxes, and accounts payable."
+        },
+        {
+          "tags": ["logistics", "coordination", "tracking"],
+          "pt": "Coordenação de cronogramas logísticos, rastreamento de cargas e atribuição de motoristas.",
+          "en": "Coordinated logistical schedules, tracked cargo, and assigned drivers."
+        },
+        {
+          "tags": ["marketing", "social_media"],
+          "pt": "Apoio ao marketing por meio da criação de conteúdo para redes sociais e coordenação básica de campanhas.",
+          "en": "Supported marketing efforts by creating social media content and coordinating basic campaigns."
+        },
+        {
+          "tags": ["admin", "support", "recruitment"],
+          "pt": "Gestão de agendamentos administrativos, processos seletivos e atendimento ao cliente.",
+          "en": "Managed administrative appointments, selection processes, and customer service."
+        }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Universidade Federal do Paraná (UFPR)",
+      "degree": {
+        "pt": "Bacharelado e Licenciatura em Filosofia",
+        "en": "Bachelor's Degree and Licentiate in Philosophy"
+      },
+      "dates": "2018 – 2023"
+    },
+    {
+      "institution": "Recanto da Filosofia Clínica",
+      "degree": {
+        "pt": "Especialização em Filosofia Clínica",
+        "en": "Specialization in Clinical Philosophy"
+      },
+      "dates": "Janeiro 2023 – Dezembro 2024"
+    },
+    {
+      "institution": "Universidade Federal do Paraná (UFPR) / UTFPR",
+      "degree": {
+        "pt": "Engenharia Elétrica / Eletrônica (Incompleto)",
+        "en": "STEM Track - Electrical and Electronics Engineering (Incomplete)"
+      },
+      "dates": "2012 – 2015"
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Google Project Management Professional Certificate",
+      "issuer": "Coursera / Google",
+      "status": {
+        "pt": "Em andamento / Iniciado em Setembro 2025",
+        "en": "In progress - Started September 2025"
+      }
+    },
+    {
+      "name": "Meta Certified Media Planning Professional",
+      "issuer": "Meta",
+      "status": {
+        "pt": "Ativo",
+        "en": "Active"
+      }
+    },
+    {
+      "name": "Meta Certified Digital Marketing Associate",
+      "issuer": "Meta",
+      "status": {
+        "pt": "Ativo",
+        "en": "Active"
+      }
+    },
+    {
+      "name": "Facilitador de Thinking Environment",
+      "issuer": "Munzner",
+      "status": {
+        "pt": "Maio 2020",
+        "en": "May 2020"
+      }
+    },
+    {
+      "name": "Thinking Partnership",
+      "issuer": "Munzner",
+      "status": {
+        "pt": "Novembro 2019",
+        "en": "November 2019"
+      }
+    },
+    {
+      "name": "Fundamentos do Thinking Environment",
+      "issuer": "Munzner",
+      "status": {
+        "pt": "Outubro 2019",
+        "en": "October 2019"
+      }
+    },
+    {
+      "name": "Programa de Mentoria em Project Management",
+      "issuer": "FoundersPM",
+      "status": {
+        "pt": "Em Andamento",
+        "en": "In Progress"
+      }
+    }
+  ],
+  "technical_skills": {
+    "pt": [
+      {
+        "category": "Sales & Ops",
+        "skills": ["Sales Enablement Frameworks", "Go-to-Market (GTM)", "Escuta de Calls e Feedback Estruturado", "Sales Productivity", "Playbooks & Scripts Comerciais", "Gestão de Stakeholders"]
+      },
+      {
+        "category": "Estratégia de Produto & Growth",
+        "skills": ["Design Thinking", "Lean Startup", "Prototipagem de MVPs", "Estruturação de ICP (Ideal Customer Profile)", "Jornada do Usuário (UX/UI)", "SEO", "Inbound Marketing", "Modelos de Monetização/Assinatura"]
+      },
+      {
+        "category": "CRM & Automação",
+        "skills": ["CRMs Proprietários Meta", "Sendpulse", "Bitrix24", "Salesforce", "n8n", "Make", "Botpress", "Integrações via APIs/Webhooks"]
+      },
+      {
+        "category": "Dados, BI & Qualidade",
+        "skills": ["Business Intelligence (Power BI/Tableau)", "Excel Avançado", "Análise de Causa Raiz", "Framework OCIR", "Metodologia de Qualidade Meta", "Mapeamento de Gargalos de Funil", "Manipulação de Bancos de Dados (Supabase)"]
+      },
+      {
+        "category": "Gestão de Projetos & Facilitação",
+        "skills": ["Metodologias Ágeis (Kanban, Scrum)", "Diretrizes de PMO", "Facilitação Avançada (Thinking Environment / Art of Hosting)", "Organização de Bootcamps e Treinamentos de Alta Escala", "Cronogramas de Projeto e Gráficos de Gantt"]
+      },
+      {
+        "category": "IA & Ferramentas",
+        "skills": ["Engenharia de Prompt Profissional", "Implementação de IAs Nativas em Fluxos de Trabalho", "WordPress/Elementor/LMS", "Figma", "Adobe Creative Suite", "Office"]
+      }
+    ],
+    "en": [
+      {
+        "category": "Sales & Ops",
+        "skills": ["Sales Enablement Frameworks", "Go-to-Market (GTM)", "Call Listening & Structured Feedback", "Sales Productivity", "Sales Excellence", "Playbooks & Sales Scripts", "Stakeholder Management"]
+      },
+      {
+        "category": "Product Strategy & Growth",
+        "skills": ["Design Thinking", "Lean Startup", "MVP Prototyping", "ICP (Ideal Customer Profile) Mapping", "User Journey (UX/UI)", "SEO", "Inbound Marketing", "Monetization/Subscription Models"]
+      },
+      {
+        "category": "CRM & Automation",
+        "skills": ["Meta Proprietary CRMs", "Sendpulse", "Bitrix24", "Salesforce", "n8n", "Make", "Botpress", "API/Webhook Integrations"]
+      },
+      {
+        "category": "Data, BI & Quality Assurance",
+        "skills": ["Business Intelligence (Power BI/Tableau)", "Advanced Excel", "Root Cause Analysis", "OCIR Framework", "Meta Quality Methodology", "Funnel Bottleneck Mapping", "Database Manipulation (Supabase)"]
+      },
+      {
+        "category": "Project Management & Facilitation",
+        "skills": ["Agile Methodologies (Kanban, Scrum)", "PMO Guidelines", "Advanced Facilitation (Thinking Environment / Art of Hosting)", "High-Scale Bootcamp & Training Organization", "Project Schedules & Gantt Charts"]
+      },
+      {
+        "category": "AI & Tools",
+        "skills": ["Professional Prompt Engineering", "Native AI Implementation in Workflows", "WordPress/Elementor/LMS", "Figma", "Adobe Creative Suite", "MS Office"]
+      }
+    ]
+  },
+  "languages": {
+    "pt": [
+      {"language": "Inglês", "proficiency": "Avançado / Profissional (Uso diário corporativo para relatórios, coordenação internacional e alinhamento de stakeholders)"},
+      {"language": "Espanhol", "proficiency": "Básico"},
+      {"language": "Português", "proficiency": "Nativo"}
+    ],
+    "en": [
+      {"language": "English", "proficiency": "Advanced / Professional Full Proficiency (Daily corporate use for technical reporting, international team coordination, and stakeholder alignment)"},
+      {"language": "Spanish", "proficiency": "Basic"},
+      {"language": "Portuguese", "proficiency": "Native"}
+    ]
+  },
+  "additional_information": {
+    "pt": [
+      "Interesses e Estilo de Vida: Praticante de Yoga e Mindfulness, com profundo interesse em saúde integrativa, longevidade e desenvolvimento de soluções digitais voltadas para Wellness (HealthTech).",
+      "Formação Humana: Especialista em Filosofia Clínica com foco em inteligência emocional e autoconhecimento aplicado a dinâmicas de facilitação humana corporativa."
+    ],
+    "en": [
+      "Interests & Lifestyle: Dedicated practitioner of Yoga and Mindfulness, with a deep interest in integrative health, longevity, and building digital solutions for Wellness & HealthTech.",
+      "Human Facilitation: Specialization in Clinical Philosophy with a focus on emotional intelligence and self-awareness applied to corporate facilitation and leadership."
+    ]
+  }
+}

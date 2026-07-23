@@ -1,0 +1,152 @@
+{
+  "name": "Kevin Augusto Vieira",
+  "location": "Curitiba, PR, Brazil",
+  "phone": "+55 (41) 99694-1615",
+  "email": "kevin.aug.vieira@gmail.com",
+  "linkedin": "https://www.linkedin.com/in/kevin-augusto/",
+  "github": "",
+  "website": "",
+  "summary": "Staff Product Manager with over 8 years of experience building 0-to-1 digital products, CRM automations, and AI-first workflows. Experienced in partnering with engineering leads to architect databases (Supabase, MySQL) and orchestrators (n8n). Academic background in Philosophy directly supports ethical AI system deployment, mitigating gender/race biases and guarding data confidentiality. Comfortable under strict regulatory guidelines (LGPD/GDPR), WhatsApp API rules, and Meta quality standards, combining compliance with Power BI analytics and continuous discovery.",
+  "experience": [
+    {
+      "company": "Wipro Brasil",
+      "role": "Marketing Coordinator / Product Enablement Expert (Meta)",
+      "dates": "September 2024 – July 2026",
+      "location": "Curitiba, Brazil",
+      "bullets": [
+        "AI Implementation & CRM Integration: Led the deployment of Meta's native CRM AI tool for 150+ consultants, creating structured prompt libraries in Claude under strict data compliance.",
+        "Performance & CRO Analytics: Partnered with MIS to leverage Power BI dashboards, translating complex operational data into strategic GTM adjustments.",
+        "Security & Compliance Governance (Wipro/Meta): Contributed to the BCP (Business Continuity Plan) design and drafted data governance manuals under strict sharing restrictions. Trained extensively in policy compliance and info security (phishing, social engineering, tailgating)."
+      ]
+    },
+    {
+      "company": "Meu Barzin (Startup)",
+      "role": "Co-Founder & Product Manager",
+      "dates": "December 2025 – March 2026",
+      "location": "Curitiba, Brazil",
+      "bullets": [
+        "0-to-1 MVP Launch: Conceptualized and launched the 'Meu Barzin Pass' MVP (recurring subscription ecosystem integrated directly with WhatsApp Business API), validating monetization and B2B partner commercial feasibility.",
+        "Conversational Product Architecture: Architected product flows and UX logic via ManyChat, n8n, and Supabase databases over a VPS, setting 'Zero Hallucination' prompts to eliminate AI errors during venue lookups.",
+        "Metrics & LGPD Compliance: Acquired 505 leads with 22.3% deep funnel engagement. Mapped funnel drop-offs (43.9% first-message drop due to API latency) and designed opt-in flows in strict compliance with LGPD (data protection laws) and WhatsApp Business Platform policies."
+      ]
+    },
+    {
+      "company": "AK Branding & Web Design",
+      "role": "Founder & Product Design Consultant",
+      "dates": "March 2019 – September 2024",
+      "location": "Curitiba, PR",
+      "bullets": [
+        "UX/UI & Web Development (LGPD Compliance): Led end-to-end UX/UI Design and Web Development (WordPress, Elementor) for high-converting portals. Built technical compliance models, writing privacy policies, terms of use, and cookie consent systems.",
+        "CRO & A/B Testing: Designed and executed structured A/B tests on landing page headers (hero copy) and CTA buttons, leveraging organic SEO roadmaps to optimize visitor-to-lead conversion rates."
+      ]
+    },
+    {
+      "company": "Munzner",
+      "role": "Marketing & Growth Specialist",
+      "dates": "October 2018 – August 2024",
+      "location": "Curitiba, PR",
+      "bullets": [
+        "CRM & Workflow Automation: Integrated Bitrix24 and Sendpulse CRMs via API webhooks to automate lead nurturing and follow-up flows, optimizing pipeline velocity and tracking revenue metadata.",
+        "Strategic Communication: Crafted persuasive marketing copy and brand positioning narratives utilizing the global Thinking Environment human facilitation framework."
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "category": "Product Management & GTM",
+      "skills": [
+        "0-to-1 Product Validation",
+        "Roadmap & Backlog Ownership",
+        "Go-To-Market (GTM) Strategy",
+        "User Stories & Tech Specs",
+        "Qualitative Product Discovery",
+        "OKRs & Success Metrics"
+      ]
+    },
+    {
+      "category": "AI-First Technology & CRM",
+      "skills": [
+        "Conversational AI / RAG",
+        "n8n / Workflow Automation",
+        "Supabase / MySQL Database",
+        "ManyChat / WhatsApp Business API",
+        "HubSpot / Salesforce / Bitrix24",
+        "APIs / Webhooks over VPS"
+      ]
+    },
+    {
+      "category": "UX/UI, CRO & Data",
+      "skills": [
+        "Figma Prototyping",
+        "A/B Testing & CRO",
+        "Organic SEO Strategy",
+        "Power BI / Tableau",
+        "Advanced Excel / MIS",
+        "Root Cause Analysis"
+      ]
+    },
+    {
+      "category": "Compliance & Methods",
+      "skills": [
+        "LGPD / GDPR Data Compliance",
+        "PMO Guidelines & Governance",
+        "Agile Methodologies (Scrum/Kanban)",
+        "Meta Quality & Policy Compliance",
+        "Thinking Environment"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Universidade Federal do Paraná (UFPR)",
+      "degree": "Bachelor's Degree and Licentiate in Philosophy",
+      "dates": "2018 – 2023"
+    },
+    {
+      "institution": "Recanto da Filosofia Clínica",
+      "degree": "Specialization in Clinical Philosophy",
+      "dates": "January 2023 – December 2024"
+    },
+    {
+      "institution": "Universidade Federal do Paraná / UTFPR",
+      "degree": "STEM Track - Electrical and Electronics Engineering (Incomplete)",
+      "dates": "2012 – 2015"
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Google Project Management Professional Certificate",
+      "issuer": "Coursera / Google",
+      "status": "In progress - Started September 2025"
+    },
+    {
+      "name": "Meta Certified Media Planning Professional",
+      "issuer": "Meta",
+      "status": "Active"
+    },
+    {
+      "name": "Meta Certified Digital Marketing Associate",
+      "issuer": "Meta",
+      "status": "Active"
+    },
+    {
+      "name": "Thinking Environment Facilitator",
+      "issuer": "Munzner",
+      "status": "May 2020"
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "proficiency": "Advanced / Professional Full Proficiency (Daily corporate use for technical reporting, international team coordination, and stakeholder alignment)"
+    },
+    {
+      "language": "Portuguese",
+      "proficiency": "Native"
+    }
+  ],
+  "additional_information": [
+    "Dedicated practitioner of Yoga and Mindfulness, with a strong career interest in integrative health, corporate longevity, and building digital solutions for Wellness (HealthTech).",
+    "Specialist in Clinical Philosophy with a focus on emotional intelligence and self-awareness applied to corporate human facilitation and leadership dynamics."
+  ]
+}

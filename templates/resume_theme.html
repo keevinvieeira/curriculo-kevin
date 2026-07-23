@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline'; font-src 'self'; img-src 'self' data:; script-src 'self';">
+    <title>Curriculum Vitae - {{ name }}</title>
+    <style>
+        @page {
+            size: a4;
+            margin: 0.7cm 0.7cm 0.7cm 0.7cm;
+        }
+        html, body {
+            background-color: #ffffff !important;
+            color: #2d3748 !important;
+            font-family: 'Helvetica', 'Arial', sans-serif;
+            line-height: 1.3;
+            font-size: 8pt;
+            margin: 0;
+            padding: 0;
+        }
+        a {
+            color: #2b6cb0 !important;
+            text-decoration: none;
+        }
+        /* Header */
+        .header {
+            border-bottom: 2px solid #1a365d;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+        }
+        .name {
+            font-size: 17pt;
+            font-weight: bold;
+            color: #1a365d !important;
+            margin-bottom: 3px;
+            letter-spacing: -0.5px;
+        }
+        .contact-info {
+            font-size: 8pt;
+            color: #4a5568 !important;
+            margin-top: 3px;
+        }
+        /* Layout Table */
+        .layout-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 2px;
+        }
+        .main-column {
+            width: 68%;
+            vertical-align: top;
+            padding-right: 12px;
+        }
+        .sidebar-column {
+            width: 32%;
+            vertical-align: top;
+            padding-left: 12px;
+            border-left: 1px solid #e2e8f0;
+        }
+        /* Sections */
+        .section {
+            margin-bottom: 10px;
+        }
+        .section-title {
+            font-size: 9pt;
+            font-weight: bold;
+            text-transform: uppercase;
+            color: #1a365d !important;
+            border-bottom: 1px solid #e2e8f0;
+            padding-bottom: 2px;
+            margin-bottom: 6px;
+            letter-spacing: 0.5px;
+        }
+        .summary-text {
+            font-size: 7.8pt;
+            text-align: justify;
+            margin-bottom: 8px;
+            line-height: 1.35;
+        }
+        /* Experience */
+        .experience-item {
+            margin-bottom: 8px;
+        }
+        .experience-dates {
+            font-size: 7.5pt;
+            color: #718096 !important;
+            text-align: right;
+        }
+        .role-title {
+            font-size: 8.5pt;
+            font-weight: bold;
+            color: #1a365d !important;
+        }
+        .company-name {
+            font-size: 8pt;
+            font-weight: bold;
+            color: #2b6cb0 !important;
+        }
+        .experience-location {
+            font-size: 7.5pt;
+            color: #718096 !important;
+            margin-bottom: 2px;
+        }
+        .bullet-list {
+            margin-top: 2px;
+            margin-bottom: 2px;
+            padding-left: 10px;
+        }
+        .bullet-item {
+            font-size: 7.6pt;
+            margin-bottom: 2px;
+            text-align: justify;
+            line-height: 1.3;
+        }
+        /* Sidebar items */
+        .skills-category {
+            margin-bottom: 6px;
+        }
+        .skills-category-title {
+            font-size: 7.5pt;
+            font-weight: bold;
+            text-transform: uppercase;
+            color: #2b6cb0 !important;
+            margin-bottom: 1px;
+        }
+        .skills-list {
+            font-size: 7.2pt;
+            color: #2d3748 !important;
+            line-height: 1.25;
+        }
+        .education-item, .cert-item {
+            margin-bottom: 6px;
+        }
+        .education-title, .cert-title {
+            font-size: 7.5pt;
+            font-weight: bold;
+            color: #1a365d !important;
+        }
+        .education-inst, .cert-issuer {
+            font-size: 7.2pt;
+            color: #2d3748 !important;
+        }
+        .education-dates, .cert-status {
+            font-size: 7pt;
+            color: #718096 !important;
+        }
+        .language-item {
+            margin-bottom: 4px;
+            font-size: 7.5pt;
+        }
+        .language-name {
+            font-weight: bold;
+            color: #2d3748 !important;
+        }
+        .language-proficiency {
+            color: #718096 !important;
+            font-size: 7pt;
+        }
+        .info-text {
+            font-size: 7.2pt;
+            text-align: justify;
+            color: #2d3748 !important;
+            line-height: 1.3;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="name">{{ name }}</div>
+        <div class="contact-info">
+            {% if location %}{{ location }}{% endif %}
+            {% if phone %} &nbsp;|&nbsp; {{ phone }}{% endif %}
+            {% if email %} &nbsp;|&nbsp; {{ email }}{% endif %}
+            {% if linkedin %} &nbsp;|&nbsp; <a href="{{ linkedin }}">LinkedIn</a>{% endif %}
+        </div>
+    </div>
+
+    <table class="layout-table">
+        <tr>
+            <!-- Left Main Column -->
+            <td class="main-column">
+                {% if summary %}
+                <div class="section">
+                    <div class="section-title">{{ titles.summary }}</div>
+                    <div class="summary-text">{{ summary }}</div>
+                </div>
+                {% endif %}
+
+                {% if experience %}
+                <div class="section">
+                    <div class="section-title">{{ titles.experience }}</div>
+                    {% for exp in experience %}
+                    <div class="experience-item">
+                        <table style="width: 100%; border-collapse: collapse; margin-bottom: 1px;">
+                            <tr>
+                                <td style="text-align: left; vertical-align: top;">
+                                    <span class="role-title">{{ exp.role }}</span>
+                                    <span class="company-name">| {{ exp.company }}</span>
+                                </td>
+                                <td style="text-align: right; vertical-align: top; width: 110px;" class="experience-dates">
+                                    {{ exp.dates }}
+                                </td>
+                            </tr>
+                        </table>
+                        {% if exp.location %}
+                        <div class="experience-location">{{ exp.location }}</div>
+                        {% endif %}
+                        <ul class="bullet-list">
+                            {% for bullet in exp.bullets %}
+                            <li class="bullet-item">{{ bullet }}</li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                    {% endfor %}
+                </div>
+                {% endif %}
+            </td>
+
+            <!-- Right Sidebar Column -->
+            <td class="sidebar-column">
+                {% if skills %}
+                <div class="section">
+                    <div class="section-title">{{ titles.skills }}</div>
+                    {% for cat in skills %}
+                    <div class="skills-category">
+                        <div class="skills-category-title">{{ cat.category }}</div>
+                        <div class="skills-list">
+                            {% if cat.skills is string %}
+                                {{ cat.skills }}
+                            {% else %}
+                                {{ cat.skills | join(', ') }}
+                            {% endif %}
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+                {% endif %}
+
+                {% if education %}
+                <div class="section">
+                    <div class="section-title">{{ titles.education }}</div>
+                    {% for edu in education %}
+                    <div class="education-item">
+                        <div class="education-title">{{ edu.degree }}</div>
+                        <div class="education-inst">{{ edu.institution }}</div>
+                        <div class="education-dates">{{ edu.dates }}</div>
+                    </div>
+                    {% endfor %}
+                </div>
+                {% endif %}
+
+                {% if certifications %}
+                <div class="section">
+                    <div class="section-title">{{ titles.certifications }}</div>
+                    {% for cert in certifications %}
+                    <div class="cert-item">
+                        <div class="cert-title">{{ cert.name }}</div>
+                        <div class="cert-issuer">{{ cert.issuer }}</div>
+                        <div class="cert-status">{{ cert.status }}</div>
+                    </div>
+                    {% endfor %}
+                </div>
+                {% endif %}
+
+                {% if languages %}
+                <div class="section">
+                    <div class="section-title">{{ titles.languages }}</div>
+                    {% for lang in languages %}
+                    <div class="language-item">
+                        <span class="language-name">{{ lang.language }}</span> - 
+                        <span class="language-proficiency">{{ lang.proficiency }}</span>
+                    </div>
+                    {% endfor %}
+                </div>
+                {% endif %}
+
+                {% if additional_information %}
+                <div class="section">
+                    <div class="section-title">{{ titles.additional_info }}</div>
+                    {% for info in additional_information %}
+                    <div class="info-text">{{ info }}</div>
+                    {% endfor %}
+                </div>
+                {% endif %}
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

@@ -1,0 +1,28 @@
+{
+  "summary": {
+    "scanned_files": 16,
+    "secrets_found": 0,
+    "vulns_found": 0,
+    "config_issues": 2
+  },
+  "findings": [
+    {
+      "category": "Security Headers",
+      "title": "Missing Content-Security-Policy (CSP) meta tag in HTML",
+      "severity": "MEDIUM",
+      "file": "curriculo_bradford_jacobs_ai_sales_enablement_specialist.html",
+      "line": null,
+      "snippet": null,
+      "recommendation": "Add a strict CSP meta tag in <head> to prevent unauthorized script execution and XSS attacks."
+    },
+    {
+      "category": "Security Headers",
+      "title": "Missing Content-Security-Policy (CSP) meta tag in HTML",
+      "severity": "MEDIUM",
+      "file": "templates\\resume_theme.html",
+      "line": null,
+      "snippet": null,
+      "recommendation": "Add a strict CSP meta tag in <head> to prevent unauthorized script execution and XSS attacks."
+    }
+  ]
+}

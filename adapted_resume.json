@@ -1,0 +1,155 @@
+{
+  "name": "Kevin Augusto Vieira",
+  "location": "Curitiba, PR, Brazil",
+  "phone": "+55 (41) 99694-1615",
+  "email": "kevin.aug.vieira@gmail.com",
+  "linkedin": "https://www.linkedin.com/in/kevin-augusto/",
+  "github": "",
+  "website": "",
+  "summary": "Senior Professional specializing in Sales Enablement, Product Strategy, and Learning Operations with over 8 years of experience driving adoption for enterprise solutions and global tech platforms (Meta). Proven track record governing high-scale training programs (Next Level Bootcamp) under strict PMO guidelines, managing cross-functional global stakeholders, and coordinating virtual/instructor-led certification paths. Expert in leveraging AI automation (n8n, Supabase, native AI workflows) and Business Intelligence (Power BI) to streamline operations, track learning analytics, and optimize program budgets. Combines highly organized project management with advanced facilitation techniques (Thinking Environment) to deliver measurable business impact.",
+  "experience": [
+    {
+      "company": "Wipro Brasil",
+      "role": "AI Sales Enablement Specialist (Meta Project)",
+      "dates": "September 2024 – July 2026",
+      "location": "Curitiba, Brazil",
+      "bullets": [
+        "Project Governance & Enablement: Coordinated and governed the end-to-end execution of the Next Level Bootcamp program under strict PMO guidelines, managing master schedules, defining milestone success criteria, and driving operational resource planning.",
+        "Training & Certification Operations: Acted as the operation's technical reference for Meta ad strategies, absorbing official client materials and strategically replicating product innovations and Go-to-Market (GTM) strategies for 150+ Meta Marketing Pros.",
+        "Cross-Functional Collaboration: Acted as the strategic bridge between global product lines, quality assurance, and outsourced consultant teams to maintain clear project documentation, manage timelines, and align deliverables with core business objectives.",
+        "Performance Reporting: Partnered with the MIS data team to leverage Power BI and Excel dashboards, translating complex operational data into actionable progress reports and performance reviews for senior leadership.",
+        "Provide technical training to the team on Meta internal tools, driving onboarding and replicating training programs on proprietary CRMs and practical native AI implementations."
+      ]
+    },
+    {
+      "company": "Meu Barzin (Startup)",
+      "role": "Co-Founder & Product & Go-To-Market (GTM) Lead",
+      "dates": "December 2025 – March 2026",
+      "location": "Curitiba, Brazil",
+      "bullets": [
+        "Scope Definition & Lifecycle Ownership: Took absolute ownership of a new conversational software launch from initial requirements gathering through deployment, establishing timelines and budget parameters within a high-agency environment.",
+        "Workflow Implementation: Built and orchestrated core backend automation systems using n8n, Supabase databases, and API structures over a VPS, optimizing digital communication funnels for scalability.",
+        "Led the AI data strategy, structuring automated scraping routines across blogs, Google Maps, and web sources to collect, centralize, and organize business data that was previously fragmented across the web.",
+        "Drove business development and B2B partnerships, leading the prospecting of partner venues, pitching the value proposition (AI-driven visibility), and closing the initial commercial contracts."
+      ]
+    },
+    {
+      "company": "AK Branding & Web Design",
+      "role": "Founder & Marketing Project Consultant",
+      "dates": "March 2019 – September 2024",
+      "location": "Curitiba, PR",
+      "bullets": [
+        "Budget & Timeline Controls: Controlled project scopes and financial budgets for multiple concurrent accounts, coordinating internal workflows and managing specialized resource execution to prevent project roadblocks.",
+        "Agency Account Leadership: Managed a specialized boutique agency focused on SMBs, leading the complete client onboarding transition and directing web development, brand identity, and positioning projects from conception to final delivery.",
+        "Digital Campaign Optimization: Engineered high-converting web assets, e-commerce landing pages, and search optimization (SEO) roadmaps, applying UX writing principles to align customer journeys with client growth objectives."
+      ]
+    },
+    {
+      "company": "Munzner",
+      "role": "Marketing Automation & Campaign Specialist",
+      "dates": "October 2018 – August 2024",
+      "location": "Curitiba, PR",
+      "bullets": [
+        "Funnel Coordination & CRM Integration: Automated communication pipelines and lead generation workflows between Bitrix24 and Sendpulse CRMs via webhooks, enhancing internal project tracking and execution efficiency.",
+        "Specialized in the global Thinking Environment methodology to build high-impact technical narratives, applying active listening and facilitation concepts to create strategic content for social media, brand positioning, and paid media.",
+        "Optimized commercial workflows and CRM automations via API/Webhooks, structuring intelligent lead nurturing flows to maximize sales conversion and reduce friction along the customer journey."
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "category": "Project & Stakeholder Management",
+      "skills": [
+        "PMO Guidelines",
+        "Agile Methodologies (Kanban, Scrum)",
+        "Project Schedules",
+        "Gantt Charts",
+        "Vendor Administration",
+        "Budget Controls"
+      ]
+    },
+    {
+      "category": "Sales Enablement & Learning",
+      "skills": [
+        "Program Coordination",
+        "Call Listening & Structured Feedback",
+        "Sales Excellence",
+        "Facilitação (Thinking Environment / Art of Hosting)",
+        "Stakeholder Management"
+      ]
+    },
+    {
+      "category": "Automation & AI",
+      "skills": [
+        "n8n",
+        "Make",
+        "Botpress",
+        "Native AI Workflows",
+        "API/Webhook Integrations"
+      ]
+    },
+    {
+      "category": "Data & Tools",
+      "skills": [
+        "Business Intelligence (Power BI/Tableau)",
+        "Advanced Excel",
+        "Supabase (Database)",
+        "Prompt Engineering",
+        "Figma",
+        "MS Office"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Universidade Federal do Paraná (UFPR)",
+      "degree": "Bachelor's Degree and Licentiate in Philosophy",
+      "dates": "2018 – 2023"
+    },
+    {
+      "institution": "Recanto da Filosofia Clínica",
+      "degree": "Specialization in Clinical Philosophy",
+      "dates": "January 2023 – December 2024"
+    },
+    {
+      "institution": "Universidade Federal do Paraná / UTFPR",
+      "degree": "STEM Track - Electrical and Electronics Engineering (Incomplete)",
+      "dates": "2012 – 2015"
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Google Project Management Professional Certificate",
+      "issuer": "Coursera / Google",
+      "status": "In progress - Started September 2025"
+    },
+    {
+      "name": "Meta Certified Media Planning Professional",
+      "issuer": "Meta",
+      "status": "Active"
+    },
+    {
+      "name": "Meta Certified Digital Marketing Associate",
+      "issuer": "Meta",
+      "status": "Active"
+    },
+    {
+      "name": "Thinking Environment Facilitator",
+      "issuer": "Munzner",
+      "status": "May 2020"
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "proficiency": "Advanced / Professional Full Proficiency (Daily corporate use for technical reporting, international team coordination, and stakeholder alignment)"
+    },
+    {
+      "language": "Portuguese",
+      "proficiency": "Native"
+    }
+  ],
+  "additional_information": [
+    "Industry Context: Practical familiarity and tracking of the routine, operational challenges, and consumption habits of services and supplies in private dental clinics, providing a useful complementary perspective for understanding this market channel."
+  ]
+}

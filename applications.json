@@ -1,0 +1,142 @@
+[
+  {
+    "id": "1",
+    "company": "Bradford Jacobs",
+    "role": "AI Sales Enablement Specialist",
+    "date_applied": "2026-07-21",
+    "status": "Candidatado",
+    "notes": "Vaga em inglês. Enviei o currículo adaptado de 1 página e a carta de apresentação gerada.",
+    "url": "https://www.linkedin.com/jobs/view/4435987908/",
+    "current_stage": "Candidatura",
+    "fit_score": 90,
+    "salary_expectation": "$3,500 - $5,000 USD/mês",
+    "good_points": [
+      "Experiência direta governando programas de capacitação e bootcamps de vendas em larga escala no Projeto Meta na Wipro.",
+      "Excelente ponte estratégica entre linhas de produtos globais e times operacionais/consultores.",
+      "Domínio em automação com IA (n8n, APIs) e criação de relatórios analíticos em Power BI para medir adoção."
+    ],
+    "improvement_points": [
+      "Aprofundar conhecimento em fornecedores específicos de ferramentas de IA corporativas.",
+      "Revisar frameworks formais de controle orçamentário de grandes projetos de treinamento."
+    ],
+    "stages": [
+      {"name": "Candidatura", "status": "Concluído", "date": "2026-07-21"},
+      {"name": "Triagem (Screening)", "status": "Pendente", "date": ""},
+      {"name": "Entrevista de RH", "status": "Pendente", "date": ""},
+      {"name": "Entrevista Técnica", "status": "Pendente", "date": ""},
+      {"name": "Proposta (Offer)", "status": "Pendente", "date": ""}
+    ]
+  },
+  {
+    "id": "2",
+    "company": "Bling (LWSA)",
+    "role": "Especialista de Product Marketing (Jornadas)",
+    "date_applied": "2026-07-21",
+    "status": "Candidatado",
+    "notes": "Vaga em português via Inhire. Submeti o currículo focado em jornadas de adoção e automações com n8n.",
+    "url": "https://lwsa.inhire.app/bling/vagas/a2d6a2f2-8fdf-4477-98c4-ab15516b7264/bling-or-especialista-de-product-marketing-or-jornadas-or-remoto?source=linkedin",
+    "current_stage": "Candidatura",
+    "fit_score": 88,
+    "salary_expectation": "R$ 12.000 - R$ 16.000 /mês",
+    "good_points": [
+      "Bagagem sólida em mapeamento de jornada de cliente B2B e onboarding de parceiros comerciais (Meu Barzin, AK Branding).",
+      "Alta familiaridade com automação de CRM (Bitrix24, Sendpulse) e webhooks para régua de relacionamento.",
+      "Experiência escrevendo histórias de usuário (user stories) e priorização de backlog em times ágeis."
+    ],
+    "improvement_points": [
+      "Familiarizar-se com ferramentas de product analytics complexas (Amplitude, Mixpanel).",
+      "Estudar especificidades de faturamento e regras fiscais/faturamento de ERPs (foco comum no Bling)."
+    ],
+    "stages": [
+      {"name": "Candidatura", "status": "Concluído", "date": "2026-07-21"},
+      {"name": "Triagem (Screening)", "status": "Pendente", "date": ""},
+      {"name": "Entrevista de RH", "status": "Pendente", "date": ""},
+      {"name": "Entrevista Técnica", "status": "Pendente", "date": ""},
+      {"name": "Proposta (Offer)", "status": "Pendente", "date": ""}
+    ]
+  },
+  {
+    "id": "3",
+    "company": "Jobgether",
+    "role": "B2B GTM and Growth Marketer (AI-First)",
+    "date_applied": "2026-07-21",
+    "status": "Candidatado",
+    "notes": "Vaga 100% remota com forte foco em GTM B2B, Growth Marketing, campanhas outbound, ICP e criação de fluxos de trabalho inteligentes e automações com IA.",
+    "url": "https://www.linkedin.com/jobs/view/4439841688/",
+    "current_stage": "Candidatura",
+    "fit_score": 92,
+    "salary_expectation": "$4,000 - $6,000 USD/mês",
+    "good_points": [
+      "Experiência real implantando IA de vendas (Meta AI) em CRMs, criando bibliotecas de prompts e conduzindo workshops.",
+      "Vivência de startup definindo ICP, estratégias outbound de dados e parcerias comerciais B2B (Meu Barzin).",
+      "Vocabulário técnico em engenharia (background STEM) facilitando parceria direta com GTM Engineers."
+    ],
+    "improvement_points": [
+      "A vaga cita HubSpot e Salesforce; escovar os conhecimentos práticos de automações nessas duas ferramentas específicas.",
+      "Estudar estruturas de Account-Based Marketing (ABM) conectadas a fontes de dados de pipeline."
+    ],
+    "stages": [
+      {"name": "Candidatura", "status": "Concluído", "date": "2026-07-21"},
+      {"name": "Triagem (Screening)", "status": "Pendente", "date": ""},
+      {"name": "Entrevista de RH", "status": "Pendente", "date": ""},
+      {"name": "Entrevista Técnica", "status": "Pendente", "date": ""},
+      {"name": "Proposta (Offer)", "status": "Pendente", "date": ""}
+    ]
+  },
+  {
+    "id": "4",
+    "company": "Metrobi",
+    "role": "Senior Marketing Specialist",
+    "date_applied": "2026-07-21",
+    "status": "Candidatado",
+    "notes": "Vaga em inglês. Remoto no fuso EST. Foco em geração de leads inbound orgânicos, Elementor/Wordpress e testes A/B.",
+    "url": "https://www.linkedin.com/jobs/view/metrobi-senior-marketing-specialist/",
+    "current_stage": "Candidatura",
+    "fit_score": 87,
+    "salary_expectation": "$3,500 - $5,000 USD/mês",
+    "good_points": [
+      "Excelente domínio prático construindo landing pages com Elementor e WordPress (AK Branding).",
+      "Habilidade sólida desenhando testes A/B estruturados para otimizar conversões orgânicas (CRO).",
+      "Bagagem em copywriting persuasivo e gestão de e-mail marketing (Munzner, CRM)."
+    ],
+    "improvement_points": [
+      "Revisar conceitos e métricas de crescimento B2B SaaS (LTV, CAC, MRR) aplicados a marketplaces de tecnologia.",
+      "Certificar-se da compatibilidade total com a rotina de trabalho em fuso horário EST (9h às 17h)."
+    ],
+    "stages": [
+      {"name": "Candidatura", "status": "Concluído", "date": "2026-07-21"},
+      {"name": "Triagem (Screening)", "status": "Pendente", "date": ""},
+      {"name": "Entrevista de RH", "status": "Pendente", "date": ""},
+      {"name": "Entrevista Técnica", "status": "Pendente", "date": ""},
+      {"name": "Proposta (Offer)", "status": "Pendente", "date": ""}
+    ]
+  },
+  {
+    "id": "5",
+    "company": "Wellhub (formerly Gympass)",
+    "role": "Staff Product Manager - Occupational Health (New Ventures)",
+    "date_applied": "2026-07-22",
+    "status": "Candidatado",
+    "notes": "Vaga Staff PM 0-to-1 com foco em Saúde Ocupacional na vertical de New Ventures. Requer bagagem de conformidade de dados e postura AI-native.",
+    "url": "https://job-boards.greenhouse.io/gympass/jobs/8638136002?gh_src=709aee8b2us",
+    "current_stage": "Candidatura",
+    "fit_score": 91,
+    "salary_expectation": "R$ 22.000 - R$ 28.000 /mês",
+    "good_points": [
+      "Validação prática de MVP de 0 a 1 (Meu Barzin Pass) desenhando arquitetura RAG e prompts sem alucinação.",
+      "Vivência sob frameworks de conformidade estritos (LGPD de mensageria, termos do WhatsApp API e metodologias OCIR da Meta).",
+      "Excelente ponte técnica com engenharia auxiliado por raciocínio STEM (engenharia elétrica)."
+    ],
+    "improvement_points": [
+      "Estudar os marcos regulatórios de SST no Brasil (NR-01, eSocial e o novo mandato de riscos psicossociais).",
+      "Mapear a dinâmica de distribuição de clínicas credenciadas e corretores de benefícios em saúde."
+    ],
+    "stages": [
+      {"name": "Candidatura", "status": "Concluído", "date": "2026-07-22"},
+      {"name": "Triagem (Screening)", "status": "Pendente", "date": ""},
+      {"name": "Entrevista de RH", "status": "Pendente", "date": ""},
+      {"name": "Entrevista Técnica", "status": "Pendente", "date": ""},
+      {"name": "Proposta (Offer)", "status": "Pendente", "date": ""}
+    ]
+  }
+]

@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; script-src 'self';">
+    <title>Curriculum Vitae - Kevin Augusto Vieira</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #1a365d; /* Deep Slate Blue */
+            --secondary-color: #2b6cb0; /* Accent Blue */
+            --text-dark: #2d3748; /* Slate Grey for text */
+            --text-light: #718096; /* Muted grey */
+            --border-color: #e2e8f0;
+            --background-light: #f7fafc;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, sans-serif;
+            color: var(--text-dark);
+            line-height: 1.5;
+            background-color: #fff;
+            padding: 40px;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        /* Header section */
+        header {
+            border-bottom: 2px solid var(--primary-color);
+            padding-bottom: 20px;
+            margin-bottom: 25px;
+        }
+
+        .header-main {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        h1 {
+            font-size: 2.25rem;
+            font-weight: 700;
+            color: var(--primary-color);
+            letter-spacing: -0.5px;
+            line-height: 1.1;
+        }
+
+        .contact-info {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-top: 12px;
+            font-size: 0.875rem;
+            color: var(--text-light);
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .contact-item a {
+            color: var(--text-light);
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        .contact-item a:hover {
+            color: var(--secondary-color);
+            text-decoration: underline;
+        }
+
+        /* Layout */
+        .container {
+            display: grid;
+            grid-template-columns: 2.2fr 1fr;
+            gap: 30px;
+        }
+
+        .main-column {
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+        }
+
+        .sidebar {
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+            padding-left: 15px;
+            border-left: 1px solid var(--border-color);
+        }
+
+        /* Section styles */
+        section {
+            page-break-inside: avoid;
+        }
+
+        .section-title {
+            font-size: 1.1rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--primary-color);
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 5px;
+        }
+
+        /* Profile Summary */
+        .summary-text {
+            font-size: 0.925rem;
+            text-align: justify;
+            color: var(--text-dark);
+            line-height: 1.6;
+        }
+
+        /* Experience */
+        .experience-item {
+            margin-bottom: 20px;
+            page-break-inside: avoid;
+        }
+
+        .experience-item:last-child {
+            margin-bottom: 0;
+        }
+
+        .experience-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 6px;
+            flex-wrap: wrap;
+        }
+
+        .role-title {
+            font-size: 1rem;
+            font-weight: 600;
+            color: var(--primary-color);
+        }
+
+        .company-name {
+            font-size: 0.9rem;
+            font-weight: 500;
+            color: var(--secondary-color);
+        }
+
+        .experience-dates {
+            font-size: 0.825rem;
+            color: var(--text-light);
+            font-weight: 500;
+        }
+
+        .experience-location {
+            font-size: 0.825rem;
+            color: var(--text-light);
+            margin-top: -2px;
+            margin-bottom: 6px;
+        }
+
+        .experience-bullets {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        .experience-bullets li {
+            font-size: 0.875rem;
+            position: relative;
+            padding-left: 15px;
+            margin-bottom: 5px;
+            text-align: justify;
+            color: var(--text-dark);
+        }
+
+        .experience-bullets li::before {
+            content: "•";
+            position: absolute;
+            left: 0;
+            color: var(--secondary-color);
+            font-weight: bold;
+        }
+
+        /* Skills */
+        .skills-category {
+            margin-bottom: 12px;
+        }
+
+        .skills-category-title {
+            font-size: 0.825rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            color: var(--secondary-color);
+            margin-bottom: 4px;
+        }
+
+        .skills-list {
+            font-size: 0.85rem;
+            color: var(--text-dark);
+            line-height: 1.4;
+        }
+
+        /* Education & Certs */
+        .education-item, .cert-item {
+            margin-bottom: 12px;
+            page-break-inside: avoid;
+        }
+
+        .education-title, .cert-title {
+            font-size: 0.875rem;
+            font-weight: 600;
+            color: var(--primary-color);
+        }
+
+        .education-institution, .cert-issuer {
+            font-size: 0.825rem;
+            font-weight: 500;
+            color: var(--text-dark);
+        }
+
+        .education-dates, .cert-status {
+            font-size: 0.8rem;
+            color: var(--text-light);
+        }
+
+        /* Languages */
+        .language-item {
+            margin-bottom: 8px;
+            font-size: 0.85rem;
+        }
+
+        .language-name {
+            font-weight: 600;
+            color: var(--text-dark);
+        }
+
+        .language-proficiency {
+            color: var(--text-light);
+            font-size: 0.8rem;
+            display: block;
+        }
+
+        /* Additional Information */
+        .info-text {
+            font-size: 0.825rem;
+            color: var(--text-dark);
+            line-height: 1.5;
+            text-align: justify;
+        }
+
+        /* Print styles */
+        @media print {
+            body {
+                padding: 0;
+                margin: 0;
+                font-size: 11pt;
+            }
+
+            .container {
+                display: grid;
+                grid-template-columns: 2.2fr 1fr;
+                gap: 25px;
+            }
+
+            .sidebar {
+                padding-left: 12px;
+            }
+
+            /* Adjust spacing to avoid spilling to unnecessary pages */
+            h1 {
+                font-size: 20pt;
+            }
+
+            .section-title {
+                font-size: 10pt;
+                margin-bottom: 8px;
+            }
+
+            .role-title {
+                font-size: 9.5pt;
+            }
+
+            .experience-bullets li {
+                font-size: 8.5pt;
+            }
+
+            .summary-text {
+                font-size: 9pt;
+            }
+
+            .skills-list, .education-item, .cert-item, .language-item, .info-text {
+                font-size: 8pt;
+            }
+
+            a {
+                text-decoration: none;
+                color: var(--text-dark) !important;
+            }
+
+            /* Prevent printing headers and footers from browser */
+            @page {
+                margin: 1.2cm 1cm 1.2cm 1cm;
+            }
+        }
+        
+        /* Responsive fallback for mobile screen preview */
+        @media (max-width: 768px) {
+            body {
+                padding: 20px;
+            }
+            .container {
+                grid-template-columns: 1fr;
+            }
+            .sidebar {
+                border-left: none;
+                border-top: 1px solid var(--border-color);
+                padding-left: 0;
+                padding-top: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-main">
+            <h1>Kevin Augusto Vieira</h1>
+        </div>
+        <div class="contact-info">
+            <div class="contact-item"><span>📍</span> Curitiba, PR, Brazil</div>
+            <div class="contact-item"><span>📞</span> +55 (41) 99694-1615</div>
+            <div class="contact-item"><span>✉️</span> <a href="mailto:kevin.aug.vieira@gmail.com">kevin.aug.vieira@gmail.com</a></div>
+            <div class="contact-item"><span>🔗</span> <a href="https://www.linkedin.com/in/kevin-augusto/" target="_blank">LinkedIn</a></div>
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- Main Column: Summary and Work Experience -->
+        <main class="main-column">
+            
+            <section id="summary">
+                <h2 class="section-title">Resumo Profissional</h2>
+                <div class="summary-text">Senior Professional specializing in Sales Enablement, Product Strategy, and Learning Operations with over 8 years of experience driving adoption for enterprise solutions and global tech platforms (Meta). Proven track record governing high-scale training programs (Next Level Bootcamp) under strict PMO guidelines, managing cross-functional global stakeholders, and coordinating virtual/instructor-led certification paths. Expert in leveraging AI automation (n8n, Supabase, native AI workflows) and Business Intelligence (Power BI) to streamline operations, track learning analytics, and optimize program budgets. Combines highly organized project management with advanced facilitation techniques (Thinking Environment) to deliver measurable business impact.</div>
+            </section>
+            
+
+            
+            <section id="experience">
+                <h2 class="section-title">Experiência Profissional</h2>
+                
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <div>
+                            <span class="role-title">AI Sales Enablement Specialist (Meta Project)</span>
+                            <span class="company-name">| Wipro Brasil</span>
+                        </div>
+                        <div class="experience-dates">September 2024 – July 2026</div>
+                    </div>
+                    
+                    <div class="experience-location">Curitiba, Brazil</div>
+                    
+                    <ul class="experience-bullets">
+                        
+                        <li>Project Governance & Enablement: Coordinated and governed the end-to-end execution of the Next Level Bootcamp program under strict PMO guidelines, managing master schedules, defining milestone success criteria, and driving operational resource planning.</li>
+                        
+                        <li>Training & Certification Operations: Acted as the operation's technical reference for Meta ad strategies, absorbing official client materials and strategically replicating product innovations and Go-to-Market (GTM) strategies for 150+ Meta Marketing Pros.</li>
+                        
+                        <li>Cross-Functional Collaboration: Acted as the strategic bridge between global product lines, quality assurance, and outsourced consultant teams to maintain clear project documentation, manage timelines, and align deliverables with core business objectives.</li>
+                        
+                        <li>Performance Reporting: Partnered with the MIS data team to leverage Power BI and Excel dashboards, translating complex operational data into actionable progress reports and performance reviews for senior leadership.</li>
+                        
+                        <li>Provide technical training to the team on Meta internal tools, driving onboarding and replicating training programs on proprietary CRMs and practical native AI implementations.</li>
+                        
+                    </ul>
+                </div>
+                
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <div>
+                            <span class="role-title">Co-Founder & Product & Go-To-Market (GTM) Lead</span>
+                            <span class="company-name">| Meu Barzin (Startup)</span>
+                        </div>
+                        <div class="experience-dates">December 2025 – March 2026</div>
+                    </div>
+                    
+                    <div class="experience-location">Curitiba, Brazil</div>
+                    
+                    <ul class="experience-bullets">
+                        
+                        <li>Scope Definition & Lifecycle Ownership: Took absolute ownership of a new conversational software launch from initial requirements gathering through deployment, establishing timelines and budget parameters within a high-agency environment.</li>
+                        
+                        <li>Workflow Implementation: Built and orchestrated core backend automation systems using n8n, Supabase databases, and API structures over a VPS, optimizing digital communication funnels for scalability.</li>
+                        
+                        <li>Led the AI data strategy, structuring automated scraping routines across blogs, Google Maps, and web sources to collect, centralize, and organize business data that was previously fragmented across the web.</li>
+                        
+                        <li>Drove business development and B2B partnerships, leading the prospecting of partner venues, pitching the value proposition (AI-driven visibility), and closing the initial commercial contracts.</li>
+                        
+                    </ul>
+                </div>
+                
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <div>
+                            <span class="role-title">Founder & Marketing Project Consultant</span>
+                            <span class="company-name">| AK Branding & Web Design</span>
+                        </div>
+                        <div class="experience-dates">March 2019 – September 2024</div>
+                    </div>
+                    
+                    <div class="experience-location">Curitiba, PR</div>
+                    
+                    <ul class="experience-bullets">
+                        
+                        <li>Budget & Timeline Controls: Controlled project scopes and financial budgets for multiple concurrent accounts, coordinating internal workflows and managing specialized resource execution to prevent project roadblocks.</li>
+                        
+                        <li>Agency Account Leadership: Managed a specialized boutique agency focused on SMBs, leading the complete client onboarding transition and directing web development, brand identity, and positioning projects from conception to final delivery.</li>
+                        
+                        <li>Digital Campaign Optimization: Engineered high-converting web assets, e-commerce landing pages, and search optimization (SEO) roadmaps, applying UX writing principles to align customer journeys with client growth objectives.</li>
+                        
+                    </ul>
+                </div>
+                
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <div>
+                            <span class="role-title">Marketing Automation & Campaign Specialist</span>
+                            <span class="company-name">| Munzner</span>
+                        </div>
+                        <div class="experience-dates">October 2018 – August 2024</div>
+                    </div>
+                    
+                    <div class="experience-location">Curitiba, PR</div>
+                    
+                    <ul class="experience-bullets">
+                        
+                        <li>Funnel Coordination & CRM Integration: Automated communication pipelines and lead generation workflows between Bitrix24 and Sendpulse CRMs via webhooks, enhancing internal project tracking and execution efficiency.</li>
+                        
+                        <li>Specialized in the global Thinking Environment methodology to build high-impact technical narratives, applying active listening and facilitation concepts to create strategic content for social media, brand positioning, and paid media.</li>
+                        
+                        <li>Optimized commercial workflows and CRM automations via API/Webhooks, structuring intelligent lead nurturing flows to maximize sales conversion and reduce friction along the customer journey.</li>
+                        
+                    </ul>
+                </div>
+                
+            </section>
+            
+        </main>
+
+        <!-- Sidebar: Skills, Education, Certifications, Languages -->
+        <aside class="sidebar">
+            
+            <section id="skills">
+                <h2 class="section-title">Competências</h2>
+                
+                <div class="skills-category">
+                    <div class="skills-category-title">Project & Stakeholder Management</div>
+                    <div class="skills-list">
+                        
+                            PMO Guidelines, Agile Methodologies (Kanban, Scrum), Project Schedules, Gantt Charts, Vendor Administration, Budget Controls
+                        
+                    </div>
+                </div>
+                
+                <div class="skills-category">
+                    <div class="skills-category-title">Sales Enablement & Learning</div>
+                    <div class="skills-list">
+                        
+                            Program Coordination, Call Listening & Structured Feedback, Sales Excellence, Facilitação (Thinking Environment / Art of Hosting), Stakeholder Management
+                        
+                    </div>
+                </div>
+                
+                <div class="skills-category">
+                    <div class="skills-category-title">Automation & AI</div>
+                    <div class="skills-list">
+                        
+                            n8n, Make, Botpress, Native AI Workflows, API/Webhook Integrations
+                        
+                    </div>
+                </div>
+                
+                <div class="skills-category">
+                    <div class="skills-category-title">Data & Tools</div>
+                    <div class="skills-list">
+                        
+                            Business Intelligence (Power BI/Tableau), Advanced Excel, Supabase (Database), Prompt Engineering, Figma, MS Office
+                        
+                    </div>
+                </div>
+                
+            </section>
+            
+
+            
+            <section id="education">
+                <h2 class="section-title">Formação Acadêmica</h2>
+                
+                <div class="education-item">
+                    <div class="education-title">Bachelor's Degree and Licentiate in Philosophy</div>
+                    <div class="education-institution">Universidade Federal do Paraná (UFPR)</div>
+                    <div class="education-dates">2018 – 2023</div>
+                </div>
+                
+                <div class="education-item">
+                    <div class="education-title">Specialization in Clinical Philosophy</div>
+                    <div class="education-institution">Recanto da Filosofia Clínica</div>
+                    <div class="education-dates">January 2023 – December 2024</div>
+                </div>
+                
+                <div class="education-item">
+                    <div class="education-title">STEM Track - Electrical and Electronics Engineering (Incomplete)</div>
+                    <div class="education-institution">Universidade Federal do Paraná / UTFPR</div>
+                    <div class="education-dates">2012 – 2015</div>
+                </div>
+                
+            </section>
+            
+
+            
+            <section id="certifications">
+                <h2 class="section-title">Certificações</h2>
+                
+                <div class="cert-item">
+                    <div class="cert-title">Google Project Management Professional Certificate</div>
+                    <div class="cert-issuer">Coursera / Google</div>
+                    <div class="cert-status">In progress - Started September 2025</div>
+                </div>
+                
+                <div class="cert-item">
+                    <div class="cert-title">Meta Certified Media Planning Professional</div>
+                    <div class="cert-issuer">Meta</div>
+                    <div class="cert-status">Active</div>
+                </div>
+                
+                <div class="cert-item">
+                    <div class="cert-title">Meta Certified Digital Marketing Associate</div>
+                    <div class="cert-issuer">Meta</div>
+                    <div class="cert-status">Active</div>
+                </div>
+                
+                <div class="cert-item">
+                    <div class="cert-title">Thinking Environment Facilitator</div>
+                    <div class="cert-issuer">Munzner</div>
+                    <div class="cert-status">May 2020</div>
+                </div>
+                
+            </section>
+            
+
+            
+            <section id="languages">
+                <h2 class="section-title">Idiomas</h2>
+                
+                <div class="language-item">
+                    <span class="language-name">English</span>
+                    <span class="language-proficiency">Advanced / Professional Full Proficiency (Daily corporate use for technical reporting, international team coordination, and stakeholder alignment)</span>
+                </div>
+                
+                <div class="language-item">
+                    <span class="language-name">Portuguese</span>
+                    <span class="language-proficiency">Native</span>
+                </div>
+                
+            </section>
+            
+
+            
+            <section id="additional-info">
+                <h2 class="section-title">Informações Adicionais</h2>
+                
+                <div class="info-text">Industry Context: Practical familiarity and tracking of the routine, operational challenges, and consumption habits of services and supplies in private dental clinics, providing a useful complementary perspective for understanding this market channel.</div>
+                
+            </section>
+            
+        </aside>
+    </div>
+</body>
+</html>
