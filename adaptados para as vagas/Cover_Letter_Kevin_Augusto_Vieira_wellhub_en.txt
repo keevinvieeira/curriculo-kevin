@@ -1,0 +1,14 @@
+Dear Wellhub Recruitment Team,
+
+I am writing to express my enthusiastic interest in the Staff Product Manager position for the Occupational Health bet within New Ventures. With over 8 years of experience building and validating 0-to-1 digital products, designing AI-native architectures, and leading GTM enablement under strict compliance frameworks, I am excited to help rebuild corporate occupational health at AI speed.
+
+My background is uniquely suited to the entrepreneurial, high-ambiguity challenge of this 0-to-1 build. As Co-Founder and Product Manager of Meu Barzin, I took complete ownership of building a conversational MVP from concept to validation. I partnered with engineering leads to design the product architecture using ManyChat, n8n, and Supabase hosted on a VPS. Understanding the risks of LLM hallucinations in customer-facing tools, I established a RAG-based database containing metadata for 200+ local establishments and structured strict prompts to enforce zero-hallucination rules. This AI-first MVP generated 505 unique qualified leads and a 22.3% deep-funnel engagement rate, validating our business thesis rapidly and cost-effectively.
+
+Additionally, I am highly comfortable operating in regulated and compliance-heavy environments. At Wipro (supporting the Meta Project), I operated in a highly restricted daily environment, studying compliance risks extensively. I actively participated in building the Business Continuity Plan (BCP) and authored internal governance manuals detailing what data could and could not be shared externally. I completed rigorous Wipro and Meta training programs in information security, policy compliance, anti-phishing, social engineering prevention, and physical security (tailgating). At Meu Barzin, I also ensured that our conversational pipelines strictly complied with the WhatsApp Business Platform policies and Brazil's General Data Protection Law (LGPD).
+
+My academic background in Philosophy equips me with a unique framework for AI safety and ethics. In occupational health, where systems handle sensitive psychosocial assessments and triage, mitigating algorithmic bias related to race and gender is not just a feature, it is an existential requirement. I am committed to building systems that enforce strict confidentiality and ethical guidelines. Furthermore, as a dedicated practitioner of Yoga and Mindfulness, I live Wellhub's mission daily, and I am eager to combine my compliance rigor and product building skills to create compliant, wellness-focused solutions that transform the corporate health ecosystem.
+
+Thank you for your time and consideration. I look forward to exploring how my experience can contribute to Wellhub's mission.
+
+Sincerely,
+Kevin Augusto Vieira

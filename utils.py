@@ -256,6 +256,38 @@ def render_html_resume(adapted_resume: AdaptedResume, target_lang: str = "pt", t
     resume_data["titles"] = titles
     return template.render(**resume_data)
 
+def render_html_cover_letter(cover_letter_text: str) -> str:
+    """Render cover letter text into a clean HTML document for PDF conversion."""
+    paragraphs = cover_letter_text.strip().split("\n\n")
+    formatted_paragraphs = "".join([f"<p>{p.replace(chr(10), '<br>')}</p>" for p in paragraphs if p.strip()])
+    
+    html = f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        @page {{
+            size: A4;
+            margin: 2cm 2.5cm;
+        }}
+        body {{
+            font-family: Helvetica, Arial, sans-serif;
+            font-size: 11pt;
+            line-height: 1.65;
+            color: #222222;
+        }}
+        p {{
+            margin-bottom: 14pt;
+            text-align: justify;
+        }}
+    </style>
+</head>
+<body>
+    {formatted_paragraphs}
+</body>
+</html>"""
+    return html
+
 def convert_html_to_pdf(html_content: str) -> bytes:
     """Convert HTML content to PDF bytes using xhtml2pdf."""
     if pisa is None:
@@ -360,6 +392,9 @@ def build_generic_adapted_resume(master_resume: Dict[str, Any], target_lang: str
             text = b.get(lang_code, "")
             if text:
                 bullets.append(text)
+        
+        # Take top 2 bullets for concise 1-page fit across all 5 experiences
+        bullets = bullets[:2] if len(bullets) > 2 else bullets
                 
         if company and role_title and bullets:
             experiences.append(ExperienceItem(
@@ -414,8 +449,17 @@ def build_generic_adapted_resume(master_resume: Dict[str, Any], target_lang: str
             proficiency=lang_item.get("proficiency", "")
         ))
         
-    # Additional Information
-    additional_info = master_resume.get("additional_information", {}).get(lang_code, None)
+    # Additional Information (Grouped for concise 1-page fit)
+    if lang_code == "pt":
+        additional_info = [
+            "Esporte & Wellness: Faixa-Roxa de Jiu-Jitsu (BJJ), praticante de Yoga e Mindfulness, com foco em saúde integrativa, longevidade e soluções para o mercado de bem-estar (HealthTech).",
+            "Formação Humana: Especialista em Filosofia Clínica com foco em inteligência emocional e autoconhecimento aplicado a dinâmicas de facilitação humana corporativa."
+        ]
+    else:
+        additional_info = [
+            "Sports & Wellness: BJJ Purple Belt (Brazilian Jiu-Jitsu), dedicated Yoga and Mindfulness practitioner, focused on integrative health, longevity, and HealthTech solutions.",
+            "Human Facilitation: Specialist in Clinical Philosophy with a focus on emotional intelligence and self-awareness applied to corporate human facilitation and leadership dynamics."
+        ]
     
     return AdaptedResume(
         name=name,

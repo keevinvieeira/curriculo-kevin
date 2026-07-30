@@ -20,11 +20,31 @@
       "Revisar frameworks formais de controle orçamentário de grandes projetos de treinamento."
     ],
     "stages": [
-      {"name": "Candidatura", "status": "Concluído", "date": "2026-07-21"},
-      {"name": "Triagem (Screening)", "status": "Pendente", "date": ""},
-      {"name": "Entrevista de RH", "status": "Pendente", "date": ""},
-      {"name": "Entrevista Técnica", "status": "Pendente", "date": ""},
-      {"name": "Proposta (Offer)", "status": "Pendente", "date": ""}
+      {
+        "name": "Candidatura",
+        "status": "Concluído",
+        "date": "2026-07-21"
+      },
+      {
+        "name": "Triagem (Screening)",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Entrevista de RH",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Entrevista Técnica",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Proposta (Offer)",
+        "status": "Pendente",
+        "date": ""
+      }
     ]
   },
   {
@@ -48,11 +68,31 @@
       "Estudar especificidades de faturamento e regras fiscais/faturamento de ERPs (foco comum no Bling)."
     ],
     "stages": [
-      {"name": "Candidatura", "status": "Concluído", "date": "2026-07-21"},
-      {"name": "Triagem (Screening)", "status": "Pendente", "date": ""},
-      {"name": "Entrevista de RH", "status": "Pendente", "date": ""},
-      {"name": "Entrevista Técnica", "status": "Pendente", "date": ""},
-      {"name": "Proposta (Offer)", "status": "Pendente", "date": ""}
+      {
+        "name": "Candidatura",
+        "status": "Concluído",
+        "date": "2026-07-21"
+      },
+      {
+        "name": "Triagem (Screening)",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Entrevista de RH",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Entrevista Técnica",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Proposta (Offer)",
+        "status": "Pendente",
+        "date": ""
+      }
     ]
   },
   {
@@ -76,11 +116,31 @@
       "Estudar estruturas de Account-Based Marketing (ABM) conectadas a fontes de dados de pipeline."
     ],
     "stages": [
-      {"name": "Candidatura", "status": "Concluído", "date": "2026-07-21"},
-      {"name": "Triagem (Screening)", "status": "Pendente", "date": ""},
-      {"name": "Entrevista de RH", "status": "Pendente", "date": ""},
-      {"name": "Entrevista Técnica", "status": "Pendente", "date": ""},
-      {"name": "Proposta (Offer)", "status": "Pendente", "date": ""}
+      {
+        "name": "Candidatura",
+        "status": "Concluído",
+        "date": "2026-07-21"
+      },
+      {
+        "name": "Triagem (Screening)",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Entrevista de RH",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Entrevista Técnica",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Proposta (Offer)",
+        "status": "Pendente",
+        "date": ""
+      }
     ]
   },
   {
@@ -104,11 +164,31 @@
       "Certificar-se da compatibilidade total com a rotina de trabalho em fuso horário EST (9h às 17h)."
     ],
     "stages": [
-      {"name": "Candidatura", "status": "Concluído", "date": "2026-07-21"},
-      {"name": "Triagem (Screening)", "status": "Pendente", "date": ""},
-      {"name": "Entrevista de RH", "status": "Pendente", "date": ""},
-      {"name": "Entrevista Técnica", "status": "Pendente", "date": ""},
-      {"name": "Proposta (Offer)", "status": "Pendente", "date": ""}
+      {
+        "name": "Candidatura",
+        "status": "Concluído",
+        "date": "2026-07-21"
+      },
+      {
+        "name": "Triagem (Screening)",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Entrevista de RH",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Entrevista Técnica",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Proposta (Offer)",
+        "status": "Pendente",
+        "date": ""
+      }
     ]
   },
   {
@@ -132,11 +212,472 @@
       "Mapear a dinâmica de distribuição de clínicas credenciadas e corretores de benefícios em saúde."
     ],
     "stages": [
-      {"name": "Candidatura", "status": "Concluído", "date": "2026-07-22"},
-      {"name": "Triagem (Screening)", "status": "Pendente", "date": ""},
-      {"name": "Entrevista de RH", "status": "Pendente", "date": ""},
-      {"name": "Entrevista Técnica", "status": "Pendente", "date": ""},
-      {"name": "Proposta (Offer)", "status": "Pendente", "date": ""}
+      {
+        "name": "Candidatura",
+        "status": "Concluído",
+        "date": "2026-07-22"
+      },
+      {
+        "name": "Triagem (Screening)",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Entrevista de RH",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Entrevista Técnica",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Proposta (Offer)",
+        "status": "Pendente",
+        "date": ""
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "company": "Hims & Hers",
+    "role": "Staff Analyst, Product & Marketing",
+    "date_applied": "2026-07-23",
+    "status": "Candidatado",
+    "notes": "Vaga Staff Analytics em HealthTech/Telehealth listada no AshbyHQ. Foco em experimentos A/B, otimização de funil de conversão, LTV/Churn, SQL/Python e Looker.",
+    "url": "https://jobs.ashbyhq.com/hims-and-hers/278d5f46-3f95-4336-ad65-29e4f3e0add9/application",
+    "current_stage": "Candidatura",
+    "fit_score": 92,
+    "salary_expectation": "$155,000 - $190,000 / ano (USD)",
+    "good_points": [
+      "Forte alinhamento com o setor de HealthTech, Wellness, Telehealth e saúde personalizada (praticante de Yoga, BJJ e Filosofia Clínica).",
+      "8+ anos de experiência liderando análises de funil de conversão, experimentos A/B, CRO e inteligência de dados.",
+      "Domínio de SQL, Python, Supabase (PostgreSQL), Power BI e automação de CRM (Sendpulse/Bitrix24).",
+      "Destaque de impacto em Big Tech (Meta na Wipro: +150% em adoção de IA, #1 global) e startup de 0 a 1 (Meu Barzin)."
+    ],
+    "improvement_points": [
+      "Destacar na aplicação o modelo de trabalho remoto internacional e disponibilidade de alinhamento no fuso horário dos EUA (US Timezones).",
+      "Reforçar familiaridade com métricas de modelos de assinatura (LTV, Churn, Cohort analysis e atribuição)."
+    ],
+    "stages": [
+      {
+        "name": "Candidatura",
+        "status": "Concluído",
+        "date": "2026-07-23"
+      },
+      {
+        "name": "Triagem (Screening)",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Entrevista de RH",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Entrevista Técnica",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Proposta (Offer)",
+        "status": "Pendente",
+        "date": ""
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "company": "Virtuous",
+    "role": "Senior Product Manager: Donor Intelligence",
+    "date_applied": "2026-07-23",
+    "status": "Candidatado",
+    "notes": "Vaga Senior PM para os produtos de IA Momentum e Insights da Virtuous (CRM para ONGs). Exige perfil AI-forward operator, prototipagem e alinhamento com filantropia.",
+    "url": "https://jobs.ashbyhq.com/virtuous/5adb678f-b36e-42fc-8ce2-688ff583f4cf",
+    "current_stage": "Candidatura",
+    "fit_score": 94,
+    "salary_expectation": "$140,000 - $180,000 / ano (USD)",
+    "good_points": [
+      "Match perfeito como AI-Forward Operator: experiência real criando protótipos de IA (RAG no Supabase, prompts e n8n) e impulsionando adoção (+150% na Meta/Wipro).",
+      "Forte alinhamento com filantropia e propósito social (cofundador da comunidade Conversas Brasileiras, Bacharel em Filosofia e Especialista em Filosofia Clínica).",
+      "Bagagem híbrida de Product Management de 0 a 1 + Product Marketing / Sales Enablement.",
+      "Trabalho focado em AI human-centered (usar inteligência artificial para fortalecer conexões humanas em ONGs)."
+    ],
+    "improvement_points": [
+      "Destacar a fluência em prototipagem rápida e capacidade de criar specs leves sem burocracia.",
+      "Reforçar experiência com integração de CRMs B2B SaaS e modelos de bundling de produtos."
+    ],
+    "stages": [
+      {
+        "name": "Candidatura",
+        "status": "Concluído",
+        "date": "2026-07-23"
+      },
+      {
+        "name": "Triagem (Screening)",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Entrevista de RH",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Entrevista Técnica",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Proposta (Offer)",
+        "status": "Pendente",
+        "date": ""
+      }
+    ]
+  },
+  {
+    "id": "8",
+    "company": "Thunes",
+    "role": "Marketing Tech, Ops & AI Manager",
+    "date_applied": "2026-07-24",
+    "status": "Candidatado",
+    "notes": "Vaga global de liderança em MarTech, Operações & IA na gigante fintech Thunes via Greenhouse. Exige perfil AI Champion, automações de workflow (n8n, Clay, Zapier), enriquecimento de dados e atribuição de receita.",
+    "url": "https://www.thunes.com/jobs/?gh_jid=7811473003",
+    "current_stage": "Candidatura",
+    "fit_score": 96,
+    "salary_expectation": "$120,000 - $160,000 / ano (USD)",
+    "good_points": [
+      "Match absoluto como AI Champion & MarTech Manager: liderança real em adoção de IA na Meta/Wipro (+150%, #1 global).",
+      "Domínio prático em automação de fluxos com APIs/webhooks (n8n, Python, Supabase/PostgreSQL, Zapier) e enriquecimento de dados de IA.",
+      "Bagagem completa em atribuição de receita de funil (Salesforce, Sendpulse, Bitrix24, Power BI/SQL) e nutrição de leads B2B.",
+      "Mentalidade 'AI-First': foco obsessivo em eliminar tarefas manuais repetitivas usando inteligência artificial."
+    ],
+    "improvement_points": [
+      "Destacar nas entrevistas a familiaridade prática com plataformas de ABM e inteligência de conta (como 6sense, Clay e Dreamdata).",
+      "Reforçar o histórico de alinhamento estratégico com lideranças globais de SDRs e Marketing de Demanda."
+    ],
+    "stages": [
+      {
+        "name": "Candidatura",
+        "status": "Concluído",
+        "date": "2026-07-24"
+      },
+      {
+        "name": "Triagem (Screening)",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Entrevista de RH",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Entrevista Técnica",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Proposta (Offer)",
+        "status": "Pendente",
+        "date": ""
+      }
+    ]
+  },
+  {
+    "id": "9",
+    "company": "Kraken",
+    "role": "Senior Product Manager - Consumer",
+    "date_applied": "2026-07-24",
+    "status": "Candidatado",
+    "notes": "Vaga Senior PM na Kraken (Payward) para o time de Consumer Trading via AshbyHQ. Requer experiência com prototipagem prática usando ferramentas de IA (Claude Code, Cursor), análise de funil (SQL) e visão de produto de consumo.",
+    "url": "https://jobs.ashbyhq.com/kraken.com/2bb8eb65-0d23-4371-a45d-0cd7c17bb602",
+    "current_stage": "Candidatura",
+    "fit_score": 93,
+    "salary_expectation": "$110,400 - $220,800 / ano (USD)",
+    "good_points": [
+      "Match exato com requisito de Prototipagem com IA: experiência real criando protótipos funcionais com Claude Code, Python e Supabase.",
+      "Cofundação de produto Fintech/AI de 0 a 1 (Meu Barzin) com foco em jornada de conversão, ofertas e liquidez de transações.",
+      "Domínio técnico em análises quantitativas (SQL, Power BI, análise de drop-off de funil e testes A/B).",
+      "Liderança de capacitação em Big Tech (Meta na Wipro: +150% em uso de IA nativa, #1 global)."
+    ],
+    "improvement_points": [
+      "Destacar familiaridade com o mercado de ativos digitais, negociação de criptoativos e conversão de moedas fiat/crypto.",
+      "Reforçar experiência com retenção e estratégias de Product-Led Growth (PLG)."
+    ],
+    "stages": [
+      {
+        "name": "Candidatura",
+        "status": "Concluído",
+        "date": "2026-07-24"
+      },
+      {
+        "name": "Triagem (Screening)",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Entrevista de RH",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Entrevista Técnica",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Proposta (Offer)",
+        "status": "Pendente",
+        "date": ""
+      }
+    ]
+  },
+  {
+    "id": "10",
+    "company": "Applaudo Studios",
+    "role": "AI Technical Product Manager",
+    "date_applied": "2026-07-24",
+    "status": "Candidatado",
+    "notes": "Vaga de AI Technical Product Manager na consultoria AI-native Applaudo Studios via SmartRecruiters. Requer 5+ anos como PM/PO, vivência prática em Generative AI, LLMs, RAG, AI Agents, Prompt Engineering e Responsible AI.",
+    "url": "https://jobs.smartrecruiters.com/ApplaudoStudios/744000138920758",
+    "current_stage": "Candidatura",
+    "fit_score": 95,
+    "salary_expectation": "R$ 18.000 - R$ 25.000 /mês (PJ/CLT) | $4,500 - $6,500 USD /mês (Remoto Internacional)",
+    "good_points": [
+      "Match perfeito como AI Technical Product Manager: experiência real construindo produtos de IA (LLMs, RAG, Supabase vetorial, n8n/webhooks).",
+      "Liderança comprovada em adoção de IA corporativa na Meta/Wipro (+150% em uso de IA nativa, reconhecida como #1 global).",
+      "Formação acadêmica em Filosofia (UFPR), oferecendo um diferencial raro em Governança de IA, IA Responsável (Responsible AI) e ética.",
+      "Gestão técnica de produtos com métodos Ágeis (Scrum/Kanban) e métricas de desempenho de produto (KPIs)."
+    ],
+    "improvement_points": [
+      "Destacar a vivência em arquitetura de conhecimento empresarial e busca semântica para clientes de grande porte.",
+      "Reforçar o alinhamento de roadmap e ROI com executivos C-level."
+    ],
+    "stages": [
+      {
+        "name": "Candidatura",
+        "status": "Concluído",
+        "date": "2026-07-24"
+      },
+      {
+        "name": "Triagem (Screening)",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Entrevista de RH",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Entrevista Técnica",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Proposta (Offer)",
+        "status": "Pendente",
+        "date": ""
+      }
+    ]
+  },
+  {
+    "id": "11",
+    "company": "OpenLoop Health",
+    "role": "Staff Product Manager - Products & Services",
+    "date_applied": "2026-07-24",
+    "status": "Candidatado",
+    "notes": "Vaga de Staff Product Manager na OpenLoop Health via AshbyHQ. Liderança sênior de produto (IC) focada nos motores de Patient CRM e Patient 360, estruturando contexto e histórico de usuários para alimentar capacidades AI-First (priorização de follow-up, winback, suporte proativo e recomendações).",
+    "url": "https://jobs.ashbyhq.com/openloophealth/532e69f6-d165-482f-8900-641210d57538",
+    "current_stage": "Candidatura",
+    "fit_score": 92,
+    "salary_expectation": "$130,000 - $170,000 / ano (USD)",
+    "good_points": [
+      "Match forte como Staff Product Manager: liderança sênior de produto (8+ anos) focada em Patient/User CRM e motores de contexto (User 360).",
+      "Foco explícito em IA baseada em dados estruturados: vivência construindo bancos vetoriais no Supabase (PostgreSQL), automações n8n/webhooks e regras de retenção.",
+      "Liderança corporativa de IA na Meta/Wipro (+150% em uso de IA nativa, operação #1 global) e visão de roadmap de retenção.",
+      "Diferencial acadêmico em Ética e Governança de Dados (Filosofia/UFPR), altamente relevante para telessaúde e plataformas reguladas."
+    ],
+    "improvement_points": [
+      "Destacar a aplicabilidade da experiência em CRM de consumidor/usuário para fluxos de telessaúde e retenção de pacientes.",
+      "Reforçar familiaridade com padrões de dados de saúde e arquitetura multi-tenant."
+    ],
+    "stages": [
+      {
+        "name": "Candidatura",
+        "status": "Concluído",
+        "date": "2026-07-24"
+      },
+      {
+        "name": "Triagem (Screening)",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Entrevista de RH",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Entrevista Técnica",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Proposta (Offer)",
+        "status": "Pendente",
+        "date": ""
+      }
+    ]
+  },
+  {
+    "id": "12",
+    "company": "Tamara",
+    "role": "Senior B2B Growth Marketing Specialist",
+    "date_applied": "2026-07-24",
+    "status": "Candidatado",
+    "notes": "Vaga na Tamara (primeiro unicórnio fintech da Arábia Saudita) em Dubai via Greenhouse. Foco em estratégias de crescimento B2B, aquisição de parceiros/merchants além de mídia paga, experimentação (Hypothesis-Test-Learn-Scale) e automação de funil.",
+    "url": "https://job-boards.eu.greenhouse.io/tamara/jobs/4823149101",
+    "current_stage": "Candidatura",
+    "fit_score": 95,
+    "salary_expectation": "$80,000 - $110,000 / ano (USD) | AED 24,000 - 33,000 / mês",
+    "good_points": [
+      "Match perfeito como especialista em Crescimento B2B e Aquisição de Parcerias/Merchants.",
+      "Experiência prática cofundando marketplace Fintech (Meu Barzin), cadastrando 200+ estabelecimentos e realizando testes A/B de funil.",
+      "Bagagem em automação de CRM e réguas de nutrição (Munzner: ~R$ 50 mil em receita e AK Branding: +250% em captura de leads).",
+      "Mentalidade de experimentação com hipóteses (Hypothesis, Test, Learn, Scale) e criação de playbooks operacionais."
+    ],
+    "improvement_points": [
+      "Reforçar disponibilidade para relocalização em Dubai (Emirados Árabes Unidos).",
+      "Destacar a aplicabilidade de automações de IA para aceleração de prospecção B2B."
+    ],
+    "stages": [
+      {
+        "name": "Candidatura",
+        "status": "Concluído",
+        "date": "2026-07-24"
+      },
+      {
+        "name": "Triagem (Screening)",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Entrevista de RH",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Entrevista Técnica",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Proposta (Offer)",
+        "status": "Pendente",
+        "date": ""
+      }
+    ]
+  },
+  {
+    "id": "13",
+    "company": "PSI CRO",
+    "role": "Marketing Specialist",
+    "date_applied": "2026-07-24",
+    "status": "Candidatado",
+    "notes": "Vaga de Marketing Specialist na PSI CRO (Organização de Pesquisa Clínica global) via SmartRecruiters. Foco em programas de e-mail B2B, gestão do HubSpot, qualificação de leads inbound para o time de Business Development, criação de conteúdo e dashboards de desempenho.",
+    "url": "https://jobs.smartrecruiters.com/PSICRO/744000139118089",
+    "current_stage": "Candidatura",
+    "fit_score": 96,
+    "salary_expectation": "$50,000 - $75,000 / ano (USD)",
+    "good_points": [
+      "Match perfeito em B2B Email Programs, HubSpot, Qualificação de Inbound Leads e Relatórios de Desempenho.",
+      "Formação acadêmica em Filosofia/Humanidades (UFPR), que consta expressamente na descrição da vaga como preferencial ('Bachelor's degree in Marketing, Communications, Humanities').",
+      "Experiência real construindo réguas de e-mail marketing automatizadas de 10 etapas (Munzner: ~R$ 50 mil em receita) e otimizando taxas de captura de leads (+250% na AK Branding).",
+      "Alinhamento total de operações entre Marketing e Vendas (Business Development), fruto da liderança em operações na Meta/Wipro."
+    ],
+    "improvement_points": [
+      "Reforçar o foco na gestão de listas de webinars/eventos e conformidade de e-mail (unsubscribe/opt-out).",
+      "Destacar a aplicação de IA na geração e personalização de copys de e-mail B2B em escala."
+    ],
+    "stages": [
+      {
+        "name": "Candidatura",
+        "status": "Concluído",
+        "date": "2026-07-24"
+      },
+      {
+        "name": "Triagem (Screening)",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Entrevista de RH",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Entrevista Técnica",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Proposta (Offer)",
+        "status": "Pendente",
+        "date": ""
+      }
+    ]
+  },
+  {
+    "id": "14",
+    "company": "Mudita Studios",
+    "role": "Growth & GTM Lead (AI Venture Studio)",
+    "date_applied": "2026-07-29",
+    "status": "Candidatado",
+    "notes": "Vaga na Mudita Studios (Venture Studio focado em lançar startups AI-native com fundo de $125M) via LinkedIn. Liderança de estratégia GTM para múltiplas empresas do portfólio, experimentos de crescimento rápido (PLG, loops virais, automação, hacks), funis de aquisição e dashboards de métricas.",
+    "url": "https://www.linkedin.com/jobs/view/4443058738/",
+    "current_stage": "Candidatura",
+    "fit_score": 97,
+    "salary_expectation": "$120,000 - $160,000 / ano (USD)",
+    "good_points": [
+      "Match espetacular em Liderança de Growth, GTM e Operações de IA para Venture Studio.",
+      "Vivência prática cofundando startup de IA (Meu Barzin), construindo protótipos com Supabase vetorial, n8n, webhooks e Python.",
+      "Experiência com métricas de PLG (Product-Led Growth), CAC, LTV, conversão e retenção.",
+      "Liderança comprovada de capacitação de IA e GTM na Meta/Wipro (+150% em uso de IA nativa, operação #1 do mundo)."
+    ],
+    "improvement_points": [
+      "Destacar a velocidade de execução em experimentos scrappy (sem precisar de times gigantes de engenharia).",
+      "Reforçar a capacidade de navegar em ambientes ambíguos com múltiplos fundadores e portfólio de startups."
+    ],
+    "stages": [
+      {
+        "name": "Candidatura",
+        "status": "Concluído",
+        "date": "2026-07-29"
+      },
+      {
+        "name": "Triagem (Screening)",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Entrevista de RH",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Entrevista Técnica",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Proposta (Offer)",
+        "status": "Pendente",
+        "date": ""
+      }
     ]
   }
 ]

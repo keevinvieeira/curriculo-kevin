@@ -1,0 +1,15 @@
+Dear Hiring Team at OpenLoop Health,
+
+When I read about OpenLoop's work scaling telehealth infrastructure across all 50 states, your point about durable AI products relying on the quality of underlying user data immediately clicked for me. Over the past eight years, I have built digital products, CRM engagement layers, and AI workflows by focusing on structured context first. I believe that an AI system is only as good as the information engine underneath it, and that mindset is exactly what I would bring to your Patient CRM and Patient 360 teams.
+
+Most recently, as co-founder and product manager of a conversational AI startup called Meu Barzin, I built our user context engine from the ground up. I set up a Supabase database of over 200 venue partners connected through webhooks and Python scripts so our conversational model had clean, structured data to work with. When our initial analytics showed a 43.9% drop-off on first user interactions, I investigated our backend logs, fixed API latency bottlenecks, and redesigned our interaction flows. That data-driven adjustment turned our user drop-off around and boosted active engagement to 22.3%.
+
+Before that, working at Wipro in partnership with Meta, I served as the product and AI enablement lead for more than 150 analysts. I created custom prompt workflows and CRM integration playbooks that increased daily AI tool adoption by 150%, leading our team to be recognized as Meta's top global operation for AI growth. My academic background in Philosophy at UFPR also gives me a grounded framework for data privacy, ethics, and clear communication when working alongside cross-functional engineering and operational leaders.
+
+I would love the opportunity to share how my hands-on experience in building CRM context engines and AI retention workflows can support OpenLoop's growth and patient outcomes. Thank you for your time and consideration, and I look forward to speaking with you.
+
+Best regards,
+
+Kevin Augusto Vieira
+kevin.aug.vieira@gmail.com | +55 41 99694-1615
+https://www.linkedin.com/in/kevin-augusto/

@@ -18,6 +18,7 @@ try:
         load_master_resume,
         save_master_resume,
         render_html_resume,
+        render_html_cover_letter,
         convert_html_to_pdf,
         convert_resume_to_markdown,
         build_generic_adapted_resume,
@@ -417,14 +418,19 @@ with tab_studio:
                 
                 col_actions_cl, _ = st.columns([1, 3])
                 with col_actions_cl:
-                    filename_cl = f"{letter_prefix}_Kevin_Augusto_Vieira_{safe_company}_{safe_role}_{doc_lang_code}.txt"
-                    st.download_button(
-                        label="⬇️ Baixar Carta de Apresentação (.txt)",
-                        data=letter,
-                        file_name=filename_cl,
-                        mime="text/plain",
-                        use_container_width=True
-                    )
+                    filename_pdf_cl = f"{letter_prefix}_Kevin_Augusto_Vieira_{safe_company}_{safe_role}_{doc_lang_code}.pdf"
+                    try:
+                        cl_html = render_html_cover_letter(letter)
+                        cl_pdf_bytes = convert_html_to_pdf(cl_html)
+                        st.download_button(
+                            label="⬇️ Baixar Carta de Apresentação (PDF)",
+                            data=cl_pdf_bytes,
+                            file_name=filename_pdf_cl,
+                            mime="application/pdf",
+                            use_container_width=True
+                        )
+                    except Exception as err_cl_pdf:
+                        st.error(f"Erro ao gerar PDF da Carta de Apresentação: {err_cl_pdf}")
                     
                 st.markdown('<div class="card" style="white-space: pre-wrap; font-family: sans-serif; font-size: 1rem; line-height: 1.6;">' + letter + '</div>', unsafe_allow_html=True)
             else:
@@ -544,9 +550,11 @@ with tab_tracker:
     if not apps:
         st.info("Nenhuma candidatura ativa registrada no painel. Registre-a na aba Estúdio ou use o formulário acima!")
     else:
-        st.subheader("📋 Suas Candidaturas Ativas")
+        st.subheader("📋 Suas Candidaturas Ativas (Mais Recentes Primeiro)")
         
-        for idx, app in enumerate(apps):
+        # Display applications in descending order (newest first)
+        reversed_apps_with_orig_idx = list(reversed(list(enumerate(apps))))
+        for orig_idx, app in reversed_apps_with_orig_idx:
             # Styling status badge color
             st_color = "#3182ce" # blue
             if app["status"] == "Triagem":
@@ -562,7 +570,7 @@ with tab_tracker:
                 
             badge_html = f"<span style='background-color:{st_color}; color:white; padding:3px 10px; border-radius:12px; font-size:0.75rem; font-weight:bold; margin-left:10px;'>{app['status']}</span>"
             
-            with st.expander(f"🏢 {app['company']} — {app['role']}", expanded=True):
+            with st.expander(f"🏢 {app['company']} — {app['role']}", expanded=False):
                 # Using columns to layout the information
                 col_left, col_right = st.columns([2, 1])
                 
@@ -580,7 +588,7 @@ with tab_tracker:
                         key=f"notes_{app['id']}"
                     )
                     if updated_notes != current_notes:
-                        apps[idx]["notes"] = updated_notes
+                        apps[orig_idx]["notes"] = updated_notes
                         save_applications(apps)
                         st.toast("Notas atualizadas automaticamente!")
                         
@@ -622,7 +630,7 @@ with tab_tracker:
                         key=f"status_{app['id']}"
                     )
                     if new_status != app["status"]:
-                        apps[idx]["status"] = new_status
+                        apps[orig_idx]["status"] = new_status
                         save_applications(apps)
                         st.rerun()
                         
@@ -638,17 +646,17 @@ with tab_tracker:
                             key=f"stage_chk_{app['id']}_{s_idx}"
                         )
                         if checked != is_completed:
-                            apps[idx]["stages"][s_idx]["status"] = "Concluído" if checked else "Pendente"
-                            apps[idx]["stages"][s_idx]["date"] = datetime.date.today().isoformat() if checked else ""
+                            apps[orig_idx]["stages"][s_idx]["status"] = "Concluído" if checked else "Pendente"
+                            apps[orig_idx]["stages"][s_idx]["date"] = datetime.date.today().isoformat() if checked else ""
                             
                             # Auto-adjust general status depending on checked steps
                             if checked:
                                 if stage["name"] == "Entrevista de RH" or stage["name"] == "Entrevista Técnica":
-                                    apps[idx]["status"] = "Entrevista"
+                                    apps[orig_idx]["status"] = "Entrevista"
                                 elif stage["name"] == "Proposta (Offer)":
-                                    apps[idx]["status"] = "Proposta"
-                                elif stage["name"] == "Triagem (Screening)" and apps[idx]["status"] == "Candidatado":
-                                    apps[idx]["status"] = "Triagem"
+                                    apps[orig_idx]["status"] = "Proposta"
+                                elif stage["name"] == "Triagem (Screening)" and apps[orig_idx]["status"] == "Candidatado":
+                                    apps[orig_idx]["status"] = "Triagem"
                             
                             save_applications(apps)
                             st.rerun()
@@ -657,7 +665,7 @@ with tab_tracker:
                 col_del_1, col_del_2 = st.columns([4, 1])
                 with col_del_2:
                     if st.button("Excluir Vaga 🗑️", key=f"del_btn_{app['id']}", use_container_width=True):
-                        apps.pop(idx)
+                        apps.pop(orig_idx)
                         save_applications(apps)
                         st.success("Inscrição excluída com sucesso!")
                         st.rerun()

@@ -1,138 +1,96 @@
 {
   "name": "Kevin Augusto Vieira",
-  "location": "Curitiba, PR, Brazil",
+  "location": "Curitiba, PR, Brazil (Remote - Flexible / Global)",
   "phone": "+55 (41) 99694-1615",
   "email": "kevin.aug.vieira@gmail.com",
   "linkedin": "https://www.linkedin.com/in/kevin-augusto/",
   "github": "",
   "website": "",
-  "summary": "Staff Product Manager with over 8 years of experience building 0-to-1 digital products, CRM automations, and AI-first workflows. Experienced in partnering with engineering leads to architect databases (Supabase, MySQL) and orchestrators (n8n). Academic background in Philosophy directly supports ethical AI system deployment, mitigating gender/race biases and guarding data confidentiality. Comfortable under strict regulatory guidelines (LGPD/GDPR), WhatsApp API rules, and Meta quality standards, combining compliance with Power BI analytics and continuous discovery.",
+  "summary": "Growth & GTM Lead with 8+ years of experience launching zero-to-one ventures, designing Product-Led Growth (PLG) motions, and scaling multi-channel acquisition funnels. Entrepreneurial operator skilled in rapid experimentation, customer journey positioning, and funnel analytics (CAC, LTV, conversion, retention). Proven track record co-founding an AI startup (Meu Barzin), driving native AI adoption (#1 global growth rate at Meta/Wipro), and using Vibe Coding workflows to set up growth infrastructure and automate GTM execution.",
   "experience": [
     {
-      "company": "Wipro Brasil",
-      "role": "Marketing Coordinator / Product Enablement Expert (Meta)",
-      "dates": "September 2024 – July 2026",
-      "location": "Curitiba, Brazil",
-      "bullets": [
-        "Native AI CRM Adoption & Quality (+150%): Led native AI integration into sales CRMs starting from onboarding (3-week side-by-side coaching). Increased prompt usage from 4 to 10 prompts/day per consultant, earning Meta recognition as the #1 operation worldwide for AI adoption growth.",
-        "Next Level Bootcamp & Ramp-up (-50%): Designed and governed the pilot enablement program (12 consultants, 100% completion). Reduced new hire ramp-up time from 6 to 3 months (-50%), achieving 90%+ quality audit scores and 90% consultant CSAT, converting all graduates into Top Performers.",
-        "Security & Compliance Governance (Wipro/Meta): Contributed to the Business Continuity Plan (BCP) design and drafted data governance manuals under strict sharing restrictions. Trained extensively in policy compliance and info security."
-      ]
-    },
-    {
-      "company": "Meu Barzin (Startup)",
-      "role": "Co-Founder & Product Manager",
+      "company": "Meu Barzin (AI Fintech Startup)",
+      "role": "Co-Founder & Growth & GTM Lead",
       "dates": "December 2025 – March 2026",
       "location": "Curitiba, Brazil",
       "bullets": [
-        "0-to-1 MVP Launch: Conceptualized and launched the 'Meu Barzin Pass' MVP (recurring subscription ecosystem integrated directly with WhatsApp Business API), validating monetization and B2B partner commercial feasibility.",
-        "Conversational Product Architecture: Architected product flows and UX logic via ManyChat, n8n, and Supabase databases over a VPS, setting 'Zero Hallucination' prompts to eliminate AI errors during venue lookups.",
-        "Metrics & LGPD Compliance: Acquired 505 leads with 22.3% deep funnel engagement. Mapped funnel drop-offs (43.9% first-message drop due to API latency) and designed opt-in flows in strict compliance with LGPD (data protection laws) and WhatsApp Business Platform policies."
+        "0-to-1 AI Venture Launch & GTM Strategy: Owned product positioning and go-to-market execution for an AI-first venture, onboarding 200+ partners into a Supabase (PostgreSQL) vector database connected via N8N webhooks, Python, and Vibe Coding.",
+        "Bootstrapped Acquisition & Funnel CRO: Acquired 500+ qualified leads with a minimal budget (R$ 10-20/day) by running qualitative conversation log audits, A/B prompt testing, and fixing latency bottlenecks to boost active funnel engagement to 22.3%."
+      ]
+    },
+    {
+      "company": "Wipro Brasil",
+      "role": "Senior Product & GTM Enablement Lead (Meta)",
+      "dates": "September 2024 – July 2026",
+      "location": "Curitiba, Brazil",
+      "bullets": [
+        "Native AI GTM Adoption (#1 Global Growth Rate): Led the GTM rollout of Meta's native AI CRM features across 150+ analysts by targeting New Hires in 1-on-1 setup sessions, driving the operation from last place to 4th/5th in overall volume and #1 globally in % adoption growth.",
+        "Next Level Bootcamp Pilot (-50% Ramp-Up): Designed and executed a soft-skills onboarding pilot (12 consultants, 100% completion) to accelerate routine integration and performance, reducing time-to-productivity from 6 to 3 months (-50%).",
+        "Interpersonal Leadership & Culture Award: Received Wipro's company-wide 'Be Respectful' Values Award (1 of 5 core company values awarded, selected among 300 employees) for exceptional cross-functional collaboration."
       ]
     },
     {
       "company": "AK Branding & Web Design",
-      "role": "Founder & Product Design Consultant",
+      "role": "Founder & Growth Marketing Consultant",
       "dates": "March 2019 – September 2024",
       "location": "Curitiba, PR",
       "bullets": [
-        "Agency Management & Delivery (40+ Projects): Delivered 2 high-value contracts every 3 months across 5 years, overseeing UX/UI design, branding, and 100% technical LGPD compliance.",
-        "CRO & Chatbots (+250% Lead Boost): Implemented website chatbots boosting lead capture from 8 to 20-30 contacts/month (+250%), and launched a 0-to-1 e-commerce generating R$ 10k in 3 months (100% organic)."
+        "Inbound Acquisition & A/B Testing (+250%): Designed interactive web funnels and landing pages that boosted monthly inbound lead capture from 8 to 20-30 contacts (+250%) through rapid positioning and messaging tests.",
+        "0-to-1 Product Launch & Revenue: Built custom e-commerce product infrastructure generating R$ 10,000 in organic revenue in 3 months with 100% LGPD/GDPR data privacy compliance across 40+ client portals."
       ]
     },
     {
       "company": "Munzner",
-      "role": "Marketing & Growth Specialist",
+      "role": "Growth Marketing & Automated Nurture Specialist",
       "dates": "October 2018 – August 2024",
       "location": "Curitiba, PR",
       "bullets": [
-        "0-to-1 Infoproduct & Tripwire Strategy (1.0x-1.5x ROI): Launched the brand's 1st digital course (LMS/WordPress) as an entry-level offer for the pioneer Thinking Environment methodology (50 sales in 2 months).",
-        "Automated High-Ticket Funnel (~R$ 50k Revenue): Built an automated 10-stage email nurturing funnel (Bitrix24/Sendpulse) attracting 10,000+ visits, converting 10 enrollments for R$ 5,000 in-person masterclasses."
+        "Automated Multi-Channel Nurture (~R$ 50k): Built automated email nurture pipelines (Bitrix24/Sendpulse) attracting 10,000+ visits and generating ~R$ 50,000 in high-ticket revenue (~10 enrollments at R$ 5,000).",
+        "0-to-1 LMS Product Launch: Designed and automated a digital LMS tripwire course (WordPress), securing 50 sales in 2 months with a 1.0x-1.5x ROI."
       ]
     }
   ],
   "skills": [
     {
-      "category": "Product Management & GTM",
-      "skills": [
-        "0-to-1 Product Validation",
-        "Roadmap & Backlog Ownership",
-        "Go-To-Market (GTM) Strategy",
-        "User Stories & Tech Specs",
-        "Qualitative Product Discovery",
-        "OKRs & Success Metrics"
-      ]
+      "category": "Growth, GTM & PLG Strategy",
+      "skills": ["0-to-1 AI Startup Launch & Validation", "Product-Led Growth (PLG) Motions", "Multi-Channel Acquisition (LinkedIn, Twitter, Email, Content)", "Positioning, Messaging & Customer Journeys", "CAC, LTV, Conversion & Retention Analytics"]
     },
     {
-      "category": "AI-First Technology & CRM",
-      "skills": [
-        "Conversational AI / RAG",
-        "n8n / Workflow Automation",
-        "Supabase / MySQL Database",
-        "ManyChat / WhatsApp Business API",
-        "HubSpot / Salesforce / Bitrix24",
-        "APIs / Webhooks over VPS"
-      ]
+      "category": "Growth Ops & Technical Automations",
+      "skills": ["Vibe Coding (Claude Code, Cursor)", "Automation & Webhooks (N8N, Zapier)", "Supabase / PostgreSQL Vector Databases", "CRM Ops (HubSpot, Bitrix24)", "SQL & Data Visualization (Power BI)"]
     },
     {
-      "category": "UX/UI, CRO & Data",
-      "skills": [
-        "Figma Prototyping",
-        "A/B Testing & CRO",
-        "Organic SEO Strategy",
-        "Power BI / Tableau",
-        "Advanced Excel / MIS",
-        "Root Cause Analysis"
-      ]
-    },
-    {
-      "category": "Compliance & Methods",
-      "skills": [
-        "LGPD / GDPR Data Compliance",
-        "PMO Guidelines & Governance",
-        "Agile Methodologies (Scrum/Kanban)",
-        "Meta Quality & Policy Compliance",
-        "Thinking Environment"
-      ]
+      "category": "Experimentation & Execution",
+      "skills": ["Hypothesis-Led Growth Experiments", "Scrappy Marketing Hacks & Viral Loops", "A/B Testing & Funnel CRO", "Soft-Skills Onboarding & Change Management"]
     }
   ],
   "education": [
     {
       "institution": "Universidade Federal do Paraná (UFPR)",
-      "degree": "Bachelor's Degree and Licentiate in Philosophy",
+      "degree": "Bachelor's Degree and Licentiate in Philosophy (Specialization in Ethics & Epistemology)",
       "dates": "2018 – 2023"
+    },
+    {
+      "institution": "Universidade Federal do Paraná / UTFPR",
+      "degree": "Electrical & Electronic Engineering (2.5 Years Coursework in Calculus, Linear Algebra & System Logic)",
+      "dates": "2015 – 2017"
     },
     {
       "institution": "Recanto da Filosofia Clínica",
       "degree": "Specialization in Clinical Philosophy",
       "dates": "January 2023 – December 2024"
-    },
-    {
-      "institution": "Universidade Federal do Paraná / UTFPR",
-      "degree": "STEM Track - Electrical and Electronics Engineering (Incomplete)",
-      "dates": "2012 – 2015"
     }
   ],
   "certifications": [
     {
       "name": "Google Project Management Professional Certificate",
       "issuer": "Coursera / Google",
-      "status": "In progress - Started September 2025"
+      "status": "In progress"
     },
     {
       "name": "Meta Certified Media Planning Professional",
       "issuer": "Meta",
       "status": "Active"
-    },
-    {
-      "name": "Meta Certified Digital Marketing Associate",
-      "issuer": "Meta",
-      "status": "Active"
-    },
-    {
-      "name": "Thinking Environment Facilitator",
-      "issuer": "Munzner",
-      "status": "May 2020"
     }
   ],
   "languages": [
@@ -146,7 +104,7 @@
     }
   ],
   "additional_information": [
-    "Dedicated practitioner of Yoga and Mindfulness, with a strong career interest in integrative health, corporate longevity, and building digital solutions for Wellness (HealthTech).",
-    "Specialist in Clinical Philosophy with a focus on emotional intelligence and self-awareness applied to corporate human facilitation and leadership dynamics."
+    "Mindset & Discipline: Dedicated BJJ Purple Belt (Brazilian Jiu-Jitsu practitioner), integrating tactical composure under pressure, daily Yoga, Breathwork, and Mindfulness into growth decision-making.",
+    "Social Impact & Leadership: Awarded Wipro's 'Be Respectful' Values Award (1 of 5 core values, selected among 300 employees), 3-year tenure at Global Shapers Curitiba (World Economic Forum), and Volunteer Ambassador at TETO Brasil (raised R$ 19,000 in 45 days)."
   ]
 }

@@ -40,6 +40,23 @@
             color: #4a5568 !important;
             margin-top: 1px;
         }
+        /* Layout Table (Required for xhtml2pdf 2-column rendering) */
+        .layout-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 2px;
+        }
+        .main-column {
+            width: 68%;
+            vertical-align: top;
+            padding-right: 8px;
+        }
+        .sidebar-column {
+            width: 32%;
+            vertical-align: top;
+            padding-left: 8px;
+            border-left: 1px solid #e2e8f0;
+        }
         /* Sections */
         .section {
             margin-bottom: 4px;
@@ -139,19 +156,12 @@
             color: #718096 !important;
             font-size: 6.5pt;
         }
-        .col-main {
-            float: left;
-            width: 66%;
-            padding-right: 8px;
-        }
-        .col-side {
-            float: right;
-            width: 32%;
-            padding-left: 8px;
-            border-left: 1px solid #e2e8f0;
-        }
-        .clear-cols {
-            clear: both;
+        .info-text {
+            font-size: 6.8pt;
+            text-align: justify;
+            color: #2d3748 !important;
+            line-height: 1.16;
+            margin-bottom: 2px;
         }
     </style>
 </head>
@@ -166,110 +176,116 @@
         </div>
     </div>
 
-    <div class="col-main">
-        {% if summary %}
-        <div class="section">
-            <div class="section-title">{{ titles.summary }}</div>
-            <div class="summary-text">{{ summary }}</div>
-        </div>
-        {% endif %}
-
-        {% if experience %}
-        <div class="section">
-            <div class="section-title">{{ titles.experience }}</div>
-            {% for exp in experience %}
-            <div class="experience-item">
-                <table style="width: 100%; border-collapse: collapse; margin-bottom: 1px;">
-                    <tr>
-                        <td style="text-align: left; vertical-align: top;">
-                            <span class="role-title">{{ exp.role }}</span>
-                            <span class="company-name">| {{ exp.company }}</span>
-                        </td>
-                        <td style="text-align: right; vertical-align: top; width: 110px;" class="experience-dates">
-                            {{ exp.dates }}
-                        </td>
-                    </tr>
-                </table>
-                {% if exp.location %}
-                <div class="experience-location">{{ exp.location }}</div>
-                {% endif %}
-                <ul class="bullet-list">
-                    {% for bullet in exp.bullets %}
-                    <li class="bullet-item">{{ bullet }}</li>
-                    {% endfor %}
-                </ul>
-            </div>
-            {% endfor %}
-        </div>
-        {% endif %}
-    </div>
-
-    <div class="col-side">
-        {% if skills %}
-        <div class="section">
-            <div class="section-title">{{ titles.skills }}</div>
-            {% for cat in skills %}
-            <div class="skills-category">
-                <div class="skills-category-title">{{ cat.category }}</div>
-                <div class="skills-list">
-                    {% if cat.skills is string %}
-                        {{ cat.skills }}
-                    {% else %}
-                        {{ cat.skills | join(', ') }}
-                    {% endif %}
+    <table class="layout-table">
+        <tr>
+            <!-- Left Main Column (68%) -->
+            <td class="main-column">
+                {% if summary %}
+                <div class="section">
+                    <div class="section-title">{{ titles.summary }}</div>
+                    <div class="summary-text">{{ summary }}</div>
                 </div>
-            </div>
-            {% endfor %}
-        </div>
-        {% endif %}
+                {% endif %}
 
-        {% if education %}
-        <div class="section">
-            <div class="section-title">{{ titles.education }}</div>
-            {% for edu in education %}
-            <div class="education-item">
-                <div class="education-title">{{ edu.degree }}</div>
-                <div class="education-inst">{{ edu.institution }}</div>
-                <div class="education-dates">{{ edu.dates }}</div>
-            </div>
-            {% endfor %}
-        </div>
-        {% endif %}
+                {% if experience %}
+                <div class="section">
+                    <div class="section-title">{{ titles.experience }}</div>
+                    {% for exp in experience %}
+                    <div class="experience-item">
+                        <table style="width: 100%; border-collapse: collapse; margin-bottom: 1px;">
+                            <tr>
+                                <td style="text-align: left; vertical-align: top;">
+                                    <span class="role-title">{{ exp.role }}</span>
+                                    <span class="company-name">| {{ exp.company }}</span>
+                                </td>
+                                <td style="text-align: right; vertical-align: top; width: 110px;" class="experience-dates">
+                                    {{ exp.dates }}
+                                </td>
+                            </tr>
+                        </table>
+                        {% if exp.location %}
+                        <div class="experience-location">{{ exp.location }}</div>
+                        {% endif %}
+                        <ul class="bullet-list">
+                            {% for bullet in exp.bullets %}
+                            <li class="bullet-item">{{ bullet }}</li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                    {% endfor %}
+                </div>
+                {% endif %}
+            </td>
 
-        {% if certifications %}
-        <div class="section">
-            <div class="section-title">{{ titles.certifications }}</div>
-            {% for cert in certifications %}
-            <div class="cert-item">
-                <div class="cert-title">{{ cert.name }}</div>
-                <div class="cert-issuer">{{ cert.issuer }}</div>
-                <div class="cert-status">{{ cert.status }}</div>
-            </div>
-            {% endfor %}
-        </div>
-        {% endif %}
+            <!-- Right Sidebar Column (32%) -->
+            <td class="sidebar-column">
+                {% if skills %}
+                <div class="section">
+                    <div class="section-title">{{ titles.skills }}</div>
+                    {% for cat in skills %}
+                    <div class="skills-category">
+                        <div class="skills-category-title">{{ cat.category }}</div>
+                        <div class="skills-list">
+                            {% if cat.skills is string %}
+                                {{ cat.skills }}
+                            {% else %}
+                                {{ cat.skills | join(', ') }}
+                            {% endif %}
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+                {% endif %}
 
-        {% if languages %}
-        <div class="section">
-            <div class="section-title">{{ titles.languages }}</div>
-            {% for lang in languages %}
-            <div class="language-item">
-                <span class="language-name">{{ lang.language }}</span> - 
-                <span class="language-proficiency">{{ lang.proficiency }}</span>
-            </div>
-            {% endfor %}
-        </div>
-        {% endif %}
+                {% if education %}
+                <div class="section">
+                    <div class="section-title">{{ titles.education }}</div>
+                    {% for edu in education %}
+                    <div class="education-item">
+                        <div class="education-title">{{ edu.degree }}</div>
+                        <div class="education-inst">{{ edu.institution }}</div>
+                        <div class="education-dates">{{ edu.dates }}</div>
+                    </div>
+                    {% endfor %}
+                </div>
+                {% endif %}
 
-        {% if additional_information %}
-        <div class="section">
-            <div class="section-title">{{ titles.additional_info }}</div>
-            {% for info in additional_information %}
-            <div class="info-text">{{ info }}</div>
-            {% endfor %}
-        </div>
-        {% endif %}
-    </div>
-    <div class="clear-cols"></div>
+                {% if certifications %}
+                <div class="section">
+                    <div class="section-title">{{ titles.certifications }}</div>
+                    {% for cert in certifications %}
+                    <div class="cert-item">
+                        <div class="cert-title">{{ cert.name }}</div>
+                        <div class="cert-issuer">{{ cert.issuer }}</div>
+                        <div class="cert-status">{{ cert.status }}</div>
+                    </div>
+                    {% endfor %}
+                </div>
+                {% endif %}
+
+                {% if languages %}
+                <div class="section">
+                    <div class="section-title">{{ titles.languages }}</div>
+                    {% for lang in languages %}
+                    <div class="language-item">
+                        <span class="language-name">{{ lang.language }}</span> - 
+                        <span class="language-proficiency">{{ lang.proficiency }}</span>
+                    </div>
+                    {% endfor %}
+                </div>
+                {% endif %}
+
+                {% if additional_information %}
+                <div class="section">
+                    <div class="section-title">{{ titles.additional_info }}</div>
+                    {% for info in additional_information %}
+                    <div class="info-text">{{ info }}</div>
+                    {% endfor %}
+                </div>
+                {% endif %}
+            </td>
+        </tr>
+    </table>
 </body>
 </html>
+

@@ -9,7 +9,11 @@
     "email": "kevin.aug.vieira@gmail.com",
     "linkedin": "https://www.linkedin.com/in/kevin-augusto/",
     "github": "",
-    "website": ""
+    "website": "",
+    "salary_expectation": {
+      "pt": "R$ 15.000 - R$ 22.000 /mês (Brasil/PJ) | $4,000 - $6,000 USD /mês (Remoto Internacional)",
+      "en": "R$ 15,000 - R$ 22,000 /month (Brazil/PJ) | $4,000 - $6,000 USD /month (Remote International)"
+    }
   },
   "professional_summaries": [
     {
@@ -548,12 +552,57 @@
   },
   "additional_information": {
     "pt": [
-      "Interesses e Estilo de Vida: Praticante de Yoga e Mindfulness, com profundo interesse em saúde integrativa, longevidade e desenvolvimento de soluções digitais voltadas para Wellness (HealthTech).",
+      "Impacto Social & Voluntariado: Atuação por 3 anos no Global Shapers Curitiba (Fórum Econômico Mundial, 2018-2021) e Embaixador Voluntário no TETO Brasil (arrecadação de R$ 19k em 45 dias no Catarse para moradias de emergência) e Fundação Estudar.",
+      "Esporte & Disciplina: Praticante dedicado e Faixa-Roxa de Jiu-Jitsu (BJJ), combinando disciplina de longo prazo, resiliência e tomada de decisão tática sob pressão com práticas diárias de Yoga e Mindfulness.",
+      "Wellness & HealthTech: Profundo interesse em saúde integrativa, longevidade e desenvolvimento de soluções digitais para o mercado de bem-estar.",
       "Formação Humana: Especialista em Filosofia Clínica com foco em inteligência emocional e autoconhecimento aplicado a dinâmicas de facilitação humana corporativa."
     ],
     "en": [
-      "Interests & Lifestyle: Dedicated practitioner of Yoga and Mindfulness, with a deep interest in integrative health, longevity, and building digital solutions for Wellness & HealthTech.",
+      "Social Impact & Volunteering: 3-year track record at Global Shapers Curitiba (World Economic Forum initiative, 2018-2021) and Volunteer Ambassador at TETO Brasil (raised R$ 19,000 in 45 days via crowdfunding for emergency housing) & Fundação Estudar.",
+      "Sports & Discipline: Dedicated practitioner and BJJ Purple Belt (Brazilian Jiu-Jitsu), combining long-term discipline, resilience, and tactical composure under pressure with daily Yoga and Mindfulness practices.",
+      "Wellness & HealthTech: Deep interest in integrative health, longevity, and building digital solutions for the wellness market.",
       "Human Facilitation: Specialization in Clinical Philosophy with a focus on emotional intelligence and self-awareness applied to corporate facilitation and leadership."
     ]
-  }
+  },
+  "volunteer_experience": [
+    {
+      "organization": "Global Shapers Community (World Economic Forum)",
+      "role": {
+        "pt": "Shaper / Líder de Projetos de Inovação Social",
+        "en": "Shaper / Social Innovation Project Leader"
+      },
+      "dates": "Fevereiro 2018 – Fevereiro 2021",
+      "location": "Curitiba, PR",
+      "description": {
+        "pt": "Integrou o Hub Curitiba da rede global de jovens do Fórum Econômico Mundial (Prof. Klaus Schwab), liderando projetos locais de impacto social, engajamento jovem e diálogo com lideranças internacionais.",
+        "en": "Member of the Curitiba Hub in the World Economic Forum's global youth network (founded by Prof. Klaus Schwab), leading local social impact projects, youth empowerment, and global leadership dialogues."
+      }
+    },
+    {
+      "organization": "TETO Brasil",
+      "role": {
+        "pt": "Embaixador Voluntário & Mobilização Comunitária",
+        "en": "Volunteer Ambassador & Community Mobilization"
+      },
+      "dates": "Março 2018 – Julho 2019",
+      "location": "Curitiba, PR",
+      "description": {
+        "pt": "Atuou na captação de recursos e construção de casas emergenciais em favelas e comunidades precárias. Liderou a campanha do Catarse junto ao Global Shapers, arrecadando mais de R$ 19.000 em 45 dias para a construção de inverno de 2019.",
+        "en": "Led fundraising and emergency housing construction in vulnerable informal settlements. Spearheaded a Catarse crowdfunding campaign with Global Shapers, raising over R$ 19,000 in 45 days for the 2019 winter build."
+      }
+    },
+    {
+      "organization": "Fundação Estudar",
+      "role": {
+        "pt": "Embaixador de Educação & Desenvolvimento de Lideranças",
+        "en": "Education & Leadership Ambassador"
+      },
+      "dates": "Fevereiro 2019 – Junho 2019",
+      "location": "Curitiba, PR",
+      "description": {
+        "pt": "Promoveu a conscientização para novas metodologias de ensino, conectando organizações estudantis, universidade e mercado através da organização de workshops e redes de mentoria.",
+        "en": "Promoted awareness for modern education methodologies, bridging student organizations, universities, and the job market through workshops and leadership mentorship networks."
+      }
+    }
+  ]
 }
