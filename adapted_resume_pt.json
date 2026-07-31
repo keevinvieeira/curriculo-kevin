@@ -6,7 +6,7 @@
   "linkedin": "https://www.linkedin.com/in/kevin-augusto/",
   "github": "",
   "website": "",
-  "summary": "Profissional Sênior com mais de 8 anos de experiência em Product Marketing, Growth e Go-to-Market (GTM), liderando o posicionamento e lançamento de produtos de 0 a 1. Especialista em traduzir o entendimento do cliente e insights de mercado em narrativas claras, pitches e materiais de Sales Enablement para diferentes públicos e etapas do funil. Possui domínio avançado em ferramentas de IA generativa (Claude, ChatGPT) para acelerar a pesquisa de mercado, análise da concorrência e síntese de estratégias. Histórico comprovado conduzindo testes A/B de mensagens, alinhando campanhas de mídia paga (Meta Ads, Google Ads) à estratégia de produto e utilizando métricas analíticas (Power BI) para otimizar a jornada do cliente e maximizar conversões.",
+  "summary": "Profissional Sênior com mais de 8 anos de experiência em Product Marketing, Growth e Go-to-Market (GTM), liderando o posicionamento e lançamento de produtos de 0 a 1. Especialista em traduzir o entendimento do cliente e insights de mercado em narrativas claras, pitches e materiais de Sales Enablement para diferentes públicos e etapas do funil. Possui domínio avançado em ferramentas de IA generativa (Claude, ChatGPT) para acelerar a pesquisa de mercado, análise da concorrência e síntese de estratégias. Histórico comprovado conduzindo testes A/B de mensagens, alinhando campanhas de mídia paga (Meta Ads) à estratégia de produto e utilizando métricas analíticas (Power BI) para otimizar a performance de produtos.",
   "experience": [
     {
       "company": "Wipro Brasil",
@@ -25,7 +25,7 @@
       "dates": "Dezembro 2025 – Março 2026",
       "location": "Curitiba, PR",
       "bullets": [
-        "Go-to-Market (GTM) e Lançamento de 0 a 1: Desenhou e lançou o piloto do 'Meu Barzin Pass'. Definiu o posicionamento e a proposta de valor para diferentes públicos (estabelecimentos e usuários), validando a monetização B2B através de pesquisa.",
+        "Go-to-Market (GTM) e Lançamento de 0 a 1: Desenhou e lançou o piloto do 'Meu Barzin Pass'. Definiu o posicionamento e a proposta de valor para diferentes públicos (estabelecimentos e usuários), validando a estratégia de negocio B2B com os bares locais e B2C com os assinantes.",
         "IA Generativa e Mídia Paga: Conduziu campanhas de aquisição (Meta Ads) conectadas ao posicionamento do produto. Utilizou ChatGPT e Claude na geração de insights para estruturar fluxos de automação e mensagens.",
         "Otimização de Funil e Testes A/B: Conquistou base de 505 leads com 22.3% de engajamento profundo. Mapeou objeções e motivadores de compra, realizando testes A/B de mensagens que otimizaram o funil de aquisição."
       ]
@@ -69,9 +69,9 @@
         "Claude / Claude Code / ChatGPT",
         "Geração de Insights com IA",
         "Pesquisa com IA Generativa",
-        "Mídia Paga (Meta Ads, Google Ads)",
-        "Automação de Marketing",
-        "Power BI / Looker Studio"
+        "Meta Ads",
+        "Automação de CRM",
+        "Power BI"
       ]
     },
     {
@@ -86,9 +86,9 @@
       ]
     },
     {
-      "category": "Conformidade & Métodos",
+      "category": "Mercados & Diferenciais",
       "skills": [
-        "Setor de Hospitalidade/Real Estate",
+        "E-commerce & Marketplaces",
         "Comunicação Cross-functional",
         "Capacidade Analítica",
         "Metodologias Ágeis",
@@ -146,9 +146,7 @@
     }
   ],
   "additional_information": [
-    "Impacto Social & Voluntariado: Atuação por 3 anos no Global Shapers Curitiba (Fórum Econômico Mundial, 2018-2021), Embaixador no TETO Brasil (liderou campanha do Catarse arrecadando R$ 19 mil em 45 dias para casas emergenciais) e Embaixador na Fundação Estudar.",
-    "Esporte & Disciplina: Praticante dedicado e Faixa-Roxa de Jiu-Jitsu (BJJ), combinando disciplina de longo prazo, resiliência e tomada de decisão tática sob pressão com práticas diárias de Yoga e Mindfulness.",
-    "Wellness & HealthTech: Forte interesse de carreira em saúde integrativa, longevidade corporativa e soluções digitais para o mercado de bem-estar.",
-    "Formação Humana: Especialista em Filosofia Clínica com foco em inteligência emocional e autoconhecimento aplicado a dinâmicas de facilitação humana corporativa."
+    "Vivência no Mercado Imobiliário (Real Estate): Familiaridade prática com o setor imobiliário por acompanhamento familiar, tendo inclusive desenvolvido a plataforma web da imobiliária (https://ebvimoveiscuritiba.com.br/).",
+    "Impacto Social & Voluntariado: Atuação por 3 anos no Global Shapers Curitiba (Fórum Econômico Mundial, 2018-2021), Embaixador no TETO Brasil (liderou campanha do Catarse arrecadando R$ 19 mil em 45 dias para casas emergenciais)."
   ]
 }

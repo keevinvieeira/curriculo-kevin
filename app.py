@@ -142,7 +142,7 @@ st.sidebar.markdown("<h2 style='color:#1a365d;'>⚙️ Configurações</h2>", un
 st.sidebar.markdown("<h3 style='color:#1a365d; font-size:1rem;'>🌐 Idioma do Currículo</h3>", unsafe_allow_html=True)
 doc_lang = st.sidebar.radio(
     "Selecione o idioma de exibição:",
-    options=["English (EN)", "Português (PT)"],
+    options=["Português (PT)", "English (EN)"],
     index=0,
     help="Altera todo o conteúdo do currículo (títulos, resumo, experiências, etc.) carregando os respectivos arquivos locais."
 )
