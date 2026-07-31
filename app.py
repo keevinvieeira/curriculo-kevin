@@ -570,7 +570,9 @@ with tab_tracker:
                 
             badge_html = f"<span style='background-color:{st_color}; color:white; padding:3px 10px; border-radius:12px; font-size:0.75rem; font-weight:bold; margin-left:10px;'>{app['status']}</span>"
             
-            with st.expander(f"🏢 {app['company']} — {app['role']}", expanded=False):
+            role_name = app.get("role") or app.get("position") or "N/A"
+            company_name_app = app.get("company", "Empresa")
+            with st.expander(f"🏢 {company_name_app} — {role_name}", expanded=False):
                 # Using columns to layout the information
                 col_left, col_right = st.columns([2, 1])
                 

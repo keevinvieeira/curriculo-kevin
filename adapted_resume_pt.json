@@ -6,48 +6,48 @@
   "linkedin": "https://www.linkedin.com/in/kevin-augusto/",
   "github": "",
   "website": "",
-  "summary": "Product Manager Sênior com mais de 8 anos de experiência validando produtos digitais de 0 a 1, automações de CRM e fluxos AI-first. Histórico com orquestradores (n8n) e bancos relacionais (Supabase, MySQL) em VPS. Sua formação em Filosofia apoia a aplicação ética de IA, mitigando vieses de gênero/raça e protegendo dados sensíveis. Experiente sob marcos de conformidade rígidos (LGPD/GDPR), diretrizes da API do WhatsApp e governança Meta, aliando rigor regulatório a métricas analíticas (Power BI) e descoberta contínua (discovery).",
+  "summary": "Profissional Sênior com mais de 8 anos de experiência em Product Marketing, Growth e Go-to-Market (GTM), liderando o posicionamento e lançamento de produtos de 0 a 1. Especialista em traduzir o entendimento do cliente e insights de mercado em narrativas claras, pitches e materiais de Sales Enablement para diferentes públicos e etapas do funil. Possui domínio avançado em ferramentas de IA generativa (Claude, ChatGPT) para acelerar a pesquisa de mercado, análise da concorrência e síntese de estratégias. Histórico comprovado conduzindo testes A/B de mensagens, alinhando campanhas de mídia paga (Meta Ads, Google Ads) à estratégia de produto e utilizando métricas analíticas (Power BI) para otimizar a jornada do cliente e maximizar conversões.",
   "experience": [
     {
       "company": "Wipro Brasil",
-      "role": "Marketing Coordinator / Product Enablement Expert (Meta)",
+      "role": "Product Marketing Coordinator / Enablement Expert (Meta)",
       "dates": "Setembro 2024 – Julho 2026",
       "location": "Curitiba, PR",
       "bullets": [
-        "Implantação de IA e Adoção Recorde (+150%): Liderou a integração da IA no CRM desde o onboarding (side-by-side de 3 semanas). Elevou o uso de 4 para 10 prompts/dia por consultor, tornando a operação a #1 em crescimento de adoção de IA na Meta globalmente.",
-        "Next Level Bootcamp & Ramp-up (-50%): Idealizou e governou o programa piloto (12 consultores, 100% de conclusão). Reduziu o tempo de produtividade de 6 para 3 meses (-50%), com 90%+ de qualidade nas auditorias e 90% de CSAT dos consultores, convertendo os formados em Top Performers.",
-        "Segurança e Governança (Wipro/Meta): Participou da estruturação do Plano de Continuidade de Negócios (BCP) e políticas de compartilhamento de dados sob rígida restrição. Recebeu capacitações contínuas de compliance e segurança da informação."
+        "Adoção Recorde de IA (+150%) e Sales Enablement: Liderou o GTM interno e a integração da IA no CRM. Criou uma biblioteca de mensagens e prompts, elevando o uso de 4 para 10 prompts/dia por consultor, tornando a operação a #1 em crescimento de adoção de IA na Meta globalmente.",
+        "Treinamento e Ramp-up (-50%): Idealizou e governou programa focado na jornada do consultor. Reduziu o tempo de produtividade de 6 para 3 meses (-50%), convertendo formados em Top Performers através de argumentários e pitches bem definidos.",
+        "Estratégia e Posicionamento (Wipro/Meta): Traduziu diretrizes complexas em materiais de treinamento claros e colaborou cross-functional para garantir que as campanhas internas estivessem alinhadas ao posicionamento."
       ]
     },
     {
       "company": "Meu Barzin (Startup)",
-      "role": "Co-Founder & Product Manager",
+      "role": "Co-Founder & Product Marketing Manager",
       "dates": "Dezembro 2025 – Março 2026",
       "location": "Curitiba, PR",
       "bullets": [
-        "Concepção do MVP (0 a 1): Desenhou e lançou o piloto do 'Meu Barzin Pass' (assinatura recorrente integrada à API oficial do WhatsApp), definindo a proposta de valor e validando a monetização B2B na ponta da oferta.",
-        "Arquitetura de Produto Conversacional: Desenhou workflows automatizados (ManyChat, n8n, Supabase e APIs em VPS), mitigando alucinações de IA via regras estruturadas de prompts no RAG.",
-        "Métricas e Compliance LGPD: Conquistou base de 505 leads com 22.3% de engajamento de funil profundo, desenhando fluxos em conformidade com as regras de opt-in da política do WhatsApp e leis de proteção de dados (LGPD). Mapeou gargalos de latência de API (43,9% de drop) e liquidez de parceiros."
+        "Go-to-Market (GTM) e Lançamento de 0 a 1: Desenhou e lançou o piloto do 'Meu Barzin Pass'. Definiu o posicionamento e a proposta de valor para diferentes públicos (estabelecimentos e usuários), validando a monetização B2B através de pesquisa.",
+        "IA Generativa e Mídia Paga: Conduziu campanhas de aquisição (Meta Ads) conectadas ao posicionamento do produto. Utilizou ChatGPT e Claude na geração de insights para estruturar fluxos de automação e mensagens.",
+        "Otimização de Funil e Testes A/B: Conquistou base de 505 leads com 22.3% de engajamento profundo. Mapeou objeções e motivadores de compra, realizando testes A/B de mensagens que otimizaram o funil de aquisição."
       ]
     },
     {
       "company": "AK Branding & Web Design",
-      "role": "Founder & Product Design Consultant",
+      "role": "Founder & Product Marketing Consultant",
       "dates": "Março 2019 – Setembro 2024",
       "location": "Curitiba, PR",
       "bullets": [
-        "Gestão de Agência & Escala (40+ Projetos): Manteve ritmo de entrega de 2 contratos a cada 3 meses em 5 anos, liderando projetos de UX/UI, branding e 100% de adequação técnica à LGPD.",
-        "CRO & Chatbots (+250% em Leads): Otimizou interfaces com chatbots que elevaram contatos de 8 para 20-30/mês (+250%), e desenvolveu e-commerce de 0 a 1 que faturou R$ 10k nos primeiros 3 meses (100% orgânico)."
+        "Gestão de Portfólio e Posicionamento (40+ Projetos): Liderou estratégias de marketing de produto, testes de usabilidade e posicionamento para clientes, traduzindo insights de consumidores em direcionamentos de mídia e conteúdo.",
+        "CRO, Testes A/B e Conversão (+250% em Leads): Otimizou ofertas e copys que elevaram contatos de 8 para 20-30/mês (+250%) e desenhou um e-commerce do zero (R$ 10k faturados em 3 meses)."
       ]
     },
     {
       "company": "Munzner",
-      "role": "Marketing & Growth Specialist",
+      "role": "Growth Marketing Specialist",
       "dates": "Outubro 2018 – Agosto 2024",
       "location": "Curitiba, PR",
       "bullets": [
-        "Infoproduto & Estratégia de Tripwire (ROI 1.0x-1.5x): Idealizou e lançou o 1º curso digital (LMS/WordPress) como oferta de entrada para a metodologia pioneira Thinking Environment (50 vendas em 2 meses).",
-        "Funil Automatizado High-Ticket (~R$ 50k): Estruturou funil de e-mail marketing automatizado de 10 etapas (Bitrix24/Sendpulse) atraindo 10.000+ acessos e converteu 10 matriculados em formações presenciais de R$ 5.000."
+        "Lançamento de Produto (ROI 1.0x-1.5x): Liderou o GTM de um curso digital. Conduziu pesquisas de mercado para mapear objeções e ajustar a mensagem-chave, gerando 50 vendas nos 2 primeiros meses.",
+        "Automação e Sales Enablement (~R$ 50k em Receita): Estruturou funil automatizado de e-mail marketing. Desenvolveu materiais e pitchs que apoiaram diretamente o time comercial na conversão de formações high-ticket de R$ 5.000."
       ]
     }
   ],
@@ -55,44 +55,44 @@
     {
       "category": "Product Management & GTM",
       "skills": [
-        "Validação de Produto (0 a 1)",
-        "Desenho de Roadmap & Backlog",
         "Estratégia Go-to-Market (GTM)",
-        "Histórias de Usuário (User Stories)",
-        "Product Discovery Qualitativo",
-        "Priorização & Métricas (OKRs)"
+        "Product Marketing & Posicionamento",
+        "Sales Enablement (Pitch, Cases)",
+        "Product Discovery e Pesquisa",
+        "Jornada do Cliente e Funil",
+        "Mapeamento de Objeções"
       ]
     },
     {
-      "category": "Tecnologia AI-First & CRM",
+      "category": "Inteligência Artificial & Ferramentas",
       "skills": [
-        "IA Conversacional / RAG",
-        "n8n / Automação",
-        "Supabase / MySQL",
-        "ManyChat / API do WhatsApp",
-        "HubSpot / Salesforce / Bitrix24",
-        "Webhooks / APIs em VPS"
+        "Claude / Claude Code / ChatGPT",
+        "Geração de Insights com IA",
+        "Pesquisa com IA Generativa",
+        "Mídia Paga (Meta Ads, Google Ads)",
+        "Automação de Marketing",
+        "Power BI / Looker Studio"
       ]
     },
     {
       "category": "UX/UI, CRO & Dados",
       "skills": [
-        "Prototipagem em Figma",
-        "Testes A/B & CRO",
-        "SEO Orgânico",
-        "Power BI / Tableau",
-        "Excel Avançado / MIS",
-        "Análise de Causa Raiz"
+        "Testes A/B e Otimização (CRO)",
+        "Copywriting Estratégico",
+        "Métricas de Funil (CAC, LTV)",
+        "Tradução de Insights p/ Criação",
+        "Análise da Concorrência",
+        "Estratégia de Lançamento"
       ]
     },
     {
       "category": "Conformidade & Métodos",
       "skills": [
-        "Adequação LGPD / GDPR",
-        "Diretrizes de PMO & Governança",
-        "Metodologias Ágeis (Scrum/Kanban)",
-        "Qualidade & Conformidade Meta",
-        "Thinking Environment"
+        "Setor de Hospitalidade/Real Estate",
+        "Comunicação Cross-functional",
+        "Capacidade Analítica",
+        "Metodologias Ágeis",
+        "Adequação LGPD"
       ]
     }
   ],
