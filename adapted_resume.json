@@ -1,119 +1,115 @@
 {
   "name": "Kevin Augusto Vieira",
-  "location": "Curitiba, PR, Brazil",
+  "location": "Curitiba, PR",
   "phone": "+55 (41) 99694-1615",
   "email": "kevin.aug.vieira@gmail.com",
   "linkedin": "https://www.linkedin.com/in/kevin-augusto/",
   "github": "",
   "website": "",
-  "summary": "Senior Professional specializing in Sales Enablement, Product Strategy, and Learning Operations with over 8 years of experience driving adoption for enterprise solutions and global tech platforms (Meta). Proven track record governing high-scale training programs (Next Level Bootcamp) under strict PMO guidelines, managing cross-functional global stakeholders, and coordinating virtual/instructor-led certification paths. Expert in leveraging AI automation (n8n, Supabase, native AI workflows) and Business Intelligence (Power BI) to streamline operations, track learning analytics, and optimize program budgets. Combines highly organized project management with advanced facilitation techniques (Thinking Environment) to deliver measurable business impact.",
+  "summary": "Profissional Sênior com mais de 8 anos de experiência em Product Marketing, Growth e Go-to-Market (GTM), liderando o posicionamento e lançamento de produtos de 0 a 1. Especialista em traduzir o entendimento do cliente e insights de mercado em narrativas claras, pitches e materiais de Sales Enablement para diferentes públicos e etapas do funil. Possui domínio avançado em ferramentas de IA generativa (Claude, ChatGPT) para acelerar a pesquisa de mercado, análise da concorrência e síntese de estratégias. Histórico comprovado conduzindo testes A/B de mensagens, alinhando campanhas de mídia paga (Meta Ads) à estratégia de produto e utilizando métricas analíticas (Power BI) para otimizar a performance de produtos.",
   "experience": [
     {
       "company": "Wipro Brasil",
-      "role": "AI Sales Enablement Specialist (Meta Project)",
-      "dates": "September 2024 – July 2026",
-      "location": "Curitiba, Brazil",
+      "role": "Product Marketing Coordinator / Enablement Expert (Meta)",
+      "dates": "Setembro 2024 – Julho 2026",
+      "location": "Curitiba, PR",
       "bullets": [
-        "Project Governance & Enablement: Coordinated and governed the end-to-end execution of the Next Level Bootcamp program under strict PMO guidelines, managing master schedules, defining milestone success criteria, and driving operational resource planning.",
-        "Training & Certification Operations: Acted as the operation's technical reference for Meta ad strategies, absorbing official client materials and strategically replicating product innovations and Go-to-Market (GTM) strategies for 150+ Meta Marketing Pros.",
-        "Cross-Functional Collaboration: Acted as the strategic bridge between global product lines, quality assurance, and outsourced consultant teams to maintain clear project documentation, manage timelines, and align deliverables with core business objectives.",
-        "Performance Reporting: Partnered with the MIS data team to leverage Power BI and Excel dashboards, translating complex operational data into actionable progress reports and performance reviews for senior leadership.",
-        "Provide technical training to the team on Meta internal tools, driving onboarding and replicating training programs on proprietary CRMs and practical native AI implementations."
+        "Adoção Recorde de IA (+150%) e Sales Enablement: Liderou o GTM interno e a integração da IA no CRM. Criou uma biblioteca de mensagens e prompts, elevando o uso de 4 para 10 prompts/dia por consultor, tornando a operação a #1 em crescimento de adoção de IA na Meta globalmente.",
+        "Treinamento e Ramp-up (-50%): Idealizou e governou programa focado na jornada do consultor. Reduziu o tempo de produtividade de 6 para 3 meses (-50%), convertendo formados em Top Performers através de guias de argumentação e pitches bem definidos.",
+        "Estratégia e Posicionamento (Wipro/Meta): Traduziu diretrizes complexas em materiais de treinamento claros e colaborou cross-functional para garantir que as campanhas internas estivessem alinhadas ao posicionamento."
       ]
     },
     {
       "company": "Meu Barzin (Startup)",
-      "role": "Co-Founder & Product & Go-To-Market (GTM) Lead",
-      "dates": "December 2025 – March 2026",
-      "location": "Curitiba, Brazil",
+      "role": "Co-Founder & Product Marketing Manager",
+      "dates": "Dezembro 2025 – Março 2026",
+      "location": "Curitiba, PR",
       "bullets": [
-        "Scope Definition & Lifecycle Ownership: Took absolute ownership of a new conversational software launch from initial requirements gathering through deployment, establishing timelines and budget parameters within a high-agency environment.",
-        "Workflow Implementation: Built and orchestrated core backend automation systems using n8n, Supabase databases, and API structures over a VPS, optimizing digital communication funnels for scalability.",
-        "Led the AI data strategy, structuring automated scraping routines across blogs, Google Maps, and web sources to collect, centralize, and organize business data that was previously fragmented across the web.",
-        "Drove business development and B2B partnerships, leading the prospecting of partner venues, pitching the value proposition (AI-driven visibility), and closing the initial commercial contracts."
+        "Go-to-Market (GTM) e Lançamento de 0 a 1: Desenhou e lançou o piloto do 'Meu Barzin Pass'. Definiu o posicionamento e a proposta de valor para diferentes públicos (estabelecimentos e usuários), validando a estratégia de negocio B2B com os bares locais e B2C com os assinantes.",
+        "IA Generativa e Mídia Paga: Conduziu campanhas de aquisição (Meta Ads) conectadas ao posicionamento do produto. Utilizou ChatGPT e Claude na geração de insights para estruturar fluxos de automação e mensagens.",
+        "Otimização de Funil e Testes A/B: Conquistou base de 505 leads com 22.3% de engajamento profundo. Mapeou objeções e motivadores de compra, realizando testes A/B de mensagens que otimizaram o funil de aquisição."
       ]
     },
     {
       "company": "AK Branding & Web Design",
-      "role": "Founder & Marketing Project Consultant",
-      "dates": "March 2019 – September 2024",
+      "role": "Founder & Product Marketing Consultant",
+      "dates": "Março 2019 – Setembro 2024",
       "location": "Curitiba, PR",
       "bullets": [
-        "Budget & Timeline Controls: Controlled project scopes and financial budgets for multiple concurrent accounts, coordinating internal workflows and managing specialized resource execution to prevent project roadblocks.",
-        "Agency Account Leadership: Managed a specialized boutique agency focused on SMBs, leading the complete client onboarding transition and directing web development, brand identity, and positioning projects from conception to final delivery.",
-        "Digital Campaign Optimization: Engineered high-converting web assets, e-commerce landing pages, and search optimization (SEO) roadmaps, applying UX writing principles to align customer journeys with client growth objectives."
+        "Gestão de Portfólio e Posicionamento (40+ Projetos): Liderou estratégias de marketing de produto, testes de usabilidade e posicionamento para clientes, traduzindo insights de consumidores em direcionamentos de mídia e conteúdo.",
+        "CRO, Testes A/B e Conversão (+250% em Leads): Otimizou ofertas e copys que elevaram contatos de 8 para 20-30/mês (+250%) e desenhou um e-commerce do zero (R$ 10k faturados em 3 meses)."
       ]
     },
     {
       "company": "Munzner",
-      "role": "Marketing Automation & Campaign Specialist",
-      "dates": "October 2018 – August 2024",
+      "role": "Growth Marketing Specialist",
+      "dates": "Outubro 2018 – Agosto 2024",
       "location": "Curitiba, PR",
       "bullets": [
-        "Funnel Coordination & CRM Integration: Automated communication pipelines and lead generation workflows between Bitrix24 and Sendpulse CRMs via webhooks, enhancing internal project tracking and execution efficiency.",
-        "Specialized in the global Thinking Environment methodology to build high-impact technical narratives, applying active listening and facilitation concepts to create strategic content for social media, brand positioning, and paid media.",
-        "Optimized commercial workflows and CRM automations via API/Webhooks, structuring intelligent lead nurturing flows to maximize sales conversion and reduce friction along the customer journey."
+        "Lançamento de Produto (ROI 1.0x-1.5x): Liderou o GTM de um curso digital. Conduziu pesquisas de mercado para mapear objeções e ajustar a mensagem-chave, gerando 50 vendas nos 2 primeiros meses.",
+        "Automação e Sales Enablement (~R$ 50k em Receita): Estruturou funil automatizado de e-mail marketing. Desenvolveu materiais e pitchs que apoiaram diretamente o time comercial na conversão de formações high-ticket de R$ 5.000."
       ]
     }
   ],
   "skills": [
     {
-      "category": "Project & Stakeholder Management",
+      "category": "Product Management & GTM",
       "skills": [
-        "PMO Guidelines",
-        "Agile Methodologies (Kanban, Scrum)",
-        "Project Schedules",
-        "Gantt Charts",
-        "Vendor Administration",
-        "Budget Controls"
+        "Estratégia Go-to-Market (GTM)",
+        "Product Marketing & Posicionamento",
+        "Sales Enablement (Pitch, Cases)",
+        "Product Discovery e Pesquisa",
+        "Jornada do Cliente e Funil",
+        "Mapeamento de Objeções"
       ]
     },
     {
-      "category": "Sales Enablement & Learning",
+      "category": "Inteligência Artificial & Ferramentas",
       "skills": [
-        "Program Coordination",
-        "Call Listening & Structured Feedback",
-        "Sales Excellence",
-        "Facilitação (Thinking Environment / Art of Hosting)",
-        "Stakeholder Management"
+        "Claude / Claude Code / ChatGPT",
+        "Geração de Insights com IA",
+        "Pesquisa com IA Generativa",
+        "Meta Ads",
+        "Automação de CRM",
+        "Power BI"
       ]
     },
     {
-      "category": "Automation & AI",
+      "category": "UX/UI, CRO & Dados",
       "skills": [
-        "n8n",
-        "Make",
-        "Botpress",
-        "Native AI Workflows",
-        "API/Webhook Integrations"
+        "Testes A/B e Otimização (CRO)",
+        "Copywriting Estratégico",
+        "Métricas de Funil (CAC, LTV)",
+        "Tradução de Insights p/ Criação",
+        "Análise da Concorrência",
+        "Estratégia de Lançamento"
       ]
     },
     {
-      "category": "Data & Tools",
+      "category": "Mercados & Diferenciais",
       "skills": [
-        "Business Intelligence (Power BI/Tableau)",
-        "Advanced Excel",
-        "Supabase (Database)",
-        "Prompt Engineering",
-        "Figma",
-        "MS Office"
+        "E-commerce & Marketplaces",
+        "Comunicação Cross-functional",
+        "Capacidade Analítica",
+        "Metodologias Ágeis",
+        "Adequação LGPD"
       ]
     }
   ],
   "education": [
     {
       "institution": "Universidade Federal do Paraná (UFPR)",
-      "degree": "Bachelor's Degree and Licentiate in Philosophy",
+      "degree": "Bacharelado e Licenciatura em Filosofia",
       "dates": "2018 – 2023"
     },
     {
       "institution": "Recanto da Filosofia Clínica",
-      "degree": "Specialization in Clinical Philosophy",
-      "dates": "January 2023 – December 2024"
+      "degree": "Especialização em Filosofia Clínica",
+      "dates": "Janeiro 2023 – Dezembro 2024"
     },
     {
       "institution": "Universidade Federal do Paraná / UTFPR",
-      "degree": "STEM Track - Electrical and Electronics Engineering (Incomplete)",
+      "degree": "Engenharia Elétrica / Eletrônica (Incompleto)",
       "dates": "2012 – 2015"
     }
   ],
@@ -121,35 +117,36 @@
     {
       "name": "Google Project Management Professional Certificate",
       "issuer": "Coursera / Google",
-      "status": "In progress - Started September 2025"
+      "status": "Em andamento / Iniciado em Setembro 2025"
     },
     {
       "name": "Meta Certified Media Planning Professional",
       "issuer": "Meta",
-      "status": "Active"
+      "status": "Ativo"
     },
     {
       "name": "Meta Certified Digital Marketing Associate",
       "issuer": "Meta",
-      "status": "Active"
+      "status": "Ativo"
     },
     {
-      "name": "Thinking Environment Facilitator",
+      "name": "Facilitador de Thinking Environment",
       "issuer": "Munzner",
-      "status": "May 2020"
+      "status": "Maio 2020"
     }
   ],
   "languages": [
     {
-      "language": "English",
-      "proficiency": "Advanced / Professional Full Proficiency (Daily corporate use for technical reporting, international team coordination, and stakeholder alignment)"
+      "language": "Inglês",
+      "proficiency": "Avançado / Profissional (Uso diário corporativo para relatórios, coordenação internacional e alinhamento de stakeholders)"
     },
     {
-      "language": "Portuguese",
-      "proficiency": "Native"
+      "language": "Português",
+      "proficiency": "Nativo"
     }
   ],
   "additional_information": [
-    "Industry Context: Practical familiarity and tracking of the routine, operational challenges, and consumption habits of services and supplies in private dental clinics, providing a useful complementary perspective for understanding this market channel."
+    "Vivência no Mercado Imobiliário (Real Estate): Familiaridade prática com o setor imobiliário por acompanhamento familiar, tendo inclusive desenvolvido a plataforma web da imobiliária (https://ebvimoveiscuritiba.com.br/).",
+    "Impacto Social & Voluntariado: Atuação por 3 anos no Global Shapers Curitiba (Fórum Econômico Mundial, 2018-2021), Embaixador no TETO Brasil (liderou campanha do Catarse arrecadando R$ 19 mil em 45 dias para casas emergenciais)."
   ]
 }
