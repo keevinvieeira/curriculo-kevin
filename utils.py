@@ -27,8 +27,8 @@ SECTION_TITLES = {
     "pt": {
         "summary": "Resumo Profissional",
         "experience": "Experiência Profissional",
-        "skills": "Competências",
-        "education": "Formação Acadêmica",
+        "skills": "Habilidades",
+        "education": "Education",
         "certifications": "Certificações",
         "languages": "Idiomas",
         "additional_info": "Informações Adicionais"
@@ -36,8 +36,8 @@ SECTION_TITLES = {
     "en": {
         "summary": "Professional Summary",
         "experience": "Professional Experience",
-        "skills": "Core Competencies",
-        "education": "Education & Academic Background",
+        "skills": "Skills",
+        "education": "Education",
         "certifications": "Certifications",
         "languages": "Languages",
         "additional_info": "Additional Information"
@@ -95,8 +95,10 @@ class JobMaterials(BaseModel):
     cover_letter: str = Field(description="A tailored, professional cover letter for the role.")
     form_answers: List[FormAnswer] = Field(description="A list of helpful prepared responses for common application form questions.")
 
-def get_client(api_key: Optional[str] = None) -> genai.Client:
+def get_client(api_key: Optional[str] = None):
     """Initialize and return the Google GenAI client."""
+    if genai is None:
+        raise RuntimeError("google-genai não está instalado neste ambiente.")
     key = api_key or os.getenv("GEMINI_API_KEY")
     if not key:
         raise ValueError("Gemini API Key not found. Please set the GEMINI_API_KEY in your environment, .env file, or enter it in the app.")

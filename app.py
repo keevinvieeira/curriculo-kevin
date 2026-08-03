@@ -86,11 +86,19 @@ st.markdown("""
             margin-bottom: 1.5rem;
         }
         .preview-container {
-            background-color: #ffffff !important;
-            padding: 15px;
-            border-radius: 8px;
+            background-color: #e2e8f0 !important;
+            padding: 24px 16px;
+            border-radius: 10px;
             border: 1px solid #cbd5e0;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            box-shadow: inset 0 1px 3px rgba(0,0,0,0.06);
+            margin-top: 0.5rem;
+            margin-bottom: 1rem;
+        }
+        /* iframe do currículo ocupa a largura e parece papel A4 */
+        .preview-container iframe {
+            background: #ffffff !important;
+            border-radius: 4px;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.12), 0 2px 6px rgba(0,0,0,0.08);
         }
     </style>
 """, unsafe_allow_html=True)
@@ -388,11 +396,11 @@ with tab_studio:
                         st.success(f"Candidatura para {company_name} registrada com sucesso!")
                         st.rerun()
             
-            st.info(f"💡 Exibindo currículo adaptado em **{doc_lang}**.")
+            st.info(f"💡 Exibindo currículo adaptado em **{doc_lang}** — layout **1 coluna** (modelo ATS). Role para ver as páginas.")
             
-            # Visual Preview with explicit white paper container to fix dark mode issues
+            # Visual Preview — papel A4 em container cinza para contraste
             st.markdown('<div class="preview-container">', unsafe_allow_html=True)
-            st.components.v1.html(html_content, height=800, scrolling=True)
+            st.components.v1.html(html_content, height=1100, scrolling=True)
             st.markdown('</div>', unsafe_allow_html=True)
             
         # Render Markdown version
