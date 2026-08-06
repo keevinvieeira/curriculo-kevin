@@ -6,17 +6,17 @@
   "linkedin": "https://www.linkedin.com/in/kevin-augusto/",
   "github": "",
   "website": "",
-  "summary": "Profissional Sênior em Product Marketing, Growth e Go-to-Market (GTM) B2B, com mais de 8 anos de experiência atuando na ponte entre Engenharia, Produto e Comercial. Especialista em traduzir soluções complexas de tecnologia e Inteligência Artificial em narrativas de valor executivo, apresentações estratégicas, whitepapers e materiais de Sales Enablement. Possui bagagem acadêmica em Engenharia e Filosofia (UFPR/UTFPR), unindo raciocínio técnico-estruturado a uma comunicação executiva clara. Domínio avançado de ferramentas de IA generativa (Claude, ChatGPT) para pesquisa de mercado, síntese e criação de conteúdo. Residente em Curitiba/PR, com histórico comprovado na liderança de adoção de IA na Meta/Wipro (operação #1 global) e execução de estratégias de demanda B2B.",
+  "summary": "Profissional Sênior com mais de 8 anos de experiência em Go-to-Market (GTM), Product Marketing e Governança de Lançamentos (PMO), especialista na orquestração matricial e lançamento de produtos de 0 a 1. Detentor da certificação Google Project Management, possui sólida atuação como gestor principal de lançamentos GTM, alinhando equipes de Produto, Marketing, CRM, Vendas e Customer Success por meio de briefings detalhados e rituais de governança. Referência em Sales Enablement, criação de manuais, scripts, FAQs e guias de abordagem comercial, com histórico comprovado na liderança de adoção na Meta/Wipro (operação #1 global) e lançamentos no setor de e-commerce e tecnologia B2B. Residente em Curitiba/PR.",
   "experience": [
     {
       "company": "Wipro Brasil",
-      "role": "Product Marketing Coordinator / AI Enablement Expert (Meta)",
+      "role": "Go-to-Market & Enablement Manager (Projeto Meta)",
       "dates": "Setembro 2024 – Julho 2026",
       "location": "Curitiba, PR",
       "bullets": [
-        "Sales Enablement & Tradução Técnica (Meta): Liderou o GTM interno e o Sales Enablement com apoio direto ao time comercial (consultores de vendas Meta). Traduziu soluções técnicas e ferramentas de IA no CRM em treinamentos, guias de argumentação e bibliotecas de prompts, elevando a adoção de IA (+150%) e tornando a operação #1 em crescimento na Meta globalmente.",
-        "Treinamento & Capacitação Comercial (-50% Ramp-up): Idealizou e governou o programa de enablement focado na alta performance do time comercial. Reduziu o tempo de ramp-up de 6 para 3 meses (-50%), apoiando a equipe a converter em Top Performers com pitches e apresentações estratégicas.",
-        "Estratégia Cross-functional (Wipro/Meta): Traduziu diretrizes complexas de produto em treinamentos práticos, colaborando cross-functional para garantir alinhamento entre times técnicos, marketing e metas de vendas."
+        "PMO de Lançamentos & Sales Enablement (Meta): Liderou o GTM interno e a governança de lançamentos com apoio direto ao time comercial. Criou enxovais completos de enablement (scripts, FAQs, guias de argumentação e bibliotecas de prompts), acelerando a adoção de produtos de IA (+150%) e tornando a operação #1 em crescimento global na Meta.",
+        "Orquestração Matricial & Ramp-up (-50%): Idealizou e governou o programa de enablement (Next Level Bootcamp) sob diretrizes rígidas de PMO, gerenciando cronogramas e marcos. Reduziu o tempo de ramp-up de 6 para 3 meses (-50%), apoiando o time de vendas a converter em Top Performers.",
+        "Governança de Projetos & Métricas: Coordenou rituais de alinhamento entre times de produto, qualidade e vendas, acompanhando dashboards analíticos em Power BI para reportar visibilidade executiva e performance de adoção."
       ]
     },
     {
@@ -25,7 +25,7 @@
       "dates": "Dezembro 2025 – Março 2026",
       "location": "Curitiba, PR",
       "bullets": [
-        "Go-to-Market (GTM) e Lançamento de 0 a 1: Desenhou e lançou o piloto do 'Meu Barzin Pass'. Definiu o posicionamento e a proposta de valor para diferentes públicos (estabelecimentos e usuários), validando a estratégia de negocio B2B com os bares locais.",
+        "Go-to-Market (GTM) e Lançamento de 0 a 1: Desenhou e liderou o GTM do piloto 'Meu Barzin Pass'. Definiu o posicionamento, mensagens-chave e plano de ativação para parceiros B2B e assinantes B2C, orquestrando fluxos no CRM e canais de aquisição.",
         "IA Generativa e Marketing B2B: Conduziu campanhas de aquisição (Meta Ads) conectadas ao posicionamento do produto. Utilizou ChatGPT e Claude na geração de insights para estruturar apresentações B2B, fluxos de automação e comunicação com parceiros.",
         "Otimização de Funil e Testes A/B: Conquistou base de 505 leads com 22.3% de engajamento profundo. Mapeou objeções e motivadores de compra, realizando testes A/B de mensagens que otimizaram o funil de aquisição."
       ]
@@ -37,7 +37,7 @@
       "location": "Curitiba, PR",
       "bullets": [
         "Gestão de Portfólio e Posicionamento (40+ Projetos): Liderou estratégias de marketing de produto, testes de usabilidade e posicionamento para clientes, traduzindo insights de consumidores em direcionamentos de mídia e conteúdo.",
-        "CRO, Testes A/B e Conversão (+250% em Leads): Otimizou ofertas e copys que elevaram contatos de 8 para 20-30/mês (+250%) e desenhou um e-commerce do zero (R$ 10k faturados em 3 meses)."
+        "E-commerce & CRO (0 a 1): Liderou estratégias de GTM e conversão para mais de 40 projetos, desenvolvendo um e-commerce do zero (R$ 10k faturados nos primeiros 3 meses) e otimizando réguas de comunicação e landing pages."
       ]
     },
     {
@@ -55,23 +55,23 @@
     {
       "category": "Product Management & GTM",
       "skills": [
-        "Product Marketing B2B & GTM",
-        "Tradução de Tecnologia & IA p/ Negócios",
-        "Sales Enablement & Comunicação Executiva",
-        "Apresentações Estratégicas & Whitepapers",
-        "Product Discovery & Pesquisa B2B",
-        "Jornada do Cliente & Posicionamento"
+        "Estratégia Go-to-Market (GTM) & PMO",
+        "Orquestração Matricial (Produto, Mkt, Vendas, CS)",
+        "Sales Enablement (Scripts, FAQs, One-Pagers)",
+        "Gestão de Lançamentos & Cronogramas",
+        "Priorização de Backlog & Roadmap",
+        "Métricas de Adoção & Performance"
       ]
     },
     {
-      "category": "Inteligência Artificial & Ferramentas",
+      "category": "Metodologias & Ferramentas",
       "skills": [
+        "Google Project Management Professional",
         "Claude / Claude Code / ChatGPT",
-        "Geração de Insights com IA",
-        "Pesquisa & Síntese com IA Generativa",
-        "Meta Ads",
-        "Automação de CRM & Workflows",
-        "Power BI"
+        "Automação de CRM & Réguas de Comunicação",
+        "Meta Ads & Inbound Marketing",
+        "Power BI & Dashboards",
+        "Metodologias Ágeis (Scrum/Kanban)"
       ]
     },
     {
@@ -88,11 +88,11 @@
     {
       "category": "Mercados & Diferenciais",
       "skills": [
-        "Mercado de Tecnologia & IA B2B",
-        "E-commerce & Marketplaces",
-        "Residência em Curitiba/PR (Híbrido)",
-        "Comunicação Cross-functional (Engenharia/Comercial)",
-        "Capacidade Analítica & Estruturação Lógica"
+        "Sistemas de Gestão (ERP) & E-commerce",
+        "Residência em Curitiba/PR (Sede Olist)",
+        "Liderança sem Autoridade Direta",
+        "Capacidade Analítica & Governança",
+        "Adequação LGPD"
       ]
     }
   ],
@@ -146,6 +146,6 @@
     }
   ],
   "additional_information": [
-    "Residência & Disponibilidade: Residente em Curitiba/PR com total disponibilidade para o modelo de trabalho híbrido na sede da empresa."
+    "Residência & Certificação: Residente em Curitiba/PR (disponibilidade híbrida na sede do Olist) | Certificação Google Project Management Professional Certificate (Coursera / Google)."
   ]
 }
