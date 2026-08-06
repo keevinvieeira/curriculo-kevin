@@ -6,48 +6,48 @@
   "linkedin": "https://www.linkedin.com/in/kevin-augusto/",
   "github": "",
   "website": "",
-  "summary": "Profissional Sênior com mais de 8 anos de experiência em Product Marketing, Growth e Product-Led Growth (PLG) em produtos digitais e SaaS. Especialista no mapeamento da jornada do cliente, identificação de pontos de fricção e abandono (drop-offs), e condução de experimentos para acelerar ativação, engajamento e expansão (cross-sell). Possui bagagem acadêmica em Engenharia (UTFPR/UFPR 2,5 anos), garantindo fluência técnica para transitar com facilidade entre times de Engenharia, Produto, Lifecycle, CS e Marketing. Sólida capacidade analítica em dados de produto (funis, retenção) e automação de fluxos de engajamento, com histórico em ecossistemas de e-commerce e soluções B2B.",
+  "summary": "Product Manager Sênior com mais de 8 anos de experiência liderando a visão, estratégia e ciclo de vida de produtos digitais (Discovery & Delivery) de 0 a 1 em ecossistemas B2B2C e plataformas de tecnologia. Especialista na aplicação ativa de IA generativa (Claude, ChatGPT) para acelerar discovery, documentação de requisitos e análise comportamental de dados. Forte orientação a métricas de negócio e produto (engajamento, retenção, monetização), com experiência prática em análise de dados (Power BI, SQL e bancos relacionais), testes de hipóteses e alinhamento de roadmap em squads multidisciplinares (Engenharia, Design, Dados). Histórico na concepção de plataformas educacionais e soluções digitais em escala.",
   "experience": [
     {
       "company": "Wipro Brasil",
-      "role": "Product Marketing & Enablement Specialist (Projeto Meta)",
+      "role": "Product Manager & Enablement Expert (Projeto Meta)",
       "dates": "Setembro 2024 – Julho 2026",
       "location": "Curitiba, PR",
       "bullets": [
-        "Jornada de Adoção & Enablement (Meta): Liderou estratégias de ativação e adoção de ferramentas de IA no CRM. Mapeou pontos de fricção no uso diário do produto e desenvolveu materiais de orientação e suporte, reduzindo o tempo de produtividade de 6 para 3 meses (-50%) e impulsionando a adoção em +150%.",
-        "Coordenação Cross-functional: Atuou como a ponte entre times de Produto, Engenharia, Qualidade e Linha de Frente, traduzindo necessidades dos usuários em requisitos de melhoria e rituais de alinhamento contínuo.",
-        "Análise de Dados de Adoção: Acompanhou dashboards em Power BI para monitorar métricas de uso e engajamento, identificando gargalos na jornada e ajustando planos de capacitação com base em evidências."
+        "Estratégia de Produto & Adoção (Meta): Liderou a evolução e o alinhamento estratégico de produtos de IA no CRM da Meta. Definindo a visão e o roadmap de adoção para os usuários, o que elevou o uso em +150% e tornou a operação #1 em crescimento global.",
+        "Discovery & Squads Multidisciplinares: Conduziu etapas de discovery e alinhamento continuo em parceria com Engenharia, Design e Dados. Reduziu o tempo de ramp-up dos usuários de 6 para 3 meses (-50%), promovendo rituais de priorização e entregas de alto impacto.",
+        "Dados & Métricas de Sucesso: Definiu e acompanhou métricas de engajamento e performance utilizando dashboards em Power BI e investigações analíticas para direcionar decisões de produto baseadas em dados."
       ]
     },
     {
       "company": "Meu Barzin (Startup)",
-      "role": "Product Marketing Manager",
+      "role": "Product Manager",
       "dates": "Dezembro 2025 – Março 2026",
       "location": "Curitiba, PR",
       "bullets": [
-        "PLG & Mapeamento de Jornada de Uso: Desenhou e lançou o piloto do 'Meu Barzin Pass'. Mapeou a jornada do usuário no produto, analisou dados de funil profundo identificando pontos de abandono (drop-offs) e estruturou experimentos de atração e retenção.",
-        "IA Generativa e Marketing B2B: Conduziu campanhas de aquisição (Meta Ads) conectadas ao posicionamento do produto. Utilizou ChatGPT e Claude na geração de insights para estruturar apresentações B2B, fluxos de automação e comunicação com parceiros.",
-        "Otimização de Funil e Testes A/B: Conquistou base de 505 leads com 22.3% de engajamento profundo. Mapeou objeções e motivadores de compra, realizando testes A/B de mensagens que otimizaram o funil de aquisição."
+        "Concepção de Produto de 0 a 1: Liderou a estratégia, discovery e lançamento do piloto do 'Meu Barzin Pass' (solução B2B2C). Mapeou a jornada do usuário e validou hipóteses de monetização e tração.",
+        "Arquitetura de Dados & IA em Produto: Desenhou fluxos conversacionais e regras de IA generativa (RAG) integradas a bancos relacionais (Supabase, MySQL) e APIs, mitigando inconsistências de resposta.",
+        "Métricas & Funil de Conversão: Conquistou base de 505 leads com 22.3% de engajamento em funil profundo. Conduziu análises quantitativas de drop-offs de API (43,9% de latência) para direcionar melhorias no produto."
       ]
     },
     {
       "company": "AK Branding & Web Design",
-      "role": "Product Marketing Consultant",
+      "role": "Product Consultant",
       "dates": "Março 2019 – Setembro 2024",
       "location": "Curitiba, PR",
       "bullets": [
-        "Gestão de Portfólio e Posicionamento (40+ Projetos): Liderou estratégias de marketing de produto, testes de usabilidade e posicionamento para clientes, traduzindo insights de consumidores em direcionamentos de mídia e conteúdo.",
-        "E-commerce & Otimização de Jornada: Liderou projetos de Product Marketing e CRO em mais de 40 soluções digitais, otimizando fluxos de onboarding, formulários e landing pages para aumentar a conversão e o engajamento dos usuários."
+        "Gestão de Portfólio de Produtos (40+ Projetos): Liderou o ciclo de desenvolvimento e UX de mais de 40 soluções digitais e e-commerces, definindo escopo, visão de produto e priorização de backlog.",
+        "CRO & Testes de Hipóteses: Conduziu experimentos A/B e otimizações de interface que elevaram as taxas de conversão de contatos de 8 para 20-30/mês (+250%), além de lançar e-commerce do zero com faturamento de R$ 10k nos primeiros 3 meses."
       ]
     },
     {
       "company": "Munzner",
-      "role": "Growth Marketing Specialist",
+      "role": "Product & Growth Specialist",
       "dates": "Outubro 2018 – Agosto 2024",
       "location": "Curitiba, PR",
       "bullets": [
-        "Lançamento de Produto (ROI 1.0x-1.5x): Liderou o GTM de um curso digital. Conduziu pesquisas de mercado para mapear objeções e ajustar a mensagem-chave, gerando 50 vendas nos 2 primeiros meses.",
-        "Inbound Marketing e Anúncios (~R$ 50k em Receita): Estruturou estratégia de Inbound Marketing e campanhas de anúncios (Meta Ads) integradas a funil automatizado de e-mail marketing (10 etapas). Atraiu 10.000+ acessos e converteu alunos em formações presenciais de R$ 5.000."
+        "Plataforma Educacional (LMS) de 0 a 1: Liderou a visão de produto e o lançamento da primeira plataforma digital de ensino (LMS/WordPress) para a metodologia Thinking Environment, gerando 50 vendas nos 2 primeiros meses.",
+        "Funil de Engajamento & Retenção (~R$ 50k): Estruturou jornada educacional automatizada de 10 etapas integrando e-mail marketing e conteúdos, atraindo 10.000+ acessos e convertendo alunos em formações de alto valor."
       ]
     }
   ],
@@ -55,23 +55,23 @@
     {
       "category": "Product Management & GTM",
       "skills": [
-        "Product-Led Growth (PLG) & Jornada do Cliente",
-        "Mapeamento de Funil, Adoção e Retenção",
-        "Análise de Dados Comportamentais & Drop-offs",
-        "Experimentos de Ativação & Cross-sell",
-        "Coordenação Cross-functional (Produto, Tech, CS)",
-        "Lifecycle Marketing & Automações"
+        "Product Management (Discovery & Delivery)",
+        "Estratégia de Produto, Visão & Roadmap",
+        "Métricas de Produto (Engajamento, Retenção, Monetização)",
+        "Aplicação Ativa de IA em Produto (Claude, ChatGPT)",
+        "Análise de Dados & SQL (Power BI, Supabase/MySQL)",
+        "Testes de Hipóteses & Experimentos"
       ]
     },
     {
-      "category": "Ferramentas & Fluência Técnica",
+      "category": "Ferramentas & Metodologias",
       "skills": [
-        "Fluência Técnica (Engenharia UTFPR/UFPR)",
-        "Claude / ChatGPT (IA Generativa)",
-        "Automação de CRM & Triggers",
-        "Power BI & Análise de Eventos",
-        "Meta Ads & Inbound Marketing",
-        "Pesquisa Qualitativa & UX"
+        "Claude / ChatGPT (Discovery & Documentação)",
+        "SQL & Bancos Relacionais (MySQL, Supabase)",
+        "Power BI & Analytics",
+        "Metodologias Ágeis (Scrum/Kanban)",
+        "Google Project Management (Certificação)",
+        "Frameworks de Priorização & Discovery"
       ]
     },
     {
@@ -88,10 +88,10 @@
     {
       "category": "Mercados & Diferenciais",
       "skills": [
-        "SaaS ERP & Ecossistema de E-commerce",
-        "Background em Engenharia & Filosofia",
-        "Liderança por Influência & Diálogo Técnico",
-        "Trabalho 100% Remoto",
+        "Edtechs & Produtos B2B2C em Escala",
+        "Plataformas & Ecossistemas Digitais",
+        "Fluência Técnica (Engenharia UTFPR/UFPR)",
+        "Trabalho 100% Remoto em Squads",
         "Adequação LGPD"
       ]
     }

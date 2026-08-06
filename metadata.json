@@ -1,16 +1,16 @@
 {
-  "company_name": "Bling (LWSA)",
-  "role_title": "Especialista de Product Marketing - Jornadas (PLG)",
-  "url": "https://bling.gupy.io/",
-  "fit_score": 96,
-  "salary_expectation": "R$ 14.000 - R$ 18.000 /mês (CLT / Remoto)",
+  "company_name": "Arco Educação (Arcotech)",
+  "role_title": "Product Manager II",
+  "url": "https://arcoeducacao.gupy.io/",
+  "fit_score": 95,
+  "salary_expectation": "R$ 15.000 - R$ 19.000 /mês (CLT / Remoto)",
   "good_points": [
-    "Background em Engenharia (UTFPR/UFPR 2,5 anos) que garante fluência técnica para transitar entre Engenharia, Produto e Comercial (diferencial explícito da vaga).",
-    "Vivência em Product-Led Growth (PLG), mapeamento de jornadas de uso do cliente e identificação de gargalos de adoção/retenção.",
-    "Forte capacidade analítica de dados comportamentais (funis profundos, retenção, drop-offs) e condução de testes A/B.",
-    "Atuação como ponte cross-functional entre Produto, Lifecycle, CS e Marketing para traduzir insights em backlog acionável."
+    "Sólida experiência em Product Management (Discovery & Delivery) em produtos digitais de 0 a 1 e ecossistemas B2B2C.",
+    "Uso ativo e diário de IA Generativa (Claude, ChatGPT, RAG) no fluxo de trabalho de produto (discovery, documentação, hipóteses).",
+    "Forte capacidade analítica com dados e métricas de produto (engajamento, retenção, monetização), utilizando Power BI, SQL e bancos relacionais.",
+    "Vivência em produtos educacionais e capacitação (Munzner LMS/infoprodutos e governança de programas de treinamento na Wipro)."
   ],
   "improvement_points": [
-    "Enfatizar a análise de dados comportamentais de produto (funis e cohorts) junto com o ferramental de automação de CRM."
+    "Reforçar a atuação direta com consultas SQL e analytics na definição de métricas norteadoras de produto (North Star Metric)."
   ]
 }
