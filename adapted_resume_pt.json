@@ -6,7 +6,7 @@
   "linkedin": "https://www.linkedin.com/in/kevin-augusto/",
   "github": "",
   "website": "",
-  "summary": "Especialista Sênior em Sales & Revenue Enablement, com mais de 8 anos de experiência desenvolvendo programas de onboarding comercial, playbooks de vendas e capacitação contínua para times diretos e parceiros (BDRs, SDRs, AEs). Comprovada atuação na redução do tempo de ramp-up comercial de 6 para 3 meses (-50%) e no desenvolvimento de materiais estratégicos (frameworks de diagnóstico, guias de argumentação, contorno de objeções, scripts e roleplays). Orientado a dados de pipeline, utiliza inteligência conversacional (IA/análise de chamadas) e dashboards em Power BI para identificar lacunas de performance e aplicar planos de coaching. Fluente em Inglês, com bagagem no setor de e-commerce e tecnologia em escala.",
+  "summary": "Profissional Sênior com mais de 8 anos de experiência em Marketing, Growth e Enablement de Produtos e Vendas. Na Wipro (projeto Meta), liderou o programa de onboarding e capacitação contínua para equipes comerciais de consultores, reduzindo o tempo de ramp-up de 6 para 3 meses (-50%). Especialista no desenvolvimento de materiais de apoio às vendas, guias de argumentação, contorno de objeções, scripts e treinamentos práticos. Orientado a dados, utiliza análise de interações e dashboards em Power BI para identificar lacunas de performance. Fluente em Inglês, com vivência no ecossistema de e-commerce e soluções digitais.",
   "experience": [
     {
       "company": "Wipro Brasil",
@@ -14,9 +14,9 @@
       "dates": "Setembro 2024 – Julho 2026",
       "location": "Curitiba, PR",
       "bullets": [
-        "Sales Enablement & Ramp-up (-50%): Idealizou e governou o programa de onboarding e enablement (Next Level Bootcamp) para o time comercial da Meta. Reduziu o tempo de ramp-up de 6 para 3 meses (-50%), apoiando a equipe a converter em Top Performers com 90%+ de qualidade em auditorias.",
-        "Playbooks & Materiais de Vendas: Criou playbooks de vendas completos, guias de argumentação, frameworks de contorno de objeções, scripts e bibliotecas de prompts, elevando a adoção de soluções de IA no CRM (+150%) e tornando a operação #1 em crescimento global.",
-        "Coaching & Análise de Performance: Conduziu rituais de alinhamento com lideranças comerciais e utilizou inteligência conversacional (IA/análise de interações) e Power BI para identificar gargalos de conversão e direcionar treinamentos práticos."
+        "Enablement Comercial & Ramp-up (-50%): Idealizou e governou o programa de onboarding e enablement (Next Level Bootcamp) para a equipe comercial de consultores da Meta. Reduziu o tempo de ramp-up de 6 para 3 meses (-50%), apoiando o time a converter em Top Performers com 90%+ de qualidade em auditorias.",
+        "Materiais de Vendas & Guia de Objeções: Criou guias de argumentação, frameworks de contorno de objeções, scripts e bibliotecas de prompts no CRM, elevando a adoção de IA (+150%) e tornando a operação #1 em crescimento na Meta globalmente.",
+        "Coaching & Análise de Métricas: Conduziu rituais de acompanhamento e utilizou análise de interações e Power BI para identificar gargalos de conversão e direcionar ações de capacitação."
       ]
     },
     {
@@ -54,12 +54,12 @@
     {
       "category": "Product Management & GTM",
       "skills": [
-        "Sales Enablement & Revenue Enablement",
-        "Playbooks de Vendas (BDR, SDR, AE, Parceiros)",
+        "Sales & Revenue Enablement",
         "Programas de Onboarding Comercial & Ramp-up",
-        "Frameworks de Diagnóstico & Contorno de Objeções",
-        "Inteligência Conversacional & Coaching (Gong/IA)",
-        "Análise de Métricas de Pipeline & Performance"
+        "Guias de Argumentação & Contorno de Objeções",
+        "Materiais de Apoio às Vendas & Scripts",
+        "Análise de Interações & Coaching",
+        "Métricas de Performance & Pipeline"
       ]
     },
     {
