@@ -1,16 +1,16 @@
 {
-  "company_name": "Nuvemshop",
-  "role_title": "Sales & Partner Enablement Specialist",
-  "url": "https://www.nuvemshop.com.br/carreiras",
-  "fit_score": 99,
-  "salary_expectation": "R$ 13.000 - R$ 17.000 /mês (CLT / Remoto)",
+  "company_name": "Hopper (HTS)",
+  "role_title": "Principal Product Manager - HTS API Marketplace",
+  "url": "https://www.hopper.com/careers",
+  "fit_score": 97,
+  "salary_expectation": "$8,000 - $12,000 USD / mês (Remoto Internacional)",
   "good_points": [
-    "Encaixe cirúrgico de 99%: Histórico comprovado em Sales Enablement e Onboarding comercial (Wipro/Meta), reduzindo o tempo de ramp-up de 6 para 3 meses (-50%).",
-    "Elaboração de playbooks de vendas, guias de argumentação, frameworks de diagnóstico, contorno de objeções e dinâmicas de roleplay.",
-    "Conhecimento prático no setor de e-commerce (desenvolvimento de e-commerce de 0 a 1) alinhado ao ecossistema da Nuvemshop.",
-    "Inglês fluente para trabalho diário com stakeholders globais, aliado a uma mentalidade orientada a dados de pipeline e Power BI."
+    "Perfil AI-Native & Vibe Coding: Encaixe direto com o requisito de usar LLMs e prototipação rápida (Claude, ChatGPT, low-code/APIs mockadas) para testar fluxos antes da engenharia.",
+    "Mais de 8 anos de experiência em Product Management 0-a-1: Concepção e lançamento de produtos digitais B2B e integrações de API (Meu Barzin Pass, Stripe, WhatsApp API, 40+ projetos).",
+    "Bagagem Técnica: 2,5 anos de Engenharia (UTFPR/UFPR) + Filosofia (UFPR), garantindo fluência para documentação de APIs, consultas SQL e diálogo técnico com engenheiros.",
+    "Inglês Fluente: Total capacidade de comunicação executiva, redação de documentações de API e gestão de parceiros enterprise globais."
   ],
   "improvement_points": [
-    "Ressaltar o uso de inteligência conversacional (IA/Gong) para análise de chamadas e coaching baseado em evidências."
+    "Destacar a empacotamento comercial de APIs e modelos de precificação de plataforma (take rates/unit economics) ao lado da prototipação rápida."
   ]
 }
