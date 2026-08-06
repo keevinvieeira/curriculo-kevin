@@ -3,7 +3,7 @@
   "form_answers": [
     {
       "question": "Como você estruturalmente planeja e executa um lançamento de GTM (PMO de Lançamento)?",
-      "answer": "Utilizo frameworks de Gestão de Projetos (metodologia Google PMO) divididos em 4 etapas:\n1. Alinhamento & Briefing: Definição clara de público-alvo, proposta de valor, cronograma e matriz RACI com Produto, Marketing, CRM, Vendas e CS.\n2. Enxoval de Sales Enablement: Produção de materiais de apoio para linha de frente (scripts, FAQs, one-pagers, guias de objeções).\n3. Rituais de Governança: Reuniões semanais de acompanhamento de riscos, dependências e marcos de lançamento.\n4. Tração & Pós-Lançamento: Monitoramento de métricas de adoção (feature adoption), engajamento no CRM e reuniões de aprendizados (post-mortem)."
+      "answer": "Utilizo frameworks de Gestão de Projetos (metodologia Google PMO) divididos em 4 etapas:\n1. Alinhamento & Briefing: Definição clara de público-alvo, proposta de valor, cronograma e matriz RACI com Produto, Marketing, CRM, Vendas e CS.\n2. kit de materiais de Sales Enablement: Produção de materiais de apoio para linha de frente (scripts, FAQs, one-pagers, guias de objeções).\n3. Rituais de Governança: Reuniões semanais de acompanhamento de riscos, dependências e marcos de lançamento.\n4. Tração & Pós-Lançamento: Monitoramento de métricas de adoção (feature adoption), engajamento no CRM e reuniões de aprendizados (post-mortem)."
     },
     {
       "question": "Como você lida com a orquestração de times matriciais sem ter autoridade direta sobre eles?",
