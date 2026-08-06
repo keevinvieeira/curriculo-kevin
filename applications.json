@@ -734,5 +734,27 @@
     "fit_score": 99,
     "salary_expectation": "R$ 13.000 - R$ 17.000 /mês (CLT / Remoto)",
     "notes": "Vaga remota de Sales & Partner Enablement Specialist na Nuvemshop. Encaixe cirúrgico de 99%: onboarding comercial (ramp-up -50%), playbooks de vendas para BDR/SDR/AE/Parceiros, inteligência conversacional/Gong, e-commerce e inglês fluente."
+  },
+  {
+    "id": "20",
+    "company": "LTM",
+    "role": "Product Owner",
+    "date_applied": "2026-08-06",
+    "status": "Candidatado",
+    "url": "https://www.ltm.com.br/",
+    "fit_score": 96,
+    "salary_expectation": "R$ 14.000 - R$ 18.000 /mês (Contrato 3 Anos / Remoto + Curitiba)",
+    "notes": "Vaga remota de Product Owner na LTM (contrato de 3 anos). Encaixe perfeito: residência em Curitiba para reuniões presenciais ocasionais, 8+ anos de experiência como PO/PM, backlog, user stories, rituais ágeis e Inglês Fluente."
+  },
+  {
+    "id": "21",
+    "company": "Bernoulli Educação",
+    "role": "Especialista de Produtos",
+    "date_applied": "2026-08-06",
+    "status": "Candidatado",
+    "url": "https://bernoulli.gupy.io/",
+    "fit_score": 95,
+    "salary_expectation": "R$ 11.000 - R$ 14.000 /mês (CLT / Remoto)",
+    "notes": "Vaga remota de Especialista de Produtos no Bernoulli Educação. Foco em User Discovery, pesquisas com usuários, testes de usabilidade, wireframes/protótipos UX, benchmarking, POCs/MVPs e experiência em edtechs/LMS."
   }
 ]

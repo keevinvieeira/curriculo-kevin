@@ -6,47 +6,47 @@
   "linkedin": "https://www.linkedin.com/in/kevin-augusto/",
   "github": "",
   "website": "",
-  "summary": "Product Owner Sênior com mais de 8 anos de experiência profissional liderando backlogs de produto, refinamentos e rituais ágeis (Scrum/Kanban) em produtos digitais e plataformas de tecnologia. Especialista na tradução de objetivos de negócio em histórias de usuário detalhadas, critérios de aceite e especificações técnicas para times de Engenharia e QA. Possui excelente comunicação em Inglês Fluente, raciocínio lógico-estruturado (Engenharia e Filosofia UFPR/UTFPR) e histórico de trabalho autônomo com supervisão mínima em squads distribuídas. Residente em Curitiba/PR com total disponibilidade para encontros presenciais ocasionais.",
+  "summary": "Especialista de Produtos Sênior com mais de 8 anos de experiência em Gestão de Produtos Digitais, User Discovery, UX Design e Go-to-Market (GTM) no setor de tecnologia e plataformas educacionais. Especialista na condução de pesquisas com usuários (entrevistas, testes de usabilidade, testes A/B), mapeamento de jornadas e desenho de wireframes/protótipos de alta fidelidade. Possui sólida atuação em benchmarking de mercado, estruturação de portfólio de produtos (indicadores de ticket médio, engajamento e validação de MVPs) e condução de provas de conceito (POCs). Formação em Engenharia (UTFPR/UFPR 2,5 anos) e Filosofia (UFPR), atuando como elo cross-functional entre áreas pedagógicas, tecnologia e marketing.",
   "experience": [
     {
       "company": "Wipro Brasil",
-      "role": "Product Owner & Enablement Expert (Projeto Meta)",
+      "role": "Especialista de Produtos & Enablement (Projeto Meta)",
       "dates": "Setembro 2024 – Julho 2026",
       "location": "Curitiba, PR",
       "bullets": [
-        "Gestão de Backlog & Rituais Ágeis (Meta): Atuou na gestão e priorização do backlog de adoção de produto no CRM. Conduziu rituais de refinamento, definiu histórias de usuário e critérios de aceite junto aos times de Engenharia e Qualidade, acelerando o tempo de ramp-up dos usuários de 6 para 3 meses (-50%).",
-        "Alinhamento com Stakeholders & Autonomia: Atuou como ponto focal diário para esclarecimento de requisitos de negócio e remoção de impedimentos, reportando progresso e métricas de adoção (+150%) para lideranças internacionais.",
-        "Governança & Análise de Progresso: Coordenou marcos de entrega e monitorou indicadores analíticos em Power BI para garantir alinhamento continuo entre estratégia de produto e execução."
+        "User Discovery & Adoção de Produtos (Meta): Liderou pesquisas de usabilidade e testes A/B para adoção de ferramentas de IA no CRM. Mapeou pontos de fricção na jornada do usuário e estruturou materiais de suporte, elevando o uso em +150% e reduzindo o tempo de ramp-up dos usuários em 50%.",
+        "Alinhamento Cross-functional: Atuou como interface entre times de Produto, Engenharia, Qualidade e Comercial, traduzindo feedback de usuários em requisitos de melhorias e rituais de alinhamento.",
+        "Métricas de Produto & Desempenho: Monitorou indicadores de uso e engajamento via dashboards analíticos em Power BI para subsidiar decisões estratégicas de evolução do produto."
       ]
     },
     {
       "company": "Meu Barzin (Startup)",
-      "role": "Product Owner & PM",
+      "role": "Especialista de Produtos & PM",
       "dates": "Dezembro 2025 – Março 2026",
       "location": "Curitiba, PR",
       "bullets": [
-        "Gestão de Backlog de Produto 0 a 1: Liderou o backlog do MVP 'Meu Barzin Pass', escrevendo histórias de usuário, mapeando integrações de API (WhatsApp/Stripe) e refinando regras de negócio com o time técnico.",
-        "Identificação de Bloqueios & Qualidade: Conduziu análises de gargalos em funis de API (latência de 43.9%), refinando critérios de aceite e priorizando correções técnicas para garantir a estabilidade da plataforma."
+        "POCs & Validação de MVPs de 0 a 1: Liderou a prova de conceito e discovery do piloto 'Meu Barzin Pass'. Mapeou a jornada dos usuários, conduziu entrevistas qualitativas e validou hipóteses de produto.",
+        "Testes de Usabilidade & Análise de Gargalos: Analisou dados de funil profundo e mapeou gargalos de latência de API (43,9% de drop-off), conduzindo iterações na experiência do usuário para melhorar o engajamento."
       ]
     },
     {
       "company": "AK Branding & Web Design",
-      "role": "Product Consultant",
+      "role": "Especialista em UX & Consultor de Produtos",
       "dates": "Março 2019 – Setembro 2024",
       "location": "Curitiba, PR",
       "bullets": [
-        "Especificações de Produto (40+ Projetos): Gerenciou o ciclo de desenvolvimento de mais de 40 soluções digitais, alinhando requisitos de clientes com desenvolvedores por meio de histórias de usuário e priorização de backlog.",
-        "Testes de Aceite & Conversão: Conduziu testes de aceite de entregas e otimizações de fluxos que aumentaram as conversões de usuários de 8 para 20-30/mês (+250%)."
+        "UX Design & Prototipação (40+ Projetos): Desenhou a experiência do usuário (jornadas, wireframes e protótipos de alta fidelidade) para mais de 40 produtos digitais e e-commerces, realizando testes de usabilidade contínuos.",
+        "CRO & Benchmarking Competitivo: Realizou análises de concorrência e testes A/B de interface que aumentaram as conversões de usuários de 8 para 20-30/mês (+250%)."
       ]
     },
     {
       "company": "Munzner",
-      "role": "Product & Growth Specialist",
+      "role": "Especialista de Produtos Educacionais & Growth",
       "dates": "Outubro 2018 – Agosto 2024",
       "location": "Curitiba, PR",
       "bullets": [
-        "Gestão de Entregas Educacionais (LMS): Liderou o backlog e o lançamento da primeira plataforma digital de ensino (LMS/WordPress), refinando histórias de usuário e garantindo 50 vendas nos 2 primeiros meses.",
-        "Mapeamento de Requisitos & Conteúdo: Estruturou fluxos de jornada e automação de 10 etapas para retenção e engajamento dos usuários."
+        "Plataforma Educacional (LMS) de 0 a 1: Concebeu e gerenciou o lançamento do primeiro LMS digital de ensino para a metodologia Thinking Environment, conduzindo pesquisas com alunos e garantindo 50 vendas nos 2 primeiros meses.",
+        "Estruturação de Portfólio & Materiais: Estruturou o catálogo de materiais educativos e réguas de aprendizagem automatizadas de 10 etapas para retenção e engajamento dos alunos."
       ]
     }
   ],
@@ -54,23 +54,23 @@
     {
       "category": "Product Management & GTM",
       "skills": [
-        "Gestão de Backlog de Produto & Priorização",
-        "Escrita de User Stories & Critérios de Aceite",
-        "Rituais Ágeis (Refinamentos, Sprint Planning, Reviews, Dailies)",
-        "Alinhamento com Stakeholders & Esclarecimento de Requisitos",
-        "Remoção de Bloqueios & Gestão de Dependências",
-        "Trabalho Autônomo em Squads Distribuídas"
+        "User Discovery & Pesquisa com Usuários (Entrevistas, Usabilidade)",
+        "UX Design (Jornadas, Wireframes, Protótipos de Alta Fidelidade)",
+        "Benchmarking & Análise de Concorrência",
+        "Execução de POCs, Testes A/B & Validação de MVPs",
+        "Gestão do Ciclo de Vida do Produto & Portfólio",
+        "Metodologias Ágeis, Design Thinking & Lean"
       ]
     },
     {
-      "category": "Ferramentas & Metodologias",
+      "category": "Ferramentas & Indicadores",
       "skills": [
-        "Inglês Fluente (Comunicação Diária Verbal e Escrita)",
-        "Metodologias Ágeis (Scrum / Kanban)",
-        "Google Project Management (Certificação)",
-        "Claude / ChatGPT (Documentação de Requisitos)",
-        "Power BI & SQL (Bancos Relacionais)",
-        "Prototipação & Fluxos de Processos"
+        "Prototipação & UX (Figma / Wireframes)",
+        "Análise de Dados & Testes A/B",
+        "Indicadores de Produto (NPS, Engajamento, Conversão)",
+        "Claude / ChatGPT (Discovery & Documentação)",
+        "Power BI & Analytics",
+        "Inglês Avançado / Fluente"
       ]
     },
     {
@@ -87,10 +87,10 @@
     {
       "category": "Mercados & Diferenciais",
       "skills": [
-        "Residência em Curitiba/PR (Encontros Presenciais)",
-        "Facilidade para Aprendizado de Regras de Negócio / Compliance",
+        "Plataformas Educacionais (Edtechs / LMS)",
+        "Interface Cross-functional (Pedagógico, Tech, Mkt, Vendas)",
         "Formação em Engenharia (UTFPR/UFPR) e Filosofia (UFPR)",
-        "Contrato de Longo Prazo / Autonomia Operacional",
+        "Trabalho 100% Remoto (Regime CLT 44h)",
         "Adequação LGPD"
       ]
     }
@@ -145,6 +145,6 @@
     }
   ],
   "additional_information": [
-    "Idiomas & Localização: Inglês Fluente (Comunicação Diária Verbal e Escrita) | Residente em Curitiba/PR (Disponibilidade Híbrida/Presencial Ocasionais) | Engenharia (UTFPR/UFPR 2.5 anos) e Filosofia (UFPR)."
+    "Formação & Idiomas: Formação em Engenharia (UTFPR/UFPR 2.5 anos) e Filosofia (UFPR) | Inglês Avançado/Fluente | Disponibilidade 100% Remota (CLT)."
   ]
 }

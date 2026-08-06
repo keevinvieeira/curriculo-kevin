@@ -1,16 +1,16 @@
 {
-  "company_name": "LTM",
-  "role_title": "Product Owner",
-  "url": "https://www.ltm.com.br/",
-  "fit_score": 96,
-  "salary_expectation": "R$ 14.000 - R$ 18.000 /mês (Contrato de 3 anos / Remoto + Curitiba)",
+  "company_name": "Bernoulli Educação",
+  "role_title": "Especialista de Produtos",
+  "url": "https://bernoulli.gupy.io/",
+  "fit_score": 95,
+  "salary_expectation": "R$ 11.000 - R$ 14.000 /mês (CLT / Remoto)",
   "good_points": [
-    "Residência em Curitiba/PR: Encaixe ideal para atender aos encontros presenciais ocasionais em Curitiba exigidos no contrato.",
-    "8+ anos de experiência profissional com sólida atuação como Product Owner na gestão de backlogs, escritas de user stories e aceites.",
-    "Inglês Fluente / Excelente para comunicação diária escrita e verbal com stakeholders internacionais.",
-    "Forte capacidade de trabalho autônomo com rituais ágeis (Scrum/Kanban) em squads distribuídas."
+    "Experiência prática em edtechs e soluções de ensino (concepção e lançamento da plataforma LMS Munzner e treinamentos na Wipro).",
+    "Sólida atuação em User Discovery, pesquisas qualitativas com usuários (entrevistas, testes de usabilidade, testes A/B) e síntese de insights.",
+    "Domínio de UX Design: desenho de jornadas de uso, wireframes e protótipos de baixa a alta fidelidade em mais de 40 produtos digitais.",
+    "Formação em Engenharia (UTFPR/UFPR 2,5 anos) e Filosofia (UFPR), combinando visão lógica de negócios, estruturação de portfólio e comunicação com áreas parceiras."
   ],
   "improvement_points": [
-    "Reforçar o interesse e agilidade no aprendizado de domínios complexos como Foreign Trade, Compliance e Supply Chain."
+    "Reforçar o mapeamento de métricas específicas de produtos educacionais (ticket médio, alunado, taxa de validação de POCs)."
   ]
 }

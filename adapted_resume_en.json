@@ -6,81 +6,81 @@
   "linkedin": "https://www.linkedin.com/in/kevin-augusto/",
   "github": "",
   "website": "",
-  "summary": "Senior Product Owner with 8+ years of professional experience leading product backlogs, user story refinement, and Agile ceremonies (Scrum/Kanban) across digital products and technology platforms. Expert in translating business goals into crisp user stories, acceptance criteria, and technical specs for Engineering and QA teams. Fluent in English for daily international communication, featuring a logical background in Engineering & Philosophy (UFPR/UTFPR) and proven autonomy in distributed squads. Based in Curitiba, Brazil with full availability for occasional in-person meetings.",
+  "summary": "Senior Product Specialist with 8+ years of experience in Digital Product Management, User Discovery, UX Design, and Go-to-Market (GTM) within educational tech and SaaS platforms. Expert in user research (interviews, usability testing, A/B testing), customer journey mapping, and high-fidelity wireframing/prototyping. Proven track record in competitor benchmarking, product portfolio structuring, and conducting Proof of Concepts (POCs). Dual background in Engineering (UTFPR/UFPR 2.5 yrs) and Philosophy (UFPR), acting as a cross-functional bridge across Pedagogy, Product Tech, and Marketing.",
   "experience": [
     {
       "company": "Wipro Brasil",
-      "role": "Product Owner & Enablement Expert (Meta Project)",
+      "role": "Product Specialist & Enablement (Meta Project)",
       "dates": "September 2024 – July 2026",
       "location": "Curitiba, Brazil",
       "bullets": [
-        "Product Backlog Management & Agile Ceremonies (Meta): Managed and prioritized adoption feature backlogs for Meta CRM. Facilitated refinement ceremonies, wrote user stories, and defined acceptance criteria with Engineering and QA, accelerating user ramp-up by 50%.",
-        "Stakeholder Alignment & Requirement Clarification: Served as daily primary contact for clarifying business requirements and removing blockers, reporting progress and adoption metrics (+150%) to international leadership.",
-        "Governance & Progress Analytics: Monitored operational progress and Power BI analytics to maintain alignment between product roadmap and sprint delivery."
+        "User Discovery & Product Adoption (Meta): Led usability research and A/B testing for Meta CRM AI features. Mapped user journey friction points and structured enablement materials, boosting usage by +150% and reducing ramp-up by 50%.",
+        "Cross-Functional Collaboration: Acted as the primary interface across Product, Engineering, Quality, and Sales, translating user feedback into product improvement requirements.",
+        "Product Metrics & Performance: Monitored usage KPIs and engagement via Power BI analytics to inform strategic product decisions."
       ]
     },
     {
       "company": "Meu Barzin (Startup)",
-      "role": "Product Owner & PM",
+      "role": "Product Specialist & PM",
       "dates": "December 2025 – March 2026",
       "location": "Curitiba, Brazil",
       "bullets": [
-        "0-to-1 Product Backlog Ownership: Led the product backlog for the 'Meu Barzin Pass' MVP, writing user stories, mapping API integration requirements (WhatsApp/Stripe), and refining business logic with technical teams.",
-        "Acceptance Criteria & Quality: Conducted root-cause analysis on API latency bottlenecks (43.9% drop-off), refining acceptance criteria and prioritizing technical debt remediation."
+        "POCs & 0-to-1 MVP Validation: Led the proof of concept and discovery for 'Meu Barzin Pass'. Mapped user journeys, conducted qualitative interviews, and validated product hypotheses.",
+        "Usability Testing & Bottleneck Analysis: Analyzed deep-funnel data and mapped API latency bottlenecks (43.9% drop-off), driving UX iterations to improve engagement."
       ]
     },
     {
       "company": "AK Branding & Web Design",
-      "role": "Product Consultant",
+      "role": "UX Specialist & Product Consultant",
       "dates": "March 2019 – September 2024",
       "location": "Curitiba, PR",
       "bullets": [
-        "Product Specifications (40+ Projects): Managed development backlogs for 40+ digital solutions, aligning client requirements with dev teams through user stories and sprint backlog prioritization.",
-        "Acceptance Testing & CRO: Conducted user acceptance testing (UAT) and interface optimizations that increased qualified lead conversions by +250%."
+        "UX Design & Prototyping (40+ Projects): Designed user experience (journeys, wireframes, and high-fidelity prototypes) for 40+ digital products, conducting continuous usability testing.",
+        "CRO & Competitor Benchmarking: Conducted competitor benchmarking and interface A/B testing, increasing user conversion from 8 to 20-30/month (+250%)."
       ]
     },
     {
       "company": "Munzner",
-      "role": "Product & Growth Specialist",
+      "role": "Educational Product Specialist & Growth",
       "dates": "October 2018 – August 2024",
       "location": "Curitiba, PR",
       "bullets": [
-        "Educational SaaS Backlog Management: Managed user stories and backlog for an LMS platform launch, securing 50 sales in the first 2 months.",
-        "Requirement Mapping & User Journeys: Structured 10-stage user journey requirements for engagement and retention."
+        "0-to-1 Educational SaaS Platform (LMS): Managed product strategy and launch for the first digital LMS platform for Thinking Environment methodology, conducting student research and securing 50 sales in 2 months.",
+        "Portfolio Structuring & Content Journeys: Structured educational course catalogs and automated 10-stage learning journeys for retention."
       ]
     }
   ],
   "skills": [
     {
-      "category": "Product Owner Core Skills",
+      "category": "User Discovery & UX Design",
       "skills": [
-        "Product Backlog Management & Prioritization",
-        "User Story Writing & Acceptance Criteria",
-        "Agile Ceremonies (Refinement, Sprint Planning, Reviews, Dailies)",
-        "Stakeholder Management & Requirement Clarification",
-        "Risk Identification & Blocker Removal",
-        "Independent Autonomous Execution"
+        "User Discovery & Qualitative Research (Interviews, Usability)",
+        "UX Design (Journeys, Wireframes, High-Fidelity Prototypes)",
+        "Benchmarking & Competitor Analysis",
+        "POC Execution, A/B Testing & MVP Validation",
+        "Product Lifecycle & Portfolio Management",
+        "Agile, Design Thinking & Lean Frameworks"
       ]
     },
     {
-      "category": "Tools & Methodologies",
+      "category": "Tools & Analytics",
       "skills": [
-        "Fluent English (Daily Written & Verbal)",
-        "Agile & Scrum Frameworks",
-        "Google Project Management Certificate",
-        "Claude / ChatGPT (Requirement Specs)",
-        "Power BI & SQL Databases",
-        "Process Flow Mapping & Prototyping"
+        "Prototyping & UX (Figma / Wireframes)",
+        "Data Analysis & A/B Testing",
+        "Product Metrics (NPS, Engagement, Conversion)",
+        "Claude / ChatGPT (Discovery & Specs)",
+        "Power BI & Analytics",
+        "Fluent / Advanced English"
       ]
     },
     {
       "category": "Domain & Differentials",
       "skills": [
-        "Based in Curitiba, Brazil (In-Person Meetings)",
-        "Eager & Fast Learner of Business & Compliance Rules",
+        "Educational Platforms (Edtechs / LMS)",
+        "Cross-Functional Collaboration (Pedagogy, Tech, Mkt)",
         "Engineering & Philosophy Background",
-        "Long-Term Contract Experience",
-        "Data Privacy (LGPD/GDPR)"
+        "100% Remote Work",
+        "Data Privacy (LGPD)"
       ]
     }
   ],
@@ -124,6 +124,6 @@
     }
   ],
   "additional_information": [
-    "Languages & Location: Fluent English (Daily Verbal & Written) | Based in Curitiba, Brazil (Available for Occasional In-Person Meetings) | Engineering (UTFPR/UFPR 2.5 yrs) & B.A. Philosophy (UFPR)."
+    "Education & Languages: Engineering (UTFPR/UFPR 2.5 yrs) & B.A. Philosophy (UFPR) | Fluent English | 100% Remote Availability."
   ]
 }

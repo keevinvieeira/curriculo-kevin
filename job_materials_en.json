@@ -1,9 +1,9 @@
 {
-  "cover_letter": "Dear LTM Hiring Team,\n\nWith over 8 years of professional experience as a Product Owner and Digital Product Manager, and based in Curitiba, Brazil, I am excited to apply for the Product Owner role at LTM.\n\nMy core expertise lies in end-to-end product backlog management, writing clear user stories with strict acceptance criteria, and facilitating Scrum ceremonies (Sprint Planning, Backlog Refinement, Reviews, and Dailies). I work as the right hand to Product Managers and the primary daily contact for engineering and QA teams to resolve ambiguities and ensure smooth delivery.\n\nI bring fluent English skills for daily communication, a technical foundation in Engineering (UTFPR/UFPR 2.5 yrs) combined with Philosophy (UFPR), and proven autonomy in distributed teams. Being located in Curitiba, I have full availability for occasional in-person meetings.\n\nSincerely,\nKevin Augusto Vieira",
+  "cover_letter": "Dear Bernoulli Educação Hiring Team,\n\nWith over 8 years of experience in Digital Product Management, User Discovery, UX Design, and Go-to-Market strategies in technology and education, I am excited to apply for the Product Specialist (Especialista de Produtos) role at Bernoulli Educação.\n\nMy background matches your requirements: at Munzner, I led the 0-to-1 launch of an educational LMS platform, conducting user research, journey mapping, and product testing. At AK Branding, I managed user experience (UX) for over 40 digital products, designing wireframes, prototypes, and usability tests.\n\nCombined with a dual foundation in Engineering (UTFPR/UFPR 2.5 yrs) and Philosophy (UFPR), I bring strong analytical skills to translate field insights into product roadmaps across Pedagogy, Tech, Marketing, and Sales.\n\nSincerely,\nKevin Augusto Vieira",
   "form_answers": [
     {
-      "question": "How do you manage product backlog refinement and user stories?",
-      "answer": "I partner closely with Product Managers to translate roadmaps into actionable backlogs. I write clear user stories with explicit acceptance criteria, conduct refinement ceremonies with engineering/QA to remove ambiguities, and prioritize items based on business value and technical feasibility."
+      "question": "How do you conduct User Discovery and POC validation for educational products?",
+      "answer": "I combine qualitative interviews, competitor benchmarking, rapid prototyping (low to high fidelity wireframes), usability testing, and POC experiments to validate product hypotheses before scaling."
     }
   ]
 }

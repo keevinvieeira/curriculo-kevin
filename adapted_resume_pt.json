@@ -6,48 +6,47 @@
   "linkedin": "https://www.linkedin.com/in/kevin-augusto/",
   "github": "",
   "website": "",
-  "summary": "Principal Product Manager AI-Native com mais de 8 anos de experiência criando produtos digitais B2B de 0 a 1, fluxos de integração por API e experiências para desenvolvedores. Especialista em prototipação rápida com LLMs (Claude, ChatGPT) e vibe coding para mockar APIs, testar fluxos de onboarding de parceiros e validar modelos comerciais antes do handoff para engenharia. Formação técnica em Engenharia (UTFPR/UFPR 2,5 anos) e Filosofia (UFPR), unindo fluência analítica em SQL/bancos relacionais a uma comunicação executiva clara em Inglês Fluente.",
+  "summary": "Especialista de Produtos Sênior com mais de 8 anos de experiência em Gestão de Produtos Digitais, User Discovery, UX Design e Go-to-Market (GTM) no setor de tecnologia e plataformas educacionais. Especialista na condução de pesquisas com usuários (entrevistas, testes de usabilidade, testes A/B), mapeamento de jornadas e desenho de wireframes/protótipos de alta fidelidade. Possui sólida atuação em benchmarking de mercado, estruturação de portfólio de produtos (indicadores de ticket médio, engajamento e validação de MVPs) e condução de provas de conceito (POCs). Formação em Engenharia (UTFPR/UFPR 2,5 anos) e Filosofia (UFPR), atuando como elo cross-functional entre áreas pedagógicas, tecnologia e marketing.",
   "experience": [
     {
       "company": "Wipro Brasil",
-      "role": "Product Manager & AI Enablement Expert (Projeto Meta)",
+      "role": "Especialista de Produtos & Enablement (Projeto Meta)",
       "dates": "Setembro 2024 – Julho 2026",
       "location": "Curitiba, PR",
       "bullets": [
-        "Estratégia de Adoção de IA (Meta): Liderou o GTM e a adoção estratégica de ferramentas de IA no CRM da Meta. Definiu roadmaps de produto e capacitação, elevando o uso diário em +150% e tornando a operação #1 no mundo em crescimento de adoção.",
-        "Alinhamento Multi-times & Ramp-up (-50%): Coordenou times de Produto, Engenharia, Qualidade e Comercial. Reduziu o tempo de ramp-up de 6 para 3 meses (-50%), estabelecendo governança e revisões de performance.",
-        "Análise de Dados & SQL: Utilizou consultas SQL e dashboards em Power BI para monitorar adoção de funcionalidades, avaliar cohorts e embasar decisões de produto."
+        "User Discovery & Adoção de Produtos (Meta): Liderou pesquisas de usabilidade e testes A/B para adoção de ferramentas de IA no CRM. Mapeou pontos de fricção na jornada do usuário e estruturou materiais de suporte, elevando o uso em +150% e reduzindo o tempo de ramp-up dos usuários em 50%.",
+        "Alinhamento Cross-functional: Atuou como interface entre times de Produto, Engenharia, Qualidade e Comercial, traduzindo feedback de usuários em requisitos de melhorias e rituais de alinhamento.",
+        "Métricas de Produto & Desempenho: Monitorou indicadores de uso e engajamento via dashboards analíticos em Power BI para subsidiar decisões estratégicas de evolução do produto."
       ]
     },
     {
       "company": "Meu Barzin (Startup)",
-      "role": "Product Manager",
+      "role": "Especialista de Produtos & PM",
       "dates": "Dezembro 2025 – Março 2026",
       "location": "Curitiba, PR",
       "bullets": [
-        "Design de Produto de API de 0 a 1: Desenhou e lançou o MVP do 'Meu Barzin Pass', expondo funcionalidades via API do WhatsApp e webhooks do Stripe para parceiros B2B e assinantes.",
-        "Prototipação com IA & Arquitetura de Dados: Construiu fluxos conversacionais e regras de RAG integradas a bancos relacionais (Supabase, MySQL) e APIs REST usando ferramentas de IA e vibe coding para validação rápida.",
-        "Métricas de Funil & Drop-offs: Analisou métricas de conversão em funil profundo e mapeou gargalos de latência de API (43,9% de drop-off), direcionando melhorias técnicas no onboarding de parceiros."
+        "POCs & Validação de MVPs de 0 a 1: Liderou a prova de conceito e discovery do piloto 'Meu Barzin Pass'. Mapeou a jornada dos usuários, conduziu entrevistas qualitativas e validou hipóteses de produto.",
+        "Testes de Usabilidade & Análise de Gargalos: Analisou dados de funil profundo e mapeou gargalos de latência de API (43,9% de drop-off), conduzindo iterações na experiência do usuário para melhorar o engajamento."
       ]
     },
     {
       "company": "AK Branding & Web Design",
-      "role": "Product & Technical Consultant",
+      "role": "Especialista em UX & Consultor de Produtos",
       "dates": "Março 2019 – Setembro 2024",
       "location": "Curitiba, PR",
       "bullets": [
-        "Gestão de Portfólio B2B (40+ Projetos): Liderou a estratégia de produto, UX e especificações técnicas para 40+ aplicações web e e-commerces, traduzindo requisitos comerciais em tarefas de desenvolvimento.",
-        "Conversão & Testes A/B: Conduziu experimentos de interface e otimizações de copy que aumentaram contatos qualificados de 8 para 20-30/mês (+250%), e lançou e-commerce do zero com  faturados em 3 meses."
+        "UX Design & Prototipação (40+ Projetos): Desenhou a experiência do usuário (jornadas, wireframes e protótipos de alta fidelidade) para mais de 40 produtos digitais e e-commerces, realizando testes de usabilidade contínuos.",
+        "CRO & Benchmarking Competitivo: Realizou análises de concorrência e testes A/B de interface que aumentaram as conversões de usuários de 8 para 20-30/mês (+250%)."
       ]
     },
     {
       "company": "Munzner",
-      "role": "Product & Growth Specialist",
+      "role": "Especialista de Produtos Educacionais & Growth",
       "dates": "Outubro 2018 – Agosto 2024",
       "location": "Curitiba, PR",
       "bullets": [
-        "Plataforma SaaS Educacional de 0 a 1: Concebeu e lançou a primeira plataforma digital de ensino (LMS) para a metodologia Thinking Environment, gerando 50 vendas nos 2 primeiros meses.",
-        "Lifecycle de Usuário & Monetização: Estruturou fluxos de e-mail automatizados de 10 etapas atraindo 10.000+ acessos e convertendo alunos em formações de alto valor."
+        "Plataforma Educacional (LMS) de 0 a 1: Concebeu e gerenciou o lançamento do primeiro LMS digital de ensino para a metodologia Thinking Environment, conduzindo pesquisas com alunos e garantindo 50 vendas nos 2 primeiros meses.",
+        "Estruturação de Portfólio & Materiais: Estruturou o catálogo de materiais educativos e réguas de aprendizagem automatizadas de 10 etapas para retenção e engajamento dos alunos."
       ]
     }
   ],
@@ -55,23 +54,23 @@
     {
       "category": "Product Management & GTM",
       "skills": [
-        "Gestão de Produto 0 a 1 & Estratégia de API Marketplace",
-        "Perfil AI-Native & Vibe Coding (Claude, ChatGPT)",
-        "Design de Produtos de API, Mocks & DX",
-        "Empacotamento Comercial, Precificação & Unit Economics",
-        "Análise de Dados com SQL & Bancos Relacionais (MySQL, Supabase)",
-        "Alinhamento Cross-functional & Roadmaps Multi-times"
+        "User Discovery & Pesquisa com Usuários (Entrevistas, Usabilidade)",
+        "UX Design (Jornadas, Wireframes, Protótipos de Alta Fidelidade)",
+        "Benchmarking & Análise de Concorrência",
+        "Execução de POCs, Testes A/B & Validação de MVPs",
+        "Gestão do Ciclo de Vida do Produto & Portfólio",
+        "Metodologias Ágeis, Design Thinking & Lean"
       ]
     },
     {
-      "category": "Ferramentas & Fluência Técnica",
+      "category": "Ferramentas & Indicadores",
       "skills": [
-        "Inglês Fluente (Atuação Diária Internacional)",
-        "Claude / ChatGPT (Prototipação Rápida & Specs)",
-        "SQL & Bancos Relacionais (Supabase, MySQL)",
-        "Fluxos de API (REST, Webhooks, Postman)",
+        "Prototipação & UX (Figma / Wireframes)",
+        "Análise de Dados & Testes A/B",
+        "Indicadores de Produto (NPS, Engajamento, Conversão)",
+        "Claude / ChatGPT (Discovery & Documentação)",
         "Power BI & Analytics",
-        "Metodologias Ágeis & Certificado Google PM"
+        "Inglês Avançado / Fluente"
       ]
     },
     {
@@ -88,11 +87,11 @@
     {
       "category": "Mercados & Diferenciais",
       "skills": [
-        "SaaS B2B & Infraestrutura de Marketplace",
+        "Plataformas Educacionais (Edtechs / LMS)",
+        "Interface Cross-functional (Pedagógico, Tech, Mkt, Vendas)",
         "Formação em Engenharia (UTFPR/UFPR) e Filosofia (UFPR)",
-        "Liderança Cross-functional sem Autoridade Direta",
-        "Trabalho 100% Remoto Global",
-        "Adequação LGPD/GDPR"
+        "Trabalho 100% Remoto (Regime CLT 44h)",
+        "Adequação LGPD"
       ]
     }
   ],
@@ -146,6 +145,6 @@
     }
   ],
   "additional_information": [
-    "Idiomas & Formação: Português Nativo, Inglês Fluente (atuação diária internacional) | Engenharia (UTFPR/UFPR 2.5 anos) e Filosofia (UFPR) | Disponibilidade 100% Remota Global."
+    "Formação & Idiomas: Formação em Engenharia (UTFPR/UFPR 2.5 anos) e Filosofia (UFPR) | Inglês Avançado/Fluente | Disponibilidade 100% Remota (CLT)."
   ]
 }
