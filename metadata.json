@@ -1,16 +1,16 @@
 {
-  "company_name": "Hopper (HTS)",
-  "role_title": "Principal Product Manager - HTS API Marketplace",
-  "url": "https://www.hopper.com/careers",
-  "fit_score": 97,
-  "salary_expectation": "$8,000 - $12,000 USD / mês (Remoto Internacional)",
+  "company_name": "LTM",
+  "role_title": "Product Owner",
+  "url": "https://www.ltm.com.br/",
+  "fit_score": 96,
+  "salary_expectation": "R$ 14.000 - R$ 18.000 /mês (Contrato de 3 anos / Remoto + Curitiba)",
   "good_points": [
-    "Perfil AI-Native & Vibe Coding: Encaixe direto com o requisito de usar LLMs e prototipação rápida (Claude, ChatGPT, low-code/APIs mockadas) para testar fluxos antes da engenharia.",
-    "Mais de 8 anos de experiência em Product Management 0-a-1: Concepção e lançamento de produtos digitais B2B e integrações de API (Meu Barzin Pass, Stripe, WhatsApp API, 40+ projetos).",
-    "Bagagem Técnica: 2,5 anos de Engenharia (UTFPR/UFPR) + Filosofia (UFPR), garantindo fluência para documentação de APIs, consultas SQL e diálogo técnico com engenheiros.",
-    "Inglês Fluente: Total capacidade de comunicação executiva, redação de documentações de API e gestão de parceiros enterprise globais."
+    "Residência em Curitiba/PR: Encaixe ideal para atender aos encontros presenciais ocasionais em Curitiba exigidos no contrato.",
+    "8+ anos de experiência profissional com sólida atuação como Product Owner na gestão de backlogs, escritas de user stories e aceites.",
+    "Inglês Fluente / Excelente para comunicação diária escrita e verbal com stakeholders internacionais.",
+    "Forte capacidade de trabalho autônomo com rituais ágeis (Scrum/Kanban) em squads distribuídas."
   ],
   "improvement_points": [
-    "Destacar a empacotamento comercial de APIs e modelos de precificação de plataforma (take rates/unit economics) ao lado da prototipação rápida."
+    "Reforçar o interesse e agilidade no aprendizado de domínios complexos como Foreign Trade, Compliance e Supply Chain."
   ]
 }

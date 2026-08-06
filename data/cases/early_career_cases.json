@@ -1,0 +1,59 @@
+[
+  {
+    "title": "Early Career Foundation - Admin/Logistics/Marketing at Alvesa Transportes",
+    "company": "Alvesa Transportes Logística Ltda.",
+    "role": "Administrative Assistant",
+    "date_range": "Maio 2015 – Maio 2016",
+    "context_pt": "Primeira experiência formal: suporte a operações financeiras (contas a pagar/receber, folha, impostos), coordenação logística (rastreamento cargas, motoristas), marketing básico (redes sociais, campanhas), gestão administrativa (agendamentos, seleção, atendimento). Base para disciplina operacional e visão sistêmica.",
+    "context_en": "First formal experience: financial operations support (AP/AR, payroll, taxes), logistics coordination (cargo tracking, drivers), basic marketing (social media, campaigns), administrative management (scheduling, recruitment, customer service). Foundation for operational discipline and systemic view.",
+    "challenge_pt": "Transição de estagiário/universitário para profissional; volume alto de tarefas operacionais repetitivas; necessidade de precisão em financeiro/logística; comunicação com motoristas/fornecedores/clientes.",
+    "challenge_en": "Transition from intern/student to professional; high volume of repetitive operational tasks; need for precision in finance/logistics; communication with drivers/suppliers/clients.",
+    "problem_pt": "Processos manuais propensos a erro; planilhas desconectadas; retrabalho em conciliação bancária; falta de visibilidade de status de cargas em tempo real.",
+    "problem_en": "Manual error-prone processes; disconnected spreadsheets; bank reconciliation rework; lack of real-time cargo status visibility.",
+    "hypotheses_pt": "1) Padronização de planilhas + checklists reduziria erros. 2) Rotina diária de conciliação (em vez de mensal) evitaria acúmulo. 3) Comunicação proativa com motoristas (WhatsApp) melhoraria rastreamento.",
+    "hypotheses_en": "1) Standardized spreadsheets + checklists would reduce errors. 2) Daily reconciliation routine (vs monthly) would prevent buildup. 3) Proactive driver communication (WhatsApp) would improve tracking.",
+    "decisions_pt": "Criei: modelo padrão de conciliação bancária, checklist de fechamento mensal, grupo WhatsApp motoristas para atualizações de status, planilha consolidada de contas a pagar/receber com vencimentos. Automatizei relatórios básicos no Excel (PROCV, tabelas dinâmicas).",
+    "decisions_en": "Created: standard bank reconciliation template, monthly closing checklist, driver WhatsApp group for status updates, consolidated AP/AR spreadsheet with due dates. Automated basic Excel reports (VLOOKUP, pivot tables).",
+    "tradeoffs_pt": "Tempo investido em criar templates (não 'produtivo' imediato); resistência de colegas a novos processos; manutenção de planilhas dependia de mim; WhatsApp grupo misturava pessoal/profissional.",
+    "tradeoffs_en": "Time invested in templates (not immediately 'productive'); colleague resistance to new processes; spreadsheet maintenance depended on me; WhatsApp group mixed personal/professional.",
+    "results_pt": "Erros de conciliação reduzidos ~80%; Fechamento mensal: 3 dias → 1 dia; Rastreamento cargas: visibilidade diária vs semanal; Base para automações futuras (n8n, Supabase) desenvolvida 5 anos depois.",
+    "results_en": "Reconciliation errors reduced ~80%; Monthly close: 3 days → 1 day; Cargo tracking: daily vs weekly visibility; Foundation for future automations (n8n, Supabase) built 5 years later.",
+    "metrics": [
+      "~80% reconciliation error reduction",
+      "Monthly close: 3→1 day",
+      "Daily cargo visibility",
+      "Foundation for future automation"
+    ],
+    "skills": [
+      "Financial Operations",
+      "Logistics Coordination",
+      "Process Standardization",
+      "Excel Automation",
+      "Administrative Management",
+      "Customer Service",
+      "Recruitment Support"
+    ],
+    "tools": [
+      "Excel",
+      "WhatsApp",
+      "ERP (proprietary)",
+      "Email"
+    ],
+    "star_situation_pt": "Primeiro emprego formal: Alvesa Transportes. Financeiro + logística + admin manual, erros frequentes, fechamento lento.",
+    "star_situation_en": "First formal job: Alvesa Transportes. Finance + logistics + admin manual, frequent errors, slow close.",
+    "star_task_pt": "Padronizar processos, reduzir erros, acelerar fechamento, melhorar rastreamento de cargas.",
+    "star_task_en": "Standardize processes, reduce errors, accelerate close, improve cargo tracking.",
+    "star_action_pt": "Templates conciliação + checklists + WhatsApp motoristas + planilhas consolidadas + Excel PROCV/pivot. Rotina diária vs mensal.",
+    "star_action_en": "Reconciliation templates + checklists + driver WhatsApp + consolidated sheets + Excel VLOOKUP/pivot. Daily vs monthly routine.",
+    "star_result_pt": "Erros -80%. Fechamento 3→1 dia. Visibilidade diária cargas. Base para automação futura (n8n/Supabase).",
+    "star_result_en": "Errors -80%. Close 3→1 day. Daily cargo visibility. Foundation for future automation (n8n/Supabase).",
+    "competency_tags": [
+      "Process Improvement",
+      "Excel Automation",
+      "Operations",
+      "Financial Control",
+      "Logistics"
+    ],
+    "difficulty": 2
+  }
+]

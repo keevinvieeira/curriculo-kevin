@@ -6,47 +6,47 @@
   "linkedin": "https://www.linkedin.com/in/kevin-augusto/",
   "github": "",
   "website": "",
-  "summary": "Profissional Sênior com mais de 8 anos de experiência em Marketing, Growth e Enablement de Produtos e Vendas. Na Wipro (projeto Meta), liderou o programa de onboarding e capacitação contínua para equipes comerciais de consultores, reduzindo o tempo de ramp-up de 6 para 3 meses (-50%). Especialista no desenvolvimento de materiais de apoio às vendas, guias de argumentação, contorno de objeções, scripts e treinamentos práticos. Orientado a dados, utiliza análise de interações e dashboards em Power BI para identificar lacunas de performance. Fluente em Inglês, com vivência no ecossistema de e-commerce e soluções digitais.",
+  "summary": "Product Owner Sênior com mais de 8 anos de experiência profissional liderando backlogs de produto, refinamentos e rituais ágeis (Scrum/Kanban) em produtos digitais e plataformas de tecnologia. Especialista na tradução de objetivos de negócio em histórias de usuário detalhadas, critérios de aceite e especificações técnicas para times de Engenharia e QA. Possui excelente comunicação em Inglês Fluente, raciocínio lógico-estruturado (Engenharia e Filosofia UFPR/UTFPR) e histórico de trabalho autônomo com supervisão mínima em squads distribuídas. Residente em Curitiba/PR com total disponibilidade para encontros presenciais ocasionais.",
   "experience": [
     {
       "company": "Wipro Brasil",
-      "role": "Sales & Revenue Enablement Specialist (Projeto Meta)",
+      "role": "Product Owner & Enablement Expert (Projeto Meta)",
       "dates": "Setembro 2024 – Julho 2026",
       "location": "Curitiba, PR",
       "bullets": [
-        "Enablement Comercial & Ramp-up (-50%): Idealizou e governou o programa de onboarding e enablement (Next Level Bootcamp) para a equipe comercial de consultores da Meta. Reduziu o tempo de ramp-up de 6 para 3 meses (-50%), apoiando o time a converter em Top Performers com 90%+ de qualidade em auditorias.",
-        "Materiais de Vendas & Guia de Objeções: Criou guias de argumentação, frameworks de contorno de objeções, scripts e bibliotecas de prompts no CRM, elevando a adoção de IA (+150%) e tornando a operação #1 em crescimento na Meta globalmente.",
-        "Coaching & Análise de Métricas: Conduziu rituais de acompanhamento e utilizou análise de interações e Power BI para identificar gargalos de conversão e direcionar ações de capacitação."
+        "Gestão de Backlog & Rituais Ágeis (Meta): Atuou na gestão e priorização do backlog de adoção de produto no CRM. Conduziu rituais de refinamento, definiu histórias de usuário e critérios de aceite junto aos times de Engenharia e Qualidade, acelerando o tempo de ramp-up dos usuários de 6 para 3 meses (-50%).",
+        "Alinhamento com Stakeholders & Autonomia: Atuou como ponto focal diário para esclarecimento de requisitos de negócio e remoção de impedimentos, reportando progresso e métricas de adoção (+150%) para lideranças internacionais.",
+        "Governança & Análise de Progresso: Coordenou marcos de entrega e monitorou indicadores analíticos em Power BI para garantir alinhamento continuo entre estratégia de produto e execução."
       ]
     },
     {
       "company": "Meu Barzin (Startup)",
-      "role": "Product Marketing Manager",
+      "role": "Product Owner & PM",
       "dates": "Dezembro 2025 – Março 2026",
       "location": "Curitiba, PR",
       "bullets": [
-        "Enablement de Parceiros B2B & GTM: Desenhou a estratégia de GTM e o enablement de parceiros B2B locais (estabelecimentos) para a solução 'Meu Barzin Pass', definindo a proposta de valor, mensagens-chave e materiais de apoio comercial.",
-        "Inteligência Conversacional & Automação: Estruturou fluxos de comunicação e réguas de relacionamento via WhatsApp e IA, analisando interações para otimizar a conversão de leads e reduzir o tempo de fechamento."
+        "Gestão de Backlog de Produto 0 a 1: Liderou o backlog do MVP 'Meu Barzin Pass', escrevendo histórias de usuário, mapeando integrações de API (WhatsApp/Stripe) e refinando regras de negócio com o time técnico.",
+        "Identificação de Bloqueios & Qualidade: Conduziu análises de gargalos em funis de API (latência de 43.9%), refinando critérios de aceite e priorizando correções técnicas para garantir a estabilidade da plataforma."
       ]
     },
     {
       "company": "AK Branding & Web Design",
-      "role": "Product & Sales Enablement Consultant",
+      "role": "Product Consultant",
       "dates": "Março 2019 – Setembro 2024",
       "location": "Curitiba, PR",
       "bullets": [
-        "E-commerce & Playbooks de Vendas (40+ Projetos): Liderou a construção de estratégias de vendas, landing pages e e-commerces (desenvolvendo operação de 0 a 1 que faturou R$ 10k em 3 meses), criando scripts e treinando equipes de atendimento.",
-        "Otimização de Conversão (CRO): Otimizou copys, ofertas e treinamentos de contorno de objeções, elevando o volume de contatos e leads qualificados de 8 para 20-30/mês (+250%)."
+        "Especificações de Produto (40+ Projetos): Gerenciou o ciclo de desenvolvimento de mais de 40 soluções digitais, alinhando requisitos de clientes com desenvolvedores por meio de histórias de usuário e priorização de backlog.",
+        "Testes de Aceite & Conversão: Conduziu testes de aceite de entregas e otimizações de fluxos que aumentaram as conversões de usuários de 8 para 20-30/mês (+250%)."
       ]
     },
     {
       "company": "Munzner",
-      "role": "Growth & Enablement Specialist",
+      "role": "Product & Growth Specialist",
       "dates": "Outubro 2018 – Agosto 2024",
       "location": "Curitiba, PR",
       "bullets": [
-        "Enablement de Vendas & Inbound (~R$ 50k): Estruturou estratégia de Inbound Marketing e desenvolveu guias de abordagem que apoiaram a conversão de alunos em formações presenciais high-ticket de R$ 5.000.",
-        "Capacitação & Plataforma Digital (LMS): Liderou o lançamento do 1º curso digital (LMS/WordPress) e desenvolveu conteúdos de treinamento para facilitar a adoção de metodologias por novos clientes."
+        "Gestão de Entregas Educacionais (LMS): Liderou o backlog e o lançamento da primeira plataforma digital de ensino (LMS/WordPress), refinando histórias de usuário e garantindo 50 vendas nos 2 primeiros meses.",
+        "Mapeamento de Requisitos & Conteúdo: Estruturou fluxos de jornada e automação de 10 etapas para retenção e engajamento dos usuários."
       ]
     }
   ],
@@ -54,23 +54,23 @@
     {
       "category": "Product Management & GTM",
       "skills": [
-        "Sales & Revenue Enablement",
-        "Programas de Onboarding Comercial & Ramp-up",
-        "Guias de Argumentação & Contorno de Objeções",
-        "Materiais de Apoio às Vendas & Scripts",
-        "Análise de Interações & Coaching",
-        "Métricas de Performance & Pipeline"
+        "Gestão de Backlog de Produto & Priorização",
+        "Escrita de User Stories & Critérios de Aceite",
+        "Rituais Ágeis (Refinamentos, Sprint Planning, Reviews, Dailies)",
+        "Alinhamento com Stakeholders & Esclarecimento de Requisitos",
+        "Remoção de Bloqueios & Gestão de Dependências",
+        "Trabalho Autônomo em Squads Distribuídas"
       ]
     },
     {
-      "category": "Metodologias & Ferramentas",
+      "category": "Ferramentas & Metodologias",
       "skills": [
-        "Inglês Fluente (Comunicação Diária Global)",
-        "Claude / ChatGPT (Análise de Conversas & Conteúdo)",
-        "Power BI & Analytics de Vendas",
-        "LMS & Plataformas de Treinamento",
-        "Metodologias de Vendas & Roleplays",
-        "Google Project Management (Certificação)"
+        "Inglês Fluente (Comunicação Diária Verbal e Escrita)",
+        "Metodologias Ágeis (Scrum / Kanban)",
+        "Google Project Management (Certificação)",
+        "Claude / ChatGPT (Documentação de Requisitos)",
+        "Power BI & SQL (Bancos Relacionais)",
+        "Prototipação & Fluxos de Processos"
       ]
     },
     {
@@ -87,10 +87,10 @@
     {
       "category": "Mercados & Diferenciais",
       "skills": [
-        "Ecossistema de E-commerce & SaaS B2B",
-        "Atuação Prévia na Ponta Comercial & Growth",
-        "Gestão de Stakeholders Comerciais",
-        "Trabalho 100% Remoto (Remote First)",
+        "Residência em Curitiba/PR (Encontros Presenciais)",
+        "Facilidade para Aprendizado de Regras de Negócio / Compliance",
+        "Formação em Engenharia (UTFPR/UFPR) e Filosofia (UFPR)",
+        "Contrato de Longo Prazo / Autonomia Operacional",
         "Adequação LGPD"
       ]
     }
@@ -145,6 +145,6 @@
     }
   ],
   "additional_information": [
-    "Idiomas & Modelo de Trabalho: Inglês Fluente (atuação diária internacional) | Formação em Engenharia (UTFPR/UFPR) e Filosofia (UFPR) | Disponibilidade 100% Remota."
+    "Idiomas & Localização: Inglês Fluente (Comunicação Diária Verbal e Escrita) | Residente em Curitiba/PR (Disponibilidade Híbrida/Presencial Ocasionais) | Engenharia (UTFPR/UFPR 2.5 anos) e Filosofia (UFPR)."
   ]
 }

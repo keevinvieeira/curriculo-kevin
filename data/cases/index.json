@@ -1,0 +1,72 @@
+{
+  "cases_index": [
+    {
+      "file": "wipro_cases.json",
+      "company": "Wipro Brasil",
+      "count": 3,
+      "titles": [
+        "Next Level Bootcamp - Ramp-up Reduction & AI Adoption",
+        "Meta CRM Native AI Integration - Adoption & Quality",
+        "Sales Excellence & Productivity Pillars - Meta Product Portfolio"
+      ]
+    },
+    {
+      "file": "meubarzin_cases.json",
+      "company": "Meu Barzin (Startup)",
+      "count": 2,
+      "titles": [
+        "Meu Barzin Pass - MVP Conversacional WhatsApp + RAG",
+        "Conversational Architecture - Zero Hallucination RAG"
+      ]
+    },
+    {
+      "file": "ak_cases.json",
+      "company": "AK Branding & Web Design",
+      "count": 3,
+      "titles": [
+        "Boutique Agency - 40+ Custom Projects in 5 Years",
+        "CRO & Chatbots - Lead Gen +250% (8→30/month)",
+        "E-Commerce 0-to-1 - R$ 10k em 3 Meses Orgânico"
+      ]
+    },
+    {
+      "file": "munzner_cases.json",
+      "company": "Munzner",
+      "count": 3,
+      "titles": [
+        "Infoproduto 0-to-1 - Thinking Environment Course (Tripwire ROI)",
+        "High-Ticket Email Funnel - R$ 50k Revenue Automated",
+        "Inbound SEO & Content - Thinking Environment Blog (10% Conversion)"
+      ]
+    },
+    {
+      "file": "conversas_cases.json",
+      "company": "Conversas Brasileiras",
+      "count": 1,
+      "titles": [
+        "Conversas Brasileiras - Social Innovation & Collective Intelligence"
+      ]
+    },
+    {
+      "file": "volunteer_cases.json",
+      "company": "Volunteer Experience (Global Shapers, TETO, Fundação Estudar)",
+      "count": 3,
+      "titles": [
+        "Global Shapers Curitiba - Social Innovation Leadership (WEF)",
+        "TETO Brasil - Crowdfunding R$ 19k in 45 Days (Winter Build)",
+        "Fundação Estudar - Education Advocacy & Leadership Development"
+      ]
+    },
+    {
+      "file": "early_career_cases.json",
+      "company": "Alvesa Transportes Logística Ltda.",
+      "count": 1,
+      "titles": [
+        "Early Career Foundation - Admin/Logistics/Marketing"
+      ]
+    }
+  ],
+  "total_cases": 16,
+  "total_companies": 7,
+  "note": "16 cases created. Target: 30-40. Remaining: create additional cases for deeper coverage of each company (multiple roles, more bullets per role)."
+}

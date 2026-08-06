@@ -6,62 +6,82 @@
   "linkedin": "https://www.linkedin.com/in/kevin-augusto/",
   "github": "",
   "website": "",
-  "summary": "Growth & GTM Lead with 8+ years of experience launching zero-to-one ventures, designing Product-Led Growth (PLG) motions, and scaling multi-channel acquisition funnels. Entrepreneurial operator skilled in rapid experimentation, customer journey positioning, and funnel analytics (CAC, LTV, conversion, retention). Proven track record co-founding an AI startup (Meu Barzin), driving native AI adoption (#1 global growth rate at Meta/Wipro), and using Vibe Coding workflows to set up growth infrastructure and automate GTM execution.",
+  "summary": "Senior Product Owner with 8+ years of professional experience leading product backlogs, user story refinement, and Agile ceremonies (Scrum/Kanban) across digital products and technology platforms. Expert in translating business goals into crisp user stories, acceptance criteria, and technical specs for Engineering and QA teams. Fluent in English for daily international communication, featuring a logical background in Engineering & Philosophy (UFPR/UTFPR) and proven autonomy in distributed squads. Based in Curitiba, Brazil with full availability for occasional in-person meetings.",
   "experience": [
     {
-      "company": "Meu Barzin (AI Fintech Startup)",
-      "role": "Co-Founder & Growth & GTM Lead",
-      "dates": "December 2025 – March 2026",
-      "location": "Curitiba, Brazil",
-      "bullets": [
-        "0-to-1 AI Venture Launch & GTM Strategy: Owned product positioning and go-to-market execution for an AI-first venture, onboarding 200+ partners into a Supabase (PostgreSQL) vector database connected via N8N webhooks, Python, and Vibe Coding.",
-        "Bootstrapped Acquisition & Funnel CRO: Acquired 500+ qualified leads with a minimal budget (R$ 10-20/day) by running qualitative conversation log audits, A/B prompt testing, and fixing latency bottlenecks to boost active funnel engagement to 22.3%."
-      ]
-    },
-    {
       "company": "Wipro Brasil",
-      "role": "Senior Product & GTM Enablement Lead (Meta)",
+      "role": "Product Owner & Enablement Expert (Meta Project)",
       "dates": "September 2024 – July 2026",
       "location": "Curitiba, Brazil",
       "bullets": [
-        "Native AI GTM Adoption (#1 Global Growth Rate): Led the GTM rollout of Meta's native AI CRM features across 150+ analysts by targeting New Hires in 1-on-1 setup sessions, driving the operation from last place to 4th/5th in overall volume and #1 globally in % adoption growth.",
-        "Next Level Bootcamp Pilot (-50% Ramp-Up): Designed and executed a soft-skills onboarding pilot (12 consultants, 100% completion) to accelerate routine integration and performance, reducing time-to-productivity from 6 to 3 months (-50%).",
-        "Interpersonal Leadership & Culture Award: Received Wipro's company-wide 'Be Respectful' Values Award (1 of 5 core company values awarded, selected among 300 employees) for exceptional cross-functional collaboration."
+        "Product Backlog Management & Agile Ceremonies (Meta): Managed and prioritized adoption feature backlogs for Meta CRM. Facilitated refinement ceremonies, wrote user stories, and defined acceptance criteria with Engineering and QA, accelerating user ramp-up by 50%.",
+        "Stakeholder Alignment & Requirement Clarification: Served as daily primary contact for clarifying business requirements and removing blockers, reporting progress and adoption metrics (+150%) to international leadership.",
+        "Governance & Progress Analytics: Monitored operational progress and Power BI analytics to maintain alignment between product roadmap and sprint delivery."
+      ]
+    },
+    {
+      "company": "Meu Barzin (Startup)",
+      "role": "Product Owner & PM",
+      "dates": "December 2025 – March 2026",
+      "location": "Curitiba, Brazil",
+      "bullets": [
+        "0-to-1 Product Backlog Ownership: Led the product backlog for the 'Meu Barzin Pass' MVP, writing user stories, mapping API integration requirements (WhatsApp/Stripe), and refining business logic with technical teams.",
+        "Acceptance Criteria & Quality: Conducted root-cause analysis on API latency bottlenecks (43.9% drop-off), refining acceptance criteria and prioritizing technical debt remediation."
       ]
     },
     {
       "company": "AK Branding & Web Design",
-      "role": "Founder & Growth Marketing Consultant",
+      "role": "Product Consultant",
       "dates": "March 2019 – September 2024",
       "location": "Curitiba, PR",
       "bullets": [
-        "Inbound Acquisition & A/B Testing (+250%): Designed interactive web funnels and landing pages that boosted monthly inbound lead capture from 8 to 20-30 contacts (+250%) through rapid positioning and messaging tests.",
-        "0-to-1 Product Launch & Revenue: Built custom e-commerce product infrastructure generating R$ 10,000 in organic revenue in 3 months with 100% LGPD/GDPR data privacy compliance across 40+ client portals."
+        "Product Specifications (40+ Projects): Managed development backlogs for 40+ digital solutions, aligning client requirements with dev teams through user stories and sprint backlog prioritization.",
+        "Acceptance Testing & CRO: Conducted user acceptance testing (UAT) and interface optimizations that increased qualified lead conversions by +250%."
       ]
     },
     {
       "company": "Munzner",
-      "role": "Growth Marketing & Automated Nurture Specialist",
+      "role": "Product & Growth Specialist",
       "dates": "October 2018 – August 2024",
       "location": "Curitiba, PR",
       "bullets": [
-        "Automated Multi-Channel Nurture (~R$ 50k): Built automated email nurture pipelines (Bitrix24/Sendpulse) attracting 10,000+ visits and generating ~R$ 50,000 in high-ticket revenue (~10 enrollments at R$ 5,000).",
-        "0-to-1 LMS Product Launch: Designed and automated a digital LMS tripwire course (WordPress), securing 50 sales in 2 months with a 1.0x-1.5x ROI."
+        "Educational SaaS Backlog Management: Managed user stories and backlog for an LMS platform launch, securing 50 sales in the first 2 months.",
+        "Requirement Mapping & User Journeys: Structured 10-stage user journey requirements for engagement and retention."
       ]
     }
   ],
   "skills": [
     {
-      "category": "Growth, GTM & PLG Strategy",
-      "skills": ["0-to-1 AI Startup Launch & Validation", "Product-Led Growth (PLG) Motions", "Multi-Channel Acquisition (LinkedIn, Twitter, Email, Content)", "Positioning, Messaging & Customer Journeys", "CAC, LTV, Conversion & Retention Analytics"]
+      "category": "Product Owner Core Skills",
+      "skills": [
+        "Product Backlog Management & Prioritization",
+        "User Story Writing & Acceptance Criteria",
+        "Agile Ceremonies (Refinement, Sprint Planning, Reviews, Dailies)",
+        "Stakeholder Management & Requirement Clarification",
+        "Risk Identification & Blocker Removal",
+        "Independent Autonomous Execution"
+      ]
     },
     {
-      "category": "Growth Ops & Technical Automations",
-      "skills": ["Vibe Coding (Claude Code, Cursor)", "Automation & Webhooks (N8N, Zapier)", "Supabase / PostgreSQL Vector Databases", "CRM Ops (HubSpot, Bitrix24)", "SQL & Data Visualization (Power BI)"]
+      "category": "Tools & Methodologies",
+      "skills": [
+        "Fluent English (Daily Written & Verbal)",
+        "Agile & Scrum Frameworks",
+        "Google Project Management Certificate",
+        "Claude / ChatGPT (Requirement Specs)",
+        "Power BI & SQL Databases",
+        "Process Flow Mapping & Prototyping"
+      ]
     },
     {
-      "category": "Experimentation & Execution",
-      "skills": ["Hypothesis-Led Growth Experiments", "Scrappy Marketing Hacks & Viral Loops", "A/B Testing & Funnel CRO", "Soft-Skills Onboarding & Change Management"]
+      "category": "Domain & Differentials",
+      "skills": [
+        "Based in Curitiba, Brazil (In-Person Meetings)",
+        "Eager & Fast Learner of Business & Compliance Rules",
+        "Engineering & Philosophy Background",
+        "Long-Term Contract Experience",
+        "Data Privacy (LGPD/GDPR)"
+      ]
     }
   ],
   "education": [
@@ -104,7 +124,6 @@
     }
   ],
   "additional_information": [
-    "Mindset & Discipline: Dedicated BJJ Purple Belt (Brazilian Jiu-Jitsu practitioner), integrating tactical composure under pressure, daily Yoga, Breathwork, and Mindfulness into growth decision-making.",
-    "Social Impact & Leadership: Awarded Wipro's 'Be Respectful' Values Award (1 of 5 core values, selected among 300 employees), 3-year tenure at Global Shapers Curitiba (World Economic Forum), and Volunteer Ambassador at TETO Brasil (raised R$ 19,000 in 45 days)."
+    "Languages & Location: Fluent English (Daily Verbal & Written) | Based in Curitiba, Brazil (Available for Occasional In-Person Meetings) | Engineering (UTFPR/UFPR 2.5 yrs) & B.A. Philosophy (UFPR)."
   ]
 }
