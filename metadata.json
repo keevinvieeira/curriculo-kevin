@@ -1,16 +1,16 @@
 {
-  "company_name": "Bernoulli Educação",
-  "role_title": "Especialista de Produtos",
-  "url": "https://bernoulli.gupy.io/",
-  "fit_score": 95,
-  "salary_expectation": "R$ 11.000 - R$ 14.000 /mês (CLT / Remoto)",
+  "company_name": "Econodata",
+  "role_title": "AI Growth Hacker",
+  "url": "https://econodata.gupy.io/",
+  "fit_score": 98,
+  "salary_expectation": "R$ 12.000 - R$ 16.000 /mês (CLT / Remoto)",
   "good_points": [
-    "Experiência prática em edtechs e soluções de ensino (concepção e lançamento da plataforma LMS Munzner e treinamentos na Wipro).",
-    "Sólida atuação em User Discovery, pesquisas qualitativas com usuários (entrevistas, testes de usabilidade, testes A/B) e síntese de insights.",
-    "Domínio de UX Design: desenho de jornadas de uso, wireframes e protótipos de baixa a alta fidelidade em mais de 40 produtos digitais.",
-    "Formação em Engenharia (UTFPR/UFPR 2,5 anos) e Filosofia (UFPR), combinando visão lógica de negócios, estruturação de portfólio e comunicação com áreas parceiras."
+    "Match de 98%: Atuação exata na interseção entre Inteligência Artificial, programação (Python/scripts), SQL e estratégias de Growth B2B SaaS.",
+    "Uso diário avançado de IA Generativa (Claude, ChatGPT, RAG) para automação de marketing, pipelines de conteúdo e agentes de prospecção.",
+    "Experiência com desenvolvimento de automações, webhooks (n8n), integrações de API e consultas SQL em bancos relacionais (Supabase, MySQL).",
+    "Mentalidade de produto aplicada ao funil: experimentos A/B rápidos, análise de cohorts, mapeamento de gargalos de conversão e Power BI."
   ],
   "improvement_points": [
-    "Reforçar o mapeamento de métricas específicas de produtos educacionais (ticket médio, alunado, taxa de validação de POCs)."
+    "Reforçar o alinhamento de atribuição de receita diretamente entre ferramentas de automação de marketing e CRMs B2B."
   ]
 }
