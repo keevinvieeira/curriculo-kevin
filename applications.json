@@ -712,5 +712,27 @@
     "fit_score": 98,
     "salary_expectation": "R$ 13.000 - R$ 17.000 /mês (CLT / Híbrido Curitiba)",
     "notes": "Vaga na sede em Curitiba/PR (Olist Tiny ERP). Foco em PMO de lançamentos GTM, orquestração matricial (Produto, Mkt, Vendas, CS), Sales Enablement (scripts, FAQs) e Certificação Google PM."
+  },
+  {
+    "id": "18",
+    "company": "Arco Educação (Arcotech)",
+    "role": "Product Manager II",
+    "date_applied": "2026-08-06",
+    "status": "Candidatado",
+    "url": "https://arcoeducacao.gupy.io/",
+    "fit_score": 95,
+    "salary_expectation": "R$ 15.000 - R$ 19.000 /mês (CLT / Remoto)",
+    "notes": "Vaga remota de Product Manager II na Arcotech (Arco Educação). Foco em Discovery & Delivery, estratégia de produto, métricas (engajamento, retenção, monetização), uso ativo de IA em produto e SQL/dados."
+  },
+  {
+    "id": "19",
+    "company": "Nuvemshop",
+    "role": "Sales & Partner Enablement Specialist",
+    "date_applied": "2026-08-06",
+    "status": "Candidatado",
+    "url": "https://www.nuvemshop.com.br/carreiras",
+    "fit_score": 99,
+    "salary_expectation": "R$ 13.000 - R$ 17.000 /mês (CLT / Remoto)",
+    "notes": "Vaga remota de Sales & Partner Enablement Specialist na Nuvemshop. Encaixe cirúrgico de 99%: onboarding comercial (ramp-up -50%), playbooks de vendas para BDR/SDR/AE/Parceiros, inteligência conversacional/Gong, e-commerce e inglês fluente."
   }
 ]
