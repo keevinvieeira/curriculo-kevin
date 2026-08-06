@@ -6,17 +6,17 @@
   "linkedin": "https://www.linkedin.com/in/kevin-augusto/",
   "github": "",
   "website": "",
-  "summary": "Profissional Sênior com mais de 8 anos de experiência em Go-to-Market (GTM), Product Marketing e Governança de Lançamentos (PMO), especialista na Coordenação Cross-functional (Produto, Marketing e Vendas) e lançamento de produtos de 0 a 1. Detentor da certificação Google Project Management, possui sólida atuação como gestor principal de lançamentos GTM, alinhando equipes de Produto, Marketing, CRM, Vendas e Customer Success por meio de briefings detalhados e rituais de governança. Referência em Sales Enablement, criação de manuais, scripts, FAQs e guias de abordagem comercial, com histórico comprovado na liderança de adoção na Meta/Wipro (operação #1 global) e lançamentos no setor de e-commerce e tecnologia B2B. Residente em Curitiba/PR.",
+  "summary": "Profissional Sênior com mais de 8 anos de experiência em Go-to-Market (GTM) e Product Marketing, especialista em lançar produtos de 0 a 1 e traduzir evoluções de produto em planos de ativação claros para mercado. Habilidade comprovada em coordenar times de Produto, Marketing, Vendas e Customer Success por meio de briefings, mensagens-chave e planos de comunicação. Histórico em Sales Enablement (scripts, FAQs, guias de abordagem) com forte orientação a dados e metas de adoção. Residente em Curitiba/PR, com experiência no setor de e-commerce e plataformas de gestão B2B.",
   "experience": [
     {
       "company": "Wipro Brasil",
-      "role": "Go-to-Market & Enablement Manager (Projeto Meta)",
+      "role": "GTM & Product Enablement Coordinator (Projeto Meta)",
       "dates": "Setembro 2024 – Julho 2026",
       "location": "Curitiba, PR",
       "bullets": [
-        "PMO de Lançamentos & Sales Enablement (Meta): Liderou o GTM interno e a governança de lançamentos com apoio direto ao time comercial. Criou materiais completos de Sales Enablement (scripts, FAQs, guias de argumentação e bibliotecas de prompts), acelerando a adoção de produtos de IA (+150%) e tornando a operação #1 em crescimento global na Meta.",
-        "Coordenação Cross-functional (Produto, Marketing e Vendas) & Ramp-up (-50%): Idealizou e governou o programa de enablement (Next Level Bootcamp) sob diretrizes rígidas de PMO, gerenciando cronogramas e marcos. Reduziu o tempo de ramp-up de 6 para 3 meses (-50%), apoiando o time de vendas a converter em Top Performers.",
-        "Governança de Projetos & Métricas: Coordenou rituais de alinhamento entre times de produto, qualidade e vendas, acompanhando dashboards analíticos em Power BI para reportar visibilidade executiva e performance de adoção."
+        "Go-to-Market & Lançamento de Produto (Meta): Liderou o GTM interno de ferramentas de IA no CRM da Meta. Traduziu evoluções de produto em planos de ativação, mensagens-chave e materiais de Sales Enablement (scripts, FAQs, guias de argumentação) para o time comercial, acelerando a adoção em +150% e tornando a operação #1 em crescimento global.",
+        "Coordenação Cross-functional & Ramp-up (-50%): Alinhou times de Produto, Marketing e Vendas por meio de briefings e rituais de acompanhamento. Reduziu o tempo de ramp-up de 6 para 3 meses (-50%), convertendo consultores em Top Performers.",
+        "Estratégia & Métricas: Acompanhou dashboards em Power BI para reportar performance de adoção e ajustar a estratégia de ativação com base em dados."
       ]
     },
     {
@@ -55,23 +55,23 @@
     {
       "category": "Product Management & GTM",
       "skills": [
-        "Estratégia Go-to-Market (GTM) & PMO",
-        "Coordenação Cross-functional (Produto, Marketing e Vendas)",
-        "Sales Enablement (Scripts, FAQs, One-Pagers)",
-        "Gestão de Lançamentos & Cronogramas",
-        "Priorização de Backlog & Roadmap",
+        "Estratégia Go-to-Market (GTM)",
+        "Lançamento de Produto (0 a 1)",
+        "Sales Enablement (Scripts, FAQs, Guias)",
+        "Coordenação Cross-functional",
+        "Mensagens-chave & Posicionamento",
         "Métricas de Adoção & Performance"
       ]
     },
     {
-      "category": "Metodologias & Ferramentas",
+      "category": "Ferramentas & IA",
       "skills": [
-        "Google Project Management Professional",
-        "Claude / Claude Code / ChatGPT",
-        "Automação de CRM & Réguas de Comunicação",
+        "Claude / ChatGPT (IA Generativa)",
         "Meta Ads & Inbound Marketing",
-        "Power BI & Dashboards",
-        "Metodologias Ágeis (Scrum/Kanban)"
+        "Automação de CRM",
+        "Power BI",
+        "Metodologias Ágeis",
+        "Google Project Management (Certificação)"
       ]
     },
     {
