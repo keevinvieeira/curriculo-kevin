@@ -6,17 +6,17 @@
   "linkedin": "https://www.linkedin.com/in/kevin-augusto/",
   "github": "",
   "website": "",
-  "summary": "Profissional Sênior com mais de 8 anos de experiência em Go-to-Market (GTM) e Product Marketing, especialista em lançar produtos de 0 a 1 e traduzir evoluções de produto em planos de ativação claros para mercado. Habilidade comprovada em coordenar times de Produto, Marketing, Vendas e Customer Success por meio de briefings, mensagens-chave e planos de comunicação. Histórico em Sales Enablement (scripts, FAQs, guias de abordagem) com forte orientação a dados e metas de adoção. Residente em Curitiba/PR, com experiência no setor de e-commerce e plataformas de gestão B2B.",
+  "summary": "Profissional Sênior com mais de 8 anos de experiência em Product Marketing, Growth e Product-Led Growth (PLG) em produtos digitais e SaaS. Especialista no mapeamento da jornada do cliente, identificação de pontos de fricção e abandono (drop-offs), e condução de experimentos para acelerar ativação, engajamento e expansão (cross-sell). Possui bagagem acadêmica em Engenharia (UTFPR/UFPR 2,5 anos), garantindo fluência técnica para transitar com facilidade entre times de Engenharia, Produto, Lifecycle, CS e Marketing. Sólida capacidade analítica em dados de produto (funis, retenção) e automação de fluxos de engajamento, com histórico em ecossistemas de e-commerce e soluções B2B.",
   "experience": [
     {
       "company": "Wipro Brasil",
-      "role": "GTM & Product Enablement Coordinator (Projeto Meta)",
+      "role": "Product Marketing & Enablement Specialist (Projeto Meta)",
       "dates": "Setembro 2024 – Julho 2026",
       "location": "Curitiba, PR",
       "bullets": [
-        "Go-to-Market & Lançamento de Produto (Meta): Liderou o GTM interno de ferramentas de IA no CRM da Meta. Traduziu evoluções de produto em planos de ativação, mensagens-chave e materiais de Sales Enablement (scripts, FAQs, guias de argumentação) para o time comercial, acelerando a adoção em +150% e tornando a operação #1 em crescimento global.",
-        "Coordenação Cross-functional & Ramp-up (-50%): Alinhou times de Produto, Marketing e Vendas por meio de briefings e rituais de acompanhamento. Reduziu o tempo de ramp-up de 6 para 3 meses (-50%), convertendo consultores em Top Performers.",
-        "Estratégia & Métricas: Acompanhou dashboards em Power BI para reportar performance de adoção e ajustar a estratégia de ativação com base em dados."
+        "Jornada de Adoção & Enablement (Meta): Liderou estratégias de ativação e adoção de ferramentas de IA no CRM. Mapeou pontos de fricção no uso diário do produto e desenvolveu materiais de orientação e suporte, reduzindo o tempo de produtividade de 6 para 3 meses (-50%) e impulsionando a adoção em +150%.",
+        "Coordenação Cross-functional: Atuou como a ponte entre times de Produto, Engenharia, Qualidade e Linha de Frente, traduzindo necessidades dos usuários em requisitos de melhoria e rituais de alinhamento contínuo.",
+        "Análise de Dados de Adoção: Acompanhou dashboards em Power BI para monitorar métricas de uso e engajamento, identificando gargalos na jornada e ajustando planos de capacitação com base em evidências."
       ]
     },
     {
@@ -25,7 +25,7 @@
       "dates": "Dezembro 2025 – Março 2026",
       "location": "Curitiba, PR",
       "bullets": [
-        "Go-to-Market (GTM) e Lançamento de 0 a 1: Desenhou e liderou o GTM do piloto 'Meu Barzin Pass'. Definiu o posicionamento, mensagens-chave e plano de ativação para parceiros B2B e assinantes B2C, orquestrando fluxos no CRM e canais de aquisição.",
+        "PLG & Mapeamento de Jornada de Uso: Desenhou e lançou o piloto do 'Meu Barzin Pass'. Mapeou a jornada do usuário no produto, analisou dados de funil profundo identificando pontos de abandono (drop-offs) e estruturou experimentos de atração e retenção.",
         "IA Generativa e Marketing B2B: Conduziu campanhas de aquisição (Meta Ads) conectadas ao posicionamento do produto. Utilizou ChatGPT e Claude na geração de insights para estruturar apresentações B2B, fluxos de automação e comunicação com parceiros.",
         "Otimização de Funil e Testes A/B: Conquistou base de 505 leads com 22.3% de engajamento profundo. Mapeou objeções e motivadores de compra, realizando testes A/B de mensagens que otimizaram o funil de aquisição."
       ]
@@ -37,7 +37,7 @@
       "location": "Curitiba, PR",
       "bullets": [
         "Gestão de Portfólio e Posicionamento (40+ Projetos): Liderou estratégias de marketing de produto, testes de usabilidade e posicionamento para clientes, traduzindo insights de consumidores em direcionamentos de mídia e conteúdo.",
-        "E-commerce & CRO (0 a 1): Liderou estratégias de GTM e conversão para mais de 40 projetos, desenvolvendo um e-commerce do zero (R$ 10k faturados nos primeiros 3 meses) e otimizando réguas de comunicação e landing pages."
+        "E-commerce & Otimização de Jornada: Liderou projetos de Product Marketing e CRO em mais de 40 soluções digitais, otimizando fluxos de onboarding, formulários e landing pages para aumentar a conversão e o engajamento dos usuários."
       ]
     },
     {
@@ -55,23 +55,23 @@
     {
       "category": "Product Management & GTM",
       "skills": [
-        "Estratégia Go-to-Market (GTM)",
-        "Lançamento de Produto (0 a 1)",
-        "Sales Enablement (Scripts, FAQs, Guias)",
-        "Coordenação Cross-functional",
-        "Mensagens-chave & Posicionamento",
-        "Métricas de Adoção & Performance"
+        "Product-Led Growth (PLG) & Jornada do Cliente",
+        "Mapeamento de Funil, Adoção e Retenção",
+        "Análise de Dados Comportamentais & Drop-offs",
+        "Experimentos de Ativação & Cross-sell",
+        "Coordenação Cross-functional (Produto, Tech, CS)",
+        "Lifecycle Marketing & Automações"
       ]
     },
     {
-      "category": "Ferramentas & IA",
+      "category": "Ferramentas & Fluência Técnica",
       "skills": [
+        "Fluência Técnica (Engenharia UTFPR/UFPR)",
         "Claude / ChatGPT (IA Generativa)",
+        "Automação de CRM & Triggers",
+        "Power BI & Análise de Eventos",
         "Meta Ads & Inbound Marketing",
-        "Automação de CRM",
-        "Power BI",
-        "Metodologias Ágeis",
-        "Google Project Management (Certificação)"
+        "Pesquisa Qualitativa & UX"
       ]
     },
     {
@@ -88,10 +88,10 @@
     {
       "category": "Mercados & Diferenciais",
       "skills": [
-        "Sistemas de Gestão (ERP) & E-commerce",
-        "Residência em Curitiba/PR (Sede Olist)",
-        "Liderança sem Autoridade Direta",
-        "Capacidade Analítica & Governança",
+        "SaaS ERP & Ecossistema de E-commerce",
+        "Background em Engenharia & Filosofia",
+        "Liderança por Influência & Diálogo Técnico",
+        "Trabalho 100% Remoto",
         "Adequação LGPD"
       ]
     }
@@ -146,6 +146,6 @@
     }
   ],
   "additional_information": [
-    "Residência & Certificação: Residente em Curitiba/PR (disponibilidade híbrida na sede do Olist) | Certificação Google Project Management Professional Certificate (Coursera / Google)."
+    "Formação & Modelo de Trabalho: Formação em Engenharia (UTFPR/UFPR 2.5 anos) e Filosofia (UFPR) | Disponibilidade para atuação 100% Remota."
   ]
 }

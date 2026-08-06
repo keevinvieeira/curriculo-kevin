@@ -1,17 +1,16 @@
 {
-  "company_name": "Olist",
-  "role_title": "Especialista em Go-to-Market (GTM) - ERP",
-  "url": "https://olist.inhire.app/vagas/43429609-6d26-4485-89f2-1d1b51d56b39/especialista-em-go-to-market-or-erp?source=linkedin",
-  "fit_score": 98,
-  "salary_expectation": "R$ 13.000 - R$ 17.000 /mês (CLT / Híbrido Curitiba)",
+  "company_name": "Bling (LWSA)",
+  "role_title": "Especialista de Product Marketing - Jornadas (PLG)",
+  "url": "https://bling.gupy.io/",
+  "fit_score": 96,
+  "salary_expectation": "R$ 14.000 - R$ 18.000 /mês (CLT / Remoto)",
   "good_points": [
-    "Residência em Curitiba/PR (sede da Olist) com total disponibilidade para atuação híbrida.",
-    "Certificação em Gestão de Projetos (Google Project Management Professional Certificate) e forte atuação em PMO de lançamentos.",
-    "Sólida experiência em orquestração matricial (Produto, Marketing, CRM, Vendas e CS) e criação de enxovais de Sales Enablement (scripts, FAQs, guias).",
-    "Histórico de impacto em e-commerce de 0 a 1 e aceleração de adoção de produtos na Meta/Wipro (operação #1 global)."
+    "Background em Engenharia (UTFPR/UFPR 2,5 anos) que garante fluência técnica para transitar entre Engenharia, Produto e Comercial (diferencial explícito da vaga).",
+    "Vivência em Product-Led Growth (PLG), mapeamento de jornadas de uso do cliente e identificação de gargalos de adoção/retenção.",
+    "Forte capacidade analítica de dados comportamentais (funis profundos, retenção, drop-offs) e condução de testes A/B.",
+    "Atuação como ponte cross-functional entre Produto, Lifecycle, CS e Marketing para traduzir insights em backlog acionável."
   ],
   "improvement_points": [
-    "Reforçar os indicadores de adoção pós-lançamento (feature adoption) em sistemas de gestão (ERP).",
-    "Destacar a priorização de backlog baseada em dados de uso e inteligência de mercado."
+    "Enfatizar a análise de dados comportamentais de produto (funis e cohorts) junto com o ferramental de automação de CRM."
   ]
 }
