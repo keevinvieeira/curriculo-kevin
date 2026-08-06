@@ -1,0 +1,46 @@
+{
+  "title": "Case Title (ex: Next Level Bootcamp - Ramp-up Reduction)",
+  "company": "Company Name (ex: Wipro Brasil)",
+  "role": "Role Title (ex: Marketing Coordinator / Product Enablement Expert)",
+  "date_range": "Date Range (ex: Setembro 2024 – Julho 2026)",
+  "context_pt": "Contexto: Descreva o cenário de mercado/empresa. Qual era o ambiente? Quais as condições?",
+  "context_en": "Context: Describe the market/company scenario. What was the environment? What conditions?",
+  "challenge_pt": "Desafio: Qual era o problema de negócio ou técnico específico a ser resolvido?",
+  "challenge_en": "Challenge: What was the specific business or technical problem to solve?",
+  "problem_pt": "Problema Negocial/Técnico: A dor exata. O que estava quebrado, faltando ou ineficiente?",
+  "problem_en": "Business/Technical Problem: The exact pain point. What was broken, missing, or inefficient?",
+  "hypotheses_pt": "Hipóteses Formuladas: O que você acreditava que resolveria o problema? Qual o racional analítico?",
+  "hypotheses_en": "Hypotheses Formulated: What did you believe would solve the problem? What was the analytical rationale?",
+  "decisions_pt": "Decisões & Arquitetura: O que você decidiu fazer? Qual solução criou? (IAs, automações n8n, estratégias GTM)",
+  "decisions_en": "Decisions & Architecture: What did you decide to do? What solution did you create? (AIs, n8n automations, GTM strategies)",
+  "tradeoffs_pt": "Trade-offs & Riscos Assumidos: Quais compromissos fez? O que sacrificou? Riscos calculados?",
+  "tradeoffs_en": "Trade-offs & Risks: What compromises did you make? What did you sacrifice? Calculated risks?",
+  "results_pt": "Resultados & Métricas: Impacto quantificável (+150% adoção IA, -50% ramp-up, 505 leads, R$ 50k revenue)",
+  "results_en": "Results & Metrics: Quantifiable impact (+150% AI adoption, -50% ramp-up, 505 leads, R$ 50k revenue)",
+  "metrics": [
+    "+150%",
+    "-50%",
+    "505 leads",
+    "R$ 50k"
+  ],
+  "skills": [
+    "Sales Enablement",
+    "Bootcamp Design",
+    "Ramp-up Acceleration",
+    "Gamification",
+    "Quality Assurance"
+  ],
+  "tools": [
+    "Power BI",
+    "Excel",
+    "Meta CRM"
+  ],
+  "star_situation_pt": "Situation: Contexto da história STAR (onde, quando, qual o cenário)",
+  "star_situation_en": "Situation: STAR story context (where, when, what scenario)",
+  "star_task_pt": "Task: Qual era sua responsabilidade específica? O que precisava ser entregue?",
+  "star_task_en": "Task: What was your specific responsibility? What needed to be delivered?",
+  "star_action_pt": "Action: O que VOCÊ fez especificamente? (verbos de ação: liderou, desenhou, implementou, otimizou)",
+  "star_action_en": "Action: What did YOU specifically do? (action verbs: led, designed, implemented, optimized)",
+  "star_result_pt": "Result: Qual o resultado mensurável? Use números, %, antes/depois.",
+  "star_result_en": "Result: What was the measurable outcome? Use numbers, %, before/after."
+}

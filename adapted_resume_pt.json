@@ -6,17 +6,17 @@
   "linkedin": "https://www.linkedin.com/in/kevin-augusto/",
   "github": "",
   "website": "",
-  "summary": "Profissional Sênior com mais de 8 anos de experiência em Product Marketing, Growth e Go-to-Market (GTM), liderando o posicionamento e lançamento de produtos de 0 a 1. Especialista em traduzir o entendimento do cliente e insights de mercado em narrativas claras, pitches e materiais de Sales Enablement para diferentes públicos e etapas do funil. Possui domínio avançado em ferramentas de IA generativa (Claude, ChatGPT) para acelerar a pesquisa de mercado, análise da concorrência e síntese de estratégias. Histórico comprovado conduzindo testes A/B de mensagens, alinhando campanhas de mídia paga (Meta Ads) à estratégia de produto e utilizando métricas analíticas (Power BI) para otimizar a performance de produtos.",
+  "summary": "Profissional Sênior em Product Marketing, Growth e Go-to-Market (GTM) B2B, com mais de 8 anos de experiência atuando na ponte entre Engenharia, Produto e Comercial. Especialista em traduzir soluções complexas de tecnologia e Inteligência Artificial em narrativas de valor executivo, apresentações estratégicas, whitepapers e materiais de Sales Enablement. Possui bagagem acadêmica em Engenharia e Filosofia (UFPR/UTFPR), unindo raciocínio técnico-estruturado a uma comunicação executiva clara. Domínio avançado de ferramentas de IA generativa (Claude, ChatGPT) para pesquisa de mercado, síntese e criação de conteúdo. Residente em Curitiba/PR, com histórico comprovado na liderança de adoção de IA na Meta/Wipro (operação #1 global) e execução de estratégias de demanda B2B.",
   "experience": [
     {
       "company": "Wipro Brasil",
-      "role": "Product Marketing Coordinator / Enablement Expert (Meta)",
+      "role": "Product Marketing Coordinator / AI Enablement Expert (Meta)",
       "dates": "Setembro 2024 – Julho 2026",
       "location": "Curitiba, PR",
       "bullets": [
-        "Sales Enablement & Apoio Direto ao Time Comercial: Liderou o Sales Enablement e GTM interno com apoio direto ao time comercial (consultores de vendas Meta). Traduziu insights de produto e métricas operacionais em ações de treinamento, bibliotecas de prompts e guias de argumentação, elevando a adoção de IA no CRM (+150%) e tornando a operação a #1 em crescimento na Meta globalmente.",
-        "Treinamento e Ramp-up do Time Comercial (-50%): Idealizou e governou o programa de enablement focado na alta performance do time comercial. Reduziu o tempo de ramp-up de 6 para 3 meses (-50%), apoiando consultores a converterem em Top Performers com pitches e abordagens bem alinhadas.",
-        "Estratégia e Tradução de Insights (Wipro/Meta): Traduziu diretrizes complexas de produto em treinamentos práticos para o time comercial, colaborando cross-functional para garantir alinhamento entre produto, mídia e metas de vendas."
+        "Sales Enablement & Tradução Técnica (Meta): Liderou o GTM interno e o Sales Enablement com apoio direto ao time comercial (consultores de vendas Meta). Traduziu soluções técnicas e ferramentas de IA no CRM em treinamentos, guias de argumentação e bibliotecas de prompts, elevando a adoção de IA (+150%) e tornando a operação #1 em crescimento na Meta globalmente.",
+        "Treinamento & Capacitação Comercial (-50% Ramp-up): Idealizou e governou o programa de enablement focado na alta performance do time comercial. Reduziu o tempo de ramp-up de 6 para 3 meses (-50%), apoiando a equipe a converter em Top Performers com pitches e apresentações estratégicas.",
+        "Estratégia Cross-functional (Wipro/Meta): Traduziu diretrizes complexas de produto em treinamentos práticos, colaborando cross-functional para garantir alinhamento entre times técnicos, marketing e metas de vendas."
       ]
     },
     {
@@ -26,7 +26,7 @@
       "location": "Curitiba, PR",
       "bullets": [
         "Go-to-Market (GTM) e Lançamento de 0 a 1: Desenhou e lançou o piloto do 'Meu Barzin Pass'. Definiu o posicionamento e a proposta de valor para diferentes públicos (estabelecimentos e usuários), validando a estratégia de negocio B2B com os bares locais.",
-        "IA Generativa e Mídia Paga: Conduziu campanhas de aquisição (Meta Ads) conectadas ao posicionamento do produto. Utilizou ChatGPT e Claude na geração de insights para estruturar fluxos de automação e mensagens.",
+        "IA Generativa e Marketing B2B: Conduziu campanhas de aquisição (Meta Ads) conectadas ao posicionamento do produto. Utilizou ChatGPT e Claude na geração de insights para estruturar apresentações B2B, fluxos de automação e comunicação com parceiros.",
         "Otimização de Funil e Testes A/B: Conquistou base de 505 leads com 22.3% de engajamento profundo. Mapeou objeções e motivadores de compra, realizando testes A/B de mensagens que otimizaram o funil de aquisição."
       ]
     },
@@ -55,12 +55,12 @@
     {
       "category": "Product Management & GTM",
       "skills": [
-        "Estratégia Go-to-Market (GTM)",
-        "Product Marketing & Posicionamento",
-        "Sales Enablement (Pitch, Cases)",
-        "Product Discovery e Pesquisa",
-        "Jornada do Cliente e Funil",
-        "Mapeamento de Objeções"
+        "Product Marketing B2B & GTM",
+        "Tradução de Tecnologia & IA p/ Negócios",
+        "Sales Enablement & Comunicação Executiva",
+        "Apresentações Estratégicas & Whitepapers",
+        "Product Discovery & Pesquisa B2B",
+        "Jornada do Cliente & Posicionamento"
       ]
     },
     {
@@ -68,9 +68,9 @@
       "skills": [
         "Claude / Claude Code / ChatGPT",
         "Geração de Insights com IA",
-        "Pesquisa com IA Generativa",
+        "Pesquisa & Síntese com IA Generativa",
         "Meta Ads",
-        "Automação de CRM",
+        "Automação de CRM & Workflows",
         "Power BI"
       ]
     },
@@ -88,11 +88,11 @@
     {
       "category": "Mercados & Diferenciais",
       "skills": [
+        "Mercado de Tecnologia & IA B2B",
         "E-commerce & Marketplaces",
-        "Comunicação Cross-functional",
-        "Capacidade Analítica",
-        "Metodologias Ágeis",
-        "Adequação LGPD"
+        "Residência em Curitiba/PR (Híbrido)",
+        "Comunicação Cross-functional (Engenharia/Comercial)",
+        "Capacidade Analítica & Estruturação Lógica"
       ]
     }
   ],

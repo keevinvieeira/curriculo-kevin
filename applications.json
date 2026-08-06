@@ -690,5 +690,16 @@
     "salary_expectation": "R$ 12.000 - R$ 16.000 /mês (CLT)",
     "id": "15",
     "role": "Product Marketing (AI Creator)"
+  },
+  {
+    "id": "16",
+    "company": "Positivo Tecnologia",
+    "role": "Analista de Marketing de Produto e IA (Sênior)",
+    "date_applied": "2026-08-06",
+    "status": "Candidatado",
+    "url": "https://www.linkedin.com/jobs/view/4450264430/",
+    "fit_score": 97,
+    "salary_expectation": "R$ 11.000 - R$ 15.000 /mês (CLT / Híbrido Curitiba)",
+    "notes": "Vaga híbrida em Curitiba/PR. Foco em traduzir soluções de IA e infraestrutura para linguagem executiva B2B, Sales Enablement, apresentações e IA Generativa (Claude/ChatGPT)."
   }
 ]

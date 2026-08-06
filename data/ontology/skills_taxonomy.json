@@ -1,0 +1,1433 @@
+{
+  "categories": [
+    {
+      "name": "AI & Machine Learning",
+      "category_enum": "AI & Machine Learning",
+      "description": "Artificial Intelligence, Machine Learning, LLMs, Prompt Engineering"
+    },
+    {
+      "name": "Automation & No-Code",
+      "category_enum": "Automation & No-Code",
+      "description": "Workflow automation, orchestration, no-code/low-code platforms"
+    },
+    {
+      "name": "Product Discovery",
+      "category_enum": "Product Discovery",
+      "description": "Product discovery, validation, user research, experimentation"
+    },
+    {
+      "name": "Growth & Marketing",
+      "category_enum": "Growth & Marketing",
+      "description": "Growth marketing, acquisition, retention, monetization"
+    },
+    {
+      "name": "Product Operations",
+      "category_enum": "Product Operations",
+      "description": "Product operations, project management, quality, compliance"
+    },
+    {
+      "name": "Sales & Operations",
+      "category_enum": "Sales & Operations",
+      "description": "Sales enablement, productivity, operations, methodologies"
+    },
+    {
+      "name": "Data & Analytics",
+      "category_enum": "Data & Analytics",
+      "description": "Business intelligence, data analysis, visualization, insights"
+    },
+    {
+      "name": "Technical & Engineering",
+      "category_enum": "Technical & Engineering",
+      "description": "Software development, infrastructure, DevOps, architecture"
+    },
+    {
+      "name": "Leadership & Management",
+      "category_enum": "Leadership & Management",
+      "description": "People leadership, facilitation, coaching, organizational design"
+    },
+    {
+      "name": "Product Marketing",
+      "category_enum": "Product Marketing",
+      "description": "Positioning, messaging, launch, competitive intelligence"
+    },
+    {
+      "name": "Strategy & GTM",
+      "category_enum": "Strategy & GTM",
+      "description": "Corporate strategy, market analysis, business model design"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Prompt Engineering",
+      "parent_category": "AI & Machine Learning",
+      "description": "Professional prompt design for LLMs (Claude, GPT, Gemini)"
+    },
+    {
+      "name": "Native AI Implementation",
+      "parent_category": "AI & Machine Learning",
+      "description": "Integrating AI models into production workflows"
+    },
+    {
+      "name": "RAG (Retrieval-Augmented Generation)",
+      "parent_category": "AI & Machine Learning",
+      "description": "Building retrieval-augmented generation systems"
+    },
+    {
+      "name": "Zero Hallucination Rules",
+      "parent_category": "AI & Machine Learning",
+      "description": "Constraint design for factual AI outputs"
+    },
+    {
+      "name": "Conversational AI",
+      "parent_category": "AI & Machine Learning",
+      "description": "Chatbot/voice agent design and architecture"
+    },
+    {
+      "name": "LLM Evaluation",
+      "parent_category": "AI & Machine Learning",
+      "description": "Testing and benchmarking LLM outputs"
+    },
+    {
+      "name": "AI Agents",
+      "parent_category": "AI & Machine Learning",
+      "description": "Autonomous agent architectures (LangChain, AutoGPT patterns)"
+    },
+    {
+      "name": "Vector Databases",
+      "parent_category": "AI & Machine Learning",
+      "description": "Pinecone, Weaviate, Chroma for embeddings storage"
+    },
+    {
+      "name": "Embeddings",
+      "parent_category": "AI & Machine Learning",
+      "description": "Text embedding models and similarity search"
+    },
+    {
+      "name": "Fine-tuning",
+      "parent_category": "AI & Machine Learning",
+      "description": "Parameter-efficient fine-tuning (LoRA, QLoRA)"
+    },
+    {
+      "name": "n8n",
+      "parent_category": "Automation & No-Code",
+      "description": "Self-hosted workflow automation platform"
+    },
+    {
+      "name": "Make (Integromat)",
+      "parent_category": "Automation & No-Code",
+      "description": "Visual automation platform for app integration"
+    },
+    {
+      "name": "Zapier",
+      "parent_category": "Automation & No-Code",
+      "description": "Cloud-based automation between web apps"
+    },
+    {
+      "name": "Botpress",
+      "parent_category": "Automation & No-Code",
+      "description": "Open-source chatbot platform"
+    },
+    {
+      "name": "ManyChat",
+      "parent_category": "Automation & No-Code",
+      "description": "Messenger/Instagram/WhatsApp automation"
+    },
+    {
+      "name": "CRM Automation",
+      "parent_category": "Automation & No-Code",
+      "description": "Salesforce, HubSpot, Pipedrive workflow automation"
+    },
+    {
+      "name": "Email Marketing Automation",
+      "parent_category": "Automation & No-Code",
+      "description": "Sendpulse, ActiveCampaign, Mailchimp journeys"
+    },
+    {
+      "name": "WhatsApp Business API",
+      "parent_category": "Automation & No-Code",
+      "description": "Official WhatsApp integration for business"
+    },
+    {
+      "name": "API/Webhook Integrations",
+      "parent_category": "Automation & No-Code",
+      "description": "Custom integration development"
+    },
+    {
+      "name": "Process Mining",
+      "parent_category": "Automation & No-Code",
+      "description": "Discovering and optimizing business processes"
+    },
+    {
+      "name": "Design Thinking",
+      "parent_category": "Product Discovery",
+      "description": "Human-centered problem solving methodology"
+    },
+    {
+      "name": "Lean Startup",
+      "parent_category": "Product Discovery",
+      "description": "Build-Measure-Learn cycles, MVP validation"
+    },
+    {
+      "name": "MVP Prototyping",
+      "parent_category": "Product Discovery",
+      "description": "Rapid prototype development and testing"
+    },
+    {
+      "name": "ICP Mapping",
+      "parent_category": "Product Discovery",
+      "description": "Ideal Customer Profile definition and segmentation"
+    },
+    {
+      "name": "User Journey Mapping",
+      "parent_category": "Product Discovery",
+      "description": "End-to-end user experience visualization"
+    },
+    {
+      "name": "UX/UI Design",
+      "parent_category": "Product Discovery",
+      "description": "Figma, user interface and experience design"
+    },
+    {
+      "name": "User Research",
+      "parent_category": "Product Discovery",
+      "description": "Interviews, surveys, usability testing"
+    },
+    {
+      "name": "Jobs-to-be-Done",
+      "parent_category": "Product Discovery",
+      "description": "JTBD framework for understanding customer needs"
+    },
+    {
+      "name": "Product Analytics",
+      "parent_category": "Product Discovery",
+      "description": "Mixpanel, Amplitude, event tracking"
+    },
+    {
+      "name": "A/B Testing",
+      "parent_category": "Product Discovery",
+      "description": "Experimentation design and statistical analysis"
+    },
+    {
+      "name": "Go-to-Market Strategy",
+      "parent_category": "Growth & Marketing",
+      "description": "GTM planning, launch execution, market entry"
+    },
+    {
+      "name": "SEO & Organic Growth",
+      "parent_category": "Growth & Marketing",
+      "description": "Technical SEO, content strategy, link building"
+    },
+    {
+      "name": "Inbound Marketing",
+      "parent_category": "Growth & Marketing",
+      "description": "Content marketing, lead magnets, nurture funnels"
+    },
+    {
+      "name": "Paid Acquisition",
+      "parent_category": "Growth & Marketing",
+      "description": "Google Ads, Meta Ads, LinkedIn Ads management"
+    },
+    {
+      "name": "Conversion Rate Optimization",
+      "parent_category": "Growth & Marketing",
+      "description": "CRO, landing page optimization, funnel analysis"
+    },
+    {
+      "name": "Monetization Models",
+      "parent_category": "Growth & Marketing",
+      "description": "Subscription, freemium, usage-based pricing"
+    },
+    {
+      "name": "Email Marketing",
+      "parent_category": "Growth & Marketing",
+      "description": "Lifecycle campaigns, segmentation, deliverability"
+    },
+    {
+      "name": "Marketing Automation",
+      "parent_category": "Growth & Marketing",
+      "description": "Lead scoring, drip campaigns, behavioral triggers"
+    },
+    {
+      "name": "Affiliate/Referral Programs",
+      "parent_category": "Growth & Marketing",
+      "description": "Partner marketing, viral loops"
+    },
+    {
+      "name": "Community Building",
+      "parent_category": "Growth & Marketing",
+      "description": "Community-led growth, ambassador programs"
+    },
+    {
+      "name": "Agile Methodologies",
+      "parent_category": "Product Operations",
+      "description": "Scrum, Kanban, SAFe, sprint planning"
+    },
+    {
+      "name": "PMO Guidelines",
+      "parent_category": "Product Operations",
+      "description": "Project Management Office standards and governance"
+    },
+    {
+      "name": "Project Scheduling",
+      "parent_category": "Product Operations",
+      "description": "Gantt charts, critical path, resource allocation"
+    },
+    {
+      "name": "Quality Assurance",
+      "parent_category": "Product Operations",
+      "description": "Testing strategies, audit frameworks, quality gates"
+    },
+    {
+      "name": "OCIR Framework",
+      "parent_category": "Product Operations",
+      "description": "Objective, Context, Input, Result framework"
+    },
+    {
+      "name": "Meta Quality Methodology",
+      "parent_category": "Product Operations",
+      "description": "Meta's proprietary quality standards"
+    },
+    {
+      "name": "Funnel Bottleneck Mapping",
+      "parent_category": "Product Operations",
+      "description": "Identifying and resolving conversion blockers"
+    },
+    {
+      "name": "Business Continuity Planning",
+      "parent_category": "Product Operations",
+      "description": "BCP, disaster recovery, risk mitigation"
+    },
+    {
+      "name": "Data Governance",
+      "parent_category": "Product Operations",
+      "description": "Data quality, lineage, privacy compliance"
+    },
+    {
+      "name": "LGPD/GDPR Compliance",
+      "parent_category": "Product Operations",
+      "description": "Privacy law implementation and auditing"
+    },
+    {
+      "name": "Budget & Timeline Control",
+      "parent_category": "Product Operations",
+      "description": "Financial planning, burn rate, runway management"
+    },
+    {
+      "name": "Cross-Functional Coordination",
+      "parent_category": "Product Operations",
+      "description": "Stakeholder alignment, dependency management"
+    },
+    {
+      "name": "Sales Enablement",
+      "parent_category": "Sales & Operations",
+      "description": "Training, content, tools for sales productivity"
+    },
+    {
+      "name": "Sales Excellence",
+      "parent_category": "Sales & Operations",
+      "description": "Methodology implementation (MEDDIC, SPIN, Challenger)"
+    },
+    {
+      "name": "Call Listening & Coaching",
+      "parent_category": "Sales & Operations",
+      "description": "Gong, Chorus, structured feedback loops"
+    },
+    {
+      "name": "Playbooks & Scripts",
+      "parent_category": "Sales & Operations",
+      "description": "Battle cards, objection handling, talk tracks"
+    },
+    {
+      "name": "Sales Productivity",
+      "parent_category": "Sales & Operations",
+      "description": "Ramp-up acceleration, time-to-productivity reduction"
+    },
+    {
+      "name": "CRM Administration",
+      "parent_category": "Sales & Operations",
+      "description": "Salesforce, HubSpot, Meta CRM configuration"
+    },
+    {
+      "name": "Pipeline Management",
+      "parent_category": "Sales & Operations",
+      "description": "Forecasting, deal inspection, pipeline hygiene"
+    },
+    {
+      "name": "Territory Planning",
+      "parent_category": "Sales & Operations",
+      "description": "Quota setting, account segmentation, capacity planning"
+    },
+    {
+      "name": "Partner Enablement",
+      "parent_category": "Sales & Operations",
+      "description": "Channel partner training and certification"
+    },
+    {
+      "name": "Revenue Operations",
+      "parent_category": "Sales & Operations",
+      "description": "RevOps, GTM alignment, data-driven decisions"
+    },
+    {
+      "name": "Power BI",
+      "parent_category": "Data & Analytics",
+      "description": "DAX, data modeling, dashboard development"
+    },
+    {
+      "name": "Tableau",
+      "parent_category": "Data & Analytics",
+      "description": "Visual analytics, calculated fields, server admin"
+    },
+    {
+      "name": "Advanced Excel",
+      "parent_category": "Data & Analytics",
+      "description": "Pivot tables, Power Query, complex formulas"
+    },
+    {
+      "name": "SQL",
+      "parent_category": "Data & Analytics",
+      "description": "Query optimization, window functions, CTEs"
+    },
+    {
+      "name": "Root Cause Analysis",
+      "parent_category": "Data & Analytics",
+      "description": "5 Whys, Fishbone, Pareto analysis"
+    },
+    {
+      "name": "Statistical Analysis",
+      "parent_category": "Data & Analytics",
+      "description": "Hypothesis testing, regression, significance"
+    },
+    {
+      "name": "Data Visualization",
+      "parent_category": "Data & Analytics",
+      "description": "Chart selection, storytelling, executive dashboards"
+    },
+    {
+      "name": "ETL/ELT Pipelines",
+      "parent_category": "Data & Analytics",
+      "description": "Data ingestion, transformation, orchestration"
+    },
+    {
+      "name": "Supabase/PostgreSQL",
+      "parent_category": "Data & Analytics",
+      "description": "Database design, RLS, real-time subscriptions"
+    },
+    {
+      "name": "Web Scraping",
+      "parent_category": "Data & Analytics",
+      "description": "BeautifulSoup, Selenium, Playwright, ethics"
+    },
+    {
+      "name": "Python",
+      "parent_category": "Technical & Engineering",
+      "description": "Scripting, automation, data processing, FastAPI"
+    },
+    {
+      "name": "JavaScript/TypeScript",
+      "parent_category": "Technical & Engineering",
+      "description": "Node.js, React, Next.js, frontend development"
+    },
+    {
+      "name": "REST/GraphQL APIs",
+      "parent_category": "Technical & Engineering",
+      "description": "API design, OpenAPI, authentication, rate limiting"
+    },
+    {
+      "name": "Database Design",
+      "parent_category": "Technical & Engineering",
+      "description": "PostgreSQL, MongoDB, schema modeling, indexing"
+    },
+    {
+      "name": "Docker",
+      "parent_category": "Technical & Engineering",
+      "description": "Containerization, multi-stage builds, compose"
+    },
+    {
+      "name": "Kubernetes",
+      "parent_category": "Technical & Engineering",
+      "description": "Orchestration, helm charts, scaling, monitoring"
+    },
+    {
+      "name": "CI/CD",
+      "parent_category": "Technical & Engineering",
+      "description": "GitHub Actions, GitLab CI, deployment pipelines"
+    },
+    {
+      "name": "Cloud Platforms",
+      "parent_category": "Technical & Engineering",
+      "description": "AWS, GCP, Azure - core services"
+    },
+    {
+      "name": "VPS Management",
+      "parent_category": "Technical & Engineering",
+      "description": "Linux, Nginx, SSL, systemd, monitoring"
+    },
+    {
+      "name": "Git/GitHub",
+      "parent_category": "Technical & Engineering",
+      "description": "Version control, branching strategies, code review"
+    },
+    {
+      "name": "Figma",
+      "parent_category": "Technical & Engineering",
+      "description": "Design systems, prototyping, developer handoff"
+    },
+    {
+      "name": "WordPress/Elementor",
+      "parent_category": "Technical & Engineering",
+      "description": "CMS development, theme customization, LMS"
+    },
+    {
+      "name": "Servant Leadership",
+      "parent_category": "Leadership & Management",
+      "description": "Team empowerment, obstacle removal, growth focus"
+    },
+    {
+      "name": "Thinking Environment",
+      "parent_category": "Leadership & Management",
+      "description": "Nancy Kline's 10 components, generative attention"
+    },
+    {
+      "name": "Art of Hosting",
+      "parent_category": "Leadership & Management",
+      "description": "Participatory leadership, World Café, Open Space"
+    },
+    {
+      "name": "Facilitation",
+      "parent_category": "Leadership & Management",
+      "description": "Workshop design, group dynamics, decision-making"
+    },
+    {
+      "name": "Coaching & Mentoring",
+      "parent_category": "Leadership & Management",
+      "description": "GROW model, career development, feedback"
+    },
+    {
+      "name": "Team Building",
+      "parent_category": "Leadership & Management",
+      "description": "Psychological safety, trust, high-performance teams"
+    },
+    {
+      "name": "Change Management",
+      "parent_category": "Leadership & Management",
+      "description": "ADKAR, Kotter, organizational transformation"
+    },
+    {
+      "name": "Stakeholder Management",
+      "parent_category": "Leadership & Management",
+      "description": "Influence without authority, negotiation"
+    },
+    {
+      "name": "Bootcamp Design",
+      "parent_category": "Leadership & Management",
+      "description": "Intensive training programs, gamification, assessment"
+    },
+    {
+      "name": "Ramp-up Acceleration",
+      "parent_category": "Leadership & Management",
+      "description": "Onboarding optimization, time-to-productivity"
+    },
+    {
+      "name": "Performance Management",
+      "parent_category": "Leadership & Management",
+      "description": "OKRs, KPIs, continuous feedback, reviews"
+    },
+    {
+      "name": "Conflict Resolution",
+      "parent_category": "Leadership & Management",
+      "description": "Mediation, difficult conversations, restoration"
+    },
+    {
+      "name": "Positioning & Messaging",
+      "parent_category": "Product Marketing",
+      "description": "April Dunford framework, value propositions"
+    },
+    {
+      "name": "Product Launch",
+      "parent_category": "Product Marketing",
+      "description": "Launch tiers, checklists, cross-functional coordination"
+    },
+    {
+      "name": "Competitive Intelligence",
+      "parent_category": "Product Marketing",
+      "description": "Battle cards, win/loss analysis, positioning"
+    },
+    {
+      "name": "Customer Marketing",
+      "parent_category": "Product Marketing",
+      "description": "Case studies, references, advocacy programs"
+    },
+    {
+      "name": "Sales Enablement Content",
+      "parent_category": "Product Marketing",
+      "description": "Decks, one-pagers, demo scripts, ROI calculators"
+    },
+    {
+      "name": "Technical Writing",
+      "parent_category": "Product Marketing",
+      "description": "Documentation, API docs, developer guides"
+    },
+    {
+      "name": "Analyst Relations",
+      "parent_category": "Product Marketing",
+      "description": "Gartner, Forrester, briefings, Magic Quadrant"
+    },
+    {
+      "name": "Community Marketing",
+      "parent_category": "Product Marketing",
+      "description": "Developer relations, user groups, events"
+    },
+    {
+      "name": "Business Model Canvas",
+      "parent_category": "Strategy & GTM",
+      "description": "Value prop, customer segments, revenue streams"
+    },
+    {
+      "name": "Market Sizing",
+      "parent_category": "Strategy & GTM",
+      "description": "TAM/SAM/SOM, bottom-up, top-down estimation"
+    },
+    {
+      "name": "Unit Economics",
+      "parent_category": "Strategy & GTM",
+      "description": "LTV/CAC, payback period, contribution margin"
+    },
+    {
+      "name": "Pricing Strategy",
+      "parent_category": "Strategy & GTM",
+      "description": "Value-based, tiered, usage-based, psychological"
+    },
+    {
+      "name": "Partnership Strategy",
+      "parent_category": "Strategy & GTM",
+      "description": "Co-selling, integration partnerships, ecosystems"
+    },
+    {
+      "name": "International Expansion",
+      "parent_category": "Strategy & GTM",
+      "description": "Localization, compliance, go-to-market"
+    },
+    {
+      "name": "M&A Integration",
+      "parent_category": "Strategy & GTM",
+      "description": "Due diligence, integration planning, synergy capture"
+    },
+    {
+      "name": "Innovation Management",
+      "parent_category": "Strategy & GTM",
+      "description": "Horizon 1/2/3, portfolio management, ventures"
+    }
+  ],
+  "relationships": {
+    "subset_of": [
+      {
+        "child": "Prompt Engineering",
+        "parent": "AI & Machine Learning",
+        "type": "skill_to_category"
+      },
+      {
+        "child": "Native AI Implementation",
+        "parent": "AI & Machine Learning",
+        "type": "skill_to_category"
+      },
+      {
+        "child": "RAG (Retrieval-Augmented Generation)",
+        "parent": "AI & Machine Learning",
+        "type": "skill_to_category"
+      },
+      {
+        "child": "Zero Hallucination Rules",
+        "parent": "AI & Machine Learning",
+        "type": "skill_to_category"
+      },
+      {
+        "child": "Conversational AI",
+        "parent": "AI & Machine Learning",
+        "type": "skill_to_category"
+      },
+      {
+        "child": "LLM Evaluation",
+        "parent": "AI & Machine Learning",
+        "type": "skill_to_category"
+      },
+      {
+        "child": "AI Agents",
+        "parent": "AI & Machine Learning",
+        "type": "skill_to_category"
+      },
+      {
+        "child": "Vector Databases",
+        "parent": "AI & Machine Learning",
+        "type": "skill_to_category"
+      },
+      {
+        "child": "Embeddings",
+        "parent": "AI & Machine Learning",
+        "type": "skill_to_category"
+      },
+      {
+        "child": "Fine-tuning",
+        "parent": "AI & Machine Learning",
+        "type": "skill_to_category"
+      },
+      {
+        "child": "n8n",
+        "parent": "Automation & No-Code",
+        "type": "skill_to_category"
+      },
+      {
+        "child": "Make (Integromat)",
+        "parent": "Automation & No-Code",
+        "type": "skill_to_category"
+      },
+      {
+        "child": "Zapier",
+        "parent": "Automation & No-Code",
+        "type": "skill_to_category"
+      },
+      {
+        "child": "Botpress",
+        "parent": "Automation & No-Code",
+        "type": "skill_to_category"
+      },
+      {
+        "child": "ManyChat",
+        "parent": "Automation & No-Code",
+        "type": "skill_to_category"
+      },
+      {
+        "child": "CRM Automation",
+        "parent": "Automation & No-Code",
+        "type": "skill_to_category"
+      },
+      {
+        "child": "Email Marketing Automation",
+        "parent": "Automation & No-Code",
+        "type": "skill_to_category"
+      },
+      {
+        "child": "WhatsApp Business API",
+        "parent": "Automation & No-Code",
+        "type": "skill_to_category"
+      },
+      {
+        "child": "API/Webhook Integrations",
+        "parent": "Automation & No-Code",
+        "type": "skill_to_category"
+      },
+      {
+        "child": "Process Mining",
+        "parent": "Automation & No-Code",
+        "type": "skill_to_category"
+      },
+      {
+        "child": "Design Thinking",
+        "parent": "Product Discovery",
+        "type": "skill_to_category"
+      },
+      {
+        "child": "Lean Startup",
+        "parent": "Product Discovery",
+        "type": "skill_to_category"
+      },
+      {
+        "child": "MVP Prototyping",
+        "parent": "Product Discovery",
+        "type": "skill_to_category"
+      },
+      {
+        "child": "ICP Mapping",
+        "parent": "Product Discovery",
+        "type": "skill_to_category"
+      },
+      {
+        "child": "User Journey Mapping",
+        "parent": "Product Discovery",
+        "type": "skill_to_category"
+      },
+      {
+        "child": "UX/UI Design",
+        "parent": "Product Discovery",
+        "type": "skill_to_category"
+      },
+      {
+        "child": "User Research",
+        "parent": "Product Discovery",
+        "type": "skill_to_category"
+      },
+      {
+        "child": "Jobs-to-be-Done",
+        "parent": "Product Discovery",
+        "type": "skill_to_category"
+      },
+      {
+        "child": "Product Analytics",
+        "parent": "Product Discovery",
+        "type": "skill_to_category"
+      },
+      {
+        "child": "A/B Testing",
+        "parent": "Product Discovery",
+        "type": "skill_to_category"
+      },
+      {
+        "child": "Go-to-Market Strategy",
+        "parent": "Growth & Marketing",
+        "type": "skill_to_category"
+      },
+      {
+        "child": "SEO & Organic Growth",
+        "parent": "Growth & Marketing",
+        "type": "skill_to_category"
+      },
+      {
+        "child": "Inbound Marketing",
+        "parent": "Growth & Marketing",
+        "type": "skill_to_category"
+      },
+      {
+        "child": "Paid Acquisition",
+        "parent": "Growth & Marketing",
+        "type": "skill_to_category"
+      },
+      {
+        "child": "Conversion Rate Optimization",
+        "parent": "Growth & Marketing",
+        "type": "skill_to_category"
+      },
+      {
+        "child": "Monetization Models",
+        "parent": "Growth & Marketing",
+        "type": "skill_to_category"
+      },
+      {
+        "child": "Email Marketing",
+        "parent": "Growth & Marketing",
+        "type": "skill_to_category"
+      },
+      {
+        "child": "Marketing Automation",
+        "parent": "Growth & Marketing",
+        "type": "skill_to_category"
+      },
+      {
+        "child": "Affiliate/Referral Programs",
+        "parent": "Growth & Marketing",
+        "type": "skill_to_category"
+      },
+      {
+        "child": "Community Building",
+        "parent": "Growth & Marketing",
+        "type": "skill_to_category"
+      },
+      {
+        "child": "Agile Methodologies",
+        "parent": "Product Operations",
+        "type": "skill_to_category"
+      },
+      {
+        "child": "PMO Guidelines",
+        "parent": "Product Operations",
+        "type": "skill_to_category"
+      },
+      {
+        "child": "Project Scheduling",
+        "parent": "Product Operations",
+        "type": "skill_to_category"
+      },
+      {
+        "child": "Quality Assurance",
+        "parent": "Product Operations",
+        "type": "skill_to_category"
+      },
+      {
+        "child": "OCIR Framework",
+        "parent": "Product Operations",
+        "type": "skill_to_category"
+      },
+      {
+        "child": "Meta Quality Methodology",
+        "parent": "Product Operations",
+        "type": "skill_to_category"
+      },
+      {
+        "child": "Funnel Bottleneck Mapping",
+        "parent": "Product Operations",
+        "type": "skill_to_category"
+      },
+      {
+        "child": "Business Continuity Planning",
+        "parent": "Product Operations",
+        "type": "skill_to_category"
+      },
+      {
+        "child": "Data Governance",
+        "parent": "Product Operations",
+        "type": "skill_to_category"
+      },
+      {
+        "child": "LGPD/GDPR Compliance",
+        "parent": "Product Operations",
+        "type": "skill_to_category"
+      },
+      {
+        "child": "Budget & Timeline Control",
+        "parent": "Product Operations",
+        "type": "skill_to_category"
+      },
+      {
+        "child": "Cross-Functional Coordination",
+        "parent": "Product Operations",
+        "type": "skill_to_category"
+      },
+      {
+        "child": "Sales Enablement",
+        "parent": "Sales & Operations",
+        "type": "skill_to_category"
+      },
+      {
+        "child": "Sales Excellence",
+        "parent": "Sales & Operations",
+        "type": "skill_to_category"
+      },
+      {
+        "child": "Call Listening & Coaching",
+        "parent": "Sales & Operations",
+        "type": "skill_to_category"
+      },
+      {
+        "child": "Playbooks & Scripts",
+        "parent": "Sales & Operations",
+        "type": "skill_to_category"
+      },
+      {
+        "child": "Sales Productivity",
+        "parent": "Sales & Operations",
+        "type": "skill_to_category"
+      },
+      {
+        "child": "CRM Administration",
+        "parent": "Sales & Operations",
+        "type": "skill_to_category"
+      },
+      {
+        "child": "Pipeline Management",
+        "parent": "Sales & Operations",
+        "type": "skill_to_category"
+      },
+      {
+        "child": "Territory Planning",
+        "parent": "Sales & Operations",
+        "type": "skill_to_category"
+      },
+      {
+        "child": "Partner Enablement",
+        "parent": "Sales & Operations",
+        "type": "skill_to_category"
+      },
+      {
+        "child": "Revenue Operations",
+        "parent": "Sales & Operations",
+        "type": "skill_to_category"
+      },
+      {
+        "child": "Power BI",
+        "parent": "Data & Analytics",
+        "type": "skill_to_category"
+      },
+      {
+        "child": "Tableau",
+        "parent": "Data & Analytics",
+        "type": "skill_to_category"
+      },
+      {
+        "child": "Advanced Excel",
+        "parent": "Data & Analytics",
+        "type": "skill_to_category"
+      },
+      {
+        "child": "SQL",
+        "parent": "Data & Analytics",
+        "type": "skill_to_category"
+      },
+      {
+        "child": "Root Cause Analysis",
+        "parent": "Data & Analytics",
+        "type": "skill_to_category"
+      },
+      {
+        "child": "Statistical Analysis",
+        "parent": "Data & Analytics",
+        "type": "skill_to_category"
+      },
+      {
+        "child": "Data Visualization",
+        "parent": "Data & Analytics",
+        "type": "skill_to_category"
+      },
+      {
+        "child": "ETL/ELT Pipelines",
+        "parent": "Data & Analytics",
+        "type": "skill_to_category"
+      },
+      {
+        "child": "Supabase/PostgreSQL",
+        "parent": "Data & Analytics",
+        "type": "skill_to_category"
+      },
+      {
+        "child": "Web Scraping",
+        "parent": "Data & Analytics",
+        "type": "skill_to_category"
+      },
+      {
+        "child": "Python",
+        "parent": "Technical & Engineering",
+        "type": "skill_to_category"
+      },
+      {
+        "child": "JavaScript/TypeScript",
+        "parent": "Technical & Engineering",
+        "type": "skill_to_category"
+      },
+      {
+        "child": "REST/GraphQL APIs",
+        "parent": "Technical & Engineering",
+        "type": "skill_to_category"
+      },
+      {
+        "child": "Database Design",
+        "parent": "Technical & Engineering",
+        "type": "skill_to_category"
+      },
+      {
+        "child": "Docker",
+        "parent": "Technical & Engineering",
+        "type": "skill_to_category"
+      },
+      {
+        "child": "Kubernetes",
+        "parent": "Technical & Engineering",
+        "type": "skill_to_category"
+      },
+      {
+        "child": "CI/CD",
+        "parent": "Technical & Engineering",
+        "type": "skill_to_category"
+      },
+      {
+        "child": "Cloud Platforms",
+        "parent": "Technical & Engineering",
+        "type": "skill_to_category"
+      },
+      {
+        "child": "VPS Management",
+        "parent": "Technical & Engineering",
+        "type": "skill_to_category"
+      },
+      {
+        "child": "Git/GitHub",
+        "parent": "Technical & Engineering",
+        "type": "skill_to_category"
+      },
+      {
+        "child": "Figma",
+        "parent": "Technical & Engineering",
+        "type": "skill_to_category"
+      },
+      {
+        "child": "WordPress/Elementor",
+        "parent": "Technical & Engineering",
+        "type": "skill_to_category"
+      },
+      {
+        "child": "Servant Leadership",
+        "parent": "Leadership & Management",
+        "type": "skill_to_category"
+      },
+      {
+        "child": "Thinking Environment",
+        "parent": "Leadership & Management",
+        "type": "skill_to_category"
+      },
+      {
+        "child": "Art of Hosting",
+        "parent": "Leadership & Management",
+        "type": "skill_to_category"
+      },
+      {
+        "child": "Facilitation",
+        "parent": "Leadership & Management",
+        "type": "skill_to_category"
+      },
+      {
+        "child": "Coaching & Mentoring",
+        "parent": "Leadership & Management",
+        "type": "skill_to_category"
+      },
+      {
+        "child": "Team Building",
+        "parent": "Leadership & Management",
+        "type": "skill_to_category"
+      },
+      {
+        "child": "Change Management",
+        "parent": "Leadership & Management",
+        "type": "skill_to_category"
+      },
+      {
+        "child": "Stakeholder Management",
+        "parent": "Leadership & Management",
+        "type": "skill_to_category"
+      },
+      {
+        "child": "Bootcamp Design",
+        "parent": "Leadership & Management",
+        "type": "skill_to_category"
+      },
+      {
+        "child": "Ramp-up Acceleration",
+        "parent": "Leadership & Management",
+        "type": "skill_to_category"
+      },
+      {
+        "child": "Performance Management",
+        "parent": "Leadership & Management",
+        "type": "skill_to_category"
+      },
+      {
+        "child": "Conflict Resolution",
+        "parent": "Leadership & Management",
+        "type": "skill_to_category"
+      },
+      {
+        "child": "Positioning & Messaging",
+        "parent": "Product Marketing",
+        "type": "skill_to_category"
+      },
+      {
+        "child": "Product Launch",
+        "parent": "Product Marketing",
+        "type": "skill_to_category"
+      },
+      {
+        "child": "Competitive Intelligence",
+        "parent": "Product Marketing",
+        "type": "skill_to_category"
+      },
+      {
+        "child": "Customer Marketing",
+        "parent": "Product Marketing",
+        "type": "skill_to_category"
+      },
+      {
+        "child": "Sales Enablement Content",
+        "parent": "Product Marketing",
+        "type": "skill_to_category"
+      },
+      {
+        "child": "Technical Writing",
+        "parent": "Product Marketing",
+        "type": "skill_to_category"
+      },
+      {
+        "child": "Analyst Relations",
+        "parent": "Product Marketing",
+        "type": "skill_to_category"
+      },
+      {
+        "child": "Community Marketing",
+        "parent": "Product Marketing",
+        "type": "skill_to_category"
+      },
+      {
+        "child": "Business Model Canvas",
+        "parent": "Strategy & GTM",
+        "type": "skill_to_category"
+      },
+      {
+        "child": "Market Sizing",
+        "parent": "Strategy & GTM",
+        "type": "skill_to_category"
+      },
+      {
+        "child": "Unit Economics",
+        "parent": "Strategy & GTM",
+        "type": "skill_to_category"
+      },
+      {
+        "child": "Pricing Strategy",
+        "parent": "Strategy & GTM",
+        "type": "skill_to_category"
+      },
+      {
+        "child": "Partnership Strategy",
+        "parent": "Strategy & GTM",
+        "type": "skill_to_category"
+      },
+      {
+        "child": "International Expansion",
+        "parent": "Strategy & GTM",
+        "type": "skill_to_category"
+      },
+      {
+        "child": "M&A Integration",
+        "parent": "Strategy & GTM",
+        "type": "skill_to_category"
+      },
+      {
+        "child": "Innovation Management",
+        "parent": "Strategy & GTM",
+        "type": "skill_to_category"
+      }
+    ],
+    "related_to": [
+      {
+        "source": "Prompt Engineering",
+        "target": "Native AI Implementation",
+        "strength": 0.9,
+        "bidirectional": true
+      },
+      {
+        "source": "Prompt Engineering",
+        "target": "RAG (Retrieval-Augmented Generation)",
+        "strength": 0.8,
+        "bidirectional": true
+      },
+      {
+        "source": "RAG (Retrieval-Augmented Generation)",
+        "target": "Vector Databases",
+        "strength": 0.9,
+        "bidirectional": true
+      },
+      {
+        "source": "RAG (Retrieval-Augmented Generation)",
+        "target": "Embeddings",
+        "strength": 0.9,
+        "bidirectional": true
+      },
+      {
+        "source": "Conversational AI",
+        "target": "n8n",
+        "strength": 0.7,
+        "bidirectional": true
+      },
+      {
+        "source": "Conversational AI",
+        "target": "ManyChat",
+        "strength": 0.7,
+        "bidirectional": true
+      },
+      {
+        "source": "Conversational AI",
+        "target": "WhatsApp Business API",
+        "strength": 0.8,
+        "bidirectional": true
+      },
+      {
+        "source": "AI Agents",
+        "target": "n8n",
+        "strength": 0.7,
+        "bidirectional": true
+      },
+      {
+        "source": "LLM Evaluation",
+        "target": "Prompt Engineering",
+        "strength": 0.8,
+        "bidirectional": true
+      },
+      {
+        "source": "n8n",
+        "target": "Supabase/PostgreSQL",
+        "strength": 0.8,
+        "bidirectional": true
+      },
+      {
+        "source": "n8n",
+        "target": "API/Webhook Integrations",
+        "strength": 0.9,
+        "bidirectional": true
+      },
+      {
+        "source": "Make (Integromat)",
+        "target": "CRM Automation",
+        "strength": 0.8,
+        "bidirectional": true
+      },
+      {
+        "source": "Zapier",
+        "target": "Email Marketing Automation",
+        "strength": 0.7,
+        "bidirectional": true
+      },
+      {
+        "source": "Design Thinking",
+        "target": "Lean Startup",
+        "strength": 0.9,
+        "bidirectional": true
+      },
+      {
+        "source": "MVP Prototyping",
+        "target": "A/B Testing",
+        "strength": 0.8,
+        "bidirectional": true
+      },
+      {
+        "source": "ICP Mapping",
+        "target": "Go-to-Market Strategy",
+        "strength": 0.9,
+        "bidirectional": true
+      },
+      {
+        "source": "User Journey Mapping",
+        "target": "Conversion Rate Optimization",
+        "strength": 0.8,
+        "bidirectional": true
+      },
+      {
+        "source": "Product Analytics",
+        "target": "A/B Testing",
+        "strength": 0.9,
+        "bidirectional": true
+      },
+      {
+        "source": "SEO & Organic Growth",
+        "target": "Content Marketing",
+        "strength": 0.8,
+        "bidirectional": true
+      },
+      {
+        "source": "Go-to-Market Strategy",
+        "target": "Sales Enablement",
+        "strength": 0.9,
+        "bidirectional": true
+      },
+      {
+        "source": "Paid Acquisition",
+        "target": "Landing Page Optimization",
+        "strength": 0.8,
+        "bidirectional": true
+      },
+      {
+        "source": "Email Marketing",
+        "target": "Marketing Automation",
+        "strength": 0.9,
+        "bidirectional": true
+      },
+      {
+        "source": "Lead Scoring",
+        "target": "Sales Productivity",
+        "strength": 0.7,
+        "bidirectional": true
+      },
+      {
+        "source": "Agile Methodologies",
+        "target": "Facilitation",
+        "strength": 0.7,
+        "bidirectional": true
+      },
+      {
+        "source": "Project Scheduling",
+        "target": "Cross-Functional Coordination",
+        "strength": 0.8,
+        "bidirectional": true
+      },
+      {
+        "source": "Quality Assurance",
+        "target": "Root Cause Analysis",
+        "strength": 0.8,
+        "bidirectional": true
+      },
+      {
+        "source": "Bootcamp Design",
+        "target": "Coaching & Mentoring",
+        "strength": 0.8,
+        "bidirectional": true
+      },
+      {
+        "source": "Ramp-up Acceleration",
+        "target": "Onboarding Optimization",
+        "strength": 0.9,
+        "bidirectional": true
+      },
+      {
+        "source": "Power BI",
+        "target": "SQL",
+        "strength": 0.8,
+        "bidirectional": true
+      },
+      {
+        "source": "Tableau",
+        "target": "Data Visualization",
+        "strength": 0.9,
+        "bidirectional": true
+      },
+      {
+        "source": "ETL/ELT Pipelines",
+        "target": "Supabase/PostgreSQL",
+        "strength": 0.7,
+        "bidirectional": true
+      },
+      {
+        "source": "Python",
+        "target": "Web Scraping",
+        "strength": 0.8,
+        "bidirectional": true
+      },
+      {
+        "source": "Docker",
+        "target": "Kubernetes",
+        "strength": 0.7,
+        "bidirectional": true
+      },
+      {
+        "source": "CI/CD",
+        "target": "Cloud Platforms",
+        "strength": 0.8,
+        "bidirectional": true
+      },
+      {
+        "source": "Servant Leadership",
+        "target": "Thinking Environment",
+        "strength": 0.8,
+        "bidirectional": true
+      },
+      {
+        "source": "Stakeholder Management",
+        "target": "Negotiation",
+        "strength": 0.7,
+        "bidirectional": true
+      },
+      {
+        "source": "Change Management",
+        "target": "Business Model Canvas",
+        "strength": 0.6,
+        "bidirectional": true
+      },
+      {
+        "source": "Team Building",
+        "target": "Psychological Safety",
+        "strength": 0.9,
+        "bidirectional": true
+      },
+      {
+        "source": "Positioning & Messaging",
+        "target": "Go-to-Market Strategy",
+        "strength": 0.9,
+        "bidirectional": true
+      },
+      {
+        "source": "Product Launch",
+        "target": "Competitive Intelligence",
+        "strength": 0.8,
+        "bidirectional": true
+      },
+      {
+        "source": "Sales Enablement Content",
+        "target": "Playbooks & Scripts",
+        "strength": 0.8,
+        "bidirectional": true
+      }
+    ]
+  }
+}
