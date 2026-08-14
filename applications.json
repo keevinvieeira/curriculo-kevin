@@ -684,7 +684,7 @@
     "company": "Seazone",
     "url": "https://www.geekhunter.com/pt/seazone/jobs/product-marketing--ai-creator--1",
     "date_applied": "2026-07-31",
-    "status": "Applied",
+    "status": "Candidatado",
     "resume_used": "adapted_resume_pt.json",
     "notes": "Focus on GTM, AI (ChatGPT, Claude), Meta Ads, Power BI, and A/B Testing. Adapted narrative to highlight AI in CRM bootcamp and GTM strategy.",
     "salary_expectation": "R$ 12.000 - R$ 16.000 /mês (CLT)",
@@ -756,5 +756,27 @@
     "fit_score": 95,
     "salary_expectation": "R$ 11.000 - R$ 14.000 /mês (CLT / Remoto)",
     "notes": "Vaga remota de Especialista de Produtos no Bernoulli Educação. Foco em User Discovery, pesquisas com usuários, testes de usabilidade, wireframes/protótipos UX, benchmarking, POCs/MVPs e experiência em edtechs/LMS."
+  },
+  {
+    "id": "22",
+    "company": "Econodata",
+    "role": "AI Growth Hacker",
+    "date_applied": "2026-08-06",
+    "status": "Candidatado",
+    "url": "https://econodata.gupy.io/",
+    "fit_score": 98,
+    "salary_expectation": "R$ 12.000 - R$ 16.000 /mês (CLT / Remoto)",
+    "notes": "Vaga remota de AI Growth Hacker na Econodata (plataforma líder em B2B Sales Intelligence / Big Data). Encaixe perfeito em IA generativa, automações em Python, consultas SQL, experimentos A/B e marketing B2B SaaS."
+  },
+  {
+    "id": "23",
+    "company": "Infobip",
+    "role": "Senior Partnership Enablement Specialist",
+    "date_applied": "2026-08-14",
+    "status": "Candidatado",
+    "url": "https://infobip.wd3.myworkdayjobs.com/en-US/InfobipCareers/job/Curitiba-Brazil/Senior-partnership-enablement-specialist_JR104822",
+    "fit_score": 97,
+    "salary_expectation": "R$ 14.000 - R$ 18.000 /mês (CLT / Híbrido Curitiba)",
+    "notes": "Vaga híbrida em Curitiba na Infobip (plataforma global de comunicação cloud). Interface estratégica entre Produto e ecossistema de parceiros — tradução de produto em narrativas de negócio, use cases, briefings e outreach. Encaixe de 97%."
   }
 ]

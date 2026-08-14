@@ -1,0 +1,33 @@
+{
+  "graph_stats": {
+    "total_nodes": 212,
+    "total_edges": 200,
+    "node_types": {
+      "Candidate": 1,
+      "CareerDNA": 1,
+      "Company": 9,
+      "Role": 15,
+      "BulletPoint": 36,
+      "Skill": 88,
+      "Project": 11,
+      "Tool": 14,
+      "Metric": 37
+    },
+    "edge_types": {
+      "HAS_ACHIEVEMENT": 55,
+      "WORKED_AS": 15,
+      "AT_COMPANY": 15,
+      "DEMONSTRATES": 13,
+      "UTILIZED": 22,
+      "PRODUCED_IMPACT": 59,
+      "SUBSET_OF": 19,
+      "RELATED_TO": 2
+    },
+    "user_id": "kevin_augusto",
+    "profile_id": "default"
+  },
+  "master_chunks": 188,
+  "total_unsupported": 0,
+  "unsupported_by_type": {},
+  "details": []
+}

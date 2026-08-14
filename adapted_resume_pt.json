@@ -1,97 +1,98 @@
 {
   "name": "Kevin Augusto Vieira",
-  "location": "Curitiba, PR",
+  "location": "Curitiba, PR | Remoto",
   "phone": "+55 (41) 99694-1615",
   "email": "kevin.aug.vieira@gmail.com",
   "linkedin": "https://www.linkedin.com/in/kevin-augusto/",
   "github": "",
   "website": "",
-  "summary": "Especialista de Produtos Sênior com mais de 8 anos de experiência em Gestão de Produtos Digitais, User Discovery, UX Design e Go-to-Market (GTM) no setor de tecnologia e plataformas educacionais. Especialista na condução de pesquisas com usuários (entrevistas, testes de usabilidade, testes A/B), mapeamento de jornadas e desenho de wireframes/protótipos de alta fidelidade. Possui sólida atuação em benchmarking de mercado, estruturação de portfólio de produtos (indicadores de ticket médio, engajamento e validação de MVPs) e condução de provas de conceito (POCs). Formação em Engenharia (UTFPR/UFPR 2,5 anos) e Filosofia (UFPR), atuando como elo cross-functional entre áreas pedagógicas, tecnologia e marketing.",
+  "summary": "Especialista Sênior em Partnership Enablement com mais de 8 anos de experiência atuando como interface estratégica entre times de Produto e ecossistemas de parceiros. Histórico comprovado em traduzir atualizações técnicas de produto em narrativas de negócio claras, use cases de alto impacto e sessões de enablement que aceleram a adoção de parceiros. Na Wipro (Projeto Meta), liderou do zero o programa de enablement regional, elevando a operação ao #1 lugar global em crescimento de adoção. Inglês Fluente, baseado em Curitiba, com perfil AI-first e forte capacidade analítica para identificar oportunidades de co-inovação no ecossistema de parceiros.",
   "experience": [
     {
       "company": "Wipro Brasil",
-      "role": "Especialista de Produtos & Enablement (Projeto Meta)",
+      "role": "Partnership Enablement Specialist (Projeto Meta)",
       "dates": "Setembro 2024 – Julho 2026",
       "location": "Curitiba, PR",
       "bullets": [
-        "User Discovery & Adoção de Produtos (Meta): Liderou pesquisas de usabilidade e testes A/B para adoção de ferramentas de IA no CRM. Mapeou pontos de fricção na jornada do usuário e estruturou materiais de suporte, elevando o uso em +150% e reduzindo o tempo de ramp-up dos usuários em 50%.",
-        "Alinhamento Cross-functional: Atuou como interface entre times de Produto, Engenharia, Qualidade e Comercial, traduzindo feedback de usuários em requisitos de melhorias e rituais de alinhamento.",
-        "Métricas de Produto & Desempenho: Monitorou indicadores de uso e engajamento via dashboards analíticos em Power BI para subsidiar decisões estratégicas de evolução do produto."
+        "Enablement de Parceiros & Adoção (#1 Global): Atuou como interface estratégica entre o time de Produto da Meta e os parceiros comerciais regionais. Traduziu atualizações técnicas de produto em narrativas de negócio, use cases e materiais de enablement — elevando a adoção em +150% e posicionando a operação como #1 global em crescimento.",
+        "Briefings & Sessões de Produto: Conduziu sessões regulares de briefing sobre novas funcionalidades e capacidades da plataforma para times de parceiros. Desenvolveu guias de argumentação, scripts e bibliotecas de prompts que equiparam os parceiros para posicionar as soluções com confiança.",
+        "Ramp-up de Parceiros (-50%): Estruturou o programa de onboarding e certificação de parceiros (Next Level Bootcamp), reduzindo o tempo de produtividade de 6 para 3 meses (-50%) e mantendo 90%+ de qualidade em auditorias."
       ]
     },
     {
       "company": "Meu Barzin (Startup)",
-      "role": "Especialista de Produtos & PM",
+      "role": "Growth & Partner Marketing Manager",
       "dates": "Dezembro 2025 – Março 2026",
       "location": "Curitiba, PR",
       "bullets": [
-        "POCs & Validação de MVPs de 0 a 1: Liderou a prova de conceito e discovery do piloto 'Meu Barzin Pass'. Mapeou a jornada dos usuários, conduziu entrevistas qualitativas e validou hipóteses de produto.",
-        "Testes de Usabilidade & Análise de Gargalos: Analisou dados de funil profundo e mapeou gargalos de latência de API (43,9% de drop-off), conduzindo iterações na experiência do usuário para melhorar o engajamento."
+        "Use Case Development & Parceiros B2B: Desenvolveu use cases e materiais de posicionamento para o onboarding de parceiros B2B locais (estabelecimentos), mapeando oportunidades de alto impacto e alinhando parceiros à proposta de valor da plataforma.",
+        "Outreach Estratégico: Estruturou campanhas de outreach e réguas de comunicação para introduzir novas capacidades da solução aos parceiros, aumentando a base de parceiros ativos."
       ]
     },
     {
       "company": "AK Branding & Web Design",
-      "role": "Especialista em UX & Consultor de Produtos",
+      "role": "Partner Enablement & Product Consultant",
       "dates": "Março 2019 – Setembro 2024",
       "location": "Curitiba, PR",
       "bullets": [
-        "UX Design & Prototipação (40+ Projetos): Desenhou a experiência do usuário (jornadas, wireframes e protótipos de alta fidelidade) para mais de 40 produtos digitais e e-commerces, realizando testes de usabilidade contínuos.",
-        "CRO & Benchmarking Competitivo: Realizou análises de concorrência e testes A/B de interface que aumentaram as conversões de usuários de 8 para 20-30/mês (+250%)."
+        "Tradução de Produto para Parceiros (40+ Projetos): Atuou como elo entre produto e mercado para mais de 40 clientes, documentando use cases de sucesso, posicionamento competitivo e materiais de co-venda.",
+        "Outreach & Conversão (+250%): Estruturou campanhas de outreach que elevaram a captação de leads e parceiros qualificados de 8 para 20-30/mês (+250%), lançando e-commerce do zero com R$ 10k faturados em 3 meses."
       ]
     },
     {
       "company": "Munzner",
-      "role": "Especialista de Produtos Educacionais & Growth",
+      "role": "Partner & Growth Enablement Specialist",
       "dates": "Outubro 2018 – Agosto 2024",
       "location": "Curitiba, PR",
       "bullets": [
-        "Plataforma Educacional (LMS) de 0 a 1: Concebeu e gerenciou o lançamento do primeiro LMS digital de ensino para a metodologia Thinking Environment, conduzindo pesquisas com alunos e garantindo 50 vendas nos 2 primeiros meses.",
-        "Estruturação de Portfólio & Materiais: Estruturou o catálogo de materiais educativos e réguas de aprendizagem automatizadas de 10 etapas para retenção e engajamento dos alunos."
+        "Enablement de Parceiros Educacionais (~R$ 50k): Capacitou facilitadores e parceiros na metodologia Thinking Environment, desenvolvendo materiais de posicionamento e use cases que geraram R$ 50 mil em receita.",
+        "Lançamento de Produto & Ecossistema: Liderou o GTM do 1º produto digital (LMS), mapeando parceiros estratégicos e garantindo 50 vendas nos 2 primeiros meses."
       ]
     }
   ],
   "skills": [
     {
-      "category": "Product Management & GTM",
+      "category": "Product Marketing e GTM",
       "skills": [
-        "User Discovery & Pesquisa com Usuários (Entrevistas, Usabilidade)",
-        "UX Design (Jornadas, Wireframes, Protótipos de Alta Fidelidade)",
-        "Benchmarking & Análise de Concorrência",
-        "Execução de POCs, Testes A/B & Validação de MVPs",
-        "Gestão do Ciclo de Vida do Produto & Portfólio",
-        "Metodologias Ágeis, Design Thinking & Lean"
+        "Partnership Enablement & Engajamento Estratégico de Parceiros",
+        "Tradução de Produto em Narrativas de Negócio & Use Cases",
+        "Briefings de Produto & Sessões de Capacitação de Parceiros",
+        "Desenvolvimento de Use Cases de Alto Impacto & Documentação",
+        "Outreach Estratégico & Co-inovação com Parceiros",
+        "Comunicação Proativa de Roadmap & Novas Capacidades"
       ]
     },
     {
-      "category": "Ferramentas & Indicadores",
+      "category": "Ferramentas & Metodologias",
       "skills": [
-        "Prototipação & UX (Figma / Wireframes)",
-        "Análise de Dados & Testes A/B",
-        "Indicadores de Produto (NPS, Engajamento, Conversão)",
-        "Claude / ChatGPT (Discovery & Documentação)",
-        "Power BI & Analytics",
-        "Inglês Avançado / Fluente"
+        "Inglês Fluente (Comunicação Diária Internacional)",
+        "Claude / ChatGPT (AI-First Mindset)",
+        "Power BI & Análise de Dados de Parceiros",
+        "CRM & Automações de Parceiros",
+        "Metodologias Ágeis & Google PM Certificate",
+        "Prototipação & Vibe Coding"
       ]
     },
     {
-      "category": "UX/UI, CRO & Dados",
+      "category": "Analytics, CRM e IA",
       "skills": [
-        "Testes A/B e Otimização (CRO)",
-        "Copywriting Estratégico",
-        "Métricas de Funil (CAC, LTV)",
-        "Tradução de Insights p/ Criação",
-        "Análise da Concorrência",
-        "Estratégia de Lançamento"
+        "Power BI e Excel",
+        "Métricas de Funil e Conversão",
+        "Automação de CRM (Bitrix24, Sendpulse, CRMs Meta)",
+        "SQL e Supabase",
+        "n8n, APIs e Webhooks",
+        "IA Generativa (Claude, ChatGPT)",
+        "Engenharia de Prompts"
       ]
     },
     {
       "category": "Mercados & Diferenciais",
       "skills": [
-        "Plataformas Educacionais (Edtechs / LMS)",
-        "Interface Cross-functional (Pedagógico, Tech, Mkt, Vendas)",
+        "Plataformas de Comunicação Cloud & SaaS B2B",
+        "Ecossistemas de Parceiros Regionais e Globais",
         "Formação em Engenharia (UTFPR/UFPR) e Filosofia (UFPR)",
-        "Trabalho 100% Remoto (Regime CLT 44h)",
-        "Adequação LGPD"
+        "Baseado em Curitiba/PR (Modelo Híbrido)",
+        "Adequação LGPD/GDPR"
       ]
     }
   ],
@@ -99,25 +100,20 @@
     {
       "institution": "Universidade Federal do Paraná (UFPR)",
       "degree": "Bacharelado e Licenciatura em Filosofia",
-      "dates": "2018 – 2023"
+      "dates": "2018 - 2023"
     },
     {
       "institution": "Recanto da Filosofia Clínica",
       "degree": "Especialização em Filosofia Clínica",
-      "dates": "Janeiro 2023 – Dezembro 2024"
+      "dates": "Janeiro 2023 - Dezembro 2024"
     },
     {
-      "institution": "Universidade Federal do Paraná / UTFPR",
-      "degree": "Engenharia Elétrica / Eletrônica (Incompleto)",
-      "dates": "2012 – 2015"
+      "institution": "UFPR / UTFPR",
+      "degree": "Engenharia Elétrica e Eletrônica (incompleto)",
+      "dates": "2012 - 2015"
     }
   ],
   "certifications": [
-    {
-      "name": "Google Project Management Professional Certificate",
-      "issuer": "Coursera / Google",
-      "status": "Em andamento / Iniciado em Setembro 2025"
-    },
     {
       "name": "Meta Certified Media Planning Professional",
       "issuer": "Meta",
@@ -129,15 +125,20 @@
       "status": "Ativo"
     },
     {
+      "name": "Google Project Management Professional Certificate",
+      "issuer": "Coursera / Google",
+      "status": "Em andamento"
+    },
+    {
       "name": "Facilitador de Thinking Environment",
       "issuer": "Munzner",
-      "status": "Maio 2020"
+      "status": "Maio de 2020"
     }
   ],
   "languages": [
     {
       "language": "Inglês",
-      "proficiency": "Avançado / Profissional (Uso diário corporativo para relatórios, coordenação internacional e alinhamento de stakeholders)"
+      "proficiency": "Fluente / profissional; uso diário em relatórios corporativos, coordenação internacional e alinhamento com stakeholders"
     },
     {
       "language": "Português",
@@ -145,6 +146,6 @@
     }
   ],
   "additional_information": [
-    "Formação & Idiomas: Formação em Engenharia (UTFPR/UFPR 2.5 anos) e Filosofia (UFPR) | Inglês Avançado/Fluente | Disponibilidade 100% Remota (CLT)."
+    "Idiomas & Localização: Inglês Fluente (uso diário internacional) | Baseado em Curitiba/PR (disponível para modelo híbrido) | Formação em Engenharia (UTFPR/UFPR 2.5 anos) e Filosofia (UFPR)."
   ]
 }

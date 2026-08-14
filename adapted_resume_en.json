@@ -1,122 +1,132 @@
 {
   "name": "Kevin Augusto Vieira",
-  "location": "Curitiba, PR, Brazil (Remote - Flexible / Global)",
+  "location": "Curitiba, PR, Brazil | Remote",
   "phone": "+55 (41) 99694-1615",
   "email": "kevin.aug.vieira@gmail.com",
   "linkedin": "https://www.linkedin.com/in/kevin-augusto/",
   "github": "",
   "website": "",
-  "summary": "Senior Product Specialist with 8+ years of experience in Digital Product Management, User Discovery, UX Design, and Go-to-Market (GTM) within educational tech and SaaS platforms. Expert in user research (interviews, usability testing, A/B testing), customer journey mapping, and high-fidelity wireframing/prototyping. Proven track record in competitor benchmarking, product portfolio structuring, and conducting Proof of Concepts (POCs). Dual background in Engineering (UTFPR/UFPR 2.5 yrs) and Philosophy (UFPR), acting as a cross-functional bridge across Pedagogy, Product Tech, and Marketing.",
+  "summary": "Senior Partnership Enablement Specialist with 8+ years of experience acting as the strategic interface between Product teams and partner ecosystems. Proven track record translating technical product updates into clear business narratives, high-impact use cases, and enablement sessions that accelerate partner adoption. At Wipro (Meta Project), built the regional partner enablement program from scratch, taking the operation to #1 globally in adoption growth. Fluent English, based in Curitiba, AI-first mindset, and strong analytical skills to identify co-innovation opportunities within partner ecosystems.",
   "experience": [
     {
       "company": "Wipro Brasil",
-      "role": "Product Specialist & Enablement (Meta Project)",
+      "role": "Partnership Enablement Specialist (Meta Project)",
       "dates": "September 2024 – July 2026",
       "location": "Curitiba, Brazil",
       "bullets": [
-        "User Discovery & Product Adoption (Meta): Led usability research and A/B testing for Meta CRM AI features. Mapped user journey friction points and structured enablement materials, boosting usage by +150% and reducing ramp-up by 50%.",
-        "Cross-Functional Collaboration: Acted as the primary interface across Product, Engineering, Quality, and Sales, translating user feedback into product improvement requirements.",
-        "Product Metrics & Performance: Monitored usage KPIs and engagement via Power BI analytics to inform strategic product decisions."
+        "Partner Enablement & Adoption (#1 Global): Served as the strategic liaison between Meta product teams and regional commercial partners. Translated technical product updates into business narratives, use cases, and enablement materials — driving adoption +150% and achieving #1 globally in adoption growth.",
+        "Product Briefings & Enablement Sessions: Conducted regular briefings on new platform features and capabilities for partner teams. Developed argumentation guides, scripts, and prompt libraries that equipped partners to confidently position solutions.",
+        "Partner Ramp-up (-50%): Built the partner onboarding and certification program (Next Level Bootcamp), reducing time-to-productivity from 6 to 3 months (-50%) with 90%+ audit quality scores."
       ]
     },
     {
       "company": "Meu Barzin (Startup)",
-      "role": "Product Specialist & PM",
+      "role": "Growth & Partner Marketing Manager",
       "dates": "December 2025 – March 2026",
       "location": "Curitiba, Brazil",
       "bullets": [
-        "POCs & 0-to-1 MVP Validation: Led the proof of concept and discovery for 'Meu Barzin Pass'. Mapped user journeys, conducted qualitative interviews, and validated product hypotheses.",
-        "Usability Testing & Bottleneck Analysis: Analyzed deep-funnel data and mapped API latency bottlenecks (43.9% drop-off), driving UX iterations to improve engagement."
+        "Use Case Development & B2B Partners: Developed use cases and positioning materials for onboarding B2B local partners (establishments), mapping high-impact opportunities and aligning partners to the platform value proposition.",
+        "Strategic Outreach: Structured outreach campaigns and communication sequences to introduce new platform capabilities to partners, growing the active partner base."
       ]
     },
     {
       "company": "AK Branding & Web Design",
-      "role": "UX Specialist & Product Consultant",
+      "role": "Partner Enablement & Product Consultant",
       "dates": "March 2019 – September 2024",
       "location": "Curitiba, PR",
       "bullets": [
-        "UX Design & Prototyping (40+ Projects): Designed user experience (journeys, wireframes, and high-fidelity prototypes) for 40+ digital products, conducting continuous usability testing.",
-        "CRO & Competitor Benchmarking: Conducted competitor benchmarking and interface A/B testing, increasing user conversion from 8 to 20-30/month (+250%)."
+        "Product-to-Partner Translation (40+ Projects): Served as the link between product and market for 40+ clients, documenting success use cases, competitive positioning, and co-selling materials.",
+        "Outreach & Conversion (+250%): Structured outreach campaigns that grew qualified partner leads from 8 to 20-30/month (+250%)."
       ]
     },
     {
       "company": "Munzner",
-      "role": "Educational Product Specialist & Growth",
+      "role": "Partner & Growth Enablement Specialist",
       "dates": "October 2018 – August 2024",
       "location": "Curitiba, PR",
       "bullets": [
-        "0-to-1 Educational SaaS Platform (LMS): Managed product strategy and launch for the first digital LMS platform for Thinking Environment methodology, conducting student research and securing 50 sales in 2 months.",
-        "Portfolio Structuring & Content Journeys: Structured educational course catalogs and automated 10-stage learning journeys for retention."
+        "Educational Partner Enablement (~R$ 50k): Enabled facilitators and partners in the Thinking Environment methodology, developing positioning materials and use cases that generated R$ 50,000 in revenue.",
+        "Product Launch & Ecosystem: Led the GTM of the first digital product (LMS), mapping strategic partners and securing 50 sales in the first 2 months."
       ]
     }
   ],
   "skills": [
     {
-      "category": "User Discovery & UX Design",
+      "category": "Partnership Enablement & Strategy",
       "skills": [
-        "User Discovery & Qualitative Research (Interviews, Usability)",
-        "UX Design (Journeys, Wireframes, High-Fidelity Prototypes)",
-        "Benchmarking & Competitor Analysis",
-        "POC Execution, A/B Testing & MVP Validation",
-        "Product Lifecycle & Portfolio Management",
-        "Agile, Design Thinking & Lean Frameworks"
+        "Partnership Enablement & Strategic Partner Engagement",
+        "Product-to-Business Narrative Translation & Use Cases",
+        "Product Briefings & Partner Certification Programs",
+        "High-Impact Use Case Development & Documentation",
+        "Strategic Outreach & Co-innovation with Partners",
+        "Proactive Product Roadmap Communication"
       ]
     },
     {
-      "category": "Tools & Analytics",
+      "category": "Tools & Methodologies",
       "skills": [
-        "Prototyping & UX (Figma / Wireframes)",
-        "Data Analysis & A/B Testing",
-        "Product Metrics (NPS, Engagement, Conversion)",
-        "Claude / ChatGPT (Discovery & Specs)",
-        "Power BI & Analytics",
-        "Fluent / Advanced English"
+        "Fluent English (Daily International Business)",
+        "Claude / ChatGPT (AI-First Mindset)",
+        "Power BI & Partner Data Analysis",
+        "CRM & Partner Automations",
+        "Agile & Google PM Certificate",
+        "Vibe Coding & Prototyping"
       ]
     },
     {
       "category": "Domain & Differentials",
       "skills": [
-        "Educational Platforms (Edtechs / LMS)",
-        "Cross-Functional Collaboration (Pedagogy, Tech, Mkt)",
-        "Engineering & Philosophy Background",
-        "100% Remote Work",
-        "Data Privacy (LGPD)"
+        "Cloud Communication Platforms & B2B SaaS",
+        "Regional & Global Partner Ecosystems",
+        "Engineering & Philosophy Background (UTFPR/UFPR)",
+        "Based in Curitiba, Brazil (Hybrid Model)",
+        "Data Privacy (LGPD/GDPR)"
       ]
     }
   ],
   "education": [
     {
       "institution": "Universidade Federal do Paraná (UFPR)",
-      "degree": "Bachelor's Degree and Licentiate in Philosophy (Specialization in Ethics & Epistemology)",
-      "dates": "2018 – 2023"
-    },
-    {
-      "institution": "Universidade Federal do Paraná / UTFPR",
-      "degree": "Electrical & Electronic Engineering (2.5 Years Coursework in Calculus, Linear Algebra & System Logic)",
-      "dates": "2015 – 2017"
+      "degree": "Bachelor's Degree and Licentiate in Philosophy",
+      "dates": "2018 - 2023"
     },
     {
       "institution": "Recanto da Filosofia Clínica",
       "degree": "Specialization in Clinical Philosophy",
-      "dates": "January 2023 – December 2024"
+      "dates": "January 2023 - December 2024"
+    },
+    {
+      "institution": "UFPR / UTFPR",
+      "degree": "Electrical and Electronics Engineering (incomplete)",
+      "dates": "2012 - 2015"
     }
   ],
   "certifications": [
+    {
+      "name": "Meta Certified Media Planning Professional",
+      "issuer": "Meta",
+      "status": "Active"
+    },
+    {
+      "name": "Meta Certified Digital Marketing Associate",
+      "issuer": "Meta",
+      "status": "Active"
+    },
     {
       "name": "Google Project Management Professional Certificate",
       "issuer": "Coursera / Google",
       "status": "In progress"
     },
     {
-      "name": "Meta Certified Media Planning Professional",
-      "issuer": "Meta",
-      "status": "Active"
+      "name": "Thinking Environment Facilitator",
+      "issuer": "Munzner",
+      "status": "May 2020"
     }
   ],
   "languages": [
     {
       "language": "English",
-      "proficiency": "Advanced / Professional Full Proficiency (Daily corporate use for technical reporting, international team coordination, and stakeholder alignment)"
+      "proficiency": "Fluent / professional working proficiency; daily use in corporate reporting, international coordination, and stakeholder alignment"
     },
     {
       "language": "Portuguese",
@@ -124,6 +134,6 @@
     }
   ],
   "additional_information": [
-    "Education & Languages: Engineering (UTFPR/UFPR 2.5 yrs) & B.A. Philosophy (UFPR) | Fluent English | 100% Remote Availability."
+    "Languages & Location: Fluent English (Daily International Business) | Based in Curitiba, Brazil (Hybrid Available) | Engineering (UTFPR/UFPR 2.5 yrs) & B.A. Philosophy (UFPR)."
   ]
 }

@@ -25,6 +25,13 @@ try:
         AdaptedResume,
         JobMaterials
     )
+    from engine.graph_engine import GraphEngine
+    from engine import schemas_graph
+    from engine.schemas_graph import NodeType, EdgeType
+    from engine.graph_rag import GraphRAGRetriever, MatchEngine
+    from components.brain_visualizer import BrainVisualizer, render_brain_visualizer, render_brain_sidebar_controls, render_node_detail_panel, render_brain_legend
+    from components.brain_insights import render_brain_insights
+    from components.star_studio import render_star_studio, render_interview_simulator
 except Exception as e:
     st.error(f"⚠️ Erro ao carregar módulos (ImportError): {e}")
     st.exception(e)
@@ -114,6 +121,20 @@ st.markdown("""
 # Local files paths
 LOCAL_METADATA_PATH = "metadata.json"
 APPLICATIONS_FILE = "applications.json"
+GRAPH_SOURCE_PATH = "data/graph_merged.json"
+
+@st.cache_resource(show_spinner=False)
+def load_graph_source():
+    graph = GraphEngine()
+    graph.load_json(GRAPH_SOURCE_PATH)
+    return graph
+
+try:
+    graph_source = load_graph_source()
+    graph_stats = graph_source.stats()
+except Exception as graph_error:
+    graph_source = None
+    graph_stats = {}
 
 # Applications database helpers
 def load_applications():
@@ -143,6 +164,13 @@ def load_local_metadata():
 
 metadata = load_local_metadata()
 
+# Source-of-truth validation: master resume only
+_source_label = "Fonte não declarada"
+if metadata.get("source_files") == ["master_resume.json"]:
+    _source_label = "Currículo mestre (fonte única de verdade)"
+elif "master_resume.json" in metadata.get("source_files", []):
+    _source_label = "Currículo mestre + complementos"
+
 # Sidebar settings
 st.sidebar.markdown("<h2 style='color:#1a365d;'>⚙️ Configurações</h2>", unsafe_allow_html=True)
 
@@ -151,7 +179,7 @@ st.sidebar.markdown("<h3 style='color:#1a365d; font-size:1rem;'>🌐 Idioma do C
 doc_lang = st.sidebar.radio(
     "Selecione o idioma de exibição:",
     options=["Português (PT)", "English (EN)"],
-    index=0,
+    index=1,
     help="Altera todo o conteúdo do currículo (títulos, resumo, experiências, etc.) carregando os respectivos arquivos locais."
 )
 doc_lang_code = "en" if "English" in doc_lang else "pt"
@@ -221,12 +249,24 @@ if st.sidebar.button("🔄 Recarregar Dados Locais"):
     st.rerun()
 
 st.sidebar.markdown("---")
+if _source_label == "Currículo mestre (fonte única de verdade)":
+    st.sidebar.success(
+        f"Fonte: {_source_label} — sem inferências ou métricas inventadas"
+    )
+else:
+    st.sidebar.info(f"Fonte: {_source_label}")
+if graph_source:
+    st.sidebar.caption(
+        f"Grafo auxiliar carregado: {graph_stats.get('total_nodes', 0)} nós / {graph_stats.get('total_edges', 0)} arestas (não usado para enriquecer o currículo desta vaga)"
+    )
 st.sidebar.info("🤖 **Como Adaptar Novas Vagas:**\nEnvie o link ou texto da vaga no chat do Antigravity. O assistente gerará os currículos e materiais atualizados no seu computador, e eles aparecerão automaticamente aqui após você clicar em Recarregar!")
 
 # Main Workspace Layout
-tab_studio, tab_tracker, tab_editor = st.tabs([
+tab_studio, tab_tracker, tab_brain, tab_star, tab_editor = st.tabs([
     "🎯 Estúdio de Adaptação", 
     "📊 Painel de Vagas & Processos",
+    "🧠 Visualizador Neural",
+    "⭐ STAR Studio",
     "📝 Editor do Currículo Mestre"
 ])
 
@@ -400,7 +440,7 @@ with tab_studio:
             
             # Visual Preview — papel A4 em container cinza para contraste
             st.markdown('<div class="preview-container">', unsafe_allow_html=True)
-            st.components.v1.html(html_content, height=1100, scrolling=True)
+            st.html(html_content)
             st.markdown('</div>', unsafe_allow_html=True)
             
         # Render Markdown version
@@ -674,14 +714,151 @@ with tab_tracker:
                 # Delete option
                 col_del_1, col_del_2 = st.columns([4, 1])
                 with col_del_2:
-                    if st.button("Excluir Vaga 🗑️", key=f"del_btn_{app['id']}", use_container_width=True):
+                    if st.button("Excluir Vaga", key=f"del_btn_{app['id']}", use_container_width=True):
                         apps.pop(orig_idx)
                         save_applications(apps)
                         st.success("Inscrição excluída com sucesso!")
                         st.rerun()
 
 # ====================
-# TAB 3: MASTER RESUME EXPLORER / EDITOR
+# TAB 3: BRAIN VISUALIZER
+# ====================
+with tab_brain:
+    st.subheader("🧠 Visualizador Neural do Cérebro Profissional")
+    st.write("Navegue no seu Knowledge Graph interativo. Veja como suas experiências, skills e tools se conectam. Selecione uma vaga para destacar os caminhos neurais relevantes.")
+    
+    # Load graph for visualization
+    brain_graph_path = "data/graph_merged.json"
+    if not os.path.exists(brain_graph_path):
+        st.warning("⚠️ Grafo não encontrado. Execute a migração primeiro.")
+    else:
+        # Initialize session state for brain viz
+        if "brain_engine" not in st.session_state:
+            st.session_state.brain_engine = GraphEngine()
+            st.session_state.brain_engine.load_json(brain_graph_path)
+        
+        brain_engine = st.session_state.brain_engine
+        
+        # Get available jobs for focus
+        jobs = brain_engine.get_nodes_by_type(schemas_graph.NodeType.JOB_POSTING) if hasattr(schemas_graph, 'NodeType') else []
+        available_jobs = []
+        for job in jobs:
+            available_jobs.append({
+                "job_id": job.id,
+                "title": getattr(job, 'title', 'Unknown'),
+                "company_name": getattr(job, 'company_name', 'Unknown')
+            })
+        
+        # Sidebar controls
+        with st.sidebar:
+            st.markdown("---")
+            st.markdown("### 🧠 Brain Controls")
+            
+            job_options = ["Visão Geral (Grafo Completo)"] + [
+                f"{j['title']} @ {j['company_name']}" for j in available_jobs
+            ]
+            selected_job = st.selectbox("Focar em vaga:", options=job_options, index=0, key="brain_job_select")
+            
+            focus_job_id = None
+            if selected_job != "Visão Geral (Grafo Completo)":
+                for job in available_jobs:
+                    if f"{job['title']} @ {job['company_name']}" == selected_job:
+                        focus_job_id = job['job_id']
+                        break
+            
+            layout = st.radio("Layout:", options=["Hierárquico", "Força Direcionada"], index=0, horizontal=True, key="brain_layout")
+            layout_map = {"Hierárquico": "hierarchical", "Força Direcionada": "force"}
+            
+            st.markdown("**Filtros:**")
+            _nt = schemas_graph.NodeType
+            _counts = {nt: len(brain_engine.get_nodes_by_type(nt)) for nt in [
+                _nt.SKILL, _nt.TOOL, _nt.BULLET_POINT, _nt.CASE, _nt.STAR_STORY, _nt.REQUIREMENT]}
+            show_skills = st.checkbox(f"Skills ({_counts[_nt.SKILL]})", value=True, key="brain_skills")
+            show_tools = st.checkbox(f"Tools ({_counts[_nt.TOOL]})", value=True, key="brain_tools")
+            show_bullets = st.checkbox(f"Bullets ({_counts[_nt.BULLET_POINT]})", value=True, key="brain_bullets")
+            show_cases = st.checkbox(f"Cases ({_counts[_nt.CASE]})", value=True, key="brain_cases")
+            show_star = st.checkbox(f"STAR Stories ({_counts[_nt.STAR_STORY]})", value=False, key="brain_star")
+            show_requirements = st.checkbox(f"Requisitos ({_counts[_nt.REQUIREMENT]})", value=True, key="brain_reqs")
+            st.caption("💡 Quanto mais Cases, STAR Stories e conquistas você cadastrar, mais ricos o grafo e os insights ficam.")
+
+            st.markdown("**Legenda:**")
+            legend_types = [
+                schemas_graph.NodeType.CANDIDATE, schemas_graph.NodeType.COMPANY,
+                schemas_graph.NodeType.ROLE, schemas_graph.NodeType.JOB_POSTING,
+            ]
+            if show_skills: legend_types.append(schemas_graph.NodeType.SKILL)
+            if show_tools: legend_types.append(schemas_graph.NodeType.TOOL)
+            if show_bullets: legend_types.append(schemas_graph.NodeType.BULLET_POINT)
+            if show_cases: legend_types.append(schemas_graph.NodeType.CASE)
+            if show_star: legend_types.append(schemas_graph.NodeType.STAR_STORY)
+            if show_requirements: legend_types.append(schemas_graph.NodeType.REQUIREMENT)
+            render_brain_legend(legend_types)
+        
+        # Build filter types
+        filter_types = []
+        if show_skills: filter_types.append(schemas_graph.NodeType.SKILL)
+        if show_tools: filter_types.append(schemas_graph.NodeType.TOOL)
+        if show_bullets: filter_types.append(schemas_graph.NodeType.BULLET_POINT)
+        if show_cases: filter_types.append(schemas_graph.NodeType.CASE)
+        if show_star: filter_types.append(schemas_graph.NodeType.STAR_STORY)
+        if show_requirements: filter_types.append(schemas_graph.NodeType.REQUIREMENT)
+        filter_types.extend([
+            schemas_graph.NodeType.CANDIDATE, schemas_graph.NodeType.COMPANY,
+            schemas_graph.NodeType.ROLE, schemas_graph.NodeType.CAREER_DNA,
+            schemas_graph.NodeType.JOB_POSTING
+        ])
+        
+        # Build and render network
+        try:
+            viz = BrainVisualizer(brain_engine, height="700px")
+            viz.build_network(
+                focus_job_id=focus_job_id,
+                highlight_paths=True,
+                max_nodes=150,
+                layout=layout_map.get(layout, "hierarchical")
+            )
+            viz.render_in_streamlit(key="brain_viz")
+        except Exception as e:
+            st.error(f"Erro ao renderizar grafo: {e}")
+            import traceback
+            st.text(traceback.format_exc())
+
+        # Insights section below the graph
+        try:
+            render_brain_insights(brain_engine)
+        except Exception as e:
+            st.error(f"Erro ao gerar insights: {e}")
+            import traceback
+            st.text(traceback.format_exc())
+
+# ====================
+# TAB 4: STAR STUDIO
+# ====================
+with tab_star:
+    st.subheader("⭐ STAR Studio — Simulador de Entrevistas")
+    st.write("Pratique entrevistas comportamentais com suas histórias STAR reais. Navegue por competência, simule entrevistas e prepare-se para processos seletivos.")
+    
+    star_graph_path = "data/graph_merged.json"
+    if not os.path.exists(star_graph_path):
+        st.warning("⚠️ Grafo não encontrado. Execute a migração primeiro.")
+    else:
+        if "star_engine" not in st.session_state:
+            st.session_state.star_engine = GraphEngine()
+            st.session_state.star_engine.load_json(star_graph_path)
+        
+        star_engine = st.session_state.star_engine
+        
+        # Sub-tabs for STAR Studio
+        tab_browse, tab_simulate = st.tabs(["📚 Navegar Histórias", "🎤 Simular Entrevista"])
+        
+        with tab_browse:
+            render_star_studio(star_engine)
+        
+        with tab_simulate:
+            render_interview_simulator(star_engine)
+
+# ====================
+# TAB 5: MASTER RESUME EXPLORER / EDITOR
 # ====================
 with tab_editor:
     st.subheader("📝 Gerenciamento de Currículo Mestre")
