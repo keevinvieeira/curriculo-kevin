@@ -1,2702 +1,4332 @@
 {
+  "source": "master_resume.json",
   "nodes": [
     {
-      "id": "node_1",
-      "label": "Kevin Augusto Vieira",
+      "id": "candidate",
       "type": "Candidate",
+      "labels": {
+        "pt": "Kevin Augusto Vieira",
+        "en": "Kevin Augusto Vieira"
+      },
       "size": 2.0,
       "color": "#ffffff",
       "glow": true
     },
     {
-      "id": "node_2",
-      "label": "Wipro",
+      "id": "company-wipro",
       "type": "Company",
+      "labels": {
+        "pt": "Wipro",
+        "en": "Wipro"
+      },
+      "location": {
+        "pt": "Curitiba, PR",
+        "en": "Curitiba, Brazil"
+      },
+      "dates": {
+        "pt": "Setembro 2024 – Julho 2026",
+        "en": "September 2024 – July 2026"
+      },
       "size": 1.5,
       "color": "#60a5fa",
-      "glow": true,
-      "details": "Curitiba, PR",
-      "total_skills": 39,
-      "total_metrics": 8,
-      "total_bullets": 13
+      "glow": true
     },
     {
-      "id": "node_3",
-      "label": "Marketing Coordinator / Product Enablement Expert (Meta)",
+      "id": "role-wipro-1",
       "type": "Role",
-      "size": 0.6,
-      "color": "#a78bfa",
-      "details": "Wipro | September 2024 – July 2026"
+      "labels": {
+        "pt": "Marketing Coordinator / Product Enablement Expert (Meta)",
+        "en": "Marketing Coordinator / Product Enablement Expert (Meta)"
+      },
+      "dates": {
+        "pt": "Setembro 2024 – Julho 2026",
+        "en": "September 2024 – July 2026"
+      },
+      "company_id": "company-wipro",
+      "size": 0.72,
+      "color": "#a78bfa"
     },
     {
-      "id": "node_4",
-      "label": "Marketing Operations / Sales Enablement & GTM Specialist (Meta Project)",
+      "id": "role-wipro-2",
       "type": "Role",
-      "size": 0.6,
-      "color": "#a78bfa",
-      "details": "Wipro | September 2024 – July 2026"
+      "labels": {
+        "pt": "Especialista em Operações de Marketing / GTM e Sales Enablement (Projeto Meta)",
+        "en": "Marketing Operations / Sales Enablement & GTM Specialist (Meta Project)"
+      },
+      "dates": {
+        "pt": "Setembro 2024 – Julho 2026",
+        "en": "September 2024 – July 2026"
+      },
+      "company_id": "company-wipro",
+      "size": 0.72,
+      "color": "#a78bfa"
     },
     {
-      "id": "node_5",
-      "label": "Sales Enablement",
-      "type": "Skill",
-      "size": 0.54,
-      "color": "#ef4444",
-      "level": 2,
-      "category": "Sales Enablement",
-      "evidence_count": 2,
-      "company": "Wipro",
-      "details": "Sales Enablement @ Wipro | Level 2/5 | 2 achievements"
-    },
-    {
-      "id": "node_6",
-      "label": "Marketing",
-      "type": "Skill",
-      "size": 0.54,
-      "color": "#ef4444",
-      "level": 2,
-      "category": "Sales Enablement",
-      "evidence_count": 2,
-      "company": "Wipro",
-      "details": "Marketing @ Wipro | Level 2/5 | 2 achievements"
-    },
-    {
-      "id": "node_7",
-      "label": "Product Positioning",
-      "type": "Skill",
-      "size": 0.42,
-      "color": "#ef4444",
-      "level": 1,
-      "category": "Sales Enablement",
-      "evidence_count": 1,
-      "company": "Wipro",
-      "details": "Product Positioning @ Wipro | Level 1/5 | 1 achievements"
-    },
-    {
-      "id": "node_8",
-      "label": "Technical Reference",
-      "type": "Skill",
-      "size": 0.42,
-      "color": "#ef4444",
-      "level": 1,
-      "category": "Sales Enablement",
-      "evidence_count": 1,
-      "company": "Wipro",
-      "details": "Technical Reference @ Wipro | Level 1/5 | 1 achievements"
-    },
-    {
-      "id": "node_9",
-      "label": "Ads",
-      "type": "Skill",
-      "size": 0.42,
-      "color": "#ef4444",
-      "level": 1,
-      "category": "Sales Enablement",
-      "evidence_count": 1,
-      "company": "Wipro",
-      "details": "Ads @ Wipro | Level 1/5 | 1 achievements"
-    },
-    {
-      "id": "node_10",
-      "label": "Leadership",
-      "type": "Skill",
-      "size": 0.42,
-      "color": "#ef4444",
-      "level": 1,
-      "category": "Sales Enablement",
-      "evidence_count": 1,
-      "company": "Wipro",
-      "details": "Leadership @ Wipro | Level 1/5 | 1 achievements"
-    },
-    {
-      "id": "node_11",
-      "label": "Training",
-      "type": "Skill",
-      "size": 0.42,
-      "color": "#ef4444",
-      "level": 1,
-      "category": "Sales Enablement",
-      "evidence_count": 1,
-      "company": "Wipro",
-      "details": "Training @ Wipro | Level 1/5 | 1 achievements"
-    },
-    {
-      "id": "node_12",
-      "label": "Crm",
-      "type": "Skill",
-      "size": 0.42,
-      "color": "#ef4444",
-      "level": 1,
-      "category": "Sales Enablement",
-      "evidence_count": 1,
-      "company": "Wipro",
-      "details": "Crm @ Wipro | Level 1/5 | 1 achievements"
-    },
-    {
-      "id": "node_13",
-      "label": "Ai",
-      "type": "Skill",
-      "size": 0.42,
-      "color": "#ef4444",
-      "level": 1,
-      "category": "Sales Enablement",
-      "evidence_count": 1,
-      "company": "Wipro",
-      "details": "Ai @ Wipro | Level 1/5 | 1 achievements"
-    },
-    {
-      "id": "node_14",
-      "label": "Ai Implementation",
-      "type": "Skill",
-      "size": 0.42,
-      "color": "#ef4444",
-      "level": 1,
-      "category": "Sales Enablement",
-      "evidence_count": 1,
-      "company": "Wipro",
-      "details": "Ai Implementation @ Wipro | Level 1/5 | 1 achievements"
-    },
-    {
-      "id": "node_15",
-      "label": "Crm Enablement",
-      "type": "Skill",
-      "size": 0.42,
-      "color": "#ef4444",
-      "level": 1,
-      "category": "Sales Enablement",
-      "evidence_count": 1,
-      "company": "Wipro",
-      "details": "Crm Enablement @ Wipro | Level 1/5 | 1 achievements"
-    },
-    {
-      "id": "node_16",
-      "label": "Prompt Engineering",
-      "type": "Skill",
-      "size": 0.42,
-      "color": "#ef4444",
-      "level": 1,
-      "category": "Sales Enablement",
-      "evidence_count": 1,
-      "company": "Wipro",
-      "details": "Prompt Engineering @ Wipro | Level 1/5 | 1 achievements"
-    },
-    {
-      "id": "node_17",
-      "label": "Coaching",
-      "type": "Skill",
-      "size": 0.42,
-      "color": "#ef4444",
-      "level": 1,
-      "category": "Sales Enablement",
-      "evidence_count": 1,
-      "company": "Wipro",
-      "details": "Coaching @ Wipro | Level 1/5 | 1 achievements"
-    },
-    {
-      "id": "node_18",
-      "label": "Sales",
-      "type": "Skill",
-      "size": 0.54,
-      "color": "#ef4444",
-      "level": 2,
-      "category": "Sales Enablement",
-      "evidence_count": 2,
-      "company": "Wipro",
-      "details": "Sales @ Wipro | Level 2/5 | 2 achievements"
-    },
-    {
-      "id": "node_19",
-      "label": "Quality Assurance",
-      "type": "Skill",
-      "size": 0.54,
-      "color": "#ef4444",
-      "level": 2,
-      "category": "Sales Enablement",
-      "evidence_count": 2,
-      "company": "Wipro",
-      "details": "Quality Assurance @ Wipro | Level 2/5 | 2 achievements"
-    },
-    {
-      "id": "node_20",
-      "label": "Ops",
-      "type": "Skill",
-      "size": 0.42,
-      "color": "#ef4444",
-      "level": 1,
-      "category": "Sales Enablement",
-      "evidence_count": 1,
-      "company": "Wipro",
-      "details": "Ops @ Wipro | Level 1/5 | 1 achievements"
-    },
-    {
-      "id": "node_21",
-      "label": "Root Cause Analysis",
-      "type": "Skill",
-      "size": 0.42,
-      "color": "#ef4444",
-      "level": 1,
-      "category": "Sales Enablement",
-      "evidence_count": 1,
-      "company": "Wipro",
-      "details": "Root Cause Analysis @ Wipro | Level 1/5 | 1 achievements"
-    },
-    {
-      "id": "node_22",
-      "label": "Playbooks",
-      "type": "Skill",
-      "size": 0.42,
-      "color": "#ef4444",
-      "level": 1,
-      "category": "Sales Enablement",
-      "evidence_count": 1,
-      "company": "Wipro",
-      "details": "Playbooks @ Wipro | Level 1/5 | 1 achievements"
-    },
-    {
-      "id": "node_23",
-      "label": "Methodology",
-      "type": "Skill",
-      "size": 0.42,
-      "color": "#ef4444",
-      "level": 1,
-      "category": "Sales Enablement",
-      "evidence_count": 1,
-      "company": "Wipro",
-      "details": "Methodology @ Wipro | Level 1/5 | 1 achievements"
-    },
-    {
-      "id": "node_24",
-      "label": "Project Management",
-      "type": "Skill",
-      "size": 0.42,
-      "color": "#ef4444",
-      "level": 1,
-      "category": "Sales Enablement",
-      "evidence_count": 1,
-      "company": "Wipro",
-      "details": "Project Management @ Wipro | Level 1/5 | 1 achievements"
-    },
-    {
-      "id": "node_25",
-      "label": "Pmo",
-      "type": "Skill",
-      "size": 0.42,
-      "color": "#ef4444",
-      "level": 1,
-      "category": "Sales Enablement",
-      "evidence_count": 1,
-      "company": "Wipro",
-      "details": "Pmo @ Wipro | Level 1/5 | 1 achievements"
-    },
-    {
-      "id": "node_26",
-      "label": "Bootcamp",
-      "type": "Skill",
-      "size": 0.42,
-      "color": "#ef4444",
-      "level": 1,
-      "category": "Sales Enablement",
-      "evidence_count": 1,
-      "company": "Wipro",
-      "details": "Bootcamp @ Wipro | Level 1/5 | 1 achievements"
-    },
-    {
-      "id": "node_27",
-      "label": "Ramp Up",
-      "type": "Skill",
-      "size": 0.42,
-      "color": "#ef4444",
-      "level": 1,
-      "category": "Sales Enablement",
-      "evidence_count": 1,
-      "company": "Wipro",
-      "details": "Ramp Up @ Wipro | Level 1/5 | 1 achievements"
-    },
-    {
-      "id": "node_28",
-      "label": "Cross Functional",
-      "type": "Skill",
-      "size": 0.42,
-      "color": "#ef4444",
-      "level": 1,
-      "category": "Sales Enablement",
-      "evidence_count": 1,
-      "company": "Wipro",
-      "details": "Cross Functional @ Wipro | Level 1/5 | 1 achievements"
-    },
-    {
-      "id": "node_29",
-      "label": "Collaboration",
-      "type": "Skill",
-      "size": 0.42,
-      "color": "#ef4444",
-      "level": 1,
-      "category": "Sales Enablement",
-      "evidence_count": 1,
-      "company": "Wipro",
-      "details": "Collaboration @ Wipro | Level 1/5 | 1 achievements"
-    },
-    {
-      "id": "node_30",
-      "label": "Documentation",
-      "type": "Skill",
-      "size": 0.42,
-      "color": "#ef4444",
-      "level": 1,
-      "category": "Sales Enablement",
-      "evidence_count": 1,
-      "company": "Wipro",
-      "details": "Documentation @ Wipro | Level 1/5 | 1 achievements"
-    },
-    {
-      "id": "node_31",
-      "label": "Agile",
-      "type": "Skill",
-      "size": 0.42,
-      "color": "#ef4444",
-      "level": 1,
-      "category": "Sales Enablement",
-      "evidence_count": 1,
-      "company": "Wipro",
-      "details": "Agile @ Wipro | Level 1/5 | 1 achievements"
-    },
-    {
-      "id": "node_32",
-      "label": "Okr",
-      "type": "Skill",
-      "size": 0.42,
-      "color": "#ef4444",
-      "level": 1,
-      "category": "Sales Enablement",
-      "evidence_count": 1,
-      "company": "Wipro",
-      "details": "Okr @ Wipro | Level 1/5 | 1 achievements"
-    },
-    {
-      "id": "node_33",
-      "label": "Roadmap",
-      "type": "Skill",
-      "size": 0.42,
-      "color": "#ef4444",
-      "level": 1,
-      "category": "Sales Enablement",
-      "evidence_count": 1,
-      "company": "Wipro",
-      "details": "Roadmap @ Wipro | Level 1/5 | 1 achievements"
-    },
-    {
-      "id": "node_34",
-      "label": "Backlog",
-      "type": "Skill",
-      "size": 0.42,
-      "color": "#ef4444",
-      "level": 1,
-      "category": "Sales Enablement",
-      "evidence_count": 1,
-      "company": "Wipro",
-      "details": "Backlog @ Wipro | Level 1/5 | 1 achievements"
-    },
-    {
-      "id": "node_35",
-      "label": "Squad",
-      "type": "Skill",
-      "size": 0.42,
-      "color": "#ef4444",
-      "level": 1,
-      "category": "Sales Enablement",
-      "evidence_count": 1,
-      "company": "Wipro",
-      "details": "Squad @ Wipro | Level 1/5 | 1 achievements"
-    },
-    {
-      "id": "node_36",
-      "label": "Prioritization",
-      "type": "Skill",
-      "size": 0.42,
-      "color": "#ef4444",
-      "level": 1,
-      "category": "Sales Enablement",
-      "evidence_count": 1,
-      "company": "Wipro",
-      "details": "Prioritization @ Wipro | Level 1/5 | 1 achievements"
-    },
-    {
-      "id": "node_37",
-      "label": "Data",
-      "type": "Skill",
-      "size": 0.42,
-      "color": "#ef4444",
-      "level": 1,
-      "category": "Sales Enablement",
-      "evidence_count": 1,
-      "company": "Wipro",
-      "details": "Data @ Wipro | Level 1/5 | 1 achievements"
-    },
-    {
-      "id": "node_38",
-      "label": "Analytics",
-      "type": "Skill",
-      "size": 0.42,
-      "color": "#ef4444",
-      "level": 1,
-      "category": "Sales Enablement",
-      "evidence_count": 1,
-      "company": "Wipro",
-      "details": "Analytics @ Wipro | Level 1/5 | 1 achievements"
-    },
-    {
-      "id": "node_39",
-      "label": "Power Bi",
-      "type": "Skill",
-      "size": 0.42,
-      "color": "#ef4444",
-      "level": 1,
-      "category": "Sales Enablement",
-      "evidence_count": 1,
-      "company": "Wipro",
-      "details": "Power Bi @ Wipro | Level 1/5 | 1 achievements"
-    },
-    {
-      "id": "node_40",
-      "label": "Compliance",
-      "type": "Skill",
-      "size": 0.42,
-      "color": "#ef4444",
-      "level": 1,
-      "category": "Sales Enablement",
-      "evidence_count": 1,
-      "company": "Wipro",
-      "details": "Compliance @ Wipro | Level 1/5 | 1 achievements"
-    },
-    {
-      "id": "node_41",
-      "label": "Security",
-      "type": "Skill",
-      "size": 0.42,
-      "color": "#ef4444",
-      "level": 1,
-      "category": "Sales Enablement",
-      "evidence_count": 1,
-      "company": "Wipro",
-      "details": "Security @ Wipro | Level 1/5 | 1 achievements"
-    },
-    {
-      "id": "node_42",
-      "label": "Bcp",
-      "type": "Skill",
-      "size": 0.42,
-      "color": "#ef4444",
-      "level": 1,
-      "category": "Sales Enablement",
-      "evidence_count": 1,
-      "company": "Wipro",
-      "details": "Bcp @ Wipro | Level 1/5 | 1 achievements"
-    },
-    {
-      "id": "node_43",
-      "label": "Governance",
-      "type": "Skill",
-      "size": 0.42,
-      "color": "#ef4444",
-      "level": 1,
-      "category": "Sales Enablement",
-      "evidence_count": 1,
-      "company": "Wipro",
-      "details": "Governance @ Wipro | Level 1/5 | 1 achievements"
-    },
-    {
-      "id": "node_44",
-      "label": "+150%",
-      "type": "Metric",
-      "size": 0.4,
-      "color": "#fbbf24",
-      "metric_type": "growth",
-      "context": "Ownership de IA no CRM e Adoção Recorde: Liderou a ativação e adoção da IA nativa no CRM proprietário da Meta, do onboar",
-      "company": "Wipro",
-      "details": "+150% — Ownership de IA no CRM e Adoção Recorde: Liderou a ativação e adoção da IA nativ..."
-    },
-    {
-      "id": "node_45",
-      "label": "#1 global",
-      "type": "Metric",
-      "size": 0.4,
-      "color": "#fbbf24",
-      "metric_type": "ranking",
-      "context": "Ownership de IA no CRM e Adoção Recorde: Liderou a ativação e adoção da IA nativa no CRM proprietário da Meta, do onboar",
-      "company": "Wipro",
-      "details": "#1 global — Ownership de IA no CRM e Adoção Recorde: Liderou a ativação e adoção da IA nativ..."
-    },
-    {
-      "id": "node_46",
-      "label": "150",
-      "type": "Metric",
-      "size": 0.4,
-      "color": "#fbbf24",
-      "metric_type": "percentage",
-      "context": "Ownership de IA no CRM e Adoção Recorde: Liderou a ativação e adoção da IA nativa no CRM proprietário da Meta, do onboar",
-      "company": "Wipro",
-      "details": "150 — Ownership de IA no CRM e Adoção Recorde: Liderou a ativação e adoção da IA nativ..."
-    },
-    {
-      "id": "node_47",
-      "label": "100",
-      "type": "Metric",
-      "size": 0.4,
-      "color": "#fbbf24",
-      "metric_type": "percentage",
-      "context": "Liderança do Next Level Bootcamp (Piloto): Idealizou, gamificou (badges digitais) e governou o programa piloto para 12 c",
-      "company": "Wipro",
-      "details": "100 — Liderança do Next Level Bootcamp (Piloto): Idealizou, gamificou (badges digitais..."
-    },
-    {
-      "id": "node_48",
-      "label": "50",
-      "type": "Metric",
-      "size": 0.4,
-      "color": "#fbbf24",
-      "metric_type": "percentage",
-      "context": "Liderança do Next Level Bootcamp (Piloto): Idealizou, gamificou (badges digitais) e governou o programa piloto para 12 c",
-      "company": "Wipro",
-      "details": "50 — Liderança do Next Level Bootcamp (Piloto): Idealizou, gamificou (badges digitais..."
-    },
-    {
-      "id": "node_49",
-      "label": "90",
-      "type": "Metric",
-      "size": 0.4,
-      "color": "#fbbf24",
-      "metric_type": "percentage",
-      "context": "Liderança do Next Level Bootcamp (Piloto): Idealizou, gamificou (badges digitais) e governou o programa piloto para 12 c",
-      "company": "Wipro",
-      "details": "90 — Liderança do Next Level Bootcamp (Piloto): Idealizou, gamificou (badges digitais..."
-    },
-    {
-      "id": "node_50",
-      "label": "CSAT",
-      "type": "Metric",
-      "size": 0.4,
-      "color": "#fbbf24",
-      "metric_type": "satisfaction",
-      "context": "Liderança do Next Level Bootcamp (Piloto): Idealizou, gamificou (badges digitais) e governou o programa piloto para 12 c",
-      "company": "Wipro",
-      "details": "CSAT — Liderança do Next Level Bootcamp (Piloto): Idealizou, gamificou (badges digitais..."
-    },
-    {
-      "id": "node_51",
-      "label": "Meu Barzin (Startup)",
+      "id": "company-meu-barzin-startup",
       "type": "Company",
+      "labels": {
+        "pt": "Meu Barzin (Startup)",
+        "en": "Meu Barzin (Startup)"
+      },
+      "location": {
+        "pt": "Curitiba, PR",
+        "en": "Curitiba, Brazil"
+      },
+      "dates": {
+        "pt": "Dezembro 2025 – Março 2026",
+        "en": "December 2025 – March 2026"
+      },
       "size": 1.5,
       "color": "#60a5fa",
-      "glow": true,
-      "details": "Curitiba, PR",
-      "total_skills": 23,
-      "total_metrics": 5,
-      "total_bullets": 7
+      "glow": true
     },
     {
-      "id": "node_52",
-      "label": "Co-Founder & Product Manager",
+      "id": "role-meu-barzin-startup-1",
       "type": "Role",
-      "size": 0.6,
-      "color": "#a78bfa",
-      "details": "Meu Barzin (Startup) | December 2025 – March 2026"
+      "labels": {
+        "pt": "Co-Founder & Product Manager",
+        "en": "Co-Founder & Product Manager"
+      },
+      "dates": {
+        "pt": "Dezembro 2025 – Março 2026",
+        "en": "December 2025 – March 2026"
+      },
+      "company_id": "company-meu-barzin-startup",
+      "size": 0.72,
+      "color": "#a78bfa"
     },
     {
-      "id": "node_53",
-      "label": "Co-Founder & Product & Go-To-Market (GTM) Lead",
+      "id": "role-meu-barzin-startup-2",
       "type": "Role",
-      "size": 0.6,
-      "color": "#a78bfa",
-      "details": "Meu Barzin (Startup) | December 2025 – March 2026"
+      "labels": {
+        "pt": "Co-Founder & Responsável por Produto e GTM",
+        "en": "Co-Founder & Product & Go-To-Market (GTM) Lead"
+      },
+      "dates": {
+        "pt": "Dezembro 2025 – Março 2026",
+        "en": "December 2025 – March 2026"
+      },
+      "company_id": "company-meu-barzin-startup",
+      "size": 0.72,
+      "color": "#a78bfa"
     },
     {
-      "id": "node_54",
-      "label": "Product Strategy",
-      "type": "Skill",
-      "size": 0.42,
-      "color": "#4a9eff",
-      "level": 1,
-      "category": "Product & Strategy",
-      "evidence_count": 1,
-      "company": "Meu Barzin (Startup)",
-      "details": "Product Strategy @ Meu Barzin (Startup) | Level 1/5 | 1 achievements"
-    },
-    {
-      "id": "node_55",
-      "label": "Monetization",
-      "type": "Skill",
-      "size": 0.42,
-      "color": "#4a9eff",
-      "level": 1,
-      "category": "Product & Strategy",
-      "evidence_count": 1,
-      "company": "Meu Barzin (Startup)",
-      "details": "Monetization @ Meu Barzin (Startup) | Level 1/5 | 1 achievements"
-    },
-    {
-      "id": "node_56",
-      "label": "Business Model",
-      "type": "Skill",
-      "size": 0.42,
-      "color": "#4a9eff",
-      "level": 1,
-      "category": "Product & Strategy",
-      "evidence_count": 1,
-      "company": "Meu Barzin (Startup)",
-      "details": "Business Model @ Meu Barzin (Startup) | Level 1/5 | 1 achievements"
-    },
-    {
-      "id": "node_57",
-      "label": "Product Architecture",
-      "type": "Skill",
-      "size": 0.42,
-      "color": "#4a9eff",
-      "level": 1,
-      "category": "Product & Strategy",
-      "evidence_count": 1,
-      "company": "Meu Barzin (Startup)",
-      "details": "Product Architecture @ Meu Barzin (Startup) | Level 1/5 | 1 achievements"
-    },
-    {
-      "id": "node_58",
-      "label": "Ux",
-      "type": "Skill",
-      "size": 0.42,
-      "color": "#4a9eff",
-      "level": 1,
-      "category": "Product & Strategy",
-      "evidence_count": 1,
-      "company": "Meu Barzin (Startup)",
-      "details": "Ux @ Meu Barzin (Startup) | Level 1/5 | 1 achievements"
-    },
-    {
-      "id": "node_59",
-      "label": "Ai",
-      "type": "Skill",
-      "size": 0.42,
-      "color": "#4a9eff",
-      "level": 1,
-      "category": "Product & Strategy",
-      "evidence_count": 1,
-      "company": "Meu Barzin (Startup)",
-      "details": "Ai @ Meu Barzin (Startup) | Level 1/5 | 1 achievements"
-    },
-    {
-      "id": "node_60",
-      "label": "Automation",
-      "type": "Skill",
-      "size": 0.42,
-      "color": "#4a9eff",
-      "level": 1,
-      "category": "Product & Strategy",
-      "evidence_count": 1,
-      "company": "Meu Barzin (Startup)",
-      "details": "Automation @ Meu Barzin (Startup) | Level 1/5 | 1 achievements"
-    },
-    {
-      "id": "node_61",
-      "label": "Data Strategy",
-      "type": "Skill",
-      "size": 0.42,
-      "color": "#4a9eff",
-      "level": 1,
-      "category": "Product & Strategy",
-      "evidence_count": 1,
-      "company": "Meu Barzin (Startup)",
-      "details": "Data Strategy @ Meu Barzin (Startup) | Level 1/5 | 1 achievements"
-    },
-    {
-      "id": "node_62",
-      "label": "Web Scraping",
-      "type": "Skill",
-      "size": 0.42,
-      "color": "#4a9eff",
-      "level": 1,
-      "category": "Product & Strategy",
-      "evidence_count": 1,
-      "company": "Meu Barzin (Startup)",
-      "details": "Web Scraping @ Meu Barzin (Startup) | Level 1/5 | 1 achievements"
-    },
-    {
-      "id": "node_63",
-      "label": "Supabase",
-      "type": "Skill",
-      "size": 0.54,
-      "color": "#4a9eff",
-      "level": 2,
-      "category": "Product & Strategy",
-      "evidence_count": 2,
-      "company": "Meu Barzin (Startup)",
-      "details": "Supabase @ Meu Barzin (Startup) | Level 2/5 | 2 achievements"
-    },
-    {
-      "id": "node_64",
-      "label": "Sql",
-      "type": "Skill",
-      "size": 0.42,
-      "color": "#4a9eff",
-      "level": 1,
-      "category": "Product & Strategy",
-      "evidence_count": 1,
-      "company": "Meu Barzin (Startup)",
-      "details": "Sql @ Meu Barzin (Startup) | Level 1/5 | 1 achievements"
-    },
-    {
-      "id": "node_65",
-      "label": "Postgresql",
-      "type": "Skill",
-      "size": 0.42,
-      "color": "#4a9eff",
-      "level": 1,
-      "category": "Product & Strategy",
-      "evidence_count": 1,
-      "company": "Meu Barzin (Startup)",
-      "details": "Postgresql @ Meu Barzin (Startup) | Level 1/5 | 1 achievements"
-    },
-    {
-      "id": "node_66",
-      "label": "Crm",
-      "type": "Skill",
-      "size": 0.42,
-      "color": "#4a9eff",
-      "level": 1,
-      "category": "Product & Strategy",
-      "evidence_count": 1,
-      "company": "Meu Barzin (Startup)",
-      "details": "Crm @ Meu Barzin (Startup) | Level 1/5 | 1 achievements"
-    },
-    {
-      "id": "node_67",
-      "label": "Nocodb",
-      "type": "Skill",
-      "size": 0.42,
-      "color": "#4a9eff",
-      "level": 1,
-      "category": "Product & Strategy",
-      "evidence_count": 1,
-      "company": "Meu Barzin (Startup)",
-      "details": "Nocodb @ Meu Barzin (Startup) | Level 1/5 | 1 achievements"
-    },
-    {
-      "id": "node_68",
-      "label": "Growth",
-      "type": "Skill",
-      "size": 0.42,
-      "color": "#4a9eff",
-      "level": 1,
-      "category": "Product & Strategy",
-      "evidence_count": 1,
-      "company": "Meu Barzin (Startup)",
-      "details": "Growth @ Meu Barzin (Startup) | Level 1/5 | 1 achievements"
-    },
-    {
-      "id": "node_69",
-      "label": "Funnel",
-      "type": "Skill",
-      "size": 0.42,
-      "color": "#4a9eff",
-      "level": 1,
-      "category": "Product & Strategy",
-      "evidence_count": 1,
-      "company": "Meu Barzin (Startup)",
-      "details": "Funnel @ Meu Barzin (Startup) | Level 1/5 | 1 achievements"
-    },
-    {
-      "id": "node_70",
-      "label": "Metrics",
-      "type": "Skill",
-      "size": 0.42,
-      "color": "#4a9eff",
-      "level": 1,
-      "category": "Product & Strategy",
-      "evidence_count": 1,
-      "company": "Meu Barzin (Startup)",
-      "details": "Metrics @ Meu Barzin (Startup) | Level 1/5 | 1 achievements"
-    },
-    {
-      "id": "node_71",
-      "label": "Business Development",
-      "type": "Skill",
-      "size": 0.42,
-      "color": "#4a9eff",
-      "level": 1,
-      "category": "Product & Strategy",
-      "evidence_count": 1,
-      "company": "Meu Barzin (Startup)",
-      "details": "Business Development @ Meu Barzin (Startup) | Level 1/5 | 1 achievements"
-    },
-    {
-      "id": "node_72",
-      "label": "Sales",
-      "type": "Skill",
-      "size": 0.42,
-      "color": "#4a9eff",
-      "level": 1,
-      "category": "Product & Strategy",
-      "evidence_count": 1,
-      "company": "Meu Barzin (Startup)",
-      "details": "Sales @ Meu Barzin (Startup) | Level 1/5 | 1 achievements"
-    },
-    {
-      "id": "node_73",
-      "label": "B2B",
-      "type": "Skill",
-      "size": 0.42,
-      "color": "#4a9eff",
-      "level": 1,
-      "category": "Product & Strategy",
-      "evidence_count": 1,
-      "company": "Meu Barzin (Startup)",
-      "details": "B2B @ Meu Barzin (Startup) | Level 1/5 | 1 achievements"
-    },
-    {
-      "id": "node_74",
-      "label": "Discovery",
-      "type": "Skill",
-      "size": 0.42,
-      "color": "#4a9eff",
-      "level": 1,
-      "category": "Product & Strategy",
-      "evidence_count": 1,
-      "company": "Meu Barzin (Startup)",
-      "details": "Discovery @ Meu Barzin (Startup) | Level 1/5 | 1 achievements"
-    },
-    {
-      "id": "node_75",
-      "label": "Learning",
-      "type": "Skill",
-      "size": 0.42,
-      "color": "#4a9eff",
-      "level": 1,
-      "category": "Product & Strategy",
-      "evidence_count": 1,
-      "company": "Meu Barzin (Startup)",
-      "details": "Learning @ Meu Barzin (Startup) | Level 1/5 | 1 achievements"
-    },
-    {
-      "id": "node_76",
-      "label": "Cro",
-      "type": "Skill",
-      "size": 0.42,
-      "color": "#4a9eff",
-      "level": 1,
-      "category": "Product & Strategy",
-      "evidence_count": 1,
-      "company": "Meu Barzin (Startup)",
-      "details": "Cro @ Meu Barzin (Startup) | Level 1/5 | 1 achievements"
-    },
-    {
-      "id": "node_77",
-      "label": "505",
-      "type": "Metric",
-      "size": 0.4,
-      "color": "#fbbf24",
-      "metric_type": "volume",
-      "context": "Geração de Demanda e Métricas: Captou 505 leads qualificados de topo de funil com campanhas orgânicas e anúncios (além d",
-      "company": "Meu Barzin (Startup)",
-      "details": "505 — Geração de Demanda e Métricas: Captou 505 leads qualificados de topo de funil co..."
-    },
-    {
-      "id": "node_78",
-      "label": "3",
-      "type": "Metric",
-      "size": 0.4,
-      "color": "#fbbf24",
-      "metric_type": "percentage",
-      "context": "Geração de Demanda e Métricas: Captou 505 leads qualificados de topo de funil com campanhas orgânicas e anúncios (além d",
-      "company": "Meu Barzin (Startup)",
-      "details": "3 — Geração de Demanda e Métricas: Captou 505 leads qualificados de topo de funil co..."
-    },
-    {
-      "id": "node_79",
-      "label": "000",
-      "type": "Metric",
-      "size": 0.4,
-      "color": "#fbbf24",
-      "metric_type": "count",
-      "context": "Geração de Demanda e Métricas: Captou 505 leads qualificados de topo de funil com campanhas orgânicas e anúncios (além d",
-      "company": "Meu Barzin (Startup)",
-      "details": "000 — Geração de Demanda e Métricas: Captou 505 leads qualificados de topo de funil co..."
-    },
-    {
-      "id": "node_80",
-      "label": "4",
-      "type": "Metric",
-      "size": 0.4,
-      "color": "#fbbf24",
-      "metric_type": "count",
-      "context": "Geração de Demanda e Métricas: Captou 505 leads qualificados de topo de funil com campanhas orgânicas e anúncios (além d",
-      "company": "Meu Barzin (Startup)",
-      "details": "4 — Geração de Demanda e Métricas: Captou 505 leads qualificados de topo de funil co..."
-    },
-    {
-      "id": "node_81",
-      "label": "9",
-      "type": "Metric",
-      "size": 0.4,
-      "color": "#fbbf24",
-      "metric_type": "percentage",
-      "context": "Mapeamento de Gargalos de Conversão: Conduziu entrevistas qualitativas e mapeamentos de funil que identificaram que a fa",
-      "company": "Meu Barzin (Startup)",
-      "details": "9 — Mapeamento de Gargalos de Conversão: Conduziu entrevistas qualitativas e mapeame..."
-    },
-    {
-      "id": "node_82",
-      "label": "AK Branding & Web Design",
+      "id": "company-ak-branding-web-design",
       "type": "Company",
+      "labels": {
+        "pt": "AK Branding & Web Design",
+        "en": "AK Branding & Web Design"
+      },
+      "location": {
+        "pt": "Curitiba, PR",
+        "en": "Curitiba, PR"
+      },
+      "dates": {
+        "pt": "Março 2019 – Setembro 2024",
+        "en": "March 2019 – September 2024"
+      },
       "size": 1.5,
       "color": "#60a5fa",
-      "glow": true,
-      "details": "Curitiba, PR",
-      "total_skills": 20,
-      "total_metrics": 7,
-      "total_bullets": 6
+      "glow": true
     },
     {
-      "id": "node_83",
-      "label": "Founder & Product Design Consultant",
+      "id": "role-ak-branding-web-design-1",
       "type": "Role",
-      "size": 0.6,
-      "color": "#a78bfa",
-      "details": "AK Branding & Web Design | March 2019 – September 2024"
+      "labels": {
+        "pt": "Founder & Product Design Consultant",
+        "en": "Founder & Product Design Consultant"
+      },
+      "dates": {
+        "pt": "Março 2019 – Setembro 2024",
+        "en": "March 2019 – September 2024"
+      },
+      "company_id": "company-ak-branding-web-design",
+      "size": 0.72,
+      "color": "#a78bfa"
     },
     {
-      "id": "node_84",
-      "label": "Founder & Marketing Project Consultant",
+      "id": "role-ak-branding-web-design-2",
       "type": "Role",
-      "size": 0.6,
-      "color": "#a78bfa",
-      "details": "AK Branding & Web Design | March 2019 – September 2024"
+      "labels": {
+        "pt": "Fundador & Consultor de Projetos de Marketing",
+        "en": "Founder & Marketing Project Consultant"
+      },
+      "dates": {
+        "pt": "Março 2019 – Setembro 2024",
+        "en": "March 2019 – September 2024"
+      },
+      "company_id": "company-ak-branding-web-design",
+      "size": 0.72,
+      "color": "#a78bfa"
     },
     {
-      "id": "node_85",
-      "label": "Agency Management",
-      "type": "Skill",
-      "size": 0.42,
-      "color": "#38bdf8",
-      "level": 1,
-      "category": "Leadership & Ops",
-      "evidence_count": 1,
-      "company": "AK Branding & Web Design",
-      "details": "Agency Management @ AK Branding & Web Design | Level 1/5 | 1 achievements"
-    },
-    {
-      "id": "node_86",
-      "label": "Branding",
-      "type": "Skill",
-      "size": 0.42,
-      "color": "#38bdf8",
-      "level": 1,
-      "category": "Leadership & Ops",
-      "evidence_count": 1,
-      "company": "AK Branding & Web Design",
-      "details": "Branding @ AK Branding & Web Design | Level 1/5 | 1 achievements"
-    },
-    {
-      "id": "node_87",
-      "label": "Volume",
-      "type": "Skill",
-      "size": 0.42,
-      "color": "#38bdf8",
-      "level": 1,
-      "category": "Leadership & Ops",
-      "evidence_count": 1,
-      "company": "AK Branding & Web Design",
-      "details": "Volume @ AK Branding & Web Design | Level 1/5 | 1 achievements"
-    },
-    {
-      "id": "node_88",
-      "label": "Cro",
-      "type": "Skill",
-      "size": 0.42,
-      "color": "#38bdf8",
-      "level": 1,
-      "category": "Leadership & Ops",
-      "evidence_count": 1,
-      "company": "AK Branding & Web Design",
-      "details": "Cro @ AK Branding & Web Design | Level 1/5 | 1 achievements"
-    },
-    {
-      "id": "node_89",
-      "label": "Chatbots",
-      "type": "Skill",
-      "size": 0.42,
-      "color": "#38bdf8",
-      "level": 1,
-      "category": "Leadership & Ops",
-      "evidence_count": 1,
-      "company": "AK Branding & Web Design",
-      "details": "Chatbots @ AK Branding & Web Design | Level 1/5 | 1 achievements"
-    },
-    {
-      "id": "node_90",
-      "label": "Lead Generation",
-      "type": "Skill",
-      "size": 0.42,
-      "color": "#38bdf8",
-      "level": 1,
-      "category": "Leadership & Ops",
-      "evidence_count": 1,
-      "company": "AK Branding & Web Design",
-      "details": "Lead Generation @ AK Branding & Web Design | Level 1/5 | 1 achievements"
-    },
-    {
-      "id": "node_91",
-      "label": "Ab Testing",
-      "type": "Skill",
-      "size": 0.42,
-      "color": "#38bdf8",
-      "level": 1,
-      "category": "Leadership & Ops",
-      "evidence_count": 1,
-      "company": "AK Branding & Web Design",
-      "details": "Ab Testing @ AK Branding & Web Design | Level 1/5 | 1 achievements"
-    },
-    {
-      "id": "node_92",
-      "label": "Growth",
-      "type": "Skill",
-      "size": 0.42,
-      "color": "#38bdf8",
-      "level": 1,
-      "category": "Leadership & Ops",
-      "evidence_count": 1,
-      "company": "AK Branding & Web Design",
-      "details": "Growth @ AK Branding & Web Design | Level 1/5 | 1 achievements"
-    },
-    {
-      "id": "node_93",
-      "label": "Paid Media",
-      "type": "Skill",
-      "size": 0.42,
-      "color": "#38bdf8",
-      "level": 1,
-      "category": "Leadership & Ops",
-      "evidence_count": 1,
-      "company": "AK Branding & Web Design",
-      "details": "Paid Media @ AK Branding & Web Design | Level 1/5 | 1 achievements"
-    },
-    {
-      "id": "node_94",
-      "label": "Web Design",
-      "type": "Skill",
-      "size": 0.42,
-      "color": "#38bdf8",
-      "level": 1,
-      "category": "Leadership & Ops",
-      "evidence_count": 1,
-      "company": "AK Branding & Web Design",
-      "details": "Web Design @ AK Branding & Web Design | Level 1/5 | 1 achievements"
-    },
-    {
-      "id": "node_95",
-      "label": "E Commerce",
-      "type": "Skill",
-      "size": 0.42,
-      "color": "#38bdf8",
-      "level": 1,
-      "category": "Leadership & Ops",
-      "evidence_count": 1,
-      "company": "AK Branding & Web Design",
-      "details": "E Commerce @ AK Branding & Web Design | Level 1/5 | 1 achievements"
-    },
-    {
-      "id": "node_96",
-      "label": "Monetization",
-      "type": "Skill",
-      "size": 0.42,
-      "color": "#38bdf8",
-      "level": 1,
-      "category": "Leadership & Ops",
-      "evidence_count": 1,
-      "company": "AK Branding & Web Design",
-      "details": "Monetization @ AK Branding & Web Design | Level 1/5 | 1 achievements"
-    },
-    {
-      "id": "node_97",
-      "label": "Zero To One",
-      "type": "Skill",
-      "size": 0.42,
-      "color": "#38bdf8",
-      "level": 1,
-      "category": "Leadership & Ops",
-      "evidence_count": 1,
-      "company": "AK Branding & Web Design",
-      "details": "Zero To One @ AK Branding & Web Design | Level 1/5 | 1 achievements"
-    },
-    {
-      "id": "node_98",
-      "label": "Ux Ui",
-      "type": "Skill",
-      "size": 0.42,
-      "color": "#38bdf8",
-      "level": 1,
-      "category": "Leadership & Ops",
-      "evidence_count": 1,
-      "company": "AK Branding & Web Design",
-      "details": "Ux Ui @ AK Branding & Web Design | Level 1/5 | 1 achievements"
-    },
-    {
-      "id": "node_99",
-      "label": "Web Development",
-      "type": "Skill",
-      "size": 0.42,
-      "color": "#38bdf8",
-      "level": 1,
-      "category": "Leadership & Ops",
-      "evidence_count": 1,
-      "company": "AK Branding & Web Design",
-      "details": "Web Development @ AK Branding & Web Design | Level 1/5 | 1 achievements"
-    },
-    {
-      "id": "node_100",
-      "label": "Seo",
-      "type": "Skill",
-      "size": 0.42,
-      "color": "#38bdf8",
-      "level": 1,
-      "category": "Leadership & Ops",
-      "evidence_count": 1,
-      "company": "AK Branding & Web Design",
-      "details": "Seo @ AK Branding & Web Design | Level 1/5 | 1 achievements"
-    },
-    {
-      "id": "node_101",
-      "label": "Lgpd",
-      "type": "Skill",
-      "size": 0.42,
-      "color": "#38bdf8",
-      "level": 1,
-      "category": "Leadership & Ops",
-      "evidence_count": 1,
-      "company": "AK Branding & Web Design",
-      "details": "Lgpd @ AK Branding & Web Design | Level 1/5 | 1 achievements"
-    },
-    {
-      "id": "node_102",
-      "label": "Budget",
-      "type": "Skill",
-      "size": 0.42,
-      "color": "#38bdf8",
-      "level": 1,
-      "category": "Leadership & Ops",
-      "evidence_count": 1,
-      "company": "AK Branding & Web Design",
-      "details": "Budget @ AK Branding & Web Design | Level 1/5 | 1 achievements"
-    },
-    {
-      "id": "node_103",
-      "label": "Controls",
-      "type": "Skill",
-      "size": 0.42,
-      "color": "#38bdf8",
-      "level": 1,
-      "category": "Leadership & Ops",
-      "evidence_count": 1,
-      "company": "AK Branding & Web Design",
-      "details": "Controls @ AK Branding & Web Design | Level 1/5 | 1 achievements"
-    },
-    {
-      "id": "node_104",
-      "label": "Timeline",
-      "type": "Skill",
-      "size": 0.42,
-      "color": "#38bdf8",
-      "level": 1,
-      "category": "Leadership & Ops",
-      "evidence_count": 1,
-      "company": "AK Branding & Web Design",
-      "details": "Timeline @ AK Branding & Web Design | Level 1/5 | 1 achievements"
-    },
-    {
-      "id": "node_105",
-      "label": "40",
-      "type": "Metric",
-      "size": 0.4,
-      "color": "#fbbf24",
-      "metric_type": "count",
-      "context": "Fundação e Gestão de Agência Boutique: Manteve ritmo de fechamento e entrega de 2 contratos de alto valor a cada 3 meses",
-      "company": "AK Branding & Web Design",
-      "details": "40 — Fundação e Gestão de Agência Boutique: Manteve ritmo de fechamento e entrega de ..."
-    },
-    {
-      "id": "node_106",
-      "label": "+250%",
-      "type": "Metric",
-      "size": 0.4,
-      "color": "#fbbf24",
-      "metric_type": "growth",
-      "context": "Otimização de Conversão (CRO) e Chatbots: Implementou interfaces de chatbot e fluxos de UX que elevaram a captação de le",
-      "company": "AK Branding & Web Design",
-      "details": "+250% — Otimização de Conversão (CRO) e Chatbots: Implementou interfaces de chatbot e fl..."
-    },
-    {
-      "id": "node_107",
-      "label": "250",
-      "type": "Metric",
-      "size": 0.4,
-      "color": "#fbbf24",
-      "metric_type": "percentage",
-      "context": "Otimização de Conversão (CRO) e Chatbots: Implementou interfaces de chatbot e fluxos de UX que elevaram a captação de le",
-      "company": "AK Branding & Web Design",
-      "details": "250 — Otimização de Conversão (CRO) e Chatbots: Implementou interfaces de chatbot e fl..."
-    },
-    {
-      "id": "node_108",
-      "label": "R$0",
-      "type": "Metric",
-      "size": 0.4,
-      "color": "#fbbf24",
-      "metric_type": "revenue",
-      "context": "Lançamento de E-Commerce de 0 a 1: Desenvolveu loja virtual do zero que atingiu R$ 10.000 em faturamento nos primeiros 3",
-      "company": "AK Branding & Web Design",
-      "details": "R$0 — Lançamento de E-Commerce de 0 a 1: Desenvolveu loja virtual do zero que atingiu ..."
-    },
-    {
-      "id": "node_109",
-      "label": "$0",
-      "type": "Metric",
-      "size": 0.4,
-      "color": "#fbbf24",
-      "metric_type": "revenue",
-      "context": "Lançamento de E-Commerce de 0 a 1: Desenvolveu loja virtual do zero que atingiu R$ 10.000 em faturamento nos primeiros 3",
-      "company": "AK Branding & Web Design",
-      "details": "$0 — Lançamento de E-Commerce de 0 a 1: Desenvolveu loja virtual do zero que atingiu ..."
-    },
-    {
-      "id": "node_110",
-      "label": "100",
-      "type": "Metric",
-      "size": 0.4,
-      "color": "#fbbf24",
-      "metric_type": "percentage",
-      "context": "Lançamento de E-Commerce de 0 a 1: Desenvolveu loja virtual do zero que atingiu R$ 10.000 em faturamento nos primeiros 3",
-      "company": "AK Branding & Web Design",
-      "details": "100 — Lançamento de E-Commerce de 0 a 1: Desenvolveu loja virtual do zero que atingiu ..."
-    },
-    {
-      "id": "node_111",
-      "label": "Munzner",
+      "id": "company-munzner",
       "type": "Company",
+      "labels": {
+        "pt": "Munzner",
+        "en": "Munzner"
+      },
+      "location": {
+        "pt": "Curitiba, PR",
+        "en": "Curitiba, PR"
+      },
+      "dates": {
+        "pt": "Outubro 2018 – Agosto 2024",
+        "en": "October 2018 – August 2024"
+      },
       "size": 1.5,
       "color": "#60a5fa",
-      "glow": true,
-      "details": "Curitiba, PR",
-      "total_skills": 17,
-      "total_metrics": 3,
-      "total_bullets": 5
+      "glow": true
     },
     {
-      "id": "node_112",
-      "label": "Marketing & Growth Specialist",
+      "id": "role-munzner-1",
       "type": "Role",
-      "size": 0.6,
-      "color": "#a78bfa",
-      "details": "Munzner | October 2018 – August 2024"
+      "labels": {
+        "pt": "Marketing & Growth Specialist",
+        "en": "Marketing & Growth Specialist"
+      },
+      "dates": {
+        "pt": "Outubro 2018 – Agosto 2024",
+        "en": "October 2018 – August 2024"
+      },
+      "company_id": "company-munzner",
+      "size": 0.72,
+      "color": "#a78bfa"
     },
     {
-      "id": "node_113",
-      "label": "Marketing Automation & Campaign Specialist",
+      "id": "role-munzner-2",
       "type": "Role",
-      "size": 0.6,
-      "color": "#a78bfa",
-      "details": "Munzner | October 2018 – August 2024"
+      "labels": {
+        "pt": "Especialista em Automação de Marketing e Campanhas",
+        "en": "Marketing Automation & Campaign Specialist"
+      },
+      "dates": {
+        "pt": "Outubro 2018 – Agosto 2024",
+        "en": "October 2018 – August 2024"
+      },
+      "company_id": "company-munzner",
+      "size": 0.72,
+      "color": "#a78bfa"
     },
     {
-      "id": "node_114",
-      "label": "Marketing Specialist",
+      "id": "role-munzner-3",
       "type": "Role",
-      "size": 0.6,
-      "color": "#a78bfa",
-      "details": "Munzner | February 2021 – September 2024"
+      "labels": {
+        "pt": "Marketing Specialist",
+        "en": "Marketing Specialist"
+      },
+      "dates": {
+        "pt": "Fevereiro 2021 – Setembro 2024",
+        "en": "February 2021 – September 2024"
+      },
+      "company_id": "company-munzner",
+      "size": 0.72,
+      "color": "#a78bfa"
     },
     {
-      "id": "node_115",
-      "label": "Internal Process Analyst",
+      "id": "role-munzner-4",
       "type": "Role",
-      "size": 0.6,
-      "color": "#a78bfa",
-      "details": "Munzner | October 2018 – February 2021"
+      "labels": {
+        "pt": "Internal Process Analyst",
+        "en": "Internal Process Analyst"
+      },
+      "dates": {
+        "pt": "Outubro 2018 – Fevereiro 2021",
+        "en": "October 2018 – February 2021"
+      },
+      "company_id": "company-munzner",
+      "size": 0.72,
+      "color": "#a78bfa"
     },
     {
-      "id": "node_116",
-      "label": "Infoproduct",
-      "type": "Skill",
-      "size": 0.42,
-      "color": "#ef4444",
-      "level": 1,
-      "category": "Sales Enablement",
-      "evidence_count": 1,
-      "company": "Munzner",
-      "details": "Infoproduct @ Munzner | Level 1/5 | 1 achievements"
-    },
-    {
-      "id": "node_117",
-      "label": "E Learning",
-      "type": "Skill",
-      "size": 0.42,
-      "color": "#ef4444",
-      "level": 1,
-      "category": "Sales Enablement",
-      "evidence_count": 1,
-      "company": "Munzner",
-      "details": "E Learning @ Munzner | Level 1/5 | 1 achievements"
-    },
-    {
-      "id": "node_118",
-      "label": "Tripwire",
-      "type": "Skill",
-      "size": 0.42,
-      "color": "#ef4444",
-      "level": 1,
-      "category": "Sales Enablement",
-      "evidence_count": 1,
-      "company": "Munzner",
-      "details": "Tripwire @ Munzner | Level 1/5 | 1 achievements"
-    },
-    {
-      "id": "node_119",
-      "label": "Roi",
-      "type": "Skill",
-      "size": 0.42,
-      "color": "#ef4444",
-      "level": 1,
-      "category": "Sales Enablement",
-      "evidence_count": 1,
-      "company": "Munzner",
-      "details": "Roi @ Munzner | Level 1/5 | 1 achievements"
-    },
-    {
-      "id": "node_120",
-      "label": "Crm",
-      "type": "Skill",
-      "size": 0.54,
-      "color": "#ef4444",
-      "level": 2,
-      "category": "Sales Enablement",
-      "evidence_count": 2,
-      "company": "Munzner",
-      "details": "Crm @ Munzner | Level 2/5 | 2 achievements"
-    },
-    {
-      "id": "node_121",
-      "label": "Automation",
-      "type": "Skill",
-      "size": 0.42,
-      "color": "#ef4444",
-      "level": 1,
-      "category": "Sales Enablement",
-      "evidence_count": 1,
-      "company": "Munzner",
-      "details": "Automation @ Munzner | Level 1/5 | 1 achievements"
-    },
-    {
-      "id": "node_122",
-      "label": "Email Marketing",
-      "type": "Skill",
-      "size": 0.42,
-      "color": "#ef4444",
-      "level": 1,
-      "category": "Sales Enablement",
-      "evidence_count": 1,
-      "company": "Munzner",
-      "details": "Email Marketing @ Munzner | Level 1/5 | 1 achievements"
-    },
-    {
-      "id": "node_123",
-      "label": "High Ticket",
-      "type": "Skill",
-      "size": 0.42,
-      "color": "#ef4444",
-      "level": 1,
-      "category": "Sales Enablement",
-      "evidence_count": 1,
-      "company": "Munzner",
-      "details": "High Ticket @ Munzner | Level 1/5 | 1 achievements"
-    },
-    {
-      "id": "node_124",
-      "label": "Monetization",
-      "type": "Skill",
-      "size": 0.42,
-      "color": "#ef4444",
-      "level": 1,
-      "category": "Sales Enablement",
-      "evidence_count": 1,
-      "company": "Munzner",
-      "details": "Monetization @ Munzner | Level 1/5 | 1 achievements"
-    },
-    {
-      "id": "node_125",
-      "label": "Revenue Analytics",
-      "type": "Skill",
-      "size": 0.42,
-      "color": "#ef4444",
-      "level": 1,
-      "category": "Sales Enablement",
-      "evidence_count": 1,
-      "company": "Munzner",
-      "details": "Revenue Analytics @ Munzner | Level 1/5 | 1 achievements"
-    },
-    {
-      "id": "node_126",
-      "label": "Acquisition",
-      "type": "Skill",
-      "size": 0.42,
-      "color": "#ef4444",
-      "level": 1,
-      "category": "Sales Enablement",
-      "evidence_count": 1,
-      "company": "Munzner",
-      "details": "Acquisition @ Munzner | Level 1/5 | 1 achievements"
-    },
-    {
-      "id": "node_127",
-      "label": "Inbound",
-      "type": "Skill",
-      "size": 0.42,
-      "color": "#ef4444",
-      "level": 1,
-      "category": "Sales Enablement",
-      "evidence_count": 1,
-      "company": "Munzner",
-      "details": "Inbound @ Munzner | Level 1/5 | 1 achievements"
-    },
-    {
-      "id": "node_128",
-      "label": "Seo",
-      "type": "Skill",
-      "size": 0.42,
-      "color": "#ef4444",
-      "level": 1,
-      "category": "Sales Enablement",
-      "evidence_count": 1,
-      "company": "Munzner",
-      "details": "Seo @ Munzner | Level 1/5 | 1 achievements"
-    },
-    {
-      "id": "node_129",
-      "label": "Content Marketing",
-      "type": "Skill",
-      "size": 0.42,
-      "color": "#ef4444",
-      "level": 1,
-      "category": "Sales Enablement",
-      "evidence_count": 1,
-      "company": "Munzner",
-      "details": "Content Marketing @ Munzner | Level 1/5 | 1 achievements"
-    },
-    {
-      "id": "node_130",
-      "label": "Thinking Environment",
-      "type": "Skill",
-      "size": 0.42,
-      "color": "#ef4444",
-      "level": 1,
-      "category": "Sales Enablement",
-      "evidence_count": 1,
-      "company": "Munzner",
-      "details": "Thinking Environment @ Munzner | Level 1/5 | 1 achievements"
-    },
-    {
-      "id": "node_131",
-      "label": "Narratives",
-      "type": "Skill",
-      "size": 0.42,
-      "color": "#ef4444",
-      "level": 1,
-      "category": "Sales Enablement",
-      "evidence_count": 1,
-      "company": "Munzner",
-      "details": "Narratives @ Munzner | Level 1/5 | 1 achievements"
-    },
-    {
-      "id": "node_132",
-      "label": "Copywriting",
-      "type": "Skill",
-      "size": 0.42,
-      "color": "#ef4444",
-      "level": 1,
-      "category": "Sales Enablement",
-      "evidence_count": 1,
-      "company": "Munzner",
-      "details": "Copywriting @ Munzner | Level 1/5 | 1 achievements"
-    },
-    {
-      "id": "node_133",
-      "label": "000",
-      "type": "Metric",
-      "size": 0.4,
-      "color": "#fbbf24",
-      "metric_type": "count",
-      "context": "Funil Automatizado de High-Ticket (~R$ 50k em Receita): Estruturou funil de e-mail marketing automatizado de 10 etapas (",
-      "company": "Munzner",
-      "details": "000 — Funil Automatizado de High-Ticket (~R$ 50k em Receita): Estruturou funil de e-ma..."
-    },
-    {
-      "id": "node_134",
-      "label": "100",
-      "type": "Metric",
-      "size": 0.4,
-      "color": "#fbbf24",
-      "metric_type": "volume",
-      "context": "Inbound Marketing e SEO Orgânico: Redigiu ~10 artigos estratégicos no blog alinhados à metodologia Thinking Environment,",
-      "company": "Munzner",
-      "details": "100 — Inbound Marketing e SEO Orgânico: Redigiu ~10 artigos estratégicos no blog alinh..."
-    },
-    {
-      "id": "node_135",
-      "label": "10",
-      "type": "Metric",
-      "size": 0.4,
-      "color": "#fbbf24",
-      "metric_type": "percentage",
-      "context": "Inbound Marketing e SEO Orgânico: Redigiu ~10 artigos estratégicos no blog alinhados à metodologia Thinking Environment,",
-      "company": "Munzner",
-      "details": "10 — Inbound Marketing e SEO Orgânico: Redigiu ~10 artigos estratégicos no blog alinh..."
-    },
-    {
-      "id": "node_136",
-      "label": "Conversas Brasileiras",
+      "id": "company-conversas-brasileiras",
       "type": "Company",
+      "labels": {
+        "pt": "Conversas Brasileiras",
+        "en": "Conversas Brasileiras"
+      },
+      "location": {
+        "pt": "Curitiba, PR",
+        "en": "Curitiba, Paraná, Brazil"
+      },
+      "dates": {
+        "pt": "Agosto 2018 – Setembro 2019",
+        "en": "August 2018 – September 2019"
+      },
       "size": 1.5,
       "color": "#60a5fa",
-      "glow": true,
-      "details": "Curitiba, PR",
-      "total_skills": 13,
-      "total_metrics": 0,
-      "total_bullets": 5
+      "glow": true
     },
     {
-      "id": "node_137",
-      "label": "Co-Founder",
+      "id": "role-conversas-brasileiras-1",
       "type": "Role",
-      "size": 0.6,
-      "color": "#a78bfa",
-      "details": "Conversas Brasileiras | August 2018 – September 2019"
+      "labels": {
+        "pt": "Co-Founder",
+        "en": "Co-Founder"
+      },
+      "dates": {
+        "pt": "Agosto 2018 – Setembro 2019",
+        "en": "August 2018 – September 2019"
+      },
+      "company_id": "company-conversas-brasileiras",
+      "size": 0.72,
+      "color": "#a78bfa"
     },
     {
-      "id": "node_138",
-      "label": "Social Innovation",
-      "type": "Skill",
-      "size": 0.42,
-      "color": "#34d399",
-      "level": 1,
-      "category": "Facilitation & Community",
-      "evidence_count": 1,
-      "company": "Conversas Brasileiras",
-      "details": "Social Innovation @ Conversas Brasileiras | Level 1/5 | 1 achievements"
-    },
-    {
-      "id": "node_139",
-      "label": "Facilitation",
-      "type": "Skill",
-      "size": 0.54,
-      "color": "#34d399",
-      "level": 2,
-      "category": "Facilitation & Community",
-      "evidence_count": 2,
-      "company": "Conversas Brasileiras",
-      "details": "Facilitation @ Conversas Brasileiras | Level 2/5 | 2 achievements"
-    },
-    {
-      "id": "node_140",
-      "label": "Community",
-      "type": "Skill",
-      "size": 0.42,
-      "color": "#34d399",
-      "level": 1,
-      "category": "Facilitation & Community",
-      "evidence_count": 1,
-      "company": "Conversas Brasileiras",
-      "details": "Community @ Conversas Brasileiras | Level 1/5 | 1 achievements"
-    },
-    {
-      "id": "node_141",
-      "label": "Community Management",
-      "type": "Skill",
-      "size": 0.42,
-      "color": "#34d399",
-      "level": 1,
-      "category": "Facilitation & Community",
-      "evidence_count": 1,
-      "company": "Conversas Brasileiras",
-      "details": "Community Management @ Conversas Brasileiras | Level 1/5 | 1 achievements"
-    },
-    {
-      "id": "node_142",
-      "label": "Content Creation",
-      "type": "Skill",
-      "size": 0.42,
-      "color": "#34d399",
-      "level": 1,
-      "category": "Facilitation & Community",
-      "evidence_count": 1,
-      "company": "Conversas Brasileiras",
-      "details": "Content Creation @ Conversas Brasileiras | Level 1/5 | 1 achievements"
-    },
-    {
-      "id": "node_143",
-      "label": "Collective Intelligence",
-      "type": "Skill",
-      "size": 0.42,
-      "color": "#34d399",
-      "level": 1,
-      "category": "Facilitation & Community",
-      "evidence_count": 1,
-      "company": "Conversas Brasileiras",
-      "details": "Collective Intelligence @ Conversas Brasileiras | Level 1/5 | 1 achievements"
-    },
-    {
-      "id": "node_144",
-      "label": "Art Of Hosting",
-      "type": "Skill",
-      "size": 0.42,
-      "color": "#34d399",
-      "level": 1,
-      "category": "Facilitation & Community",
-      "evidence_count": 1,
-      "company": "Conversas Brasileiras",
-      "details": "Art Of Hosting @ Conversas Brasileiras | Level 1/5 | 1 achievements"
-    },
-    {
-      "id": "node_145",
-      "label": "Business Development",
-      "type": "Skill",
-      "size": 0.42,
-      "color": "#34d399",
-      "level": 1,
-      "category": "Facilitation & Community",
-      "evidence_count": 1,
-      "company": "Conversas Brasileiras",
-      "details": "Business Development @ Conversas Brasileiras | Level 1/5 | 1 achievements"
-    },
-    {
-      "id": "node_146",
-      "label": "Partnerships",
-      "type": "Skill",
-      "size": 0.42,
-      "color": "#34d399",
-      "level": 1,
-      "category": "Facilitation & Community",
-      "evidence_count": 1,
-      "company": "Conversas Brasileiras",
-      "details": "Partnerships @ Conversas Brasileiras | Level 1/5 | 1 achievements"
-    },
-    {
-      "id": "node_147",
-      "label": "B2B",
-      "type": "Skill",
-      "size": 0.42,
-      "color": "#34d399",
-      "level": 1,
-      "category": "Facilitation & Community",
-      "evidence_count": 1,
-      "company": "Conversas Brasileiras",
-      "details": "B2B @ Conversas Brasileiras | Level 1/5 | 1 achievements"
-    },
-    {
-      "id": "node_148",
-      "label": "Business Models",
-      "type": "Skill",
-      "size": 0.42,
-      "color": "#34d399",
-      "level": 1,
-      "category": "Facilitation & Community",
-      "evidence_count": 1,
-      "company": "Conversas Brasileiras",
-      "details": "Business Models @ Conversas Brasileiras | Level 1/5 | 1 achievements"
-    },
-    {
-      "id": "node_149",
-      "label": "Experimentation",
-      "type": "Skill",
-      "size": 0.42,
-      "color": "#34d399",
-      "level": 1,
-      "category": "Facilitation & Community",
-      "evidence_count": 1,
-      "company": "Conversas Brasileiras",
-      "details": "Experimentation @ Conversas Brasileiras | Level 1/5 | 1 achievements"
-    },
-    {
-      "id": "node_150",
-      "label": "Pricing",
-      "type": "Skill",
-      "size": 0.42,
-      "color": "#34d399",
-      "level": 1,
-      "category": "Facilitation & Community",
-      "evidence_count": 1,
-      "company": "Conversas Brasileiras",
-      "details": "Pricing @ Conversas Brasileiras | Level 1/5 | 1 achievements"
-    },
-    {
-      "id": "node_151",
-      "label": "Alvesa Transportes Logística Ltda.",
+      "id": "company-alvesa-transportes-log-stica-ltda",
       "type": "Company",
+      "labels": {
+        "pt": "Alvesa Transportes Logística Ltda.",
+        "en": "Alvesa Transportes Logística Ltda."
+      },
+      "location": {
+        "pt": "Curitiba, PR",
+        "en": "Curitiba, PR"
+      },
+      "dates": {
+        "pt": "Maio 2015 – Maio 2016",
+        "en": "May 2015 – May 2016"
+      },
       "size": 1.5,
       "color": "#60a5fa",
-      "glow": true,
-      "details": "Curitiba, PR",
-      "total_skills": 10,
-      "total_metrics": 0,
-      "total_bullets": 4
+      "glow": true
     },
     {
-      "id": "node_152",
-      "label": "Administrative Assistant",
+      "id": "role-alvesa-transportes-log-stica-ltda-1",
       "type": "Role",
-      "size": 0.6,
-      "color": "#a78bfa",
-      "details": "Alvesa Transportes Logística Ltda. | May 2015 – May 2016"
+      "labels": {
+        "pt": "Administrative Assistant",
+        "en": "Administrative Assistant"
+      },
+      "dates": {
+        "pt": "Maio 2015 – Maio 2016",
+        "en": "May 2015 – May 2016"
+      },
+      "company_id": "company-alvesa-transportes-log-stica-ltda",
+      "size": 0.72,
+      "color": "#a78bfa"
     },
     {
-      "id": "node_153",
-      "label": "Admin",
+      "id": "skill-ab-testing",
       "type": "Skill",
-      "size": 0.54,
-      "color": "#38bdf8",
-      "level": 2,
-      "category": "Leadership & Ops",
+      "labels": {
+        "pt": "Testes A/B",
+        "en": "A/B Testing"
+      },
+      "category": "growth",
+      "category_labels": {
+        "pt": "Growth e Marketing",
+        "en": "Growth & Marketing"
+      },
+      "companies": [
+        "company-ak-branding-web-design"
+      ],
+      "evidence_by_company": {
+        "company-ak-branding-web-design": 1
+      },
+      "evidence_count": 1,
+      "size": 0.58,
+      "color": "#00d4aa"
+    },
+    {
+      "id": "skill-acquisition",
+      "type": "Skill",
+      "labels": {
+        "pt": "Aquisição",
+        "en": "Acquisition"
+      },
+      "category": "growth",
+      "category_labels": {
+        "pt": "Growth e Marketing",
+        "en": "Growth & Marketing"
+      },
+      "companies": [
+        "company-munzner"
+      ],
+      "evidence_by_company": {
+        "company-munzner": 1
+      },
+      "evidence_count": 1,
+      "size": 0.58,
+      "color": "#00d4aa"
+    },
+    {
+      "id": "skill-admin",
+      "type": "Skill",
+      "labels": {
+        "pt": "Administração",
+        "en": "Administration"
+      },
+      "category": "operations",
+      "category_labels": {
+        "pt": "Liderança e Operações",
+        "en": "Leadership & Operations"
+      },
+      "companies": [
+        "company-alvesa-transportes-log-stica-ltda"
+      ],
+      "evidence_by_company": {
+        "company-alvesa-transportes-log-stica-ltda": 2
+      },
       "evidence_count": 2,
-      "company": "Alvesa Transportes Logística Ltda.",
-      "details": "Admin @ Alvesa Transportes Logística Ltda. | Level 2/5 | 2 achievements"
+      "size": 0.66,
+      "color": "#38bdf8"
     },
     {
-      "id": "node_154",
-      "label": "Finance",
+      "id": "skill-ads",
       "type": "Skill",
-      "size": 0.42,
-      "color": "#38bdf8",
-      "level": 1,
-      "category": "Leadership & Ops",
+      "labels": {
+        "pt": "Anúncios",
+        "en": "Ads"
+      },
+      "category": "growth",
+      "category_labels": {
+        "pt": "Growth e Marketing",
+        "en": "Growth & Marketing"
+      },
+      "companies": [
+        "company-wipro"
+      ],
+      "evidence_by_company": {
+        "company-wipro": 1
+      },
       "evidence_count": 1,
-      "company": "Alvesa Transportes Logística Ltda.",
-      "details": "Finance @ Alvesa Transportes Logística Ltda. | Level 1/5 | 1 achievements"
+      "size": 0.58,
+      "color": "#00d4aa"
     },
     {
-      "id": "node_155",
-      "label": "Ops",
+      "id": "skill-agency-management",
       "type": "Skill",
-      "size": 0.42,
-      "color": "#38bdf8",
-      "level": 1,
-      "category": "Leadership & Ops",
+      "labels": {
+        "pt": "Gestão de Agência",
+        "en": "Agency Management"
+      },
+      "category": "growth",
+      "category_labels": {
+        "pt": "Growth e Marketing",
+        "en": "Growth & Marketing"
+      },
+      "companies": [
+        "company-ak-branding-web-design"
+      ],
+      "evidence_by_company": {
+        "company-ak-branding-web-design": 1
+      },
       "evidence_count": 1,
-      "company": "Alvesa Transportes Logística Ltda.",
-      "details": "Ops @ Alvesa Transportes Logística Ltda. | Level 1/5 | 1 achievements"
+      "size": 0.58,
+      "color": "#00d4aa"
     },
     {
-      "id": "node_156",
-      "label": "Logistics",
+      "id": "skill-agile",
       "type": "Skill",
-      "size": 0.42,
-      "color": "#38bdf8",
-      "level": 1,
-      "category": "Leadership & Ops",
+      "labels": {
+        "pt": "Métodos Ágeis",
+        "en": "Agile"
+      },
+      "category": "operations",
+      "category_labels": {
+        "pt": "Liderança e Operações",
+        "en": "Leadership & Operations"
+      },
+      "companies": [
+        "company-wipro"
+      ],
+      "evidence_by_company": {
+        "company-wipro": 1
+      },
       "evidence_count": 1,
-      "company": "Alvesa Transportes Logística Ltda.",
-      "details": "Logistics @ Alvesa Transportes Logística Ltda. | Level 1/5 | 1 achievements"
+      "size": 0.58,
+      "color": "#38bdf8"
     },
     {
-      "id": "node_157",
-      "label": "Coordination",
+      "id": "skill-ai",
       "type": "Skill",
-      "size": 0.42,
-      "color": "#38bdf8",
-      "level": 1,
-      "category": "Leadership & Ops",
-      "evidence_count": 1,
-      "company": "Alvesa Transportes Logística Ltda.",
-      "details": "Coordination @ Alvesa Transportes Logística Ltda. | Level 1/5 | 1 achievements"
+      "labels": {
+        "pt": "Inteligência Artificial",
+        "en": "Artificial Intelligence"
+      },
+      "category": "ai",
+      "category_labels": {
+        "pt": "IA e Automação",
+        "en": "AI & Automation"
+      },
+      "companies": [
+        "company-meu-barzin-startup",
+        "company-wipro"
+      ],
+      "evidence_by_company": {
+        "company-meu-barzin-startup": 1,
+        "company-wipro": 1
+      },
+      "evidence_count": 2,
+      "size": 0.66,
+      "color": "#a855f7"
     },
     {
-      "id": "node_158",
-      "label": "Tracking",
+      "id": "skill-ai-implementation",
       "type": "Skill",
-      "size": 0.42,
-      "color": "#38bdf8",
-      "level": 1,
-      "category": "Leadership & Ops",
+      "labels": {
+        "pt": "Implementação de IA",
+        "en": "Ai Implementation"
+      },
+      "category": "ai",
+      "category_labels": {
+        "pt": "IA e Automação",
+        "en": "AI & Automation"
+      },
+      "companies": [
+        "company-wipro"
+      ],
+      "evidence_by_company": {
+        "company-wipro": 1
+      },
       "evidence_count": 1,
-      "company": "Alvesa Transportes Logística Ltda.",
-      "details": "Tracking @ Alvesa Transportes Logística Ltda. | Level 1/5 | 1 achievements"
+      "size": 0.58,
+      "color": "#a855f7"
     },
     {
-      "id": "node_159",
-      "label": "Marketing",
+      "id": "skill-analytics",
       "type": "Skill",
-      "size": 0.42,
-      "color": "#38bdf8",
-      "level": 1,
-      "category": "Leadership & Ops",
+      "labels": {
+        "pt": "Análise de Dados",
+        "en": "Analytics"
+      },
+      "category": "data",
+      "category_labels": {
+        "pt": "Dados e Analytics",
+        "en": "Data & Analytics"
+      },
+      "companies": [
+        "company-wipro"
+      ],
+      "evidence_by_company": {
+        "company-wipro": 1
+      },
       "evidence_count": 1,
-      "company": "Alvesa Transportes Logística Ltda.",
-      "details": "Marketing @ Alvesa Transportes Logística Ltda. | Level 1/5 | 1 achievements"
+      "size": 0.58,
+      "color": "#ff8c42"
     },
     {
-      "id": "node_160",
-      "label": "Social Media",
+      "id": "skill-art-of-hosting",
       "type": "Skill",
-      "size": 0.42,
-      "color": "#38bdf8",
-      "level": 1,
-      "category": "Leadership & Ops",
+      "labels": {
+        "pt": "Art of Hosting",
+        "en": "Art Of Hosting"
+      },
+      "category": "facilitation",
+      "category_labels": {
+        "pt": "Facilitação e Comunidade",
+        "en": "Facilitation & Community"
+      },
+      "companies": [
+        "company-conversas-brasileiras"
+      ],
+      "evidence_by_company": {
+        "company-conversas-brasileiras": 1
+      },
       "evidence_count": 1,
-      "company": "Alvesa Transportes Logística Ltda.",
-      "details": "Social Media @ Alvesa Transportes Logística Ltda. | Level 1/5 | 1 achievements"
+      "size": 0.58,
+      "color": "#34d399"
     },
     {
-      "id": "node_161",
-      "label": "Support",
+      "id": "skill-automation",
       "type": "Skill",
-      "size": 0.42,
-      "color": "#38bdf8",
-      "level": 1,
-      "category": "Leadership & Ops",
-      "evidence_count": 1,
-      "company": "Alvesa Transportes Logística Ltda.",
-      "details": "Support @ Alvesa Transportes Logística Ltda. | Level 1/5 | 1 achievements"
+      "labels": {
+        "pt": "Automação",
+        "en": "Automation"
+      },
+      "category": "ai",
+      "category_labels": {
+        "pt": "IA e Automação",
+        "en": "AI & Automation"
+      },
+      "companies": [
+        "company-meu-barzin-startup",
+        "company-munzner"
+      ],
+      "evidence_by_company": {
+        "company-meu-barzin-startup": 1,
+        "company-munzner": 1
+      },
+      "evidence_count": 2,
+      "size": 0.66,
+      "color": "#a855f7"
     },
     {
-      "id": "node_162",
-      "label": "Recruitment",
+      "id": "skill-b2b",
       "type": "Skill",
-      "size": 0.42,
-      "color": "#38bdf8",
-      "level": 1,
-      "category": "Leadership & Ops",
+      "labels": {
+        "pt": "B2B",
+        "en": "B2B"
+      },
+      "category": "sales",
+      "category_labels": {
+        "pt": "Vendas e Enablement",
+        "en": "Sales & Enablement"
+      },
+      "companies": [
+        "company-conversas-brasileiras",
+        "company-meu-barzin-startup"
+      ],
+      "evidence_by_company": {
+        "company-conversas-brasileiras": 1,
+        "company-meu-barzin-startup": 1
+      },
+      "evidence_count": 2,
+      "size": 0.66,
+      "color": "#ef4444"
+    },
+    {
+      "id": "skill-backlog",
+      "type": "Skill",
+      "labels": {
+        "pt": "Backlog",
+        "en": "Backlog"
+      },
+      "category": "operations",
+      "category_labels": {
+        "pt": "Liderança e Operações",
+        "en": "Leadership & Operations"
+      },
+      "companies": [
+        "company-wipro"
+      ],
+      "evidence_by_company": {
+        "company-wipro": 1
+      },
       "evidence_count": 1,
-      "company": "Alvesa Transportes Logística Ltda.",
-      "details": "Recruitment @ Alvesa Transportes Logística Ltda. | Level 1/5 | 1 achievements"
+      "size": 0.58,
+      "color": "#38bdf8"
+    },
+    {
+      "id": "skill-bcp",
+      "type": "Skill",
+      "labels": {
+        "pt": "Plano de Continuidade de Negócios",
+        "en": "Business Continuity Planning"
+      },
+      "category": "quality",
+      "category_labels": {
+        "pt": "Qualidade e Governança",
+        "en": "Quality & Governance"
+      },
+      "companies": [
+        "company-wipro"
+      ],
+      "evidence_by_company": {
+        "company-wipro": 1
+      },
+      "evidence_count": 1,
+      "size": 0.58,
+      "color": "#f472b6"
+    },
+    {
+      "id": "skill-bootcamp",
+      "type": "Skill",
+      "labels": {
+        "pt": "Bootcamp",
+        "en": "Bootcamp"
+      },
+      "category": "operations",
+      "category_labels": {
+        "pt": "Liderança e Operações",
+        "en": "Leadership & Operations"
+      },
+      "companies": [
+        "company-wipro"
+      ],
+      "evidence_by_company": {
+        "company-wipro": 1
+      },
+      "evidence_count": 1,
+      "size": 0.58,
+      "color": "#38bdf8"
+    },
+    {
+      "id": "skill-branding",
+      "type": "Skill",
+      "labels": {
+        "pt": "Branding",
+        "en": "Branding"
+      },
+      "category": "growth",
+      "category_labels": {
+        "pt": "Growth e Marketing",
+        "en": "Growth & Marketing"
+      },
+      "companies": [
+        "company-ak-branding-web-design"
+      ],
+      "evidence_by_company": {
+        "company-ak-branding-web-design": 1
+      },
+      "evidence_count": 1,
+      "size": 0.58,
+      "color": "#00d4aa"
+    },
+    {
+      "id": "skill-budget",
+      "type": "Skill",
+      "labels": {
+        "pt": "Orçamento",
+        "en": "Budget"
+      },
+      "category": "operations",
+      "category_labels": {
+        "pt": "Liderança e Operações",
+        "en": "Leadership & Operations"
+      },
+      "companies": [
+        "company-ak-branding-web-design"
+      ],
+      "evidence_by_company": {
+        "company-ak-branding-web-design": 1
+      },
+      "evidence_count": 1,
+      "size": 0.58,
+      "color": "#38bdf8"
+    },
+    {
+      "id": "skill-business-development",
+      "type": "Skill",
+      "labels": {
+        "pt": "Desenvolvimento de Negócios",
+        "en": "Business Development"
+      },
+      "category": "sales",
+      "category_labels": {
+        "pt": "Vendas e Enablement",
+        "en": "Sales & Enablement"
+      },
+      "companies": [
+        "company-conversas-brasileiras",
+        "company-meu-barzin-startup"
+      ],
+      "evidence_by_company": {
+        "company-conversas-brasileiras": 1,
+        "company-meu-barzin-startup": 1
+      },
+      "evidence_count": 2,
+      "size": 0.66,
+      "color": "#ef4444"
+    },
+    {
+      "id": "skill-business-model",
+      "type": "Skill",
+      "labels": {
+        "pt": "Modelo de Negócio",
+        "en": "Business Model"
+      },
+      "category": "product",
+      "category_labels": {
+        "pt": "Produto e Estratégia",
+        "en": "Product & Strategy"
+      },
+      "companies": [
+        "company-meu-barzin-startup"
+      ],
+      "evidence_by_company": {
+        "company-meu-barzin-startup": 1
+      },
+      "evidence_count": 1,
+      "size": 0.58,
+      "color": "#4a9eff"
+    },
+    {
+      "id": "skill-business-models",
+      "type": "Skill",
+      "labels": {
+        "pt": "Modelos de Negócio",
+        "en": "Business Models"
+      },
+      "category": "product",
+      "category_labels": {
+        "pt": "Produto e Estratégia",
+        "en": "Product & Strategy"
+      },
+      "companies": [
+        "company-conversas-brasileiras"
+      ],
+      "evidence_by_company": {
+        "company-conversas-brasileiras": 1
+      },
+      "evidence_count": 1,
+      "size": 0.58,
+      "color": "#4a9eff"
+    },
+    {
+      "id": "skill-chatbots",
+      "type": "Skill",
+      "labels": {
+        "pt": "Chatbots",
+        "en": "Chatbots"
+      },
+      "category": "ai",
+      "category_labels": {
+        "pt": "IA e Automação",
+        "en": "AI & Automation"
+      },
+      "companies": [
+        "company-ak-branding-web-design"
+      ],
+      "evidence_by_company": {
+        "company-ak-branding-web-design": 1
+      },
+      "evidence_count": 1,
+      "size": 0.58,
+      "color": "#a855f7"
+    },
+    {
+      "id": "skill-coaching",
+      "type": "Skill",
+      "labels": {
+        "pt": "Coaching",
+        "en": "Coaching"
+      },
+      "category": "sales",
+      "category_labels": {
+        "pt": "Vendas e Enablement",
+        "en": "Sales & Enablement"
+      },
+      "companies": [
+        "company-wipro"
+      ],
+      "evidence_by_company": {
+        "company-wipro": 1
+      },
+      "evidence_count": 1,
+      "size": 0.58,
+      "color": "#ef4444"
+    },
+    {
+      "id": "skill-collaboration",
+      "type": "Skill",
+      "labels": {
+        "pt": "Colaboração",
+        "en": "Collaboration"
+      },
+      "category": "operations",
+      "category_labels": {
+        "pt": "Liderança e Operações",
+        "en": "Leadership & Operations"
+      },
+      "companies": [
+        "company-wipro"
+      ],
+      "evidence_by_company": {
+        "company-wipro": 1
+      },
+      "evidence_count": 1,
+      "size": 0.58,
+      "color": "#38bdf8"
+    },
+    {
+      "id": "skill-collective-intelligence",
+      "type": "Skill",
+      "labels": {
+        "pt": "Inteligência Coletiva",
+        "en": "Collective Intelligence"
+      },
+      "category": "facilitation",
+      "category_labels": {
+        "pt": "Facilitação e Comunidade",
+        "en": "Facilitation & Community"
+      },
+      "companies": [
+        "company-conversas-brasileiras"
+      ],
+      "evidence_by_company": {
+        "company-conversas-brasileiras": 1
+      },
+      "evidence_count": 1,
+      "size": 0.58,
+      "color": "#34d399"
+    },
+    {
+      "id": "skill-community",
+      "type": "Skill",
+      "labels": {
+        "pt": "Comunidade",
+        "en": "Community"
+      },
+      "category": "facilitation",
+      "category_labels": {
+        "pt": "Facilitação e Comunidade",
+        "en": "Facilitation & Community"
+      },
+      "companies": [
+        "company-conversas-brasileiras"
+      ],
+      "evidence_by_company": {
+        "company-conversas-brasileiras": 1
+      },
+      "evidence_count": 1,
+      "size": 0.58,
+      "color": "#34d399"
+    },
+    {
+      "id": "skill-community-management",
+      "type": "Skill",
+      "labels": {
+        "pt": "Gestão de Comunidade",
+        "en": "Community Management"
+      },
+      "category": "facilitation",
+      "category_labels": {
+        "pt": "Facilitação e Comunidade",
+        "en": "Facilitation & Community"
+      },
+      "companies": [
+        "company-conversas-brasileiras"
+      ],
+      "evidence_by_company": {
+        "company-conversas-brasileiras": 1
+      },
+      "evidence_count": 1,
+      "size": 0.58,
+      "color": "#34d399"
+    },
+    {
+      "id": "skill-compliance",
+      "type": "Skill",
+      "labels": {
+        "pt": "Compliance",
+        "en": "Compliance"
+      },
+      "category": "quality",
+      "category_labels": {
+        "pt": "Qualidade e Governança",
+        "en": "Quality & Governance"
+      },
+      "companies": [
+        "company-wipro"
+      ],
+      "evidence_by_company": {
+        "company-wipro": 1
+      },
+      "evidence_count": 1,
+      "size": 0.58,
+      "color": "#f472b6"
+    },
+    {
+      "id": "skill-content-creation",
+      "type": "Skill",
+      "labels": {
+        "pt": "Criação de Conteúdo",
+        "en": "Content Creation"
+      },
+      "category": "growth",
+      "category_labels": {
+        "pt": "Growth e Marketing",
+        "en": "Growth & Marketing"
+      },
+      "companies": [
+        "company-conversas-brasileiras"
+      ],
+      "evidence_by_company": {
+        "company-conversas-brasileiras": 1
+      },
+      "evidence_count": 1,
+      "size": 0.58,
+      "color": "#00d4aa"
+    },
+    {
+      "id": "skill-content-marketing",
+      "type": "Skill",
+      "labels": {
+        "pt": "Marketing de Conteúdo",
+        "en": "Content Marketing"
+      },
+      "category": "growth",
+      "category_labels": {
+        "pt": "Growth e Marketing",
+        "en": "Growth & Marketing"
+      },
+      "companies": [
+        "company-munzner"
+      ],
+      "evidence_by_company": {
+        "company-munzner": 1
+      },
+      "evidence_count": 1,
+      "size": 0.58,
+      "color": "#00d4aa"
+    },
+    {
+      "id": "skill-controls",
+      "type": "Skill",
+      "labels": {
+        "pt": "Controles",
+        "en": "Controls"
+      },
+      "category": "operations",
+      "category_labels": {
+        "pt": "Liderança e Operações",
+        "en": "Leadership & Operations"
+      },
+      "companies": [
+        "company-ak-branding-web-design"
+      ],
+      "evidence_by_company": {
+        "company-ak-branding-web-design": 1
+      },
+      "evidence_count": 1,
+      "size": 0.58,
+      "color": "#38bdf8"
+    },
+    {
+      "id": "skill-coordination",
+      "type": "Skill",
+      "labels": {
+        "pt": "Coordenação",
+        "en": "Coordination"
+      },
+      "category": "operations",
+      "category_labels": {
+        "pt": "Liderança e Operações",
+        "en": "Leadership & Operations"
+      },
+      "companies": [
+        "company-alvesa-transportes-log-stica-ltda"
+      ],
+      "evidence_by_company": {
+        "company-alvesa-transportes-log-stica-ltda": 1
+      },
+      "evidence_count": 1,
+      "size": 0.58,
+      "color": "#38bdf8"
+    },
+    {
+      "id": "skill-copywriting",
+      "type": "Skill",
+      "labels": {
+        "pt": "Copywriting",
+        "en": "Copywriting"
+      },
+      "category": "growth",
+      "category_labels": {
+        "pt": "Growth e Marketing",
+        "en": "Growth & Marketing"
+      },
+      "companies": [
+        "company-munzner"
+      ],
+      "evidence_by_company": {
+        "company-munzner": 1
+      },
+      "evidence_count": 1,
+      "size": 0.58,
+      "color": "#00d4aa"
+    },
+    {
+      "id": "skill-crm",
+      "type": "Skill",
+      "labels": {
+        "pt": "CRM",
+        "en": "CRM"
+      },
+      "category": "sales",
+      "category_labels": {
+        "pt": "Vendas e Enablement",
+        "en": "Sales & Enablement"
+      },
+      "companies": [
+        "company-meu-barzin-startup",
+        "company-munzner",
+        "company-wipro"
+      ],
+      "evidence_by_company": {
+        "company-meu-barzin-startup": 1,
+        "company-munzner": 2,
+        "company-wipro": 1
+      },
+      "evidence_count": 4,
+      "size": 0.8200000000000001,
+      "color": "#ef4444"
+    },
+    {
+      "id": "skill-crm-enablement",
+      "type": "Skill",
+      "labels": {
+        "pt": "Capacitação em CRM",
+        "en": "Crm Enablement"
+      },
+      "category": "sales",
+      "category_labels": {
+        "pt": "Vendas e Enablement",
+        "en": "Sales & Enablement"
+      },
+      "companies": [
+        "company-wipro"
+      ],
+      "evidence_by_company": {
+        "company-wipro": 1
+      },
+      "evidence_count": 1,
+      "size": 0.58,
+      "color": "#ef4444"
+    },
+    {
+      "id": "skill-cro",
+      "type": "Skill",
+      "labels": {
+        "pt": "Otimização de Conversão",
+        "en": "Conversion Optimization"
+      },
+      "category": "growth",
+      "category_labels": {
+        "pt": "Growth e Marketing",
+        "en": "Growth & Marketing"
+      },
+      "companies": [
+        "company-ak-branding-web-design",
+        "company-meu-barzin-startup"
+      ],
+      "evidence_by_company": {
+        "company-ak-branding-web-design": 1,
+        "company-meu-barzin-startup": 1
+      },
+      "evidence_count": 2,
+      "size": 0.66,
+      "color": "#00d4aa"
+    },
+    {
+      "id": "skill-cross-functional",
+      "type": "Skill",
+      "labels": {
+        "pt": "Colaboração Interfuncional",
+        "en": "Cross Functional"
+      },
+      "category": "operations",
+      "category_labels": {
+        "pt": "Liderança e Operações",
+        "en": "Leadership & Operations"
+      },
+      "companies": [
+        "company-wipro"
+      ],
+      "evidence_by_company": {
+        "company-wipro": 1
+      },
+      "evidence_count": 1,
+      "size": 0.58,
+      "color": "#38bdf8"
+    },
+    {
+      "id": "skill-data",
+      "type": "Skill",
+      "labels": {
+        "pt": "Dados",
+        "en": "Data"
+      },
+      "category": "data",
+      "category_labels": {
+        "pt": "Dados e Analytics",
+        "en": "Data & Analytics"
+      },
+      "companies": [
+        "company-wipro"
+      ],
+      "evidence_by_company": {
+        "company-wipro": 1
+      },
+      "evidence_count": 1,
+      "size": 0.58,
+      "color": "#ff8c42"
+    },
+    {
+      "id": "skill-data-strategy",
+      "type": "Skill",
+      "labels": {
+        "pt": "Estratégia de Dados",
+        "en": "Data Strategy"
+      },
+      "category": "data",
+      "category_labels": {
+        "pt": "Dados e Analytics",
+        "en": "Data & Analytics"
+      },
+      "companies": [
+        "company-meu-barzin-startup"
+      ],
+      "evidence_by_company": {
+        "company-meu-barzin-startup": 1
+      },
+      "evidence_count": 1,
+      "size": 0.58,
+      "color": "#ff8c42"
+    },
+    {
+      "id": "skill-discovery",
+      "type": "Skill",
+      "labels": {
+        "pt": "Discovery",
+        "en": "Discovery"
+      },
+      "category": "product",
+      "category_labels": {
+        "pt": "Produto e Estratégia",
+        "en": "Product & Strategy"
+      },
+      "companies": [
+        "company-meu-barzin-startup"
+      ],
+      "evidence_by_company": {
+        "company-meu-barzin-startup": 1
+      },
+      "evidence_count": 1,
+      "size": 0.58,
+      "color": "#4a9eff"
+    },
+    {
+      "id": "skill-documentation",
+      "type": "Skill",
+      "labels": {
+        "pt": "Documentação",
+        "en": "Documentation"
+      },
+      "category": "quality",
+      "category_labels": {
+        "pt": "Qualidade e Governança",
+        "en": "Quality & Governance"
+      },
+      "companies": [
+        "company-wipro"
+      ],
+      "evidence_by_company": {
+        "company-wipro": 1
+      },
+      "evidence_count": 1,
+      "size": 0.58,
+      "color": "#f472b6"
+    },
+    {
+      "id": "skill-e-commerce",
+      "type": "Skill",
+      "labels": {
+        "pt": "E-commerce",
+        "en": "E-commerce"
+      },
+      "category": "product",
+      "category_labels": {
+        "pt": "Produto e Estratégia",
+        "en": "Product & Strategy"
+      },
+      "companies": [
+        "company-ak-branding-web-design"
+      ],
+      "evidence_by_company": {
+        "company-ak-branding-web-design": 1
+      },
+      "evidence_count": 1,
+      "size": 0.58,
+      "color": "#4a9eff"
+    },
+    {
+      "id": "skill-e-learning",
+      "type": "Skill",
+      "labels": {
+        "pt": "Educação Digital",
+        "en": "E-learning"
+      },
+      "category": "operations",
+      "category_labels": {
+        "pt": "Liderança e Operações",
+        "en": "Leadership & Operations"
+      },
+      "companies": [
+        "company-munzner"
+      ],
+      "evidence_by_company": {
+        "company-munzner": 1
+      },
+      "evidence_count": 1,
+      "size": 0.58,
+      "color": "#38bdf8"
+    },
+    {
+      "id": "skill-email-marketing",
+      "type": "Skill",
+      "labels": {
+        "pt": "E-mail Marketing",
+        "en": "Email Marketing"
+      },
+      "category": "growth",
+      "category_labels": {
+        "pt": "Growth e Marketing",
+        "en": "Growth & Marketing"
+      },
+      "companies": [
+        "company-munzner"
+      ],
+      "evidence_by_company": {
+        "company-munzner": 1
+      },
+      "evidence_count": 1,
+      "size": 0.58,
+      "color": "#00d4aa"
+    },
+    {
+      "id": "skill-experimentation",
+      "type": "Skill",
+      "labels": {
+        "pt": "Experimentação",
+        "en": "Experimentation"
+      },
+      "category": "product",
+      "category_labels": {
+        "pt": "Produto e Estratégia",
+        "en": "Product & Strategy"
+      },
+      "companies": [
+        "company-conversas-brasileiras"
+      ],
+      "evidence_by_company": {
+        "company-conversas-brasileiras": 1
+      },
+      "evidence_count": 1,
+      "size": 0.58,
+      "color": "#4a9eff"
+    },
+    {
+      "id": "skill-facilitation",
+      "type": "Skill",
+      "labels": {
+        "pt": "Facilitação",
+        "en": "Facilitation"
+      },
+      "category": "facilitation",
+      "category_labels": {
+        "pt": "Facilitação e Comunidade",
+        "en": "Facilitation & Community"
+      },
+      "companies": [
+        "company-conversas-brasileiras"
+      ],
+      "evidence_by_company": {
+        "company-conversas-brasileiras": 2
+      },
+      "evidence_count": 2,
+      "size": 0.66,
+      "color": "#34d399"
+    },
+    {
+      "id": "skill-finance",
+      "type": "Skill",
+      "labels": {
+        "pt": "Finanças",
+        "en": "Finance"
+      },
+      "category": "operations",
+      "category_labels": {
+        "pt": "Liderança e Operações",
+        "en": "Leadership & Operations"
+      },
+      "companies": [
+        "company-alvesa-transportes-log-stica-ltda"
+      ],
+      "evidence_by_company": {
+        "company-alvesa-transportes-log-stica-ltda": 1
+      },
+      "evidence_count": 1,
+      "size": 0.58,
+      "color": "#38bdf8"
+    },
+    {
+      "id": "skill-funnel",
+      "type": "Skill",
+      "labels": {
+        "pt": "Funil",
+        "en": "Funnel"
+      },
+      "category": "growth",
+      "category_labels": {
+        "pt": "Growth e Marketing",
+        "en": "Growth & Marketing"
+      },
+      "companies": [
+        "company-meu-barzin-startup"
+      ],
+      "evidence_by_company": {
+        "company-meu-barzin-startup": 1
+      },
+      "evidence_count": 1,
+      "size": 0.58,
+      "color": "#00d4aa"
+    },
+    {
+      "id": "skill-governance",
+      "type": "Skill",
+      "labels": {
+        "pt": "Governança",
+        "en": "Governance"
+      },
+      "category": "quality",
+      "category_labels": {
+        "pt": "Qualidade e Governança",
+        "en": "Quality & Governance"
+      },
+      "companies": [
+        "company-wipro"
+      ],
+      "evidence_by_company": {
+        "company-wipro": 1
+      },
+      "evidence_count": 1,
+      "size": 0.58,
+      "color": "#f472b6"
+    },
+    {
+      "id": "skill-growth",
+      "type": "Skill",
+      "labels": {
+        "pt": "Growth",
+        "en": "Growth"
+      },
+      "category": "growth",
+      "category_labels": {
+        "pt": "Growth e Marketing",
+        "en": "Growth & Marketing"
+      },
+      "companies": [
+        "company-ak-branding-web-design",
+        "company-meu-barzin-startup"
+      ],
+      "evidence_by_company": {
+        "company-ak-branding-web-design": 1,
+        "company-meu-barzin-startup": 1
+      },
+      "evidence_count": 2,
+      "size": 0.66,
+      "color": "#00d4aa"
+    },
+    {
+      "id": "skill-high-ticket",
+      "type": "Skill",
+      "labels": {
+        "pt": "High Ticket",
+        "en": "High Ticket"
+      },
+      "category": "sales",
+      "category_labels": {
+        "pt": "Vendas e Enablement",
+        "en": "Sales & Enablement"
+      },
+      "companies": [
+        "company-munzner"
+      ],
+      "evidence_by_company": {
+        "company-munzner": 1
+      },
+      "evidence_count": 1,
+      "size": 0.58,
+      "color": "#ef4444"
+    },
+    {
+      "id": "skill-inbound",
+      "type": "Skill",
+      "labels": {
+        "pt": "Inbound Marketing",
+        "en": "Inbound"
+      },
+      "category": "growth",
+      "category_labels": {
+        "pt": "Growth e Marketing",
+        "en": "Growth & Marketing"
+      },
+      "companies": [
+        "company-munzner"
+      ],
+      "evidence_by_company": {
+        "company-munzner": 1
+      },
+      "evidence_count": 1,
+      "size": 0.58,
+      "color": "#00d4aa"
+    },
+    {
+      "id": "skill-infoproduct",
+      "type": "Skill",
+      "labels": {
+        "pt": "Infoproduto",
+        "en": "Infoproduct"
+      },
+      "category": "growth",
+      "category_labels": {
+        "pt": "Growth e Marketing",
+        "en": "Growth & Marketing"
+      },
+      "companies": [
+        "company-munzner"
+      ],
+      "evidence_by_company": {
+        "company-munzner": 1
+      },
+      "evidence_count": 1,
+      "size": 0.58,
+      "color": "#00d4aa"
+    },
+    {
+      "id": "skill-lead-generation",
+      "type": "Skill",
+      "labels": {
+        "pt": "Geração de Leads",
+        "en": "Lead Generation"
+      },
+      "category": "growth",
+      "category_labels": {
+        "pt": "Growth e Marketing",
+        "en": "Growth & Marketing"
+      },
+      "companies": [
+        "company-ak-branding-web-design"
+      ],
+      "evidence_by_company": {
+        "company-ak-branding-web-design": 1
+      },
+      "evidence_count": 1,
+      "size": 0.58,
+      "color": "#00d4aa"
+    },
+    {
+      "id": "skill-leadership",
+      "type": "Skill",
+      "labels": {
+        "pt": "Liderança",
+        "en": "Leadership"
+      },
+      "category": "operations",
+      "category_labels": {
+        "pt": "Liderança e Operações",
+        "en": "Leadership & Operations"
+      },
+      "companies": [
+        "company-wipro"
+      ],
+      "evidence_by_company": {
+        "company-wipro": 1
+      },
+      "evidence_count": 1,
+      "size": 0.58,
+      "color": "#38bdf8"
+    },
+    {
+      "id": "skill-learning",
+      "type": "Skill",
+      "labels": {
+        "pt": "Aprendizado",
+        "en": "Learning"
+      },
+      "category": "product",
+      "category_labels": {
+        "pt": "Produto e Estratégia",
+        "en": "Product & Strategy"
+      },
+      "companies": [
+        "company-meu-barzin-startup"
+      ],
+      "evidence_by_company": {
+        "company-meu-barzin-startup": 1
+      },
+      "evidence_count": 1,
+      "size": 0.58,
+      "color": "#4a9eff"
+    },
+    {
+      "id": "skill-lgpd",
+      "type": "Skill",
+      "labels": {
+        "pt": "LGPD",
+        "en": "LGPD"
+      },
+      "category": "quality",
+      "category_labels": {
+        "pt": "Qualidade e Governança",
+        "en": "Quality & Governance"
+      },
+      "companies": [
+        "company-ak-branding-web-design"
+      ],
+      "evidence_by_company": {
+        "company-ak-branding-web-design": 1
+      },
+      "evidence_count": 1,
+      "size": 0.58,
+      "color": "#f472b6"
+    },
+    {
+      "id": "skill-logistics",
+      "type": "Skill",
+      "labels": {
+        "pt": "Logística",
+        "en": "Logistics"
+      },
+      "category": "operations",
+      "category_labels": {
+        "pt": "Liderança e Operações",
+        "en": "Leadership & Operations"
+      },
+      "companies": [
+        "company-alvesa-transportes-log-stica-ltda"
+      ],
+      "evidence_by_company": {
+        "company-alvesa-transportes-log-stica-ltda": 1
+      },
+      "evidence_count": 1,
+      "size": 0.58,
+      "color": "#38bdf8"
+    },
+    {
+      "id": "skill-marketing",
+      "type": "Skill",
+      "labels": {
+        "pt": "Marketing",
+        "en": "Marketing"
+      },
+      "category": "growth",
+      "category_labels": {
+        "pt": "Growth e Marketing",
+        "en": "Growth & Marketing"
+      },
+      "companies": [
+        "company-alvesa-transportes-log-stica-ltda",
+        "company-wipro"
+      ],
+      "evidence_by_company": {
+        "company-alvesa-transportes-log-stica-ltda": 1,
+        "company-wipro": 2
+      },
+      "evidence_count": 3,
+      "size": 0.74,
+      "color": "#00d4aa"
+    },
+    {
+      "id": "skill-methodology",
+      "type": "Skill",
+      "labels": {
+        "pt": "Metodologia",
+        "en": "Methodology"
+      },
+      "category": "sales",
+      "category_labels": {
+        "pt": "Vendas e Enablement",
+        "en": "Sales & Enablement"
+      },
+      "companies": [
+        "company-wipro"
+      ],
+      "evidence_by_company": {
+        "company-wipro": 1
+      },
+      "evidence_count": 1,
+      "size": 0.58,
+      "color": "#ef4444"
+    },
+    {
+      "id": "skill-metrics",
+      "type": "Skill",
+      "labels": {
+        "pt": "Métricas",
+        "en": "Metrics"
+      },
+      "category": "data",
+      "category_labels": {
+        "pt": "Dados e Analytics",
+        "en": "Data & Analytics"
+      },
+      "companies": [
+        "company-meu-barzin-startup"
+      ],
+      "evidence_by_company": {
+        "company-meu-barzin-startup": 1
+      },
+      "evidence_count": 1,
+      "size": 0.58,
+      "color": "#ff8c42"
+    },
+    {
+      "id": "skill-monetization",
+      "type": "Skill",
+      "labels": {
+        "pt": "Monetização",
+        "en": "Monetization"
+      },
+      "category": "product",
+      "category_labels": {
+        "pt": "Produto e Estratégia",
+        "en": "Product & Strategy"
+      },
+      "companies": [
+        "company-ak-branding-web-design",
+        "company-meu-barzin-startup",
+        "company-munzner"
+      ],
+      "evidence_by_company": {
+        "company-ak-branding-web-design": 1,
+        "company-meu-barzin-startup": 1,
+        "company-munzner": 1
+      },
+      "evidence_count": 3,
+      "size": 0.74,
+      "color": "#4a9eff"
+    },
+    {
+      "id": "skill-narratives",
+      "type": "Skill",
+      "labels": {
+        "pt": "Narrativas",
+        "en": "Narratives"
+      },
+      "category": "growth",
+      "category_labels": {
+        "pt": "Growth e Marketing",
+        "en": "Growth & Marketing"
+      },
+      "companies": [
+        "company-munzner"
+      ],
+      "evidence_by_company": {
+        "company-munzner": 1
+      },
+      "evidence_count": 1,
+      "size": 0.58,
+      "color": "#00d4aa"
+    },
+    {
+      "id": "skill-nocodb",
+      "type": "Skill",
+      "labels": {
+        "pt": "NocoDB",
+        "en": "NocoDB"
+      },
+      "category": "data",
+      "category_labels": {
+        "pt": "Dados e Analytics",
+        "en": "Data & Analytics"
+      },
+      "companies": [
+        "company-meu-barzin-startup"
+      ],
+      "evidence_by_company": {
+        "company-meu-barzin-startup": 1
+      },
+      "evidence_count": 1,
+      "size": 0.58,
+      "color": "#ff8c42"
+    },
+    {
+      "id": "skill-okr",
+      "type": "Skill",
+      "labels": {
+        "pt": "OKRs",
+        "en": "OKRs"
+      },
+      "category": "operations",
+      "category_labels": {
+        "pt": "Liderança e Operações",
+        "en": "Leadership & Operations"
+      },
+      "companies": [
+        "company-wipro"
+      ],
+      "evidence_by_company": {
+        "company-wipro": 1
+      },
+      "evidence_count": 1,
+      "size": 0.58,
+      "color": "#38bdf8"
+    },
+    {
+      "id": "skill-ops",
+      "type": "Skill",
+      "labels": {
+        "pt": "Operações",
+        "en": "Operations"
+      },
+      "category": "operations",
+      "category_labels": {
+        "pt": "Liderança e Operações",
+        "en": "Leadership & Operations"
+      },
+      "companies": [
+        "company-alvesa-transportes-log-stica-ltda",
+        "company-wipro"
+      ],
+      "evidence_by_company": {
+        "company-alvesa-transportes-log-stica-ltda": 1,
+        "company-wipro": 1
+      },
+      "evidence_count": 2,
+      "size": 0.66,
+      "color": "#38bdf8"
+    },
+    {
+      "id": "skill-paid-media",
+      "type": "Skill",
+      "labels": {
+        "pt": "Mídia Paga",
+        "en": "Paid Media"
+      },
+      "category": "growth",
+      "category_labels": {
+        "pt": "Growth e Marketing",
+        "en": "Growth & Marketing"
+      },
+      "companies": [
+        "company-ak-branding-web-design"
+      ],
+      "evidence_by_company": {
+        "company-ak-branding-web-design": 1
+      },
+      "evidence_count": 1,
+      "size": 0.58,
+      "color": "#00d4aa"
+    },
+    {
+      "id": "skill-partnerships",
+      "type": "Skill",
+      "labels": {
+        "pt": "Parcerias",
+        "en": "Partnerships"
+      },
+      "category": "sales",
+      "category_labels": {
+        "pt": "Vendas e Enablement",
+        "en": "Sales & Enablement"
+      },
+      "companies": [
+        "company-conversas-brasileiras"
+      ],
+      "evidence_by_company": {
+        "company-conversas-brasileiras": 1
+      },
+      "evidence_count": 1,
+      "size": 0.58,
+      "color": "#ef4444"
+    },
+    {
+      "id": "skill-playbooks",
+      "type": "Skill",
+      "labels": {
+        "pt": "Playbooks",
+        "en": "Playbooks"
+      },
+      "category": "sales",
+      "category_labels": {
+        "pt": "Vendas e Enablement",
+        "en": "Sales & Enablement"
+      },
+      "companies": [
+        "company-wipro"
+      ],
+      "evidence_by_company": {
+        "company-wipro": 1
+      },
+      "evidence_count": 1,
+      "size": 0.58,
+      "color": "#ef4444"
+    },
+    {
+      "id": "skill-pmo",
+      "type": "Skill",
+      "labels": {
+        "pt": "PMO",
+        "en": "PMO"
+      },
+      "category": "operations",
+      "category_labels": {
+        "pt": "Liderança e Operações",
+        "en": "Leadership & Operations"
+      },
+      "companies": [
+        "company-wipro"
+      ],
+      "evidence_by_company": {
+        "company-wipro": 1
+      },
+      "evidence_count": 1,
+      "size": 0.58,
+      "color": "#38bdf8"
+    },
+    {
+      "id": "skill-postgresql",
+      "type": "Skill",
+      "labels": {
+        "pt": "PostgreSQL",
+        "en": "PostgreSQL"
+      },
+      "category": "data",
+      "category_labels": {
+        "pt": "Dados e Analytics",
+        "en": "Data & Analytics"
+      },
+      "companies": [
+        "company-meu-barzin-startup"
+      ],
+      "evidence_by_company": {
+        "company-meu-barzin-startup": 1
+      },
+      "evidence_count": 1,
+      "size": 0.58,
+      "color": "#ff8c42"
+    },
+    {
+      "id": "skill-power-bi",
+      "type": "Skill",
+      "labels": {
+        "pt": "Power BI",
+        "en": "Power BI"
+      },
+      "category": "data",
+      "category_labels": {
+        "pt": "Dados e Analytics",
+        "en": "Data & Analytics"
+      },
+      "companies": [
+        "company-wipro"
+      ],
+      "evidence_by_company": {
+        "company-wipro": 1
+      },
+      "evidence_count": 1,
+      "size": 0.58,
+      "color": "#ff8c42"
+    },
+    {
+      "id": "skill-pricing",
+      "type": "Skill",
+      "labels": {
+        "pt": "Precificação",
+        "en": "Pricing"
+      },
+      "category": "product",
+      "category_labels": {
+        "pt": "Produto e Estratégia",
+        "en": "Product & Strategy"
+      },
+      "companies": [
+        "company-conversas-brasileiras"
+      ],
+      "evidence_by_company": {
+        "company-conversas-brasileiras": 1
+      },
+      "evidence_count": 1,
+      "size": 0.58,
+      "color": "#4a9eff"
+    },
+    {
+      "id": "skill-prioritization",
+      "type": "Skill",
+      "labels": {
+        "pt": "Priorização",
+        "en": "Prioritization"
+      },
+      "category": "operations",
+      "category_labels": {
+        "pt": "Liderança e Operações",
+        "en": "Leadership & Operations"
+      },
+      "companies": [
+        "company-wipro"
+      ],
+      "evidence_by_company": {
+        "company-wipro": 1
+      },
+      "evidence_count": 1,
+      "size": 0.58,
+      "color": "#38bdf8"
+    },
+    {
+      "id": "skill-product-architecture",
+      "type": "Skill",
+      "labels": {
+        "pt": "Arquitetura de Produto",
+        "en": "Product Architecture"
+      },
+      "category": "product",
+      "category_labels": {
+        "pt": "Produto e Estratégia",
+        "en": "Product & Strategy"
+      },
+      "companies": [
+        "company-meu-barzin-startup"
+      ],
+      "evidence_by_company": {
+        "company-meu-barzin-startup": 1
+      },
+      "evidence_count": 1,
+      "size": 0.58,
+      "color": "#4a9eff"
+    },
+    {
+      "id": "skill-product-positioning",
+      "type": "Skill",
+      "labels": {
+        "pt": "Posicionamento de Produto",
+        "en": "Product Positioning"
+      },
+      "category": "sales",
+      "category_labels": {
+        "pt": "Vendas e Enablement",
+        "en": "Sales & Enablement"
+      },
+      "companies": [
+        "company-wipro"
+      ],
+      "evidence_by_company": {
+        "company-wipro": 1
+      },
+      "evidence_count": 1,
+      "size": 0.58,
+      "color": "#ef4444"
+    },
+    {
+      "id": "skill-product-strategy",
+      "type": "Skill",
+      "labels": {
+        "pt": "Estratégia de Produto",
+        "en": "Product Strategy"
+      },
+      "category": "product",
+      "category_labels": {
+        "pt": "Produto e Estratégia",
+        "en": "Product & Strategy"
+      },
+      "companies": [
+        "company-meu-barzin-startup"
+      ],
+      "evidence_by_company": {
+        "company-meu-barzin-startup": 1
+      },
+      "evidence_count": 1,
+      "size": 0.58,
+      "color": "#4a9eff"
+    },
+    {
+      "id": "skill-project-management",
+      "type": "Skill",
+      "labels": {
+        "pt": "Gestão de Projetos",
+        "en": "Project Management"
+      },
+      "category": "operations",
+      "category_labels": {
+        "pt": "Liderança e Operações",
+        "en": "Leadership & Operations"
+      },
+      "companies": [
+        "company-wipro"
+      ],
+      "evidence_by_company": {
+        "company-wipro": 1
+      },
+      "evidence_count": 1,
+      "size": 0.58,
+      "color": "#38bdf8"
+    },
+    {
+      "id": "skill-prompt-engineering",
+      "type": "Skill",
+      "labels": {
+        "pt": "Engenharia de Prompts",
+        "en": "Prompt Engineering"
+      },
+      "category": "ai",
+      "category_labels": {
+        "pt": "IA e Automação",
+        "en": "AI & Automation"
+      },
+      "companies": [
+        "company-wipro"
+      ],
+      "evidence_by_company": {
+        "company-wipro": 1
+      },
+      "evidence_count": 1,
+      "size": 0.58,
+      "color": "#a855f7"
+    },
+    {
+      "id": "skill-quality-assurance",
+      "type": "Skill",
+      "labels": {
+        "pt": "Garantia de Qualidade",
+        "en": "Quality Assurance"
+      },
+      "category": "quality",
+      "category_labels": {
+        "pt": "Qualidade e Governança",
+        "en": "Quality & Governance"
+      },
+      "companies": [
+        "company-wipro"
+      ],
+      "evidence_by_company": {
+        "company-wipro": 2
+      },
+      "evidence_count": 2,
+      "size": 0.66,
+      "color": "#f472b6"
+    },
+    {
+      "id": "skill-ramp-up",
+      "type": "Skill",
+      "labels": {
+        "pt": "Ramp-up",
+        "en": "Ramp Up"
+      },
+      "category": "operations",
+      "category_labels": {
+        "pt": "Liderança e Operações",
+        "en": "Leadership & Operations"
+      },
+      "companies": [
+        "company-wipro"
+      ],
+      "evidence_by_company": {
+        "company-wipro": 1
+      },
+      "evidence_count": 1,
+      "size": 0.58,
+      "color": "#38bdf8"
+    },
+    {
+      "id": "skill-recruitment",
+      "type": "Skill",
+      "labels": {
+        "pt": "Recrutamento",
+        "en": "Recruitment"
+      },
+      "category": "operations",
+      "category_labels": {
+        "pt": "Liderança e Operações",
+        "en": "Leadership & Operations"
+      },
+      "companies": [
+        "company-alvesa-transportes-log-stica-ltda"
+      ],
+      "evidence_by_company": {
+        "company-alvesa-transportes-log-stica-ltda": 1
+      },
+      "evidence_count": 1,
+      "size": 0.58,
+      "color": "#38bdf8"
+    },
+    {
+      "id": "skill-revenue-analytics",
+      "type": "Skill",
+      "labels": {
+        "pt": "Análise de Receita",
+        "en": "Revenue Analytics"
+      },
+      "category": "data",
+      "category_labels": {
+        "pt": "Dados e Analytics",
+        "en": "Data & Analytics"
+      },
+      "companies": [
+        "company-munzner"
+      ],
+      "evidence_by_company": {
+        "company-munzner": 1
+      },
+      "evidence_count": 1,
+      "size": 0.58,
+      "color": "#ff8c42"
+    },
+    {
+      "id": "skill-roadmap",
+      "type": "Skill",
+      "labels": {
+        "pt": "Roadmap",
+        "en": "Roadmap"
+      },
+      "category": "operations",
+      "category_labels": {
+        "pt": "Liderança e Operações",
+        "en": "Leadership & Operations"
+      },
+      "companies": [
+        "company-wipro"
+      ],
+      "evidence_by_company": {
+        "company-wipro": 1
+      },
+      "evidence_count": 1,
+      "size": 0.58,
+      "color": "#38bdf8"
+    },
+    {
+      "id": "skill-roi",
+      "type": "Skill",
+      "labels": {
+        "pt": "ROI",
+        "en": "ROI"
+      },
+      "category": "data",
+      "category_labels": {
+        "pt": "Dados e Analytics",
+        "en": "Data & Analytics"
+      },
+      "companies": [
+        "company-munzner"
+      ],
+      "evidence_by_company": {
+        "company-munzner": 1
+      },
+      "evidence_count": 1,
+      "size": 0.58,
+      "color": "#ff8c42"
+    },
+    {
+      "id": "skill-root-cause-analysis",
+      "type": "Skill",
+      "labels": {
+        "pt": "Análise de Causa Raiz",
+        "en": "Root Cause Analysis"
+      },
+      "category": "quality",
+      "category_labels": {
+        "pt": "Qualidade e Governança",
+        "en": "Quality & Governance"
+      },
+      "companies": [
+        "company-wipro"
+      ],
+      "evidence_by_company": {
+        "company-wipro": 1
+      },
+      "evidence_count": 1,
+      "size": 0.58,
+      "color": "#f472b6"
+    },
+    {
+      "id": "skill-sales",
+      "type": "Skill",
+      "labels": {
+        "pt": "Vendas",
+        "en": "Sales"
+      },
+      "category": "sales",
+      "category_labels": {
+        "pt": "Vendas e Enablement",
+        "en": "Sales & Enablement"
+      },
+      "companies": [
+        "company-meu-barzin-startup",
+        "company-wipro"
+      ],
+      "evidence_by_company": {
+        "company-meu-barzin-startup": 1,
+        "company-wipro": 2
+      },
+      "evidence_count": 3,
+      "size": 0.74,
+      "color": "#ef4444"
+    },
+    {
+      "id": "skill-sales-enablement",
+      "type": "Skill",
+      "labels": {
+        "pt": "Sales Enablement",
+        "en": "Sales Enablement"
+      },
+      "category": "sales",
+      "category_labels": {
+        "pt": "Vendas e Enablement",
+        "en": "Sales & Enablement"
+      },
+      "companies": [
+        "company-wipro"
+      ],
+      "evidence_by_company": {
+        "company-wipro": 2
+      },
+      "evidence_count": 2,
+      "size": 0.66,
+      "color": "#ef4444"
+    },
+    {
+      "id": "skill-security",
+      "type": "Skill",
+      "labels": {
+        "pt": "Segurança",
+        "en": "Security"
+      },
+      "category": "quality",
+      "category_labels": {
+        "pt": "Qualidade e Governança",
+        "en": "Quality & Governance"
+      },
+      "companies": [
+        "company-wipro"
+      ],
+      "evidence_by_company": {
+        "company-wipro": 1
+      },
+      "evidence_count": 1,
+      "size": 0.58,
+      "color": "#f472b6"
+    },
+    {
+      "id": "skill-seo",
+      "type": "Skill",
+      "labels": {
+        "pt": "SEO",
+        "en": "SEO"
+      },
+      "category": "growth",
+      "category_labels": {
+        "pt": "Growth e Marketing",
+        "en": "Growth & Marketing"
+      },
+      "companies": [
+        "company-ak-branding-web-design",
+        "company-munzner"
+      ],
+      "evidence_by_company": {
+        "company-ak-branding-web-design": 1,
+        "company-munzner": 1
+      },
+      "evidence_count": 2,
+      "size": 0.66,
+      "color": "#00d4aa"
+    },
+    {
+      "id": "skill-social-innovation",
+      "type": "Skill",
+      "labels": {
+        "pt": "Inovação Social",
+        "en": "Social Innovation"
+      },
+      "category": "facilitation",
+      "category_labels": {
+        "pt": "Facilitação e Comunidade",
+        "en": "Facilitation & Community"
+      },
+      "companies": [
+        "company-conversas-brasileiras"
+      ],
+      "evidence_by_company": {
+        "company-conversas-brasileiras": 1
+      },
+      "evidence_count": 1,
+      "size": 0.58,
+      "color": "#34d399"
+    },
+    {
+      "id": "skill-social-media",
+      "type": "Skill",
+      "labels": {
+        "pt": "Mídias Sociais",
+        "en": "Social Media"
+      },
+      "category": "growth",
+      "category_labels": {
+        "pt": "Growth e Marketing",
+        "en": "Growth & Marketing"
+      },
+      "companies": [
+        "company-alvesa-transportes-log-stica-ltda"
+      ],
+      "evidence_by_company": {
+        "company-alvesa-transportes-log-stica-ltda": 1
+      },
+      "evidence_count": 1,
+      "size": 0.58,
+      "color": "#00d4aa"
+    },
+    {
+      "id": "skill-sql",
+      "type": "Skill",
+      "labels": {
+        "pt": "SQL",
+        "en": "SQL"
+      },
+      "category": "data",
+      "category_labels": {
+        "pt": "Dados e Analytics",
+        "en": "Data & Analytics"
+      },
+      "companies": [
+        "company-meu-barzin-startup"
+      ],
+      "evidence_by_company": {
+        "company-meu-barzin-startup": 1
+      },
+      "evidence_count": 1,
+      "size": 0.58,
+      "color": "#ff8c42"
+    },
+    {
+      "id": "skill-squad",
+      "type": "Skill",
+      "labels": {
+        "pt": "Squad",
+        "en": "Squad"
+      },
+      "category": "operations",
+      "category_labels": {
+        "pt": "Liderança e Operações",
+        "en": "Leadership & Operations"
+      },
+      "companies": [
+        "company-wipro"
+      ],
+      "evidence_by_company": {
+        "company-wipro": 1
+      },
+      "evidence_count": 1,
+      "size": 0.58,
+      "color": "#38bdf8"
+    },
+    {
+      "id": "skill-supabase",
+      "type": "Skill",
+      "labels": {
+        "pt": "Supabase",
+        "en": "Supabase"
+      },
+      "category": "data",
+      "category_labels": {
+        "pt": "Dados e Analytics",
+        "en": "Data & Analytics"
+      },
+      "companies": [
+        "company-meu-barzin-startup"
+      ],
+      "evidence_by_company": {
+        "company-meu-barzin-startup": 2
+      },
+      "evidence_count": 2,
+      "size": 0.66,
+      "color": "#ff8c42"
+    },
+    {
+      "id": "skill-support",
+      "type": "Skill",
+      "labels": {
+        "pt": "Suporte",
+        "en": "Support"
+      },
+      "category": "operations",
+      "category_labels": {
+        "pt": "Liderança e Operações",
+        "en": "Leadership & Operations"
+      },
+      "companies": [
+        "company-alvesa-transportes-log-stica-ltda"
+      ],
+      "evidence_by_company": {
+        "company-alvesa-transportes-log-stica-ltda": 1
+      },
+      "evidence_count": 1,
+      "size": 0.58,
+      "color": "#38bdf8"
+    },
+    {
+      "id": "skill-technical-reference",
+      "type": "Skill",
+      "labels": {
+        "pt": "Referência Técnica",
+        "en": "Technical Reference"
+      },
+      "category": "sales",
+      "category_labels": {
+        "pt": "Vendas e Enablement",
+        "en": "Sales & Enablement"
+      },
+      "companies": [
+        "company-wipro"
+      ],
+      "evidence_by_company": {
+        "company-wipro": 1
+      },
+      "evidence_count": 1,
+      "size": 0.58,
+      "color": "#ef4444"
+    },
+    {
+      "id": "skill-thinking-environment",
+      "type": "Skill",
+      "labels": {
+        "pt": "Thinking Environment",
+        "en": "Thinking Environment"
+      },
+      "category": "facilitation",
+      "category_labels": {
+        "pt": "Facilitação e Comunidade",
+        "en": "Facilitation & Community"
+      },
+      "companies": [
+        "company-munzner"
+      ],
+      "evidence_by_company": {
+        "company-munzner": 1
+      },
+      "evidence_count": 1,
+      "size": 0.58,
+      "color": "#34d399"
+    },
+    {
+      "id": "skill-timeline",
+      "type": "Skill",
+      "labels": {
+        "pt": "Cronograma",
+        "en": "Timeline"
+      },
+      "category": "operations",
+      "category_labels": {
+        "pt": "Liderança e Operações",
+        "en": "Leadership & Operations"
+      },
+      "companies": [
+        "company-ak-branding-web-design"
+      ],
+      "evidence_by_company": {
+        "company-ak-branding-web-design": 1
+      },
+      "evidence_count": 1,
+      "size": 0.58,
+      "color": "#38bdf8"
+    },
+    {
+      "id": "skill-tracking",
+      "type": "Skill",
+      "labels": {
+        "pt": "Rastreamento",
+        "en": "Tracking"
+      },
+      "category": "data",
+      "category_labels": {
+        "pt": "Dados e Analytics",
+        "en": "Data & Analytics"
+      },
+      "companies": [
+        "company-alvesa-transportes-log-stica-ltda"
+      ],
+      "evidence_by_company": {
+        "company-alvesa-transportes-log-stica-ltda": 1
+      },
+      "evidence_count": 1,
+      "size": 0.58,
+      "color": "#ff8c42"
+    },
+    {
+      "id": "skill-training",
+      "type": "Skill",
+      "labels": {
+        "pt": "Treinamento",
+        "en": "Training"
+      },
+      "category": "sales",
+      "category_labels": {
+        "pt": "Vendas e Enablement",
+        "en": "Sales & Enablement"
+      },
+      "companies": [
+        "company-wipro"
+      ],
+      "evidence_by_company": {
+        "company-wipro": 1
+      },
+      "evidence_count": 1,
+      "size": 0.58,
+      "color": "#ef4444"
+    },
+    {
+      "id": "skill-tripwire",
+      "type": "Skill",
+      "labels": {
+        "pt": "Oferta de Entrada",
+        "en": "Tripwire"
+      },
+      "category": "growth",
+      "category_labels": {
+        "pt": "Growth e Marketing",
+        "en": "Growth & Marketing"
+      },
+      "companies": [
+        "company-munzner"
+      ],
+      "evidence_by_company": {
+        "company-munzner": 1
+      },
+      "evidence_count": 1,
+      "size": 0.58,
+      "color": "#00d4aa"
+    },
+    {
+      "id": "skill-ux",
+      "type": "Skill",
+      "labels": {
+        "pt": "Experiência do Usuário",
+        "en": "User Experience"
+      },
+      "category": "product",
+      "category_labels": {
+        "pt": "Produto e Estratégia",
+        "en": "Product & Strategy"
+      },
+      "companies": [
+        "company-meu-barzin-startup"
+      ],
+      "evidence_by_company": {
+        "company-meu-barzin-startup": 1
+      },
+      "evidence_count": 1,
+      "size": 0.58,
+      "color": "#4a9eff"
+    },
+    {
+      "id": "skill-ux-ui",
+      "type": "Skill",
+      "labels": {
+        "pt": "UX/UI",
+        "en": "UX/UI"
+      },
+      "category": "product",
+      "category_labels": {
+        "pt": "Produto e Estratégia",
+        "en": "Product & Strategy"
+      },
+      "companies": [
+        "company-ak-branding-web-design"
+      ],
+      "evidence_by_company": {
+        "company-ak-branding-web-design": 1
+      },
+      "evidence_count": 1,
+      "size": 0.58,
+      "color": "#4a9eff"
+    },
+    {
+      "id": "skill-volume",
+      "type": "Skill",
+      "labels": {
+        "pt": "Volume de Entregas",
+        "en": "Volume"
+      },
+      "category": "growth",
+      "category_labels": {
+        "pt": "Growth e Marketing",
+        "en": "Growth & Marketing"
+      },
+      "companies": [
+        "company-ak-branding-web-design"
+      ],
+      "evidence_by_company": {
+        "company-ak-branding-web-design": 1
+      },
+      "evidence_count": 1,
+      "size": 0.58,
+      "color": "#00d4aa"
+    },
+    {
+      "id": "skill-web-design",
+      "type": "Skill",
+      "labels": {
+        "pt": "Web Design",
+        "en": "Web Design"
+      },
+      "category": "product",
+      "category_labels": {
+        "pt": "Produto e Estratégia",
+        "en": "Product & Strategy"
+      },
+      "companies": [
+        "company-ak-branding-web-design"
+      ],
+      "evidence_by_company": {
+        "company-ak-branding-web-design": 1
+      },
+      "evidence_count": 1,
+      "size": 0.58,
+      "color": "#4a9eff"
+    },
+    {
+      "id": "skill-web-development",
+      "type": "Skill",
+      "labels": {
+        "pt": "Desenvolvimento Web",
+        "en": "Web Development"
+      },
+      "category": "product",
+      "category_labels": {
+        "pt": "Produto e Estratégia",
+        "en": "Product & Strategy"
+      },
+      "companies": [
+        "company-ak-branding-web-design"
+      ],
+      "evidence_by_company": {
+        "company-ak-branding-web-design": 1
+      },
+      "evidence_count": 1,
+      "size": 0.58,
+      "color": "#4a9eff"
+    },
+    {
+      "id": "skill-web-scraping",
+      "type": "Skill",
+      "labels": {
+        "pt": "Web Scraping",
+        "en": "Web Scraping"
+      },
+      "category": "data",
+      "category_labels": {
+        "pt": "Dados e Analytics",
+        "en": "Data & Analytics"
+      },
+      "companies": [
+        "company-meu-barzin-startup"
+      ],
+      "evidence_by_company": {
+        "company-meu-barzin-startup": 1
+      },
+      "evidence_count": 1,
+      "size": 0.58,
+      "color": "#ff8c42"
+    },
+    {
+      "id": "skill-zero-to-one",
+      "type": "Skill",
+      "labels": {
+        "pt": "Construção de 0 a 1",
+        "en": "0-to-1 Building"
+      },
+      "category": "product",
+      "category_labels": {
+        "pt": "Produto e Estratégia",
+        "en": "Product & Strategy"
+      },
+      "companies": [
+        "company-ak-branding-web-design"
+      ],
+      "evidence_by_company": {
+        "company-ak-branding-web-design": 1
+      },
+      "evidence_count": 1,
+      "size": 0.58,
+      "color": "#4a9eff"
+    },
+    {
+      "id": "metric-wipro-1",
+      "type": "Metric",
+      "labels": {
+        "pt": "150+",
+        "en": "150+"
+      },
+      "names": {
+        "pt": "profissionais capacitados",
+        "en": "professionals enabled"
+      },
+      "contexts": {
+        "pt": "Referência técnica na operação em estratégias de anúncios na Meta, atuando na absorção de materiais oficiais do cliente e replicação estratégica de inovações de produto e Go-to-Market (GTM) para mais de 150 Meta Marketing Pros.",
+        "en": "Act as the operation's technical reference for Meta ad strategies, absorbing official client materials and strategically replicating product innovations and Go-to-Market (GTM) strategies for 150+ Meta Marketing Pros."
+      },
+      "company_id": "company-wipro",
+      "size": 0.52,
+      "color": "#fbbf24"
+    },
+    {
+      "id": "metric-wipro-2",
+      "type": "Metric",
+      "labels": {
+        "pt": "+150%",
+        "en": "+150%"
+      },
+      "names": {
+        "pt": "aumento no uso de IA",
+        "en": "increase in AI usage"
+      },
+      "contexts": {
+        "pt": "Ownership de IA no CRM e Adoção Recorde: Liderou a ativação e adoção da IA nativa no CRM proprietário da Meta, do onboarding ao acompanhamento presencial side-by-side de 3 semanas. Elevou o uso de 4 para 10 prompts/dia por consultor (+150%), tornando a operação a #1 global em crescimento de adoção e melhorando a qualidade contextual dos prompts em chamadas ao vivo.",
+        "en": "AI CRM Ownership, Activation, and Record Adoption: Owned native AI activation and adoption within Meta's proprietary CRM, from onboarding through 3 weeks of hands-on side-by-side coaching. Increased usage from 4 to 10 prompts/day per consultant (+150%), making the operation #1 globally for adoption growth while improving contextual prompt quality during live calls."
+      },
+      "company_id": "company-wipro",
+      "size": 0.52,
+      "color": "#fbbf24"
+    },
+    {
+      "id": "metric-wipro-3",
+      "type": "Metric",
+      "labels": {
+        "pt": "4 → 10",
+        "en": "4 → 10"
+      },
+      "names": {
+        "pt": "prompts por dia",
+        "en": "prompts per day"
+      },
+      "contexts": {
+        "pt": "Ownership de IA no CRM e Adoção Recorde: Liderou a ativação e adoção da IA nativa no CRM proprietário da Meta, do onboarding ao acompanhamento presencial side-by-side de 3 semanas. Elevou o uso de 4 para 10 prompts/dia por consultor (+150%), tornando a operação a #1 global em crescimento de adoção e melhorando a qualidade contextual dos prompts em chamadas ao vivo.",
+        "en": "AI CRM Ownership, Activation, and Record Adoption: Owned native AI activation and adoption within Meta's proprietary CRM, from onboarding through 3 weeks of hands-on side-by-side coaching. Increased usage from 4 to 10 prompts/day per consultant (+150%), making the operation #1 globally for adoption growth while improving contextual prompt quality during live calls."
+      },
+      "company_id": "company-wipro",
+      "size": 0.52,
+      "color": "#fbbf24"
+    },
+    {
+      "id": "metric-wipro-4",
+      "type": "Metric",
+      "labels": {
+        "pt": "#1 global",
+        "en": "#1 global"
+      },
+      "names": {
+        "pt": "crescimento de adoção de IA",
+        "en": "AI adoption growth"
+      },
+      "contexts": {
+        "pt": "Ownership de IA no CRM e Adoção Recorde: Liderou a ativação e adoção da IA nativa no CRM proprietário da Meta, do onboarding ao acompanhamento presencial side-by-side de 3 semanas. Elevou o uso de 4 para 10 prompts/dia por consultor (+150%), tornando a operação a #1 global em crescimento de adoção e melhorando a qualidade contextual dos prompts em chamadas ao vivo.",
+        "en": "AI CRM Ownership, Activation, and Record Adoption: Owned native AI activation and adoption within Meta's proprietary CRM, from onboarding through 3 weeks of hands-on side-by-side coaching. Increased usage from 4 to 10 prompts/day per consultant (+150%), making the operation #1 globally for adoption growth while improving contextual prompt quality during live calls."
+      },
+      "company_id": "company-wipro",
+      "size": 0.52,
+      "color": "#fbbf24"
+    },
+    {
+      "id": "metric-wipro-5",
+      "type": "Metric",
+      "labels": {
+        "pt": "12",
+        "en": "12"
+      },
+      "names": {
+        "pt": "consultores no piloto",
+        "en": "consultants in the pilot"
+      },
+      "contexts": {
+        "pt": "Liderança do Next Level Bootcamp (Piloto): Idealizou, gamificou (badges digitais) e governou o programa piloto para 12 consultores com 100% de conclusão. Reduziu a curva de ramp-up e tempo de produtividade (time-to-productivity) dos novos contratados de 6 para 3 meses (-50%), alcançando 90%+ de nota de qualidade nas primeiras auditorias e 90% de satisfação dos consultores (CSAT), convertendo os participantes em Top Performers.",
+        "en": "Next Level Bootcamp Pilot & Ramp-up Reduction: Designed, gamified (digital badges), and governed the pilot enablement program for 12 consultants with 100% completion. Reduced new hire ramp-up time from 6 to 3 months (-50%), achieving 90%+ quality audit scores on initial reviews, 90% consultant CSAT, and converting all graduating consultants into operational Top Performers."
+      },
+      "company_id": "company-wipro",
+      "size": 0.52,
+      "color": "#fbbf24"
+    },
+    {
+      "id": "metric-wipro-6",
+      "type": "Metric",
+      "labels": {
+        "pt": "100%",
+        "en": "100%"
+      },
+      "names": {
+        "pt": "conclusão do bootcamp",
+        "en": "bootcamp completion"
+      },
+      "contexts": {
+        "pt": "Liderança do Next Level Bootcamp (Piloto): Idealizou, gamificou (badges digitais) e governou o programa piloto para 12 consultores com 100% de conclusão. Reduziu a curva de ramp-up e tempo de produtividade (time-to-productivity) dos novos contratados de 6 para 3 meses (-50%), alcançando 90%+ de nota de qualidade nas primeiras auditorias e 90% de satisfação dos consultores (CSAT), convertendo os participantes em Top Performers.",
+        "en": "Next Level Bootcamp Pilot & Ramp-up Reduction: Designed, gamified (digital badges), and governed the pilot enablement program for 12 consultants with 100% completion. Reduced new hire ramp-up time from 6 to 3 months (-50%), achieving 90%+ quality audit scores on initial reviews, 90% consultant CSAT, and converting all graduating consultants into operational Top Performers."
+      },
+      "company_id": "company-wipro",
+      "size": 0.52,
+      "color": "#fbbf24"
+    },
+    {
+      "id": "metric-wipro-7",
+      "type": "Metric",
+      "labels": {
+        "pt": "-50%",
+        "en": "-50%"
+      },
+      "names": {
+        "pt": "tempo de ramp-up",
+        "en": "ramp-up time"
+      },
+      "contexts": {
+        "pt": "Liderança do Next Level Bootcamp (Piloto): Idealizou, gamificou (badges digitais) e governou o programa piloto para 12 consultores com 100% de conclusão. Reduziu a curva de ramp-up e tempo de produtividade (time-to-productivity) dos novos contratados de 6 para 3 meses (-50%), alcançando 90%+ de nota de qualidade nas primeiras auditorias e 90% de satisfação dos consultores (CSAT), convertendo os participantes em Top Performers.",
+        "en": "Next Level Bootcamp Pilot & Ramp-up Reduction: Designed, gamified (digital badges), and governed the pilot enablement program for 12 consultants with 100% completion. Reduced new hire ramp-up time from 6 to 3 months (-50%), achieving 90%+ quality audit scores on initial reviews, 90% consultant CSAT, and converting all graduating consultants into operational Top Performers."
+      },
+      "company_id": "company-wipro",
+      "size": 0.52,
+      "color": "#fbbf24"
+    },
+    {
+      "id": "metric-wipro-8",
+      "type": "Metric",
+      "labels": {
+        "pt": "90%+",
+        "en": "90%+"
+      },
+      "names": {
+        "pt": "qualidade nas primeiras auditorias",
+        "en": "quality on initial audits"
+      },
+      "contexts": {
+        "pt": "Liderança do Next Level Bootcamp (Piloto): Idealizou, gamificou (badges digitais) e governou o programa piloto para 12 consultores com 100% de conclusão. Reduziu a curva de ramp-up e tempo de produtividade (time-to-productivity) dos novos contratados de 6 para 3 meses (-50%), alcançando 90%+ de nota de qualidade nas primeiras auditorias e 90% de satisfação dos consultores (CSAT), convertendo os participantes em Top Performers.",
+        "en": "Next Level Bootcamp Pilot & Ramp-up Reduction: Designed, gamified (digital badges), and governed the pilot enablement program for 12 consultants with 100% completion. Reduced new hire ramp-up time from 6 to 3 months (-50%), achieving 90%+ quality audit scores on initial reviews, 90% consultant CSAT, and converting all graduating consultants into operational Top Performers."
+      },
+      "company_id": "company-wipro",
+      "size": 0.52,
+      "color": "#fbbf24"
+    },
+    {
+      "id": "metric-wipro-9",
+      "type": "Metric",
+      "labels": {
+        "pt": "90%",
+        "en": "90%"
+      },
+      "names": {
+        "pt": "CSAT dos consultores",
+        "en": "consultant CSAT"
+      },
+      "contexts": {
+        "pt": "Liderança do Next Level Bootcamp (Piloto): Idealizou, gamificou (badges digitais) e governou o programa piloto para 12 consultores com 100% de conclusão. Reduziu a curva de ramp-up e tempo de produtividade (time-to-productivity) dos novos contratados de 6 para 3 meses (-50%), alcançando 90%+ de nota de qualidade nas primeiras auditorias e 90% de satisfação dos consultores (CSAT), convertendo os participantes em Top Performers.",
+        "en": "Next Level Bootcamp Pilot & Ramp-up Reduction: Designed, gamified (digital badges), and governed the pilot enablement program for 12 consultants with 100% completion. Reduced new hire ramp-up time from 6 to 3 months (-50%), achieving 90%+ quality audit scores on initial reviews, 90% consultant CSAT, and converting all graduating consultants into operational Top Performers."
+      },
+      "company_id": "company-wipro",
+      "size": 0.52,
+      "color": "#fbbf24"
+    },
+    {
+      "id": "metric-meu-barzin-startup-1",
+      "type": "Metric",
+      "labels": {
+        "pt": "~200",
+        "en": "~200"
+      },
+      "names": {
+        "pt": "bares mapeados",
+        "en": "venues mapped"
+      },
+      "contexts": {
+        "pt": "Varredura e Tratamento de Dados: Mapeou, extraiu e higienizou dados de quase 200 bares de Curitiba via Web Scraping para criar um banco de dados de RAG confiável no Supabase hospedado em VPS.",
+        "en": "Data Scraping & Cleansing: Mapped, extracted, and cleansed data from nearly 200 bars in Curitiba via web scraping to build a reliable RAG database in Supabase hosted over a VPS."
+      },
+      "company_id": "company-meu-barzin-startup",
+      "size": 0.52,
+      "color": "#fbbf24"
+    },
+    {
+      "id": "metric-meu-barzin-startup-2",
+      "type": "Metric",
+      "labels": {
+        "pt": "505",
+        "en": "505"
+      },
+      "names": {
+        "pt": "leads qualificados",
+        "en": "qualified leads"
+      },
+      "contexts": {
+        "pt": "Geração de Demanda e Métricas: Captou 505 leads qualificados de topo de funil com campanhas orgânicas e anúncios (além de crescer o Instagram para 2.000+ seguidores), alcançando uma taxa de 22,3% de usuários altamente engajados (conversando 4+ vezes com a IA).",
+        "en": "Demand Gen & Metrics: Captured 505 qualified top-of-funil leads via organic and paid campaigns (growing Instagram to 2,000+ followers), achieving a 22.3% high-engagement rate (users interacting 4+ times with the AI)."
+      },
+      "company_id": "company-meu-barzin-startup",
+      "size": 0.52,
+      "color": "#fbbf24"
+    },
+    {
+      "id": "metric-meu-barzin-startup-3",
+      "type": "Metric",
+      "labels": {
+        "pt": "2.000+",
+        "en": "2.000+"
+      },
+      "names": {
+        "pt": "seguidores no Instagram",
+        "en": "Instagram followers"
+      },
+      "contexts": {
+        "pt": "Geração de Demanda e Métricas: Captou 505 leads qualificados de topo de funil com campanhas orgânicas e anúncios (além de crescer o Instagram para 2.000+ seguidores), alcançando uma taxa de 22,3% de usuários altamente engajados (conversando 4+ vezes com a IA).",
+        "en": "Demand Gen & Metrics: Captured 505 qualified top-of-funil leads via organic and paid campaigns (growing Instagram to 2,000+ followers), achieving a 22.3% high-engagement rate (users interacting 4+ times with the AI)."
+      },
+      "company_id": "company-meu-barzin-startup",
+      "size": 0.52,
+      "color": "#fbbf24"
+    },
+    {
+      "id": "metric-meu-barzin-startup-4",
+      "type": "Metric",
+      "labels": {
+        "pt": "22,3%",
+        "en": "22.3%"
+      },
+      "names": {
+        "pt": "usuários altamente engajados",
+        "en": "highly engaged users"
+      },
+      "contexts": {
+        "pt": "Geração de Demanda e Métricas: Captou 505 leads qualificados de topo de funil com campanhas orgânicas e anúncios (além de crescer o Instagram para 2.000+ seguidores), alcançando uma taxa de 22,3% de usuários altamente engajados (conversando 4+ vezes com a IA).",
+        "en": "Demand Gen & Metrics: Captured 505 qualified top-of-funil leads via organic and paid campaigns (growing Instagram to 2,000+ followers), achieving a 22.3% high-engagement rate (users interacting 4+ times with the AI)."
+      },
+      "company_id": "company-meu-barzin-startup",
+      "size": 0.52,
+      "color": "#fbbf24"
+    },
+    {
+      "id": "metric-meu-barzin-startup-5",
+      "type": "Metric",
+      "labels": {
+        "pt": "43,9%",
+        "en": "43.9%"
+      },
+      "names": {
+        "pt": "abandono na primeira mensagem",
+        "en": "first-message dropout"
+      },
+      "contexts": {
+        "pt": "Mapeamento de Gargalos de Conversão: Conduziu entrevistas qualitativas e mapeamentos de funil que identificaram que a falta de liquidez de parceiros na oferta e atritos de latência de API (43,9% de drop na primeira mensagem) eram os principais impeditivos para a conversão de assinaturas.",
+        "en": "Conversion Bottleneck Mapping: Conducted qualitative user interviews and funnel mappings that revealed that lack of merchant partner density (supply liquidity) and API processing latency (43.9% first-message dropout) were the primary conversion barriers for subscription growth."
+      },
+      "company_id": "company-meu-barzin-startup",
+      "size": 0.52,
+      "color": "#fbbf24"
+    },
+    {
+      "id": "metric-ak-branding-web-design-1",
+      "type": "Metric",
+      "labels": {
+        "pt": "40+",
+        "en": "40+"
+      },
+      "names": {
+        "pt": "projetos entregues",
+        "en": "projects delivered"
+      },
+      "contexts": {
+        "pt": "Fundação e Gestão de Agência Boutique: Manteve ritmo de fechamento e entrega de 2 contratos de alto valor a cada 3 meses ao longo de 5 anos (40+ projetos entregues), gerenciando desde o posicionamento de marca até a arquitetura web para PMEs.",
+        "en": "Boutique Agency Leadership & Volume: Sustained a steady deal closure and project delivery cadence of 2 high-value contracts every 3 months across 5 years (40+ custom projects delivered), overseeing everything from brand positioning to web architecture for SMBs."
+      },
+      "company_id": "company-ak-branding-web-design",
+      "size": 0.52,
+      "color": "#fbbf24"
+    },
+    {
+      "id": "metric-ak-branding-web-design-2",
+      "type": "Metric",
+      "labels": {
+        "pt": "2 / 3 meses",
+        "en": "2 / 3 meses"
+      },
+      "names": {
+        "pt": "contratos de alto valor",
+        "en": "high-value contracts"
+      },
+      "contexts": {
+        "pt": "Fundação e Gestão de Agência Boutique: Manteve ritmo de fechamento e entrega de 2 contratos de alto valor a cada 3 meses ao longo de 5 anos (40+ projetos entregues), gerenciando desde o posicionamento de marca até a arquitetura web para PMEs.",
+        "en": "Boutique Agency Leadership & Volume: Sustained a steady deal closure and project delivery cadence of 2 high-value contracts every 3 months across 5 years (40+ custom projects delivered), overseeing everything from brand positioning to web architecture for SMBs."
+      },
+      "company_id": "company-ak-branding-web-design",
+      "size": 0.52,
+      "color": "#fbbf24"
+    },
+    {
+      "id": "metric-ak-branding-web-design-3",
+      "type": "Metric",
+      "labels": {
+        "pt": "+250%",
+        "en": "+250%"
+      },
+      "names": {
+        "pt": "aumento na captação de leads",
+        "en": "increase in lead capture"
+      },
+      "contexts": {
+        "pt": "Otimização de Conversão (CRO) e Chatbots: Implementou interfaces de chatbot e fluxos de UX que elevaram a captação de leads de 8 para 20-30 contatos/mês (+250%) em sites corporativos, além de criar landing pages para a construção civil que geravam 5 leads qualificados/dia.",
+        "en": "Conversion Rate Optimization (CRO) & Chatbots: Implemented chatbot interfaces and UX flows that boosted monthly lead capture from 8 to 20-30 contacts/month (+250%) on client websites, and designed real estate LPs generating 5 qualified leads/day."
+      },
+      "company_id": "company-ak-branding-web-design",
+      "size": 0.52,
+      "color": "#fbbf24"
+    },
+    {
+      "id": "metric-ak-branding-web-design-4",
+      "type": "Metric",
+      "labels": {
+        "pt": "5 / dia",
+        "en": "5 / dia"
+      },
+      "names": {
+        "pt": "leads qualificados",
+        "en": "qualified leads"
+      },
+      "contexts": {
+        "pt": "Otimização de Conversão (CRO) e Chatbots: Implementou interfaces de chatbot e fluxos de UX que elevaram a captação de leads de 8 para 20-30 contatos/mês (+250%) em sites corporativos, além de criar landing pages para a construção civil que geravam 5 leads qualificados/dia.",
+        "en": "Conversion Rate Optimization (CRO) & Chatbots: Implemented chatbot interfaces and UX flows that boosted monthly lead capture from 8 to 20-30 contacts/month (+250%) on client websites, and designed real estate LPs generating 5 qualified leads/day."
+      },
+      "company_id": "company-ak-branding-web-design",
+      "size": 0.52,
+      "color": "#fbbf24"
+    },
+    {
+      "id": "metric-ak-branding-web-design-5",
+      "type": "Metric",
+      "labels": {
+        "pt": "R$ 10.000",
+        "en": "R$ 10.000"
+      },
+      "names": {
+        "pt": "receita em três meses",
+        "en": "revenue in three months"
+      },
+      "contexts": {
+        "pt": "Lançamento de E-Commerce de 0 a 1: Desenvolveu loja virtual do zero que atingiu R$ 10.000 em faturamento nos primeiros 3 meses de operação de forma 100% orgânica (R$0 em ads), alavancada apenas por posicionamento estratégico no Instagram.",
+        "en": "0-to-1 E-Commerce Monetization: Built a custom e-commerce platform from scratch that achieved R$ 10,000 in revenue within its first 3 months operating 100% organically ($0 ad spend) driven purely by strategic Instagram positioning."
+      },
+      "company_id": "company-ak-branding-web-design",
+      "size": 0.52,
+      "color": "#fbbf24"
+    },
+    {
+      "id": "metric-ak-branding-web-design-6",
+      "type": "Metric",
+      "labels": {
+        "pt": "100%",
+        "en": "100%"
+      },
+      "names": {
+        "pt": "projetos com conformidade LGPD",
+        "en": "projects with LGPD compliance"
+      },
+      "contexts": {
+        "pt": "Conformidade LGPD em 100% dos Projetos: Estruturou a adequação técnica à Lei Geral de Proteção de Dados em todos os sites desenvolvidos, criando políticas de privacidade, termos de uso personalizados e sistemas de consentimento de cookies.",
+        "en": "100% Technical LGPD Compliance: Implemented data protection frameworks across 100% of delivered client websites, authoring custom privacy policies, terms of use, and cookie consent mechanisms."
+      },
+      "company_id": "company-ak-branding-web-design",
+      "size": 0.52,
+      "color": "#fbbf24"
+    },
+    {
+      "id": "metric-munzner-1",
+      "type": "Metric",
+      "labels": {
+        "pt": "50",
+        "en": "50"
+      },
+      "names": {
+        "pt": "vendas em dois meses",
+        "en": "sales in two months"
+      },
+      "contexts": {
+        "pt": "Lançamento de Infoproduto (0 a 1): Idealizou e lançou o 1º curso digital da empresa (MasterStudy LMS/WordPress) como um produto de entrada (tripwire) para a metodologia pioneira Thinking Environment. Conquistou 50 vendas nos primeiros 2 meses com ROI de 1.0x a 1.5x, validando a aquisição de leads de forma autossustentável.",
+        "en": "0-to-1 Infoproduct & Tripwire ROI Strategy: Designed and launched the brand's first digital course (MasterStudy LMS/WordPress) as an entry-level tripwire offer for the pioneer Thinking Environment methodology. Secured 50 sales in the first 2 months with a 1.0x-1.5x ROI, self-sustaining customer acquisition."
+      },
+      "company_id": "company-munzner",
+      "size": 0.52,
+      "color": "#fbbf24"
+    },
+    {
+      "id": "metric-munzner-2",
+      "type": "Metric",
+      "labels": {
+        "pt": "1,0x–1,5x",
+        "en": "1.0x–1.5x"
+      },
+      "names": {
+        "pt": "ROI do produto de entrada",
+        "en": "tripwire ROI"
+      },
+      "contexts": {
+        "pt": "Lançamento de Infoproduto (0 a 1): Idealizou e lançou o 1º curso digital da empresa (MasterStudy LMS/WordPress) como um produto de entrada (tripwire) para a metodologia pioneira Thinking Environment. Conquistou 50 vendas nos primeiros 2 meses com ROI de 1.0x a 1.5x, validando a aquisição de leads de forma autossustentável.",
+        "en": "0-to-1 Infoproduct & Tripwire ROI Strategy: Designed and launched the brand's first digital course (MasterStudy LMS/WordPress) as an entry-level tripwire offer for the pioneer Thinking Environment methodology. Secured 50 sales in the first 2 months with a 1.0x-1.5x ROI, self-sustaining customer acquisition."
+      },
+      "company_id": "company-munzner",
+      "size": 0.52,
+      "color": "#fbbf24"
+    },
+    {
+      "id": "metric-munzner-3",
+      "type": "Metric",
+      "labels": {
+        "pt": "~R$ 50 mil",
+        "en": "~R$ 50 mil"
+      },
+      "names": {
+        "pt": "receita high-ticket",
+        "en": "high-ticket revenue"
+      },
+      "contexts": {
+        "pt": "Funil Automatizado de High-Ticket (~R$ 50k em Receita): Estruturou funil de e-mail marketing automatizado de 10 etapas (Bitrix24/Sendpulse) que atraiu 10.000+ acessos e converteu 10 matriculados em formações presenciais de R$ 5.000 (~R$ 50k em receita de tickets altos gerada por automação).",
+        "en": "Automated High-Ticket Nurturing Funnel (~R$ 50k Revenue): Built an automated 10-stage email nurturing funnel (Bitrix24/Sendpulse) attracting 10,000+ visits, converting ~10 enrollments for R$ 5,000 in-person masterclasses (~R$ 50k high-ticket revenue driven via automation)."
+      },
+      "company_id": "company-munzner",
+      "size": 0.52,
+      "color": "#fbbf24"
+    },
+    {
+      "id": "metric-munzner-4",
+      "type": "Metric",
+      "labels": {
+        "pt": "10.000+",
+        "en": "10.000+"
+      },
+      "names": {
+        "pt": "acessos no funil",
+        "en": "funnel visits"
+      },
+      "contexts": {
+        "pt": "Funil Automatizado de High-Ticket (~R$ 50k em Receita): Estruturou funil de e-mail marketing automatizado de 10 etapas (Bitrix24/Sendpulse) que atraiu 10.000+ acessos e converteu 10 matriculados em formações presenciais de R$ 5.000 (~R$ 50k em receita de tickets altos gerada por automação).",
+        "en": "Automated High-Ticket Nurturing Funnel (~R$ 50k Revenue): Built an automated 10-stage email nurturing funnel (Bitrix24/Sendpulse) attracting 10,000+ visits, converting ~10 enrollments for R$ 5,000 in-person masterclasses (~R$ 50k high-ticket revenue driven via automation)."
+      },
+      "company_id": "company-munzner",
+      "size": 0.52,
+      "color": "#fbbf24"
+    },
+    {
+      "id": "metric-munzner-5",
+      "type": "Metric",
+      "labels": {
+        "pt": "10",
+        "en": "10"
+      },
+      "names": {
+        "pt": "matrículas high-ticket",
+        "en": "high-ticket enrollments"
+      },
+      "contexts": {
+        "pt": "Funil Automatizado de High-Ticket (~R$ 50k em Receita): Estruturou funil de e-mail marketing automatizado de 10 etapas (Bitrix24/Sendpulse) que atraiu 10.000+ acessos e converteu 10 matriculados em formações presenciais de R$ 5.000 (~R$ 50k em receita de tickets altos gerada por automação).",
+        "en": "Automated High-Ticket Nurturing Funnel (~R$ 50k Revenue): Built an automated 10-stage email nurturing funnel (Bitrix24/Sendpulse) attracting 10,000+ visits, converting ~10 enrollments for R$ 5,000 in-person masterclasses (~R$ 50k high-ticket revenue driven via automation)."
+      },
+      "company_id": "company-munzner",
+      "size": 0.52,
+      "color": "#fbbf24"
+    },
+    {
+      "id": "metric-munzner-6",
+      "type": "Metric",
+      "labels": {
+        "pt": "~1.000",
+        "en": "~1.000"
+      },
+      "names": {
+        "pt": "visitas orgânicas",
+        "en": "organic visits"
+      },
+      "contexts": {
+        "pt": "Inbound Marketing e SEO Orgânico: Redigiu ~10 artigos estratégicos no blog alinhados à metodologia Thinking Environment, gerando ~1.000 visitas orgânicas e ~100 leads qualificados de alto valor (taxa de conversão visitor-to-lead de ~10%).",
+        "en": "Inbound Organic SEO & Content Marketing: Authored ~10 strategic technical blog articles on the Thinking Environment methodology, generating ~1,000 organic visits and ~100 qualified high-value leads (~10% visitor-to-lead conversion rate)."
+      },
+      "company_id": "company-munzner",
+      "size": 0.52,
+      "color": "#fbbf24"
+    },
+    {
+      "id": "metric-munzner-7",
+      "type": "Metric",
+      "labels": {
+        "pt": "~100",
+        "en": "~100"
+      },
+      "names": {
+        "pt": "leads qualificados",
+        "en": "qualified leads"
+      },
+      "contexts": {
+        "pt": "Inbound Marketing e SEO Orgânico: Redigiu ~10 artigos estratégicos no blog alinhados à metodologia Thinking Environment, gerando ~1.000 visitas orgânicas e ~100 leads qualificados de alto valor (taxa de conversão visitor-to-lead de ~10%).",
+        "en": "Inbound Organic SEO & Content Marketing: Authored ~10 strategic technical blog articles on the Thinking Environment methodology, generating ~1,000 organic visits and ~100 qualified high-value leads (~10% visitor-to-lead conversion rate)."
+      },
+      "company_id": "company-munzner",
+      "size": 0.52,
+      "color": "#fbbf24"
+    },
+    {
+      "id": "metric-munzner-8",
+      "type": "Metric",
+      "labels": {
+        "pt": "~10%",
+        "en": "~10%"
+      },
+      "names": {
+        "pt": "conversão visitante-lead",
+        "en": "visitor-to-lead conversion"
+      },
+      "contexts": {
+        "pt": "Inbound Marketing e SEO Orgânico: Redigiu ~10 artigos estratégicos no blog alinhados à metodologia Thinking Environment, gerando ~1.000 visitas orgânicas e ~100 leads qualificados de alto valor (taxa de conversão visitor-to-lead de ~10%).",
+        "en": "Inbound Organic SEO & Content Marketing: Authored ~10 strategic technical blog articles on the Thinking Environment methodology, generating ~1,000 organic visits and ~100 qualified high-value leads (~10% visitor-to-lead conversion rate)."
+      },
+      "company_id": "company-munzner",
+      "size": 0.52,
+      "color": "#fbbf24"
+    },
+    {
+      "id": "metric-conversas-brasileiras-1",
+      "type": "Metric",
+      "labels": {
+        "pt": "5",
+        "en": "5"
+      },
+      "names": {
+        "pt": "edições realizadas",
+        "en": "event editions"
+      },
+      "contexts": {
+        "pt": "Facilitação e Inteligência Coletiva: Planejamento e moderação de 5 edições de rodas de conversa pela cidade (média de 20 participantes por encontro, engajando ~100 pessoas) utilizando abordagens de Art of Hosting (A Arte de Anfitriar) e Thinking Environment, aplicando dinâmicas como Aquário (Fishbowl) e círculos de diálogo.",
+        "en": "Facilitation & Collective Intelligence: Planned and moderated 5 community event editions across the city (average of 20 participants per meeting, engaging 100+ total attendees) utilizing Art of Hosting and Thinking Environment frameworks (Fishbowl dynamics and dialogue circles)."
+      },
+      "company_id": "company-conversas-brasileiras",
+      "size": 0.52,
+      "color": "#fbbf24"
+    },
+    {
+      "id": "metric-conversas-brasileiras-2",
+      "type": "Metric",
+      "labels": {
+        "pt": "20",
+        "en": "20"
+      },
+      "names": {
+        "pt": "participantes por encontro",
+        "en": "participants per event"
+      },
+      "contexts": {
+        "pt": "Facilitação e Inteligência Coletiva: Planejamento e moderação de 5 edições de rodas de conversa pela cidade (média de 20 participantes por encontro, engajando ~100 pessoas) utilizando abordagens de Art of Hosting (A Arte de Anfitriar) e Thinking Environment, aplicando dinâmicas como Aquário (Fishbowl) e círculos de diálogo.",
+        "en": "Facilitation & Collective Intelligence: Planned and moderated 5 community event editions across the city (average of 20 participants per meeting, engaging 100+ total attendees) utilizing Art of Hosting and Thinking Environment frameworks (Fishbowl dynamics and dialogue circles)."
+      },
+      "company_id": "company-conversas-brasileiras",
+      "size": 0.52,
+      "color": "#fbbf24"
+    },
+    {
+      "id": "metric-conversas-brasileiras-3",
+      "type": "Metric",
+      "labels": {
+        "pt": "~100",
+        "en": "~100"
+      },
+      "names": {
+        "pt": "pessoas engajadas",
+        "en": "people engaged"
+      },
+      "contexts": {
+        "pt": "Facilitação e Inteligência Coletiva: Planejamento e moderação de 5 edições de rodas de conversa pela cidade (média de 20 participantes por encontro, engajando ~100 pessoas) utilizando abordagens de Art of Hosting (A Arte de Anfitriar) e Thinking Environment, aplicando dinâmicas como Aquário (Fishbowl) e círculos de diálogo.",
+        "en": "Facilitation & Collective Intelligence: Planned and moderated 5 community event editions across the city (average of 20 participants per meeting, engaging 100+ total attendees) utilizing Art of Hosting and Thinking Environment frameworks (Fishbowl dynamics and dialogue circles)."
+      },
+      "company_id": "company-conversas-brasileiras",
+      "size": 0.52,
+      "color": "#fbbf24"
     }
   ],
   "edges": [
     {
-      "source": "node_1",
-      "target": "node_2",
-      "type": "WORKED_AS"
+      "source": "candidate",
+      "target": "company-wipro",
+      "type": "WORKED_AT"
     },
     {
-      "source": "node_2",
-      "target": "node_3",
+      "source": "company-wipro",
+      "target": "role-wipro-1",
       "type": "HAS_ROLE"
     },
     {
-      "source": "node_2",
-      "target": "node_4",
+      "source": "company-wipro",
+      "target": "role-wipro-2",
       "type": "HAS_ROLE"
     },
     {
-      "source": "node_2",
-      "target": "node_5",
-      "type": "HAS_SKILL"
+      "source": "candidate",
+      "target": "company-meu-barzin-startup",
+      "type": "WORKED_AT"
     },
     {
-      "source": "node_2",
-      "target": "node_6",
-      "type": "HAS_SKILL"
-    },
-    {
-      "source": "node_2",
-      "target": "node_7",
-      "type": "HAS_SKILL"
-    },
-    {
-      "source": "node_2",
-      "target": "node_8",
-      "type": "HAS_SKILL"
-    },
-    {
-      "source": "node_2",
-      "target": "node_9",
-      "type": "HAS_SKILL"
-    },
-    {
-      "source": "node_2",
-      "target": "node_10",
-      "type": "HAS_SKILL"
-    },
-    {
-      "source": "node_2",
-      "target": "node_11",
-      "type": "HAS_SKILL"
-    },
-    {
-      "source": "node_2",
-      "target": "node_12",
-      "type": "HAS_SKILL"
-    },
-    {
-      "source": "node_2",
-      "target": "node_13",
-      "type": "HAS_SKILL"
-    },
-    {
-      "source": "node_2",
-      "target": "node_14",
-      "type": "HAS_SKILL"
-    },
-    {
-      "source": "node_2",
-      "target": "node_15",
-      "type": "HAS_SKILL"
-    },
-    {
-      "source": "node_2",
-      "target": "node_16",
-      "type": "HAS_SKILL"
-    },
-    {
-      "source": "node_2",
-      "target": "node_17",
-      "type": "HAS_SKILL"
-    },
-    {
-      "source": "node_2",
-      "target": "node_18",
-      "type": "HAS_SKILL"
-    },
-    {
-      "source": "node_2",
-      "target": "node_19",
-      "type": "HAS_SKILL"
-    },
-    {
-      "source": "node_2",
-      "target": "node_20",
-      "type": "HAS_SKILL"
-    },
-    {
-      "source": "node_2",
-      "target": "node_21",
-      "type": "HAS_SKILL"
-    },
-    {
-      "source": "node_2",
-      "target": "node_22",
-      "type": "HAS_SKILL"
-    },
-    {
-      "source": "node_2",
-      "target": "node_23",
-      "type": "HAS_SKILL"
-    },
-    {
-      "source": "node_2",
-      "target": "node_24",
-      "type": "HAS_SKILL"
-    },
-    {
-      "source": "node_2",
-      "target": "node_25",
-      "type": "HAS_SKILL"
-    },
-    {
-      "source": "node_2",
-      "target": "node_26",
-      "type": "HAS_SKILL"
-    },
-    {
-      "source": "node_2",
-      "target": "node_27",
-      "type": "HAS_SKILL"
-    },
-    {
-      "source": "node_2",
-      "target": "node_28",
-      "type": "HAS_SKILL"
-    },
-    {
-      "source": "node_2",
-      "target": "node_29",
-      "type": "HAS_SKILL"
-    },
-    {
-      "source": "node_2",
-      "target": "node_30",
-      "type": "HAS_SKILL"
-    },
-    {
-      "source": "node_2",
-      "target": "node_31",
-      "type": "HAS_SKILL"
-    },
-    {
-      "source": "node_2",
-      "target": "node_32",
-      "type": "HAS_SKILL"
-    },
-    {
-      "source": "node_2",
-      "target": "node_33",
-      "type": "HAS_SKILL"
-    },
-    {
-      "source": "node_2",
-      "target": "node_34",
-      "type": "HAS_SKILL"
-    },
-    {
-      "source": "node_2",
-      "target": "node_35",
-      "type": "HAS_SKILL"
-    },
-    {
-      "source": "node_2",
-      "target": "node_36",
-      "type": "HAS_SKILL"
-    },
-    {
-      "source": "node_2",
-      "target": "node_37",
-      "type": "HAS_SKILL"
-    },
-    {
-      "source": "node_2",
-      "target": "node_38",
-      "type": "HAS_SKILL"
-    },
-    {
-      "source": "node_2",
-      "target": "node_39",
-      "type": "HAS_SKILL"
-    },
-    {
-      "source": "node_2",
-      "target": "node_40",
-      "type": "HAS_SKILL"
-    },
-    {
-      "source": "node_2",
-      "target": "node_41",
-      "type": "HAS_SKILL"
-    },
-    {
-      "source": "node_2",
-      "target": "node_42",
-      "type": "HAS_SKILL"
-    },
-    {
-      "source": "node_2",
-      "target": "node_43",
-      "type": "HAS_SKILL"
-    },
-    {
-      "source": "node_2",
-      "target": "node_44",
-      "type": "HAS_METRIC"
-    },
-    {
-      "source": "node_2",
-      "target": "node_45",
-      "type": "HAS_METRIC"
-    },
-    {
-      "source": "node_2",
-      "target": "node_46",
-      "type": "HAS_METRIC"
-    },
-    {
-      "source": "node_2",
-      "target": "node_47",
-      "type": "HAS_METRIC"
-    },
-    {
-      "source": "node_2",
-      "target": "node_48",
-      "type": "HAS_METRIC"
-    },
-    {
-      "source": "node_2",
-      "target": "node_49",
-      "type": "HAS_METRIC"
-    },
-    {
-      "source": "node_2",
-      "target": "node_50",
-      "type": "HAS_METRIC"
-    },
-    {
-      "source": "node_1",
-      "target": "node_51",
-      "type": "WORKED_AS"
-    },
-    {
-      "source": "node_51",
-      "target": "node_52",
+      "source": "company-meu-barzin-startup",
+      "target": "role-meu-barzin-startup-1",
       "type": "HAS_ROLE"
     },
     {
-      "source": "node_51",
-      "target": "node_53",
+      "source": "company-meu-barzin-startup",
+      "target": "role-meu-barzin-startup-2",
       "type": "HAS_ROLE"
     },
     {
-      "source": "node_51",
-      "target": "node_54",
-      "type": "HAS_SKILL"
+      "source": "candidate",
+      "target": "company-ak-branding-web-design",
+      "type": "WORKED_AT"
     },
     {
-      "source": "node_51",
-      "target": "node_55",
-      "type": "HAS_SKILL"
-    },
-    {
-      "source": "node_51",
-      "target": "node_56",
-      "type": "HAS_SKILL"
-    },
-    {
-      "source": "node_51",
-      "target": "node_57",
-      "type": "HAS_SKILL"
-    },
-    {
-      "source": "node_51",
-      "target": "node_58",
-      "type": "HAS_SKILL"
-    },
-    {
-      "source": "node_51",
-      "target": "node_59",
-      "type": "HAS_SKILL"
-    },
-    {
-      "source": "node_51",
-      "target": "node_60",
-      "type": "HAS_SKILL"
-    },
-    {
-      "source": "node_51",
-      "target": "node_61",
-      "type": "HAS_SKILL"
-    },
-    {
-      "source": "node_51",
-      "target": "node_62",
-      "type": "HAS_SKILL"
-    },
-    {
-      "source": "node_51",
-      "target": "node_63",
-      "type": "HAS_SKILL"
-    },
-    {
-      "source": "node_51",
-      "target": "node_64",
-      "type": "HAS_SKILL"
-    },
-    {
-      "source": "node_51",
-      "target": "node_65",
-      "type": "HAS_SKILL"
-    },
-    {
-      "source": "node_51",
-      "target": "node_66",
-      "type": "HAS_SKILL"
-    },
-    {
-      "source": "node_51",
-      "target": "node_67",
-      "type": "HAS_SKILL"
-    },
-    {
-      "source": "node_51",
-      "target": "node_68",
-      "type": "HAS_SKILL"
-    },
-    {
-      "source": "node_51",
-      "target": "node_69",
-      "type": "HAS_SKILL"
-    },
-    {
-      "source": "node_51",
-      "target": "node_70",
-      "type": "HAS_SKILL"
-    },
-    {
-      "source": "node_51",
-      "target": "node_71",
-      "type": "HAS_SKILL"
-    },
-    {
-      "source": "node_51",
-      "target": "node_72",
-      "type": "HAS_SKILL"
-    },
-    {
-      "source": "node_51",
-      "target": "node_73",
-      "type": "HAS_SKILL"
-    },
-    {
-      "source": "node_51",
-      "target": "node_74",
-      "type": "HAS_SKILL"
-    },
-    {
-      "source": "node_51",
-      "target": "node_75",
-      "type": "HAS_SKILL"
-    },
-    {
-      "source": "node_51",
-      "target": "node_76",
-      "type": "HAS_SKILL"
-    },
-    {
-      "source": "node_51",
-      "target": "node_77",
-      "type": "HAS_METRIC"
-    },
-    {
-      "source": "node_51",
-      "target": "node_78",
-      "type": "HAS_METRIC"
-    },
-    {
-      "source": "node_51",
-      "target": "node_79",
-      "type": "HAS_METRIC"
-    },
-    {
-      "source": "node_51",
-      "target": "node_80",
-      "type": "HAS_METRIC"
-    },
-    {
-      "source": "node_51",
-      "target": "node_81",
-      "type": "HAS_METRIC"
-    },
-    {
-      "source": "node_1",
-      "target": "node_82",
-      "type": "WORKED_AS"
-    },
-    {
-      "source": "node_82",
-      "target": "node_83",
+      "source": "company-ak-branding-web-design",
+      "target": "role-ak-branding-web-design-1",
       "type": "HAS_ROLE"
     },
     {
-      "source": "node_82",
-      "target": "node_84",
+      "source": "company-ak-branding-web-design",
+      "target": "role-ak-branding-web-design-2",
       "type": "HAS_ROLE"
     },
     {
-      "source": "node_82",
-      "target": "node_85",
-      "type": "HAS_SKILL"
+      "source": "candidate",
+      "target": "company-munzner",
+      "type": "WORKED_AT"
     },
     {
-      "source": "node_82",
-      "target": "node_86",
-      "type": "HAS_SKILL"
-    },
-    {
-      "source": "node_82",
-      "target": "node_87",
-      "type": "HAS_SKILL"
-    },
-    {
-      "source": "node_82",
-      "target": "node_88",
-      "type": "HAS_SKILL"
-    },
-    {
-      "source": "node_82",
-      "target": "node_89",
-      "type": "HAS_SKILL"
-    },
-    {
-      "source": "node_82",
-      "target": "node_90",
-      "type": "HAS_SKILL"
-    },
-    {
-      "source": "node_82",
-      "target": "node_91",
-      "type": "HAS_SKILL"
-    },
-    {
-      "source": "node_82",
-      "target": "node_92",
-      "type": "HAS_SKILL"
-    },
-    {
-      "source": "node_82",
-      "target": "node_93",
-      "type": "HAS_SKILL"
-    },
-    {
-      "source": "node_82",
-      "target": "node_94",
-      "type": "HAS_SKILL"
-    },
-    {
-      "source": "node_82",
-      "target": "node_95",
-      "type": "HAS_SKILL"
-    },
-    {
-      "source": "node_82",
-      "target": "node_96",
-      "type": "HAS_SKILL"
-    },
-    {
-      "source": "node_82",
-      "target": "node_97",
-      "type": "HAS_SKILL"
-    },
-    {
-      "source": "node_82",
-      "target": "node_98",
-      "type": "HAS_SKILL"
-    },
-    {
-      "source": "node_82",
-      "target": "node_99",
-      "type": "HAS_SKILL"
-    },
-    {
-      "source": "node_82",
-      "target": "node_100",
-      "type": "HAS_SKILL"
-    },
-    {
-      "source": "node_82",
-      "target": "node_101",
-      "type": "HAS_SKILL"
-    },
-    {
-      "source": "node_82",
-      "target": "node_102",
-      "type": "HAS_SKILL"
-    },
-    {
-      "source": "node_82",
-      "target": "node_103",
-      "type": "HAS_SKILL"
-    },
-    {
-      "source": "node_82",
-      "target": "node_104",
-      "type": "HAS_SKILL"
-    },
-    {
-      "source": "node_82",
-      "target": "node_105",
-      "type": "HAS_METRIC"
-    },
-    {
-      "source": "node_82",
-      "target": "node_106",
-      "type": "HAS_METRIC"
-    },
-    {
-      "source": "node_82",
-      "target": "node_107",
-      "type": "HAS_METRIC"
-    },
-    {
-      "source": "node_82",
-      "target": "node_108",
-      "type": "HAS_METRIC"
-    },
-    {
-      "source": "node_82",
-      "target": "node_109",
-      "type": "HAS_METRIC"
-    },
-    {
-      "source": "node_82",
-      "target": "node_110",
-      "type": "HAS_METRIC"
-    },
-    {
-      "source": "node_1",
-      "target": "node_111",
-      "type": "WORKED_AS"
-    },
-    {
-      "source": "node_111",
-      "target": "node_112",
+      "source": "company-munzner",
+      "target": "role-munzner-1",
       "type": "HAS_ROLE"
     },
     {
-      "source": "node_111",
-      "target": "node_113",
+      "source": "company-munzner",
+      "target": "role-munzner-2",
       "type": "HAS_ROLE"
     },
     {
-      "source": "node_111",
-      "target": "node_114",
+      "source": "company-munzner",
+      "target": "role-munzner-3",
       "type": "HAS_ROLE"
     },
     {
-      "source": "node_111",
-      "target": "node_115",
+      "source": "company-munzner",
+      "target": "role-munzner-4",
       "type": "HAS_ROLE"
     },
     {
-      "source": "node_111",
-      "target": "node_116",
-      "type": "HAS_SKILL"
+      "source": "candidate",
+      "target": "company-conversas-brasileiras",
+      "type": "WORKED_AT"
     },
     {
-      "source": "node_111",
-      "target": "node_117",
-      "type": "HAS_SKILL"
+      "source": "company-conversas-brasileiras",
+      "target": "role-conversas-brasileiras-1",
+      "type": "HAS_ROLE"
     },
     {
-      "source": "node_111",
-      "target": "node_118",
-      "type": "HAS_SKILL"
+      "source": "candidate",
+      "target": "company-alvesa-transportes-log-stica-ltda",
+      "type": "WORKED_AT"
     },
     {
-      "source": "node_111",
-      "target": "node_119",
-      "type": "HAS_SKILL"
+      "source": "company-alvesa-transportes-log-stica-ltda",
+      "target": "role-alvesa-transportes-log-stica-ltda-1",
+      "type": "HAS_ROLE"
     },
     {
-      "source": "node_111",
-      "target": "node_120",
-      "type": "HAS_SKILL"
+      "source": "company-ak-branding-web-design",
+      "target": "skill-ab-testing",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
     },
     {
-      "source": "node_111",
-      "target": "node_121",
-      "type": "HAS_SKILL"
+      "source": "company-munzner",
+      "target": "skill-acquisition",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
     },
     {
-      "source": "node_111",
-      "target": "node_122",
-      "type": "HAS_SKILL"
+      "source": "company-alvesa-transportes-log-stica-ltda",
+      "target": "skill-admin",
+      "type": "DEMONSTRATES",
+      "evidence_count": 2
     },
     {
-      "source": "node_111",
-      "target": "node_123",
-      "type": "HAS_SKILL"
+      "source": "company-wipro",
+      "target": "skill-ads",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
     },
     {
-      "source": "node_111",
-      "target": "node_124",
-      "type": "HAS_SKILL"
+      "source": "company-ak-branding-web-design",
+      "target": "skill-agency-management",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
     },
     {
-      "source": "node_111",
-      "target": "node_125",
-      "type": "HAS_SKILL"
+      "source": "company-wipro",
+      "target": "skill-agile",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
     },
     {
-      "source": "node_111",
-      "target": "node_126",
-      "type": "HAS_SKILL"
+      "source": "company-meu-barzin-startup",
+      "target": "skill-ai",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
     },
     {
-      "source": "node_111",
-      "target": "node_127",
-      "type": "HAS_SKILL"
+      "source": "company-wipro",
+      "target": "skill-ai",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
     },
     {
-      "source": "node_111",
-      "target": "node_128",
-      "type": "HAS_SKILL"
+      "source": "company-wipro",
+      "target": "skill-ai-implementation",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
     },
     {
-      "source": "node_111",
-      "target": "node_129",
-      "type": "HAS_SKILL"
+      "source": "company-wipro",
+      "target": "skill-analytics",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
     },
     {
-      "source": "node_111",
-      "target": "node_130",
-      "type": "HAS_SKILL"
+      "source": "company-conversas-brasileiras",
+      "target": "skill-art-of-hosting",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
     },
     {
-      "source": "node_111",
-      "target": "node_131",
-      "type": "HAS_SKILL"
+      "source": "company-meu-barzin-startup",
+      "target": "skill-automation",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
     },
     {
-      "source": "node_111",
-      "target": "node_132",
-      "type": "HAS_SKILL"
+      "source": "company-munzner",
+      "target": "skill-automation",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
     },
     {
-      "source": "node_111",
-      "target": "node_133",
+      "source": "company-conversas-brasileiras",
+      "target": "skill-b2b",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "company-meu-barzin-startup",
+      "target": "skill-b2b",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "company-wipro",
+      "target": "skill-backlog",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "company-wipro",
+      "target": "skill-bcp",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "company-wipro",
+      "target": "skill-bootcamp",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "company-ak-branding-web-design",
+      "target": "skill-branding",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "company-ak-branding-web-design",
+      "target": "skill-budget",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "company-conversas-brasileiras",
+      "target": "skill-business-development",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "company-meu-barzin-startup",
+      "target": "skill-business-development",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "company-meu-barzin-startup",
+      "target": "skill-business-model",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "company-conversas-brasileiras",
+      "target": "skill-business-models",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "company-ak-branding-web-design",
+      "target": "skill-chatbots",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "company-wipro",
+      "target": "skill-coaching",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "company-wipro",
+      "target": "skill-collaboration",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "company-conversas-brasileiras",
+      "target": "skill-collective-intelligence",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "company-conversas-brasileiras",
+      "target": "skill-community",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "company-conversas-brasileiras",
+      "target": "skill-community-management",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "company-wipro",
+      "target": "skill-compliance",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "company-conversas-brasileiras",
+      "target": "skill-content-creation",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "company-munzner",
+      "target": "skill-content-marketing",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "company-ak-branding-web-design",
+      "target": "skill-controls",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "company-alvesa-transportes-log-stica-ltda",
+      "target": "skill-coordination",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "company-munzner",
+      "target": "skill-copywriting",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "company-meu-barzin-startup",
+      "target": "skill-crm",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "company-munzner",
+      "target": "skill-crm",
+      "type": "DEMONSTRATES",
+      "evidence_count": 2
+    },
+    {
+      "source": "company-wipro",
+      "target": "skill-crm",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "company-wipro",
+      "target": "skill-crm-enablement",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "company-ak-branding-web-design",
+      "target": "skill-cro",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "company-meu-barzin-startup",
+      "target": "skill-cro",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "company-wipro",
+      "target": "skill-cross-functional",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "company-wipro",
+      "target": "skill-data",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "company-meu-barzin-startup",
+      "target": "skill-data-strategy",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "company-meu-barzin-startup",
+      "target": "skill-discovery",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "company-wipro",
+      "target": "skill-documentation",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "company-ak-branding-web-design",
+      "target": "skill-e-commerce",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "company-munzner",
+      "target": "skill-e-learning",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "company-munzner",
+      "target": "skill-email-marketing",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "company-conversas-brasileiras",
+      "target": "skill-experimentation",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "company-conversas-brasileiras",
+      "target": "skill-facilitation",
+      "type": "DEMONSTRATES",
+      "evidence_count": 2
+    },
+    {
+      "source": "company-alvesa-transportes-log-stica-ltda",
+      "target": "skill-finance",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "company-meu-barzin-startup",
+      "target": "skill-funnel",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "company-wipro",
+      "target": "skill-governance",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "company-ak-branding-web-design",
+      "target": "skill-growth",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "company-meu-barzin-startup",
+      "target": "skill-growth",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "company-munzner",
+      "target": "skill-high-ticket",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "company-munzner",
+      "target": "skill-inbound",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "company-munzner",
+      "target": "skill-infoproduct",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "company-ak-branding-web-design",
+      "target": "skill-lead-generation",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "company-wipro",
+      "target": "skill-leadership",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "company-meu-barzin-startup",
+      "target": "skill-learning",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "company-ak-branding-web-design",
+      "target": "skill-lgpd",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "company-alvesa-transportes-log-stica-ltda",
+      "target": "skill-logistics",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "company-alvesa-transportes-log-stica-ltda",
+      "target": "skill-marketing",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "company-wipro",
+      "target": "skill-marketing",
+      "type": "DEMONSTRATES",
+      "evidence_count": 2
+    },
+    {
+      "source": "company-wipro",
+      "target": "skill-methodology",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "company-meu-barzin-startup",
+      "target": "skill-metrics",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "company-ak-branding-web-design",
+      "target": "skill-monetization",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "company-meu-barzin-startup",
+      "target": "skill-monetization",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "company-munzner",
+      "target": "skill-monetization",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "company-munzner",
+      "target": "skill-narratives",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "company-meu-barzin-startup",
+      "target": "skill-nocodb",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "company-wipro",
+      "target": "skill-okr",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "company-alvesa-transportes-log-stica-ltda",
+      "target": "skill-ops",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "company-wipro",
+      "target": "skill-ops",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "company-ak-branding-web-design",
+      "target": "skill-paid-media",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "company-conversas-brasileiras",
+      "target": "skill-partnerships",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "company-wipro",
+      "target": "skill-playbooks",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "company-wipro",
+      "target": "skill-pmo",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "company-meu-barzin-startup",
+      "target": "skill-postgresql",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "company-wipro",
+      "target": "skill-power-bi",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "company-conversas-brasileiras",
+      "target": "skill-pricing",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "company-wipro",
+      "target": "skill-prioritization",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "company-meu-barzin-startup",
+      "target": "skill-product-architecture",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "company-wipro",
+      "target": "skill-product-positioning",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "company-meu-barzin-startup",
+      "target": "skill-product-strategy",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "company-wipro",
+      "target": "skill-project-management",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "company-wipro",
+      "target": "skill-prompt-engineering",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "company-wipro",
+      "target": "skill-quality-assurance",
+      "type": "DEMONSTRATES",
+      "evidence_count": 2
+    },
+    {
+      "source": "company-wipro",
+      "target": "skill-ramp-up",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "company-alvesa-transportes-log-stica-ltda",
+      "target": "skill-recruitment",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "company-munzner",
+      "target": "skill-revenue-analytics",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "company-wipro",
+      "target": "skill-roadmap",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "company-munzner",
+      "target": "skill-roi",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "company-wipro",
+      "target": "skill-root-cause-analysis",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "company-meu-barzin-startup",
+      "target": "skill-sales",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "company-wipro",
+      "target": "skill-sales",
+      "type": "DEMONSTRATES",
+      "evidence_count": 2
+    },
+    {
+      "source": "company-wipro",
+      "target": "skill-sales-enablement",
+      "type": "DEMONSTRATES",
+      "evidence_count": 2
+    },
+    {
+      "source": "company-wipro",
+      "target": "skill-security",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "company-ak-branding-web-design",
+      "target": "skill-seo",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "company-munzner",
+      "target": "skill-seo",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "company-conversas-brasileiras",
+      "target": "skill-social-innovation",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "company-alvesa-transportes-log-stica-ltda",
+      "target": "skill-social-media",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "company-meu-barzin-startup",
+      "target": "skill-sql",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "company-wipro",
+      "target": "skill-squad",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "company-meu-barzin-startup",
+      "target": "skill-supabase",
+      "type": "DEMONSTRATES",
+      "evidence_count": 2
+    },
+    {
+      "source": "company-alvesa-transportes-log-stica-ltda",
+      "target": "skill-support",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "company-wipro",
+      "target": "skill-technical-reference",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "company-munzner",
+      "target": "skill-thinking-environment",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "company-ak-branding-web-design",
+      "target": "skill-timeline",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "company-alvesa-transportes-log-stica-ltda",
+      "target": "skill-tracking",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "company-wipro",
+      "target": "skill-training",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "company-munzner",
+      "target": "skill-tripwire",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "company-meu-barzin-startup",
+      "target": "skill-ux",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "company-ak-branding-web-design",
+      "target": "skill-ux-ui",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "company-ak-branding-web-design",
+      "target": "skill-volume",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "company-ak-branding-web-design",
+      "target": "skill-web-design",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "company-ak-branding-web-design",
+      "target": "skill-web-development",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "company-meu-barzin-startup",
+      "target": "skill-web-scraping",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "company-ak-branding-web-design",
+      "target": "skill-zero-to-one",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "company-wipro",
+      "target": "metric-wipro-1",
       "type": "HAS_METRIC"
     },
     {
-      "source": "node_111",
-      "target": "node_134",
+      "source": "company-wipro",
+      "target": "metric-wipro-2",
       "type": "HAS_METRIC"
     },
     {
-      "source": "node_111",
-      "target": "node_135",
+      "source": "company-wipro",
+      "target": "metric-wipro-3",
       "type": "HAS_METRIC"
     },
     {
-      "source": "node_1",
-      "target": "node_136",
-      "type": "WORKED_AS"
+      "source": "company-wipro",
+      "target": "metric-wipro-4",
+      "type": "HAS_METRIC"
     },
     {
-      "source": "node_136",
-      "target": "node_137",
-      "type": "HAS_ROLE"
+      "source": "company-wipro",
+      "target": "metric-wipro-5",
+      "type": "HAS_METRIC"
     },
     {
-      "source": "node_136",
-      "target": "node_138",
-      "type": "HAS_SKILL"
+      "source": "company-wipro",
+      "target": "metric-wipro-6",
+      "type": "HAS_METRIC"
     },
     {
-      "source": "node_136",
-      "target": "node_139",
-      "type": "HAS_SKILL"
+      "source": "company-wipro",
+      "target": "metric-wipro-7",
+      "type": "HAS_METRIC"
     },
     {
-      "source": "node_136",
-      "target": "node_140",
-      "type": "HAS_SKILL"
+      "source": "company-wipro",
+      "target": "metric-wipro-8",
+      "type": "HAS_METRIC"
     },
     {
-      "source": "node_136",
-      "target": "node_141",
-      "type": "HAS_SKILL"
+      "source": "company-wipro",
+      "target": "metric-wipro-9",
+      "type": "HAS_METRIC"
     },
     {
-      "source": "node_136",
-      "target": "node_142",
-      "type": "HAS_SKILL"
+      "source": "company-meu-barzin-startup",
+      "target": "metric-meu-barzin-startup-1",
+      "type": "HAS_METRIC"
     },
     {
-      "source": "node_136",
-      "target": "node_143",
-      "type": "HAS_SKILL"
+      "source": "company-meu-barzin-startup",
+      "target": "metric-meu-barzin-startup-2",
+      "type": "HAS_METRIC"
     },
     {
-      "source": "node_136",
-      "target": "node_144",
-      "type": "HAS_SKILL"
+      "source": "company-meu-barzin-startup",
+      "target": "metric-meu-barzin-startup-3",
+      "type": "HAS_METRIC"
     },
     {
-      "source": "node_136",
-      "target": "node_145",
-      "type": "HAS_SKILL"
+      "source": "company-meu-barzin-startup",
+      "target": "metric-meu-barzin-startup-4",
+      "type": "HAS_METRIC"
     },
     {
-      "source": "node_136",
-      "target": "node_146",
-      "type": "HAS_SKILL"
+      "source": "company-meu-barzin-startup",
+      "target": "metric-meu-barzin-startup-5",
+      "type": "HAS_METRIC"
     },
     {
-      "source": "node_136",
-      "target": "node_147",
-      "type": "HAS_SKILL"
+      "source": "company-ak-branding-web-design",
+      "target": "metric-ak-branding-web-design-1",
+      "type": "HAS_METRIC"
     },
     {
-      "source": "node_136",
-      "target": "node_148",
-      "type": "HAS_SKILL"
+      "source": "company-ak-branding-web-design",
+      "target": "metric-ak-branding-web-design-2",
+      "type": "HAS_METRIC"
     },
     {
-      "source": "node_136",
-      "target": "node_149",
-      "type": "HAS_SKILL"
+      "source": "company-ak-branding-web-design",
+      "target": "metric-ak-branding-web-design-3",
+      "type": "HAS_METRIC"
     },
     {
-      "source": "node_136",
-      "target": "node_150",
-      "type": "HAS_SKILL"
+      "source": "company-ak-branding-web-design",
+      "target": "metric-ak-branding-web-design-4",
+      "type": "HAS_METRIC"
     },
     {
-      "source": "node_1",
-      "target": "node_151",
-      "type": "WORKED_AS"
+      "source": "company-ak-branding-web-design",
+      "target": "metric-ak-branding-web-design-5",
+      "type": "HAS_METRIC"
     },
     {
-      "source": "node_151",
-      "target": "node_152",
-      "type": "HAS_ROLE"
+      "source": "company-ak-branding-web-design",
+      "target": "metric-ak-branding-web-design-6",
+      "type": "HAS_METRIC"
     },
     {
-      "source": "node_151",
-      "target": "node_153",
-      "type": "HAS_SKILL"
+      "source": "company-munzner",
+      "target": "metric-munzner-1",
+      "type": "HAS_METRIC"
     },
     {
-      "source": "node_151",
-      "target": "node_154",
-      "type": "HAS_SKILL"
+      "source": "company-munzner",
+      "target": "metric-munzner-2",
+      "type": "HAS_METRIC"
     },
     {
-      "source": "node_151",
-      "target": "node_155",
-      "type": "HAS_SKILL"
+      "source": "company-munzner",
+      "target": "metric-munzner-3",
+      "type": "HAS_METRIC"
     },
     {
-      "source": "node_151",
-      "target": "node_156",
-      "type": "HAS_SKILL"
+      "source": "company-munzner",
+      "target": "metric-munzner-4",
+      "type": "HAS_METRIC"
     },
     {
-      "source": "node_151",
-      "target": "node_157",
-      "type": "HAS_SKILL"
+      "source": "company-munzner",
+      "target": "metric-munzner-5",
+      "type": "HAS_METRIC"
     },
     {
-      "source": "node_151",
-      "target": "node_158",
-      "type": "HAS_SKILL"
+      "source": "company-munzner",
+      "target": "metric-munzner-6",
+      "type": "HAS_METRIC"
     },
     {
-      "source": "node_151",
-      "target": "node_159",
-      "type": "HAS_SKILL"
+      "source": "company-munzner",
+      "target": "metric-munzner-7",
+      "type": "HAS_METRIC"
     },
     {
-      "source": "node_151",
-      "target": "node_160",
-      "type": "HAS_SKILL"
+      "source": "company-munzner",
+      "target": "metric-munzner-8",
+      "type": "HAS_METRIC"
     },
     {
-      "source": "node_151",
-      "target": "node_161",
-      "type": "HAS_SKILL"
+      "source": "company-conversas-brasileiras",
+      "target": "metric-conversas-brasileiras-1",
+      "type": "HAS_METRIC"
     },
     {
-      "source": "node_151",
-      "target": "node_162",
-      "type": "HAS_SKILL"
+      "source": "company-conversas-brasileiras",
+      "target": "metric-conversas-brasileiras-2",
+      "type": "HAS_METRIC"
+    },
+    {
+      "source": "company-conversas-brasileiras",
+      "target": "metric-conversas-brasileiras-3",
+      "type": "HAS_METRIC"
     }
   ],
   "categories": {
-    "Product & Strategy": "#4a9eff",
-    "Growth & Marketing": "#00d4aa",
-    "AI & Automation": "#a855f7",
-    "Data & Analytics": "#ff8c42",
-    "Sales Enablement": "#ef4444",
-    "Tools & Platforms": "#fbbf24",
-    "Leadership & Ops": "#38bdf8",
-    "Quality & Governance": "#f472b6",
-    "Facilitation & Community": "#34d399",
-    "Uncategorized": "#94a3b8"
+    "product": {
+      "pt": "Produto e Estratégia",
+      "en": "Product & Strategy",
+      "color": "#4a9eff"
+    },
+    "growth": {
+      "pt": "Growth e Marketing",
+      "en": "Growth & Marketing",
+      "color": "#00d4aa"
+    },
+    "ai": {
+      "pt": "IA e Automação",
+      "en": "AI & Automation",
+      "color": "#a855f7"
+    },
+    "data": {
+      "pt": "Dados e Analytics",
+      "en": "Data & Analytics",
+      "color": "#ff8c42"
+    },
+    "sales": {
+      "pt": "Vendas e Enablement",
+      "en": "Sales & Enablement",
+      "color": "#ef4444"
+    },
+    "operations": {
+      "pt": "Liderança e Operações",
+      "en": "Leadership & Operations",
+      "color": "#38bdf8"
+    },
+    "quality": {
+      "pt": "Qualidade e Governança",
+      "en": "Quality & Governance",
+      "color": "#f472b6"
+    },
+    "facilitation": {
+      "pt": "Facilitação e Comunidade",
+      "en": "Facilitation & Community",
+      "color": "#34d399"
+    }
   },
   "stats": {
-    "total_nodes": 162,
-    "total_edges": 161,
-    "total_skills": 122,
+    "total_nodes": 158,
+    "total_edges": 171,
+    "total_skills": 108,
     "total_companies": 6,
-    "total_metrics": 21,
-    "source": "master_resume.json"
+    "total_metrics": 31,
+    "total_roles": 12
   }
 }

@@ -2,10 +2,8 @@
 Career OS — Brain Insights Component
 Renders analytics below the Brain Visualizer (expanders, PT-BR).
 
-IMPORTANTE: os insights abaixo são derivados EXCLUSIVAMENTE de
-`data/graph_clean.json`, que por sua vez é extraído 1:1 de
-`master_resume.json` (fonte única de verdade). Nada aqui é inventado:
-toda skill/metrica tem evidência no currículo de origem.
+Os insights abaixo são derivados da projeção determinística
+`data/graph_clean.json`, gerada a partir de `master_resume.json`.
 """
 
 from __future__ import annotations
@@ -16,9 +14,6 @@ from collections import Counter
 
 import pandas as pd
 import streamlit as st
-
-from engine.graph_engine import GraphEngine
-from engine.schemas_graph import NodeType
 
 # Caminho para o grafo limpo (relativo a este arquivo -> ../../data/graph_clean.json)
 _HERE = os.path.dirname(os.path.abspath(__file__))
@@ -41,11 +36,16 @@ def _by_type(data: Dict[str, Any], t: str) -> List[Dict[str, Any]]:
     return [n for n in data["nodes"] if n.get("type") == t]
 
 
-def render_brain_insights(engine: GraphEngine):
+def _label(node: Dict[str, Any], language: str = "pt") -> str:
+    labels = node.get("labels", {})
+    if isinstance(labels, dict):
+        return labels.get(language) or labels.get("pt") or labels.get("en") or node.get("id", "")
+    return str(labels or node.get("label", node.get("id", "")))
+
+
+def render_brain_insights():
     """
-    Render the full insights section below the brain visualizer.
-    Mantém o mesmo modelo visual do Streamlit (KPIs + expanders),
-    mas os números vêm do grafo limpo (master_resume.json).
+    Render the insights section from the canonical graph projection.
     """
     data = _load_clean()
     nodes = data.get("nodes", [])
@@ -73,14 +73,15 @@ def render_brain_insights(engine: GraphEngine):
     with st.expander("🏆 Skills por empresa", expanded=True):
         rows = []
         for c in companies:
-            name = c["label"]
-            c_skills = [s for s in skills if s.get("company") == name]
-            c_metrics = [m for m in metrics if m.get("company") == name]
+            company_id = c["id"]
+            name = _label(c)
+            c_skills = [s for s in skills if company_id in s.get("companies", [])]
+            c_metrics = [m for m in metrics if m.get("company_id") == company_id]
             rows.append({
                 "Empresa": name,
                 "Skills": len(c_skills),
                 "Métricas": len(c_metrics),
-                "Detalhe": c.get("details", ""),
+                "Período": c.get("dates", {}).get("pt", ""),
             })
         df = _df(rows)
         st.bar_chart(df.set_index("Empresa")["Skills"])
@@ -95,31 +96,28 @@ def render_brain_insights(engine: GraphEngine):
     with st.expander("📊 Métricas reais por empresa"):
         if metrics:
             for c in companies:
-                name = c["label"]
-                c_metrics = [m for m in metrics if m.get("company") == name]
+                company_id = c["id"]
+                name = _label(c)
+                c_metrics = [m for m in metrics if m.get("company_id") == company_id]
                 if not c_metrics:
                     continue
                 st.markdown(f"**{name}** — {len(c_metrics)} métrica(s)")
                 for m in c_metrics:
-                    ctx = (m.get("context") or m.get("details") or "")
+                    ctx = m.get("contexts", {}).get("pt", "")
                     ctx = ctx[:140] + ("…" if len(ctx) > 140 else "")
-                    st.markdown(f"- `{m['label']}` — {ctx}")
+                    metric_name = m.get("names", {}).get("pt", "")
+                    st.markdown(f"- `{_label(m)}` **{metric_name}** — {ctx}")
         else:
             st.info("Nenhuma métrica registrada no grafo limpo.")
 
     # ---------- 3. Skills mais comprovadas ----------
     with st.expander("🎯 Skills mais comprovadas (nº de evidências)"):
-        ev = sorted(
-            skills,
-            key=lambda s: (s.get("evidence_count", 0), s.get("level", 0)),
-            reverse=True,
-        )
+        ev = sorted(skills, key=lambda s: s.get("evidence_count", 0), reverse=True)
         if ev:
             rows = [{
-                "Skill": s["label"],
-                "Empresa": s.get("company", "—"),
-                "Categoria": s.get("category", "—"),
-                "Nível": f"{s.get('level', '?')}/5",
+                "Skill": _label(s),
+                "Empresas": len(s.get("companies", [])),
+                "Categoria": s.get("category_labels", {}).get("pt", "—"),
                 "Evidências": s.get("evidence_count", 0),
             } for s in ev[:15]]
             df = _df(rows)
@@ -127,23 +125,23 @@ def render_brain_insights(engine: GraphEngine):
             st.dataframe(df, width="stretch", hide_index=True)
             top = ev[0]
             st.caption(
-                f"🥇 **{top['label']}** ({top.get('company')}) é sua skill mais comprovada "
-                f"no currículo, com {top.get('evidence_count', 0)} evidências."
+                f"🥇 **{_label(top)}** é a skill mais recorrente no histórico, com "
+                f"{top.get('evidence_count', 0)} evidências em {len(top.get('companies', []))} empresa(s)."
             )
         else:
             st.info("Nenhuma skill com evidência registrada ainda.")
 
     # ---------- 4. Perfil de competências por categoria ----------
     with st.expander("🧬 Perfil de competências por categoria"):
-        cat = Counter(s.get("category", "—") for s in skills)
+        cat = Counter(s.get("category_labels", {}).get("pt", "—") for s in skills)
         if cat:
             rows = [{"Categoria": k, "Skills": v} for k, v in cat.most_common()]
             df = _df(rows)
             st.bar_chart(df.set_index("Categoria")["Skills"])
             st.dataframe(df, width="stretch", hide_index=True)
             st.caption(
-                "Distribuição honesta: reflexo direto do que está no master_resume.json, "
-                "sem inflar níveis."
+                "Categorias aplicadas às tags de evidência do currículo mestre, sem níveis "
+                "de proficiência ou anos de experiência inferidos."
             )
 
     # ---------- 5. Saúde do grafo (conectividade real) ----------
@@ -180,7 +178,7 @@ def render_brain_insights(engine: GraphEngine):
 
         st.markdown("**🛠️ Como regenerar**")
         st.info(
-            "Os insights são derivados de `data/graph_clean.json`, extraído 1:1 de "
-            "`master_resume.json`. Para atualizar: edite o master, reexecute o extrator "
-            "e recarregue o app — sem IA inventando skills no meio do caminho."
+            "Os insights são derivados de `data/graph_clean.json`. Para atualizar após editar "
+            "o currículo mestre, execute `py -3.12 scripts/build_professional_graph.py` e "
+            "recarregue o app."
         )

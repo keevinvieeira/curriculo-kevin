@@ -25,7 +25,6 @@ try:
         AdaptedResume,
         JobMaterials
     )
-    from engine.graph_engine import GraphEngine
     from job_store import load_active_job
     from components.brain_insights import render_brain_insights
 except Exception as e:
@@ -160,20 +159,7 @@ st.markdown("""
 # Local files paths
 LOCAL_METADATA_PATH = "metadata.json"
 APPLICATIONS_FILE = "applications.json"
-GRAPH_SOURCE_PATH = "data/graph_merged.json"
-
-@st.cache_resource(show_spinner=False)
-def load_graph_source():
-    graph = GraphEngine()
-    graph.load_json(GRAPH_SOURCE_PATH)
-    return graph
-
-try:
-    graph_source = load_graph_source()
-    graph_stats = graph_source.stats()
-except Exception as graph_error:
-    graph_source = None
-    graph_stats = {}
+GRAPH_SOURCE_PATH = "data/graph_clean.json"
 
 # Applications database helpers
 def load_applications():
@@ -323,10 +309,6 @@ if _source_label == "Currículo mestre (fonte única de verdade)":
     )
 else:
     st.sidebar.info(f"Fonte: {_source_label}")
-if graph_source:
-    st.sidebar.caption(
-        f"Grafo auxiliar carregado: {graph_stats.get('total_nodes', 0)} nós / {graph_stats.get('total_edges', 0)} arestas (não usado para enriquecer o currículo desta vaga)"
-    )
 
 # Main Workspace Layout
 tab_studio, tab_tracker, tab_brain, tab_editor = st.tabs([
@@ -794,25 +776,24 @@ with tab_brain:
     st.write("Navegue no seu Knowledge Graph interativo. Veja como suas experiências, skills e tools se conectam. Selecione uma vaga para destacar os caminhos neurais relevantes.")
     
     # Load graph for visualization
-    brain_graph_path = "data/graph_merged.json"
+    brain_graph_path = GRAPH_SOURCE_PATH
     if not os.path.exists(brain_graph_path):
-        st.warning("⚠️ Grafo não encontrado. Execute a migração primeiro.")
+        st.warning("⚠️ Grafo não encontrado. Execute `py -3.12 scripts/build_professional_graph.py`.")
     else:
-        # Initialize session state for brain viz
-        if "brain_engine" not in st.session_state:
-            st.session_state.brain_engine = GraphEngine()
-            st.session_state.brain_engine.load_json(brain_graph_path)
-        
-        brain_engine = st.session_state.brain_engine
-        
         # Build and render network
         try:
             # Use our 3D visualizer instead of PyVis
             import streamlit.components.v1 as components
             
-            # Read the 3D HTML file
+            # Inject the canonical graph projection into the standalone HTML shell.
             with open('graph-3d.html', 'r', encoding='utf-8') as f:
                 html_content = f.read()
+            with open(brain_graph_path, 'r', encoding='utf-8') as f:
+                graph_data = json.load(f)
+            serialized_graph = json.dumps(graph_data, ensure_ascii=False).replace("</", "<\\/")
+            if "__GRAPH_DATA__" not in html_content:
+                raise ValueError("graph-3d.html does not contain the graph data placeholder")
+            html_content = html_content.replace("__GRAPH_DATA__", serialized_graph)
             
             # Embed the 3D visualizer
             components.html(html_content, height=700, scrolling=False)
@@ -824,7 +805,7 @@ with tab_brain:
 
         # Insights section below the graph
         try:
-            render_brain_insights(brain_engine)
+            render_brain_insights()
         except Exception as e:
             st.error(f"Erro ao gerar insights: {e}")
             import traceback

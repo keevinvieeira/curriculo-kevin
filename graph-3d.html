@@ -3,648 +3,853 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kevin Augusto Vieira — Professional Graph 3D</title>
+    <title>Kevin Augusto Vieira - Grafo Profissional 3D</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
-            background: #0a0a0f;
-            color: #fff;
-            font-family: 'Segoe UI', system-ui, sans-serif;
+            background: #090a10;
+            color: #f8fafc;
+            font-family: Inter, "Segoe UI", system-ui, sans-serif;
             overflow: hidden;
         }
+        button { font: inherit; }
         #canvas-container {
             position: fixed;
-            top: 0; left: 0;
-            width: 100vw; height: 100vh;
+            inset: 0;
+            width: 100vw;
+            height: 100vh;
             z-index: 1;
         }
         #ui-overlay {
             position: fixed;
-            top: 0; left: 0;
-            width: 100vw; height: 100vh;
+            inset: 0;
             pointer-events: none;
             z-index: 10;
         }
         #header {
             position: absolute;
-            top: 24px; left: 24px;
+            top: 22px;
+            left: 22px;
             pointer-events: auto;
+            max-width: min(620px, calc(100vw - 390px));
+        }
+        .header-row {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            flex-wrap: wrap;
         }
         #header h1 {
-            font-size: 1.5rem;
-            font-weight: 700;
-            background: linear-gradient(135deg, #4a9eff, #a855f7);
+            font-size: 1.55rem;
+            line-height: 1.1;
+            font-weight: 750;
+            background: linear-gradient(135deg, #60a5fa, #c084fc);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
         #header p {
-            font-size: 0.8rem;
-            color: #8892b0;
-            margin-top: 4px;
+            margin-top: 7px;
+            color: #94a3b8;
+            font-size: 0.82rem;
+            line-height: 1.4;
         }
-        
-        /* Stats bar */
+        #language-selector {
+            display: inline-flex;
+            padding: 3px;
+            gap: 2px;
+            border: 1px solid rgba(148, 163, 184, 0.25);
+            border-radius: 8px;
+            background: rgba(15, 23, 42, 0.8);
+        }
+        .language-btn {
+            border: 0;
+            border-radius: 5px;
+            padding: 4px 8px;
+            color: #94a3b8;
+            background: transparent;
+            cursor: pointer;
+            font-size: 0.72rem;
+            font-weight: 700;
+        }
+        .language-btn.active {
+            color: #eff6ff;
+            background: #2563eb;
+        }
         #stats-bar {
             position: absolute;
-            top: 24px; right: 24px;
+            top: 22px;
+            right: 22px;
             display: flex;
-            gap: 12px;
+            gap: 8px;
             pointer-events: auto;
         }
         .stat {
-            background: rgba(255,255,255,0.05);
-            border: 1px solid rgba(255,255,255,0.1);
-            border-radius: 8px;
-            padding: 8px 14px;
+            min-width: 66px;
+            padding: 7px 11px;
             text-align: center;
-            backdrop-filter: blur(10px);
+            border: 1px solid rgba(148, 163, 184, 0.16);
+            border-radius: 9px;
+            background: rgba(15, 23, 42, 0.72);
+            backdrop-filter: blur(12px);
         }
         .stat-value {
-            font-size: 1.3rem;
-            font-weight: 700;
-            color: #4a9eff;
+            color: #60a5fa;
+            font-size: 1.2rem;
+            line-height: 1.1;
+            font-weight: 750;
         }
         .stat-label {
-            font-size: 0.65rem;
-            color: #8892b0;
+            margin-top: 2px;
+            color: #94a3b8;
+            font-size: 0.64rem;
             text-transform: uppercase;
+            letter-spacing: 0.04em;
         }
-        
-        /* Filter buttons */
         #company-filters {
             position: absolute;
-            top: 100px; left: 24px;
+            top: 104px;
+            left: 22px;
             display: flex;
             flex-direction: column;
-            gap: 6px;
+            gap: 5px;
+            max-width: 210px;
             pointer-events: auto;
         }
         .filter-btn {
-            background: rgba(255,255,255,0.05);
-            border: 1px solid rgba(255,255,255,0.1);
-            border-radius: 6px;
-            padding: 6px 12px;
-            font-size: 0.7rem;
+            padding: 6px 10px;
+            overflow: hidden;
+            color: #a8b3c7;
+            background: rgba(15, 23, 42, 0.68);
+            border: 1px solid rgba(148, 163, 184, 0.16);
+            border-radius: 7px;
             cursor: pointer;
-            transition: all 0.2s;
             text-align: left;
-            color: #a0aec0;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            font-size: 0.72rem;
+            transition: 160ms ease;
         }
-        .filter-btn:hover {
-            background: rgba(255,255,255,0.1);
-            border-color: #4a9eff;
-            color: #fff;
-        }
+        .filter-btn:hover,
         .filter-btn.active {
-            background: rgba(74,158,255,0.2);
-            border-color: #4a9eff;
-            color: #4a9eff;
+            color: #eff6ff;
+            background: rgba(37, 99, 235, 0.28);
+            border-color: #60a5fa;
         }
-        
-        /* Legend */
         #legend {
             position: absolute;
-            bottom: 24px; left: 24px;
+            left: 22px;
+            bottom: 22px;
             display: flex;
             flex-wrap: wrap;
-            gap: 6px;
-            max-width: 450px;
+            gap: 5px;
+            max-width: min(760px, calc(100vw - 370px));
             pointer-events: auto;
         }
         .legend-item {
-            display: flex;
+            display: inline-flex;
             align-items: center;
             gap: 5px;
-            background: rgba(255,255,255,0.05);
-            border: 1px solid rgba(255,255,255,0.08);
-            border-radius: 4px;
-            padding: 3px 8px;
+            padding: 4px 7px;
+            color: #b8c2d6;
+            background: rgba(15, 23, 42, 0.7);
+            border: 1px solid rgba(148, 163, 184, 0.14);
+            border-radius: 5px;
             font-size: 0.65rem;
-            cursor: pointer;
-        }
-        .legend-item:hover {
-            background: rgba(255,255,255,0.1);
         }
         .legend-color {
-            width: 8px; height: 8px;
+            width: 8px;
+            height: 8px;
+            flex: 0 0 auto;
             border-radius: 50%;
         }
-        
-        /* Detail panel */
-        #detail-panel {
-            position: absolute;
-            top: 100px; right: 24px;
-            width: 300px;
-            background: rgba(10,10,15,0.95);
-            border: 1px solid rgba(255,255,255,0.1);
-            border-radius: 12px;
-            padding: 20px;
-            backdrop-filter: blur(20px);
-            display: none;
-            pointer-events: auto;
-            max-height: 70vh;
-            overflow-y: auto;
-        }
-        #detail-panel.visible { display: block; }
-        #detail-panel h3 {
-            font-size: 1rem;
-            font-weight: 600;
-            margin-bottom: 6px;
-        }
-        #detail-panel .type-badge {
-            display: inline-block;
-            padding: 2px 8px;
-            border-radius: 4px;
-            font-size: 0.6rem;
-            text-transform: uppercase;
-            margin-bottom: 10px;
-        }
-        #detail-panel p {
-            font-size: 0.75rem;
-            color: #8892b0;
-            line-height: 1.5;
-        }
-        #detail-section {
-            margin-top: 14px;
-            padding-top: 12px;
-            border-top: 1px solid rgba(255,255,255,0.1);
-        }
-        #detail-section h4 {
-            font-size: 0.7rem;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            color: #4a9eff;
-            margin-bottom: 8px;
-        }
-        .skill-item, .metric-item {
-            background: rgba(255,255,255,0.03);
-            border: 1px solid rgba(255,255,255,0.06);
-            border-radius: 6px;
-            padding: 6px 10px;
-            margin-bottom: 4px;
-            font-size: 0.7rem;
-        }
-        .skill-item .name { font-weight: 600; }
-        .skill-item .level { color: #fbbf24; font-size: 0.65rem; }
-        .metric-item .value { font-weight: 600; color: #fbbf24; }
-        .metric-item .context { color: #718096; font-size: 0.65rem; }
-        
         #instructions {
             position: absolute;
-            bottom: 80px; left: 24px;
-            font-size: 0.65rem;
-            color: #4a5568;
+            left: 22px;
+            bottom: 64px;
+            color: #64748b;
+            font-size: 0.68rem;
             pointer-events: none;
         }
-        
+        #detail-panel {
+            position: absolute;
+            top: 98px;
+            right: 22px;
+            width: 340px;
+            max-height: calc(100vh - 122px);
+            padding: 18px;
+            overflow-y: auto;
+            display: none;
+            pointer-events: auto;
+            background: rgba(9, 10, 16, 0.96);
+            border: 1px solid rgba(148, 163, 184, 0.2);
+            border-radius: 13px;
+            box-shadow: 0 18px 50px rgba(0, 0, 0, 0.42);
+            backdrop-filter: blur(18px);
+        }
+        #detail-panel.visible { display: block; }
+        .detail-header {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            gap: 12px;
+        }
+        #detail-title {
+            font-size: 1.05rem;
+            line-height: 1.3;
+            font-weight: 700;
+        }
+        #detail-close {
+            width: 30px;
+            height: 30px;
+            flex: 0 0 auto;
+            color: #cbd5e1;
+            background: rgba(148, 163, 184, 0.1);
+            border: 1px solid rgba(148, 163, 184, 0.2);
+            border-radius: 7px;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+        #detail-close:hover { color: #fff; border-color: #60a5fa; }
+        .type-badge {
+            display: inline-block;
+            margin: 8px 0;
+            padding: 3px 8px;
+            color: #eff6ff;
+            background: #2563eb;
+            border-radius: 5px;
+            font-size: 0.64rem;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+        #detail-desc {
+            color: #94a3b8;
+            font-size: 0.76rem;
+            line-height: 1.55;
+        }
+        .detail-section {
+            margin-top: 14px;
+            padding-top: 12px;
+            border-top: 1px solid rgba(148, 163, 184, 0.14);
+        }
+        .detail-section h4 {
+            margin-bottom: 8px;
+            color: #60a5fa;
+            font-size: 0.7rem;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+        }
+        .role-item,
+        .skill-item,
+        .metric-item {
+            margin-bottom: 5px;
+            padding: 8px 10px;
+            background: rgba(30, 41, 59, 0.48);
+            border: 1px solid rgba(148, 163, 184, 0.1);
+            border-radius: 7px;
+            font-size: 0.74rem;
+            line-height: 1.4;
+        }
+        .item-name,
+        .metric-value { font-weight: 650; color: #e2e8f0; }
+        .item-meta,
+        .metric-context { margin-top: 2px; color: #8492a8; font-size: 0.68rem; }
+        .metric-value { color: #fbbf24; }
         #loading {
             position: fixed;
-            top: 0; left: 0;
-            width: 100vw; height: 100vh;
-            background: #0a0a0f;
+            inset: 0;
+            z-index: 1000;
             display: flex;
             align-items: center;
             justify-content: center;
-            z-index: 1000;
-            transition: opacity 0.5s;
+            background: #090a10;
+            transition: opacity 400ms ease;
         }
         #loading.hidden { opacity: 0; pointer-events: none; }
         .spinner {
-            width: 40px; height: 40px;
-            border: 3px solid rgba(255,255,255,0.1);
-            border-top-color: #4a9eff;
+            width: 40px;
+            height: 40px;
+            border: 3px solid rgba(148, 163, 184, 0.15);
+            border-top-color: #60a5fa;
             border-radius: 50%;
-            animation: spin 0.8s linear infinite;
+            animation: spin 800ms linear infinite;
         }
         @keyframes spin { to { transform: rotate(360deg); } }
+        @media (max-width: 800px) {
+            #header { top: 14px; left: 14px; max-width: calc(100vw - 28px); }
+            #header h1 { font-size: 1.15rem; }
+            #header p { max-width: 310px; font-size: 0.7rem; }
+            #stats-bar { top: 82px; left: 14px; right: auto; gap: 4px; }
+            .stat { min-width: 55px; padding: 5px 7px; }
+            #company-filters { top: 140px; left: 14px; max-width: 160px; }
+            .filter-btn { font-size: 0.65rem; }
+            #legend { left: 14px; right: 14px; bottom: 12px; max-width: none; }
+            #instructions { display: none; }
+            #detail-panel {
+                top: auto;
+                right: 10px;
+                bottom: 10px;
+                left: 10px;
+                width: auto;
+                max-height: 62vh;
+            }
+        }
     </style>
 </head>
 <body>
     <div id="loading"><div class="spinner"></div></div>
-    
     <div id="canvas-container"></div>
-    
     <div id="ui-overlay">
-        <div id="header">
-            <h1>Kevin Augusto Vieira</h1>
-            <p>Click a company to see skills & metrics • Source: master_resume.json</p>
-        </div>
-        
+        <header id="header">
+            <div class="header-row">
+                <h1>Kevin Augusto Vieira</h1>
+                <div id="language-selector" aria-label="Idioma / Language">
+                    <button class="language-btn active" data-lang="pt" type="button">PT</button>
+                    <button class="language-btn" data-lang="en" type="button">EN</button>
+                </div>
+            </div>
+            <p id="subtitle"></p>
+        </header>
         <div id="stats-bar">
-            <div class="stat">
-                <div class="stat-value" id="stat-nodes">0</div>
-                <div class="stat-label">Nodes</div>
-            </div>
-            <div class="stat">
-                <div class="stat-value" id="stat-skills">0</div>
-                <div class="stat-label">Skills</div>
-            </div>
-            <div class="stat">
-                <div class="stat-value" id="stat-companies">0</div>
-                <div class="stat-label">Companies</div>
-            </div>
-            <div class="stat">
-                <div class="stat-value" id="stat-metrics">0</div>
-                <div class="stat-label">Metrics</div>
-            </div>
+            <div class="stat"><div class="stat-value" id="stat-nodes">0</div><div class="stat-label" data-i18n="nodes"></div></div>
+            <div class="stat"><div class="stat-value" id="stat-skills">0</div><div class="stat-label" data-i18n="skills"></div></div>
+            <div class="stat"><div class="stat-value" id="stat-companies">0</div><div class="stat-label" data-i18n="companies"></div></div>
+            <div class="stat"><div class="stat-value" id="stat-metrics">0</div><div class="stat-label" data-i18n="metrics"></div></div>
         </div>
-        
         <div id="company-filters"></div>
-        
+        <div id="instructions"></div>
         <div id="legend"></div>
-        
-        <div id="instructions">
-            Click company = insights • Drag = rotate • Scroll = zoom • Double-click = focus
-        </div>
-        
-        <div id="detail-panel">
-            <h3 id="detail-title">Select a Company</h3>
-            <span class="type-badge" id="detail-type">Info</span>
-            <p id="detail-desc">Click any company node to see skills and metrics.</p>
-            <div id="detail-section">
-                <h4>Skills</h4>
+        <aside id="detail-panel" aria-live="polite">
+            <div class="detail-header">
+                <h3 id="detail-title"></h3>
+                <button id="detail-close" type="button" aria-label="Fechar">×</button>
+            </div>
+            <span class="type-badge" id="detail-type"></span>
+            <p id="detail-desc"></p>
+            <section class="detail-section">
+                <h4 data-i18n="roles"></h4>
+                <div id="detail-roles"></div>
+            </section>
+            <section class="detail-section">
+                <h4 data-i18n="skills"></h4>
                 <div id="detail-skills"></div>
-            </div>
-            <div id="detail-section">
-                <h4>Metrics</h4>
+            </section>
+            <section class="detail-section">
+                <h4 data-i18n="metrics"></h4>
                 <div id="detail-metrics"></div>
-            </div>
-        </div>
+            </section>
+        </aside>
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
-    
-    <script id="graph-data" type="application/json">
-{"nodes": [{"id": "node_1", "label": "Kevin Augusto Vieira", "type": "Candidate", "size": 2.0, "color": "#ffffff", "glow": true}, {"id": "node_2", "label": "Wipro", "type": "Company", "size": 1.5, "color": "#60a5fa", "glow": true, "details": "Curitiba, PR", "total_skills": 39, "total_metrics": 8, "total_bullets": 13}, {"id": "node_3", "label": "Marketing Coordinator / Product Enablement Expert (Meta)", "type": "Role", "size": 0.6, "color": "#a78bfa", "details": "Wipro | September 2024 – July 2026"}, {"id": "node_4", "label": "Marketing Operations / Sales Enablement & GTM Specialist (Meta Project)", "type": "Role", "size": 0.6, "color": "#a78bfa", "details": "Wipro | September 2024 – July 2026"}, {"id": "node_5", "label": "Sales Enablement", "type": "Skill", "size": 0.54, "color": "#ef4444", "level": 2, "category": "Sales Enablement", "evidence_count": 2, "company": "Wipro", "details": "Sales Enablement @ Wipro | Level 2/5 | 2 achievements"}, {"id": "node_6", "label": "Marketing", "type": "Skill", "size": 0.54, "color": "#ef4444", "level": 2, "category": "Sales Enablement", "evidence_count": 2, "company": "Wipro", "details": "Marketing @ Wipro | Level 2/5 | 2 achievements"}, {"id": "node_7", "label": "Product Positioning", "type": "Skill", "size": 0.42, "color": "#ef4444", "level": 1, "category": "Sales Enablement", "evidence_count": 1, "company": "Wipro", "details": "Product Positioning @ Wipro | Level 1/5 | 1 achievements"}, {"id": "node_8", "label": "Technical Reference", "type": "Skill", "size": 0.42, "color": "#ef4444", "level": 1, "category": "Sales Enablement", "evidence_count": 1, "company": "Wipro", "details": "Technical Reference @ Wipro | Level 1/5 | 1 achievements"}, {"id": "node_9", "label": "Ads", "type": "Skill", "size": 0.42, "color": "#ef4444", "level": 1, "category": "Sales Enablement", "evidence_count": 1, "company": "Wipro", "details": "Ads @ Wipro | Level 1/5 | 1 achievements"}, {"id": "node_10", "label": "Leadership", "type": "Skill", "size": 0.42, "color": "#ef4444", "level": 1, "category": "Sales Enablement", "evidence_count": 1, "company": "Wipro", "details": "Leadership @ Wipro | Level 1/5 | 1 achievements"}, {"id": "node_11", "label": "Training", "type": "Skill", "size": 0.42, "color": "#ef4444", "level": 1, "category": "Sales Enablement", "evidence_count": 1, "company": "Wipro", "details": "Training @ Wipro | Level 1/5 | 1 achievements"}, {"id": "node_12", "label": "Crm", "type": "Skill", "size": 0.42, "color": "#ef4444", "level": 1, "category": "Sales Enablement", "evidence_count": 1, "company": "Wipro", "details": "Crm @ Wipro | Level 1/5 | 1 achievements"}, {"id": "node_13", "label": "Ai", "type": "Skill", "size": 0.42, "color": "#ef4444", "level": 1, "category": "Sales Enablement", "evidence_count": 1, "company": "Wipro", "details": "Ai @ Wipro | Level 1/5 | 1 achievements"}, {"id": "node_14", "label": "Ai Implementation", "type": "Skill", "size": 0.42, "color": "#ef4444", "level": 1, "category": "Sales Enablement", "evidence_count": 1, "company": "Wipro", "details": "Ai Implementation @ Wipro | Level 1/5 | 1 achievements"}, {"id": "node_15", "label": "Crm Enablement", "type": "Skill", "size": 0.42, "color": "#ef4444", "level": 1, "category": "Sales Enablement", "evidence_count": 1, "company": "Wipro", "details": "Crm Enablement @ Wipro | Level 1/5 | 1 achievements"}, {"id": "node_16", "label": "Prompt Engineering", "type": "Skill", "size": 0.42, "color": "#ef4444", "level": 1, "category": "Sales Enablement", "evidence_count": 1, "company": "Wipro", "details": "Prompt Engineering @ Wipro | Level 1/5 | 1 achievements"}, {"id": "node_17", "label": "Coaching", "type": "Skill", "size": 0.42, "color": "#ef4444", "level": 1, "category": "Sales Enablement", "evidence_count": 1, "company": "Wipro", "details": "Coaching @ Wipro | Level 1/5 | 1 achievements"}, {"id": "node_18", "label": "Sales", "type": "Skill", "size": 0.54, "color": "#ef4444", "level": 2, "category": "Sales Enablement", "evidence_count": 2, "company": "Wipro", "details": "Sales @ Wipro | Level 2/5 | 2 achievements"}, {"id": "node_19", "label": "Quality Assurance", "type": "Skill", "size": 0.54, "color": "#ef4444", "level": 2, "category": "Sales Enablement", "evidence_count": 2, "company": "Wipro", "details": "Quality Assurance @ Wipro | Level 2/5 | 2 achievements"}, {"id": "node_20", "label": "Ops", "type": "Skill", "size": 0.42, "color": "#ef4444", "level": 1, "category": "Sales Enablement", "evidence_count": 1, "company": "Wipro", "details": "Ops @ Wipro | Level 1/5 | 1 achievements"}, {"id": "node_21", "label": "Root Cause Analysis", "type": "Skill", "size": 0.42, "color": "#ef4444", "level": 1, "category": "Sales Enablement", "evidence_count": 1, "company": "Wipro", "details": "Root Cause Analysis @ Wipro | Level 1/5 | 1 achievements"}, {"id": "node_22", "label": "Playbooks", "type": "Skill", "size": 0.42, "color": "#ef4444", "level": 1, "category": "Sales Enablement", "evidence_count": 1, "company": "Wipro", "details": "Playbooks @ Wipro | Level 1/5 | 1 achievements"}, {"id": "node_23", "label": "Methodology", "type": "Skill", "size": 0.42, "color": "#ef4444", "level": 1, "category": "Sales Enablement", "evidence_count": 1, "company": "Wipro", "details": "Methodology @ Wipro | Level 1/5 | 1 achievements"}, {"id": "node_24", "label": "Project Management", "type": "Skill", "size": 0.42, "color": "#ef4444", "level": 1, "category": "Sales Enablement", "evidence_count": 1, "company": "Wipro", "details": "Project Management @ Wipro | Level 1/5 | 1 achievements"}, {"id": "node_25", "label": "Pmo", "type": "Skill", "size": 0.42, "color": "#ef4444", "level": 1, "category": "Sales Enablement", "evidence_count": 1, "company": "Wipro", "details": "Pmo @ Wipro | Level 1/5 | 1 achievements"}, {"id": "node_26", "label": "Bootcamp", "type": "Skill", "size": 0.42, "color": "#ef4444", "level": 1, "category": "Sales Enablement", "evidence_count": 1, "company": "Wipro", "details": "Bootcamp @ Wipro | Level 1/5 | 1 achievements"}, {"id": "node_27", "label": "Ramp Up", "type": "Skill", "size": 0.42, "color": "#ef4444", "level": 1, "category": "Sales Enablement", "evidence_count": 1, "company": "Wipro", "details": "Ramp Up @ Wipro | Level 1/5 | 1 achievements"}, {"id": "node_28", "label": "Cross Functional", "type": "Skill", "size": 0.42, "color": "#ef4444", "level": 1, "category": "Sales Enablement", "evidence_count": 1, "company": "Wipro", "details": "Cross Functional @ Wipro | Level 1/5 | 1 achievements"}, {"id": "node_29", "label": "Collaboration", "type": "Skill", "size": 0.42, "color": "#ef4444", "level": 1, "category": "Sales Enablement", "evidence_count": 1, "company": "Wipro", "details": "Collaboration @ Wipro | Level 1/5 | 1 achievements"}, {"id": "node_30", "label": "Documentation", "type": "Skill", "size": 0.42, "color": "#ef4444", "level": 1, "category": "Sales Enablement", "evidence_count": 1, "company": "Wipro", "details": "Documentation @ Wipro | Level 1/5 | 1 achievements"}, {"id": "node_31", "label": "Agile", "type": "Skill", "size": 0.42, "color": "#ef4444", "level": 1, "category": "Sales Enablement", "evidence_count": 1, "company": "Wipro", "details": "Agile @ Wipro | Level 1/5 | 1 achievements"}, {"id": "node_32", "label": "Okr", "type": "Skill", "size": 0.42, "color": "#ef4444", "level": 1, "category": "Sales Enablement", "evidence_count": 1, "company": "Wipro", "details": "Okr @ Wipro | Level 1/5 | 1 achievements"}, {"id": "node_33", "label": "Roadmap", "type": "Skill", "size": 0.42, "color": "#ef4444", "level": 1, "category": "Sales Enablement", "evidence_count": 1, "company": "Wipro", "details": "Roadmap @ Wipro | Level 1/5 | 1 achievements"}, {"id": "node_34", "label": "Backlog", "type": "Skill", "size": 0.42, "color": "#ef4444", "level": 1, "category": "Sales Enablement", "evidence_count": 1, "company": "Wipro", "details": "Backlog @ Wipro | Level 1/5 | 1 achievements"}, {"id": "node_35", "label": "Squad", "type": "Skill", "size": 0.42, "color": "#ef4444", "level": 1, "category": "Sales Enablement", "evidence_count": 1, "company": "Wipro", "details": "Squad @ Wipro | Level 1/5 | 1 achievements"}, {"id": "node_36", "label": "Prioritization", "type": "Skill", "size": 0.42, "color": "#ef4444", "level": 1, "category": "Sales Enablement", "evidence_count": 1, "company": "Wipro", "details": "Prioritization @ Wipro | Level 1/5 | 1 achievements"}, {"id": "node_37", "label": "Data", "type": "Skill", "size": 0.42, "color": "#ef4444", "level": 1, "category": "Sales Enablement", "evidence_count": 1, "company": "Wipro", "details": "Data @ Wipro | Level 1/5 | 1 achievements"}, {"id": "node_38", "label": "Analytics", "type": "Skill", "size": 0.42, "color": "#ef4444", "level": 1, "category": "Sales Enablement", "evidence_count": 1, "company": "Wipro", "details": "Analytics @ Wipro | Level 1/5 | 1 achievements"}, {"id": "node_39", "label": "Power Bi", "type": "Skill", "size": 0.42, "color": "#ef4444", "level": 1, "category": "Sales Enablement", "evidence_count": 1, "company": "Wipro", "details": "Power Bi @ Wipro | Level 1/5 | 1 achievements"}, {"id": "node_40", "label": "Compliance", "type": "Skill", "size": 0.42, "color": "#ef4444", "level": 1, "category": "Sales Enablement", "evidence_count": 1, "company": "Wipro", "details": "Compliance @ Wipro | Level 1/5 | 1 achievements"}, {"id": "node_41", "label": "Security", "type": "Skill", "size": 0.42, "color": "#ef4444", "level": 1, "category": "Sales Enablement", "evidence_count": 1, "company": "Wipro", "details": "Security @ Wipro | Level 1/5 | 1 achievements"}, {"id": "node_42", "label": "Bcp", "type": "Skill", "size": 0.42, "color": "#ef4444", "level": 1, "category": "Sales Enablement", "evidence_count": 1, "company": "Wipro", "details": "Bcp @ Wipro | Level 1/5 | 1 achievements"}, {"id": "node_43", "label": "Governance", "type": "Skill", "size": 0.42, "color": "#ef4444", "level": 1, "category": "Sales Enablement", "evidence_count": 1, "company": "Wipro", "details": "Governance @ Wipro | Level 1/5 | 1 achievements"}, {"id": "node_44", "label": "+150%", "type": "Metric", "size": 0.4, "color": "#fbbf24", "metric_type": "growth", "context": "Ownership de IA no CRM e Adoção Recorde: Liderou a ativação e adoção da IA nativa no CRM proprietário da Meta, do onboar", "company": "Wipro", "details": "+150% — Ownership de IA no CRM e Adoção Recorde: Liderou a ativação e adoção da IA nativ..."}, {"id": "node_45", "label": "#1 global", "type": "Metric", "size": 0.4, "color": "#fbbf24", "metric_type": "ranking", "context": "Ownership de IA no CRM e Adoção Recorde: Liderou a ativação e adoção da IA nativa no CRM proprietário da Meta, do onboar", "company": "Wipro", "details": "#1 global — Ownership de IA no CRM e Adoção Recorde: Liderou a ativação e adoção da IA nativ..."}, {"id": "node_46", "label": "150", "type": "Metric", "size": 0.4, "color": "#fbbf24", "metric_type": "percentage", "context": "Ownership de IA no CRM e Adoção Recorde: Liderou a ativação e adoção da IA nativa no CRM proprietário da Meta, do onboar", "company": "Wipro", "details": "150 — Ownership de IA no CRM e Adoção Recorde: Liderou a ativação e adoção da IA nativ..."}, {"id": "node_47", "label": "100", "type": "Metric", "size": 0.4, "color": "#fbbf24", "metric_type": "percentage", "context": "Liderança do Next Level Bootcamp (Piloto): Idealizou, gamificou (badges digitais) e governou o programa piloto para 12 c", "company": "Wipro", "details": "100 — Liderança do Next Level Bootcamp (Piloto): Idealizou, gamificou (badges digitais..."}, {"id": "node_48", "label": "50", "type": "Metric", "size": 0.4, "color": "#fbbf24", "metric_type": "percentage", "context": "Liderança do Next Level Bootcamp (Piloto): Idealizou, gamificou (badges digitais) e governou o programa piloto para 12 c", "company": "Wipro", "details": "50 — Liderança do Next Level Bootcamp (Piloto): Idealizou, gamificou (badges digitais..."}, {"id": "node_49", "label": "90", "type": "Metric", "size": 0.4, "color": "#fbbf24", "metric_type": "percentage", "context": "Liderança do Next Level Bootcamp (Piloto): Idealizou, gamificou (badges digitais) e governou o programa piloto para 12 c", "company": "Wipro", "details": "90 — Liderança do Next Level Bootcamp (Piloto): Idealizou, gamificou (badges digitais..."}, {"id": "node_50", "label": "CSAT", "type": "Metric", "size": 0.4, "color": "#fbbf24", "metric_type": "satisfaction", "context": "Liderança do Next Level Bootcamp (Piloto): Idealizou, gamificou (badges digitais) e governou o programa piloto para 12 c", "company": "Wipro", "details": "CSAT — Liderança do Next Level Bootcamp (Piloto): Idealizou, gamificou (badges digitais..."}, {"id": "node_51", "label": "Meu Barzin (Startup)", "type": "Company", "size": 1.5, "color": "#60a5fa", "glow": true, "details": "Curitiba, PR", "total_skills": 23, "total_metrics": 5, "total_bullets": 7}, {"id": "node_52", "label": "Co-Founder & Product Manager", "type": "Role", "size": 0.6, "color": "#a78bfa", "details": "Meu Barzin (Startup) | December 2025 – March 2026"}, {"id": "node_53", "label": "Co-Founder & Product & Go-To-Market (GTM) Lead", "type": "Role", "size": 0.6, "color": "#a78bfa", "details": "Meu Barzin (Startup) | December 2025 – March 2026"}, {"id": "node_54", "label": "Product Strategy", "type": "Skill", "size": 0.42, "color": "#4a9eff", "level": 1, "category": "Product & Strategy", "evidence_count": 1, "company": "Meu Barzin (Startup)", "details": "Product Strategy @ Meu Barzin (Startup) | Level 1/5 | 1 achievements"}, {"id": "node_55", "label": "Monetization", "type": "Skill", "size": 0.42, "color": "#4a9eff", "level": 1, "category": "Product & Strategy", "evidence_count": 1, "company": "Meu Barzin (Startup)", "details": "Monetization @ Meu Barzin (Startup) | Level 1/5 | 1 achievements"}, {"id": "node_56", "label": "Business Model", "type": "Skill", "size": 0.42, "color": "#4a9eff", "level": 1, "category": "Product & Strategy", "evidence_count": 1, "company": "Meu Barzin (Startup)", "details": "Business Model @ Meu Barzin (Startup) | Level 1/5 | 1 achievements"}, {"id": "node_57", "label": "Product Architecture", "type": "Skill", "size": 0.42, "color": "#4a9eff", "level": 1, "category": "Product & Strategy", "evidence_count": 1, "company": "Meu Barzin (Startup)", "details": "Product Architecture @ Meu Barzin (Startup) | Level 1/5 | 1 achievements"}, {"id": "node_58", "label": "Ux", "type": "Skill", "size": 0.42, "color": "#4a9eff", "level": 1, "category": "Product & Strategy", "evidence_count": 1, "company": "Meu Barzin (Startup)", "details": "Ux @ Meu Barzin (Startup) | Level 1/5 | 1 achievements"}, {"id": "node_59", "label": "Ai", "type": "Skill", "size": 0.42, "color": "#4a9eff", "level": 1, "category": "Product & Strategy", "evidence_count": 1, "company": "Meu Barzin (Startup)", "details": "Ai @ Meu Barzin (Startup) | Level 1/5 | 1 achievements"}, {"id": "node_60", "label": "Automation", "type": "Skill", "size": 0.42, "color": "#4a9eff", "level": 1, "category": "Product & Strategy", "evidence_count": 1, "company": "Meu Barzin (Startup)", "details": "Automation @ Meu Barzin (Startup) | Level 1/5 | 1 achievements"}, {"id": "node_61", "label": "Data Strategy", "type": "Skill", "size": 0.42, "color": "#4a9eff", "level": 1, "category": "Product & Strategy", "evidence_count": 1, "company": "Meu Barzin (Startup)", "details": "Data Strategy @ Meu Barzin (Startup) | Level 1/5 | 1 achievements"}, {"id": "node_62", "label": "Web Scraping", "type": "Skill", "size": 0.42, "color": "#4a9eff", "level": 1, "category": "Product & Strategy", "evidence_count": 1, "company": "Meu Barzin (Startup)", "details": "Web Scraping @ Meu Barzin (Startup) | Level 1/5 | 1 achievements"}, {"id": "node_63", "label": "Supabase", "type": "Skill", "size": 0.54, "color": "#4a9eff", "level": 2, "category": "Product & Strategy", "evidence_count": 2, "company": "Meu Barzin (Startup)", "details": "Supabase @ Meu Barzin (Startup) | Level 2/5 | 2 achievements"}, {"id": "node_64", "label": "Sql", "type": "Skill", "size": 0.42, "color": "#4a9eff", "level": 1, "category": "Product & Strategy", "evidence_count": 1, "company": "Meu Barzin (Startup)", "details": "Sql @ Meu Barzin (Startup) | Level 1/5 | 1 achievements"}, {"id": "node_65", "label": "Postgresql", "type": "Skill", "size": 0.42, "color": "#4a9eff", "level": 1, "category": "Product & Strategy", "evidence_count": 1, "company": "Meu Barzin (Startup)", "details": "Postgresql @ Meu Barzin (Startup) | Level 1/5 | 1 achievements"}, {"id": "node_66", "label": "Crm", "type": "Skill", "size": 0.42, "color": "#4a9eff", "level": 1, "category": "Product & Strategy", "evidence_count": 1, "company": "Meu Barzin (Startup)", "details": "Crm @ Meu Barzin (Startup) | Level 1/5 | 1 achievements"}, {"id": "node_67", "label": "Nocodb", "type": "Skill", "size": 0.42, "color": "#4a9eff", "level": 1, "category": "Product & Strategy", "evidence_count": 1, "company": "Meu Barzin (Startup)", "details": "Nocodb @ Meu Barzin (Startup) | Level 1/5 | 1 achievements"}, {"id": "node_68", "label": "Growth", "type": "Skill", "size": 0.42, "color": "#4a9eff", "level": 1, "category": "Product & Strategy", "evidence_count": 1, "company": "Meu Barzin (Startup)", "details": "Growth @ Meu Barzin (Startup) | Level 1/5 | 1 achievements"}, {"id": "node_69", "label": "Funnel", "type": "Skill", "size": 0.42, "color": "#4a9eff", "level": 1, "category": "Product & Strategy", "evidence_count": 1, "company": "Meu Barzin (Startup)", "details": "Funnel @ Meu Barzin (Startup) | Level 1/5 | 1 achievements"}, {"id": "node_70", "label": "Metrics", "type": "Skill", "size": 0.42, "color": "#4a9eff", "level": 1, "category": "Product & Strategy", "evidence_count": 1, "company": "Meu Barzin (Startup)", "details": "Metrics @ Meu Barzin (Startup) | Level 1/5 | 1 achievements"}, {"id": "node_71", "label": "Business Development", "type": "Skill", "size": 0.42, "color": "#4a9eff", "level": 1, "category": "Product & Strategy", "evidence_count": 1, "company": "Meu Barzin (Startup)", "details": "Business Development @ Meu Barzin (Startup) | Level 1/5 | 1 achievements"}, {"id": "node_72", "label": "Sales", "type": "Skill", "size": 0.42, "color": "#4a9eff", "level": 1, "category": "Product & Strategy", "evidence_count": 1, "company": "Meu Barzin (Startup)", "details": "Sales @ Meu Barzin (Startup) | Level 1/5 | 1 achievements"}, {"id": "node_73", "label": "B2B", "type": "Skill", "size": 0.42, "color": "#4a9eff", "level": 1, "category": "Product & Strategy", "evidence_count": 1, "company": "Meu Barzin (Startup)", "details": "B2B @ Meu Barzin (Startup) | Level 1/5 | 1 achievements"}, {"id": "node_74", "label": "Discovery", "type": "Skill", "size": 0.42, "color": "#4a9eff", "level": 1, "category": "Product & Strategy", "evidence_count": 1, "company": "Meu Barzin (Startup)", "details": "Discovery @ Meu Barzin (Startup) | Level 1/5 | 1 achievements"}, {"id": "node_75", "label": "Learning", "type": "Skill", "size": 0.42, "color": "#4a9eff", "level": 1, "category": "Product & Strategy", "evidence_count": 1, "company": "Meu Barzin (Startup)", "details": "Learning @ Meu Barzin (Startup) | Level 1/5 | 1 achievements"}, {"id": "node_76", "label": "Cro", "type": "Skill", "size": 0.42, "color": "#4a9eff", "level": 1, "category": "Product & Strategy", "evidence_count": 1, "company": "Meu Barzin (Startup)", "details": "Cro @ Meu Barzin (Startup) | Level 1/5 | 1 achievements"}, {"id": "node_77", "label": "505", "type": "Metric", "size": 0.4, "color": "#fbbf24", "metric_type": "volume", "context": "Geração de Demanda e Métricas: Captou 505 leads qualificados de topo de funil com campanhas orgânicas e anúncios (além d", "company": "Meu Barzin (Startup)", "details": "505 — Geração de Demanda e Métricas: Captou 505 leads qualificados de topo de funil co..."}, {"id": "node_78", "label": "3", "type": "Metric", "size": 0.4, "color": "#fbbf24", "metric_type": "percentage", "context": "Geração de Demanda e Métricas: Captou 505 leads qualificados de topo de funil com campanhas orgânicas e anúncios (além d", "company": "Meu Barzin (Startup)", "details": "3 — Geração de Demanda e Métricas: Captou 505 leads qualificados de topo de funil co..."}, {"id": "node_79", "label": "000", "type": "Metric", "size": 0.4, "color": "#fbbf24", "metric_type": "count", "context": "Geração de Demanda e Métricas: Captou 505 leads qualificados de topo de funil com campanhas orgânicas e anúncios (além d", "company": "Meu Barzin (Startup)", "details": "000 — Geração de Demanda e Métricas: Captou 505 leads qualificados de topo de funil co..."}, {"id": "node_80", "label": "4", "type": "Metric", "size": 0.4, "color": "#fbbf24", "metric_type": "count", "context": "Geração de Demanda e Métricas: Captou 505 leads qualificados de topo de funil com campanhas orgânicas e anúncios (além d", "company": "Meu Barzin (Startup)", "details": "4 — Geração de Demanda e Métricas: Captou 505 leads qualificados de topo de funil co..."}, {"id": "node_81", "label": "9", "type": "Metric", "size": 0.4, "color": "#fbbf24", "metric_type": "percentage", "context": "Mapeamento de Gargalos de Conversão: Conduziu entrevistas qualitativas e mapeamentos de funil que identificaram que a fa", "company": "Meu Barzin (Startup)", "details": "9 — Mapeamento de Gargalos de Conversão: Conduziu entrevistas qualitativas e mapeame..."}, {"id": "node_82", "label": "AK Branding & Web Design", "type": "Company", "size": 1.5, "color": "#60a5fa", "glow": true, "details": "Curitiba, PR", "total_skills": 20, "total_metrics": 7, "total_bullets": 6}, {"id": "node_83", "label": "Founder & Product Design Consultant", "type": "Role", "size": 0.6, "color": "#a78bfa", "details": "AK Branding & Web Design | March 2019 – September 2024"}, {"id": "node_84", "label": "Founder & Marketing Project Consultant", "type": "Role", "size": 0.6, "color": "#a78bfa", "details": "AK Branding & Web Design | March 2019 – September 2024"}, {"id": "node_85", "label": "Agency Management", "type": "Skill", "size": 0.42, "color": "#38bdf8", "level": 1, "category": "Leadership & Ops", "evidence_count": 1, "company": "AK Branding & Web Design", "details": "Agency Management @ AK Branding & Web Design | Level 1/5 | 1 achievements"}, {"id": "node_86", "label": "Branding", "type": "Skill", "size": 0.42, "color": "#38bdf8", "level": 1, "category": "Leadership & Ops", "evidence_count": 1, "company": "AK Branding & Web Design", "details": "Branding @ AK Branding & Web Design | Level 1/5 | 1 achievements"}, {"id": "node_87", "label": "Volume", "type": "Skill", "size": 0.42, "color": "#38bdf8", "level": 1, "category": "Leadership & Ops", "evidence_count": 1, "company": "AK Branding & Web Design", "details": "Volume @ AK Branding & Web Design | Level 1/5 | 1 achievements"}, {"id": "node_88", "label": "Cro", "type": "Skill", "size": 0.42, "color": "#38bdf8", "level": 1, "category": "Leadership & Ops", "evidence_count": 1, "company": "AK Branding & Web Design", "details": "Cro @ AK Branding & Web Design | Level 1/5 | 1 achievements"}, {"id": "node_89", "label": "Chatbots", "type": "Skill", "size": 0.42, "color": "#38bdf8", "level": 1, "category": "Leadership & Ops", "evidence_count": 1, "company": "AK Branding & Web Design", "details": "Chatbots @ AK Branding & Web Design | Level 1/5 | 1 achievements"}, {"id": "node_90", "label": "Lead Generation", "type": "Skill", "size": 0.42, "color": "#38bdf8", "level": 1, "category": "Leadership & Ops", "evidence_count": 1, "company": "AK Branding & Web Design", "details": "Lead Generation @ AK Branding & Web Design | Level 1/5 | 1 achievements"}, {"id": "node_91", "label": "Ab Testing", "type": "Skill", "size": 0.42, "color": "#38bdf8", "level": 1, "category": "Leadership & Ops", "evidence_count": 1, "company": "AK Branding & Web Design", "details": "Ab Testing @ AK Branding & Web Design | Level 1/5 | 1 achievements"}, {"id": "node_92", "label": "Growth", "type": "Skill", "size": 0.42, "color": "#38bdf8", "level": 1, "category": "Leadership & Ops", "evidence_count": 1, "company": "AK Branding & Web Design", "details": "Growth @ AK Branding & Web Design | Level 1/5 | 1 achievements"}, {"id": "node_93", "label": "Paid Media", "type": "Skill", "size": 0.42, "color": "#38bdf8", "level": 1, "category": "Leadership & Ops", "evidence_count": 1, "company": "AK Branding & Web Design", "details": "Paid Media @ AK Branding & Web Design | Level 1/5 | 1 achievements"}, {"id": "node_94", "label": "Web Design", "type": "Skill", "size": 0.42, "color": "#38bdf8", "level": 1, "category": "Leadership & Ops", "evidence_count": 1, "company": "AK Branding & Web Design", "details": "Web Design @ AK Branding & Web Design | Level 1/5 | 1 achievements"}, {"id": "node_95", "label": "E Commerce", "type": "Skill", "size": 0.42, "color": "#38bdf8", "level": 1, "category": "Leadership & Ops", "evidence_count": 1, "company": "AK Branding & Web Design", "details": "E Commerce @ AK Branding & Web Design | Level 1/5 | 1 achievements"}, {"id": "node_96", "label": "Monetization", "type": "Skill", "size": 0.42, "color": "#38bdf8", "level": 1, "category": "Leadership & Ops", "evidence_count": 1, "company": "AK Branding & Web Design", "details": "Monetization @ AK Branding & Web Design | Level 1/5 | 1 achievements"}, {"id": "node_97", "label": "Zero To One", "type": "Skill", "size": 0.42, "color": "#38bdf8", "level": 1, "category": "Leadership & Ops", "evidence_count": 1, "company": "AK Branding & Web Design", "details": "Zero To One @ AK Branding & Web Design | Level 1/5 | 1 achievements"}, {"id": "node_98", "label": "Ux Ui", "type": "Skill", "size": 0.42, "color": "#38bdf8", "level": 1, "category": "Leadership & Ops", "evidence_count": 1, "company": "AK Branding & Web Design", "details": "Ux Ui @ AK Branding & Web Design | Level 1/5 | 1 achievements"}, {"id": "node_99", "label": "Web Development", "type": "Skill", "size": 0.42, "color": "#38bdf8", "level": 1, "category": "Leadership & Ops", "evidence_count": 1, "company": "AK Branding & Web Design", "details": "Web Development @ AK Branding & Web Design | Level 1/5 | 1 achievements"}, {"id": "node_100", "label": "Seo", "type": "Skill", "size": 0.42, "color": "#38bdf8", "level": 1, "category": "Leadership & Ops", "evidence_count": 1, "company": "AK Branding & Web Design", "details": "Seo @ AK Branding & Web Design | Level 1/5 | 1 achievements"}, {"id": "node_101", "label": "Lgpd", "type": "Skill", "size": 0.42, "color": "#38bdf8", "level": 1, "category": "Leadership & Ops", "evidence_count": 1, "company": "AK Branding & Web Design", "details": "Lgpd @ AK Branding & Web Design | Level 1/5 | 1 achievements"}, {"id": "node_102", "label": "Budget", "type": "Skill", "size": 0.42, "color": "#38bdf8", "level": 1, "category": "Leadership & Ops", "evidence_count": 1, "company": "AK Branding & Web Design", "details": "Budget @ AK Branding & Web Design | Level 1/5 | 1 achievements"}, {"id": "node_103", "label": "Controls", "type": "Skill", "size": 0.42, "color": "#38bdf8", "level": 1, "category": "Leadership & Ops", "evidence_count": 1, "company": "AK Branding & Web Design", "details": "Controls @ AK Branding & Web Design | Level 1/5 | 1 achievements"}, {"id": "node_104", "label": "Timeline", "type": "Skill", "size": 0.42, "color": "#38bdf8", "level": 1, "category": "Leadership & Ops", "evidence_count": 1, "company": "AK Branding & Web Design", "details": "Timeline @ AK Branding & Web Design | Level 1/5 | 1 achievements"}, {"id": "node_105", "label": "40", "type": "Metric", "size": 0.4, "color": "#fbbf24", "metric_type": "count", "context": "Fundação e Gestão de Agência Boutique: Manteve ritmo de fechamento e entrega de 2 contratos de alto valor a cada 3 meses", "company": "AK Branding & Web Design", "details": "40 — Fundação e Gestão de Agência Boutique: Manteve ritmo de fechamento e entrega de ..."}, {"id": "node_106", "label": "+250%", "type": "Metric", "size": 0.4, "color": "#fbbf24", "metric_type": "growth", "context": "Otimização de Conversão (CRO) e Chatbots: Implementou interfaces de chatbot e fluxos de UX que elevaram a captação de le", "company": "AK Branding & Web Design", "details": "+250% — Otimização de Conversão (CRO) e Chatbots: Implementou interfaces de chatbot e fl..."}, {"id": "node_107", "label": "250", "type": "Metric", "size": 0.4, "color": "#fbbf24", "metric_type": "percentage", "context": "Otimização de Conversão (CRO) e Chatbots: Implementou interfaces de chatbot e fluxos de UX que elevaram a captação de le", "company": "AK Branding & Web Design", "details": "250 — Otimização de Conversão (CRO) e Chatbots: Implementou interfaces de chatbot e fl..."}, {"id": "node_108", "label": "R$0", "type": "Metric", "size": 0.4, "color": "#fbbf24", "metric_type": "revenue", "context": "Lançamento de E-Commerce de 0 a 1: Desenvolveu loja virtual do zero que atingiu R$ 10.000 em faturamento nos primeiros 3", "company": "AK Branding & Web Design", "details": "R$0 — Lançamento de E-Commerce de 0 a 1: Desenvolveu loja virtual do zero que atingiu ..."}, {"id": "node_109", "label": "$0", "type": "Metric", "size": 0.4, "color": "#fbbf24", "metric_type": "revenue", "context": "Lançamento de E-Commerce de 0 a 1: Desenvolveu loja virtual do zero que atingiu R$ 10.000 em faturamento nos primeiros 3", "company": "AK Branding & Web Design", "details": "$0 — Lançamento de E-Commerce de 0 a 1: Desenvolveu loja virtual do zero que atingiu ..."}, {"id": "node_110", "label": "100", "type": "Metric", "size": 0.4, "color": "#fbbf24", "metric_type": "percentage", "context": "Lançamento de E-Commerce de 0 a 1: Desenvolveu loja virtual do zero que atingiu R$ 10.000 em faturamento nos primeiros 3", "company": "AK Branding & Web Design", "details": "100 — Lançamento de E-Commerce de 0 a 1: Desenvolveu loja virtual do zero que atingiu ..."}, {"id": "node_111", "label": "Munzner", "type": "Company", "size": 1.5, "color": "#60a5fa", "glow": true, "details": "Curitiba, PR", "total_skills": 17, "total_metrics": 3, "total_bullets": 5}, {"id": "node_112", "label": "Marketing & Growth Specialist", "type": "Role", "size": 0.6, "color": "#a78bfa", "details": "Munzner | October 2018 – August 2024"}, {"id": "node_113", "label": "Marketing Automation & Campaign Specialist", "type": "Role", "size": 0.6, "color": "#a78bfa", "details": "Munzner | October 2018 – August 2024"}, {"id": "node_114", "label": "Marketing Specialist", "type": "Role", "size": 0.6, "color": "#a78bfa", "details": "Munzner | February 2021 – September 2024"}, {"id": "node_115", "label": "Internal Process Analyst", "type": "Role", "size": 0.6, "color": "#a78bfa", "details": "Munzner | October 2018 – February 2021"}, {"id": "node_116", "label": "Infoproduct", "type": "Skill", "size": 0.42, "color": "#ef4444", "level": 1, "category": "Sales Enablement", "evidence_count": 1, "company": "Munzner", "details": "Infoproduct @ Munzner | Level 1/5 | 1 achievements"}, {"id": "node_117", "label": "E Learning", "type": "Skill", "size": 0.42, "color": "#ef4444", "level": 1, "category": "Sales Enablement", "evidence_count": 1, "company": "Munzner", "details": "E Learning @ Munzner | Level 1/5 | 1 achievements"}, {"id": "node_118", "label": "Tripwire", "type": "Skill", "size": 0.42, "color": "#ef4444", "level": 1, "category": "Sales Enablement", "evidence_count": 1, "company": "Munzner", "details": "Tripwire @ Munzner | Level 1/5 | 1 achievements"}, {"id": "node_119", "label": "Roi", "type": "Skill", "size": 0.42, "color": "#ef4444", "level": 1, "category": "Sales Enablement", "evidence_count": 1, "company": "Munzner", "details": "Roi @ Munzner | Level 1/5 | 1 achievements"}, {"id": "node_120", "label": "Crm", "type": "Skill", "size": 0.54, "color": "#ef4444", "level": 2, "category": "Sales Enablement", "evidence_count": 2, "company": "Munzner", "details": "Crm @ Munzner | Level 2/5 | 2 achievements"}, {"id": "node_121", "label": "Automation", "type": "Skill", "size": 0.42, "color": "#ef4444", "level": 1, "category": "Sales Enablement", "evidence_count": 1, "company": "Munzner", "details": "Automation @ Munzner | Level 1/5 | 1 achievements"}, {"id": "node_122", "label": "Email Marketing", "type": "Skill", "size": 0.42, "color": "#ef4444", "level": 1, "category": "Sales Enablement", "evidence_count": 1, "company": "Munzner", "details": "Email Marketing @ Munzner | Level 1/5 | 1 achievements"}, {"id": "node_123", "label": "High Ticket", "type": "Skill", "size": 0.42, "color": "#ef4444", "level": 1, "category": "Sales Enablement", "evidence_count": 1, "company": "Munzner", "details": "High Ticket @ Munzner | Level 1/5 | 1 achievements"}, {"id": "node_124", "label": "Monetization", "type": "Skill", "size": 0.42, "color": "#ef4444", "level": 1, "category": "Sales Enablement", "evidence_count": 1, "company": "Munzner", "details": "Monetization @ Munzner | Level 1/5 | 1 achievements"}, {"id": "node_125", "label": "Revenue Analytics", "type": "Skill", "size": 0.42, "color": "#ef4444", "level": 1, "category": "Sales Enablement", "evidence_count": 1, "company": "Munzner", "details": "Revenue Analytics @ Munzner | Level 1/5 | 1 achievements"}, {"id": "node_126", "label": "Acquisition", "type": "Skill", "size": 0.42, "color": "#ef4444", "level": 1, "category": "Sales Enablement", "evidence_count": 1, "company": "Munzner", "details": "Acquisition @ Munzner | Level 1/5 | 1 achievements"}, {"id": "node_127", "label": "Inbound", "type": "Skill", "size": 0.42, "color": "#ef4444", "level": 1, "category": "Sales Enablement", "evidence_count": 1, "company": "Munzner", "details": "Inbound @ Munzner | Level 1/5 | 1 achievements"}, {"id": "node_128", "label": "Seo", "type": "Skill", "size": 0.42, "color": "#ef4444", "level": 1, "category": "Sales Enablement", "evidence_count": 1, "company": "Munzner", "details": "Seo @ Munzner | Level 1/5 | 1 achievements"}, {"id": "node_129", "label": "Content Marketing", "type": "Skill", "size": 0.42, "color": "#ef4444", "level": 1, "category": "Sales Enablement", "evidence_count": 1, "company": "Munzner", "details": "Content Marketing @ Munzner | Level 1/5 | 1 achievements"}, {"id": "node_130", "label": "Thinking Environment", "type": "Skill", "size": 0.42, "color": "#ef4444", "level": 1, "category": "Sales Enablement", "evidence_count": 1, "company": "Munzner", "details": "Thinking Environment @ Munzner | Level 1/5 | 1 achievements"}, {"id": "node_131", "label": "Narratives", "type": "Skill", "size": 0.42, "color": "#ef4444", "level": 1, "category": "Sales Enablement", "evidence_count": 1, "company": "Munzner", "details": "Narratives @ Munzner | Level 1/5 | 1 achievements"}, {"id": "node_132", "label": "Copywriting", "type": "Skill", "size": 0.42, "color": "#ef4444", "level": 1, "category": "Sales Enablement", "evidence_count": 1, "company": "Munzner", "details": "Copywriting @ Munzner | Level 1/5 | 1 achievements"}, {"id": "node_133", "label": "000", "type": "Metric", "size": 0.4, "color": "#fbbf24", "metric_type": "count", "context": "Funil Automatizado de High-Ticket (~R$ 50k em Receita): Estruturou funil de e-mail marketing automatizado de 10 etapas (", "company": "Munzner", "details": "000 — Funil Automatizado de High-Ticket (~R$ 50k em Receita): Estruturou funil de e-ma..."}, {"id": "node_134", "label": "100", "type": "Metric", "size": 0.4, "color": "#fbbf24", "metric_type": "volume", "context": "Inbound Marketing e SEO Orgânico: Redigiu ~10 artigos estratégicos no blog alinhados à metodologia Thinking Environment,", "company": "Munzner", "details": "100 — Inbound Marketing e SEO Orgânico: Redigiu ~10 artigos estratégicos no blog alinh..."}, {"id": "node_135", "label": "10", "type": "Metric", "size": 0.4, "color": "#fbbf24", "metric_type": "percentage", "context": "Inbound Marketing e SEO Orgânico: Redigiu ~10 artigos estratégicos no blog alinhados à metodologia Thinking Environment,", "company": "Munzner", "details": "10 — Inbound Marketing e SEO Orgânico: Redigiu ~10 artigos estratégicos no blog alinh..."}, {"id": "node_136", "label": "Conversas Brasileiras", "type": "Company", "size": 1.5, "color": "#60a5fa", "glow": true, "details": "Curitiba, PR", "total_skills": 13, "total_metrics": 0, "total_bullets": 5}, {"id": "node_137", "label": "Co-Founder", "type": "Role", "size": 0.6, "color": "#a78bfa", "details": "Conversas Brasileiras | August 2018 – September 2019"}, {"id": "node_138", "label": "Social Innovation", "type": "Skill", "size": 0.42, "color": "#34d399", "level": 1, "category": "Facilitation & Community", "evidence_count": 1, "company": "Conversas Brasileiras", "details": "Social Innovation @ Conversas Brasileiras | Level 1/5 | 1 achievements"}, {"id": "node_139", "label": "Facilitation", "type": "Skill", "size": 0.54, "color": "#34d399", "level": 2, "category": "Facilitation & Community", "evidence_count": 2, "company": "Conversas Brasileiras", "details": "Facilitation @ Conversas Brasileiras | Level 2/5 | 2 achievements"}, {"id": "node_140", "label": "Community", "type": "Skill", "size": 0.42, "color": "#34d399", "level": 1, "category": "Facilitation & Community", "evidence_count": 1, "company": "Conversas Brasileiras", "details": "Community @ Conversas Brasileiras | Level 1/5 | 1 achievements"}, {"id": "node_141", "label": "Community Management", "type": "Skill", "size": 0.42, "color": "#34d399", "level": 1, "category": "Facilitation & Community", "evidence_count": 1, "company": "Conversas Brasileiras", "details": "Community Management @ Conversas Brasileiras | Level 1/5 | 1 achievements"}, {"id": "node_142", "label": "Content Creation", "type": "Skill", "size": 0.42, "color": "#34d399", "level": 1, "category": "Facilitation & Community", "evidence_count": 1, "company": "Conversas Brasileiras", "details": "Content Creation @ Conversas Brasileiras | Level 1/5 | 1 achievements"}, {"id": "node_143", "label": "Collective Intelligence", "type": "Skill", "size": 0.42, "color": "#34d399", "level": 1, "category": "Facilitation & Community", "evidence_count": 1, "company": "Conversas Brasileiras", "details": "Collective Intelligence @ Conversas Brasileiras | Level 1/5 | 1 achievements"}, {"id": "node_144", "label": "Art Of Hosting", "type": "Skill", "size": 0.42, "color": "#34d399", "level": 1, "category": "Facilitation & Community", "evidence_count": 1, "company": "Conversas Brasileiras", "details": "Art Of Hosting @ Conversas Brasileiras | Level 1/5 | 1 achievements"}, {"id": "node_145", "label": "Business Development", "type": "Skill", "size": 0.42, "color": "#34d399", "level": 1, "category": "Facilitation & Community", "evidence_count": 1, "company": "Conversas Brasileiras", "details": "Business Development @ Conversas Brasileiras | Level 1/5 | 1 achievements"}, {"id": "node_146", "label": "Partnerships", "type": "Skill", "size": 0.42, "color": "#34d399", "level": 1, "category": "Facilitation & Community", "evidence_count": 1, "company": "Conversas Brasileiras", "details": "Partnerships @ Conversas Brasileiras | Level 1/5 | 1 achievements"}, {"id": "node_147", "label": "B2B", "type": "Skill", "size": 0.42, "color": "#34d399", "level": 1, "category": "Facilitation & Community", "evidence_count": 1, "company": "Conversas Brasileiras", "details": "B2B @ Conversas Brasileiras | Level 1/5 | 1 achievements"}, {"id": "node_148", "label": "Business Models", "type": "Skill", "size": 0.42, "color": "#34d399", "level": 1, "category": "Facilitation & Community", "evidence_count": 1, "company": "Conversas Brasileiras", "details": "Business Models @ Conversas Brasileiras | Level 1/5 | 1 achievements"}, {"id": "node_149", "label": "Experimentation", "type": "Skill", "size": 0.42, "color": "#34d399", "level": 1, "category": "Facilitation & Community", "evidence_count": 1, "company": "Conversas Brasileiras", "details": "Experimentation @ Conversas Brasileiras | Level 1/5 | 1 achievements"}, {"id": "node_150", "label": "Pricing", "type": "Skill", "size": 0.42, "color": "#34d399", "level": 1, "category": "Facilitation & Community", "evidence_count": 1, "company": "Conversas Brasileiras", "details": "Pricing @ Conversas Brasileiras | Level 1/5 | 1 achievements"}, {"id": "node_151", "label": "Alvesa Transportes Logística Ltda.", "type": "Company", "size": 1.5, "color": "#60a5fa", "glow": true, "details": "Curitiba, PR", "total_skills": 10, "total_metrics": 0, "total_bullets": 4}, {"id": "node_152", "label": "Administrative Assistant", "type": "Role", "size": 0.6, "color": "#a78bfa", "details": "Alvesa Transportes Logística Ltda. | May 2015 – May 2016"}, {"id": "node_153", "label": "Admin", "type": "Skill", "size": 0.54, "color": "#38bdf8", "level": 2, "category": "Leadership & Ops", "evidence_count": 2, "company": "Alvesa Transportes Logística Ltda.", "details": "Admin @ Alvesa Transportes Logística Ltda. | Level 2/5 | 2 achievements"}, {"id": "node_154", "label": "Finance", "type": "Skill", "size": 0.42, "color": "#38bdf8", "level": 1, "category": "Leadership & Ops", "evidence_count": 1, "company": "Alvesa Transportes Logística Ltda.", "details": "Finance @ Alvesa Transportes Logística Ltda. | Level 1/5 | 1 achievements"}, {"id": "node_155", "label": "Ops", "type": "Skill", "size": 0.42, "color": "#38bdf8", "level": 1, "category": "Leadership & Ops", "evidence_count": 1, "company": "Alvesa Transportes Logística Ltda.", "details": "Ops @ Alvesa Transportes Logística Ltda. | Level 1/5 | 1 achievements"}, {"id": "node_156", "label": "Logistics", "type": "Skill", "size": 0.42, "color": "#38bdf8", "level": 1, "category": "Leadership & Ops", "evidence_count": 1, "company": "Alvesa Transportes Logística Ltda.", "details": "Logistics @ Alvesa Transportes Logística Ltda. | Level 1/5 | 1 achievements"}, {"id": "node_157", "label": "Coordination", "type": "Skill", "size": 0.42, "color": "#38bdf8", "level": 1, "category": "Leadership & Ops", "evidence_count": 1, "company": "Alvesa Transportes Logística Ltda.", "details": "Coordination @ Alvesa Transportes Logística Ltda. | Level 1/5 | 1 achievements"}, {"id": "node_158", "label": "Tracking", "type": "Skill", "size": 0.42, "color": "#38bdf8", "level": 1, "category": "Leadership & Ops", "evidence_count": 1, "company": "Alvesa Transportes Logística Ltda.", "details": "Tracking @ Alvesa Transportes Logística Ltda. | Level 1/5 | 1 achievements"}, {"id": "node_159", "label": "Marketing", "type": "Skill", "size": 0.42, "color": "#38bdf8", "level": 1, "category": "Leadership & Ops", "evidence_count": 1, "company": "Alvesa Transportes Logística Ltda.", "details": "Marketing @ Alvesa Transportes Logística Ltda. | Level 1/5 | 1 achievements"}, {"id": "node_160", "label": "Social Media", "type": "Skill", "size": 0.42, "color": "#38bdf8", "level": 1, "category": "Leadership & Ops", "evidence_count": 1, "company": "Alvesa Transportes Logística Ltda.", "details": "Social Media @ Alvesa Transportes Logística Ltda. | Level 1/5 | 1 achievements"}, {"id": "node_161", "label": "Support", "type": "Skill", "size": 0.42, "color": "#38bdf8", "level": 1, "category": "Leadership & Ops", "evidence_count": 1, "company": "Alvesa Transportes Logística Ltda.", "details": "Support @ Alvesa Transportes Logística Ltda. | Level 1/5 | 1 achievements"}, {"id": "node_162", "label": "Recruitment", "type": "Skill", "size": 0.42, "color": "#38bdf8", "level": 1, "category": "Leadership & Ops", "evidence_count": 1, "company": "Alvesa Transportes Logística Ltda.", "details": "Recruitment @ Alvesa Transportes Logística Ltda. | Level 1/5 | 1 achievements"}], "edges": [{"source": "node_1", "target": "node_2", "type": "WORKED_AS"}, {"source": "node_2", "target": "node_3", "type": "HAS_ROLE"}, {"source": "node_2", "target": "node_4", "type": "HAS_ROLE"}, {"source": "node_2", "target": "node_5", "type": "HAS_SKILL"}, {"source": "node_2", "target": "node_6", "type": "HAS_SKILL"}, {"source": "node_2", "target": "node_7", "type": "HAS_SKILL"}, {"source": "node_2", "target": "node_8", "type": "HAS_SKILL"}, {"source": "node_2", "target": "node_9", "type": "HAS_SKILL"}, {"source": "node_2", "target": "node_10", "type": "HAS_SKILL"}, {"source": "node_2", "target": "node_11", "type": "HAS_SKILL"}, {"source": "node_2", "target": "node_12", "type": "HAS_SKILL"}, {"source": "node_2", "target": "node_13", "type": "HAS_SKILL"}, {"source": "node_2", "target": "node_14", "type": "HAS_SKILL"}, {"source": "node_2", "target": "node_15", "type": "HAS_SKILL"}, {"source": "node_2", "target": "node_16", "type": "HAS_SKILL"}, {"source": "node_2", "target": "node_17", "type": "HAS_SKILL"}, {"source": "node_2", "target": "node_18", "type": "HAS_SKILL"}, {"source": "node_2", "target": "node_19", "type": "HAS_SKILL"}, {"source": "node_2", "target": "node_20", "type": "HAS_SKILL"}, {"source": "node_2", "target": "node_21", "type": "HAS_SKILL"}, {"source": "node_2", "target": "node_22", "type": "HAS_SKILL"}, {"source": "node_2", "target": "node_23", "type": "HAS_SKILL"}, {"source": "node_2", "target": "node_24", "type": "HAS_SKILL"}, {"source": "node_2", "target": "node_25", "type": "HAS_SKILL"}, {"source": "node_2", "target": "node_26", "type": "HAS_SKILL"}, {"source": "node_2", "target": "node_27", "type": "HAS_SKILL"}, {"source": "node_2", "target": "node_28", "type": "HAS_SKILL"}, {"source": "node_2", "target": "node_29", "type": "HAS_SKILL"}, {"source": "node_2", "target": "node_30", "type": "HAS_SKILL"}, {"source": "node_2", "target": "node_31", "type": "HAS_SKILL"}, {"source": "node_2", "target": "node_32", "type": "HAS_SKILL"}, {"source": "node_2", "target": "node_33", "type": "HAS_SKILL"}, {"source": "node_2", "target": "node_34", "type": "HAS_SKILL"}, {"source": "node_2", "target": "node_35", "type": "HAS_SKILL"}, {"source": "node_2", "target": "node_36", "type": "HAS_SKILL"}, {"source": "node_2", "target": "node_37", "type": "HAS_SKILL"}, {"source": "node_2", "target": "node_38", "type": "HAS_SKILL"}, {"source": "node_2", "target": "node_39", "type": "HAS_SKILL"}, {"source": "node_2", "target": "node_40", "type": "HAS_SKILL"}, {"source": "node_2", "target": "node_41", "type": "HAS_SKILL"}, {"source": "node_2", "target": "node_42", "type": "HAS_SKILL"}, {"source": "node_2", "target": "node_43", "type": "HAS_SKILL"}, {"source": "node_2", "target": "node_44", "type": "HAS_METRIC"}, {"source": "node_2", "target": "node_45", "type": "HAS_METRIC"}, {"source": "node_2", "target": "node_46", "type": "HAS_METRIC"}, {"source": "node_2", "target": "node_47", "type": "HAS_METRIC"}, {"source": "node_2", "target": "node_48", "type": "HAS_METRIC"}, {"source": "node_2", "target": "node_49", "type": "HAS_METRIC"}, {"source": "node_2", "target": "node_50", "type": "HAS_METRIC"}, {"source": "node_1", "target": "node_51", "type": "WORKED_AS"}, {"source": "node_51", "target": "node_52", "type": "HAS_ROLE"}, {"source": "node_51", "target": "node_53", "type": "HAS_ROLE"}, {"source": "node_51", "target": "node_54", "type": "HAS_SKILL"}, {"source": "node_51", "target": "node_55", "type": "HAS_SKILL"}, {"source": "node_51", "target": "node_56", "type": "HAS_SKILL"}, {"source": "node_51", "target": "node_57", "type": "HAS_SKILL"}, {"source": "node_51", "target": "node_58", "type": "HAS_SKILL"}, {"source": "node_51", "target": "node_59", "type": "HAS_SKILL"}, {"source": "node_51", "target": "node_60", "type": "HAS_SKILL"}, {"source": "node_51", "target": "node_61", "type": "HAS_SKILL"}, {"source": "node_51", "target": "node_62", "type": "HAS_SKILL"}, {"source": "node_51", "target": "node_63", "type": "HAS_SKILL"}, {"source": "node_51", "target": "node_64", "type": "HAS_SKILL"}, {"source": "node_51", "target": "node_65", "type": "HAS_SKILL"}, {"source": "node_51", "target": "node_66", "type": "HAS_SKILL"}, {"source": "node_51", "target": "node_67", "type": "HAS_SKILL"}, {"source": "node_51", "target": "node_68", "type": "HAS_SKILL"}, {"source": "node_51", "target": "node_69", "type": "HAS_SKILL"}, {"source": "node_51", "target": "node_70", "type": "HAS_SKILL"}, {"source": "node_51", "target": "node_71", "type": "HAS_SKILL"}, {"source": "node_51", "target": "node_72", "type": "HAS_SKILL"}, {"source": "node_51", "target": "node_73", "type": "HAS_SKILL"}, {"source": "node_51", "target": "node_74", "type": "HAS_SKILL"}, {"source": "node_51", "target": "node_75", "type": "HAS_SKILL"}, {"source": "node_51", "target": "node_76", "type": "HAS_SKILL"}, {"source": "node_51", "target": "node_77", "type": "HAS_METRIC"}, {"source": "node_51", "target": "node_78", "type": "HAS_METRIC"}, {"source": "node_51", "target": "node_79", "type": "HAS_METRIC"}, {"source": "node_51", "target": "node_80", "type": "HAS_METRIC"}, {"source": "node_51", "target": "node_81", "type": "HAS_METRIC"}, {"source": "node_1", "target": "node_82", "type": "WORKED_AS"}, {"source": "node_82", "target": "node_83", "type": "HAS_ROLE"}, {"source": "node_82", "target": "node_84", "type": "HAS_ROLE"}, {"source": "node_82", "target": "node_85", "type": "HAS_SKILL"}, {"source": "node_82", "target": "node_86", "type": "HAS_SKILL"}, {"source": "node_82", "target": "node_87", "type": "HAS_SKILL"}, {"source": "node_82", "target": "node_88", "type": "HAS_SKILL"}, {"source": "node_82", "target": "node_89", "type": "HAS_SKILL"}, {"source": "node_82", "target": "node_90", "type": "HAS_SKILL"}, {"source": "node_82", "target": "node_91", "type": "HAS_SKILL"}, {"source": "node_82", "target": "node_92", "type": "HAS_SKILL"}, {"source": "node_82", "target": "node_93", "type": "HAS_SKILL"}, {"source": "node_82", "target": "node_94", "type": "HAS_SKILL"}, {"source": "node_82", "target": "node_95", "type": "HAS_SKILL"}, {"source": "node_82", "target": "node_96", "type": "HAS_SKILL"}, {"source": "node_82", "target": "node_97", "type": "HAS_SKILL"}, {"source": "node_82", "target": "node_98", "type": "HAS_SKILL"}, {"source": "node_82", "target": "node_99", "type": "HAS_SKILL"}, {"source": "node_82", "target": "node_100", "type": "HAS_SKILL"}, {"source": "node_82", "target": "node_101", "type": "HAS_SKILL"}, {"source": "node_82", "target": "node_102", "type": "HAS_SKILL"}, {"source": "node_82", "target": "node_103", "type": "HAS_SKILL"}, {"source": "node_82", "target": "node_104", "type": "HAS_SKILL"}, {"source": "node_82", "target": "node_105", "type": "HAS_METRIC"}, {"source": "node_82", "target": "node_106", "type": "HAS_METRIC"}, {"source": "node_82", "target": "node_107", "type": "HAS_METRIC"}, {"source": "node_82", "target": "node_108", "type": "HAS_METRIC"}, {"source": "node_82", "target": "node_109", "type": "HAS_METRIC"}, {"source": "node_82", "target": "node_110", "type": "HAS_METRIC"}, {"source": "node_1", "target": "node_111", "type": "WORKED_AS"}, {"source": "node_111", "target": "node_112", "type": "HAS_ROLE"}, {"source": "node_111", "target": "node_113", "type": "HAS_ROLE"}, {"source": "node_111", "target": "node_114", "type": "HAS_ROLE"}, {"source": "node_111", "target": "node_115", "type": "HAS_ROLE"}, {"source": "node_111", "target": "node_116", "type": "HAS_SKILL"}, {"source": "node_111", "target": "node_117", "type": "HAS_SKILL"}, {"source": "node_111", "target": "node_118", "type": "HAS_SKILL"}, {"source": "node_111", "target": "node_119", "type": "HAS_SKILL"}, {"source": "node_111", "target": "node_120", "type": "HAS_SKILL"}, {"source": "node_111", "target": "node_121", "type": "HAS_SKILL"}, {"source": "node_111", "target": "node_122", "type": "HAS_SKILL"}, {"source": "node_111", "target": "node_123", "type": "HAS_SKILL"}, {"source": "node_111", "target": "node_124", "type": "HAS_SKILL"}, {"source": "node_111", "target": "node_125", "type": "HAS_SKILL"}, {"source": "node_111", "target": "node_126", "type": "HAS_SKILL"}, {"source": "node_111", "target": "node_127", "type": "HAS_SKILL"}, {"source": "node_111", "target": "node_128", "type": "HAS_SKILL"}, {"source": "node_111", "target": "node_129", "type": "HAS_SKILL"}, {"source": "node_111", "target": "node_130", "type": "HAS_SKILL"}, {"source": "node_111", "target": "node_131", "type": "HAS_SKILL"}, {"source": "node_111", "target": "node_132", "type": "HAS_SKILL"}, {"source": "node_111", "target": "node_133", "type": "HAS_METRIC"}, {"source": "node_111", "target": "node_134", "type": "HAS_METRIC"}, {"source": "node_111", "target": "node_135", "type": "HAS_METRIC"}, {"source": "node_1", "target": "node_136", "type": "WORKED_AS"}, {"source": "node_136", "target": "node_137", "type": "HAS_ROLE"}, {"source": "node_136", "target": "node_138", "type": "HAS_SKILL"}, {"source": "node_136", "target": "node_139", "type": "HAS_SKILL"}, {"source": "node_136", "target": "node_140", "type": "HAS_SKILL"}, {"source": "node_136", "target": "node_141", "type": "HAS_SKILL"}, {"source": "node_136", "target": "node_142", "type": "HAS_SKILL"}, {"source": "node_136", "target": "node_143", "type": "HAS_SKILL"}, {"source": "node_136", "target": "node_144", "type": "HAS_SKILL"}, {"source": "node_136", "target": "node_145", "type": "HAS_SKILL"}, {"source": "node_136", "target": "node_146", "type": "HAS_SKILL"}, {"source": "node_136", "target": "node_147", "type": "HAS_SKILL"}, {"source": "node_136", "target": "node_148", "type": "HAS_SKILL"}, {"source": "node_136", "target": "node_149", "type": "HAS_SKILL"}, {"source": "node_136", "target": "node_150", "type": "HAS_SKILL"}, {"source": "node_1", "target": "node_151", "type": "WORKED_AS"}, {"source": "node_151", "target": "node_152", "type": "HAS_ROLE"}, {"source": "node_151", "target": "node_153", "type": "HAS_SKILL"}, {"source": "node_151", "target": "node_154", "type": "HAS_SKILL"}, {"source": "node_151", "target": "node_155", "type": "HAS_SKILL"}, {"source": "node_151", "target": "node_156", "type": "HAS_SKILL"}, {"source": "node_151", "target": "node_157", "type": "HAS_SKILL"}, {"source": "node_151", "target": "node_158", "type": "HAS_SKILL"}, {"source": "node_151", "target": "node_159", "type": "HAS_SKILL"}, {"source": "node_151", "target": "node_160", "type": "HAS_SKILL"}, {"source": "node_151", "target": "node_161", "type": "HAS_SKILL"}, {"source": "node_151", "target": "node_162", "type": "HAS_SKILL"}], "categories": {"Product & Strategy": "#4a9eff", "Growth & Marketing": "#00d4aa", "AI & Automation": "#a855f7", "Data & Analytics": "#ff8c42", "Sales Enablement": "#ef4444", "Tools & Platforms": "#fbbf24", "Leadership & Ops": "#38bdf8", "Quality & Governance": "#f472b6", "Facilitation & Community": "#34d399", "Uncategorized": "#94a3b8"}, "stats": {"total_nodes": 162, "total_edges": 161, "total_skills": 122, "total_companies": 6, "total_metrics": 21, "source": "master_resume.json"}}
-</script>
+    <script id="graph-data" type="application/json">__GRAPH_DATA__</script>
     <script>
-        let graphData = null;
+        const I18N = {
+            pt: {
+                pageTitle: 'Kevin Augusto Vieira - Grafo Profissional 3D',
+                subtitle: 'Selecione uma empresa para explorar cargos, skills compartilhadas e métricas. Fonte: master_resume.json',
+                nodes: 'Nós', skills: 'Skills únicas', companies: 'Empresas', metrics: 'Métricas', roles: 'Cargos',
+                fullView: 'Visão completa', company: 'Empresa', location: 'Localização', period: 'Período',
+                evidence: 'evidência nesta empresa', evidences: 'evidências nesta empresa',
+                totalEvidence: 'no total', sharedWith: 'Também comprovada em',
+                instructions: 'Clique = explorar empresa • Arraste = girar • Scroll = zoom • Duplo clique ou Esc = visão completa',
+                close: 'Fechar e voltar à visão completa',
+            },
+            en: {
+                pageTitle: 'Kevin Augusto Vieira - Professional Graph 3D',
+                subtitle: 'Select a company to explore roles, shared skills, and metrics. Source: master_resume.json',
+                nodes: 'Nodes', skills: 'Unique skills', companies: 'Companies', metrics: 'Metrics', roles: 'Roles',
+                fullView: 'Full view', company: 'Company', location: 'Location', period: 'Period',
+                evidence: 'evidence at this company', evidences: 'evidence items at this company',
+                totalEvidence: 'in total', sharedWith: 'Also demonstrated at',
+                instructions: 'Click = explore company • Drag = rotate • Scroll = zoom • Double-click or Esc = full view',
+                close: 'Close and return to full view',
+            },
+        };
+
+        const TYPE_COLORS = {
+            Candidate: 0xffffff,
+            Company: 0x60a5fa,
+            Role: 0xa78bfa,
+            Metric: 0xfbbf24,
+        };
+
+        function storedLanguage() {
+            try {
+                return localStorage.getItem('professionalGraphLanguage') || 'pt';
+            } catch (error) {
+                return 'pt';
+            }
+        }
+
+        let graphData;
+        let scene;
+        let camera;
+        let renderer;
+        let controls;
+        let raycaster;
+        let mouse;
+        let currentLanguage = storedLanguage();
+        let selectedCompanyId = null;
+        let clickTimer = null;
         const nodes3D = [];
         const edges3D = [];
-        let scene, camera, renderer, controls;
-        let raycaster, mouse;
-        let selectedNode = null;
-        
-        const TYPE_COLORS = {
-            'Candidate': 0xffffff, 'Company': 0x60a5fa, 'Role': 0xa78bfa,
-            'Skill': 0x4a9eff, 'Metric': 0xfbbf24
-        };
-        
+        const nodeMeshes = new Map();
+        const companyPositions = new Map();
+        const initialCamera = new THREE.Vector3(0, 14, 34);
+
+        function t(key) { return I18N[currentLanguage][key] || key; }
+        function localized(value) {
+            if (!value) return '';
+            if (typeof value === 'string') return value;
+            return value[currentLanguage] || value.pt || value.en || '';
+        }
+        function nodeLabel(node) { return localized(node.labels) || node.label || node.id; }
+        function getNode(id) { return graphData.nodes.find(node => node.id === id); }
+        function connectedCompanyIds(node) {
+            if (node.type === 'Company') return [node.id];
+            if (node.company_id) return [node.company_id];
+            if (node.companies) return node.companies;
+            return graphData.edges
+                .filter(edge => edge.target === node.id && getNode(edge.source)?.type === 'Company')
+                .map(edge => edge.source);
+        }
+        function seededUnit(value) {
+            let hash = 2166136261;
+            for (let i = 0; i < value.length; i += 1) {
+                hash ^= value.charCodeAt(i);
+                hash = Math.imul(hash, 16777619);
+            }
+            return (hash >>> 0) / 4294967295;
+        }
+
         async function init() {
             try {
-                const el = document.getElementById('graph-data');
-                if (el && el.textContent) {
-                    graphData = JSON.parse(el.textContent);
-                } else {
-                    // fallback: try fetch (works when served over http)
-                    const response = await fetch('data/graph_clean.json');
-                    graphData = await response.json();
-                }
-            } catch (e) {
-                console.error('Failed to load:', e);
-                graphData = { nodes: [], edges: [], categories: {}, stats: {} };
+                const raw = document.getElementById('graph-data').textContent.trim();
+                graphData = JSON.parse(raw);
+            } catch (error) {
+                console.error('Unable to load graph data', error);
+                document.getElementById('loading').innerHTML = '<p>Unable to load graph data.</p>';
+                return;
             }
-            
+
             scene = new THREE.Scene();
-            scene.background = new THREE.Color(0x0a0a0f);
-            scene.fog = new THREE.FogExp2(0x0a0a0f, 0.012);
-            
+            scene.background = new THREE.Color(0x090a10);
+            scene.fog = new THREE.FogExp2(0x090a10, 0.011);
             camera = new THREE.PerspectiveCamera(60, window.innerWidth / window.innerHeight, 0.1, 1000);
-            camera.position.set(0, 12, 30);
-            
+            camera.position.copy(initialCamera);
+
             renderer = new THREE.WebGLRenderer({ antialias: true });
             renderer.setSize(window.innerWidth, window.innerHeight);
             renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
             document.getElementById('canvas-container').appendChild(renderer.domElement);
-            
+
             controls = new THREE.OrbitControls(camera, renderer.domElement);
             controls.enableDamping = true;
             controls.dampingFactor = 0.05;
-            controls.maxDistance = 80;
+            controls.maxDistance = 85;
             controls.minDistance = 5;
             controls.autoRotate = true;
-            controls.autoRotateSpeed = 0.2;
-            
+            controls.autoRotateSpeed = 0.15;
+
             raycaster = new THREE.Raycaster();
             mouse = new THREE.Vector2();
-            
-            // Lights
-            scene.add(new THREE.AmbientLight(0x404060, 0.5));
-            const pl1 = new THREE.PointLight(0x4a9eff, 1, 100);
-            pl1.position.set(20, 20, 20);
-            scene.add(pl1);
-            const pl2 = new THREE.PointLight(0xa855f7, 0.6, 100);
-            pl2.position.set(-20, -10, 10);
-            scene.add(pl2);
-            
+            scene.add(new THREE.AmbientLight(0x64748b, 0.55));
+            const blueLight = new THREE.PointLight(0x60a5fa, 1, 110);
+            blueLight.position.set(20, 20, 20);
+            scene.add(blueLight);
+            const violetLight = new THREE.PointLight(0xa855f7, 0.65, 100);
+            violetLight.position.set(-20, -10, 10);
+            scene.add(violetLight);
+
             createNodes();
             createEdges();
             updateStats();
-            buildLegend();
-            buildCompanyFilters();
-            
-            window.addEventListener('resize', onWindowResize);
-            renderer.domElement.addEventListener('click', onClick);
-            renderer.domElement.addEventListener('dblclick', onDoubleClick);
-            
-            setTimeout(() => {
-                document.getElementById('loading').classList.add('hidden');
-            }, 500);
-            
+            bindEvents();
+            setLanguage(currentLanguage);
+            resetFullView();
+            document.getElementById('loading').classList.add('hidden');
             animate();
         }
-        
+
         function createNodes() {
-            const nodeMeshes = new Map();
-            const typeGroups = { Candidate: [], Company: [], Role: [], Skill: [], Metric: [] };
-            
-            graphData.nodes.forEach((node, i) => {
-                const color = parseInt(node.color.replace('#', ''), 16) || TYPE_COLORS[node.type] || 0x94a3b8;
+            const companies = graphData.nodes.filter(node => node.type === 'Company');
+            companies.forEach((company, index) => {
+                const angle = (index / companies.length) * Math.PI * 2;
+                const position = new THREE.Vector3(
+                    13 * Math.cos(angle),
+                    (seededUnit(company.id) - 0.5) * 3,
+                    13 * Math.sin(angle)
+                );
+                companyPositions.set(company.id, position);
+            });
+
+            graphData.nodes.forEach((node, index) => {
+                const parsedColor = Number.parseInt((node.color || '').replace('#', ''), 16);
+                const color = Number.isNaN(parsedColor) ? (TYPE_COLORS[node.type] || 0x94a3b8) : parsedColor;
                 const size = node.size || 0.5;
-                
-                const geometry = new THREE.SphereGeometry(size * 0.3, 32, 32);
+                const geometry = new THREE.SphereGeometry(size * 0.32, 28, 28);
                 const material = new THREE.MeshBasicMaterial({
-                    color: color,
+                    color,
                     transparent: true,
-                    opacity: node.glow ? 1 : 0.85
+                    opacity: node.glow ? 1 : 0.86,
                 });
-                
                 const mesh = new THREE.Mesh(geometry, material);
-                
-                // Position based on type
-                let radius, phi, theta;
-                const idx = typeGroups[node.type]?.length || 0;
-                typeGroups[node.type]?.push(node);
-                
-                if (node.type === 'Candidate') {
-                    mesh.position.set(0, 0, 0);
-                } else if (node.type === 'Company') {
-                    const angle = (idx / 6) * Math.PI * 2;
-                    radius = 12;
-                    mesh.position.set(
-                        radius * Math.cos(angle),
-                        (Math.random() - 0.5) * 4,
-                        radius * Math.sin(angle)
-                    );
-                } else if (node.type === 'Role') {
-                    // Find parent company
-                    const parentCompany = graphData.nodes.find(n => n.type === 'Company');
-                    const parentMesh = parentCompany ? nodeMeshes.get(parentCompany.id) : null;
-                    const basePos = parentMesh ? parentMesh.position : { x: 0, y: 0, z: 0 };
-                    mesh.position.set(
-                        basePos.x + (Math.random() - 0.5) * 4,
-                        basePos.y + (Math.random() - 0.5) * 4,
-                        basePos.z + (Math.random() - 0.5) * 4
-                    );
-                } else {
-                    // Skills and metrics scattered around
-                    const parentCompany = graphData.nodes.find(n => n.type === 'Company');
-                    const parentMesh = parentCompany ? nodeMeshes.get(parentCompany.id) : null;
-                    const basePos = parentMesh ? parentMesh.position : { x: 0, y: 0, z: 0 };
-                    mesh.position.set(
-                        basePos.x + (Math.random() - 0.5) * 10,
-                        basePos.y + (Math.random() - 0.5) * 6,
-                        basePos.z + (Math.random() - 0.5) * 10
-                    );
-                }
-                
-                mesh.userData = node;
-                
-                // Glow for important nodes
+                mesh.position.copy(positionForNode(node, index));
+                mesh.userData = { ...node, basePosition: mesh.position.clone(), baseOpacity: material.opacity };
+
                 if (node.glow || node.type === 'Company') {
-                    const spriteMaterial = new THREE.SpriteMaterial({
+                    const glow = new THREE.Sprite(new THREE.SpriteMaterial({
                         map: createGlowTexture(color),
                         transparent: true,
-                        opacity: 0.4
-                    });
-                    const sprite = new THREE.Sprite(spriteMaterial);
-                    sprite.scale.set(size * 3, size * 3, 1);
-                    mesh.add(sprite);
+                        opacity: 0.34,
+                    }));
+                    glow.scale.set(size * 3, size * 3, 1);
+                    mesh.add(glow);
                 }
-                
+                if (node.type === 'Candidate' || node.type === 'Company') {
+                    const label = createTextSprite(nodeLabel(node), node.type === 'Candidate' ? '#ffffff' : '#bfdbfe');
+                    label.position.set(0, size * 0.55, 0);
+                    label.userData.isNodeLabel = true;
+                    mesh.add(label);
+                    mesh.userData.labelSprite = label;
+                }
+
                 scene.add(mesh);
                 nodes3D.push(mesh);
                 nodeMeshes.set(node.id, mesh);
             });
-            
-            window.nodeMeshes = nodeMeshes;
         }
-        
+
+        function positionForNode(node, index) {
+            if (node.type === 'Candidate') return new THREE.Vector3(0, 0, 0);
+            if (node.type === 'Company') return companyPositions.get(node.id).clone();
+
+            const companyIds = connectedCompanyIds(node);
+            const points = companyIds.map(id => companyPositions.get(id)).filter(Boolean);
+            const center = points.length
+                ? points.reduce((sum, point) => sum.add(point), new THREE.Vector3()).divideScalar(points.length)
+                : new THREE.Vector3();
+            const angle = seededUnit(`${node.id}-angle`) * Math.PI * 2;
+            const vertical = (seededUnit(`${node.id}-height`) - 0.5) * 5;
+
+            if (node.type === 'Role') {
+                return center.add(new THREE.Vector3(2.1 * Math.cos(angle), vertical * 0.45, 2.1 * Math.sin(angle)));
+            }
+            if (node.type === 'Metric') {
+                return center.add(new THREE.Vector3(3.1 * Math.cos(angle), vertical * 0.65, 3.1 * Math.sin(angle)));
+            }
+            if (node.type === 'Skill' && points.length > 1) {
+                const spread = 1.2 + seededUnit(`${node.id}-spread`) * 1.4;
+                return center.add(new THREE.Vector3(spread * Math.cos(angle), vertical, spread * Math.sin(angle)));
+            }
+            const radius = 4.2 + seededUnit(`${node.id}-radius`) * 2.8;
+            return center.add(new THREE.Vector3(radius * Math.cos(angle), vertical, radius * Math.sin(angle)));
+        }
+
         function createEdges() {
             graphData.edges.forEach(edge => {
-                const sourceMesh = window.nodeMeshes.get(edge.source);
-                const targetMesh = window.nodeMeshes.get(edge.target);
-                
-                if (sourceMesh && targetMesh) {
-                    const points = [sourceMesh.position, targetMesh.position];
-                    const geometry = new THREE.BufferGeometry().setFromPoints(points);
-                    const material = new THREE.LineBasicMaterial({
-                        color: 0x4a5568,
-                        transparent: true,
-                        opacity: 0.25
-                    });
-                    const line = new THREE.Line(geometry, material);
-                    scene.add(line);
-                    edges3D.push(line);
-                }
+                const sourceMesh = nodeMeshes.get(edge.source);
+                const targetMesh = nodeMeshes.get(edge.target);
+                if (!sourceMesh || !targetMesh) return;
+                const geometry = new THREE.BufferGeometry().setFromPoints([sourceMesh.position, targetMesh.position]);
+                const baseOpacity = edge.type === 'WORKED_AT' ? 0.32 : edge.type === 'DEMONSTRATES' ? 0.2 : 0.26;
+                const material = new THREE.LineBasicMaterial({
+                    color: edge.type === 'DEMONSTRATES' ? 0x475569 : 0x64748b,
+                    transparent: true,
+                    opacity: baseOpacity,
+                });
+                const line = new THREE.Line(geometry, material);
+                line.userData = { ...edge, baseOpacity };
+                scene.add(line);
+                edges3D.push(line);
             });
         }
-        
+
         function createGlowTexture(color) {
             const canvas = document.createElement('canvas');
-            canvas.width = 64; canvas.height = 64;
-            const ctx = canvas.getContext('2d');
-            const hex = '#' + color.toString(16).padStart(6, '0');
-            const gradient = ctx.createRadialGradient(32, 32, 0, 32, 32, 32);
+            canvas.width = 64;
+            canvas.height = 64;
+            const context = canvas.getContext('2d');
+            const hex = `#${color.toString(16).padStart(6, '0')}`;
+            const gradient = context.createRadialGradient(32, 32, 0, 32, 32, 32);
             gradient.addColorStop(0, hex);
             gradient.addColorStop(1, 'transparent');
-            ctx.fillStyle = gradient;
-            ctx.fillRect(0, 0, 64, 64);
+            context.fillStyle = gradient;
+            context.fillRect(0, 0, 64, 64);
             return new THREE.CanvasTexture(canvas);
         }
-        
-        function updateStats() {
-            document.getElementById('stat-nodes').textContent = graphData.nodes.length;
-            document.getElementById('stat-skills').textContent = graphData.stats.total_skills;
-            document.getElementById('stat-companies').textContent = graphData.stats.total_companies;
-            document.getElementById('stat-metrics').textContent = graphData.stats.total_metrics;
+
+        function createTextSprite(text, color) {
+            const canvas = document.createElement('canvas');
+            const context = canvas.getContext('2d');
+            const fontSize = 30;
+            context.font = `600 ${fontSize}px Inter, Segoe UI, sans-serif`;
+            const width = Math.ceil(context.measureText(text).width + 28);
+            canvas.width = Math.max(128, width);
+            canvas.height = 52;
+            context.font = `600 ${fontSize}px Inter, Segoe UI, sans-serif`;
+            context.fillStyle = 'rgba(9, 10, 16, 0.78)';
+            context.roundRect(0, 4, canvas.width, 44, 10);
+            context.fill();
+            context.fillStyle = color;
+            context.textAlign = 'center';
+            context.textBaseline = 'middle';
+            context.fillText(text, canvas.width / 2, 26);
+            const texture = new THREE.CanvasTexture(canvas);
+            const sprite = new THREE.Sprite(new THREE.SpriteMaterial({ map: texture, transparent: true, depthTest: false }));
+            sprite.scale.set(Math.min(7, canvas.width / 38), 1.3, 1);
+            sprite.userData = { text, color };
+            return sprite;
         }
-        
-        function buildLegend() {
-            const legend = document.getElementById('legend');
-            legend.innerHTML = '';
-            Object.entries(TYPE_COLORS).forEach(([type, color]) => {
-                const item = document.createElement('div');
-                item.className = 'legend-item';
-                item.innerHTML = `<span class="legend-color" style="background:#${color.toString(16).padStart(6,'0')}"></span>${type}`;
-                legend.appendChild(item);
+
+        function replaceTextSprite(mesh, text, color) {
+            const oldSprite = mesh.userData.labelSprite;
+            if (oldSprite) mesh.remove(oldSprite);
+            const sprite = createTextSprite(text, color);
+            sprite.position.set(0, (mesh.userData.size || 1) * 0.55, 0);
+            sprite.userData.isNodeLabel = true;
+            mesh.add(sprite);
+            mesh.userData.labelSprite = sprite;
+        }
+
+        function bindEvents() {
+            window.addEventListener('resize', onWindowResize);
+            window.addEventListener('keydown', event => { if (event.key === 'Escape') resetFullView(); });
+            renderer.domElement.addEventListener('click', onClick);
+            renderer.domElement.addEventListener('dblclick', onDoubleClick);
+            document.getElementById('detail-close').addEventListener('click', resetFullView);
+            document.querySelectorAll('.language-btn').forEach(button => {
+                button.addEventListener('click', () => setLanguage(button.dataset.lang));
             });
         }
-        
+
+        function setLanguage(language) {
+            currentLanguage = language === 'en' ? 'en' : 'pt';
+            try {
+                localStorage.setItem('professionalGraphLanguage', currentLanguage);
+            } catch (error) {
+                // Sandboxed embeds may block storage; language still works for this session.
+            }
+            document.documentElement.lang = currentLanguage === 'pt' ? 'pt-BR' : 'en';
+            document.title = t('pageTitle');
+            document.getElementById('subtitle').textContent = t('subtitle');
+            document.getElementById('instructions').textContent = t('instructions');
+            document.getElementById('detail-close').setAttribute('aria-label', t('close'));
+            document.querySelectorAll('[data-i18n]').forEach(element => {
+                element.textContent = t(element.dataset.i18n);
+            });
+            document.querySelectorAll('.language-btn').forEach(button => {
+                button.classList.toggle('active', button.dataset.lang === currentLanguage);
+            });
+            nodes3D.forEach(mesh => {
+                if (!mesh.userData.labelSprite) return;
+                const color = mesh.userData.type === 'Candidate' ? '#ffffff' : '#bfdbfe';
+                replaceTextSprite(mesh, nodeLabel(mesh.userData), color);
+            });
+            buildCompanyFilters();
+            buildLegend();
+            if (selectedCompanyId) showCompanyInsights(selectedCompanyId);
+        }
+
+        function updateStats() {
+            const stats = graphData.stats || {};
+            document.getElementById('stat-nodes').textContent = stats.total_nodes ?? graphData.nodes.length;
+            document.getElementById('stat-skills').textContent = stats.total_skills ?? 0;
+            document.getElementById('stat-companies').textContent = stats.total_companies ?? 0;
+            document.getElementById('stat-metrics').textContent = stats.total_metrics ?? 0;
+        }
+
         function buildCompanyFilters() {
             const container = document.getElementById('company-filters');
             container.innerHTML = '';
-            
-            const companies = graphData.nodes.filter(n => n.type === 'Company');
-            companies.forEach(company => {
-                const btn = document.createElement('button');
-                btn.className = 'filter-btn';
-                btn.textContent = company.label;
-                btn.dataset.company = company.label;
-                btn.addEventListener('click', () => focusOnCompany(company.label));
-                container.appendChild(btn);
+            const fullView = document.createElement('button');
+            fullView.type = 'button';
+            fullView.className = `filter-btn${selectedCompanyId ? '' : ' active'}`;
+            fullView.textContent = `↺ ${t('fullView')}`;
+            fullView.addEventListener('click', resetFullView);
+            container.appendChild(fullView);
+
+            graphData.nodes.filter(node => node.type === 'Company').forEach(company => {
+                const button = document.createElement('button');
+                button.type = 'button';
+                button.className = `filter-btn${selectedCompanyId === company.id ? ' active' : ''}`;
+                button.textContent = nodeLabel(company);
+                button.addEventListener('click', () => focusOnCompany(company.id));
+                container.appendChild(button);
             });
         }
-        
-        function focusOnCompany(companyName) {
-            // Find the company node
-            const companyNode = graphData.nodes.find(n => n.type === 'Company' && n.label === companyName);
-            if (!companyNode) return;
-            
-            const companyMesh = window.nodeMeshes.get(companyNode.id);
+
+        function buildLegend() {
+            const legend = document.getElementById('legend');
+            legend.innerHTML = '';
+            const items = [
+                { label: 'Kevin', color: '#ffffff' },
+                { label: t('company'), color: '#60a5fa' },
+                { label: t('roles'), color: '#a78bfa' },
+                { label: t('metrics'), color: '#fbbf24' },
+                ...Object.values(graphData.categories || {}).map(category => ({
+                    label: localized(category),
+                    color: category.color,
+                })),
+            ];
+            items.forEach(({ label, color }) => {
+                const item = document.createElement('div');
+                item.className = 'legend-item';
+                item.innerHTML = `<span class="legend-color" style="background:${color}"></span>${label}`;
+                legend.appendChild(item);
+            });
+        }
+
+        function focusOnCompany(companyId) {
+            const companyMesh = nodeMeshes.get(companyId);
             if (!companyMesh) return;
-            
-            // Move camera to focus
-            const target = companyMesh.position;
-            controls.target.copy(target);
-            camera.position.set(target.x + 8, target.y + 8, target.z + 8);
-            
-            // Show details
-            showCompanyInsights(companyName);
-            
-            // Highlight related nodes
-            highlightCompanyNodes(companyName);
-            
-            // Update buttons
-            document.querySelectorAll('.filter-btn').forEach(b => {
-                b.classList.toggle('active', b.dataset.company === companyName);
-            });
+            selectedCompanyId = companyId;
+            controls.autoRotate = false;
+            controls.target.copy(companyMesh.position);
+            camera.position.copy(companyMesh.position).add(new THREE.Vector3(9, 7, 9));
+            highlightCompanyNodes(companyId);
+            showCompanyInsights(companyId);
+            buildCompanyFilters();
         }
-        
-        function highlightCompanyNodes(companyName) {
-            // Find all skills and metrics for this company
-            const companySkills = graphData.nodes.filter(n => n.type === 'Skill' && n.company === companyName);
-            const companyMetrics = graphData.nodes.filter(n => n.type === 'Metric' && n.company === companyName);
-            
-            const highlightIds = new Set();
-            companySkills.forEach(s => highlightIds.add(s.id));
-            companyMetrics.forEach(m => highlightIds.add(m.id));
-            const companyNode = graphData.nodes.find(n => n.type === 'Company' && n.label === companyName);
-            if (companyNode) highlightIds.add(companyNode.id);
-            
-            // Update visual opacity
+
+        function highlightCompanyNodes(companyId) {
+            const relatedIds = new Set([companyId]);
+            graphData.edges.forEach(edge => {
+                if (edge.source === companyId) relatedIds.add(edge.target);
+                if (edge.target === companyId) relatedIds.add(edge.source);
+            });
+            relatedIds.add('candidate');
             nodes3D.forEach(mesh => {
-                if (highlightIds.has(mesh.userData.id)) {
-                    mesh.material.opacity = 1;
-                    mesh.scale.setScalar(1.3);
-                } else {
-                    mesh.material.opacity = 0.2;
-                    mesh.scale.setScalar(1);
-                }
+                const related = relatedIds.has(mesh.userData.id);
+                mesh.material.opacity = related ? mesh.userData.baseOpacity : 0.08;
+                mesh.scale.setScalar(related ? 1.16 : 0.86);
             });
-            
-            edges3D.forEach(edge => {
-                // Find edge data
-                const edgeData = graphData.edges.find(e => {
-                    const s = window.nodeMeshes.get(e.source);
-                    const t = window.nodeMeshes.get(e.target);
-                    return s && t && (s === edge || t === edge);
-                });
-                edge.material.opacity = 0.15;
+            edges3D.forEach(line => {
+                const related = line.userData.source === companyId || line.userData.target === companyId;
+                line.material.opacity = related ? 0.7 : 0.025;
             });
         }
-        
-        function showCompanyInsights(companyName) {
+
+        function showCompanyInsights(companyId) {
+            const company = getNode(companyId);
+            if (!company) return;
+            const roles = graphData.nodes.filter(node => node.type === 'Role' && node.company_id === companyId);
+            const skills = graphData.nodes.filter(node => node.type === 'Skill' && node.companies?.includes(companyId));
+            const metrics = graphData.nodes.filter(node => node.type === 'Metric' && node.company_id === companyId);
             const panel = document.getElementById('detail-panel');
             panel.classList.add('visible');
-            
-            const companyNode = graphData.nodes.find(n => n.type === 'Company' && n.label === companyName);
-            const skills = graphData.nodes.filter(n => n.type === 'Skill' && n.company === companyName);
-            const metrics = graphData.nodes.filter(n => n.type === 'Metric' && n.company === companyName);
-            
-            document.getElementById('detail-title').textContent = companyName;
-            const badge = document.getElementById('detail-type');
-            badge.textContent = 'Company';
-            badge.style.background = '#60a5fa';
-            
-            document.getElementById('detail-desc').textContent = 
-                `${companyNode?.details || ''} • ${skills.length} skills • ${metrics.length} metrics`;
-            
-            // Skills section
+            document.getElementById('detail-title').textContent = nodeLabel(company);
+            document.getElementById('detail-type').textContent = t('company');
+            document.getElementById('detail-desc').textContent = [
+                `${t('location')}: ${localized(company.location)}`,
+                `${t('period')}: ${localized(company.dates)}`,
+                `${skills.length} ${t('skills').toLocaleLowerCase()}`,
+                `${metrics.length} ${t('metrics').toLocaleLowerCase()}`,
+            ].join(' • ');
+
+            const rolesDiv = document.getElementById('detail-roles');
+            rolesDiv.innerHTML = '';
+            roles.forEach(role => {
+                const item = document.createElement('div');
+                item.className = 'role-item';
+                item.innerHTML = `<div class="item-name"></div><div class="item-meta"></div>`;
+                item.querySelector('.item-name').textContent = nodeLabel(role);
+                item.querySelector('.item-meta').textContent = localized(role.dates);
+                rolesDiv.appendChild(item);
+            });
+
             const skillsDiv = document.getElementById('detail-skills');
             skillsDiv.innerHTML = '';
-            skills.sort((a, b) => (b.level || 0) - (a.level || 0));
+            skills.sort((a, b) => (b.evidence_by_company?.[companyId] || 0) - (a.evidence_by_company?.[companyId] || 0));
             skills.forEach(skill => {
-                const div = document.createElement('div');
-                div.className = 'skill-item';
-                div.innerHTML = `
-                    <div class="name">${skill.label}</div>
-                    <div class="level">Level ${skill.level || '?'}/5 • ${skill.evidence_count || 0} achievements</div>
-                `;
-                skillsDiv.appendChild(div);
+                const companyEvidence = skill.evidence_by_company?.[companyId] || 0;
+                const otherCompanies = skill.companies
+                    .filter(id => id !== companyId)
+                    .map(id => nodeLabel(getNode(id)));
+                const evidenceLabel = companyEvidence === 1 ? t('evidence') : t('evidences');
+                const metadata = [`${companyEvidence} ${evidenceLabel}`, `${skill.evidence_count} ${t('totalEvidence')}`];
+                if (otherCompanies.length) metadata.push(`${t('sharedWith')}: ${otherCompanies.join(', ')}`);
+                const item = document.createElement('div');
+                item.className = 'skill-item';
+                item.innerHTML = `<div class="item-name"></div><div class="item-meta"></div>`;
+                item.querySelector('.item-name').textContent = nodeLabel(skill);
+                item.querySelector('.item-meta').textContent = metadata.join(' • ');
+                skillsDiv.appendChild(item);
             });
-            
-            // Metrics section
+
             const metricsDiv = document.getElementById('detail-metrics');
             metricsDiv.innerHTML = '';
             metrics.forEach(metric => {
-                const div = document.createElement('div');
-                div.className = 'metric-item';
-                div.innerHTML = `
-                    <div class="value">${metric.label}</div>
-                    <div class="context">${metric.context || metric.details || ''}</div>
-                `;
-                metricsDiv.appendChild(div);
+                const item = document.createElement('div');
+                item.className = 'metric-item';
+                item.innerHTML = `<div class="metric-value"></div><div class="metric-context"></div>`;
+                item.querySelector('.metric-value').textContent = `${nodeLabel(metric)} · ${localized(metric.names)}`;
+                item.querySelector('.metric-context').textContent = localized(metric.contexts);
+                metricsDiv.appendChild(item);
             });
         }
-        
-        function onClick(event) {
-            mouse.x = (event.clientX / window.innerWidth) * 2 - 1;
-            mouse.y = -(event.clientY / window.innerHeight) * 2 + 1;
-            
-            raycaster.setFromCamera(mouse, camera);
-            const intersects = raycaster.intersectObjects(nodes3D);
-            
-            if (intersects.length > 0) {
-                const node = intersects[0].object.userData;
-                if (node.type === 'Company') {
-                    focusOnCompany(node.label);
-                }
-            }
-        }
-        
-        function onDoubleClick(event) {
-            // Reset view
+
+        function resetFullView() {
+            selectedCompanyId = null;
+            controls.autoRotate = true;
             controls.target.set(0, 0, 0);
-            camera.position.set(0, 12, 30);
-            
+            camera.position.copy(initialCamera);
             nodes3D.forEach(mesh => {
-                mesh.material.opacity = mesh.userData.glow ? 1 : 0.85;
+                mesh.material.opacity = mesh.userData.baseOpacity;
                 mesh.scale.setScalar(1);
             });
-            
-            document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+            edges3D.forEach(line => { line.material.opacity = line.userData.baseOpacity; });
+            document.getElementById('detail-panel').classList.remove('visible');
+            buildCompanyFilters();
         }
-        
+
+        function onClick(event) {
+            if (clickTimer) window.clearTimeout(clickTimer);
+            clickTimer = window.setTimeout(() => {
+                mouse.x = (event.clientX / window.innerWidth) * 2 - 1;
+                mouse.y = -(event.clientY / window.innerHeight) * 2 + 1;
+                raycaster.setFromCamera(mouse, camera);
+                const intersection = raycaster.intersectObjects(nodes3D, false)[0];
+                if (intersection?.object.userData.type === 'Company') {
+                    focusOnCompany(intersection.object.userData.id);
+                }
+            }, 220);
+        }
+
+        function onDoubleClick() {
+            if (clickTimer) window.clearTimeout(clickTimer);
+            resetFullView();
+        }
+
         function onWindowResize() {
             camera.aspect = window.innerWidth / window.innerHeight;
             camera.updateProjectionMatrix();
             renderer.setSize(window.innerWidth, window.innerHeight);
         }
-        
+
         function animate() {
             requestAnimationFrame(animate);
-            controls.update();
-            
-            // Gentle floating
-            nodes3D.forEach((mesh, i) => {
-                mesh.position.y += Math.sin(Date.now() * 0.001 + i) * 0.001;
+            const now = Date.now() * 0.00045;
+            nodes3D.forEach((mesh, index) => {
+                mesh.position.y = mesh.userData.basePosition.y + Math.sin(now + index * 0.31) * 0.08;
             });
-            
+            edges3D.forEach(line => {
+                const source = nodeMeshes.get(line.userData.source);
+                const target = nodeMeshes.get(line.userData.target);
+                const positions = line.geometry.attributes.position.array;
+                positions[0] = source.position.x;
+                positions[1] = source.position.y;
+                positions[2] = source.position.z;
+                positions[3] = target.position.x;
+                positions[4] = target.position.y;
+                positions[5] = target.position.z;
+                line.geometry.attributes.position.needsUpdate = true;
+            });
+            controls.update();
             renderer.render(scene, camera);
         }
-        
+
         init();
     </script>
 </body>
