@@ -32,7 +32,6 @@ try:
     from job_store import load_active_job
     from components.brain_visualizer import render_brain_legend
     from components.brain_insights import render_brain_insights
-    from components.star_studio import render_star_studio, render_interview_simulator
 except Exception as e:
     st.error(f"⚠️ Erro ao carregar módulos (ImportError): {e}")
     st.exception(e)
@@ -292,11 +291,10 @@ if graph_source:
 st.sidebar.info("🤖 **Como Adaptar Novas Vagas:**\nEnvie o link ou texto da vaga no chat do Antigravity. O assistente gerará os currículos e materiais atualizados no seu computador, e eles aparecerão automaticamente aqui após você clicar em Recarregar!")
 
 # Main Workspace Layout
-tab_studio, tab_tracker, tab_brain, tab_star, tab_editor = st.tabs([
+tab_studio, tab_tracker, tab_brain, tab_editor = st.tabs([
     "🎯 Estúdio de Adaptação", 
     "📊 Painel de Vagas & Processos",
     "🧠 Visualizador Neural",
-    "⭐ STAR Studio",
     "📝 Editor do Currículo Mestre"
 ])
 
@@ -802,14 +800,13 @@ with tab_brain:
             st.markdown("**Filtros:**")
             _nt = schemas_graph.NodeType
             _counts = {nt: len(brain_engine.get_nodes_by_type(nt)) for nt in [
-                _nt.SKILL, _nt.TOOL, _nt.BULLET_POINT, _nt.CASE, _nt.STAR_STORY, _nt.REQUIREMENT]}
+                _nt.SKILL, _nt.TOOL, _nt.BULLET_POINT, _nt.CASE, _nt.REQUIREMENT]}
             show_skills = st.checkbox(f"Skills ({_counts[_nt.SKILL]})", value=True, key="brain_skills")
             show_tools = st.checkbox(f"Tools ({_counts[_nt.TOOL]})", value=True, key="brain_tools")
             show_bullets = st.checkbox(f"Bullets ({_counts[_nt.BULLET_POINT]})", value=True, key="brain_bullets")
             show_cases = st.checkbox(f"Cases ({_counts[_nt.CASE]})", value=True, key="brain_cases")
-            show_star = st.checkbox(f"STAR Stories ({_counts[_nt.STAR_STORY]})", value=False, key="brain_star")
             show_requirements = st.checkbox(f"Requisitos ({_counts[_nt.REQUIREMENT]})", value=True, key="brain_reqs")
-            st.caption("💡 Quanto mais Cases, STAR Stories e conquistas você cadastrar, mais ricos o grafo e os insights ficam.")
+            st.caption("💡 Quanto mais cases e conquistas você cadastrar, mais ricos o grafo e os insights ficam.")
 
             st.markdown("**Legenda:**")
             legend_types = [
@@ -820,7 +817,6 @@ with tab_brain:
             if show_tools: legend_types.append(schemas_graph.NodeType.TOOL)
             if show_bullets: legend_types.append(schemas_graph.NodeType.BULLET_POINT)
             if show_cases: legend_types.append(schemas_graph.NodeType.CASE)
-            if show_star: legend_types.append(schemas_graph.NodeType.STAR_STORY)
             if show_requirements: legend_types.append(schemas_graph.NodeType.REQUIREMENT)
             render_brain_legend(legend_types)
         
@@ -830,7 +826,6 @@ with tab_brain:
         if show_tools: filter_types.append(schemas_graph.NodeType.TOOL)
         if show_bullets: filter_types.append(schemas_graph.NodeType.BULLET_POINT)
         if show_cases: filter_types.append(schemas_graph.NodeType.CASE)
-        if show_star: filter_types.append(schemas_graph.NodeType.STAR_STORY)
         if show_requirements: filter_types.append(schemas_graph.NodeType.REQUIREMENT)
         filter_types.extend([
             schemas_graph.NodeType.CANDIDATE, schemas_graph.NodeType.COMPANY,
@@ -864,33 +859,7 @@ with tab_brain:
             st.text(traceback.format_exc())
 
 # ====================
-# TAB 4: STAR STUDIO
-# ====================
-with tab_star:
-    st.subheader("⭐ STAR Studio — Simulador de Entrevistas")
-    st.write("Pratique entrevistas comportamentais com suas histórias STAR reais. Navegue por competência, simule entrevistas e prepare-se para processos seletivos.")
-    
-    star_graph_path = "data/graph_merged.json"
-    if not os.path.exists(star_graph_path):
-        st.warning("⚠️ Grafo não encontrado. Execute a migração primeiro.")
-    else:
-        if "star_engine" not in st.session_state:
-            st.session_state.star_engine = GraphEngine()
-            st.session_state.star_engine.load_json(star_graph_path)
-        
-        star_engine = st.session_state.star_engine
-        
-        # Sub-tabs for STAR Studio
-        tab_browse, tab_simulate = st.tabs(["📚 Navegar Histórias", "🎤 Simular Entrevista"])
-        
-        with tab_browse:
-            render_star_studio(star_engine)
-        
-        with tab_simulate:
-            render_interview_simulator(star_engine)
-
-# ====================
-# TAB 5: MASTER RESUME EXPLORER / EDITOR
+# TAB 4: MASTER RESUME EXPLORER / EDITOR
 # ====================
 with tab_editor:
     st.subheader("📝 Gerenciamento de Currículo Mestre")
