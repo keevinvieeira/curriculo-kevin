@@ -30,7 +30,8 @@ try:
     from engine.schemas_graph import NodeType, EdgeType
     from engine.graph_rag import GraphRAGRetriever, MatchEngine
     from job_store import load_active_job
-    from components.brain_visualizer import render_brain_legend, render_brain_insights
+    from components.brain_visualizer import render_brain_legend
+    from components.brain_insights import render_brain_insights
     from components.star_studio import render_star_studio, render_interview_simulator
 except Exception as e:
     st.error(f"⚠️ Erro ao carregar módulos (ImportError): {e}")
