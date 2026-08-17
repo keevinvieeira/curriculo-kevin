@@ -1,0 +1,349 @@
+{
+  "id": "scandiweb-ai-native-gtm-specialist",
+  "metadata": {
+    "company_name": "scandiweb",
+    "role_title": "AI Native Go-to-Market (GTM) Specialist",
+    "url": "",
+    "fit_score": 92,
+    "salary_expectation": "EUR 3,000 net/month plus performance-based bonus",
+    "document_language": "en",
+    "available_languages": [
+      "pt",
+      "en"
+    ],
+    "source_files": [
+      "master_resume.json"
+    ],
+    "good_points": [
+      "Mais de 8 anos em GTM, growth, posicionamento, landing pages, Meta Ads, CRM, outbound e execução de campanhas.",
+      "Uso diário de LLMs, n8n, Make, APIs, Supabase/PostgreSQL, Python prático e prototipagem assistida por IA.",
+      "Mais de 40 projetos digitais, experiência em e-commerce e ownership de ideias do conceito ao lançamento e mensuração."
+    ],
+    "improvement_points": [
+      "Clay e SmartLead não estão comprovados no currículo mestre.",
+      "Não há evidência de campanhas outbound em escala de 1.000+ contatos por dia.",
+      "Infraestrutura avançada de cold email, warm-up e deliverability não aparece como ownership formal; contratação global a partir do Brasil deve ser confirmada."
+    ]
+  },
+  "triage": {
+    "decision": "adapt",
+    "blockers": [],
+    "notes": [
+      "Eligible for remote work from Brazil.",
+      "Strong fit in AI-native GTM, landing pages, Meta Ads, automation, experimentation, eCommerce, and hands-on execution."
+    ],
+    "gaps": [
+      "Clay and SmartLead experience is not documented.",
+      "Outbound volume of 1,000+ contacts per day is not documented.",
+      "Advanced cold-email infrastructure, warm-up, and deliverability ownership is not documented; global hiring from Brazil requires confirmation."
+    ]
+  },
+  "resume": {
+    "pt": {
+      "name": "Kevin Augusto Vieira",
+      "location": "Curitiba, PR | Remoto",
+      "phone": "+55 (41) 99694-1615",
+      "email": "kevin.aug.vieira@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/kevin-augusto/",
+      "github": "",
+      "website": "",
+      "summary": "Especialista em Go-to-Market, Growth e IA com mais de 8 anos de experiência levando ideias do conceito ao lançamento por meio de posicionamento, ofertas, landing pages, campanhas, outbound e automação. Conduziu mais de 40 projetos digitais para PMEs, incluindo websites, e-commerce, aquisição e experimentos de conversão. No Meu Barzin, construiu um produto conversacional com RAG, n8n e Supabase, definiu modelo de assinatura e captou 505 leads. Na Wipro, no Projeto Meta, teve ownership da ativação de IA no CRM, elevando o uso em 150%. Usa LLMs, Make, n8n, APIs, Python prático, Meta Ads, CRM e analytics para testar hipóteses rapidamente e construir sistemas GTM repetíveis.",
+      "experience": [
+        {
+          "company": "Wipro",
+          "role": "Especialista em GTM, Product Enablement e IA (Projeto Meta)",
+          "dates": "Setembro 2024 – Julho 2026",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "IA e Ownership: Liderou a ativação da IA nativa no CRM da Meta, criando onboarding, playbooks e acompanhamento que elevaram o uso de 4 para 10 prompts/dia (+150%).",
+            "GTM e Mensagens: Traduziu atualizações globais de produto em propostas de valor, pitches, scripts e materiais para mais de 150 profissionais.",
+            "Dados e Iteração: Usou Power BI, Excel, escuta de calls e análise de causa raiz para testar abordagens, identificar gaps e orientar ações."
+          ]
+        },
+        {
+          "company": "AK Branding & Web Design",
+          "role": "Consultor de AI-Native GTM e Experiências Digitais",
+          "dates": "Março 2019 – Setembro 2024",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Execução GTM: Conduziu mais de 40 projetos com posicionamento, ofertas, websites, landing pages, Meta Ads, email e automações, incluindo e-commerce lançado do zero.",
+            "Experimentação: Testou mensagens, anúncios, CTAs e fluxos de UX/chatbot, elevando leads de 8 para 20-30/mês (+250%)."
+          ]
+        },
+        {
+          "company": "Meu Barzin (Startup)",
+          "role": "Product e GTM Manager",
+          "dates": "Dezembro 2025 – Março 2026",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Produto e Automação: Construiu MVP conversacional com RAG, n8n, ManyChat e Supabase, com regras de alucinação zero e base de quase 200 estabelecimentos.",
+            "GTM e Aquisição: Definiu modelo de assinatura, proposta de valor e campanhas que captaram 505 leads e alcançaram 22,3% de usuários altamente engajados."
+          ]
+        },
+        {
+          "company": "Munzner",
+          "role": "Especialista em GTM, Growth e Automação",
+          "dates": "Outubro 2018 – Agosto 2024",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Lançamento e Receita: Lançou o primeiro produto digital, alcançando 50 vendas em 2 meses, e construiu funil que gerou aproximadamente R$ 50 mil.",
+            "Conteúdo e Automação: Produziu conteúdo que gerou 100 leads qualificados e automatizou distribuição e nurturing em Sendpulse e Bitrix24."
+          ]
+        }
+      ],
+      "skills": [
+        {
+          "category": "AI-Native GTM",
+          "skills": [
+            "Estratégia GTM do Conceito ao Lançamento",
+            "Posicionamento, Diferenciação e Ofertas",
+            "ICP, Personas e Psicologia de Conversão",
+            "Landing Pages, Microsites e E-Commerce",
+            "Meta Ads, Outbound e Email Sequences",
+            "Pricing, Canais e Testes de Mensagens"
+          ]
+        },
+        {
+          "category": "IA, Automação e Tecnologia",
+          "skills": [
+            "Claude, ChatGPT e Engenharia de Prompts",
+            "n8n, Make, APIs e Webhooks",
+            "Python Prático e Vibe Coding",
+            "Supabase/PostgreSQL e NocoDB",
+            "WordPress/Elementor, HTML/CSS e Figma",
+            "CRM, Lead Generation e Personalização"
+          ]
+        },
+        {
+          "category": "Growth e Experimentação",
+          "skills": [
+            "Testes A/B e Validação de Hipóteses",
+            "CRO, Funil e Aquisição",
+            "CTR, CPL, CAC, LTV, ROAS e Conversão",
+            "Google Analytics, Looker e Power BI",
+            "Copywriting e Mensagens Multimercado",
+            "Sistemas Repetíveis e Execução Autônoma"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "Universidade Federal do Paraná (UFPR)",
+          "degree": "Bacharelado e Licenciatura em Filosofia",
+          "dates": "2018 - 2023"
+        },
+        {
+          "institution": "UFPR / UTFPR",
+          "degree": "Engenharia Elétrica e Eletrônica (incompleto)",
+          "dates": "2012 - 2015"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "Google Project Management Professional Certificate",
+          "issuer": "Coursera / Google",
+          "status": "Em andamento"
+        },
+        {
+          "name": "Meta Certified Media Planning Professional",
+          "issuer": "Meta",
+          "status": "Ativo"
+        },
+        {
+          "name": "Meta Certified Digital Marketing Associate",
+          "issuer": "Meta",
+          "status": "Ativo"
+        }
+      ],
+      "languages": [
+        {
+          "language": "Inglês",
+          "proficiency": "Fluente / profissional; uso diário em relatórios corporativos, coordenação internacional e alinhamento com stakeholders"
+        },
+        {
+          "language": "Português",
+          "proficiency": "Nativo"
+        }
+      ],
+      "additional_information": []
+    },
+    "en": {
+      "name": "Kevin Augusto Vieira",
+      "location": "Curitiba, PR, Brazil | Remote",
+      "phone": "+55 (41) 99694-1615",
+      "email": "kevin.aug.vieira@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/kevin-augusto/",
+      "github": "",
+      "website": "",
+      "summary": "Go-to-Market, Growth, and AI specialist with 8+ years of experience taking ideas from concept to launch through positioning, offers, landing pages, campaigns, outbound, and automation. Delivered 40+ digital projects for SMBs, including websites, e-commerce, acquisition, and conversion experiments. At Meu Barzin, built a conversational product using RAG, n8n, and Supabase, defined its subscription model, and captured 505 leads. At Wipro on the Meta Project, owned CRM AI activation, increasing usage by 150%. Uses LLMs, Make, n8n, APIs, practical Python, Meta Ads, CRM, and analytics to test hypotheses quickly and build repeatable GTM systems.",
+      "experience": [
+        {
+          "company": "Wipro",
+          "role": "GTM, Product Enablement, and AI Specialist (Meta Project)",
+          "dates": "September 2024 – July 2026",
+          "location": "Curitiba, Brazil",
+          "bullets": [
+            "AI and Ownership: Led native AI activation in Meta's CRM, creating onboarding, playbooks, and coaching that increased usage from 4 to 10 prompts/day (+150%).",
+            "GTM and Messaging: Translated global product updates into value propositions, pitches, scripts, and assets for 150+ professionals.",
+            "Data and Iteration: Used Power BI, Excel, call listening, and root-cause analysis to test approaches, identify gaps, and guide action."
+          ]
+        },
+        {
+          "company": "AK Branding & Web Design",
+          "role": "AI-Native GTM and Digital Experience Consultant",
+          "dates": "March 2019 – September 2024",
+          "location": "Curitiba, Brazil",
+          "bullets": [
+            "GTM Execution: Delivered 40+ projects spanning positioning, offers, websites, landing pages, Meta Ads, email, and automation, including an e-commerce launch from scratch.",
+            "Experimentation: Tested messaging, ads, CTAs, and UX/chatbot flows, increasing leads from 8 to 20-30/month (+250%)."
+          ]
+        },
+        {
+          "company": "Meu Barzin (Startup)",
+          "role": "Product and GTM Manager",
+          "dates": "December 2025 – March 2026",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Product and Automation: Built a conversational MVP using RAG, n8n, ManyChat, and Supabase, with zero-hallucination rules and data from nearly 200 establishments.",
+            "GTM and Acquisition: Defined the subscription model, value proposition, and campaigns that captured 505 leads and achieved 22.3% highly engaged users."
+          ]
+        },
+        {
+          "company": "Munzner",
+          "role": "GTM, Growth, and Automation Specialist",
+          "dates": "October 2018 – August 2024",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Launch and Revenue: Launched the first digital product, securing 50 sales in 2 months, and built a funnel that generated approximately R$50,000.",
+            "Content and Automation: Produced content that generated 100 qualified leads and automated distribution and nurturing in Sendpulse and Bitrix24."
+          ]
+        }
+      ],
+      "skills": [
+        {
+          "category": "AI-Native GTM",
+          "skills": [
+            "Go-to-Market Strategy from Concept to Launch",
+            "Positioning, Differentiation, and Offers",
+            "ICP, Personas, and Conversion Psychology",
+            "Landing Pages, Microsites, and E-Commerce",
+            "Meta Ads, Outbound, and Email Sequences",
+            "Pricing, Channels, and Message Testing"
+          ]
+        },
+        {
+          "category": "AI, Automation, and Technology",
+          "skills": [
+            "Claude, ChatGPT, and Prompt Engineering",
+            "n8n, Make, APIs, and Webhooks",
+            "Practical Python and Vibe Coding",
+            "Supabase/PostgreSQL and NocoDB",
+            "WordPress/Elementor, HTML/CSS, and Figma",
+            "CRM, Lead Generation, and Personalization"
+          ]
+        },
+        {
+          "category": "Growth and Experimentation",
+          "skills": [
+            "A/B Testing and Hypothesis Validation",
+            "CRO, Funnels, and Acquisition",
+            "CTR, CPL, CAC, LTV, ROAS, and Conversion",
+            "Google Analytics, Looker, and Power BI",
+            "Copywriting and Multi-Market Messaging",
+            "Repeatable Systems and Independent Execution"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "Universidade Federal do Paraná (UFPR)",
+          "degree": "Bachelor's Degree and Licentiate in Philosophy",
+          "dates": "2018 - 2023"
+        },
+        {
+          "institution": "UFPR / UTFPR",
+          "degree": "Electrical and Electronics Engineering (incomplete)",
+          "dates": "2012 - 2015"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "Google Project Management Professional Certificate",
+          "issuer": "Coursera / Google",
+          "status": "In progress"
+        },
+        {
+          "name": "Meta Certified Media Planning Professional",
+          "issuer": "Meta",
+          "status": "Active"
+        },
+        {
+          "name": "Meta Certified Digital Marketing Associate",
+          "issuer": "Meta",
+          "status": "Active"
+        }
+      ],
+      "languages": [
+        {
+          "language": "English",
+          "proficiency": "Fluent / professional working proficiency; daily use in corporate reporting, international coordination, and stakeholder alignment"
+        },
+        {
+          "language": "Portuguese",
+          "proficiency": "Native"
+        }
+      ],
+      "additional_information": []
+    }
+  },
+  "materials": {
+    "pt": {
+      "cover_letter": "Olá, time da scandiweb!\n\nA proposta de levar ideias do conceito ao lançamento usando IA, automação e execução hands-on descreve exatamente como trabalho. Gosto de transformar uma hipótese em posicionamento, oferta, landing page, campanha e sistema de mensuração sem esperar uma estrutura grande para começar.\n\nNa AK Branding, conduzi mais de 40 projetos digitais, criando websites, landing pages, campanhas, automações e um e-commerce que atingiu R$ 10 mil em receita nos primeiros 3 meses de forma orgânica. Testes de mensagens, UX e chatbot elevaram a geração de leads de 8 para 20-30 por mês (+250%).\n\nNo Meu Barzin, construí um produto conversacional com RAG, n8n, ManyChat e Supabase, defini modelo de assinatura e proposta de valor e captei 505 leads. Na Wipro, no Projeto Meta, tive ownership da ativação de IA no CRM e elevei sua adoção em 150%.\n\nQuero aplicar essa combinação de GTM, IA, automação, experimentação e e-commerce para lançar e escalar novas oportunidades na scandiweb.\n\nKevin Augusto Vieira",
+      "form_answers": [
+        {
+          "question": "Conte sobre uma ideia que você levou do conceito ao lançamento.",
+          "answer": "No Meu Barzin, transformei a hipótese de um guia conversacional para bares em um MVP no WhatsApp com ManyChat, n8n, RAG e Supabase. Estruturei a base com quase 200 estabelecimentos, defini o modelo de assinatura e a proposta de valor, criei campanhas e captei 505 leads. A análise mostrou 43,9% de abandono na primeira mensagem e orientou as prioridades seguintes."
+        },
+        {
+          "question": "Como você usa IA no processo de GTM?",
+          "answer": "Uso LLMs para pesquisa, ICP, posicionamento, copy, variações criativas, síntese de feedback, documentação e prototipagem. Conecto IA a n8n, Make, APIs e bancos como Supabase para automatizar fluxos. Na Wipro, tive ownership da adoção de IA no CRM, elevando o uso em 150% por meio de onboarding, playbooks e iteração."
+        },
+        {
+          "question": "Como você lança e otimiza uma landing page rapidamente?",
+          "answer": "Começo por segmento, problema, proposta de valor, prova e CTA. Estruturo a página em WordPress/Elementor ou protótipo em Figma, configuro tracking e UTMs e conecto formulário, CRM e automações. Depois testo headline, oferta, CTA e fluxo, acompanhando conversão, qualidade do lead, CAC e impacto no pipeline para decidir se escalo ou itero."
+        },
+        {
+          "question": "Qual é sua experiência com Clay, SmartLead e outbound em escala?",
+          "answer": "Ainda não utilizei Clay ou SmartLead em produção nem executei campanhas de 1.000+ contatos por dia. Minha experiência transferível inclui ICP, listas de prospects, segmentação, mensagens personalizadas, email, CRM, n8n, APIs e automação. Consigo aprender o stack rapidamente, mas não apresentaria essa escala como experiência já comprovada."
+        }
+      ]
+    },
+    "en": {
+      "cover_letter": "Hi scandiweb team,\n\nTaking ideas from concept to launch through AI, automation, and hands-on execution describes exactly how I work. I enjoy turning a hypothesis into positioning, an offer, a landing page, a campaign, and a measurement system without waiting for a large structure to get started.\n\nAt AK Branding, I delivered 40+ digital projects, creating websites, landing pages, campaigns, automations, and an e-commerce operation that generated R$10,000 in its first 3 months organically. Messaging, UX, and chatbot tests increased lead generation from 8 to 20-30 per month (+250%).\n\nAt Meu Barzin, I built a conversational product using RAG, n8n, ManyChat, and Supabase, defined the subscription model and value proposition, and captured 505 leads. At Wipro on the Meta Project, I owned CRM AI activation and increased adoption by 150%.\n\nI would value the opportunity to apply this combination of GTM, AI, automation, experimentation, and e-commerce to launch and scale new opportunities at scandiweb.\n\nKevin Augusto Vieira",
+      "form_answers": [
+        {
+          "question": "Tell us about an idea you took from concept to launch.",
+          "answer": "At Meu Barzin, I turned the hypothesis of a conversational bar discovery guide into a WhatsApp MVP using ManyChat, n8n, RAG, and Supabase. I structured data from nearly 200 establishments, defined the subscription model and value proposition, created campaigns, and captured 505 leads. Analysis revealed a 43.9% first-message dropout and guided the next priorities."
+        },
+        {
+          "question": "How do you use AI in the GTM process?",
+          "answer": "I use LLMs for research, ICP development, positioning, copy, creative variations, feedback synthesis, documentation, and prototyping. I connect AI to n8n, Make, APIs, and databases such as Supabase to automate workflows. At Wipro, I owned CRM AI adoption, increasing usage by 150% through onboarding, playbooks, and iteration."
+        },
+        {
+          "question": "How do you launch and optimize a landing page quickly?",
+          "answer": "I start with the segment, problem, value proposition, proof, and CTA. I build the page in WordPress/Elementor or prototype it in Figma, configure tracking and UTMs, and connect forms, CRM, and automation. I then test the headline, offer, CTA, and flow, monitoring conversion, lead quality, CAC, and pipeline impact to decide whether to scale or iterate."
+        },
+        {
+          "question": "What is your experience with Clay, SmartLead, and scaled outbound?",
+          "answer": "I have not yet used Clay or SmartLead in production or executed campaigns at 1,000+ contacts per day. My transferable experience includes ICP development, prospect lists, segmentation, personalized messaging, email, CRM, n8n, APIs, and automation. I can learn the stack quickly, but I would not present that scale as already proven experience."
+        }
+      ]
+    }
+  },
+  "evidence": {
+    "skills": {
+      "pt": [],
+      "en": []
+    }
+  }
+}

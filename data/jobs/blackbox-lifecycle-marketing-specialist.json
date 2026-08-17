@@ -1,0 +1,349 @@
+{
+  "id": "blackbox-lifecycle-marketing-specialist",
+  "metadata": {
+    "company_name": "BlackBox Strategies",
+    "role_title": "Lifecycle Marketing Specialist (B2B & B2C)",
+    "url": "",
+    "fit_score": 86,
+    "salary_expectation": "USD 3,500-5,000/month (remote global; target: USD 4,500/month)",
+    "document_language": "en",
+    "available_languages": [
+      "pt",
+      "en"
+    ],
+    "source_files": [
+      "master_resume.json"
+    ],
+    "good_points": [
+      "Mais de quatro anos em lifecycle, CRM, automação, outbound, email marketing e operações de receita.",
+      "Experiência B2B e B2C com segmentação, ICP, nurturing, reengajamento, testes de mensagens e análise de pipeline.",
+      "Sendpulse, Bitrix24, HubSpot, RD Station, Salesforce, n8n, APIs, compliance e execução hands-on."
+    ],
+    "improvement_points": [
+      "Clay e Instantly não estão comprovados no currículo mestre.",
+      "Deliverability, warm-up, inbox health e reply categorization não aparecem como ownership formal.",
+      "Mailchimp, Twilio e execução de SMS não estão registrados; o fuso americano exato ainda precisa ser confirmado."
+    ]
+  },
+  "triage": {
+    "decision": "adapt",
+    "blockers": [],
+    "notes": [
+      "Eligible for remote work from Brazil.",
+      "Strong fit in lifecycle marketing, CRM, automation, outbound, segmentation, B2B/B2C journeys, and hands-on execution."
+    ],
+    "gaps": [
+      "Clay and Instantly experience is not documented.",
+      "Formal ownership of deliverability, warm-up, inbox health, and reply categorization is not documented.",
+      "Mailchimp, Twilio, and SMS execution are not documented; exact U.S. working hours require confirmation."
+    ]
+  },
+  "resume": {
+    "pt": {
+      "name": "Kevin Augusto Vieira",
+      "location": "Curitiba, PR | Remoto",
+      "phone": "+55 (41) 99694-1615",
+      "email": "kevin.aug.vieira@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/kevin-augusto/",
+      "github": "",
+      "website": "",
+      "summary": "Especialista em Lifecycle Marketing, CRM e Growth com mais de 8 anos de experiência executando jornadas, campanhas e automações para públicos B2B e B2C. Na Munzner, construiu um fluxo automatizado de 10 etapas em Sendpulse e Bitrix24 que atraiu 10.000+ acessos e gerou aproximadamente R$ 50 mil em receita. Em consultoria, trabalhou com segmentação, outbound, landing pages, email, testes de mensagens e conversão para mais de 40 projetos. Na Wipro, no Projeto Meta, teve ownership da adoção de IA no CRM, criou playbooks e treinamentos e trabalhou sob políticas rigorosas de compliance e qualidade de dados. Combina execução hands-on, ICP, automação, análise de pipeline e documentação de processos.",
+      "experience": [
+        {
+          "company": "Wipro",
+          "role": "Especialista em CRM, Lifecycle e Sales Enablement (Projeto Meta)",
+          "dates": "Setembro 2024 – Julho 2026",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "CRM e Lifecycle: Trabalhou no CRM proprietário da Meta, centralizando histórico de campanhas, investimento, segurança e saúde da conta sob compliance rigoroso.",
+            "Ativação e Adoção: Teve ownership da adoção de IA no CRM, criando onboarding, playbooks e acompanhamento que elevaram o uso de 4 para 10 prompts/dia (+150%).",
+            "Segmentação e Insights: Usou Power BI, Excel, escuta de calls e análise de causa raiz para identificar gaps, segmentar necessidades e orientar ações."
+          ]
+        },
+        {
+          "company": "AK Branding & Web Design",
+          "role": "Consultor de Outbound, CRM e Growth",
+          "dates": "Março 2019 – Setembro 2024",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Outbound e Segmentação: Conduziu mais de 40 projetos para PMEs com ICP, listas de prospects, mensagens, landing pages, email e acompanhamento de conversão.",
+            "Testes e Otimização: Testou mensagens, anúncios, CTAs e fluxos de UX/chatbot, elevando leads de 8 para 20-30/mês (+250%)."
+          ]
+        },
+        {
+          "company": "Meu Barzin (Startup)",
+          "role": "Growth e Lifecycle Manager",
+          "dates": "Dezembro 2025 – Março 2026",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "B2B e B2C Lifecycle: Captou 505 leads, segmentou usuários e parceiros e alcançou 22,3% de usuários altamente engajados com campanhas orgânicas e pagas.",
+            "Funil e Reengajamento: Analisou comportamento e identificou densidade e latência como barreiras, incluindo 43,9% de abandono na primeira mensagem."
+          ]
+        },
+        {
+          "company": "Munzner",
+          "role": "Especialista em Email, Lifecycle e Automação",
+          "dates": "Outubro 2018 – Agosto 2024",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Lifecycle B2C: Construiu jornada automatizada de 10 etapas em Sendpulse e Bitrix24, atraindo 10.000+ acessos e gerando aproximadamente R$ 50 mil em receita.",
+            "Conteúdo e Nurturing: Produziu cerca de 10 artigos que geraram 1.000 visitas e 100 leads qualificados, com conversão próxima de 10%."
+          ]
+        }
+      ],
+      "skills": [
+        {
+          "category": "Lifecycle e Outbound",
+          "skills": [
+            "Email Marketing B2B e B2C",
+            "Onboarding, Nurturing e Reengajamento",
+            "ICP, Segmentação, Personas e Intent",
+            "Cold Outreach e Testes de Mensagens",
+            "List Hygiene, Compliance e Supressão",
+            "Aquisição, Ativação, Retenção e Expansão"
+          ]
+        },
+        {
+          "category": "CRM e Automação",
+          "skills": [
+            "HubSpot, Sendpulse, RD Station e Salesforce",
+            "Bitrix24 e CRM Proprietário Meta",
+            "n8n, APIs e Webhooks",
+            "Segmentação e Estágios de Lifecycle",
+            "Sincronização de Dados e Pipeline",
+            "Playbooks e Processos Repetíveis"
+          ]
+        },
+        {
+          "category": "Performance e Execução",
+          "skills": [
+            "Testes A/B por Segmento, Persona e Mensagem",
+            "CTR, CPL, CAC, LTV, Churn e Conversão",
+            "Power BI, Excel e Google Sheets",
+            "Documentação e Colaboração Assíncrona",
+            "Copywriting e Comunicação Escrita",
+            "IA Aplicada a Pesquisa e Execução"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "Universidade Federal do Paraná (UFPR)",
+          "degree": "Bacharelado e Licenciatura em Filosofia",
+          "dates": "2018 - 2023"
+        },
+        {
+          "institution": "UFPR / UTFPR",
+          "degree": "Engenharia Elétrica e Eletrônica (incompleto)",
+          "dates": "2012 - 2015"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "Google Project Management Professional Certificate",
+          "issuer": "Coursera / Google",
+          "status": "Em andamento"
+        },
+        {
+          "name": "Meta Certified Media Planning Professional",
+          "issuer": "Meta",
+          "status": "Ativo"
+        },
+        {
+          "name": "Meta Certified Digital Marketing Associate",
+          "issuer": "Meta",
+          "status": "Ativo"
+        }
+      ],
+      "languages": [
+        {
+          "language": "Inglês",
+          "proficiency": "Fluente / profissional; uso diário em relatórios corporativos, coordenação internacional e alinhamento com stakeholders"
+        },
+        {
+          "language": "Português",
+          "proficiency": "Nativo"
+        }
+      ],
+      "additional_information": []
+    },
+    "en": {
+      "name": "Kevin Augusto Vieira",
+      "location": "Curitiba, PR, Brazil | Remote",
+      "phone": "+55 (41) 99694-1615",
+      "email": "kevin.aug.vieira@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/kevin-augusto/",
+      "github": "",
+      "website": "",
+      "summary": "Lifecycle Marketing, CRM, and Growth specialist with 8+ years of experience executing journeys, campaigns, and automations for B2B and B2C audiences. At Munzner, built a 10-stage automated flow in Sendpulse and Bitrix24 that attracted 10,000+ visits and generated approximately R$50,000 in revenue. In consulting, worked with segmentation, outbound, landing pages, email, message testing, and conversion across 40+ projects. At Wipro on the Meta Project, owned CRM AI adoption, created playbooks and training, and operated under strict compliance and data-quality policies. Combines hands-on execution, ICP development, automation, pipeline analysis, and process documentation.",
+      "experience": [
+        {
+          "company": "Wipro",
+          "role": "CRM, Lifecycle, and Sales Enablement Specialist (Meta Project)",
+          "dates": "September 2024 – July 2026",
+          "location": "Curitiba, Brazil",
+          "bullets": [
+            "CRM and Lifecycle: Worked within Meta's proprietary CRM, centralizing campaign history, investment, account security, and account health under strict compliance policies.",
+            "Activation and Adoption: Owned CRM AI adoption, creating onboarding, playbooks, and coaching that increased usage from 4 to 10 prompts/day (+150%).",
+            "Segmentation and Insights: Used Power BI, Excel, call listening, and root-cause analysis to identify gaps, segment needs, and guide action."
+          ]
+        },
+        {
+          "company": "AK Branding & Web Design",
+          "role": "Outbound, CRM, and Growth Consultant",
+          "dates": "March 2019 – September 2024",
+          "location": "Curitiba, Brazil",
+          "bullets": [
+            "Outbound and Segmentation: Delivered 40+ projects for SMBs using ICPs, prospect lists, messaging, landing pages, email, and conversion tracking.",
+            "Testing and Optimization: Tested messaging, ads, CTAs, and UX/chatbot flows, increasing leads from 8 to 20-30/month (+250%)."
+          ]
+        },
+        {
+          "company": "Meu Barzin (Startup)",
+          "role": "Growth and Lifecycle Manager",
+          "dates": "December 2025 – March 2026",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "B2B and B2C Lifecycle: Captured 505 leads, segmented users and partners, and achieved 22.3% highly engaged users through organic and paid campaigns.",
+            "Funnel and Re-engagement: Analyzed behavior and identified partner density and latency as barriers, including a 43.9% first-message dropout."
+          ]
+        },
+        {
+          "company": "Munzner",
+          "role": "Email, Lifecycle, and Automation Specialist",
+          "dates": "October 2018 – August 2024",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "B2C Lifecycle: Built a 10-stage automated journey in Sendpulse and Bitrix24, attracting 10,000+ visits and generating approximately R$50,000 in revenue.",
+            "Content and Nurturing: Produced around 10 articles that generated 1,000 visits and 100 qualified leads, with close to 10% conversion."
+          ]
+        }
+      ],
+      "skills": [
+        {
+          "category": "Lifecycle and Outbound",
+          "skills": [
+            "B2B and B2C Email Marketing",
+            "Onboarding, Nurturing, and Re-engagement",
+            "ICP, Segmentation, Personas, and Intent",
+            "Cold Outreach and Message Testing",
+            "List Hygiene, Compliance, and Suppression",
+            "Acquisition, Activation, Retention, and Expansion"
+          ]
+        },
+        {
+          "category": "CRM and Automation",
+          "skills": [
+            "HubSpot, Sendpulse, RD Station, and Salesforce",
+            "Bitrix24 and Meta Proprietary CRM",
+            "n8n, APIs, and Webhooks",
+            "Segmentation and Lifecycle Stages",
+            "Data and Pipeline Synchronization",
+            "Playbooks and Repeatable Processes"
+          ]
+        },
+        {
+          "category": "Performance and Execution",
+          "skills": [
+            "A/B Testing by Segment, Persona, and Message",
+            "CTR, CPL, CAC, LTV, Churn, and Conversion",
+            "Power BI, Excel, and Google Sheets",
+            "Documentation and Async Collaboration",
+            "Copywriting and Written Communication",
+            "AI-Assisted Research and Execution"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "Universidade Federal do Paraná (UFPR)",
+          "degree": "Bachelor's Degree and Licentiate in Philosophy",
+          "dates": "2018 - 2023"
+        },
+        {
+          "institution": "UFPR / UTFPR",
+          "degree": "Electrical and Electronics Engineering (incomplete)",
+          "dates": "2012 - 2015"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "Google Project Management Professional Certificate",
+          "issuer": "Coursera / Google",
+          "status": "In progress"
+        },
+        {
+          "name": "Meta Certified Media Planning Professional",
+          "issuer": "Meta",
+          "status": "Active"
+        },
+        {
+          "name": "Meta Certified Digital Marketing Associate",
+          "issuer": "Meta",
+          "status": "Active"
+        }
+      ],
+      "languages": [
+        {
+          "language": "English",
+          "proficiency": "Fluent / professional working proficiency; daily use in corporate reporting, international coordination, and stakeholder alignment"
+        },
+        {
+          "language": "Portuguese",
+          "proficiency": "Native"
+        }
+      ],
+      "additional_information": []
+    }
+  },
+  "materials": {
+    "pt": {
+      "cover_letter": "Olá, time da BlackBox Strategies!\n\nA proposta de unir estratégia de receita a execução disciplinada em email, CRM e lifecycle combina diretamente com minha forma de trabalhar: transformar direcionamento em campanhas, automações e processos mensuráveis sem depender de uma estrutura grande.\n\nNa Munzner, construí uma jornada automatizada de 10 etapas em Sendpulse e Bitrix24 que atraiu mais de 10 mil acessos e gerou aproximadamente R$ 50 mil em receita. Em consultoria, executei segmentação, outreach, landing pages, email e testes de mensagens para públicos B2B e B2C em mais de 40 projetos.\n\nNa Wipro, no Projeto Meta, trabalhei em um CRM proprietário sob políticas rigorosas de compliance e qualidade de dados. Tive ownership da ativação de IA, criei playbooks e onboarding e elevei a adoção em 150%.\n\nQuero levar essa combinação de lifecycle, execução hands-on, automação e análise de pipeline para ajudar a BlackBox a construir sistemas de receita mais consistentes para seus clientes.\n\nKevin Augusto Vieira",
+      "form_answers": [
+        {
+          "question": "Descreva uma campanha de lifecycle que você executou pessoalmente.",
+          "answer": "Público: B2C. Na Munzner, fui responsável pela estratégia e execução de uma jornada automatizada de email com 10 etapas em Sendpulse e Bitrix24. Estruturei conteúdo, sequência, CTAs, automações e acompanhamento de conversão para nutrir leads de um produto de entrada até formações presenciais de alto ticket. A jornada atraiu mais de 10 mil acessos, converteu aproximadamente 10 matrículas e gerou cerca de R$ 50 mil em receita."
+        },
+        {
+          "question": "Qual é a maior diferença entre mensagens lifecycle B2B e B2C?",
+          "answer": "B2B costuma exigir mais contexto, prova de valor, ROI e mensagens adaptadas a múltiplos stakeholders e ciclos longos. B2C depende mais de relevância imediata, comportamento, timing e motivação individual, normalmente com maior volume e ciclos mais curtos."
+        },
+        {
+          "question": "Como você desenharia uma campanha de cold email segmentada e de alta conversão?",
+          "answer": "Começaria por ICP, persona, intenção e problema específico; depois criaria uma lista limpa e enriquecida, segmentada por contexto. Configuraria infraestrutura e compliance, validaria domínios e caixas e escreveria uma sequência curta com personalização relevante, prova e CTA simples. Testaria assunto, abertura, proposta e CTA por segmento, sincronizaria replies e lifecycle stages no CRM e acompanharia entrega, resposta positiva, reuniões, conversão e qualidade do pipeline."
+        },
+        {
+          "question": "Quais ferramentas desta vaga você utilizou em produção?",
+          "answer": "Utilizei HubSpot Marketing Hub, além de Sendpulse, Bitrix24, RD Station, Salesforce e CRM proprietário da Meta. Ainda não utilizei Clay, Instantly, Mailchimp ou plataformas de SMS em produção."
+        }
+      ]
+    },
+    "en": {
+      "cover_letter": "Hi BlackBox Strategies team,\n\nYour model of connecting revenue strategy with disciplined execution across email, CRM, and lifecycle matches how I work: turning direction into measurable campaigns, automations, and repeatable processes without depending on a large structure.\n\nAt Munzner, I built a 10-stage automated journey in Sendpulse and Bitrix24 that attracted 10,000+ visits and generated approximately R$50,000 in revenue. In consulting, I executed segmentation, outreach, landing pages, email, and message testing for B2B and B2C audiences across 40+ projects.\n\nAt Wipro on the Meta Project, I worked within a proprietary CRM under strict compliance and data-quality policies. I owned AI activation, created playbooks and onboarding, and increased adoption by 150%.\n\nI would value the opportunity to bring this combination of lifecycle, hands-on execution, automation, and pipeline analysis to help BlackBox build more consistent revenue systems for its clients.\n\nKevin Augusto Vieira",
+      "form_answers": [
+        {
+          "question": "Describe a lifecycle campaign you personally executed.",
+          "answer": "Audience: B2C. At Munzner, I owned the strategy and execution of a 10-stage automated email journey in Sendpulse and Bitrix24. I structured content, sequencing, CTAs, automation, and conversion tracking to nurture entry-product leads toward high-ticket in-person programs. The journey attracted 10,000+ visits, converted approximately 10 enrollments, and generated around R$50,000 in revenue."
+        },
+        {
+          "question": "What is the biggest difference between B2B and B2C lifecycle messaging?",
+          "answer": "B2B usually requires more context, proof of value, ROI, and messaging for multiple stakeholders across longer cycles. B2C relies more on immediate relevance, behavior, timing, and individual motivation, usually at higher volume and with shorter cycles."
+        },
+        {
+          "question": "How would you design a targeted, high-conversion cold email campaign?",
+          "answer": "I would start with the ICP, persona, intent, and specific problem, then build a clean, enriched list segmented by context. I would configure infrastructure and compliance, validate domains and inboxes, and write a short sequence with relevant personalization, proof, and a simple CTA. I would test subject line, opener, value proposition, and CTA by segment, sync replies and lifecycle stages into the CRM, and track delivery, positive replies, meetings, conversion, and pipeline quality."
+        },
+        {
+          "question": "Which listed tools have you personally used in production?",
+          "answer": "I have used HubSpot Marketing Hub, as well as Sendpulse, Bitrix24, RD Station, Salesforce, and Meta's proprietary CRM. I have not yet used Clay, Instantly, Mailchimp, or SMS platforms in production."
+        }
+      ]
+    }
+  },
+  "evidence": {
+    "skills": {
+      "pt": [],
+      "en": []
+    }
+  }
+}

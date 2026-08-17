@@ -1,0 +1,349 @@
+{
+  "id": "zicasso-growth-product-manager",
+  "metadata": {
+    "company_name": "Zicasso",
+    "role_title": "Growth Product Manager",
+    "url": "",
+    "fit_score": 91,
+    "salary_expectation": "USD 4,500-6,500/month (remote Brazil; target: USD 5,500/month)",
+    "document_language": "en",
+    "available_languages": [
+      "pt",
+      "en"
+    ],
+    "source_files": [
+      "master_resume.json"
+    ],
+    "good_points": [
+      "Growth Product Management, CRO, testes A/B, discovery, roadmap, backlog e priorização por impacto.",
+      "Google Analytics, Power BI/Tableau, dashboards, tracking, análise de funil e decisões orientadas por hipóteses.",
+      "IA, LLMs, RAG, colaboração com Engenharia/Design/Marketing e experiência internacional em inglês."
+    ],
+    "improvement_points": [
+      "Jira é requisito explícito e ainda não foi confirmado no currículo mestre.",
+      "A experiência funcional em Product Management é forte, mas o período formal com esse título é menor que 3-5 anos.",
+      "Não há experiência direta em travel-tech ou mercado de luxo; Google Analytics está comprovado, mas GA4 não foi especificado."
+    ]
+  },
+  "triage": {
+    "decision": "adapt",
+    "blockers": [],
+    "notes": [
+      "Eligible for remote work from Brazil.",
+      "Strong fit in Growth Product Management, CRO, experimentation, analytics, roadmap, backlog, AI, and cross-functional delivery."
+    ],
+    "gaps": [
+      "Jira experience is not documented.",
+      "Formal Product Manager tenure is shorter than the requested 3-5 years despite strong functional experience.",
+      "No direct travel-tech or luxury industry experience; GA4-specific experience is not documented."
+    ]
+  },
+  "resume": {
+    "pt": {
+      "name": "Kevin Augusto Vieira",
+      "location": "Curitiba, PR | Remoto",
+      "phone": "+55 (41) 99694-1615",
+      "email": "kevin.aug.vieira@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/kevin-augusto/",
+      "github": "",
+      "website": "",
+      "summary": "Growth Product Manager com mais de 8 anos de experiência em produtos digitais, CRO, discovery e otimização de jornadas. Planejou e executou testes A/B em landing pages, mensagens, anúncios e experiências web, usando comportamento, conversão, receita e ROI para decidir entre lançar, ajustar ou escalar hipóteses. No Meu Barzin, conduziu discovery e análise do funil de um produto conversacional, identificando 43,9% de abandono na primeira mensagem e priorizando gargalos de densidade e latência. Na Wipro, no Projeto Meta, trabalhou em squad com roadmap, backlog, OKRs e stakeholders globais, além de liderar adoção de IA em CRM com crescimento de 150%. Combina visão de produto, UX, analytics, IA e execução multifuncional.",
+      "experience": [
+        {
+          "company": "Wipro",
+          "role": "Especialista em Product Operations e Growth (Projeto Meta)",
+          "dates": "Setembro 2024 – Julho 2026",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Roadmap e Backlog: Atuou em squad com reuniões diárias, OKRs, roadmap e backlog, priorizando demandas de clientes, gestores, produto, qualidade e operação.",
+            "Adoção e Experimentação: Teve ownership da ativação de IA no CRM, elevando o uso de 4 para 10 prompts/dia (+150%) por meio de onboarding, acompanhamento e iteração.",
+            "Dados e Insights: Usou Power BI, Excel, escuta de calls e análise de causa raiz para identificar comportamento, gaps e oportunidades de melhoria."
+          ]
+        },
+        {
+          "company": "AK Branding & Web Design",
+          "role": "Consultor de Growth Product e CRO",
+          "dates": "Março 2019 – Setembro 2024",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "CRO e Experiência: Conduziu mais de 40 projetos digitais e otimizou páginas, ofertas, CTAs, UX e chatbots, elevando leads de 8 para 20-30/mês (+250%).",
+            "Experimentação: Planejou testes A/B em anúncios, landing pages, mensagens e interações para validar hipóteses de aquisição e conversão."
+          ]
+        },
+        {
+          "company": "Meu Barzin (Startup)",
+          "role": "Growth Product Manager",
+          "dates": "Dezembro 2025 – Março 2026",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Discovery e Produto: Concebeu MVP conversacional com RAG, n8n e Supabase, definiu modelo de assinatura e conduziu entrevistas com usuários e parceiros.",
+            "CRO e Priorização: Captou 505 leads e identificou densidade e latência como barreiras críticas, incluindo 43,9% de abandono na primeira mensagem."
+          ]
+        },
+        {
+          "company": "Munzner",
+          "role": "Especialista em Product Growth e Lifecycle",
+          "dates": "Outubro 2018 – Agosto 2024",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Lançamento e Conversão: Lançou o primeiro produto digital, alcançando 50 vendas em 2 meses e ROI entre 1,0x e 1,5x.",
+            "Funil e Lifecycle: Construiu jornada de 10 etapas que atraiu 10.000+ acessos e gerou aproximadamente R$ 50 mil em receita."
+          ]
+        }
+      ],
+      "skills": [
+        {
+          "category": "Growth Product e CRO",
+          "skills": [
+            "Estratégia de Produto e Roadmap de CRO",
+            "Backlog e Priorização por Impacto",
+            "Testes A/B e Design de Experimentos",
+            "Landing Pages, UX, Conteúdo e Interação",
+            "Discovery Qualitativo e Quantitativo",
+            "Aquisição, Ativação e Conversão"
+          ]
+        },
+        {
+          "category": "Analytics e Experimentação",
+          "skills": [
+            "Google Analytics e Tableau/Power BI",
+            "Tracking e Requisitos de Dados",
+            "Dashboards e Visualização de Resultados",
+            "Métricas de Funil, Receita e ROI",
+            "Análise de Comportamento do Usuário",
+            "Hipóteses e Decisões Data-Informed"
+          ]
+        },
+        {
+          "category": "Produto, IA e Colaboração",
+          "skills": [
+            "Agile, Squads, Roadmap e Backlog",
+            "Colaboração com Engenharia, Design e Marketing",
+            "LLMs, RAG e Personalização por IA",
+            "Supabase/PostgreSQL, n8n e APIs",
+            "Figma e Prototipagem de MVPs",
+            "Inglês Profissional e Times Globais"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "Universidade Federal do Paraná (UFPR)",
+          "degree": "Bacharelado e Licenciatura em Filosofia",
+          "dates": "2018 - 2023"
+        },
+        {
+          "institution": "UFPR / UTFPR",
+          "degree": "Engenharia Elétrica e Eletrônica (incompleto)",
+          "dates": "2012 - 2015"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "Google Project Management Professional Certificate",
+          "issuer": "Coursera / Google",
+          "status": "Em andamento"
+        },
+        {
+          "name": "Meta Certified Media Planning Professional",
+          "issuer": "Meta",
+          "status": "Ativo"
+        },
+        {
+          "name": "Meta Certified Digital Marketing Associate",
+          "issuer": "Meta",
+          "status": "Ativo"
+        }
+      ],
+      "languages": [
+        {
+          "language": "Inglês",
+          "proficiency": "Fluente / profissional; uso diário em relatórios corporativos, coordenação internacional e alinhamento com stakeholders"
+        },
+        {
+          "language": "Português",
+          "proficiency": "Nativo"
+        }
+      ],
+      "additional_information": []
+    },
+    "en": {
+      "name": "Kevin Augusto Vieira",
+      "location": "Curitiba, PR, Brazil | Remote",
+      "phone": "+55 (41) 99694-1615",
+      "email": "kevin.aug.vieira@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/kevin-augusto/",
+      "github": "",
+      "website": "",
+      "summary": "Growth Product Manager with 8+ years of experience in digital products, CRO, discovery, and journey optimization. Planned and executed A/B tests across landing pages, messaging, ads, and web experiences, using behavior, conversion, revenue, and ROI to decide whether to launch, adjust, or scale hypotheses. At Meu Barzin, led discovery and funnel analysis for a conversational product, identifying a 43.9% first-message dropout and prioritizing partner-density and latency bottlenecks. At Wipro on the Meta Project, worked in a squad using roadmap, backlog, OKRs, and global stakeholder input, while leading CRM AI adoption with 150% growth. Combines product thinking, UX, analytics, AI, and cross-functional execution.",
+      "experience": [
+        {
+          "company": "Wipro",
+          "role": "Product Operations and Growth Specialist (Meta Project)",
+          "dates": "September 2024 – July 2026",
+          "location": "Curitiba, Brazil",
+          "bullets": [
+            "Roadmap and Backlog: Worked in a squad using daily meetings, OKRs, roadmap, and backlog to prioritize requests from clients, managers, product, quality, and operations.",
+            "Adoption and Experimentation: Owned CRM AI activation, increasing usage from 4 to 10 prompts/day (+150%) through onboarding, coaching, and iteration.",
+            "Data and Insights: Used Power BI, Excel, call listening, and root-cause analysis to identify behavior, gaps, and improvement opportunities."
+          ]
+        },
+        {
+          "company": "AK Branding & Web Design",
+          "role": "Growth Product and CRO Consultant",
+          "dates": "March 2019 – September 2024",
+          "location": "Curitiba, Brazil",
+          "bullets": [
+            "CRO and Experience: Delivered 40+ digital projects and optimized pages, offers, CTAs, UX, and chatbots, increasing leads from 8 to 20-30/month (+250%).",
+            "Experimentation: Planned A/B tests across ads, landing pages, messaging, and interactions to validate acquisition and conversion hypotheses."
+          ]
+        },
+        {
+          "company": "Meu Barzin (Startup)",
+          "role": "Growth Product Manager",
+          "dates": "December 2025 – March 2026",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Discovery and Product: Conceived a RAG, n8n, and Supabase conversational MVP, defined its subscription model, and conducted user and partner interviews.",
+            "CRO and Prioritization: Captured 505 leads and identified partner density and latency as critical barriers, including a 43.9% first-message dropout."
+          ]
+        },
+        {
+          "company": "Munzner",
+          "role": "Product Growth and Lifecycle Specialist",
+          "dates": "October 2018 – August 2024",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Launch and Conversion: Launched the first digital product, securing 50 sales in 2 months and achieving a 1.0x to 1.5x ROI.",
+            "Funnel and Lifecycle: Built a 10-stage journey that attracted 10,000+ visits and generated approximately R$50,000 in revenue."
+          ]
+        }
+      ],
+      "skills": [
+        {
+          "category": "Growth Product and CRO",
+          "skills": [
+            "Product Strategy and CRO Roadmap",
+            "Backlog and Impact-Based Prioritization",
+            "A/B Testing and Experiment Design",
+            "Landing Pages, UX, Content, and Interaction",
+            "Qualitative and Quantitative Discovery",
+            "Acquisition, Activation, and Conversion"
+          ]
+        },
+        {
+          "category": "Analytics and Experimentation",
+          "skills": [
+            "Google Analytics and Tableau/Power BI",
+            "Tracking and Data Requirements",
+            "Dashboards and Results Visualization",
+            "Funnel, Revenue, and ROI Metrics",
+            "User Behavior Analysis",
+            "Hypothesis-Driven, Data-Informed Decisions"
+          ]
+        },
+        {
+          "category": "Product, AI, and Collaboration",
+          "skills": [
+            "Agile, Squads, Roadmap, and Backlog",
+            "Engineering, Design, and Marketing Collaboration",
+            "LLMs, RAG, and AI Personalization",
+            "Supabase/PostgreSQL, n8n, and APIs",
+            "Figma and MVP Prototyping",
+            "Professional English and Global Teams"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "Universidade Federal do Paraná (UFPR)",
+          "degree": "Bachelor's Degree and Licentiate in Philosophy",
+          "dates": "2018 - 2023"
+        },
+        {
+          "institution": "UFPR / UTFPR",
+          "degree": "Electrical and Electronics Engineering (incomplete)",
+          "dates": "2012 - 2015"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "Google Project Management Professional Certificate",
+          "issuer": "Coursera / Google",
+          "status": "In progress"
+        },
+        {
+          "name": "Meta Certified Media Planning Professional",
+          "issuer": "Meta",
+          "status": "Active"
+        },
+        {
+          "name": "Meta Certified Digital Marketing Associate",
+          "issuer": "Meta",
+          "status": "Active"
+        }
+      ],
+      "languages": [
+        {
+          "language": "English",
+          "proficiency": "Fluent / professional working proficiency; daily use in corporate reporting, international coordination, and stakeholder alignment"
+        },
+        {
+          "language": "Portuguese",
+          "proficiency": "Native"
+        }
+      ],
+      "additional_information": []
+    }
+  },
+  "materials": {
+    "pt": {
+      "cover_letter": "Olá, time da Zicasso!\n\nA jornada discovery-to-request é um desafio de produto especialmente interessante: cada melhoria precisa aumentar a conversão sem transformar uma experiência premium em uma transação genérica. É exatamente nesse equilíbrio entre comportamento do usuário, UX, experimentação e resultado que construí minha experiência em Growth.\n\nNo Meu Barzin, conduzi discovery e análise de funil para um produto conversacional com IA. Os dados mostraram 43,9% de abandono na primeira mensagem e ajudaram a priorizar densidade de parceiros e latência como gargalos críticos. Na AK Branding, planejei testes A/B em landing pages, mensagens, anúncios e interações; melhorias de UX e chatbot elevaram leads de 8 para 20-30 por mês (+250%).\n\nNa Wipro, no Projeto Meta, trabalhei em squad com roadmap, backlog, OKRs e stakeholders globais. Também tive ownership da adoção de IA no CRM, elevando o uso em 150%, e usei Power BI, Excel e feedback qualitativo para orientar decisões.\n\nQuero aplicar essa combinação de CRO, produto, dados e IA para tornar a jornada da Zicasso ainda mais pessoal, inspiradora e eficiente. Tenho disponibilidade para trabalhar até 3 PM PT.\n\nKevin Augusto Vieira",
+      "form_answers": [
+        {
+          "question": "Conte sobre um experimento de CRO que gerou resultado.",
+          "answer": "Na AK Branding, planejei testes A/B em landing pages, mensagens, anúncios e fluxos de UX para validar hipóteses de aquisição e conversão. Em um dos contextos, a combinação de UX e chatbot elevou a captação de 8 para 20-30 leads por mês (+250%). Minha abordagem é definir hipótese, métrica, segmento, janela de análise e critério para escalar, ajustar ou encerrar."
+        },
+        {
+          "question": "Como você prioriza um backlog de Growth?",
+          "answer": "Combino impacto esperado, confiança da evidência, esforço, dependências e risco para a experiência. No Projeto Meta, trabalhei em squad com roadmap, backlog e OKRs, priorizando demandas de clientes, gestores, produto e qualidade. No Meu Barzin, dados de funil e entrevistas ajudaram a priorizar gargalos que bloqueavam a conversão."
+        },
+        {
+          "question": "Como você combina pesquisa qualitativa e dados quantitativos?",
+          "answer": "Uso dados para localizar o problema e pesquisa para entender por que ele acontece. No Meu Barzin, a análise revelou 43,9% de abandono na primeira mensagem; entrevistas e observação mostraram que densidade de parceiros e latência de API prejudicavam a experiência. Essa combinação orientou as prioridades do produto."
+        },
+        {
+          "question": "Como você utiliza IA no trabalho de produto?",
+          "answer": "Uso LLMs para pesquisa, síntese, documentação, prototipagem e automação. No Meu Barzin, desenhei um produto conversacional com RAG, n8n e Supabase, com regras de alucinação zero. Na Wipro, tive ownership da ativação de IA no CRM, elevando o uso de 4 para 10 prompts por consultor (+150%)."
+        }
+      ]
+    },
+    "en": {
+      "cover_letter": "Hi Zicasso team,\n\nThe discovery-to-request journey is an especially compelling product challenge: every improvement needs to increase conversion without turning a premium experience into a generic transaction. That balance between user behavior, UX, experimentation, and business outcomes is where I have built my Growth experience.\n\nAt Meu Barzin, I led discovery and funnel analysis for an AI-powered conversational product. The data revealed a 43.9% first-message dropout and helped prioritize partner density and latency as critical bottlenecks. At AK Branding, I planned A/B tests across landing pages, messaging, ads, and interactions; UX and chatbot improvements increased leads from 8 to 20-30 per month (+250%).\n\nAt Wipro on the Meta Project, I worked in a squad using roadmap, backlog, OKRs, and global stakeholder input. I also owned AI adoption in the CRM, increasing usage by 150%, and used Power BI, Excel, and qualitative feedback to guide decisions.\n\nI would value the opportunity to apply this combination of CRO, product, data, and AI to make Zicasso's journey even more personal, inspiring, and effective. I am available to work until 3 PM PT.\n\nKevin Augusto Vieira",
+      "form_answers": [
+        {
+          "question": "Tell us about a CRO experiment that delivered results.",
+          "answer": "At AK Branding, I planned A/B tests across landing pages, messaging, ads, and UX flows to validate acquisition and conversion hypotheses. In one context, UX and chatbot improvements increased lead capture from 8 to 20-30 leads per month (+250%). My approach is to define the hypothesis, metric, segment, analysis window, and criterion to scale, adjust, or stop."
+        },
+        {
+          "question": "How do you prioritize a Growth backlog?",
+          "answer": "I combine expected impact, evidence confidence, effort, dependencies, and experience risk. On the Meta Project, I worked in a squad using roadmap, backlog, and OKRs to prioritize requests from clients, managers, product, and quality. At Meu Barzin, funnel data and interviews helped prioritize bottlenecks blocking conversion."
+        },
+        {
+          "question": "How do you combine qualitative research and quantitative data?",
+          "answer": "I use data to locate the problem and research to understand why it happens. At Meu Barzin, analysis revealed a 43.9% first-message dropout; interviews and observation showed that partner density and API latency harmed the experience. That combination guided product priorities."
+        },
+        {
+          "question": "How do you use AI in your product workflow?",
+          "answer": "I use LLMs for research, synthesis, documentation, prototyping, and automation. At Meu Barzin, I designed a conversational product using RAG, n8n, and Supabase with zero-hallucination rules. At Wipro, I owned CRM AI activation, increasing usage from 4 to 10 prompts per consultant (+150%)."
+        }
+      ]
+    }
+  },
+  "evidence": {
+    "skills": {
+      "pt": [],
+      "en": []
+    }
+  }
+}

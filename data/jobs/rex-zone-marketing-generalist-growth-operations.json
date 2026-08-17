@@ -1,0 +1,347 @@
+{
+  "id": "rex-zone-marketing-generalist-growth-operations",
+  "metadata": {
+    "company_name": "Rex.zone",
+    "role_title": "Marketing Generalist / Growth / Marketing Operations",
+    "url": "",
+    "fit_score": 97,
+    "salary_expectation": "USD 3,500-5,000/month (remote Brazil; target: USD 4,500/month)",
+    "document_language": "en",
+    "available_languages": [
+      "pt",
+      "en"
+    ],
+    "source_files": [
+      "master_resume.json"
+    ],
+    "good_points": [
+      "Mais de 8 anos em marketing generalista, growth, campanhas multicanal, conteúdo, email, social, mídia paga e operações.",
+      "SEO, Search Console, landing pages, CRO, testes A/B, UTM tracking e domínio de métricas de aquisição, pipeline e retenção.",
+      "CRM, automação, dashboards, playbooks, documentação e colaboração assíncrona global em inglês."
+    ],
+    "improvement_points": [
+      "Jira não foi confirmado entre as ferramentas utilizadas.",
+      "Há experiência em onboarding e nurturing; jornadas formais de win-back não estão documentadas como responsabilidade específica."
+    ]
+  },
+  "triage": {
+    "decision": "adapt",
+    "blockers": [],
+    "notes": [
+      "Eligible for remote work from Brazil.",
+      "Strong fit across multichannel campaigns, growth, marketing operations, CRM, analytics, SEO, experimentation, and async collaboration."
+    ],
+    "gaps": [
+      "Jira experience is not documented.",
+      "Formal win-back journey ownership is not documented, although onboarding and nurturing experience is strong."
+    ]
+  },
+  "resume": {
+    "pt": {
+      "name": "Kevin Augusto Vieira",
+      "location": "Curitiba, PR | Remoto",
+      "phone": "+55 (41) 99694-1615",
+      "email": "kevin.aug.vieira@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/kevin-augusto/",
+      "github": "",
+      "website": "",
+      "summary": "Especialista em Marketing Generalista, Growth e Marketing Operations com mais de 8 anos de experiência planejando e executando campanhas em conteúdo, email, social, mídia paga e canais digitais. Conduziu mais de 40 projetos para PMEs, criando landing pages, ofertas, CTAs, SEO e testes A/B. Na Munzner, estruturou conteúdo orgânico que gerou cerca de 100 leads qualificados e um funil automatizado de 10 etapas que produziu aproximadamente R$ 50 mil em receita. Na Wipro, no Projeto Meta, trabalhou com CRM, dashboards, playbooks, compliance e adoção de IA, elevando o uso da ferramenta em 150%. Domina UTM tracking e métricas como CTR, CPL, CAC, LTV, churn, ROAS e MQL→SQL.",
+      "experience": [
+        {
+          "company": "Wipro",
+          "role": "Especialista em Marketing Operations e Sales Enablement (Projeto Meta)",
+          "dates": "Setembro 2024 – Julho 2026",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "CRM, Compliance e Operações: Trabalhou no CRM proprietário da Meta, que centralizava histórico de anúncios, investimento, campanhas, segurança e saúde da conta sob políticas rigorosas de compliance.",
+            "Adoção e Lifecycle: Teve ownership da ativação de IA no CRM, estruturando onboarding, acompanhamento e playbooks que elevaram o uso de 4 para 10 prompts/dia (+150%).",
+            "Relatórios e Processos: Usou Power BI, Excel, escuta de calls e análise de causa raiz para identificar gaps, reportar performance e documentar ações repetíveis."
+          ]
+        },
+        {
+          "company": "AK Branding & Web Design",
+          "role": "Consultor de Growth Marketing e Campanhas",
+          "dates": "Março 2019 – Setembro 2024",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Campanhas e Conversão: Conduziu mais de 40 projetos com websites, landing pages, ofertas, CTAs, email, social e mídia paga; fluxos de UX/chatbot elevaram leads de 8 para 20-30/mês (+250%).",
+            "SEO e Experimentação: Trabalhou com keyword mapping, SEO on-page, Search Console, UTM tracking e testes A/B em anúncios, mensagens e experiências web."
+          ]
+        },
+        {
+          "company": "Meu Barzin (Startup)",
+          "role": "Product Growth e Marketing Operations Manager",
+          "dates": "Dezembro 2025 – Março 2026",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Aquisição e Ativação: Captou 505 leads qualificados e alcançou 22,3% de usuários altamente engajados com campanhas orgânicas e pagas.",
+            "Funil e Retenção: Analisou comportamento e identificou densidade de parceiros e latência de API como barreiras, incluindo 43,9% de abandono na primeira mensagem."
+          ]
+        },
+        {
+          "company": "Munzner",
+          "role": "Especialista em Inbound, Lifecycle e Automação",
+          "dates": "Outubro 2018 – Agosto 2024",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Inbound e SEO: Produziu cerca de 10 artigos que geraram aproximadamente 1.000 visitas orgânicas e 100 leads qualificados, com conversão próxima de 10%.",
+            "Lifecycle e Automação: Construiu jornada de 10 etapas em Bitrix24 e Sendpulse que atraiu 10.000+ acessos e gerou aproximadamente R$ 50 mil em receita."
+          ]
+        }
+      ],
+      "skills": [
+        {
+          "category": "Campanhas e Growth",
+          "skills": [
+            "Campanhas Integradas: Conteúdo, Email, Social e Paid",
+            "Landing Pages, Ofertas, CTAs e CRO",
+            "SEO, Keyword Mapping e On-Page",
+            "Google Search Console e Google Analytics",
+            "Testes A/B em Mensagens e Experiências",
+            "Calendário, Briefings e Gestão de Stakeholders"
+          ]
+        },
+        {
+          "category": "Lifecycle, CRM e Marketing Operations",
+          "skills": [
+            "HubSpot, Sendpulse, RD Station e Salesforce",
+            "Onboarding, Nurturing e Retenção",
+            "UTM Tracking e Campaign Hygiene",
+            "Playbooks, Templates e Processos Repetíveis",
+            "Documentação e Colaboração Assíncrona",
+            "Asana, Notion e Trello"
+          ]
+        },
+        {
+          "category": "Analytics e Performance",
+          "skills": [
+            "CTR, CPL, CAC, LTV, Churn e ROAS",
+            "MQL→SQL, Pipeline e Conversão",
+            "Looker Studio, Power BI e Google Sheets",
+            "Dashboards e Relatórios Semanais",
+            "Análise de Funil e Qualidade de Leads",
+            "Automação com n8n, APIs e Webhooks"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "Universidade Federal do Paraná (UFPR)",
+          "degree": "Bacharelado e Licenciatura em Filosofia",
+          "dates": "2018 - 2023"
+        },
+        {
+          "institution": "UFPR / UTFPR",
+          "degree": "Engenharia Elétrica e Eletrônica (incompleto)",
+          "dates": "2012 - 2015"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "Google Project Management Professional Certificate",
+          "issuer": "Coursera / Google",
+          "status": "Em andamento"
+        },
+        {
+          "name": "Meta Certified Media Planning Professional",
+          "issuer": "Meta",
+          "status": "Ativo"
+        },
+        {
+          "name": "Meta Certified Digital Marketing Associate",
+          "issuer": "Meta",
+          "status": "Ativo"
+        }
+      ],
+      "languages": [
+        {
+          "language": "Inglês",
+          "proficiency": "Fluente / profissional; uso diário em relatórios corporativos, coordenação internacional e alinhamento com stakeholders"
+        },
+        {
+          "language": "Português",
+          "proficiency": "Nativo"
+        }
+      ],
+      "additional_information": []
+    },
+    "en": {
+      "name": "Kevin Augusto Vieira",
+      "location": "Curitiba, PR, Brazil | Remote",
+      "phone": "+55 (41) 99694-1615",
+      "email": "kevin.aug.vieira@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/kevin-augusto/",
+      "github": "",
+      "website": "",
+      "summary": "Marketing Generalist, Growth, and Marketing Operations specialist with 8+ years of experience planning and executing campaigns across content, email, social, paid media, and digital channels. Delivered 40+ projects for SMBs, creating landing pages, offers, CTAs, SEO, and A/B tests. At Munzner, built organic content that generated around 100 qualified leads and a 10-stage automated funnel that produced approximately R$50,000 in revenue. At Wipro on the Meta Project, worked with CRM, dashboards, playbooks, compliance, and AI adoption, increasing tool usage by 150%. Proficient in UTM tracking and metrics including CTR, CPL, CAC, LTV, churn, ROAS, and MQL-to-SQL conversion.",
+      "experience": [
+        {
+          "company": "Wipro",
+          "role": "Marketing Operations and Sales Enablement Specialist (Meta Project)",
+          "dates": "September 2024 – July 2026",
+          "location": "Curitiba, Brazil",
+          "bullets": [
+            "CRM, Compliance, and Operations: Worked within Meta's proprietary CRM, centralizing ad history, investment, campaigns, account security, and account health under strict compliance policies.",
+            "Adoption and Lifecycle: Owned CRM AI activation, structuring onboarding, coaching, and playbooks that increased usage from 4 to 10 prompts/day (+150%).",
+            "Reporting and Processes: Used Power BI, Excel, call listening, and root-cause analysis to identify gaps, report performance, and document repeatable actions."
+          ]
+        },
+        {
+          "company": "AK Branding & Web Design",
+          "role": "Growth Marketing and Campaign Consultant",
+          "dates": "March 2019 – September 2024",
+          "location": "Curitiba, Brazil",
+          "bullets": [
+            "Campaigns and Conversion: Delivered 40+ projects across websites, landing pages, offers, CTAs, email, social, and paid media; UX/chatbot flows increased leads from 8 to 20-30/month (+250%).",
+            "SEO and Experimentation: Worked with keyword mapping, on-page SEO, Search Console, UTM tracking, and A/B tests across ads, messaging, and web experiences."
+          ]
+        },
+        {
+          "company": "Meu Barzin (Startup)",
+          "role": "Product Growth and Marketing Operations Manager",
+          "dates": "December 2025 – March 2026",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Acquisition and Activation: Captured 505 qualified leads and achieved 22.3% highly engaged users through organic and paid campaigns.",
+            "Funnel and Retention: Analyzed behavior and identified partner density and API latency as barriers, including a 43.9% first-message dropout."
+          ]
+        },
+        {
+          "company": "Munzner",
+          "role": "Inbound, Lifecycle, and Automation Specialist",
+          "dates": "October 2018 – August 2024",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Inbound and SEO: Produced around 10 articles that generated approximately 1,000 organic visits and 100 qualified leads, with close to 10% conversion.",
+            "Lifecycle and Automation: Built a 10-stage journey in Bitrix24 and Sendpulse that attracted 10,000+ visits and generated approximately R$50,000 in revenue."
+          ]
+        }
+      ],
+      "skills": [
+        {
+          "category": "Campaigns and Growth",
+          "skills": [
+            "Integrated Content, Email, Social, and Paid Campaigns",
+            "Landing Pages, Offers, CTAs, and CRO",
+            "SEO, Keyword Mapping, and On-Page Optimization",
+            "Google Search Console and Google Analytics",
+            "A/B Testing Across Messaging and Experiences",
+            "Campaign Calendar, Briefs, and Stakeholder Management"
+          ]
+        },
+        {
+          "category": "Lifecycle, CRM, and Marketing Operations",
+          "skills": [
+            "HubSpot, Sendpulse, RD Station, and Salesforce",
+            "Onboarding, Nurturing, and Retention",
+            "UTM Tracking and Campaign Hygiene",
+            "Playbooks, Templates, and Repeatable Processes",
+            "Documentation and Async Collaboration",
+            "Asana, Notion, and Trello"
+          ]
+        },
+        {
+          "category": "Analytics and Performance",
+          "skills": [
+            "CTR, CPL, CAC, LTV, Churn, and ROAS",
+            "MQL-to-SQL, Pipeline, and Conversion",
+            "Looker Studio, Power BI, and Google Sheets",
+            "Dashboards and Weekly Performance Reporting",
+            "Funnel and Lead Quality Analysis",
+            "Automation with n8n, APIs, and Webhooks"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "Universidade Federal do Paraná (UFPR)",
+          "degree": "Bachelor's Degree and Licentiate in Philosophy",
+          "dates": "2018 - 2023"
+        },
+        {
+          "institution": "UFPR / UTFPR",
+          "degree": "Electrical and Electronics Engineering (incomplete)",
+          "dates": "2012 - 2015"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "Google Project Management Professional Certificate",
+          "issuer": "Coursera / Google",
+          "status": "In progress"
+        },
+        {
+          "name": "Meta Certified Media Planning Professional",
+          "issuer": "Meta",
+          "status": "Active"
+        },
+        {
+          "name": "Meta Certified Digital Marketing Associate",
+          "issuer": "Meta",
+          "status": "Active"
+        }
+      ],
+      "languages": [
+        {
+          "language": "English",
+          "proficiency": "Fluent / professional working proficiency; daily use in corporate reporting, international coordination, and stakeholder alignment"
+        },
+        {
+          "language": "Portuguese",
+          "proficiency": "Native"
+        }
+      ],
+      "additional_information": []
+    }
+  },
+  "materials": {
+    "pt": {
+      "cover_letter": "Olá, time da Rex.zone!\n\nA combinação de campanhas multicanal, disciplina de mensuração e colaboração assíncrona desta vaga é exatamente como gosto de operar marketing: conectar conteúdo, email, social, mídia paga e CRM a métricas que mostram onde crescer e o que corrigir.\n\nNa AK Branding, conduzi mais de 40 projetos para PMEs, criando websites, landing pages, ofertas e campanhas. Trabalhei com SEO, Search Console, UTM tracking e testes A/B; fluxos de UX e chatbot elevaram a captação de 8 para 20-30 leads por mês (+250%). Na Munzner, conteúdo orgânico gerou cerca de 100 leads qualificados e uma jornada automatizada de 10 etapas produziu aproximadamente R$ 50 mil em receita.\n\nNa Wipro, no Projeto Meta, trabalhei com CRM, compliance, dashboards, playbooks e documentação. Tive ownership da adoção de IA no CRM, elevando o uso em 150%, e usei Power BI, Excel e análise de causa raiz para reportar performance e orientar ações.\n\nQuero levar essa combinação de execução, analytics e processos repetíveis para ajudar os clientes da Rex.zone a acelerar aquisição, ativação e retenção.\n\nKevin Augusto Vieira",
+      "form_answers": [
+        {
+          "question": "Conte sobre uma campanha multicanal que você executou.",
+          "answer": "Na Munzner, conectei conteúdo de blog, landing pages, email automation e social para apoiar o lançamento do primeiro produto digital. Cerca de 10 artigos geraram 1.000 visitas orgânicas e 100 leads qualificados, enquanto uma jornada automatizada de 10 etapas atraiu mais de 10 mil acessos e gerou aproximadamente R$ 50 mil em receita."
+        },
+        {
+          "question": "Como você estrutura mensuração e relatórios de campanha?",
+          "answer": "Mapeio canais e UTMs, defino a conversão esperada por etapa e acompanho CTR, CPL, CAC, MQL→SQL, pipeline, ROAS, LTV, churn e receita conforme o objetivo. Consolido os dados em dashboards e resumos semanais, destacando tendência, desvio, hipótese e ação recomendada."
+        },
+        {
+          "question": "Como você desenvolve jornadas de lifecycle?",
+          "answer": "Começo pelo evento de entrada, segmento, objetivo e comportamento esperado em cada etapa. Já construí jornadas de onboarding e nurturing em Sendpulse e Bitrix24, combinando conteúdo, emails, automações e métricas de conversão. Uso comportamento e dados de CRM para ajustar mensagens, cadência e CTAs ao longo da jornada."
+        },
+        {
+          "question": "Como você trabalha de forma assíncrona com times distribuídos?",
+          "answer": "Mantenho briefings, decisões, responsáveis, prazos e próximos passos documentados em ferramentas como Asana, Notion, Trello e Slack. No Projeto Meta, trabalhei diariamente em inglês com stakeholders globais, usando documentação, dashboards, playbooks e atualizações estruturadas para reduzir dependências de reuniões."
+        }
+      ]
+    },
+    "en": {
+      "cover_letter": "Hi Rex.zone team,\n\nThe combination of cross-channel campaigns, disciplined measurement, and async collaboration in this role matches how I like to operate marketing: connect content, email, social, paid media, and CRM to metrics that show where to grow and what to fix.\n\nAt AK Branding, I delivered 40+ projects for SMBs, creating websites, landing pages, offers, and campaigns. I worked with SEO, Search Console, UTM tracking, and A/B tests; UX and chatbot flows increased lead capture from 8 to 20-30 leads per month (+250%). At Munzner, organic content generated around 100 qualified leads and a 10-stage automated journey produced approximately R$50,000 in revenue.\n\nAt Wipro on the Meta Project, I worked with CRM, compliance, dashboards, playbooks, and documentation. I owned AI adoption in the CRM, increasing usage by 150%, and used Power BI, Excel, and root-cause analysis to report performance and guide action.\n\nI would value the opportunity to bring this combination of execution, analytics, and repeatable processes to help Rex.zone clients accelerate acquisition, activation, and retention.\n\nKevin Augusto Vieira",
+      "form_answers": [
+        {
+          "question": "Tell us about a cross-channel campaign you executed.",
+          "answer": "At Munzner, I connected blog content, landing pages, email automation, and social to support the first digital product launch. Around 10 articles generated 1,000 organic visits and 100 qualified leads, while a 10-stage automated journey attracted 10,000+ visits and generated approximately R$50,000 in revenue."
+        },
+        {
+          "question": "How do you structure campaign measurement and reporting?",
+          "answer": "I map channels and UTMs, define expected conversion by stage, and track CTR, CPL, CAC, MQL-to-SQL, pipeline, ROAS, LTV, churn, and revenue according to the objective. I consolidate data into dashboards and weekly summaries that highlight trends, deviations, hypotheses, and recommended actions."
+        },
+        {
+          "question": "How do you build lifecycle journeys?",
+          "answer": "I start with the entry event, segment, objective, and expected behavior at each stage. I have built onboarding and nurturing journeys in Sendpulse and Bitrix24, combining content, email, automation, and conversion metrics. I use behavior and CRM data to adjust messaging, cadence, and CTAs throughout the journey."
+        },
+        {
+          "question": "How do you collaborate asynchronously across distributed teams?",
+          "answer": "I keep briefs, decisions, owners, deadlines, and next steps documented in tools such as Asana, Notion, Trello, and Slack. On the Meta Project, I worked daily in English with global stakeholders, using documentation, dashboards, playbooks, and structured updates to reduce meeting dependencies."
+        }
+      ]
+    }
+  },
+  "evidence": {
+    "skills": {
+      "pt": [],
+      "en": []
+    }
+  }
+}

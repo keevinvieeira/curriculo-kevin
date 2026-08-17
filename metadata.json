@@ -1,16 +1,28 @@
 {
-  "company_name": "Infobip",
-  "role_title": "Senior Partnership Enablement Specialist",
-  "url": "https://infobip.wd3.myworkdayjobs.com/en-US/InfobipCareers/job/Curitiba-Brazil/Senior-partnership-enablement-specialist_JR104822",
-  "fit_score": 97,
-  "salary_expectation": "R$ 14.000 - R$ 18.000 /mês (CLT / Remoto+Híbrido)",
+  "company_name": "Confidential Marketing Agency",
+  "role_title": "Full-Stack Developer & AI Integration Specialist",
+  "url": "",
+  "fit_score": 78,
+  "salary_expectation": "$22/hour, subject to scope and engagement terms",
+  "document_language": "en",
+  "available_languages": [
+    "pt",
+    "en"
+  ],
+  "application_deadline": "2026-08-16T23:59:00-05:00",
+  "source_files": [
+    "master_resume.json"
+  ],
   "good_points": [
-    "Encaixe direto: atuação como interface estratégica entre Produto e parceiros — exatamente o que fez na Wipro/Meta (ponte entre produto e time comercial/parceiros).",
-    "Experiência comprovada em traduzir evoluções técnicas de produto em narrativas de negócio claras para parceiros (guias, use cases, scripts de argumentação).",
-    "Histórico de conduzir sessões de enablement, briefings e certificações de parceiros com foco em adoção de novas soluções e capacidades.",
-    "Empresa com mindset AI-first e presença global — conexão com o perfil de inglês fluente e experiência internacional na Wipro."
+    "Experiência prática com IA, n8n, APIs/webhooks, Python, web scraping e Supabase/PostgreSQL em produtos digitais.",
+    "Experiência em agência, CRM, geração e mensuração de leads, automação de funis e atribuição de receita.",
+    "Experiência direta com escuta de calls, auditorias de qualidade, scripts, scoring operacional e coaching estruturado."
   ],
   "improvement_points": [
-    "Reforçar experiência em co-inovação e outreach estratégico com parceiros de canal."
+    "Playwright e browser automation autenticada não estão comprovados no currículo mestre; há evidência apenas de web scraping.",
+    "Tekmetric, Google Local Services Ads API, Google Ads API e WhatConverts API não aparecem no histórico documentado.",
+    "A vaga pede desenvolvimento full-stack; o histórico comprova web development, bancos de dados, integrações e Python prático, mas não senioridade formal como engenheiro full-stack.",
+    "A faixa máxima de $3.520/mês está abaixo da expectativa internacional registrada de $4.000-$6.000/mês.",
+    "O prazo informado encerrou em 16 de agosto de 2026; a disponibilidade da candidatura precisa ser verificada."
   ]
 }

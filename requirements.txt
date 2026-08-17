@@ -7,4 +7,3 @@ xhtml2pdf>=0.2.11
 requests>=2.31.0
 pydantic>=2.0
 networkx>=3.0
-pyvis>=0.3.0

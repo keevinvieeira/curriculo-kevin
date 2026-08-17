@@ -1,0 +1,380 @@
+{
+  "id": "confidential-marketing-agency-full-stack-ai-integration-specialist",
+  "metadata": {
+    "company_name": "Confidential Marketing Agency",
+    "role_title": "Full-Stack Developer & AI Integration Specialist",
+    "url": "",
+    "fit_score": 78,
+    "salary_expectation": "$22/hour, subject to scope and engagement terms",
+    "document_language": "en",
+    "available_languages": [
+      "pt",
+      "en"
+    ],
+    "application_deadline": "2026-08-16T23:59:00-05:00",
+    "source_files": [
+      "master_resume.json"
+    ],
+    "good_points": [
+      "Experiência prática com IA, n8n, APIs/webhooks, Python, web scraping e Supabase/PostgreSQL em produtos digitais.",
+      "Experiência em agência, CRM, geração e mensuração de leads, automação de funis e atribuição de receita.",
+      "Experiência direta com escuta de calls, auditorias de qualidade, scripts, scoring operacional e coaching estruturado."
+    ],
+    "improvement_points": [
+      "Playwright e browser automation autenticada não estão comprovados no currículo mestre; há evidência apenas de web scraping.",
+      "Tekmetric, Google Local Services Ads API, Google Ads API e WhatConverts API não aparecem no histórico documentado.",
+      "A vaga pede desenvolvimento full-stack; o histórico comprova web development, bancos de dados, integrações e Python prático, mas não senioridade formal como engenheiro full-stack.",
+      "A faixa máxima de $3.520/mês está abaixo da expectativa internacional registrada de $4.000-$6.000/mês.",
+      "O prazo informado encerrou em 16 de agosto de 2026; a disponibilidade da candidatura precisa ser verificada."
+    ]
+  },
+  "triage": {
+    "decision": "adapt",
+    "blockers": [],
+    "notes": [
+      "Strong transferable fit across AI integration, automation, lead operations, CRM data, web scraping, attribution, and call quality workflows.",
+      "Application deadline has elapsed, but the listing reports that it closes in 0 days and may still accept submissions.",
+      "Compensation is below the candidate's documented international target; the proposed bid uses the top of the listed range."
+    ],
+    "gaps": [
+      "No documented production experience with Playwright or authenticated browser automation.",
+      "No documented experience with Tekmetric, Google Local Services Ads API, Google Ads API, or WhatConverts API.",
+      "No formal full-stack engineering title or documented production ownership of a custom internal web application.",
+      "Full-time 40-hour availability and standard-hours call coverage are not documented in the master resume."
+    ]
+  },
+  "resume": {
+    "pt": {
+      "name": "Kevin Augusto Vieira",
+      "location": "Curitiba, PR | Remoto",
+      "phone": "+55 (41) 99694-1615",
+      "email": "kevin.aug.vieira@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/kevin-augusto/",
+      "github": "",
+      "website": "",
+      "summary": "Especialista em Integração de IA, Automação e Produtos Digitais com mais de 8 anos de experiência conectando marketing, operações, CRM, dados e desenvolvimento web. Construiu fluxos com n8n, APIs/webhooks, Python prático e Supabase/PostgreSQL, além de extrair e higienizar dados via web scraping para uma base com quase 200 estabelecimentos. Tem experiência em mensuração multicanal, geração e normalização operacional de leads, métricas de receita e automação de funis. Na Wipro, no Projeto Meta, liderou a adoção de IA nativa no CRM, elevando o uso em 150%, e realizou escuta de calls, auditorias de qualidade e feedback estruturado. Na AK Branding, entregou mais de 40 projetos web para PMEs e criou fluxos de chatbot que aumentaram a captação de leads em 250%. Combina execução técnica prática, análise de causa raiz, documentação e colaboração remota para substituir rotinas manuais por sistemas confiáveis e mensuráveis.",
+      "experience": [
+        {
+          "company": "Wipro",
+          "role": "Especialista em Integração de IA, CRM e Quality Assurance (Projeto Meta)",
+          "dates": "Setembro 2024 – Julho 2026",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Integração e Adoção de IA: Liderou a ativação da IA nativa no CRM da Meta, do onboarding ao acompanhamento prático, elevando o uso de 4 para 10 prompts/dia por consultor (+150%).",
+            "Auditoria de Calls e Coaching: Realizou escuta ativa de chamadas, monitoria de qualidade e feedback estruturado com base em scripts, frameworks comerciais e padrões de atendimento.",
+            "Validação e Dados: Aplicou análise de causa raiz e explorou painéis de Power BI e Excel com a equipe de MIS para identificar gaps, validar resultados e orientar planos de ação.",
+            "Documentação e Governança: Criou playbooks, scripts e materiais operacionais, colaborando com produto, qualidade e consultoria em ambiente global e com dados restritos."
+          ]
+        },
+        {
+          "company": "Meu Barzin (Startup)",
+          "role": "Product Manager de IA, Automação e Dados",
+          "dates": "Dezembro 2025 – Março 2026",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Arquitetura de Automação: Desenhou um produto conversacional usando ManyChat, n8n, RAG e regras de alucinação zero, conectando fluxos de usuário a uma base confiável.",
+            "Extração e Tratamento de Dados: Extraiu, higienizou e organizou dados de quase 200 estabelecimentos via web scraping para uma base RAG no Supabase hospedada em VPS.",
+            "Banco de Dados e CRM: Estruturou bases e protótipos de CRM em Supabase/PostgreSQL e NocoDB para apoiar operações, exploração de dados e produto.",
+            "Leads e Diagnóstico: Captou 505 leads e analisou o funil, identificando 43,9% de abandono na primeira mensagem causado por latência de API."
+          ]
+        },
+        {
+          "company": "AK Branding & Web Design",
+          "role": "Consultor de Desenvolvimento Web e Automação de Marketing",
+          "dates": "Março 2019 – Setembro 2024",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Entregou mais de 40 projetos digitais para PMEs, gerenciando arquitetura web, escopo, cronograma, orçamento e comunicação com clientes.",
+            "Implementou chatbots e fluxos de UX que elevaram a captação de 8 para 20-30 leads/mês (+250%), além de landing pages que geravam 5 leads qualificados/dia.",
+            "Executou testes A/B em anúncios, landing pages e jornadas web, usando dados de aquisição e conversão para orientar melhorias.",
+            "Implementou políticas, consentimento e controles de LGPD em 100% dos sites entregues."
+          ]
+        },
+        {
+          "company": "Munzner",
+          "role": "Especialista em CRM, Automação e Revenue Analytics",
+          "dates": "Outubro 2018 – Agosto 2024",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Construiu um funil automatizado de 10 etapas em Bitrix24 e Sendpulse que atraiu mais de 10.000 acessos e gerou aproximadamente R$ 50 mil em receita.",
+            "Acompanhou canais, caminhos de aquisição e dados de CRM para avaliar conversão, receita e ROI e orientar ajustes no funil."
+          ]
+        }
+      ],
+      "skills": [
+        {
+          "category": "IA, Automação e Integrações",
+          "skills": [
+            "Implementação de IAs Nativas em Fluxos de Trabalho",
+            "Engenharia de Prompt Profissional",
+            "n8n, Make, Botpress e ManyChat",
+            "Integrações via APIs/Webhooks",
+            "Python para Automação e Análise (nível prático)",
+            "Web Scraping e RAG"
+          ]
+        },
+        {
+          "category": "Dados, CRM e Atribuição",
+          "skills": [
+            "Supabase/PostgreSQL e NocoDB",
+            "SQL Básico e Exploração de Dados",
+            "CRM Analytics e Automação",
+            "UTM Tracking e Mensuração Multicanal",
+            "Métricas de Receita, ROI, LTV e Conversão",
+            "Power BI, Excel e Google Sheets"
+          ]
+        },
+        {
+          "category": "Web, Qualidade e Operações",
+          "skills": [
+            "Web Development e WordPress/Elementor",
+            "Escuta de Calls e Feedback Estruturado",
+            "Análise de Causa Raiz",
+            "Playbooks e Scripts Comerciais",
+            "Metodologias de Qualidade e Auditoria",
+            "Agile, OKRs, Roadmap e Backlog"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "Universidade Federal do Paraná (UFPR)",
+          "degree": "Bacharelado e Licenciatura em Filosofia",
+          "dates": "2018 - 2023"
+        },
+        {
+          "institution": "UFPR / UTFPR",
+          "degree": "Engenharia Elétrica e Eletrônica (incompleto)",
+          "dates": "2012 - 2015"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "Google Project Management Professional Certificate",
+          "issuer": "Coursera / Google",
+          "status": "Em andamento"
+        },
+        {
+          "name": "Meta Certified Media Planning Professional",
+          "issuer": "Meta",
+          "status": "Ativo"
+        },
+        {
+          "name": "Meta Certified Digital Marketing Associate",
+          "issuer": "Meta",
+          "status": "Ativo"
+        }
+      ],
+      "languages": [
+        {
+          "language": "Inglês",
+          "proficiency": "Avançado / profissional; uso diário em relatórios corporativos, coordenação internacional e alinhamento com stakeholders"
+        },
+        {
+          "language": "Português",
+          "proficiency": "Nativo"
+        }
+      ],
+      "additional_information": []
+    },
+    "en": {
+      "name": "Kevin Augusto Vieira",
+      "location": "Curitiba, PR, Brazil | Remote",
+      "phone": "+55 (41) 99694-1615",
+      "email": "kevin.aug.vieira@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/kevin-augusto/",
+      "github": "",
+      "website": "",
+      "summary": "AI Integration, Automation, and Digital Product Specialist with 8+ years of experience connecting marketing, operations, CRM, data, and web development. Built workflows using n8n, APIs/webhooks, practical Python, and Supabase/PostgreSQL, and extracted and cleansed web data for a database of nearly 200 establishments. Experienced in cross-channel measurement, lead operations, revenue metrics, and automated funnels. At Wipro on the Meta Project, led native CRM AI adoption, increasing usage by 150%, while conducting call listening, quality reviews, and structured coaching. At AK Branding, delivered 40+ web projects for SMBs and implemented chatbot workflows that increased lead capture by 250%. Combines practical technical execution, root-cause analysis, documentation, and remote collaboration to replace manual processes with reliable, measurable systems.",
+      "experience": [
+        {
+          "company": "Wipro",
+          "role": "AI Integration, CRM, and Quality Assurance Specialist (Meta Project)",
+          "dates": "September 2024 – July 2026",
+          "location": "Curitiba, Brazil",
+          "bullets": [
+            "AI Integration and Adoption: Led native AI activation in Meta's CRM from onboarding through hands-on coaching, increasing usage from 4 to 10 prompts/day per consultant (+150%).",
+            "Call Auditing and Coaching: Conducted active call listening, quality monitoring, and structured feedback based on sales scripts, frameworks, and service standards.",
+            "Validation and Data: Applied root-cause analysis and explored Power BI and Excel dashboards with the MIS team to identify gaps, validate results, and guide action plans.",
+            "Documentation and Governance: Built playbooks, scripts, and operational materials while collaborating across product, quality, and consulting teams in a restricted-data environment."
+          ]
+        },
+        {
+          "company": "Meu Barzin (Startup)",
+          "role": "AI, Automation, and Data Product Manager",
+          "dates": "December 2025 – March 2026",
+          "location": "Curitiba, Brazil",
+          "bullets": [
+            "Automation Architecture: Designed a conversational product using ManyChat, n8n, RAG, and zero-hallucination rules, connecting user workflows to a trusted database.",
+            "Data Extraction and Cleansing: Scraped, cleansed, and organized data from nearly 200 establishments for a RAG database in Supabase hosted on a VPS.",
+            "Database and CRM: Built database structures and CRM prototypes in Supabase/PostgreSQL and NocoDB to support operations, data exploration, and product workflows.",
+            "Lead and Funnel Diagnosis: Captured 505 leads and analyzed the funnel, identifying 43.9% first-message abandonment caused by API latency."
+          ]
+        },
+        {
+          "company": "AK Branding & Web Design",
+          "role": "Web Development and Marketing Automation Consultant",
+          "dates": "March 2019 – September 2024",
+          "location": "Curitiba, Brazil",
+          "bullets": [
+            "Delivered 40+ digital projects for SMBs, managing web architecture, scope, timelines, budgets, and client communication.",
+            "Implemented chatbots and UX flows that increased lead capture from 8 to 20-30 leads/month (+250%), plus landing pages generating 5 qualified leads/day.",
+            "Ran A/B tests across ads, landing pages, and web journeys, using acquisition and conversion data to guide improvements.",
+            "Implemented privacy policies, consent mechanisms, and LGPD controls across 100% of delivered websites."
+          ]
+        },
+        {
+          "company": "Munzner",
+          "role": "CRM, Automation, and Revenue Analytics Specialist",
+          "dates": "October 2018 – August 2024",
+          "location": "Curitiba, Brazil",
+          "bullets": [
+            "Built a 10-stage automated funnel in Bitrix24 and Sendpulse that attracted 10,000+ visits and generated approximately R$50,000 in revenue.",
+            "Tracked channels, acquisition paths, and CRM data to evaluate conversion, revenue, and ROI and guide funnel improvements."
+          ]
+        }
+      ],
+      "skills": [
+        {
+          "category": "AI, Automation, and Integrations",
+          "skills": [
+            "Native AI Implementation in Workflows",
+            "Professional Prompt Engineering",
+            "n8n, Make, Botpress, and ManyChat",
+            "API/Webhook Integrations",
+            "Python for Automation and Analysis (practical level)",
+            "Web Scraping and RAG"
+          ]
+        },
+        {
+          "category": "Data, CRM, and Attribution",
+          "skills": [
+            "Supabase/PostgreSQL and NocoDB",
+            "Basic SQL and Data Exploration",
+            "CRM Analytics and Automation",
+            "UTM Tracking and Cross-Channel Measurement",
+            "Revenue, ROI, LTV, and Conversion Metrics",
+            "Power BI, Excel, and Google Sheets"
+          ]
+        },
+        {
+          "category": "Web, Quality, and Operations",
+          "skills": [
+            "Web Development and WordPress/Elementor",
+            "Call Listening and Structured Feedback",
+            "Root Cause Analysis",
+            "Playbooks and Sales Scripts",
+            "Quality Methodologies and Auditing",
+            "Agile, OKRs, Roadmap, and Backlog"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "Universidade Federal do Paraná (UFPR)",
+          "degree": "Bachelor's Degree and Licentiate in Philosophy",
+          "dates": "2018 - 2023"
+        },
+        {
+          "institution": "UFPR / UTFPR",
+          "degree": "Electrical and Electronics Engineering (incomplete)",
+          "dates": "2012 - 2015"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "Google Project Management Professional Certificate",
+          "issuer": "Coursera / Google",
+          "status": "In progress"
+        },
+        {
+          "name": "Meta Certified Media Planning Professional",
+          "issuer": "Meta",
+          "status": "Active"
+        },
+        {
+          "name": "Meta Certified Digital Marketing Associate",
+          "issuer": "Meta",
+          "status": "Active"
+        }
+      ],
+      "languages": [
+        {
+          "language": "English",
+          "proficiency": "Advanced / professional working proficiency; daily use in corporate reporting, international coordination, and stakeholder alignment"
+        },
+        {
+          "language": "Portuguese",
+          "proficiency": "Native"
+        }
+      ],
+      "additional_information": []
+    }
+  },
+  "materials": {
+    "pt": {
+      "cover_letter": "Olá, equipe da Confidential Marketing Agency,\n\nA oportunidade de transformar planilhas e fontes fragmentadas em uma infraestrutura central de leads, auditoria e coaching com IA combina diretamente com minha experiência em automação, CRM, dados e operações de marketing.\n\nNo Meu Barzin, desenhei um produto conversacional com n8n, RAG e Supabase/PostgreSQL, extraí e higienizei dados de quase 200 estabelecimentos via web scraping e estruturei protótipos de CRM. O produto captou 505 leads, e a análise do funil identificou um abandono de 43,9% causado por latência de API. Na AK Branding, entreguei mais de 40 projetos web e implementei fluxos de chatbot que elevaram a captação de leads em 250%.\n\nNa Wipro, no Projeto Meta, liderei a adoção de IA no CRM, aumentando o uso em 150%, e trabalhei diretamente com escuta de calls, auditorias de qualidade, scripts e feedback estruturado. Essa experiência é especialmente relevante para o sistema de call scoring e coaching proposto.\n\nAinda não trabalhei com Tekmetric ou Playwright em produção, mas trago experiência transferível com web scraping, Python prático, APIs/webhooks, n8n, bancos relacionais e validação de dados. Minha abordagem seria começar com uma integração read-only auditável, definir contratos de dados e regras de deduplicação e validar os resultados contra as planilhas legadas antes de expandir a automação.\n\nKevin Augusto Vieira",
+      "form_answers": [
+        {
+          "question": "Como você abordaria a construção deste sistema?",
+          "answer": "Eu começaria mapeando fontes, campos, frequência, regras de negócio e o resultado legado usado como referência. Em seguida, implementaria ingestão read-only por fonte, normalização de telefone e identidades, banco relacional com rastreabilidade de origem e testes de reconciliação. Só depois adicionaria atribuição de receita, auditoria de 10 meses, interface web e scoring de calls, entregando incrementos pequenos e validáveis."
+        },
+        {
+          "question": "Qual é sua experiência com IA e auditoria de calls?",
+          "answer": "Na Wipro, no Projeto Meta, tive ownership da adoção de IA no CRM, elevando o uso em 150%. Também realizei escuta de calls, monitoria de qualidade e feedback estruturado com base em scripts e frameworks comerciais. Para este projeto, eu converteria as regras de atendimento em critérios estruturados, exigiria evidências do transcript para cada nota e manteria revisão humana durante o piloto."
+        },
+        {
+          "question": "Qual é sua experiência com Playwright, Tekmetric e as APIs citadas?",
+          "answer": "Ainda não usei Playwright, Tekmetric, Google Local Services Ads API ou WhatConverts em produção. Minha experiência transferível inclui web scraping, Python prático, APIs/webhooks, n8n, Supabase/PostgreSQL, CRM e desenvolvimento web. Eu validaria autenticação, limites, estabilidade dos exports e termos de uso em uma prova técnica curta antes de assumir o desenho definitivo."
+        },
+        {
+          "question": "Qual é sua pretensão?",
+          "answer": "Minha proposta é $22 por hora, no topo da faixa publicada, considerando o escopo full-time e a combinação de automação, dados, web app e integração de IA."
+        }
+      ]
+    },
+    "en": {
+      "cover_letter": "Hi Confidential Marketing Agency team,\n\nThe opportunity to replace spreadsheets and fragmented sources with a central lead, auditing, and AI coaching infrastructure directly matches my experience across automation, CRM, data, and marketing operations.\n\nAt Meu Barzin, I designed a conversational product using n8n, RAG, and Supabase/PostgreSQL, scraped and cleansed data from nearly 200 establishments, and built CRM prototypes. The product captured 505 leads, while funnel analysis identified 43.9% abandonment caused by API latency. At AK Branding, I delivered 40+ web projects and implemented chatbot workflows that increased lead capture by 250%.\n\nAt Wipro on the Meta Project, I led CRM AI adoption, increasing usage by 150%, and worked directly with call listening, quality audits, scripts, and structured feedback. That experience is particularly relevant to the proposed call scoring and coaching system.\n\nI have not yet used Tekmetric or Playwright in production, but I bring transferable experience in web scraping, practical Python, APIs/webhooks, n8n, relational databases, and data validation. I would begin with an auditable read-only integration, define data contracts and deduplication rules, and reconcile output against legacy spreadsheets before expanding automation.\n\nKevin Augusto Vieira",
+      "form_answers": [
+        {
+          "question": "How would you approach building this system?",
+          "answer": "I would first map each source, field, refresh frequency, business rule, and legacy reference output. I would then implement read-only ingestion per source, phone and identity normalization, a relational database with source lineage, and reconciliation tests. Revenue attribution, the 10-month audit rule, the web interface, and call scoring would follow as small, independently verifiable increments."
+        },
+        {
+          "question": "What is your experience with AI and call auditing?",
+          "answer": "At Wipro on the Meta Project, I owned CRM AI adoption and increased usage by 150%. I also conducted call listening, quality monitoring, and structured feedback based on sales scripts and frameworks. For this project, I would translate handling rules into structured criteria, require transcript evidence for every score, and keep human review in the loop throughout the pilot."
+        },
+        {
+          "question": "What is your experience with Playwright, Tekmetric, and the listed APIs?",
+          "answer": "I have not yet used Playwright, Tekmetric, Google Local Services Ads API, or WhatConverts in production. My transferable experience includes web scraping, practical Python, APIs/webhooks, n8n, Supabase/PostgreSQL, CRM, and web development. I would validate authentication, limits, export stability, and terms of use through a short technical proof before committing to the final architecture."
+        },
+        {
+          "question": "What is your rate?",
+          "answer": "My proposed rate is $22/hour, at the top of the published range, given the full-time scope and the combination of automation, data, web application, and AI integration work."
+        }
+      ]
+    }
+  },
+  "evidence": {
+    "skills": {
+      "pt": [
+        "Implementação de IAs Nativas em Fluxos de Trabalho",
+        "Engenharia de Prompt Profissional",
+        "Integrações via APIs/Webhooks",
+        "Python para Automação e Análise (nível prático)",
+        "SQL Básico e Exploração de Dados",
+        "Escuta de Calls e Feedback Estruturado",
+        "Análise de Causa Raiz"
+      ],
+      "en": [
+        "Native AI Implementation in Workflows",
+        "Professional Prompt Engineering",
+        "API/Webhook Integrations",
+        "Python for Automation and Analysis (practical level)",
+        "Basic SQL and Data Exploration",
+        "Call Listening & Structured Feedback",
+        "Root Cause Analysis"
+      ]
+    }
+  }
+}

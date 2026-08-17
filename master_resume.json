@@ -33,8 +33,8 @@
   ],
   "work_experience": [
     {
-      "company": "Wipro Brasil",
-      "project": "Meta Project",
+      "company": "Wipro",
+      "project": "Meta",
       "location": {
         "pt": "Curitiba, PR",
         "en": "Curitiba, Brazil"
@@ -52,8 +52,8 @@
         },
         {
           "title": {
-            "pt": "Especialista em Operações de Marketing / GTM e Sales Enablement",
-            "en": "Marketing Operations / Sales Enablement & GTM Specialist"
+            "pt": "Especialista em Operações de Marketing / GTM e Sales Enablement (Projeto Meta)",
+            "en": "Marketing Operations / Sales Enablement & GTM Specialist (Meta Project)"
           },
           "dates": {
             "pt": "Setembro 2024 – Julho 2026",
@@ -84,8 +84,8 @@
         },
         {
           "tags": ["ai_implementation", "crm_enablement", "prompt_engineering"],
-          "pt": "Implantação de IA e Adoção Recorde: Liderou a integração da IA nativa no CRM desde o onboarding dos consultores com acompanhamento presencial side-by-side de 3 semanas. Elevou a média de uso de 4 para 10 prompts/dia por consultor (+150%), tornando a operação a #1 em crescimento de adoção de IA na Meta globalmente, otimizando também a qualidade contextual dos prompts em chamadas ao vivo.",
-          "en": "Native AI CRM Adoption & Quality: Spearheaded native AI integration into sales CRMs starting from onboarding, executing 3-week hands-on side-by-side coaching. Boosted daily consultant prompt usage from 4 to 10 prompts/day (+150%), earning official recognition from Meta as the #1 operation worldwide for AI tool adoption growth while improving live call prompt quality."
+          "pt": "Ownership de IA no CRM e Adoção Recorde: Liderou a ativação e adoção da IA nativa no CRM proprietário da Meta, do onboarding ao acompanhamento presencial side-by-side de 3 semanas. Elevou o uso de 4 para 10 prompts/dia por consultor (+150%), tornando a operação a #1 global em crescimento de adoção e melhorando a qualidade contextual dos prompts em chamadas ao vivo.",
+          "en": "AI CRM Ownership, Activation, and Record Adoption: Owned native AI activation and adoption within Meta's proprietary CRM, from onboarding through 3 weeks of hands-on side-by-side coaching. Increased usage from 4 to 10 prompts/day per consultant (+150%), making the operation #1 globally for adoption growth while improving contextual prompt quality during live calls."
         },
         {
           "tags": ["coaching", "sales", "quality_assurance"],
@@ -111,6 +111,11 @@
           "tags": ["cross_functional", "collaboration", "documentation"],
           "pt": "Colaboração Interfuncional: Atuou como ponte estratégica entre linhas globais de produtos, garantia de qualidade e equipes de consultoria terceirizadas para manter documentação de projeto clara, gerenciar prazos e alinhar entregas com objetivos de negócios.",
           "en": "Cross-Functional Collaboration: Acted as the strategic bridge between global product lines, quality assurance, and outsourced consultant teams to maintain clear project documentation, manage timelines, and align deliverables with core business objectives."
+        },
+        {
+          "tags": ["agile", "okr", "roadmap", "backlog", "squad", "prioritization"],
+          "pt": "Governança Ágil e Squad de Treinamento: Participou do squad responsável pelo programa de capacitação, usando reuniões diárias, OKRs, roadmap e backlog para organizar tarefas semanais e priorizar demandas de clientes, gerentes, líderes e consultores internos.",
+          "en": "Agile Governance and Training Squad: Participated in the squad responsible for the enablement program, using daily meetings, OKRs, roadmap, and backlog to organize weekly tasks and prioritize requests from clients, managers, leaders, and internal consultants."
         },
         {
           "tags": ["data", "analytics", "power_bi"],
@@ -169,6 +174,11 @@
           "en": "Data Scraping & Cleansing: Mapped, extracted, and cleansed data from nearly 200 bars in Curitiba via web scraping to build a reliable RAG database in Supabase hosted over a VPS."
         },
         {
+          "tags": ["sql", "postgresql", "crm", "nocodb", "supabase"],
+          "pt": "Bancos de Dados e CRM: Estruturou bases e protótipos de CRM utilizando Supabase/PostgreSQL e NocoDB, trabalhando com modelagem, organização e exploração de dados para apoiar operações e produtos digitais.",
+          "en": "Databases and CRM: Built database structures and CRM prototypes using Supabase/PostgreSQL and NocoDB, working with data modeling, organization, and exploration to support digital products and operations."
+        },
+        {
           "tags": ["growth", "funnel", "metrics"],
           "pt": "Geração de Demanda e Métricas: Captou 505 leads qualificados de topo de funil com campanhas orgânicas e anúncios (além de crescer o Instagram para 2.000+ seguidores), alcançando uma taxa de 22,3% de usuários altamente engajados (conversando 4+ vezes com a IA).",
           "en": "Demand Gen & Metrics: Captured 505 qualified top-of-funil leads via organic and paid campaigns (growing Instagram to 2,000+ followers), achieving a 22.3% high-engagement rate (users interacting 4+ times with the AI)."
@@ -223,6 +233,11 @@
           "tags": ["cro", "chatbots", "lead_generation"],
           "pt": "Otimização de Conversão (CRO) e Chatbots: Implementou interfaces de chatbot e fluxos de UX que elevaram a captação de leads de 8 para 20-30 contatos/mês (+250%) em sites corporativos, além de criar landing pages para a construção civil que geravam 5 leads qualificados/dia.",
           "en": "Conversion Rate Optimization (CRO) & Chatbots: Implemented chatbot interfaces and UX flows that boosted monthly lead capture from 8 to 20-30 contacts/month (+250%) on client websites, and designed real estate LPs generating 5 qualified leads/day."
+        },
+        {
+          "tags": ["ab_testing", "growth", "paid_media", "web_design"],
+          "pt": "Experimentação de Growth: Planejou e executou testes A/B em campanhas de anúncios, landing pages e experiências web para validar hipóteses de aquisição e conversão, orientando ajustes de criativos, mensagens e jornadas digitais.",
+          "en": "Growth Experimentation: Planned and executed A/B tests across paid campaigns, landing pages, and web experiences to validate acquisition and conversion hypotheses, informing adjustments to creative, messaging, and digital journeys."
         },
         {
           "tags": ["e_commerce", "monetization", "zero_to_one"],
@@ -299,6 +314,11 @@
           "tags": ["crm", "automation", "email_marketing", "high_ticket"],
           "pt": "Funil Automatizado de High-Ticket (~R$ 50k em Receita): Estruturou funil de e-mail marketing automatizado de 10 etapas (Bitrix24/Sendpulse) que atraiu 10.000+ acessos e converteu 10 matriculados em formações presenciais de R$ 5.000 (~R$ 50k em receita de tickets altos gerada por automação).",
           "en": "Automated High-Ticket Nurturing Funnel (~R$ 50k Revenue): Built an automated 10-stage email nurturing funnel (Bitrix24/Sendpulse) attracting 10,000+ visits, converting ~10 enrollments for R$ 5,000 in-person masterclasses (~R$ 50k high-ticket revenue driven via automation)."
+        },
+        {
+          "tags": ["monetization", "crm", "revenue_analytics", "acquisition"],
+          "pt": "Mensuração de Monetização: Acompanhou canais, caminhos de aquisição e dados de CRM para avaliar conversão, receita e ROI do funil, orientando ajustes de campanhas, conteúdo e estratégias de monetização.",
+          "en": "Monetization Measurement: Tracked channels, acquisition paths, and CRM data to evaluate funnel conversion, revenue, and ROI, guiding adjustments to campaigns, content, and monetization strategies."
         },
         {
           "tags": ["inbound", "seo", "content_marketing"],
@@ -492,23 +512,23 @@
       },
       {
         "category": "Estratégia de Produto & Growth",
-        "skills": ["Design Thinking", "Lean Startup", "Prototipagem de MVPs", "Estruturação de ICP (Ideal Customer Profile)", "Jornada do Usuário (UX/UI)", "SEO", "Inbound Marketing", "Modelos de Monetização/Assinatura"]
+        "skills": ["Design Thinking", "Lean Startup", "Prototipagem de MVPs", "Estruturação de ICP (Ideal Customer Profile)", "Jornada do Usuário (UX/UI)", "SEO", "Inbound Marketing", "Modelos de Monetização/Assinatura", "Testes A/B e Design de Experimentos"]
       },
       {
         "category": "CRM & Automação",
-        "skills": ["CRMs Proprietários Meta", "Sendpulse", "Bitrix24", "Salesforce", "n8n", "Make", "Botpress", "Integrações via APIs/Webhooks"]
+        "skills": ["CRMs Proprietários Meta", "Sendpulse", "HubSpot", "RD Station", "Bitrix24", "Salesforce", "NocoDB", "Supabase/PostgreSQL", "n8n", "Make", "Botpress", "Integrações via APIs/Webhooks"]
       },
       {
         "category": "Dados, BI & Qualidade",
-        "skills": ["Business Intelligence (Power BI/Tableau)", "Excel Avançado", "Análise de Causa Raiz", "Framework OCIR", "Metodologia de Qualidade Meta", "Mapeamento de Gargalos de Funil", "Manipulação de Bancos de Dados (Supabase)"]
+        "skills": ["Business Intelligence (Power BI/Tableau)", "Excel Avançado", "Google Sheets Avançado", "Google Analytics", "Google Search Console", "Looker Studio", "UTM Tracking e Mensuração Multicanal", "Métricas de Marketing (CTR, CPL, CAC, LTV, Churn, ROAS, MQL→SQL)", "SQL Básico e Exploração de Dados", "Análise de Causa Raiz", "Framework OCIR", "Metodologia de Qualidade Meta", "Mapeamento de Gargalos de Funil", "Métricas de Receita, ROI e Conversão", "Manipulação de Bancos de Dados (Supabase/PostgreSQL)"]
       },
       {
         "category": "Gestão de Projetos & Facilitação",
-        "skills": ["Metodologias Ágeis (Kanban, Scrum)", "Diretrizes de PMO", "Facilitação Avançada (Thinking Environment / Art of Hosting)", "Organização de Bootcamps e Treinamentos de Alta Escala", "Cronogramas de Projeto e Gráficos de Gantt"]
+        "skills": ["Metodologias Ágeis (Kanban, Scrum)", "OKRs, KPIs, Roadmap e Backlog", "Diretrizes de PMO", "Asana", "Trello", "Notion", "Slack", "Discord", "Facilitação Avançada (Thinking Environment / Art of Hosting)", "Organização de Bootcamps e Treinamentos de Alta Escala", "Cronogramas de Projeto e Gráficos de Gantt"]
       },
       {
         "category": "IA & Ferramentas",
-        "skills": ["Engenharia de Prompt Profissional", "Implementação de IAs Nativas em Fluxos de Trabalho", "WordPress/Elementor/LMS", "Figma", "Adobe Creative Suite", "Office"]
+        "skills": ["Engenharia de Prompt Profissional", "Implementação de IAs Nativas em Fluxos de Trabalho", "Python para Automação e Análise (nível prático)", "Vibe Coding e Prototipagem Assistida por IA", "WordPress/Elementor/LMS", "Figma", "Adobe Creative Suite", "Office"]
       }
     ],
     "en": [
@@ -518,23 +538,23 @@
       },
       {
         "category": "Product Strategy & Growth",
-        "skills": ["Design Thinking", "Lean Startup", "MVP Prototyping", "ICP (Ideal Customer Profile) Mapping", "User Journey (UX/UI)", "SEO", "Inbound Marketing", "Monetization/Subscription Models"]
+        "skills": ["Design Thinking", "Lean Startup", "MVP Prototyping", "ICP (Ideal Customer Profile) Mapping", "User Journey (UX/UI)", "SEO", "Inbound Marketing", "Monetization/Subscription Models", "A/B Testing and Experiment Design"]
       },
       {
         "category": "CRM & Automation",
-        "skills": ["Meta Proprietary CRMs", "Sendpulse", "Bitrix24", "Salesforce", "n8n", "Make", "Botpress", "API/Webhook Integrations"]
+        "skills": ["Meta Proprietary CRMs", "Sendpulse", "HubSpot", "RD Station", "Bitrix24", "Salesforce", "NocoDB", "Supabase/PostgreSQL", "n8n", "Make", "Botpress", "API/Webhook Integrations"]
       },
       {
         "category": "Data, BI & Quality Assurance",
-        "skills": ["Business Intelligence (Power BI/Tableau)", "Advanced Excel", "Root Cause Analysis", "OCIR Framework", "Meta Quality Methodology", "Funnel Bottleneck Mapping", "Database Manipulation (Supabase)"]
+        "skills": ["Business Intelligence (Power BI/Tableau)", "Advanced Excel", "Advanced Google Sheets", "Google Analytics", "Google Search Console", "Looker Studio", "UTM Tracking and Cross-Channel Measurement", "Marketing Metrics (CTR, CPL, CAC, LTV, Churn, ROAS, MQL→SQL)", "Basic SQL and Data Exploration", "Root Cause Analysis", "OCIR Framework", "Meta Quality Methodology", "Funnel Bottleneck Mapping", "Revenue, ROI, and Conversion Metrics", "Database Manipulation (Supabase/PostgreSQL)"]
       },
       {
         "category": "Project Management & Facilitation",
-        "skills": ["Agile Methodologies (Kanban, Scrum)", "PMO Guidelines", "Advanced Facilitation (Thinking Environment / Art of Hosting)", "High-Scale Bootcamp & Training Organization", "Project Schedules & Gantt Charts"]
+        "skills": ["Agile Methodologies (Kanban, Scrum)", "OKRs, KPIs, Roadmap, and Backlog", "PMO Guidelines", "Asana", "Trello", "Notion", "Slack", "Discord", "Advanced Facilitation (Thinking Environment / Art of Hosting)", "High-Scale Bootcamp & Training Organization", "Project Schedules & Gantt Charts"]
       },
       {
         "category": "AI & Tools",
-        "skills": ["Professional Prompt Engineering", "Native AI Implementation in Workflows", "WordPress/Elementor/LMS", "Figma", "Adobe Creative Suite", "MS Office"]
+        "skills": ["Professional Prompt Engineering", "Native AI Implementation in Workflows", "Python for Automation and Analysis (practical level)", "AI-Assisted Vibe Coding and Prototyping", "WordPress/Elementor/LMS", "Figma", "Adobe Creative Suite", "MS Office"]
       }
     ]
   },

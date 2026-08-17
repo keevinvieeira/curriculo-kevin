@@ -1,0 +1,349 @@
+{
+  "id": "revolut-product-marketing-manager-americas",
+  "metadata": {
+    "company_name": "Revolut",
+    "role_title": "Product Marketing Manager - Americas",
+    "url": "",
+    "fit_score": 78,
+    "salary_expectation": "USD 55,000-70,000/year (remote Brazil; target: USD 65,000/year)",
+    "document_language": "en",
+    "available_languages": [
+      "pt",
+      "en"
+    ],
+    "source_files": [
+      "master_resume.json"
+    ],
+    "good_points": [
+      "Product marketing, GTM, posicionamento técnico e enablement em ambiente global no Projeto Meta.",
+      "Campanhas, copy, experiências digitais, testes A/B, análise de funil e mensuração de ROI e conversão.",
+      "Experiência em produto, aquisição e colaboração multifuncional, com atuação remota elegível no Brasil."
+    ],
+    "improvement_points": [
+      "Não há experiência direta comprovada em fintech, pagamentos ou regulação financeira nas Américas.",
+      "Não há liderança formal de direção de arte com designers 3D registrada; há criação e direção de ativos digitais e experiências web.",
+      "Não há responsabilidade direta comprovada por expansão internacional ou modelos formais de atribuição de marketing."
+    ]
+  },
+  "triage": {
+    "decision": "adapt",
+    "blockers": [],
+    "notes": [
+      "Eligible for remote work from Brazil.",
+      "Adapt with transparent gaps in fintech, payments, regulation, formal attribution, and 3D art direction."
+    ],
+    "gaps": [
+      "No direct professional fintech, payments, or financial regulation experience.",
+      "No formal responsibility for international expansion or marketing attribution models.",
+      "No formal art direction with 3D designers."
+    ]
+  },
+  "resume": {
+    "pt": {
+      "name": "Kevin Augusto Vieira",
+      "location": "Curitiba, PR | Remoto",
+      "phone": "+55 (41) 99694-1615",
+      "email": "kevin.aug.vieira@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/kevin-augusto/",
+      "github": "",
+      "website": "",
+      "summary": "Product Marketing Manager e especialista em Growth com mais de 8 anos de experiência em posicionamento, Go-to-Market, campanhas e adoção de produtos digitais. Na Wipro, no Projeto Meta, traduziu atualizações globais de produto em propostas de valor, pitches, playbooks e treinamentos para mais de 150 profissionais, além de liderar uma iniciativa que elevou a adoção de IA em CRM em 150%. Em consultoria e startups, criou campanhas, copy, experiências digitais e lançamentos de produto, combinando testes A/B, análise de funil, dados de CRM, receita e ROI para refinar mensagens e conversão. Traz experiência de colaboração global, execução autônoma e capacidade de transformar conceitos técnicos em narrativas simples, relevantes e orientadas a resultados para diferentes públicos.",
+      "experience": [
+        {
+          "company": "Wipro",
+          "role": "Especialista em Product Marketing e Growth (Projeto Meta)",
+          "dates": "Setembro 2024 – Julho 2026",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Posicionamento e Mensagens: Traduziu atualizações globais do portfólio da Meta em propostas de valor, pitches, playbooks e frameworks comerciais para 150+ profissionais.",
+            "Adoção de Produto: Liderou a integração de IA nativa no CRM desde o onboarding, elevando o uso de 4 para 10 prompts por consultor (+150%) e contribuindo para o maior crescimento global de adoção da operação.",
+            "Insights e Otimização: Usou Power BI, Excel, análise de causa raiz, escuta de calls e feedbacks para identificar necessidades, analisar desempenho e orientar melhorias de produto e campanhas."
+          ]
+        },
+        {
+          "company": "AK Branding & Web Design",
+          "role": "Consultor de Product Marketing e Growth",
+          "dates": "Março 2019 – Setembro 2024",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Campanhas e Experimentação: Planejou e executou testes A/B em anúncios, landing pages e experiências web para validar hipóteses e orientar melhorias em criativos, mensagens e jornadas.",
+            "Growth e Direção Criativa: Criou ativos digitais, experiências web e fluxos de UX/chatbot que elevaram a captação de leads de 8 para 20-30 contatos/mês (+250%); lançou e-commerce que atingiu R$ 10 mil em receita nos primeiros 3 meses."
+          ]
+        },
+        {
+          "company": "Meu Barzin (Startup)",
+          "role": "Product Manager e Responsável por Go-to-Market",
+          "dates": "Dezembro 2025 – Março 2026",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "GTM e Proposta de Valor: Concebeu produto de assinatura, definiu modelo de negócio, proposta de valor e estratégia de aquisição com parceiros locais.",
+            "Pesquisa e Insights: Conduziu entrevistas e análise de funil, identificando densidade de parceiros e latência de API, responsável por 43,9% de abandono na primeira mensagem, como barreiras à conversão."
+          ]
+        },
+        {
+          "company": "Munzner",
+          "role": "Especialista em Marketing, Growth e Automação",
+          "dates": "Outubro 2018 – Agosto 2024",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Lançamento e Campanhas: Lançou o primeiro curso digital como produto de entrada, alcançando 50 vendas nos primeiros 2 meses e ROI entre 1,0x e 1,5x.",
+            "Conteúdo e Performance: Estruturou funil automatizado de 10 etapas em Bitrix24 e Sendpulse, mensurando aquisição, conversão e receita para gerar aproximadamente R$ 50 mil em tickets altos."
+          ]
+        }
+      ],
+      "skills": [
+        {
+          "category": "Product Marketing e Go-to-Market",
+          "skills": [
+            "Posicionamento e Proposta de Valor",
+            "Go-to-Market e Lançamentos de Produto",
+            "Copywriting e Narrativas de Produto",
+            "Campanhas Multicanal e Geração de Demanda",
+            "Sales Enablement, Playbooks e Pitches",
+            "Pesquisa de Mercado e Feedback de Clientes"
+          ]
+        },
+        {
+          "category": "Growth, Criativo e Dados",
+          "skills": [
+            "Excel Avançado",
+            "Power BI e Business Intelligence",
+            "Análise de Causa Raiz",
+            "Power BI e Excel Avançado",
+            "Direção de Ativos Digitais e UX/UI",
+            "Análise de Funil e Caminhos de Aquisição",
+            "Testes A/B e Design de Experimentos",
+            "Análise de Causa Raiz e Identificação de Gaps",
+            "CRM, Automação e Métricas de Conversão"
+          ]
+        },
+        {
+          "category": "Produto Digital e Experimentação",
+          "skills": [
+            "Estratégia e Desenvolvimento de Produto",
+            "Go-to-Market (GTM)",
+            "Prototipagem e Validação de MVPs",
+            "Modelos de Monetização e Assinatura",
+            "Negociação e Parcerias B2B",
+            "Lançamentos e Adoção de Produto",
+            "Métricas de Receita, ROI e Conversão",
+            "IA Generativa e Automação de Fluxos"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "Universidade Federal do Paraná (UFPR)",
+          "degree": "Bacharelado e Licenciatura em Filosofia",
+          "dates": "2018 - 2023"
+        },
+        {
+          "institution": "Recanto da Filosofia Clínica",
+          "degree": "Especialização em Filosofia Clínica",
+          "dates": "Janeiro 2023 - Dezembro 2024"
+        },
+        {
+          "institution": "UFPR / UTFPR",
+          "degree": "Engenharia Elétrica e Eletrônica (incompleto)",
+          "dates": "2012 - 2015"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "Google Project Management Professional Certificate",
+          "issuer": "Coursera / Google",
+          "status": "Em andamento"
+        }
+      ],
+      "languages": [
+        {
+          "language": "Inglês",
+          "proficiency": "Fluente / profissional; uso diário em relatórios corporativos, coordenação internacional e alinhamento com stakeholders"
+        },
+        {
+          "language": "Português",
+          "proficiency": "Nativo"
+        }
+      ],
+      "additional_information": []
+    },
+    "en": {
+      "name": "Kevin Augusto Vieira",
+      "location": "Curitiba, PR, Brazil | Remote",
+      "phone": "+55 (41) 99694-1615",
+      "email": "kevin.aug.vieira@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/kevin-augusto/",
+      "github": "",
+      "website": "",
+      "summary": "Product Marketing Manager and Growth specialist with 8+ years of experience in positioning, go-to-market, campaigns, and digital product adoption. At Wipro on the Meta Project, translated global product updates into value propositions, pitches, playbooks, and training for 150+ professionals, while leading an initiative that increased AI adoption in CRM by 150%. Across consulting and startup work, created campaigns, copy, digital experiences, and product launches, combining A/B tests, funnel analysis, CRM data, revenue, and ROI to refine messaging and conversion. Brings global collaboration, independent execution, and the ability to turn technical concepts into simple, relevant, outcome-driven narratives for diverse audiences.",
+      "experience": [
+        {
+          "company": "Wipro",
+          "role": "Product Marketing and Growth Specialist (Meta Project)",
+          "dates": "September 2024 – July 2026",
+          "location": "Curitiba, Brazil",
+          "bullets": [
+            "Positioning and Messaging: Translated Meta's global portfolio updates into value propositions, pitches, playbooks, and sales frameworks for 150+ professionals.",
+            "Product Adoption: Led native AI integration into the CRM from onboarding, increasing usage from 4 to 10 prompts per consultant (+150%) and contributing to the operation becoming the fastest-growing globally for adoption.",
+            "Insights and Optimization: Used Power BI, Excel, root-cause analysis, call listening, and feedback to identify needs, analyze performance, and guide product and campaign improvements."
+          ]
+        },
+        {
+          "company": "AK Branding & Web Design",
+          "role": "Product Marketing and Growth Consultant",
+          "dates": "March 2019 – September 2024",
+          "location": "Curitiba, Brazil",
+          "bullets": [
+            "Campaigns and Experimentation: Planned and executed A/B tests across paid campaigns, landing pages, and web experiences to validate hypotheses and guide improvements to creative, messaging, and journeys.",
+            "Growth and Creative Direction: Created digital assets, web experiences, and UX/chatbot flows that increased lead capture from 8 to 20-30 contacts/month (+250%); launched an e-commerce operation that generated R$10,000 in its first 3 months."
+          ]
+        },
+        {
+          "company": "Meu Barzin (Startup)",
+          "role": "Product Manager and Go-to-Market Lead",
+          "dates": "December 2025 – March 2026",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "GTM and Value Proposition: Conceived a subscription product, defined its business model, value proposition, and acquisition strategy with local partners.",
+            "Research and Insights: Conducted interviews and funnel analysis, identifying partner density and API latency, responsible for a 43.9% first-message dropout, as conversion barriers."
+          ]
+        },
+        {
+          "company": "Munzner",
+          "role": "Marketing, Growth, and Automation Specialist",
+          "dates": "October 2018 – August 2024",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Pricing and ROI: Launched the company's first digital course as an entry product, securing 50 sales in its first 2 months and achieving a 1.0x to 1.5x ROI.",
+            "Monetization and CRM: Built a 10-stage automated funnel in Bitrix24 and Sendpulse, measuring acquisition, conversion, and revenue to generate around R$50,000 in high-ticket revenue."
+          ]
+        }
+      ],
+      "skills": [
+        {
+          "category": "Product Marketing and Go-to-Market",
+          "skills": [
+            "Positioning and Value Proposition",
+            "Go-to-Market and Product Launches",
+            "Copywriting and Product Narratives",
+            "Multichannel Campaigns and Demand Generation",
+            "Sales Enablement, Playbooks, and Pitches",
+            "Market Research and Customer Feedback"
+          ]
+        },
+        {
+          "category": "Growth, Creative, and Data",
+          "skills": [
+            "Advanced Excel",
+            "Power BI and Business Intelligence",
+            "Root Cause Analysis",
+            "Power BI and Advanced Excel",
+            "Digital Asset Direction and UX/UI",
+            "Funnel Analysis and Acquisition Paths",
+            "A/B Testing and Experiment Design",
+            "Root Cause Analysis and Gap Identification",
+            "CRM, Automation, and Conversion Metrics"
+          ]
+        },
+        {
+          "category": "Digital Product and Experimentation",
+          "skills": [
+            "Product Strategy and Development",
+            "Go-to-Market (GTM)",
+            "MVP Prototyping and Validation",
+            "Monetization and Subscription Models",
+            "B2B Negotiation and Partnerships",
+            "Product Launches and Adoption",
+            "Revenue, ROI, and Conversion Metrics",
+            "Generative AI and Workflow Automation"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "Universidade Federal do Paraná (UFPR)",
+          "degree": "Bachelor's Degree and Licentiate in Philosophy",
+          "dates": "2018 - 2023"
+        },
+        {
+          "institution": "Recanto da Filosofia Clínica",
+          "degree": "Specialization in Clinical Philosophy",
+          "dates": "January 2023 - December 2024"
+        },
+        {
+          "institution": "UFPR / UTFPR",
+          "degree": "Electrical and Electronics Engineering (incomplete)",
+          "dates": "2012 - 2015"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "Google Project Management Professional Certificate",
+          "issuer": "Coursera / Google",
+          "status": "In progress"
+        }
+      ],
+      "languages": [
+        {
+          "language": "English",
+          "proficiency": "Fluent / professional working proficiency; daily use in corporate reporting, international coordination, and stakeholder alignment"
+        },
+        {
+          "language": "Portuguese",
+          "proficiency": "Native"
+        }
+      ],
+      "additional_information": []
+    }
+  },
+  "materials": {
+    "pt": {
+      "cover_letter": "Olá, time da Revolut!\n\nConstruir propostas de valor locais que tornam produtos complexos claros, úteis e desejáveis é o tipo de desafio de product marketing que mais me motiva. Minha experiência está na interseção entre atualizações de produto, times comerciais, insights de clientes e campanhas com impacto mensurável.\n\nNa Wipro, no Projeto Meta, traduzi atualizações globais de produto em propostas de valor, pitches, playbooks e treinamentos para mais de 150 profissionais. Também liderei a adoção de IA nativa no CRM, elevando o uso diário de 4 para 10 prompts por consultor (+150%) e contribuindo para o maior crescimento global de adoção da operação.\n\nEm consultoria e startups, criei campanhas, copy, landing pages e experiências digitais, executei testes A/B para melhorar aquisição e conversão e usei dados de funil, CRM, receita e ROI para refinar a estratégia. Quero levar essa combinação de execução criativa, velocidade e análise para ajudar a Revolut a construir histórias e programas de adoção relevantes para as Américas a partir do Brasil.\n\nKevin Augusto Vieira",
+      "form_answers": [
+        {
+          "question": "Como você constrói uma proposta de valor específica para um mercado?",
+          "answer": "Começo pelo contexto do cliente, pelo funcionamento do produto e pelo resultado de negócio. Na Wipro, no Projeto Meta, traduzi atualizações globais de produto em propostas de valor, pitches, playbooks e treinamentos para mais de 150 profissionais. Depois, uso feedback e dados de performance para tornar a mensagem mais clara e relevante para cada público."
+        },
+        {
+          "question": "Conte sobre um experimento que melhorou aquisição ou adoção.",
+          "answer": "Na AK Branding, planejei e executei testes A/B em anúncios, landing pages e experiências web para validar hipóteses de aquisição e conversão. Na Wipro, liderei a adoção de IA nativa no CRM, elevando o uso diário de 4 para 10 prompts por consultor (+150%) por meio de onboarding estruturado, acompanhamento prático e feedback de performance."
+        },
+        {
+          "question": "Como você usa dados para refinar estratégia de campanha?",
+          "answer": "Combino dados de funil, CRM, receita, ROI e feedback qualitativo. No Meu Barzin, entrevistas e análise de funil identificaram densidade de parceiros e latência de API como barreiras à conversão, incluindo 43,9% de abandono na primeira mensagem. Na Wipro, Power BI e Excel ajudaram a transformar comportamento operacional em planos de ação."
+        },
+        {
+          "question": "Qual é sua experiência com fintech ou pagamentos?",
+          "answer": "Não declaro experiência profissional direta em fintech, pagamentos ou regulação financeira. Minha experiência transferível está em tornar produtos digitais complexos claros para times comerciais e clientes, usando product marketing, experimentação e dados para impulsionar adoção. Abordaria o domínio com pesquisa estruturada, contexto de cliente e parceria próxima com produto e stakeholders regulatórios."
+        }
+      ]
+    },
+    "en": {
+      "cover_letter": "Hi Revolut team,\n\nBuilding market-specific value propositions that make complex products feel clear, useful, and worth adopting is the kind of product marketing work I enjoy most. My experience sits at the intersection of product updates, commercial teams, customer insight, and campaigns that need to deliver measurable outcomes.\n\nAt Wipro on the Meta Project, I translated global product updates into value propositions, pitches, playbooks, and training for 150+ professionals. I also led native AI adoption in CRM workflows, increasing daily usage from 4 to 10 prompts per consultant (+150%) and contributing to the operation becoming the fastest-growing globally for adoption.\n\nAcross consulting and startup work, I have built campaigns, copy, landing pages, and digital experiences; run A/B tests to improve acquisition and conversion; and used funnel, CRM, revenue, and ROI data to refine strategy. I bring the speed, creative judgment, and analytical discipline needed to turn local customer context into practical GTM execution.\n\nI would value the opportunity to help Revolut build compelling, locally relevant product stories and adoption programs across the Americas from Brazil.\n\nKevin Augusto Vieira",
+      "form_answers": [
+        {
+          "question": "How do you build a market-specific value proposition?",
+          "answer": "I start with the customer context, the product mechanism, and the business outcome. At Wipro on the Meta Project, I translated global product updates into value propositions, pitches, playbooks, and training for 150+ professionals. I then use feedback and performance data to make the message clearer and more relevant to the audience."
+        },
+        {
+          "question": "Tell us about an experiment that improved acquisition or adoption.",
+          "answer": "At AK Branding, I planned and executed A/B tests across paid campaigns, landing pages, and web experiences to validate acquisition and conversion hypotheses. At Wipro, I led native AI adoption in CRM workflows, increasing daily usage from 4 to 10 prompts per consultant (+150%) through structured onboarding, practical coaching, and performance feedback."
+        },
+        {
+          "question": "How do you use data to refine campaign strategy?",
+          "answer": "I combine funnel, CRM, revenue, ROI, and qualitative feedback. At Meu Barzin, interviews and funnel analysis identified partner density and API latency as conversion barriers, including a 43.9% first-message dropout. At Wipro, Power BI and Excel helped translate operational behavior into action plans."
+        },
+        {
+          "question": "What is your experience with fintech or payments?",
+          "answer": "I do not claim direct professional experience in fintech, payments, or financial regulation. My transferable background is in making complex digital products clear for commercial teams and customers, using product marketing, experimentation, and data to drive adoption. I would approach the domain with structured research, customer context, and close partnership with product and regulatory stakeholders."
+        }
+      ]
+    }
+  },
+  "evidence": {
+    "skills": {
+      "pt": [],
+      "en": []
+    }
+  }
+}

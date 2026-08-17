@@ -1,0 +1,359 @@
+{
+  "id": "hunterstack-gerente-de-produto",
+  "metadata": {
+    "company_name": "hunterstack.io",
+    "role_title": "Gerente de Produto",
+    "url": "",
+    "fit_score": 66,
+    "salary_expectation": "R$ 16.000 a R$ 21.000/mês (CLT, remoto Brasil; alvo: R$ 18.000/mês)",
+    "document_language": "pt",
+    "available_languages": [
+      "pt",
+      "en"
+    ],
+    "source_files": [
+      "master_resume.json"
+    ],
+    "good_points": [
+      "Produto digital, MVPs, GTM, discovery e análise de dados em projetos próprios, consultoria e Projeto Meta.",
+      "Experiência em IA, automação, Supabase, n8n, Power BI, Excel e governança de dados em ambiente de alta restrição.",
+      "Coordenação multifuncional, priorização por gaps, melhoria contínua e inglês profissional para ambiente global."
+    ],
+    "improvement_points": [
+      "Não há gestão formal comprovada de equipe multidisciplinar; há coordenação, coaching e liderança de programas.",
+      "Especialização concluída em Gestão de Produtos não consta no currículo mestre; Google PM Certificate e mentoria estão em andamento.",
+      "Não há experiência direta comprovada em cybersecurity, AppSec, fintech ou healthtech."
+    ]
+  },
+  "triage": {
+    "decision": "adapt",
+    "blockers": [],
+    "notes": [
+      "Eligible for remote work from Brazil.",
+      "Adapt with transparent gaps in formal people management, completed product specialization, and cybersecurity."
+    ],
+    "gaps": [
+      "No documented formal multidisciplinary team management.",
+      "No completed product management specialization.",
+      "No direct cybersecurity or application security experience."
+    ]
+  },
+  "resume": {
+    "pt": {
+      "name": "Kevin Augusto Vieira",
+      "location": "Curitiba, PR | Remoto",
+      "phone": "+55 (41) 99694-1615",
+      "email": "kevin.aug.vieira@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/kevin-augusto/",
+      "github": "",
+      "website": "",
+      "summary": "Profissional de Produto, Growth e Operações com mais de 8 anos de experiência em estratégia, discovery, MVPs e melhoria contínua de produtos digitais. Na Wipro, no Projeto Meta, coordenou entregas entre linhas globais de produto, qualidade e operação, usou Power BI e Excel para identificar gaps e liderou a adoção de IA nativa em CRM, elevando o uso em 150%. Em startup, desenhou um produto conversacional com RAG, n8n e Supabase, validou modelo de assinatura B2B e conduziu entrevistas e análise de funil para orientar prioridades. Combina pensamento analítico, colaboração multifuncional, automação e governança de dados para simplificar jornadas e entregar valor com qualidade.",
+      "experience": [
+        {
+          "company": "Wipro",
+          "role": "Especialista em Operações de Produto e Growth (Projeto Meta)",
+          "dates": "Setembro 2024 – Julho 2026",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Coordenação Multifuncional: Atuou como ponte entre linhas globais de produto da Meta, garantia de qualidade e equipes de consultoria, mantendo documentação, prazos e entregas alinhados aos objetivos de negócio.",
+            "Adoção de Produto: Liderou a integração de IA nativa no CRM desde o onboarding, elevando o uso de 4 para 10 prompts por consultor (+150%) e contribuindo para o maior crescimento global de adoção da operação.",
+            "Discovery e Priorização: Usou Power BI, Excel, análise de causa raiz, escuta de calls e feedbacks para identificar necessidades, priorizar melhorias e orientar planos de ação."
+          ]
+        },
+        {
+          "company": "AK Branding & Web Design",
+          "role": "Consultor de Produto Digital e Projetos",
+          "dates": "Março 2019 – Setembro 2024",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Gestão de Projetos: Conduziu mais de 40 projetos para PMEs, gerenciando escopo, orçamento, cronogramas, posicionamento e arquitetura web com múltiplos stakeholders.",
+            "Produto e Experimentação: Planejou e executou testes A/B em anúncios, landing pages e experiências web para validar hipóteses de aquisição e conversão."
+          ]
+        },
+        {
+          "company": "Meu Barzin (Startup)",
+          "role": "Product Manager e Responsável por Produto e GTM",
+          "dates": "Dezembro 2025 – Março 2026",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "MVP e Arquitetura: Desenhou produto conversacional no WhatsApp com ManyChat, n8n, RAG e regras de alucinação zero, integrado a uma base de dados no Supabase.",
+            "Discovery e Roadmap: Conduziu entrevistas e análise de funil, identificando densidade de parceiros e latência de API, responsável por 43,9% de abandono na primeira mensagem, como prioridades de produto."
+          ]
+        },
+        {
+          "company": "Munzner",
+          "role": "Especialista em Marketing, Growth e Automação",
+          "dates": "Outubro 2018 – Agosto 2024",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Lançamento e Campanhas: Lançou o primeiro curso digital como produto de entrada, alcançando 50 vendas nos primeiros 2 meses e ROI entre 1,0x e 1,5x.",
+            "Conteúdo e Performance: Estruturou funil automatizado de 10 etapas em Bitrix24 e Sendpulse, mensurando aquisição, conversão e receita para gerar aproximadamente R$ 50 mil em tickets altos."
+          ]
+        }
+      ],
+      "skills": [
+        {
+          "category": "Product Marketing e Go-to-Market",
+          "skills": [
+            "Posicionamento e Proposta de Valor",
+            "Go-to-Market e Lançamentos de Produto",
+            "Copywriting e Narrativas de Produto",
+            "Campanhas Multicanal e Geração de Demanda",
+            "Sales Enablement, Playbooks e Pitches",
+            "Pesquisa de Mercado e Feedback de Clientes"
+          ]
+        },
+        {
+          "category": "Growth, Criativo e Dados",
+          "skills": [
+            "Excel Avançado",
+            "Power BI e Business Intelligence",
+            "Análise de Causa Raiz",
+            "Power BI e Excel Avançado",
+            "Direção de Ativos Digitais e UX/UI",
+            "Análise de Funil e Caminhos de Aquisição",
+            "Testes A/B e Design de Experimentos",
+            "Análise de Causa Raiz e Identificação de Gaps",
+            "CRM, Automação e Métricas de Conversão"
+          ]
+        },
+        {
+          "category": "Produto Digital e Experimentação",
+          "skills": [
+            "Estratégia e Desenvolvimento de Produto",
+            "Go-to-Market (GTM)",
+            "Prototipagem e Validação de MVPs",
+            "Modelos de Monetização e Assinatura",
+            "Negociação e Parcerias B2B",
+            "Lançamentos e Adoção de Produto",
+            "Métricas de Receita, ROI e Conversão",
+            "IA Generativa e Automação de Fluxos"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "Universidade Federal do Paraná (UFPR)",
+          "degree": "Bacharelado e Licenciatura em Filosofia",
+          "dates": "2018 - 2023"
+        },
+        {
+          "institution": "UFPR / UTFPR",
+          "degree": "Engenharia Elétrica e Eletrônica (incompleto)",
+          "dates": "2012 - 2015"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "Google Project Management Professional Certificate",
+          "issuer": "Coursera / Google",
+          "status": "Em andamento"
+        },
+        {
+          "name": "Meta Certified Media Planning Professional",
+          "issuer": "Meta",
+          "status": "Ativo"
+        },
+        {
+          "name": "Meta Certified Digital Marketing Associate",
+          "issuer": "Meta",
+          "status": "Ativo"
+        }
+      ],
+      "languages": [
+        {
+          "language": "Inglês",
+          "proficiency": "Fluente / profissional; uso diário em relatórios corporativos, coordenação internacional e alinhamento com stakeholders"
+        },
+        {
+          "language": "Português",
+          "proficiency": "Nativo"
+        }
+      ],
+      "additional_information": []
+    },
+    "en": {
+      "name": "Kevin Augusto Vieira",
+      "location": "Curitiba, PR, Brazil | Remote",
+      "phone": "+55 (41) 99694-1615",
+      "email": "kevin.aug.vieira@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/kevin-augusto/",
+      "github": "",
+      "website": "",
+      "summary": "Product, Growth, and Operations professional with 8+ years of experience in strategy, discovery, MVPs, and continuous improvement for digital products. At Wipro on the Meta Project, coordinated delivery across global product lines, quality, and operations, used Power BI and Excel to identify gaps, and led native AI adoption in CRM, increasing usage by 150%. In a startup, designed a conversational product using RAG, n8n, and Supabase, validated a B2B subscription model, and used interviews and funnel analysis to guide priorities. Combines analytical thinking, cross-functional collaboration, automation, and data governance to simplify journeys and deliver quality outcomes.",
+      "experience": [
+        {
+          "company": "Wipro",
+          "role": "Product Operations and Growth Specialist (Meta Project)",
+          "dates": "September 2024 – July 2026",
+          "location": "Curitiba, Brazil",
+          "bullets": [
+            "Cross-Functional Coordination: Acted as the bridge between Meta's global product lines, quality assurance, and consulting teams, maintaining documentation, deadlines, and deliveries aligned with business objectives.",
+            "Product Adoption: Led native AI integration into the CRM from onboarding, increasing usage from 4 to 10 prompts per consultant (+150%) and contributing to the operation becoming the fastest-growing globally for adoption.",
+            "Discovery and Prioritization: Used Power BI, Excel, root-cause analysis, call listening, and feedback to identify needs, prioritize improvements, and guide action plans."
+          ]
+        },
+        {
+          "company": "AK Branding & Web Design",
+          "role": "Digital Product and Project Consultant",
+          "dates": "March 2019 – September 2024",
+          "location": "Curitiba, Brazil",
+          "bullets": [
+            "Project Management: Delivered 40+ projects for SMBs, managing scope, budgets, schedules, positioning, and web architecture with multiple stakeholders.",
+            "Product and Experimentation: Planned and executed A/B tests across paid campaigns, landing pages, and web experiences to validate acquisition and conversion hypotheses."
+          ]
+        },
+        {
+          "company": "Meu Barzin (Startup)",
+          "role": "Product Manager and Product & GTM Lead",
+          "dates": "December 2025 – March 2026",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "MVP and Architecture: Designed a WhatsApp conversational product using ManyChat, n8n, RAG, and zero-hallucination rules, integrated with a Supabase database.",
+            "Discovery and Roadmap: Conducted interviews and funnel analysis, identifying partner density and API latency, responsible for a 43.9% first-message dropout, as product priorities."
+          ]
+        },
+        {
+          "company": "Munzner",
+          "role": "Marketing, Growth, and Automation Specialist",
+          "dates": "October 2018 – August 2024",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Pricing and ROI: Launched the company's first digital course as an entry product, securing 50 sales in its first 2 months and achieving a 1.0x to 1.5x ROI.",
+            "Monetization and CRM: Built a 10-stage automated funnel in Bitrix24 and Sendpulse, measuring acquisition, conversion, and revenue to generate around R$50,000 in high-ticket revenue."
+          ]
+        }
+      ],
+      "skills": [
+        {
+          "category": "Product Marketing and Go-to-Market",
+          "skills": [
+            "Positioning and Value Proposition",
+            "Go-to-Market and Product Launches",
+            "Copywriting and Product Narratives",
+            "Multichannel Campaigns and Demand Generation",
+            "Sales Enablement, Playbooks, and Pitches",
+            "Market Research and Customer Feedback"
+          ]
+        },
+        {
+          "category": "Growth, Creative, and Data",
+          "skills": [
+            "Advanced Excel",
+            "Power BI and Business Intelligence",
+            "Root Cause Analysis",
+            "Power BI and Advanced Excel",
+            "Digital Asset Direction and UX/UI",
+            "Funnel Analysis and Acquisition Paths",
+            "A/B Testing and Experiment Design",
+            "Root Cause Analysis and Gap Identification",
+            "CRM, Automation, and Conversion Metrics"
+          ]
+        },
+        {
+          "category": "Digital Product and Experimentation",
+          "skills": [
+            "Product Strategy and Development",
+            "Go-to-Market (GTM)",
+            "MVP Prototyping and Validation",
+            "Monetization and Subscription Models",
+            "B2B Negotiation and Partnerships",
+            "Product Launches and Adoption",
+            "Revenue, ROI, and Conversion Metrics",
+            "Generative AI and Workflow Automation"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "Universidade Federal do Paraná (UFPR)",
+          "degree": "Bachelor's Degree and Licentiate in Philosophy",
+          "dates": "2018 - 2023"
+        },
+        {
+          "institution": "UFPR / UTFPR",
+          "degree": "Electrical and Electronics Engineering (incomplete)",
+          "dates": "2012 - 2015"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "Google Project Management Professional Certificate",
+          "issuer": "Coursera / Google",
+          "status": "In progress"
+        },
+        {
+          "name": "Meta Certified Media Planning Professional",
+          "issuer": "Meta",
+          "status": "Active"
+        },
+        {
+          "name": "Meta Certified Digital Marketing Associate",
+          "issuer": "Meta",
+          "status": "Active"
+        }
+      ],
+      "languages": [
+        {
+          "language": "English",
+          "proficiency": "Fluent / professional working proficiency; daily use in corporate reporting, international coordination, and stakeholder alignment"
+        },
+        {
+          "language": "Portuguese",
+          "proficiency": "Native"
+        }
+      ],
+      "additional_information": []
+    }
+  },
+  "materials": {
+    "pt": {
+      "cover_letter": "Olá, time da hunterstack.io!\n\nA missão de automatizar a segurança cibernética para empresas reguladas exige um produto que una tecnologia complexa, confiança e clareza para o cliente. É nesse encontro entre produto, IA, automação e jornadas de usuário que construí minha trajetória.\n\nNa Wipro, no Projeto Meta, atuei como ponte entre linhas globais de produto, qualidade e operação, utilizando Power BI, Excel e análise de causa raiz para priorizar melhorias. Também liderei a adoção de IA nativa em CRM, elevando o uso de 4 para 10 prompts por consultor (+150%).\n\nNo Meu Barzin, desenhei um produto conversacional com RAG, n8n e Supabase, com regras de alucinação zero e base de dados própria. Conduzi entrevistas e análise de funil para identificar gargalos e definir prioridades de produto. Minha experiência também inclui governança de dados, BCP e políticas de compartilhamento em ambiente de alta restrição na Wipro/Meta.\n\nQuero aplicar essa base de produto, automação, discovery e colaboração multifuncional para ajudar a hunterstack.io a escalar uma experiência de segurança que os clientes realmente compreendam e adotem.\n\nKevin Augusto Vieira",
+      "form_answers": [
+        {
+          "question": "Como você define prioridades de produto?",
+          "answer": "Combino impacto para o cliente, evidências de dados, dependências técnicas e objetivos do negócio. Na Wipro, usei Power BI, Excel, análise de causa raiz, escuta de calls e feedbacks para identificar gaps e transformar sinais da operação em planos de ação. No Meu Barzin, entrevistas e análise de funil mostraram que densidade de parceiros e latência de API eram prioridades por bloquearem a conversão."
+        },
+        {
+          "question": "Conte sobre um produto de IA ou automação que você construiu.",
+          "answer": "No Meu Barzin, desenhei um produto conversacional no WhatsApp com ManyChat e n8n, integrado a RAG e Supabase. Estruturei regras de alucinação zero para que o agente consultasse uma base confiável em vez de inventar informações. Também mapeei e higienizei dados de quase 200 estabelecimentos para sustentar a experiência do produto."
+        },
+        {
+          "question": "Como você trabalha com equipes multidisciplinares?",
+          "answer": "Atuo criando clareza sobre problema, responsáveis, prazos e critérios de sucesso. No Projeto Meta, fiz a ponte entre linhas globais de produto, qualidade e equipes de consultoria, mantendo documentação e entregas alinhadas. Também liderei um piloto de bootcamp para 12 consultores, com 100% de conclusão e redução de 50% no tempo de produtividade."
+        },
+        {
+          "question": "Qual é sua experiência com segurança cibernética?",
+          "answer": "Não declaro experiência direta em cybersecurity ou AppSec. Minha experiência transferível inclui automação e IA com RAG, regras de confiabilidade de dados, governança de dados, estruturação de BCP e políticas de compartilhamento de dados em ambiente de alta restrição na Wipro/Meta. Entraria no domínio com pesquisa estruturada e parceria próxima com especialistas de segurança."
+        }
+      ]
+    },
+    "en": {
+      "cover_letter": "Hi hunterstack.io team,\n\nAutomating cybersecurity for regulated industries requires a product that combines complex technology, customer trust, and clarity. That intersection of product, AI, automation, and user journeys is where I have built my experience.\n\nAt Wipro on the Meta Project, I worked as the bridge between global product lines, quality, and operations, using Power BI, Excel, and root-cause analysis to prioritize improvements. I also led native AI adoption in CRM, increasing usage from 4 to 10 prompts per consultant (+150%).\n\nAt Meu Barzin, I designed a conversational product using RAG, n8n, and Supabase, with zero-hallucination rules and a proprietary data base. I conducted interviews and funnel analysis to identify bottlenecks and guide product priorities. My experience also includes data governance, BCP, and data-sharing policies in a highly restricted Wipro/Meta environment.\n\nI would value the opportunity to apply this foundation in product, automation, discovery, and cross-functional collaboration to help hunterstack.io scale a security experience customers understand and adopt.\n\nKevin Augusto Vieira",
+      "form_answers": [
+        {
+          "question": "How do you build a market-specific value proposition?",
+          "answer": "I start with the customer context, the product mechanism, and the business outcome. At Wipro on the Meta Project, I translated global product updates into value propositions, pitches, playbooks, and training for 150+ professionals. I then use feedback and performance data to make the message clearer and more relevant to the audience."
+        },
+        {
+          "question": "Tell us about an experiment that improved acquisition or adoption.",
+          "answer": "At AK Branding, I planned and executed A/B tests across paid campaigns, landing pages, and web experiences to validate acquisition and conversion hypotheses. At Wipro, I led native AI adoption in CRM workflows, increasing daily usage from 4 to 10 prompts per consultant (+150%) through structured onboarding, practical coaching, and performance feedback."
+        },
+        {
+          "question": "How do you use data to refine campaign strategy?",
+          "answer": "I combine funnel, CRM, revenue, ROI, and qualitative feedback. At Meu Barzin, interviews and funnel analysis identified partner density and API latency as conversion barriers, including a 43.9% first-message dropout. At Wipro, Power BI and Excel helped translate operational behavior into action plans."
+        },
+        {
+          "question": "What is your experience with fintech or payments?",
+          "answer": "I do not claim direct professional experience in fintech, payments, or financial regulation. My transferable background is in making complex digital products clear for commercial teams and customers, using product marketing, experimentation, and data to drive adoption. I would approach the domain with structured research, customer context, and close partnership with product and regulatory stakeholders."
+        }
+      ]
+    }
+  },
+  "evidence": {
+    "skills": {
+      "pt": [],
+      "en": []
+    }
+  }
+}

@@ -1,0 +1,348 @@
+{
+  "id": "vinta-product-marketing-specialist",
+  "metadata": {
+    "company_name": "Vinta",
+    "role_title": "Product Marketing Specialist",
+    "url": "",
+    "fit_score": 84,
+    "salary_expectation": "USD 3,100-4,250/month (contractor, remote Brazil; target: USD 4,000/month)",
+    "document_language": "en",
+    "available_languages": [
+      "pt",
+      "en"
+    ],
+    "source_files": [
+      "master_resume.json"
+    ],
+    "good_points": [
+      "Mais de 8 anos em marketing, GTM, posicionamento, conteúdo e produtos digitais, incluindo consultoria de serviços técnicos.",
+      "Inbound comprovado, campanhas full-funnel, landing pages, email, social, testes A/B e métricas de receita, ROI e conversão.",
+      "Sales enablement, playbooks, pitches, pesquisa, ICP/personas, IA aplicada e inglês profissional no Projeto Meta."
+    ],
+    "improvement_points": [
+      "A experiência comprovada é adjacente a ABM: ICP, segmentação B2B, priorização de contas e outreach, sem ownership formal de um programa ABM.",
+      "Healthcare é um contexto de interesse e experiência transferível, não um domínio extenso.",
+      "Campanhas em inglês são sustentadas pela atuação global no Projeto Meta, mas não por ownership de uma função internacional de marketing."
+    ]
+  },
+  "triage": {
+    "decision": "adapt",
+    "blockers": [],
+    "notes": [
+      "Eligible for remote work from Brazil.",
+      "Strong fit in GTM, product marketing, inbound, technical services, sales enablement, and AI-assisted marketing."
+    ],
+    "gaps": [
+      "ABM experience is adjacent rather than formal program ownership.",
+      "Healthcare experience is transferable rather than extensive domain experience."
+    ]
+  },
+  "resume": {
+    "pt": {
+      "name": "Kevin Augusto Vieira",
+      "location": "Curitiba, PR | Remoto",
+      "phone": "+55 (41) 99694-1615",
+      "email": "kevin.aug.vieira@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/kevin-augusto/",
+      "github": "",
+      "website": "",
+      "summary": "Especialista em Product Marketing, Growth e Go-to-Market com mais de 8 anos de experiência conectando produtos, serviços técnicos, vendas e marketing. Na Wipro, no Projeto Meta, traduziu atualizações globais de produto em propostas de valor, pitches, playbooks e treinamentos para mais de 150 profissionais, além de liderar uma iniciativa que elevou a adoção de IA em CRM em 150%. Em consultoria digital, conduziu mais de 40 projetos para PMEs, criando posicionamento, websites, landing pages, campanhas e testes A/B. Na Munzner, estruturou inbound e automação que geraram cerca de 100 leads qualificados e aproximadamente R$ 50 mil em receita. Combina pesquisa, ICP, conteúdo, sales enablement, dados e IA para transformar produtos complexos em mensagens claras e demanda mensurável.",
+      "experience": [
+        {
+          "company": "Wipro",
+          "role": "Especialista em Product Marketing e Sales Enablement (Projeto Meta)",
+          "dates": "Setembro 2024 – Julho 2026",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Posicionamento e Mensagens: Traduziu atualizações globais do portfólio da Meta em propostas de valor, pitches, playbooks e frameworks comerciais para 150+ profissionais.",
+            "Sales Enablement e Adoção: Liderou a integração de IA nativa no CRM, elevando o uso de 4 para 10 prompts por consultor (+150%) e contribuindo para o maior crescimento global de adoção da operação.",
+            "Insights e Performance: Usou Power BI, Excel, análise de causa raiz, escuta de calls e feedbacks para identificar gaps e orientar materiais, treinamentos e planos de ação."
+          ]
+        },
+        {
+          "company": "AK Branding & Web Design",
+          "role": "Consultor de Product Marketing e Serviços Digitais",
+          "dates": "Março 2019 – Setembro 2024",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Consultoria de Produtos e Serviços Técnicos: Conduziu mais de 40 projetos para PMEs, transformando objetivos de negócio em posicionamento, websites, landing pages e ativos digitais.",
+            "Campanhas e Experimentação: Planejou testes A/B em anúncios, landing pages e experiências web; fluxos de UX e chatbot elevaram a captação de 8 para 20-30 leads/mês (+250%)."
+          ]
+        },
+        {
+          "company": "Meu Barzin (Startup)",
+          "role": "Product Manager e Responsável por GTM",
+          "dates": "Dezembro 2025 – Março 2026",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Pesquisa, ICP e Proposta de Valor: Definiu público, modelo de assinatura B2B e mensagens para parceiros locais, validando hipóteses por entrevistas e outreach.",
+            "Insights de Funil: Identificou densidade de parceiros e latência de API como barreiras à conversão, incluindo 43,9% de abandono na primeira mensagem."
+          ]
+        },
+        {
+          "company": "Munzner",
+          "role": "Especialista em Marketing, Growth e Automação",
+          "dates": "Outubro 2018 – Agosto 2024",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Inbound e Conteúdo: Produziu cerca de 10 artigos estratégicos que geraram aproximadamente 1.000 visitas orgânicas e 100 leads qualificados, com conversão próxima de 10%.",
+            "GTM e Automação: Lançou o primeiro produto digital, alcançando 50 vendas em 2 meses, e estruturou funil de 10 etapas que gerou aproximadamente R$ 50 mil em receita."
+          ]
+        }
+      ],
+      "skills": [
+        {
+          "category": "Product Marketing e Go-to-Market",
+          "skills": [
+            "Posicionamento e Proposta de Valor",
+            "Estratégia Go-to-Market e Lançamentos",
+            "ICP, Personas e Segmentação B2B",
+            "Pesquisa de Mercado e Insights de Clientes",
+            "Sales Enablement, Playbooks e Pitches",
+            "Marketing de Serviços Técnicos e Produtos Complexos"
+          ]
+        },
+        {
+          "category": "Demand Generation e Conteúdo",
+          "skills": [
+            "Inbound Marketing e SEO",
+            "Landing Pages, Blog, Email e Social",
+            "Campanhas Full-Funnel",
+            "Testes A/B e Design de Experimentos",
+            "Automação de CRM e Nutrição",
+            "Copywriting em Português e Inglês"
+          ]
+        },
+        {
+          "category": "Dados, IA e Operações de Marketing",
+          "skills": [
+            "Power BI, Excel e Google Sheets",
+            "Métricas de Pipeline, Receita, CAC, ROI e Conversão",
+            "Análise de Funil e Qualidade de Leads",
+            "IA Generativa para Pesquisa e Conteúdo",
+            "n8n, CRM, APIs e Webhooks",
+            "Gestão de Projetos Multifuncionais"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "Universidade Federal do Paraná (UFPR)",
+          "degree": "Bacharelado e Licenciatura em Filosofia",
+          "dates": "2018 - 2023"
+        },
+        {
+          "institution": "UFPR / UTFPR",
+          "degree": "Engenharia Elétrica e Eletrônica (incompleto)",
+          "dates": "2012 - 2015"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "Google Project Management Professional Certificate",
+          "issuer": "Coursera / Google",
+          "status": "Em andamento"
+        },
+        {
+          "name": "Meta Certified Media Planning Professional",
+          "issuer": "Meta",
+          "status": "Ativo"
+        },
+        {
+          "name": "Meta Certified Digital Marketing Associate",
+          "issuer": "Meta",
+          "status": "Ativo"
+        }
+      ],
+      "languages": [
+        {
+          "language": "Inglês",
+          "proficiency": "Fluente / profissional; uso diário em relatórios corporativos, coordenação internacional e alinhamento com stakeholders"
+        },
+        {
+          "language": "Português",
+          "proficiency": "Nativo"
+        }
+      ],
+      "additional_information": []
+    },
+    "en": {
+      "name": "Kevin Augusto Vieira",
+      "location": "Curitiba, PR, Brazil | Remote",
+      "phone": "+55 (41) 99694-1615",
+      "email": "kevin.aug.vieira@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/kevin-augusto/",
+      "github": "",
+      "website": "",
+      "summary": "Product Marketing, Growth, and Go-to-Market specialist with 8+ years of experience connecting products, technical services, sales, and marketing. At Wipro on the Meta Project, translated global product updates into value propositions, pitches, playbooks, and training for 150+ professionals, while leading an initiative that increased AI adoption in CRM by 150%. In digital consulting, delivered 40+ projects for SMBs, creating positioning, websites, landing pages, campaigns, and A/B tests. At Munzner, built inbound and automation programs that generated around 100 qualified leads and approximately R$50,000 in revenue. Combines research, ICP development, content, sales enablement, data, and AI to turn complex products into clear messaging and measurable demand.",
+      "experience": [
+        {
+          "company": "Wipro",
+          "role": "Product Marketing and Sales Enablement Specialist (Meta Project)",
+          "dates": "September 2024 – July 2026",
+          "location": "Curitiba, Brazil",
+          "bullets": [
+            "Positioning and Messaging: Translated Meta's global portfolio updates into value propositions, pitches, playbooks, and sales frameworks for 150+ professionals.",
+            "Sales Enablement and Adoption: Led native AI integration into the CRM, increasing usage from 4 to 10 prompts per consultant (+150%) and contributing to the operation becoming the fastest-growing globally for adoption.",
+            "Insights and Performance: Used Power BI, Excel, root-cause analysis, call listening, and feedback to identify gaps and guide assets, training, and action plans."
+          ]
+        },
+        {
+          "company": "AK Branding & Web Design",
+          "role": "Product Marketing and Digital Services Consultant",
+          "dates": "March 2019 – September 2024",
+          "location": "Curitiba, Brazil",
+          "bullets": [
+            "Product and Technical Services Consulting: Delivered 40+ projects for SMBs, turning business objectives into positioning, websites, landing pages, and digital assets.",
+            "Campaigns and Experimentation: Planned A/B tests across paid campaigns, landing pages, and web experiences; UX and chatbot flows increased lead capture from 8 to 20-30 leads/month (+250%)."
+          ]
+        },
+        {
+          "company": "Meu Barzin (Startup)",
+          "role": "Product Manager and GTM Lead",
+          "dates": "December 2025 – March 2026",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Research, ICP, and Value Proposition: Defined the audience, B2B subscription model, and partner messaging, validating hypotheses through interviews and outreach.",
+            "Funnel Insights: Identified partner density and API latency as conversion barriers, including a 43.9% first-message dropout."
+          ]
+        },
+        {
+          "company": "Munzner",
+          "role": "Marketing, Growth, and Automation Specialist",
+          "dates": "October 2018 – August 2024",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Inbound and Content: Produced around 10 strategic articles that generated approximately 1,000 organic visits and 100 qualified leads, with close to 10% conversion.",
+            "GTM and Automation: Launched the first digital product, securing 50 sales in 2 months, and built a 10-stage funnel that generated approximately R$50,000 in revenue."
+          ]
+        }
+      ],
+      "skills": [
+        {
+          "category": "Product Marketing and Go-to-Market",
+          "skills": [
+            "Positioning and Value Proposition",
+            "Go-to-Market Strategy and Launches",
+            "ICP, Personas, and B2B Segmentation",
+            "Market Research and Customer Insights",
+            "Sales Enablement, Playbooks, and Pitches",
+            "Technical Services and Complex Product Marketing"
+          ]
+        },
+        {
+          "category": "Demand Generation and Content",
+          "skills": [
+            "Inbound Marketing and SEO",
+            "Landing Pages, Blog, Email, and Social",
+            "Full-Funnel Campaigns",
+            "A/B Testing and Experiment Design",
+            "CRM Automation and Nurturing",
+            "English and Portuguese Copywriting"
+          ]
+        },
+        {
+          "category": "Data, AI, and Marketing Operations",
+          "skills": [
+            "Power BI, Excel, and Google Sheets",
+            "Pipeline, Revenue, CAC, ROI, and Conversion Metrics",
+            "Funnel and Lead Quality Analysis",
+            "Generative AI for Research and Content",
+            "n8n, CRM, APIs, and Webhooks",
+            "Cross-Functional Project Management"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "Universidade Federal do Paraná (UFPR)",
+          "degree": "Bachelor's Degree and Licentiate in Philosophy",
+          "dates": "2018 - 2023"
+        },
+        {
+          "institution": "UFPR / UTFPR",
+          "degree": "Electrical and Electronics Engineering (incomplete)",
+          "dates": "2012 - 2015"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "Google Project Management Professional Certificate",
+          "issuer": "Coursera / Google",
+          "status": "In progress"
+        },
+        {
+          "name": "Meta Certified Media Planning Professional",
+          "issuer": "Meta",
+          "status": "Active"
+        },
+        {
+          "name": "Meta Certified Digital Marketing Associate",
+          "issuer": "Meta",
+          "status": "Active"
+        }
+      ],
+      "languages": [
+        {
+          "language": "English",
+          "proficiency": "Fluent / professional working proficiency; daily use in corporate reporting, international coordination, and stakeholder alignment"
+        },
+        {
+          "language": "Portuguese",
+          "proficiency": "Native"
+        }
+      ],
+      "additional_information": []
+    }
+  },
+  "materials": {
+    "pt": {
+      "cover_letter": "Olá, time da Vinta!\n\nA forma como a Vinta conecta excelência de engenharia, product thinking e parceria de longo prazo é exatamente o contexto em que meu trabalho de marketing gera mais valor: entender produtos e serviços complexos, transformar essa compreensão em posicionamento claro e alinhar marketing, vendas e entrega em torno de resultados mensuráveis.\n\nNa Wipro, no Projeto Meta, traduzi atualizações globais de produto em propostas de valor, pitches, playbooks e treinamentos para mais de 150 profissionais. Também liderei a adoção de IA nativa no CRM, elevando o uso em 150% e contribuindo para o maior crescimento global de adoção da operação.\n\nTrago ainda experiência prática em consultoria digital, inbound e demanda. Conduzi mais de 40 projetos para PMEs, criei websites, landing pages e campanhas e executei testes A/B. Na Munzner, conteúdo orgânico gerou cerca de 100 leads qualificados e um funil automatizado produziu aproximadamente R$ 50 mil em receita.\n\nQuero levar essa combinação de GTM, pesquisa, conteúdo, sales enablement e IA para ajudar a Vinta a fortalecer seu posicionamento em healthcare e gerar demanda sustentável nos mercados em que atua.\n\nKevin Augusto Vieira",
+      "form_answers": [
+        {
+          "question": "Por que você tem interesse na Vinta e nesta posição de Product Marketing?",
+          "answer": "A Vinta atua onde product thinking, complexidade técnica e resultado do cliente se encontram. É o ambiente em que meu perfil gera mais valor. Minha experiência traduzindo produtos Meta em mensagens e enablement, somada à atuação prática em consultoria digital, inbound e produtos B2B, pode ajudar a tornar o valor da Vinta claro para diferentes indústrias e personas."
+        },
+        {
+          "question": "Conte sobre uma iniciativa de GTM ou geração de demanda que você liderou.",
+          "answer": "Na Munzner, lancei o primeiro curso digital da empresa e construí um funil automatizado de 10 etapas em Bitrix24 e Sendpulse. O funil atraiu mais de 10 mil acessos e gerou aproximadamente R$ 50 mil em receita. Também produzi cerca de 10 artigos técnicos que geraram 1.000 visitas orgânicas e 100 leads qualificados."
+        },
+        {
+          "question": "Qual é sua experiência com ABM?",
+          "answer": "Minha experiência comprovada está em definição de ICP, segmentação B2B, priorização de contas, mensagens específicas e outreach, e não em liderar um programa formal chamado ABM. No Meu Barzin, defini o perfil de parceiros, mapeei a proposta de valor, priorizei contas e conduzi contato direto para validar parcerias. Essa base é transferível para uma estratégia ABM estruturada."
+        },
+        {
+          "question": "Como você transforma pesquisa e métricas em decisões de marketing?",
+          "answer": "Combino sinais quantitativos e qualitativos. No Meu Barzin, entrevistas e análise de funil revelaram densidade de parceiros e latência de API como barreiras, incluindo 43,9% de abandono na primeira mensagem. Na Wipro, Power BI, Excel, escuta de calls e análise de causa raiz orientaram materiais e ações de enablement."
+        }
+      ]
+    },
+    "en": {
+      "cover_letter": "Hi Vinta team,\n\nVinta's combination of engineering excellence, product thinking, and long-term partnership is exactly the environment where my marketing work creates the most value: understanding complex products and services, turning that understanding into clear positioning, and aligning marketing, sales, and delivery around measurable outcomes.\n\nAt Wipro on the Meta Project, I translated global product updates into value propositions, pitches, playbooks, and training for 150+ professionals. I also led native AI adoption in CRM, increasing usage by 150% and contributing to the operation becoming the fastest-growing globally for adoption.\n\nI also bring hands-on digital consulting, inbound, and demand generation experience. I delivered 40+ projects for SMBs, created websites, landing pages, and campaigns, and ran A/B tests. At Munzner, organic content generated around 100 qualified leads and an automated funnel produced approximately R$50,000 in revenue.\n\nI would value the opportunity to bring this combination of GTM, research, content, sales enablement, and AI to help Vinta strengthen its healthcare positioning and generate sustainable demand across its markets.\n\nKevin Augusto Vieira",
+      "form_answers": [
+        {
+          "question": "Why are you interested in Vinta and this Product Marketing role?",
+          "answer": "Vinta operates where product thinking, technical complexity, and customer outcomes meet. That is the environment in which my profile creates the most value. My experience translating Meta products into messaging and enablement, combined with hands-on digital consulting, inbound, and B2B product work, can help make Vinta's value clear across industries and buyer personas."
+        },
+        {
+          "question": "Tell us about a go-to-market or demand-generation initiative you led.",
+          "answer": "At Munzner, I launched the company's first digital course and built a 10-stage automated funnel in Bitrix24 and Sendpulse. The funnel attracted 10,000+ visits and generated approximately R$50,000 in revenue. I also produced around 10 technical articles that generated 1,000 organic visits and 100 qualified leads."
+        },
+        {
+          "question": "What is your experience with ABM?",
+          "answer": "My documented experience is in ICP definition, B2B segmentation, account prioritization, tailored messaging, and outreach rather than formal ownership of a program called ABM. At Meu Barzin, I defined the partner profile, mapped the value proposition, prioritized accounts, and conducted direct outreach to validate partnerships. This foundation is transferable to a structured ABM strategy."
+        },
+        {
+          "question": "How do you turn research and metrics into marketing decisions?",
+          "answer": "I combine quantitative and qualitative signals. At Meu Barzin, interviews and funnel analysis revealed partner density and API latency as barriers, including a 43.9% first-message dropout. At Wipro, Power BI, Excel, call listening, and root-cause analysis guided enablement materials and actions."
+        }
+      ]
+    }
+  },
+  "evidence": {
+    "skills": {
+      "pt": [],
+      "en": []
+    }
+  }
+}

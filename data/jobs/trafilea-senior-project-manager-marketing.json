@@ -1,0 +1,348 @@
+{
+  "id": "trafilea-senior-project-manager-marketing",
+  "metadata": {
+    "company_name": "Trafilea",
+    "role_title": "Senior Project Manager - Marketing",
+    "url": "",
+    "fit_score": 94,
+    "salary_expectation": "USD 4,500-6,000/month (remote; target: USD 5,500/month)",
+    "document_language": "en",
+    "available_languages": [
+      "pt",
+      "en"
+    ],
+    "source_files": [
+      "master_resume.json"
+    ],
+    "good_points": [
+      "Mais de 8 anos em gestão de projetos, marketing digital, produtos e operações, com mais de 40 projetos entregues.",
+      "PMO, Agile, OKRs, KPIs, roadmap, backlog, squads, orçamento, cronogramas e coordenação multifuncional.",
+      "Experiência global no Projeto Meta, ownership de IA em CRM e domínio prático de ferramentas de projetos e colaboração."
+    ],
+    "improvement_points": [
+      "Confluence não foi confirmado entre as ferramentas utilizadas.",
+      "A maior experiência de grande escala vem do Projeto Meta; a consultoria demonstra volume em projetos para PMEs.",
+      "Beauty e consumer wellness são contextos adjacentes, não a principal experiência setorial."
+    ]
+  },
+  "triage": {
+    "decision": "adapt",
+    "blockers": [],
+    "notes": [
+      "Eligible for remote work from Brazil.",
+      "Strong fit in marketing project management, PMO, Agile, OKRs, squads, CRM, AI adoption, and global collaboration."
+    ],
+    "gaps": [
+      "Confluence experience is not documented.",
+      "Most large-scale experience comes from the Meta Project; consulting work demonstrates volume across SMB projects."
+    ]
+  },
+  "resume": {
+    "pt": {
+      "name": "Kevin Augusto Vieira",
+      "location": "Curitiba, PR | Remoto",
+      "phone": "+55 (41) 99694-1615",
+      "email": "kevin.aug.vieira@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/kevin-augusto/",
+      "github": "",
+      "website": "",
+      "summary": "Especialista em Gestão de Projetos de Marketing com mais de 8 anos de experiência liderando iniciativas digitais, produtos e operações do planejamento ao lançamento. Na Wipro, no Projeto Meta, trabalhou em squad de treinamento com OKRs, roadmap, backlog e reuniões diárias, coordenando prioridades entre produto, qualidade, líderes e consultores. Liderou um programa que reduziu o tempo de produtividade em 50% e teve ownership da ativação de IA no CRM, elevando a adoção em 150%. Em consultoria, entregou mais de 40 projetos para PMEs com controle de escopo, orçamento, cronogramas e recursos. Combina PMO, Agile, dados, comunicação global e melhoria contínua para alinhar estratégia e execução em ambientes dinâmicos.",
+      "experience": [
+        {
+          "company": "Wipro",
+          "role": "Especialista em Gestão de Projetos de Marketing (Projeto Meta)",
+          "dates": "Setembro 2024 – Julho 2026",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Squad, OKRs e Priorização: Atuou no squad de treinamento com reuniões diárias, OKRs, roadmap e backlog, priorizando demandas de clientes, gestores, líderes e consultores internos.",
+            "Programa End-to-End: Idealizou e governou o Next Level Bootcamp para 12 consultores, com 100% de conclusão, 90%+ de qualidade e redução de 50% no tempo de produtividade.",
+            "CRM e IA: Teve ownership da ativação e adoção de IA no CRM proprietário da Meta, elevando o uso de 4 para 10 prompts/dia (+150%) e alcançando o maior crescimento global de adoção."
+          ]
+        },
+        {
+          "company": "AK Branding & Web Design",
+          "role": "Gerente de Projetos de Marketing Digital",
+          "dates": "Março 2019 – Setembro 2024",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Portfólio de Projetos: Conduziu mais de 40 projetos para PMEs, gerenciando escopos, orçamentos, cronogramas, stakeholders e recursos especializados em iniciativas simultâneas.",
+            "Execução e Performance: Coordenou websites, landing pages, campanhas e testes A/B; fluxos de UX e chatbot elevaram a captação de 8 para 20-30 leads/mês (+250%)."
+          ]
+        },
+        {
+          "company": "Meu Barzin (Startup)",
+          "role": "Product e Project Manager",
+          "dates": "Dezembro 2025 – Março 2026",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Planejamento e Entrega: Coordenou MVP conversacional, automações, dados, GTM e parcerias, definindo prioridades a partir de entrevistas e métricas de funil.",
+            "Riscos e Melhorias: Identificou densidade de parceiros e latência de API como barreiras críticas, incluindo 43,9% de abandono na primeira mensagem."
+          ]
+        },
+        {
+          "company": "Munzner",
+          "role": "Gerente de Projetos de Marketing e Growth",
+          "dates": "Outubro 2018 – Agosto 2024",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Lançamento e ROI: Coordenou o lançamento do primeiro produto digital, alcançando 50 vendas em 2 meses e ROI entre 1,0x e 1,5x.",
+            "Processos e Automação: Estruturou funil de 10 etapas em Bitrix24 e Sendpulse que gerou aproximadamente R$ 50 mil em receita."
+          ]
+        }
+      ],
+      "skills": [
+        {
+          "category": "Gestão de Projetos e Governança",
+          "skills": [
+            "Gestão End-to-End de Projetos e Programas",
+            "PMO, Agile, Kanban e Scrum",
+            "OKRs, KPIs, Roadmap e Backlog",
+            "Planejamento, Marcos e Cronogramas",
+            "Controle de Escopo, Orçamento e Riscos",
+            "Reviews, Retrospectivas e Melhoria Contínua"
+          ]
+        },
+        {
+          "category": "Marketing Operations e Liderança",
+          "skills": [
+            "Coordenação de Produto, Growth, Creative, Tech e Ops",
+            "Squads e Priorização com Stakeholders",
+            "Lançamentos e Campanhas Digitais",
+            "Gestão de Recursos e Entregáveis",
+            "Comunicação Executiva e Documentação",
+            "Mentoria, Treinamentos e Facilitação"
+          ]
+        },
+        {
+          "category": "Ferramentas, Dados e IA",
+          "skills": [
+            "Asana, Trello e Notion",
+            "Slack e Discord",
+            "Sendpulse, HubSpot, RD Station e Salesforce",
+            "Power BI, Excel e Google Sheets",
+            "n8n, APIs, Webhooks e Automação",
+            "IA Generativa e CRM Proprietário Meta"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "Universidade Federal do Paraná (UFPR)",
+          "degree": "Bacharelado e Licenciatura em Filosofia",
+          "dates": "2018 - 2023"
+        },
+        {
+          "institution": "UFPR / UTFPR",
+          "degree": "Engenharia Elétrica e Eletrônica (incompleto)",
+          "dates": "2012 - 2015"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "Google Project Management Professional Certificate",
+          "issuer": "Coursera / Google",
+          "status": "Em andamento"
+        },
+        {
+          "name": "Meta Certified Media Planning Professional",
+          "issuer": "Meta",
+          "status": "Ativo"
+        },
+        {
+          "name": "Meta Certified Digital Marketing Associate",
+          "issuer": "Meta",
+          "status": "Ativo"
+        }
+      ],
+      "languages": [
+        {
+          "language": "Inglês",
+          "proficiency": "Fluente / profissional; uso diário em relatórios corporativos, coordenação internacional e alinhamento com stakeholders"
+        },
+        {
+          "language": "Português",
+          "proficiency": "Nativo"
+        }
+      ],
+      "additional_information": []
+    },
+    "en": {
+      "name": "Kevin Augusto Vieira",
+      "location": "Curitiba, PR, Brazil | Remote",
+      "phone": "+55 (41) 99694-1615",
+      "email": "kevin.aug.vieira@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/kevin-augusto/",
+      "github": "",
+      "website": "",
+      "summary": "Marketing Project Management specialist with 8+ years of experience leading digital, product, and operations initiatives from planning through launch. At Wipro on the Meta Project, worked in a training squad using OKRs, roadmap, backlog, and daily meetings, coordinating priorities across product, quality, leaders, and consultants. Led a program that reduced time-to-productivity by 50% and owned AI activation in CRM, increasing adoption by 150%. In consulting, delivered 40+ projects for SMBs with scope, budget, timeline, and resource control. Combines PMO, Agile, data, global communication, and continuous improvement to align strategy and execution in fast-moving environments.",
+      "experience": [
+        {
+          "company": "Wipro",
+          "role": "Marketing Project Management Specialist (Meta Project)",
+          "dates": "September 2024 – July 2026",
+          "location": "Curitiba, Brazil",
+          "bullets": [
+            "Squad, OKRs, and Prioritization: Worked in the training squad using daily meetings, OKRs, roadmap, and backlog to prioritize requests from clients, managers, leaders, and internal consultants.",
+            "End-to-End Program: Designed and governed the Next Level Bootcamp for 12 consultants, achieving 100% completion, 90%+ quality, and a 50% reduction in time-to-productivity.",
+            "CRM and AI: Owned AI activation and adoption in Meta's proprietary CRM, increasing usage from 4 to 10 prompts/day (+150%) and achieving the highest global adoption growth."
+          ]
+        },
+        {
+          "company": "AK Branding & Web Design",
+          "role": "Digital Marketing Project Manager",
+          "dates": "March 2019 – September 2024",
+          "location": "Curitiba, Brazil",
+          "bullets": [
+            "Project Portfolio: Delivered 40+ projects for SMBs, managing scope, budgets, timelines, stakeholders, and specialized resources across concurrent initiatives.",
+            "Execution and Performance: Coordinated websites, landing pages, campaigns, and A/B tests; UX and chatbot flows increased lead capture from 8 to 20-30 leads/month (+250%)."
+          ]
+        },
+        {
+          "company": "Meu Barzin (Startup)",
+          "role": "Product and Project Manager",
+          "dates": "December 2025 – March 2026",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Planning and Delivery: Coordinated a conversational MVP, automations, data, GTM, and partnerships, setting priorities based on interviews and funnel metrics.",
+            "Risks and Improvements: Identified partner density and API latency as critical barriers, including a 43.9% first-message dropout."
+          ]
+        },
+        {
+          "company": "Munzner",
+          "role": "Marketing and Growth Project Manager",
+          "dates": "October 2018 – August 2024",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Launch and ROI: Coordinated the first digital product launch, securing 50 sales in 2 months and achieving a 1.0x to 1.5x ROI.",
+            "Processes and Automation: Built a 10-stage funnel in Bitrix24 and Sendpulse that generated approximately R$50,000 in revenue."
+          ]
+        }
+      ],
+      "skills": [
+        {
+          "category": "Project Management and Governance",
+          "skills": [
+            "End-to-End Project and Program Management",
+            "PMO, Agile, Kanban, and Scrum",
+            "OKRs, KPIs, Roadmap, and Backlog",
+            "Planning, Milestones, and Timelines",
+            "Scope, Budget, and Risk Control",
+            "Reviews, Retrospectives, and Continuous Improvement"
+          ]
+        },
+        {
+          "category": "Marketing Operations and Leadership",
+          "skills": [
+            "Product, Growth, Creative, Tech, and Ops Coordination",
+            "Squads and Stakeholder Prioritization",
+            "Digital Launches and Campaigns",
+            "Resource and Deliverable Management",
+            "Executive Communication and Documentation",
+            "Mentoring, Training, and Facilitation"
+          ]
+        },
+        {
+          "category": "Tools, Data, and AI",
+          "skills": [
+            "Asana, Trello, and Notion",
+            "Slack and Discord",
+            "Sendpulse, HubSpot, RD Station, and Salesforce",
+            "Power BI, Excel, and Google Sheets",
+            "n8n, APIs, Webhooks, and Automation",
+            "Generative AI and Meta Proprietary CRM"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "Universidade Federal do Paraná (UFPR)",
+          "degree": "Bachelor's Degree and Licentiate in Philosophy",
+          "dates": "2018 - 2023"
+        },
+        {
+          "institution": "UFPR / UTFPR",
+          "degree": "Electrical and Electronics Engineering (incomplete)",
+          "dates": "2012 - 2015"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "Google Project Management Professional Certificate",
+          "issuer": "Coursera / Google",
+          "status": "In progress"
+        },
+        {
+          "name": "Meta Certified Media Planning Professional",
+          "issuer": "Meta",
+          "status": "Active"
+        },
+        {
+          "name": "Meta Certified Digital Marketing Associate",
+          "issuer": "Meta",
+          "status": "Active"
+        }
+      ],
+      "languages": [
+        {
+          "language": "English",
+          "proficiency": "Fluent / professional working proficiency; daily use in corporate reporting, international coordination, and stakeholder alignment"
+        },
+        {
+          "language": "Portuguese",
+          "proficiency": "Native"
+        }
+      ],
+      "additional_information": []
+    }
+  },
+  "materials": {
+    "pt": {
+      "cover_letter": "Olá, time da Trafilea!\n\nO que mais me atrai nesta posição é a oportunidade de transformar estratégia de marketing em execução previsível dentro de uma empresa que testa rápido, usa IA de forma prática e escala marcas próprias globalmente. Minha trajetória combina gestão de projetos, marketing digital, produto e operações exatamente nesse tipo de ambiente.\n\nNa Wipro, no Projeto Meta, participei do squad de treinamento usando OKRs, roadmap, backlog e reuniões diárias para organizar prioridades de clientes, gestores e times internos. Idealizei e governei um programa que reduziu o tempo de produtividade em 50%, com 100% de conclusão e mais de 90% de qualidade. Também tive ownership da ativação e adoção de IA no CRM proprietário da Meta, elevando o uso em 150%.\n\nNa AK Branding, conduzi mais de 40 projetos para PMEs, controlando escopo, orçamento, cronogramas e recursos em iniciativas simultâneas. Na Munzner, coordenei lançamentos, campanhas e automações com métricas de receita e ROI.\n\nQuero aplicar essa combinação de PMO, marketing operations, dados e colaboração global para fortalecer os frameworks, rituais e entregas da Trafilea.\n\nKevin Augusto Vieira",
+      "form_answers": [
+        {
+          "question": "Conte sobre um projeto multifuncional que você liderou do planejamento à entrega.",
+          "answer": "Na Wipro, no Projeto Meta, idealizei e governei o Next Level Bootcamp para 12 consultores. Estruturei objetivos, roadmap, backlog, cronograma, critérios de qualidade e alinhamentos entre produto, qualidade, líderes e operação. O programa teve 100% de conclusão, reduziu o tempo de produtividade em 50% e alcançou mais de 90% de qualidade nas primeiras auditorias."
+        },
+        {
+          "question": "Como você gerencia múltiplos projetos e prioridades concorrentes?",
+          "answer": "Começo tornando objetivos, dependências, responsáveis, prazos e riscos visíveis. Na AK Branding, conduzi mais de 40 projetos e mantive múltiplas contas simultâneas com controle de escopo, orçamento, cronogramas e recursos. Priorizo por impacto, urgência, dependências e capacidade disponível, revisando o plano com stakeholders quando surgem mudanças."
+        },
+        {
+          "question": "Como você usa OKRs, roadmap e backlog com squads?",
+          "answer": "No squad de treinamento da Wipro, utilizávamos reuniões diárias, OKRs, roadmap e backlog para organizar tarefas semanais e priorizar demandas vindas de clientes, gerentes, líderes e consultores. Meu papel era transformar essas demandas em entregas claras, acompanhar execução e garantir que treinamentos, documentação e critérios de qualidade permanecessem alinhados."
+        },
+        {
+          "question": "Quais ferramentas você usa para gestão de projetos e colaboração?",
+          "answer": "Tenho experiência prática com Asana, Trello, Notion, Slack e Discord, além de CRMs como Sendpulse, HubSpot, RD Station, Salesforce e o CRM proprietário da Meta. Para análise, uso Power BI, Excel e Google Sheets; para automação, n8n, APIs e webhooks. Ainda não declaro experiência comprovada com Confluence."
+        }
+      ]
+    },
+    "en": {
+      "cover_letter": "Hi Trafilea team,\n\nWhat attracts me most to this role is the opportunity to turn marketing strategy into predictable execution within a company that tests quickly, applies AI in practical ways, and scales its own brands globally. My background combines project management, digital marketing, product, and operations in exactly this kind of environment.\n\nAt Wipro on the Meta Project, I worked in the training squad using OKRs, roadmap, backlog, and daily meetings to organize priorities from clients, managers, and internal teams. I designed and governed a program that reduced time-to-productivity by 50%, with 100% completion and 90%+ quality. I also owned AI activation and adoption in Meta's proprietary CRM, increasing usage by 150%.\n\nAt AK Branding, I delivered 40+ projects for SMBs, controlling scope, budgets, timelines, and resources across concurrent initiatives. At Munzner, I coordinated launches, campaigns, and automations with revenue and ROI metrics.\n\nI would value the opportunity to apply this combination of PMO, marketing operations, data, and global collaboration to strengthen Trafilea's frameworks, rituals, and delivery.\n\nKevin Augusto Vieira",
+      "form_answers": [
+        {
+          "question": "Tell us about a cross-functional project you led from planning through delivery.",
+          "answer": "At Wipro on the Meta Project, I designed and governed the Next Level Bootcamp for 12 consultants. I structured objectives, roadmap, backlog, timeline, quality criteria, and alignment across product, quality, leaders, and operations. The program achieved 100% completion, reduced time-to-productivity by 50%, and reached 90%+ quality in initial audits."
+        },
+        {
+          "question": "How do you manage multiple projects and competing priorities?",
+          "answer": "I make objectives, dependencies, owners, deadlines, and risks visible. At AK Branding, I delivered 40+ projects while managing concurrent accounts with scope, budget, timeline, and resource control. I prioritize by impact, urgency, dependencies, and available capacity, revisiting the plan with stakeholders when conditions change."
+        },
+        {
+          "question": "How have you used OKRs, roadmaps, and backlogs with squads?",
+          "answer": "In Wipro's training squad, we used daily meetings, OKRs, roadmap, and backlog to organize weekly tasks and prioritize requests from clients, managers, leaders, and consultants. My role was to turn those requests into clear deliverables, monitor execution, and keep training, documentation, and quality criteria aligned."
+        },
+        {
+          "question": "Which project management and collaboration tools do you use?",
+          "answer": "I have practical experience with Asana, Trello, Notion, Slack, and Discord, plus CRMs including Sendpulse, HubSpot, RD Station, Salesforce, and Meta's proprietary CRM. I use Power BI, Excel, and Google Sheets for analysis, and n8n, APIs, and webhooks for automation. I do not yet claim documented Confluence experience."
+        }
+      ]
+    }
+  },
+  "evidence": {
+    "skills": {
+      "pt": [],
+      "en": []
+    }
+  }
+}

@@ -6,81 +6,87 @@
   "linkedin": "https://www.linkedin.com/in/kevin-augusto/",
   "github": "",
   "website": "",
-  "summary": "Senior Partnership Enablement Specialist with 8+ years of experience acting as the strategic interface between Product teams and partner ecosystems. Proven track record translating technical product updates into clear business narratives, high-impact use cases, and enablement sessions that accelerate partner adoption. At Wipro (Meta Project), built the regional partner enablement program from scratch, taking the operation to #1 globally in adoption growth. Fluent English, based in Curitiba, AI-first mindset, and strong analytical skills to identify co-innovation opportunities within partner ecosystems.",
+  "summary": "AI Integration, Automation, and Digital Product Specialist with 8+ years of experience connecting marketing, operations, CRM, data, and web development. Built workflows using n8n, APIs/webhooks, practical Python, and Supabase/PostgreSQL, and extracted and cleansed web data for a database of nearly 200 establishments. Experienced in cross-channel measurement, lead operations, revenue metrics, and automated funnels. At Wipro on the Meta Project, led native CRM AI adoption, increasing usage by 150%, while conducting call listening, quality reviews, and structured coaching. At AK Branding, delivered 40+ web projects for SMBs and implemented chatbot workflows that increased lead capture by 250%. Combines practical technical execution, root-cause analysis, documentation, and remote collaboration to replace manual processes with reliable, measurable systems.",
   "experience": [
     {
-      "company": "Wipro Brasil",
-      "role": "Partnership Enablement Specialist (Meta Project)",
+      "company": "Wipro",
+      "role": "AI Integration, CRM, and Quality Assurance Specialist (Meta Project)",
       "dates": "September 2024 – July 2026",
       "location": "Curitiba, Brazil",
       "bullets": [
-        "Partner Enablement & Adoption (#1 Global): Served as the strategic liaison between Meta product teams and regional commercial partners. Translated technical product updates into business narratives, use cases, and enablement materials — driving adoption +150% and achieving #1 globally in adoption growth.",
-        "Product Briefings & Enablement Sessions: Conducted regular briefings on new platform features and capabilities for partner teams. Developed argumentation guides, scripts, and prompt libraries that equipped partners to confidently position solutions.",
-        "Partner Ramp-up (-50%): Built the partner onboarding and certification program (Next Level Bootcamp), reducing time-to-productivity from 6 to 3 months (-50%) with 90%+ audit quality scores."
+        "AI Integration and Adoption: Led native AI activation in Meta's CRM from onboarding through hands-on coaching, increasing usage from 4 to 10 prompts/day per consultant (+150%).",
+        "Call Auditing and Coaching: Conducted active call listening, quality monitoring, and structured feedback based on sales scripts, frameworks, and service standards.",
+        "Validation and Data: Applied root-cause analysis and explored Power BI and Excel dashboards with the MIS team to identify gaps, validate results, and guide action plans.",
+        "Documentation and Governance: Built playbooks, scripts, and operational materials while collaborating across product, quality, and consulting teams in a restricted-data environment."
       ]
     },
     {
       "company": "Meu Barzin (Startup)",
-      "role": "Growth & Partner Marketing Manager",
+      "role": "AI, Automation, and Data Product Manager",
       "dates": "December 2025 – March 2026",
       "location": "Curitiba, Brazil",
       "bullets": [
-        "Use Case Development & B2B Partners: Developed use cases and positioning materials for onboarding B2B local partners (establishments), mapping high-impact opportunities and aligning partners to the platform value proposition.",
-        "Strategic Outreach: Structured outreach campaigns and communication sequences to introduce new platform capabilities to partners, growing the active partner base."
+        "Automation Architecture: Designed a conversational product using ManyChat, n8n, RAG, and zero-hallucination rules, connecting user workflows to a trusted database.",
+        "Data Extraction and Cleansing: Scraped, cleansed, and organized data from nearly 200 establishments for a RAG database in Supabase hosted on a VPS.",
+        "Database and CRM: Built database structures and CRM prototypes in Supabase/PostgreSQL and NocoDB to support operations, data exploration, and product workflows.",
+        "Lead and Funnel Diagnosis: Captured 505 leads and analyzed the funnel, identifying 43.9% first-message abandonment caused by API latency."
       ]
     },
     {
       "company": "AK Branding & Web Design",
-      "role": "Partner Enablement & Product Consultant",
+      "role": "Web Development and Marketing Automation Consultant",
       "dates": "March 2019 – September 2024",
-      "location": "Curitiba, PR",
+      "location": "Curitiba, Brazil",
       "bullets": [
-        "Product-to-Partner Translation (40+ Projects): Served as the link between product and market for 40+ clients, documenting success use cases, competitive positioning, and co-selling materials.",
-        "Outreach & Conversion (+250%): Structured outreach campaigns that grew qualified partner leads from 8 to 20-30/month (+250%)."
+        "Delivered 40+ digital projects for SMBs, managing web architecture, scope, timelines, budgets, and client communication.",
+        "Implemented chatbots and UX flows that increased lead capture from 8 to 20-30 leads/month (+250%), plus landing pages generating 5 qualified leads/day.",
+        "Ran A/B tests across ads, landing pages, and web journeys, using acquisition and conversion data to guide improvements.",
+        "Implemented privacy policies, consent mechanisms, and LGPD controls across 100% of delivered websites."
       ]
     },
     {
       "company": "Munzner",
-      "role": "Partner & Growth Enablement Specialist",
+      "role": "CRM, Automation, and Revenue Analytics Specialist",
       "dates": "October 2018 – August 2024",
-      "location": "Curitiba, PR",
+      "location": "Curitiba, Brazil",
       "bullets": [
-        "Educational Partner Enablement (~R$ 50k): Enabled facilitators and partners in the Thinking Environment methodology, developing positioning materials and use cases that generated R$ 50,000 in revenue.",
-        "Product Launch & Ecosystem: Led the GTM of the first digital product (LMS), mapping strategic partners and securing 50 sales in the first 2 months."
+        "Built a 10-stage automated funnel in Bitrix24 and Sendpulse that attracted 10,000+ visits and generated approximately R$50,000 in revenue.",
+        "Tracked channels, acquisition paths, and CRM data to evaluate conversion, revenue, and ROI and guide funnel improvements."
       ]
     }
   ],
   "skills": [
     {
-      "category": "Partnership Enablement & Strategy",
+      "category": "AI, Automation, and Integrations",
       "skills": [
-        "Partnership Enablement & Strategic Partner Engagement",
-        "Product-to-Business Narrative Translation & Use Cases",
-        "Product Briefings & Partner Certification Programs",
-        "High-Impact Use Case Development & Documentation",
-        "Strategic Outreach & Co-innovation with Partners",
-        "Proactive Product Roadmap Communication"
+        "Native AI Implementation in Workflows",
+        "Professional Prompt Engineering",
+        "n8n, Make, Botpress, and ManyChat",
+        "API/Webhook Integrations",
+        "Python for Automation and Analysis (practical level)",
+        "Web Scraping and RAG"
       ]
     },
     {
-      "category": "Tools & Methodologies",
+      "category": "Data, CRM, and Attribution",
       "skills": [
-        "Fluent English (Daily International Business)",
-        "Claude / ChatGPT (AI-First Mindset)",
-        "Power BI & Partner Data Analysis",
-        "CRM & Partner Automations",
-        "Agile & Google PM Certificate",
-        "Vibe Coding & Prototyping"
+        "Supabase/PostgreSQL and NocoDB",
+        "Basic SQL and Data Exploration",
+        "CRM Analytics and Automation",
+        "UTM Tracking and Cross-Channel Measurement",
+        "Revenue, ROI, LTV, and Conversion Metrics",
+        "Power BI, Excel, and Google Sheets"
       ]
     },
     {
-      "category": "Domain & Differentials",
+      "category": "Web, Quality, and Operations",
       "skills": [
-        "Cloud Communication Platforms & B2B SaaS",
-        "Regional & Global Partner Ecosystems",
-        "Engineering & Philosophy Background (UTFPR/UFPR)",
-        "Based in Curitiba, Brazil (Hybrid Model)",
-        "Data Privacy (LGPD/GDPR)"
+        "Web Development and WordPress/Elementor",
+        "Call Listening and Structured Feedback",
+        "Root Cause Analysis",
+        "Playbooks and Sales Scripts",
+        "Quality Methodologies and Auditing",
+        "Agile, OKRs, Roadmap, and Backlog"
       ]
     }
   ],
@@ -91,17 +97,17 @@
       "dates": "2018 - 2023"
     },
     {
-      "institution": "Recanto da Filosofia Clínica",
-      "degree": "Specialization in Clinical Philosophy",
-      "dates": "January 2023 - December 2024"
-    },
-    {
       "institution": "UFPR / UTFPR",
       "degree": "Electrical and Electronics Engineering (incomplete)",
       "dates": "2012 - 2015"
     }
   ],
   "certifications": [
+    {
+      "name": "Google Project Management Professional Certificate",
+      "issuer": "Coursera / Google",
+      "status": "In progress"
+    },
     {
       "name": "Meta Certified Media Planning Professional",
       "issuer": "Meta",
@@ -111,29 +117,17 @@
       "name": "Meta Certified Digital Marketing Associate",
       "issuer": "Meta",
       "status": "Active"
-    },
-    {
-      "name": "Google Project Management Professional Certificate",
-      "issuer": "Coursera / Google",
-      "status": "In progress"
-    },
-    {
-      "name": "Thinking Environment Facilitator",
-      "issuer": "Munzner",
-      "status": "May 2020"
     }
   ],
   "languages": [
     {
       "language": "English",
-      "proficiency": "Fluent / professional working proficiency; daily use in corporate reporting, international coordination, and stakeholder alignment"
+      "proficiency": "Advanced / professional working proficiency; daily use in corporate reporting, international coordination, and stakeholder alignment"
     },
     {
       "language": "Portuguese",
       "proficiency": "Native"
     }
   ],
-  "additional_information": [
-    "Languages & Location: Fluent English (Daily International Business) | Based in Curitiba, Brazil (Hybrid Available) | Engineering (UTFPR/UFPR 2.5 yrs) & B.A. Philosophy (UFPR)."
-  ]
+  "additional_information": []
 }

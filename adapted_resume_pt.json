@@ -6,93 +6,87 @@
   "linkedin": "https://www.linkedin.com/in/kevin-augusto/",
   "github": "",
   "website": "",
-  "summary": "Especialista Sênior em Partnership Enablement com mais de 8 anos de experiência atuando como interface estratégica entre times de Produto e ecossistemas de parceiros. Histórico comprovado em traduzir atualizações técnicas de produto em narrativas de negócio claras, use cases de alto impacto e sessões de enablement que aceleram a adoção de parceiros. Na Wipro (Projeto Meta), liderou do zero o programa de enablement regional, elevando a operação ao #1 lugar global em crescimento de adoção. Inglês Fluente, baseado em Curitiba, com perfil AI-first e forte capacidade analítica para identificar oportunidades de co-inovação no ecossistema de parceiros.",
+  "summary": "Especialista em Integração de IA, Automação e Produtos Digitais com mais de 8 anos de experiência conectando marketing, operações, CRM, dados e desenvolvimento web. Construiu fluxos com n8n, APIs/webhooks, Python prático e Supabase/PostgreSQL, além de extrair e higienizar dados via web scraping para uma base com quase 200 estabelecimentos. Tem experiência em mensuração multicanal, geração e normalização operacional de leads, métricas de receita e automação de funis. Na Wipro, no Projeto Meta, liderou a adoção de IA nativa no CRM, elevando o uso em 150%, e realizou escuta de calls, auditorias de qualidade e feedback estruturado. Na AK Branding, entregou mais de 40 projetos web para PMEs e criou fluxos de chatbot que aumentaram a captação de leads em 250%. Combina execução técnica prática, análise de causa raiz, documentação e colaboração remota para substituir rotinas manuais por sistemas confiáveis e mensuráveis.",
   "experience": [
     {
-      "company": "Wipro Brasil",
-      "role": "Partnership Enablement Specialist (Projeto Meta)",
+      "company": "Wipro",
+      "role": "Especialista em Integração de IA, CRM e Quality Assurance (Projeto Meta)",
       "dates": "Setembro 2024 – Julho 2026",
       "location": "Curitiba, PR",
       "bullets": [
-        "Enablement de Parceiros & Adoção (#1 Global): Atuou como interface estratégica entre o time de Produto da Meta e os parceiros comerciais regionais. Traduziu atualizações técnicas de produto em narrativas de negócio, use cases e materiais de enablement — elevando a adoção em +150% e posicionando a operação como #1 global em crescimento.",
-        "Briefings & Sessões de Produto: Conduziu sessões regulares de briefing sobre novas funcionalidades e capacidades da plataforma para times de parceiros. Desenvolveu guias de argumentação, scripts e bibliotecas de prompts que equiparam os parceiros para posicionar as soluções com confiança.",
-        "Ramp-up de Parceiros (-50%): Estruturou o programa de onboarding e certificação de parceiros (Next Level Bootcamp), reduzindo o tempo de produtividade de 6 para 3 meses (-50%) e mantendo 90%+ de qualidade em auditorias."
+        "Integração e Adoção de IA: Liderou a ativação da IA nativa no CRM da Meta, do onboarding ao acompanhamento prático, elevando o uso de 4 para 10 prompts/dia por consultor (+150%).",
+        "Auditoria de Calls e Coaching: Realizou escuta ativa de chamadas, monitoria de qualidade e feedback estruturado com base em scripts, frameworks comerciais e padrões de atendimento.",
+        "Validação e Dados: Aplicou análise de causa raiz e explorou painéis de Power BI e Excel com a equipe de MIS para identificar gaps, validar resultados e orientar planos de ação.",
+        "Documentação e Governança: Criou playbooks, scripts e materiais operacionais, colaborando com produto, qualidade e consultoria em ambiente global e com dados restritos."
       ]
     },
     {
       "company": "Meu Barzin (Startup)",
-      "role": "Growth & Partner Marketing Manager",
+      "role": "Product Manager de IA, Automação e Dados",
       "dates": "Dezembro 2025 – Março 2026",
       "location": "Curitiba, PR",
       "bullets": [
-        "Use Case Development & Parceiros B2B: Desenvolveu use cases e materiais de posicionamento para o onboarding de parceiros B2B locais (estabelecimentos), mapeando oportunidades de alto impacto e alinhando parceiros à proposta de valor da plataforma.",
-        "Outreach Estratégico: Estruturou campanhas de outreach e réguas de comunicação para introduzir novas capacidades da solução aos parceiros, aumentando a base de parceiros ativos."
+        "Arquitetura de Automação: Desenhou um produto conversacional usando ManyChat, n8n, RAG e regras de alucinação zero, conectando fluxos de usuário a uma base confiável.",
+        "Extração e Tratamento de Dados: Extraiu, higienizou e organizou dados de quase 200 estabelecimentos via web scraping para uma base RAG no Supabase hospedada em VPS.",
+        "Banco de Dados e CRM: Estruturou bases e protótipos de CRM em Supabase/PostgreSQL e NocoDB para apoiar operações, exploração de dados e produto.",
+        "Leads e Diagnóstico: Captou 505 leads e analisou o funil, identificando 43,9% de abandono na primeira mensagem causado por latência de API."
       ]
     },
     {
       "company": "AK Branding & Web Design",
-      "role": "Partner Enablement & Product Consultant",
+      "role": "Consultor de Desenvolvimento Web e Automação de Marketing",
       "dates": "Março 2019 – Setembro 2024",
       "location": "Curitiba, PR",
       "bullets": [
-        "Tradução de Produto para Parceiros (40+ Projetos): Atuou como elo entre produto e mercado para mais de 40 clientes, documentando use cases de sucesso, posicionamento competitivo e materiais de co-venda.",
-        "Outreach & Conversão (+250%): Estruturou campanhas de outreach que elevaram a captação de leads e parceiros qualificados de 8 para 20-30/mês (+250%), lançando e-commerce do zero com R$ 10k faturados em 3 meses."
+        "Entregou mais de 40 projetos digitais para PMEs, gerenciando arquitetura web, escopo, cronograma, orçamento e comunicação com clientes.",
+        "Implementou chatbots e fluxos de UX que elevaram a captação de 8 para 20-30 leads/mês (+250%), além de landing pages que geravam 5 leads qualificados/dia.",
+        "Executou testes A/B em anúncios, landing pages e jornadas web, usando dados de aquisição e conversão para orientar melhorias.",
+        "Implementou políticas, consentimento e controles de LGPD em 100% dos sites entregues."
       ]
     },
     {
       "company": "Munzner",
-      "role": "Partner & Growth Enablement Specialist",
+      "role": "Especialista em CRM, Automação e Revenue Analytics",
       "dates": "Outubro 2018 – Agosto 2024",
       "location": "Curitiba, PR",
       "bullets": [
-        "Enablement de Parceiros Educacionais (~R$ 50k): Capacitou facilitadores e parceiros na metodologia Thinking Environment, desenvolvendo materiais de posicionamento e use cases que geraram R$ 50 mil em receita.",
-        "Lançamento de Produto & Ecossistema: Liderou o GTM do 1º produto digital (LMS), mapeando parceiros estratégicos e garantindo 50 vendas nos 2 primeiros meses."
+        "Construiu um funil automatizado de 10 etapas em Bitrix24 e Sendpulse que atraiu mais de 10.000 acessos e gerou aproximadamente R$ 50 mil em receita.",
+        "Acompanhou canais, caminhos de aquisição e dados de CRM para avaliar conversão, receita e ROI e orientar ajustes no funil."
       ]
     }
   ],
   "skills": [
     {
-      "category": "Product Marketing e GTM",
+      "category": "IA, Automação e Integrações",
       "skills": [
-        "Partnership Enablement & Engajamento Estratégico de Parceiros",
-        "Tradução de Produto em Narrativas de Negócio & Use Cases",
-        "Briefings de Produto & Sessões de Capacitação de Parceiros",
-        "Desenvolvimento de Use Cases de Alto Impacto & Documentação",
-        "Outreach Estratégico & Co-inovação com Parceiros",
-        "Comunicação Proativa de Roadmap & Novas Capacidades"
+        "Implementação de IAs Nativas em Fluxos de Trabalho",
+        "Engenharia de Prompt Profissional",
+        "n8n, Make, Botpress e ManyChat",
+        "Integrações via APIs/Webhooks",
+        "Python para Automação e Análise (nível prático)",
+        "Web Scraping e RAG"
       ]
     },
     {
-      "category": "Ferramentas & Metodologias",
+      "category": "Dados, CRM e Atribuição",
       "skills": [
-        "Inglês Fluente (Comunicação Diária Internacional)",
-        "Claude / ChatGPT (AI-First Mindset)",
-        "Power BI & Análise de Dados de Parceiros",
-        "CRM & Automações de Parceiros",
-        "Metodologias Ágeis & Google PM Certificate",
-        "Prototipação & Vibe Coding"
+        "Supabase/PostgreSQL e NocoDB",
+        "SQL Básico e Exploração de Dados",
+        "CRM Analytics e Automação",
+        "UTM Tracking e Mensuração Multicanal",
+        "Métricas de Receita, ROI, LTV e Conversão",
+        "Power BI, Excel e Google Sheets"
       ]
     },
     {
-      "category": "Analytics, CRM e IA",
+      "category": "Web, Qualidade e Operações",
       "skills": [
-        "Power BI e Excel",
-        "Métricas de Funil e Conversão",
-        "Automação de CRM (Bitrix24, Sendpulse, CRMs Meta)",
-        "SQL e Supabase",
-        "n8n, APIs e Webhooks",
-        "IA Generativa (Claude, ChatGPT)",
-        "Engenharia de Prompts"
-      ]
-    },
-    {
-      "category": "Mercados & Diferenciais",
-      "skills": [
-        "Plataformas de Comunicação Cloud & SaaS B2B",
-        "Ecossistemas de Parceiros Regionais e Globais",
-        "Formação em Engenharia (UTFPR/UFPR) e Filosofia (UFPR)",
-        "Baseado em Curitiba/PR (Modelo Híbrido)",
-        "Adequação LGPD/GDPR"
+        "Web Development e WordPress/Elementor",
+        "Escuta de Calls e Feedback Estruturado",
+        "Análise de Causa Raiz",
+        "Playbooks e Scripts Comerciais",
+        "Metodologias de Qualidade e Auditoria",
+        "Agile, OKRs, Roadmap e Backlog"
       ]
     }
   ],
@@ -103,17 +97,17 @@
       "dates": "2018 - 2023"
     },
     {
-      "institution": "Recanto da Filosofia Clínica",
-      "degree": "Especialização em Filosofia Clínica",
-      "dates": "Janeiro 2023 - Dezembro 2024"
-    },
-    {
       "institution": "UFPR / UTFPR",
       "degree": "Engenharia Elétrica e Eletrônica (incompleto)",
       "dates": "2012 - 2015"
     }
   ],
   "certifications": [
+    {
+      "name": "Google Project Management Professional Certificate",
+      "issuer": "Coursera / Google",
+      "status": "Em andamento"
+    },
     {
       "name": "Meta Certified Media Planning Professional",
       "issuer": "Meta",
@@ -123,29 +117,17 @@
       "name": "Meta Certified Digital Marketing Associate",
       "issuer": "Meta",
       "status": "Ativo"
-    },
-    {
-      "name": "Google Project Management Professional Certificate",
-      "issuer": "Coursera / Google",
-      "status": "Em andamento"
-    },
-    {
-      "name": "Facilitador de Thinking Environment",
-      "issuer": "Munzner",
-      "status": "Maio de 2020"
     }
   ],
   "languages": [
     {
       "language": "Inglês",
-      "proficiency": "Fluente / profissional; uso diário em relatórios corporativos, coordenação internacional e alinhamento com stakeholders"
+      "proficiency": "Avançado / profissional; uso diário em relatórios corporativos, coordenação internacional e alinhamento com stakeholders"
     },
     {
       "language": "Português",
       "proficiency": "Nativo"
     }
   ],
-  "additional_information": [
-    "Idiomas & Localização: Inglês Fluente (uso diário internacional) | Baseado em Curitiba/PR (disponível para modelo híbrido) | Formação em Engenharia (UTFPR/UFPR 2.5 anos) e Filosofia (UFPR)."
-  ]
+  "additional_information": []
 }
