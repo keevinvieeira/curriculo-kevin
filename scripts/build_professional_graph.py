@@ -178,6 +178,7 @@ def build_graph(master: dict[str, Any]) -> dict[str, Any]:
     node_ids: set[str] = set()
     skill_companies: dict[str, set[str]] = defaultdict(set)
     skill_evidence: Counter[tuple[str, str]] = Counter()
+    skill_evidence_entries: dict[str, list[dict[str, Any]]] = defaultdict(list)
 
     def add_node(node: dict[str, Any]) -> None:
         if node["id"] in node_ids:
@@ -226,12 +227,19 @@ def build_graph(master: dict[str, Any]) -> dict[str, Any]:
             })
             edges.append({"source": company_id, "target": role_id, "type": "HAS_ROLE"})
 
-        for bullet in item["bullets"]:
+        primary_role_id = f"role-{slug(company)}-1"
+        for bullet_index, bullet in enumerate(item["bullets"], 1):
             for tag in set(bullet["tags"]):
                 if tag not in PT_SKILLS:
                     raise ValueError(f"Missing PT skill label for tag: {tag}")
                 skill_companies[tag].add(company_id)
                 skill_evidence[(tag, company_id)] += 1
+                skill_evidence_entries[tag].append({
+                    "company_id": company_id,
+                    "role_id": primary_role_id,
+                    "source": f"master_resume.json:work_experience:{slug(company)}:bullet:{bullet_index}",
+                    "descriptions": {"pt": bullet["pt"], "en": bullet["en"]},
+                })
 
     for tag in sorted(skill_companies):
         category = category_for(tag)
@@ -250,6 +258,7 @@ def build_graph(master: dict[str, Any]) -> dict[str, Any]:
             "companies": companies,
             "evidence_by_company": evidence_by_company,
             "evidence_count": sum(evidence_by_company.values()),
+            "evidence": skill_evidence_entries[tag],
             "size": 0.5 + min(sum(evidence_by_company.values()), 4) * 0.08,
             "color": category_data["color"],
         })

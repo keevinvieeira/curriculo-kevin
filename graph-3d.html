@@ -156,6 +156,17 @@
             border-radius: 5px;
             font-size: 0.65rem;
         }
+        .legend-item.selectable {
+            cursor: pointer;
+            transition: 160ms ease;
+        }
+        .legend-item.selectable:hover,
+        .legend-item.selectable.active {
+            color: #fff;
+            border-color: var(--legend-color);
+            background: color-mix(in srgb, var(--legend-color) 18%, rgba(15, 23, 42, 0.85));
+            box-shadow: 0 0 18px color-mix(in srgb, var(--legend-color) 32%, transparent);
+        }
         .legend-color {
             width: 8px;
             height: 8px;
@@ -254,6 +265,22 @@
         .item-meta,
         .metric-context { margin-top: 2px; color: #8492a8; font-size: 0.68rem; }
         .metric-value { color: #fbbf24; }
+        .evidence-block {
+            margin-top: 7px;
+            padding-top: 7px;
+            border-top: 1px solid rgba(148, 163, 184, 0.12);
+        }
+        .evidence-role {
+            color: #c4b5fd;
+            font-size: 0.67rem;
+            font-weight: 650;
+        }
+        .evidence-text {
+            margin-top: 3px;
+            color: #a8b3c7;
+            font-size: 0.69rem;
+            line-height: 1.5;
+        }
         #loading {
             position: fixed;
             inset: 0;
@@ -325,16 +352,16 @@
             </div>
             <span class="type-badge" id="detail-type"></span>
             <p id="detail-desc"></p>
-            <section class="detail-section">
-                <h4 data-i18n="roles"></h4>
+            <section class="detail-section" id="section-roles">
+                <h4 id="roles-heading" data-i18n="roles"></h4>
                 <div id="detail-roles"></div>
             </section>
-            <section class="detail-section">
-                <h4 data-i18n="skills"></h4>
+            <section class="detail-section" id="section-skills">
+                <h4 id="skills-heading" data-i18n="skills"></h4>
                 <div id="detail-skills"></div>
             </section>
-            <section class="detail-section">
-                <h4 data-i18n="metrics"></h4>
+            <section class="detail-section" id="section-metrics">
+                <h4 id="metrics-heading" data-i18n="metrics"></h4>
                 <div id="detail-metrics"></div>
             </section>
         </aside>
@@ -350,6 +377,7 @@
                 subtitle: 'Selecione uma empresa para explorar cargos, skills compartilhadas e métricas. Fonte: master_resume.json',
                 nodes: 'Nós', skills: 'Skills únicas', companies: 'Empresas', metrics: 'Métricas', roles: 'Cargos',
                 fullView: 'Visão completa', company: 'Empresa', location: 'Localização', period: 'Período',
+                skill: 'Skill', category: 'Categoria', evidenceSection: 'Evidências no currículo',
                 evidence: 'evidência nesta empresa', evidences: 'evidências nesta empresa',
                 totalEvidence: 'no total', sharedWith: 'Também comprovada em',
                 instructions: 'Clique = explorar empresa • Arraste = girar • Scroll = zoom • Duplo clique ou Esc = visão completa',
@@ -360,6 +388,7 @@
                 subtitle: 'Select a company to explore roles, shared skills, and metrics. Source: master_resume.json',
                 nodes: 'Nodes', skills: 'Unique skills', companies: 'Companies', metrics: 'Metrics', roles: 'Roles',
                 fullView: 'Full view', company: 'Company', location: 'Location', period: 'Period',
+                skill: 'Skill', category: 'Category', evidenceSection: 'Resume evidence',
                 evidence: 'evidence at this company', evidences: 'evidence items at this company',
                 totalEvidence: 'in total', sharedWith: 'Also demonstrated at',
                 instructions: 'Click = explore company • Drag = rotate • Scroll = zoom • Double-click or Esc = full view',
@@ -391,6 +420,8 @@
         let mouse;
         let currentLanguage = storedLanguage();
         let selectedCompanyId = null;
+        let selectedCategory = null;
+        let selectedSkillId = null;
         let clickTimer = null;
         const nodes3D = [];
         const edges3D = [];
@@ -505,11 +536,14 @@
                         opacity: 0.34,
                     }));
                     glow.scale.set(size * 3, size * 3, 1);
+                    glow.userData = { isGlow: true, baseOpacity: 0.34 };
                     mesh.add(glow);
                 }
-                if (node.type === 'Candidate' || node.type === 'Company') {
-                    const label = createTextSprite(nodeLabel(node), node.type === 'Candidate' ? '#ffffff' : '#bfdbfe');
+                if (node.type === 'Candidate' || node.type === 'Company' || node.type === 'Skill') {
+                    const labelColor = node.type === 'Candidate' ? '#ffffff' : node.type === 'Skill' ? node.color : '#bfdbfe';
+                    const label = createTextSprite(nodeLabel(node), labelColor);
                     label.position.set(0, size * 0.55, 0);
+                    label.visible = node.type !== 'Skill';
                     label.userData.isNodeLabel = true;
                     mesh.add(label);
                     mesh.userData.labelSprite = label;
@@ -599,15 +633,34 @@
             const texture = new THREE.CanvasTexture(canvas);
             const sprite = new THREE.Sprite(new THREE.SpriteMaterial({ map: texture, transparent: true, depthTest: false }));
             sprite.scale.set(Math.min(7, canvas.width / 38), 1.3, 1);
-            sprite.userData = { text, color };
+            sprite.userData = { text, color, baseOpacity: 1 };
             return sprite;
+        }
+
+        function setNodeAppearance(mesh, opacity, scale, showSkillLabel = false) {
+            mesh.material.opacity = opacity;
+            mesh.scale.setScalar(scale);
+            mesh.children.forEach(child => {
+                if (child.userData.isNodeLabel) {
+                    if (mesh.userData.type === 'Skill') {
+                        child.visible = showSkillLabel;
+                        child.material.opacity = showSkillLabel ? 1 : 0;
+                    } else {
+                        child.material.opacity = Math.max(0.08, opacity);
+                    }
+                } else if (child.userData.isGlow) {
+                    child.material.opacity = child.userData.baseOpacity * Math.max(0.08, opacity);
+                }
+            });
         }
 
         function replaceTextSprite(mesh, text, color) {
             const oldSprite = mesh.userData.labelSprite;
+            const wasVisible = oldSprite?.visible ?? true;
             if (oldSprite) mesh.remove(oldSprite);
             const sprite = createTextSprite(text, color);
             sprite.position.set(0, (mesh.userData.size || 1) * 0.55, 0);
+            sprite.visible = wasVisible;
             sprite.userData.isNodeLabel = true;
             mesh.add(sprite);
             mesh.userData.labelSprite = sprite;
@@ -644,12 +697,15 @@
             });
             nodes3D.forEach(mesh => {
                 if (!mesh.userData.labelSprite) return;
-                const color = mesh.userData.type === 'Candidate' ? '#ffffff' : '#bfdbfe';
+                const color = mesh.userData.type === 'Candidate'
+                    ? '#ffffff'
+                    : mesh.userData.type === 'Skill' ? mesh.userData.color : '#bfdbfe';
                 replaceTextSprite(mesh, nodeLabel(mesh.userData), color);
             });
             buildCompanyFilters();
             buildLegend();
             if (selectedCompanyId) showCompanyInsights(selectedCompanyId);
+            if (selectedSkillId) showSkillInsights(selectedSkillId);
         }
 
         function updateStats() {
@@ -665,7 +721,7 @@
             container.innerHTML = '';
             const fullView = document.createElement('button');
             fullView.type = 'button';
-            fullView.className = `filter-btn${selectedCompanyId ? '' : ' active'}`;
+            fullView.className = `filter-btn${selectedCompanyId || selectedCategory || selectedSkillId ? '' : ' active'}`;
             fullView.textContent = `↺ ${t('fullView')}`;
             fullView.addEventListener('click', resetFullView);
             container.appendChild(fullView);
@@ -688,29 +744,76 @@
                 { label: t('company'), color: '#60a5fa' },
                 { label: t('roles'), color: '#a78bfa' },
                 { label: t('metrics'), color: '#fbbf24' },
-                ...Object.values(graphData.categories || {}).map(category => ({
+                ...Object.entries(graphData.categories || {}).map(([key, category]) => ({
                     label: localized(category),
                     color: category.color,
+                    category: key,
                 })),
             ];
-            items.forEach(({ label, color }) => {
+            items.forEach(({ label, color, category }) => {
                 const item = document.createElement('div');
-                item.className = 'legend-item';
+                item.className = `legend-item${category ? ' selectable' : ''}${selectedCategory === category ? ' active' : ''}`;
+                item.style.setProperty('--legend-color', color);
                 item.innerHTML = `<span class="legend-color" style="background:${color}"></span>${label}`;
+                if (category) {
+                    item.setAttribute('role', 'button');
+                    item.setAttribute('tabindex', '0');
+                    item.addEventListener('click', () => selectCategory(category));
+                    item.addEventListener('keydown', event => {
+                        if (event.key === 'Enter' || event.key === ' ') selectCategory(category);
+                    });
+                }
                 legend.appendChild(item);
             });
+        }
+
+        function selectCategory(category) {
+            if (selectedCategory === category) {
+                resetFullView();
+                return;
+            }
+            selectedCategory = category;
+            selectedCompanyId = null;
+            selectedSkillId = null;
+            controls.autoRotate = false;
+            document.getElementById('detail-panel').classList.remove('visible');
+            const skillIds = new Set(
+                graphData.nodes
+                    .filter(node => node.type === 'Skill' && node.category === category)
+                    .map(node => node.id)
+            );
+            const companyIds = new Set();
+            graphData.edges.forEach(edge => {
+                if (edge.type === 'DEMONSTRATES' && skillIds.has(edge.target)) companyIds.add(edge.source);
+            });
+            nodes3D.forEach(mesh => {
+                const isSkill = skillIds.has(mesh.userData.id);
+                const isCompany = companyIds.has(mesh.userData.id);
+                const isCandidate = mesh.userData.type === 'Candidate';
+                const opacity = isSkill || isCompany ? 1 : isCandidate ? 0.25 : 0.035;
+                setNodeAppearance(mesh, opacity, isSkill ? 1.42 : isCompany ? 1.12 : 0.78, isSkill);
+            });
+            edges3D.forEach(line => {
+                const related = line.userData.type === 'DEMONSTRATES' && skillIds.has(line.userData.target);
+                line.material.opacity = related ? 0.78 : 0.012;
+            });
+            buildCompanyFilters();
+            buildLegend();
         }
 
         function focusOnCompany(companyId) {
             const companyMesh = nodeMeshes.get(companyId);
             if (!companyMesh) return;
             selectedCompanyId = companyId;
+            selectedCategory = null;
+            selectedSkillId = null;
             controls.autoRotate = false;
             controls.target.copy(companyMesh.position);
             camera.position.copy(companyMesh.position).add(new THREE.Vector3(9, 7, 9));
             highlightCompanyNodes(companyId);
             showCompanyInsights(companyId);
             buildCompanyFilters();
+            buildLegend();
         }
 
         function highlightCompanyNodes(companyId) {
@@ -722,8 +825,7 @@
             relatedIds.add('candidate');
             nodes3D.forEach(mesh => {
                 const related = relatedIds.has(mesh.userData.id);
-                mesh.material.opacity = related ? mesh.userData.baseOpacity : 0.08;
-                mesh.scale.setScalar(related ? 1.16 : 0.86);
+                setNodeAppearance(mesh, related ? mesh.userData.baseOpacity : 0.08, related ? 1.16 : 0.86, false);
             });
             edges3D.forEach(line => {
                 const related = line.userData.source === companyId || line.userData.target === companyId;
@@ -739,6 +841,12 @@
             const metrics = graphData.nodes.filter(node => node.type === 'Metric' && node.company_id === companyId);
             const panel = document.getElementById('detail-panel');
             panel.classList.add('visible');
+            document.getElementById('section-roles').style.display = '';
+            document.getElementById('section-skills').style.display = '';
+            document.getElementById('section-metrics').style.display = '';
+            document.getElementById('roles-heading').textContent = t('roles');
+            document.getElementById('skills-heading').textContent = t('skills');
+            document.getElementById('metrics-heading').textContent = t('metrics');
             document.getElementById('detail-title').textContent = nodeLabel(company);
             document.getElementById('detail-type').textContent = t('company');
             document.getElementById('detail-desc').textContent = [
@@ -775,6 +883,7 @@
                 item.innerHTML = `<div class="item-name"></div><div class="item-meta"></div>`;
                 item.querySelector('.item-name').textContent = nodeLabel(skill);
                 item.querySelector('.item-meta').textContent = metadata.join(' • ');
+                appendSkillEvidence(item, skill, companyId, false);
                 skillsDiv.appendChild(item);
             });
 
@@ -790,18 +899,90 @@
             });
         }
 
+        function appendSkillEvidence(container, skill, companyId = null, includeCompany = true) {
+            const evidenceItems = (skill.evidence || []).filter(evidence => !companyId || evidence.company_id === companyId);
+            evidenceItems.forEach(evidence => {
+                const company = getNode(evidence.company_id);
+                const role = getNode(evidence.role_id);
+                const block = document.createElement('div');
+                block.className = 'evidence-block';
+                const roleLine = document.createElement('div');
+                roleLine.className = 'evidence-role';
+                roleLine.textContent = includeCompany
+                    ? `${nodeLabel(company)} • ${nodeLabel(role)}`
+                    : nodeLabel(role);
+                const description = document.createElement('div');
+                description.className = 'evidence-text';
+                description.textContent = localized(evidence.descriptions);
+                block.appendChild(roleLine);
+                block.appendChild(description);
+                container.appendChild(block);
+            });
+        }
+
+        function focusOnSkill(skillId) {
+            const skill = getNode(skillId);
+            const skillMesh = nodeMeshes.get(skillId);
+            if (!skill || !skillMesh) return;
+            selectedSkillId = skillId;
+            selectedCompanyId = null;
+            selectedCategory = null;
+            controls.autoRotate = false;
+            controls.target.copy(skillMesh.position);
+            camera.position.copy(skillMesh.position).add(new THREE.Vector3(7, 6, 7));
+            const relatedCompanyIds = new Set(skill.companies || []);
+            nodes3D.forEach(mesh => {
+                const selected = mesh.userData.id === skillId;
+                const relatedCompany = relatedCompanyIds.has(mesh.userData.id);
+                setNodeAppearance(mesh, selected || relatedCompany ? 1 : 0.035, selected ? 1.55 : relatedCompany ? 1.14 : 0.78, selected);
+            });
+            edges3D.forEach(line => {
+                const related = line.userData.type === 'DEMONSTRATES' && line.userData.target === skillId;
+                line.material.opacity = related ? 0.85 : 0.012;
+            });
+            showSkillInsights(skillId);
+            buildCompanyFilters();
+            buildLegend();
+        }
+
+        function showSkillInsights(skillId) {
+            const skill = getNode(skillId);
+            if (!skill) return;
+            const panel = document.getElementById('detail-panel');
+            panel.classList.add('visible');
+            document.getElementById('section-roles').style.display = 'none';
+            document.getElementById('section-skills').style.display = '';
+            document.getElementById('section-metrics').style.display = 'none';
+            document.getElementById('skills-heading').textContent = t('evidenceSection');
+            document.getElementById('detail-title').textContent = nodeLabel(skill);
+            document.getElementById('detail-type').textContent = t('skill');
+            document.getElementById('detail-desc').textContent = [
+                `${t('category')}: ${localized(skill.category_labels)}`,
+                `${skill.evidence_count} ${t('totalEvidence')}`,
+                `${skill.companies.length} ${t('companies').toLocaleLowerCase()}`,
+            ].join(' • ');
+            const skillsDiv = document.getElementById('detail-skills');
+            skillsDiv.innerHTML = '';
+            const evidenceContainer = document.createElement('div');
+            evidenceContainer.className = 'skill-item';
+            appendSkillEvidence(evidenceContainer, skill, null, true);
+            skillsDiv.appendChild(evidenceContainer);
+        }
+
         function resetFullView() {
             selectedCompanyId = null;
+            selectedCategory = null;
+            selectedSkillId = null;
             controls.autoRotate = true;
             controls.target.set(0, 0, 0);
             camera.position.copy(initialCamera);
             nodes3D.forEach(mesh => {
-                mesh.material.opacity = mesh.userData.baseOpacity;
-                mesh.scale.setScalar(1);
+                setNodeAppearance(mesh, mesh.userData.baseOpacity, 1, false);
             });
             edges3D.forEach(line => { line.material.opacity = line.userData.baseOpacity; });
             document.getElementById('detail-panel').classList.remove('visible');
             buildCompanyFilters();
+            buildLegend();
         }
 
         function onClick(event) {
@@ -813,6 +994,8 @@
                 const intersection = raycaster.intersectObjects(nodes3D, false)[0];
                 if (intersection?.object.userData.type === 'Company') {
                     focusOnCompany(intersection.object.userData.id);
+                } else if (intersection?.object.userData.type === 'Skill') {
+                    focusOnSkill(intersection.object.userData.id);
                 }
             }, 220);
         }

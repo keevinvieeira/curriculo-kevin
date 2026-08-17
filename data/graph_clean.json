@@ -325,6 +325,17 @@
         "company-ak-branding-web-design": 1
       },
       "evidence_count": 1,
+      "evidence": [
+        {
+          "company_id": "company-ak-branding-web-design",
+          "role_id": "role-ak-branding-web-design-1",
+          "source": "master_resume.json:work_experience:ak-branding-web-design:bullet:3",
+          "descriptions": {
+            "pt": "Experimentação de Growth: Planejou e executou testes A/B em campanhas de anúncios, landing pages e experiências web para validar hipóteses de aquisição e conversão, orientando ajustes de criativos, mensagens e jornadas digitais.",
+            "en": "Growth Experimentation: Planned and executed A/B tests across paid campaigns, landing pages, and web experiences to validate acquisition and conversion hypotheses, informing adjustments to creative, messaging, and digital journeys."
+          }
+        }
+      ],
       "size": 0.58,
       "color": "#00d4aa"
     },
@@ -347,6 +358,17 @@
         "company-munzner": 1
       },
       "evidence_count": 1,
+      "evidence": [
+        {
+          "company_id": "company-munzner",
+          "role_id": "role-munzner-1",
+          "source": "master_resume.json:work_experience:munzner:bullet:3",
+          "descriptions": {
+            "pt": "Mensuração de Monetização: Acompanhou canais, caminhos de aquisição e dados de CRM para avaliar conversão, receita e ROI do funil, orientando ajustes de campanhas, conteúdo e estratégias de monetização.",
+            "en": "Monetization Measurement: Tracked channels, acquisition paths, and CRM data to evaluate funnel conversion, revenue, and ROI, guiding adjustments to campaigns, content, and monetization strategies."
+          }
+        }
+      ],
       "size": 0.58,
       "color": "#00d4aa"
     },
@@ -369,6 +391,26 @@
         "company-alvesa-transportes-log-stica-ltda": 2
       },
       "evidence_count": 2,
+      "evidence": [
+        {
+          "company_id": "company-alvesa-transportes-log-stica-ltda",
+          "role_id": "role-alvesa-transportes-log-stica-ltda-1",
+          "source": "master_resume.json:work_experience:alvesa-transportes-log-stica-ltda:bullet:1",
+          "descriptions": {
+            "pt": "Suporte às operações financeiras, incluindo controle de receitas e despesas, folha de pagamento, impostos e contas a pagar.",
+            "en": "Supported financial operations, including controlling revenues and expenses, payroll, taxes, and accounts payable."
+          }
+        },
+        {
+          "company_id": "company-alvesa-transportes-log-stica-ltda",
+          "role_id": "role-alvesa-transportes-log-stica-ltda-1",
+          "source": "master_resume.json:work_experience:alvesa-transportes-log-stica-ltda:bullet:4",
+          "descriptions": {
+            "pt": "Gestão de agendamentos administrativos, processos seletivos e atendimento ao cliente.",
+            "en": "Managed administrative appointments, selection processes, and customer service."
+          }
+        }
+      ],
       "size": 0.66,
       "color": "#38bdf8"
     },
@@ -391,6 +433,17 @@
         "company-wipro": 1
       },
       "evidence_count": 1,
+      "evidence": [
+        {
+          "company_id": "company-wipro",
+          "role_id": "role-wipro-1",
+          "source": "master_resume.json:work_experience:wipro:bullet:2",
+          "descriptions": {
+            "pt": "Referência técnica na operação em estratégias de anúncios na Meta, atuando na absorção de materiais oficiais do cliente e replicação estratégica de inovações de produto e Go-to-Market (GTM) para mais de 150 Meta Marketing Pros.",
+            "en": "Act as the operation's technical reference for Meta ad strategies, absorbing official client materials and strategically replicating product innovations and Go-to-Market (GTM) strategies for 150+ Meta Marketing Pros."
+          }
+        }
+      ],
       "size": 0.58,
       "color": "#00d4aa"
     },
@@ -413,6 +466,17 @@
         "company-ak-branding-web-design": 1
       },
       "evidence_count": 1,
+      "evidence": [
+        {
+          "company_id": "company-ak-branding-web-design",
+          "role_id": "role-ak-branding-web-design-1",
+          "source": "master_resume.json:work_experience:ak-branding-web-design:bullet:1",
+          "descriptions": {
+            "pt": "Fundação e Gestão de Agência Boutique: Manteve ritmo de fechamento e entrega de 2 contratos de alto valor a cada 3 meses ao longo de 5 anos (40+ projetos entregues), gerenciando desde o posicionamento de marca até a arquitetura web para PMEs.",
+            "en": "Boutique Agency Leadership & Volume: Sustained a steady deal closure and project delivery cadence of 2 high-value contracts every 3 months across 5 years (40+ custom projects delivered), overseeing everything from brand positioning to web architecture for SMBs."
+          }
+        }
+      ],
       "size": 0.58,
       "color": "#00d4aa"
     },
@@ -435,6 +499,17 @@
         "company-wipro": 1
       },
       "evidence_count": 1,
+      "evidence": [
+        {
+          "company_id": "company-wipro",
+          "role_id": "role-wipro-1",
+          "source": "master_resume.json:work_experience:wipro:bullet:11",
+          "descriptions": {
+            "pt": "Governança Ágil e Squad de Treinamento: Participou do squad responsável pelo programa de capacitação, usando reuniões diárias, OKRs, roadmap e backlog para organizar tarefas semanais e priorizar demandas de clientes, gerentes, líderes e consultores internos.",
+            "en": "Agile Governance and Training Squad: Participated in the squad responsible for the enablement program, using daily meetings, OKRs, roadmap, and backlog to organize weekly tasks and prioritize requests from clients, managers, leaders, and internal consultants."
+          }
+        }
+      ],
       "size": 0.58,
       "color": "#38bdf8"
     },
@@ -459,6 +534,26 @@
         "company-wipro": 1
       },
       "evidence_count": 2,
+      "evidence": [
+        {
+          "company_id": "company-wipro",
+          "role_id": "role-wipro-1",
+          "source": "master_resume.json:work_experience:wipro:bullet:4",
+          "descriptions": {
+            "pt": "Capacitação técnica da equipe em ferramentas internas da Meta, liderando o aculturamento e replicação de treinamentos sobre o uso de CRMs proprietários e implementação prática de IAs nativas.",
+            "en": "Provide technical training to the team on Meta internal tools, driving onboarding and replicating training programs on proprietary CRMs and practical native AI implementations."
+          }
+        },
+        {
+          "company_id": "company-meu-barzin-startup",
+          "role_id": "role-meu-barzin-startup-1",
+          "source": "master_resume.json:work_experience:meu-barzin-startup:bullet:2",
+          "descriptions": {
+            "pt": "Arquitetura Conversacional e UX: Desenhou fluxos conversacionais inteligentes via ManyChat e n8n, integrando RAG e regras de 'Alucinação Zero' para que o agente (mascote Capizin, Sommelier de Bares) fizesse buscas ricas de bares locais sem inventar dados.",
+            "en": "Conversational Architecture & UX: Designed intelligent conversation flows via ManyChat and n8n, integrating RAG and 'Zero Hallucination' rules to enable the AI agent (mascot Capizin, Bar Sommelier) to search and recommend venues without errors."
+          }
+        }
+      ],
       "size": 0.66,
       "color": "#a855f7"
     },
@@ -481,6 +576,17 @@
         "company-wipro": 1
       },
       "evidence_count": 1,
+      "evidence": [
+        {
+          "company_id": "company-wipro",
+          "role_id": "role-wipro-1",
+          "source": "master_resume.json:work_experience:wipro:bullet:5",
+          "descriptions": {
+            "pt": "Ownership de IA no CRM e Adoção Recorde: Liderou a ativação e adoção da IA nativa no CRM proprietário da Meta, do onboarding ao acompanhamento presencial side-by-side de 3 semanas. Elevou o uso de 4 para 10 prompts/dia por consultor (+150%), tornando a operação a #1 global em crescimento de adoção e melhorando a qualidade contextual dos prompts em chamadas ao vivo.",
+            "en": "AI CRM Ownership, Activation, and Record Adoption: Owned native AI activation and adoption within Meta's proprietary CRM, from onboarding through 3 weeks of hands-on side-by-side coaching. Increased usage from 4 to 10 prompts/day per consultant (+150%), making the operation #1 globally for adoption growth while improving contextual prompt quality during live calls."
+          }
+        }
+      ],
       "size": 0.58,
       "color": "#a855f7"
     },
@@ -503,6 +609,17 @@
         "company-wipro": 1
       },
       "evidence_count": 1,
+      "evidence": [
+        {
+          "company_id": "company-wipro",
+          "role_id": "role-wipro-1",
+          "source": "master_resume.json:work_experience:wipro:bullet:12",
+          "descriptions": {
+            "pt": "Relatórios de Desempenho: Parceria direta com a equipe de inteligência de dados (MIS) para escopar, solicitar e explorar painéis automatizados no Power BI e Excel, interpretando métricas de comportamento para subsidiar decisões críticas e otimizar funis.",
+            "en": "Performance Reporting: Partnered with the MIS data team to leverage Power BI and Excel dashboards, translating complex operational data into actionable progress reports and performance reviews for senior leadership."
+          }
+        }
+      ],
       "size": 0.58,
       "color": "#ff8c42"
     },
@@ -525,6 +642,17 @@
         "company-conversas-brasileiras": 1
       },
       "evidence_count": 1,
+      "evidence": [
+        {
+          "company_id": "company-conversas-brasileiras",
+          "role_id": "role-conversas-brasileiras-1",
+          "source": "master_resume.json:work_experience:conversas-brasileiras:bullet:3",
+          "descriptions": {
+            "pt": "Facilitação e Inteligência Coletiva: Planejamento e moderação de 5 edições de rodas de conversa pela cidade (média de 20 participantes por encontro, engajando ~100 pessoas) utilizando abordagens de Art of Hosting (A Arte de Anfitriar) e Thinking Environment, aplicando dinâmicas como Aquário (Fishbowl) e círculos de diálogo.",
+            "en": "Facilitation & Collective Intelligence: Planned and moderated 5 community event editions across the city (average of 20 participants per meeting, engaging 100+ total attendees) utilizing Art of Hosting and Thinking Environment frameworks (Fishbowl dynamics and dialogue circles)."
+          }
+        }
+      ],
       "size": 0.58,
       "color": "#34d399"
     },
@@ -549,6 +677,26 @@
         "company-munzner": 1
       },
       "evidence_count": 2,
+      "evidence": [
+        {
+          "company_id": "company-meu-barzin-startup",
+          "role_id": "role-meu-barzin-startup-1",
+          "source": "master_resume.json:work_experience:meu-barzin-startup:bullet:2",
+          "descriptions": {
+            "pt": "Arquitetura Conversacional e UX: Desenhou fluxos conversacionais inteligentes via ManyChat e n8n, integrando RAG e regras de 'Alucinação Zero' para que o agente (mascote Capizin, Sommelier de Bares) fizesse buscas ricas de bares locais sem inventar dados.",
+            "en": "Conversational Architecture & UX: Designed intelligent conversation flows via ManyChat and n8n, integrating RAG and 'Zero Hallucination' rules to enable the AI agent (mascot Capizin, Bar Sommelier) to search and recommend venues without errors."
+          }
+        },
+        {
+          "company_id": "company-munzner",
+          "role_id": "role-munzner-1",
+          "source": "master_resume.json:work_experience:munzner:bullet:2",
+          "descriptions": {
+            "pt": "Funil Automatizado de High-Ticket (~R$ 50k em Receita): Estruturou funil de e-mail marketing automatizado de 10 etapas (Bitrix24/Sendpulse) que atraiu 10.000+ acessos e converteu 10 matriculados em formações presenciais de R$ 5.000 (~R$ 50k em receita de tickets altos gerada por automação).",
+            "en": "Automated High-Ticket Nurturing Funnel (~R$ 50k Revenue): Built an automated 10-stage email nurturing funnel (Bitrix24/Sendpulse) attracting 10,000+ visits, converting ~10 enrollments for R$ 5,000 in-person masterclasses (~R$ 50k high-ticket revenue driven via automation)."
+          }
+        }
+      ],
       "size": 0.66,
       "color": "#a855f7"
     },
@@ -573,6 +721,26 @@
         "company-meu-barzin-startup": 1
       },
       "evidence_count": 2,
+      "evidence": [
+        {
+          "company_id": "company-meu-barzin-startup",
+          "role_id": "role-meu-barzin-startup-1",
+          "source": "master_resume.json:work_experience:meu-barzin-startup:bullet:6",
+          "descriptions": {
+            "pt": "Desenvolvimento de Negócios B2B: Liderou a prospecção direta de bares de grande relevância em Curitiba, assinando parcerias de peso para o piloto de benefícios (como o Gal Gastrobar e o Officina).",
+            "en": "B2B Business Development: Led direct sales outreach and partner pitching, securing critical pilot partnerships with top Curitiba venues like Gal Gastrobar and Officina."
+          }
+        },
+        {
+          "company_id": "company-conversas-brasileiras",
+          "role_id": "role-conversas-brasileiras-1",
+          "source": "master_resume.json:work_experience:conversas-brasileiras:bullet:4",
+          "descriptions": {
+            "pt": "Desenvolvimento de Negócios e Parcerias B2B: Prospecção e negociação estratégica com espaços locais, como co-workings e centros culturais, garantindo a infraestrutura necessária para os encontros através de parcerias de benefício mútuo.",
+            "en": "Business Development & B2B Partnerships: Strategic prospecting and negotiation with local venues like co-workings and cultural centers, securing the necessary infrastructure for meetings through mutual-benefit partnerships."
+          }
+        }
+      ],
       "size": 0.66,
       "color": "#ef4444"
     },
@@ -595,6 +763,17 @@
         "company-wipro": 1
       },
       "evidence_count": 1,
+      "evidence": [
+        {
+          "company_id": "company-wipro",
+          "role_id": "role-wipro-1",
+          "source": "master_resume.json:work_experience:wipro:bullet:11",
+          "descriptions": {
+            "pt": "Governança Ágil e Squad de Treinamento: Participou do squad responsável pelo programa de capacitação, usando reuniões diárias, OKRs, roadmap e backlog para organizar tarefas semanais e priorizar demandas de clientes, gerentes, líderes e consultores internos.",
+            "en": "Agile Governance and Training Squad: Participated in the squad responsible for the enablement program, using daily meetings, OKRs, roadmap, and backlog to organize weekly tasks and prioritize requests from clients, managers, leaders, and internal consultants."
+          }
+        }
+      ],
       "size": 0.58,
       "color": "#38bdf8"
     },
@@ -617,6 +796,17 @@
         "company-wipro": 1
       },
       "evidence_count": 1,
+      "evidence": [
+        {
+          "company_id": "company-wipro",
+          "role_id": "role-wipro-1",
+          "source": "master_resume.json:work_experience:wipro:bullet:13",
+          "descriptions": {
+            "pt": "Segurança e Governança de Dados: Participou ativamente da estruturação do Plano de Continuidade de Negócios (BCP) e elaborou manuais de governança sobre políticas de compartilhamento de dados externos em ambiente de alta restrição. Recebeu capacitações contínuas de Wipro/Meta em segurança da informação (phishing, engenharia social, tailgating e compliance).",
+            "en": "Data Security & Compliance Governance: Contributed to the development of the Business Continuity Plan (BCP) and drafted internal governance manuals detailing data sharing limits under highly restricted settings. Trained extensively by Wipro/Meta in policy compliance and information security (anti-phishing, social engineering prevention, and physical security)."
+          }
+        }
+      ],
       "size": 0.58,
       "color": "#f472b6"
     },
@@ -639,6 +829,17 @@
         "company-wipro": 1
       },
       "evidence_count": 1,
+      "evidence": [
+        {
+          "company_id": "company-wipro",
+          "role_id": "role-wipro-1",
+          "source": "master_resume.json:work_experience:wipro:bullet:9",
+          "descriptions": {
+            "pt": "Liderança do Next Level Bootcamp (Piloto): Idealizou, gamificou (badges digitais) e governou o programa piloto para 12 consultores com 100% de conclusão. Reduziu a curva de ramp-up e tempo de produtividade (time-to-productivity) dos novos contratados de 6 para 3 meses (-50%), alcançando 90%+ de nota de qualidade nas primeiras auditorias e 90% de satisfação dos consultores (CSAT), convertendo os participantes em Top Performers.",
+            "en": "Next Level Bootcamp Pilot & Ramp-up Reduction: Designed, gamified (digital badges), and governed the pilot enablement program for 12 consultants with 100% completion. Reduced new hire ramp-up time from 6 to 3 months (-50%), achieving 90%+ quality audit scores on initial reviews, 90% consultant CSAT, and converting all graduating consultants into operational Top Performers."
+          }
+        }
+      ],
       "size": 0.58,
       "color": "#38bdf8"
     },
@@ -661,6 +862,17 @@
         "company-ak-branding-web-design": 1
       },
       "evidence_count": 1,
+      "evidence": [
+        {
+          "company_id": "company-ak-branding-web-design",
+          "role_id": "role-ak-branding-web-design-1",
+          "source": "master_resume.json:work_experience:ak-branding-web-design:bullet:1",
+          "descriptions": {
+            "pt": "Fundação e Gestão de Agência Boutique: Manteve ritmo de fechamento e entrega de 2 contratos de alto valor a cada 3 meses ao longo de 5 anos (40+ projetos entregues), gerenciando desde o posicionamento de marca até a arquitetura web para PMEs.",
+            "en": "Boutique Agency Leadership & Volume: Sustained a steady deal closure and project delivery cadence of 2 high-value contracts every 3 months across 5 years (40+ custom projects delivered), overseeing everything from brand positioning to web architecture for SMBs."
+          }
+        }
+      ],
       "size": 0.58,
       "color": "#00d4aa"
     },
@@ -683,6 +895,17 @@
         "company-ak-branding-web-design": 1
       },
       "evidence_count": 1,
+      "evidence": [
+        {
+          "company_id": "company-ak-branding-web-design",
+          "role_id": "role-ak-branding-web-design-1",
+          "source": "master_resume.json:work_experience:ak-branding-web-design:bullet:6",
+          "descriptions": {
+            "pt": "Controles de Orçamento e Cronograma: Controlou escopos de projetos e orçamentos financeiros para múltiplas contas concorrentes, coordenando fluxos de trabalho internos e gerenciando execução de recursos especializados para evitar gargalos.",
+            "en": "Budget & Timeline Controls: Controlled project scopes and financial budgets for multiple concurrent accounts, coordinating internal workflows and managing specialized resource execution to prevent project roadblocks."
+          }
+        }
+      ],
       "size": 0.58,
       "color": "#38bdf8"
     },
@@ -707,6 +930,26 @@
         "company-meu-barzin-startup": 1
       },
       "evidence_count": 2,
+      "evidence": [
+        {
+          "company_id": "company-meu-barzin-startup",
+          "role_id": "role-meu-barzin-startup-1",
+          "source": "master_resume.json:work_experience:meu-barzin-startup:bullet:6",
+          "descriptions": {
+            "pt": "Desenvolvimento de Negócios B2B: Liderou a prospecção direta de bares de grande relevância em Curitiba, assinando parcerias de peso para o piloto de benefícios (como o Gal Gastrobar e o Officina).",
+            "en": "B2B Business Development: Led direct sales outreach and partner pitching, securing critical pilot partnerships with top Curitiba venues like Gal Gastrobar and Officina."
+          }
+        },
+        {
+          "company_id": "company-conversas-brasileiras",
+          "role_id": "role-conversas-brasileiras-1",
+          "source": "master_resume.json:work_experience:conversas-brasileiras:bullet:4",
+          "descriptions": {
+            "pt": "Desenvolvimento de Negócios e Parcerias B2B: Prospecção e negociação estratégica com espaços locais, como co-workings e centros culturais, garantindo a infraestrutura necessária para os encontros através de parcerias de benefício mútuo.",
+            "en": "Business Development & B2B Partnerships: Strategic prospecting and negotiation with local venues like co-workings and cultural centers, securing the necessary infrastructure for meetings through mutual-benefit partnerships."
+          }
+        }
+      ],
       "size": 0.66,
       "color": "#ef4444"
     },
@@ -729,6 +972,17 @@
         "company-meu-barzin-startup": 1
       },
       "evidence_count": 1,
+      "evidence": [
+        {
+          "company_id": "company-meu-barzin-startup",
+          "role_id": "role-meu-barzin-startup-1",
+          "source": "master_resume.json:work_experience:meu-barzin-startup:bullet:1",
+          "descriptions": {
+            "pt": "Concepção do MVP: Idealizou o ecossistema conversacional no WhatsApp integrado ao 'Meu Barzin Pass' (assinatura mensal de R$ 19,90 com benefício 'Compre 1, Leve 2' em bares locais), desenhando o modelo de negócios e validando a monetização com parceiros B2B.",
+            "en": "MVP Conception: Conceptualized the conversational WhatsApp ecosystem integrated with 'Meu Barzin Pass' (R$19.90 monthly subscription with buy-one-get-one deals at local bars), designing the monetization business model and validating B2B partnership value."
+          }
+        }
+      ],
       "size": 0.58,
       "color": "#4a9eff"
     },
@@ -751,6 +1005,17 @@
         "company-conversas-brasileiras": 1
       },
       "evidence_count": 1,
+      "evidence": [
+        {
+          "company_id": "company-conversas-brasileiras",
+          "role_id": "role-conversas-brasileiras-1",
+          "source": "master_resume.json:work_experience:conversas-brasileiras:bullet:5",
+          "descriptions": {
+            "pt": "Experimentação de Modelos de Negócio: Concepção e teste prático de formatos de monetização consciente (como precificação baseada em valor percebido / pay-what-you-want), gerando aprendizados valiosos sobre comportamento de consumo, sustentabilidade financeira de projetos e validação de hipóteses de mercado.",
+            "en": "Business Model Experimentation: Conceptualized and practically tested conscious monetization formats (such as value-perceived pricing / pay-what-you-want), generating valuable insights on consumer behavior, project financial sustainability, and market hypothesis validation."
+          }
+        }
+      ],
       "size": 0.58,
       "color": "#4a9eff"
     },
@@ -773,6 +1038,17 @@
         "company-ak-branding-web-design": 1
       },
       "evidence_count": 1,
+      "evidence": [
+        {
+          "company_id": "company-ak-branding-web-design",
+          "role_id": "role-ak-branding-web-design-1",
+          "source": "master_resume.json:work_experience:ak-branding-web-design:bullet:2",
+          "descriptions": {
+            "pt": "Otimização de Conversão (CRO) e Chatbots: Implementou interfaces de chatbot e fluxos de UX que elevaram a captação de leads de 8 para 20-30 contatos/mês (+250%) em sites corporativos, além de criar landing pages para a construção civil que geravam 5 leads qualificados/dia.",
+            "en": "Conversion Rate Optimization (CRO) & Chatbots: Implemented chatbot interfaces and UX flows that boosted monthly lead capture from 8 to 20-30 contacts/month (+250%) on client websites, and designed real estate LPs generating 5 qualified leads/day."
+          }
+        }
+      ],
       "size": 0.58,
       "color": "#a855f7"
     },
@@ -795,6 +1071,17 @@
         "company-wipro": 1
       },
       "evidence_count": 1,
+      "evidence": [
+        {
+          "company_id": "company-wipro",
+          "role_id": "role-wipro-1",
+          "source": "master_resume.json:work_experience:wipro:bullet:6",
+          "descriptions": {
+            "pt": "Acompanhamento, orientação e desenvolvimento contínuo dos agentes de marketing/vendas por meio de monitoria ativa, escuta de calls e feedbacks estruturados focados em performance comercial e excelência de atendimento.",
+            "en": "Conduct continuous monitoring, coaching, and development for marketing/sales agents through active quality assurance, call listening, and structured feedback loops focused on sales performance and service excellence."
+          }
+        }
+      ],
       "size": 0.58,
       "color": "#ef4444"
     },
@@ -817,6 +1104,17 @@
         "company-wipro": 1
       },
       "evidence_count": 1,
+      "evidence": [
+        {
+          "company_id": "company-wipro",
+          "role_id": "role-wipro-1",
+          "source": "master_resume.json:work_experience:wipro:bullet:10",
+          "descriptions": {
+            "pt": "Colaboração Interfuncional: Atuou como ponte estratégica entre linhas globais de produtos, garantia de qualidade e equipes de consultoria terceirizadas para manter documentação de projeto clara, gerenciar prazos e alinhar entregas com objetivos de negócios.",
+            "en": "Cross-Functional Collaboration: Acted as the strategic bridge between global product lines, quality assurance, and outsourced consultant teams to maintain clear project documentation, manage timelines, and align deliverables with core business objectives."
+          }
+        }
+      ],
       "size": 0.58,
       "color": "#38bdf8"
     },
@@ -839,6 +1137,17 @@
         "company-conversas-brasileiras": 1
       },
       "evidence_count": 1,
+      "evidence": [
+        {
+          "company_id": "company-conversas-brasileiras",
+          "role_id": "role-conversas-brasileiras-1",
+          "source": "master_resume.json:work_experience:conversas-brasileiras:bullet:3",
+          "descriptions": {
+            "pt": "Facilitação e Inteligência Coletiva: Planejamento e moderação de 5 edições de rodas de conversa pela cidade (média de 20 participantes por encontro, engajando ~100 pessoas) utilizando abordagens de Art of Hosting (A Arte de Anfitriar) e Thinking Environment, aplicando dinâmicas como Aquário (Fishbowl) e círculos de diálogo.",
+            "en": "Facilitation & Collective Intelligence: Planned and moderated 5 community event editions across the city (average of 20 participants per meeting, engaging 100+ total attendees) utilizing Art of Hosting and Thinking Environment frameworks (Fishbowl dynamics and dialogue circles)."
+          }
+        }
+      ],
       "size": 0.58,
       "color": "#34d399"
     },
@@ -861,6 +1170,17 @@
         "company-conversas-brasileiras": 1
       },
       "evidence_count": 1,
+      "evidence": [
+        {
+          "company_id": "company-conversas-brasileiras",
+          "role_id": "role-conversas-brasileiras-1",
+          "source": "master_resume.json:work_experience:conversas-brasileiras:bullet:1",
+          "descriptions": {
+            "pt": "O 'Conversas Brasileiras' foi uma iniciativa social e experimental voltada para a criação de espaços de diálogo, fomento ao pensamento crítico e ativação da inteligência coletiva através de metodologias de facilitação humana e inovação social.",
+            "en": "The 'Conversas Brasileiras' was a social and experimental initiative aimed at creating dialogue spaces, fostering critical thinking, and activating collective intelligence through human facilitation methodologies and social innovation."
+          }
+        }
+      ],
       "size": 0.58,
       "color": "#34d399"
     },
@@ -883,6 +1203,17 @@
         "company-conversas-brasileiras": 1
       },
       "evidence_count": 1,
+      "evidence": [
+        {
+          "company_id": "company-conversas-brasileiras",
+          "role_id": "role-conversas-brasileiras-1",
+          "source": "master_resume.json:work_experience:conversas-brasileiras:bullet:2",
+          "descriptions": {
+            "pt": "Gestão e Engajamento de Comunidade (Community Management): Idealização e condução do projeto de ponta a ponta, criando conteúdos estratégicos e canais de comunicação para atrair, engajar e reter membros alinhados com o propósito do ecossistema.",
+            "en": "Community Management & Engagement: Conceptualized and led the project end-to-end, creating strategic content and communication channels to attract, engage, and retain members aligned with the ecosystem's purpose."
+          }
+        }
+      ],
       "size": 0.58,
       "color": "#34d399"
     },
@@ -905,6 +1236,17 @@
         "company-wipro": 1
       },
       "evidence_count": 1,
+      "evidence": [
+        {
+          "company_id": "company-wipro",
+          "role_id": "role-wipro-1",
+          "source": "master_resume.json:work_experience:wipro:bullet:13",
+          "descriptions": {
+            "pt": "Segurança e Governança de Dados: Participou ativamente da estruturação do Plano de Continuidade de Negócios (BCP) e elaborou manuais de governança sobre políticas de compartilhamento de dados externos em ambiente de alta restrição. Recebeu capacitações contínuas de Wipro/Meta em segurança da informação (phishing, engenharia social, tailgating e compliance).",
+            "en": "Data Security & Compliance Governance: Contributed to the development of the Business Continuity Plan (BCP) and drafted internal governance manuals detailing data sharing limits under highly restricted settings. Trained extensively by Wipro/Meta in policy compliance and information security (anti-phishing, social engineering prevention, and physical security)."
+          }
+        }
+      ],
       "size": 0.58,
       "color": "#f472b6"
     },
@@ -927,6 +1269,17 @@
         "company-conversas-brasileiras": 1
       },
       "evidence_count": 1,
+      "evidence": [
+        {
+          "company_id": "company-conversas-brasileiras",
+          "role_id": "role-conversas-brasileiras-1",
+          "source": "master_resume.json:work_experience:conversas-brasileiras:bullet:2",
+          "descriptions": {
+            "pt": "Gestão e Engajamento de Comunidade (Community Management): Idealização e condução do projeto de ponta a ponta, criando conteúdos estratégicos e canais de comunicação para atrair, engajar e reter membros alinhados com o propósito do ecossistema.",
+            "en": "Community Management & Engagement: Conceptualized and led the project end-to-end, creating strategic content and communication channels to attract, engage, and retain members aligned with the ecosystem's purpose."
+          }
+        }
+      ],
       "size": 0.58,
       "color": "#00d4aa"
     },
@@ -949,6 +1302,17 @@
         "company-munzner": 1
       },
       "evidence_count": 1,
+      "evidence": [
+        {
+          "company_id": "company-munzner",
+          "role_id": "role-munzner-1",
+          "source": "master_resume.json:work_experience:munzner:bullet:4",
+          "descriptions": {
+            "pt": "Inbound Marketing e SEO Orgânico: Redigiu ~10 artigos estratégicos no blog alinhados à metodologia Thinking Environment, gerando ~1.000 visitas orgânicas e ~100 leads qualificados de alto valor (taxa de conversão visitor-to-lead de ~10%).",
+            "en": "Inbound Organic SEO & Content Marketing: Authored ~10 strategic technical blog articles on the Thinking Environment methodology, generating ~1,000 organic visits and ~100 qualified high-value leads (~10% visitor-to-lead conversion rate)."
+          }
+        }
+      ],
       "size": 0.58,
       "color": "#00d4aa"
     },
@@ -971,6 +1335,17 @@
         "company-ak-branding-web-design": 1
       },
       "evidence_count": 1,
+      "evidence": [
+        {
+          "company_id": "company-ak-branding-web-design",
+          "role_id": "role-ak-branding-web-design-1",
+          "source": "master_resume.json:work_experience:ak-branding-web-design:bullet:6",
+          "descriptions": {
+            "pt": "Controles de Orçamento e Cronograma: Controlou escopos de projetos e orçamentos financeiros para múltiplas contas concorrentes, coordenando fluxos de trabalho internos e gerenciando execução de recursos especializados para evitar gargalos.",
+            "en": "Budget & Timeline Controls: Controlled project scopes and financial budgets for multiple concurrent accounts, coordinating internal workflows and managing specialized resource execution to prevent project roadblocks."
+          }
+        }
+      ],
       "size": 0.58,
       "color": "#38bdf8"
     },
@@ -993,6 +1368,17 @@
         "company-alvesa-transportes-log-stica-ltda": 1
       },
       "evidence_count": 1,
+      "evidence": [
+        {
+          "company_id": "company-alvesa-transportes-log-stica-ltda",
+          "role_id": "role-alvesa-transportes-log-stica-ltda-1",
+          "source": "master_resume.json:work_experience:alvesa-transportes-log-stica-ltda:bullet:2",
+          "descriptions": {
+            "pt": "Coordenação de cronogramas logísticos, rastreamento de cargas e atribuição de motoristas.",
+            "en": "Coordinated logistical schedules, tracked cargo, and assigned drivers."
+          }
+        }
+      ],
       "size": 0.58,
       "color": "#38bdf8"
     },
@@ -1015,6 +1401,17 @@
         "company-munzner": 1
       },
       "evidence_count": 1,
+      "evidence": [
+        {
+          "company_id": "company-munzner",
+          "role_id": "role-munzner-1",
+          "source": "master_resume.json:work_experience:munzner:bullet:5",
+          "descriptions": {
+            "pt": "Especialização na metodologia global Thinking Environment para a construção de narrativas técnicas de alto impacto, aplicando os conceitos de escuta e facilitação na criação de conteúdos estratégicos para mídias sociais, posicionamento institucional e anúncios pagos.",
+            "en": "Specialized in the global Thinking Environment methodology to build high-impact technical narratives, applying active listening and facilitation concepts to create strategic content for social media, brand positioning, and paid media."
+          }
+        }
+      ],
       "size": 0.58,
       "color": "#00d4aa"
     },
@@ -1041,6 +1438,44 @@
         "company-wipro": 1
       },
       "evidence_count": 4,
+      "evidence": [
+        {
+          "company_id": "company-wipro",
+          "role_id": "role-wipro-1",
+          "source": "master_resume.json:work_experience:wipro:bullet:4",
+          "descriptions": {
+            "pt": "Capacitação técnica da equipe em ferramentas internas da Meta, liderando o aculturamento e replicação de treinamentos sobre o uso de CRMs proprietários e implementação prática de IAs nativas.",
+            "en": "Provide technical training to the team on Meta internal tools, driving onboarding and replicating training programs on proprietary CRMs and practical native AI implementations."
+          }
+        },
+        {
+          "company_id": "company-meu-barzin-startup",
+          "role_id": "role-meu-barzin-startup-1",
+          "source": "master_resume.json:work_experience:meu-barzin-startup:bullet:4",
+          "descriptions": {
+            "pt": "Bancos de Dados e CRM: Estruturou bases e protótipos de CRM utilizando Supabase/PostgreSQL e NocoDB, trabalhando com modelagem, organização e exploração de dados para apoiar operações e produtos digitais.",
+            "en": "Databases and CRM: Built database structures and CRM prototypes using Supabase/PostgreSQL and NocoDB, working with data modeling, organization, and exploration to support digital products and operations."
+          }
+        },
+        {
+          "company_id": "company-munzner",
+          "role_id": "role-munzner-1",
+          "source": "master_resume.json:work_experience:munzner:bullet:2",
+          "descriptions": {
+            "pt": "Funil Automatizado de High-Ticket (~R$ 50k em Receita): Estruturou funil de e-mail marketing automatizado de 10 etapas (Bitrix24/Sendpulse) que atraiu 10.000+ acessos e converteu 10 matriculados em formações presenciais de R$ 5.000 (~R$ 50k em receita de tickets altos gerada por automação).",
+            "en": "Automated High-Ticket Nurturing Funnel (~R$ 50k Revenue): Built an automated 10-stage email nurturing funnel (Bitrix24/Sendpulse) attracting 10,000+ visits, converting ~10 enrollments for R$ 5,000 in-person masterclasses (~R$ 50k high-ticket revenue driven via automation)."
+          }
+        },
+        {
+          "company_id": "company-munzner",
+          "role_id": "role-munzner-1",
+          "source": "master_resume.json:work_experience:munzner:bullet:3",
+          "descriptions": {
+            "pt": "Mensuração de Monetização: Acompanhou canais, caminhos de aquisição e dados de CRM para avaliar conversão, receita e ROI do funil, orientando ajustes de campanhas, conteúdo e estratégias de monetização.",
+            "en": "Monetization Measurement: Tracked channels, acquisition paths, and CRM data to evaluate funnel conversion, revenue, and ROI, guiding adjustments to campaigns, content, and monetization strategies."
+          }
+        }
+      ],
       "size": 0.8200000000000001,
       "color": "#ef4444"
     },
@@ -1063,6 +1498,17 @@
         "company-wipro": 1
       },
       "evidence_count": 1,
+      "evidence": [
+        {
+          "company_id": "company-wipro",
+          "role_id": "role-wipro-1",
+          "source": "master_resume.json:work_experience:wipro:bullet:5",
+          "descriptions": {
+            "pt": "Ownership de IA no CRM e Adoção Recorde: Liderou a ativação e adoção da IA nativa no CRM proprietário da Meta, do onboarding ao acompanhamento presencial side-by-side de 3 semanas. Elevou o uso de 4 para 10 prompts/dia por consultor (+150%), tornando a operação a #1 global em crescimento de adoção e melhorando a qualidade contextual dos prompts em chamadas ao vivo.",
+            "en": "AI CRM Ownership, Activation, and Record Adoption: Owned native AI activation and adoption within Meta's proprietary CRM, from onboarding through 3 weeks of hands-on side-by-side coaching. Increased usage from 4 to 10 prompts/day per consultant (+150%), making the operation #1 globally for adoption growth while improving contextual prompt quality during live calls."
+          }
+        }
+      ],
       "size": 0.58,
       "color": "#ef4444"
     },
@@ -1087,6 +1533,26 @@
         "company-meu-barzin-startup": 1
       },
       "evidence_count": 2,
+      "evidence": [
+        {
+          "company_id": "company-meu-barzin-startup",
+          "role_id": "role-meu-barzin-startup-1",
+          "source": "master_resume.json:work_experience:meu-barzin-startup:bullet:7",
+          "descriptions": {
+            "pt": "Mapeamento de Gargalos de Conversão: Conduziu entrevistas qualitativas e mapeamentos de funil que identificaram que a falta de liquidez de parceiros na oferta e atritos de latência de API (43,9% de drop na primeira mensagem) eram os principais impeditivos para a conversão de assinaturas.",
+            "en": "Conversion Bottleneck Mapping: Conducted qualitative user interviews and funnel mappings that revealed that lack of merchant partner density (supply liquidity) and API processing latency (43.9% first-message dropout) were the primary conversion barriers for subscription growth."
+          }
+        },
+        {
+          "company_id": "company-ak-branding-web-design",
+          "role_id": "role-ak-branding-web-design-1",
+          "source": "master_resume.json:work_experience:ak-branding-web-design:bullet:2",
+          "descriptions": {
+            "pt": "Otimização de Conversão (CRO) e Chatbots: Implementou interfaces de chatbot e fluxos de UX que elevaram a captação de leads de 8 para 20-30 contatos/mês (+250%) em sites corporativos, além de criar landing pages para a construção civil que geravam 5 leads qualificados/dia.",
+            "en": "Conversion Rate Optimization (CRO) & Chatbots: Implemented chatbot interfaces and UX flows that boosted monthly lead capture from 8 to 20-30 contacts/month (+250%) on client websites, and designed real estate LPs generating 5 qualified leads/day."
+          }
+        }
+      ],
       "size": 0.66,
       "color": "#00d4aa"
     },
@@ -1109,6 +1575,17 @@
         "company-wipro": 1
       },
       "evidence_count": 1,
+      "evidence": [
+        {
+          "company_id": "company-wipro",
+          "role_id": "role-wipro-1",
+          "source": "master_resume.json:work_experience:wipro:bullet:10",
+          "descriptions": {
+            "pt": "Colaboração Interfuncional: Atuou como ponte estratégica entre linhas globais de produtos, garantia de qualidade e equipes de consultoria terceirizadas para manter documentação de projeto clara, gerenciar prazos e alinhar entregas com objetivos de negócios.",
+            "en": "Cross-Functional Collaboration: Acted as the strategic bridge between global product lines, quality assurance, and outsourced consultant teams to maintain clear project documentation, manage timelines, and align deliverables with core business objectives."
+          }
+        }
+      ],
       "size": 0.58,
       "color": "#38bdf8"
     },
@@ -1131,6 +1608,17 @@
         "company-wipro": 1
       },
       "evidence_count": 1,
+      "evidence": [
+        {
+          "company_id": "company-wipro",
+          "role_id": "role-wipro-1",
+          "source": "master_resume.json:work_experience:wipro:bullet:12",
+          "descriptions": {
+            "pt": "Relatórios de Desempenho: Parceria direta com a equipe de inteligência de dados (MIS) para escopar, solicitar e explorar painéis automatizados no Power BI e Excel, interpretando métricas de comportamento para subsidiar decisões críticas e otimizar funis.",
+            "en": "Performance Reporting: Partnered with the MIS data team to leverage Power BI and Excel dashboards, translating complex operational data into actionable progress reports and performance reviews for senior leadership."
+          }
+        }
+      ],
       "size": 0.58,
       "color": "#ff8c42"
     },
@@ -1153,6 +1641,17 @@
         "company-meu-barzin-startup": 1
       },
       "evidence_count": 1,
+      "evidence": [
+        {
+          "company_id": "company-meu-barzin-startup",
+          "role_id": "role-meu-barzin-startup-1",
+          "source": "master_resume.json:work_experience:meu-barzin-startup:bullet:3",
+          "descriptions": {
+            "pt": "Varredura e Tratamento de Dados: Mapeou, extraiu e higienizou dados de quase 200 bares de Curitiba via Web Scraping para criar um banco de dados de RAG confiável no Supabase hospedado em VPS.",
+            "en": "Data Scraping & Cleansing: Mapped, extracted, and cleansed data from nearly 200 bars in Curitiba via web scraping to build a reliable RAG database in Supabase hosted over a VPS."
+          }
+        }
+      ],
       "size": 0.58,
       "color": "#ff8c42"
     },
@@ -1175,6 +1674,17 @@
         "company-meu-barzin-startup": 1
       },
       "evidence_count": 1,
+      "evidence": [
+        {
+          "company_id": "company-meu-barzin-startup",
+          "role_id": "role-meu-barzin-startup-1",
+          "source": "master_resume.json:work_experience:meu-barzin-startup:bullet:7",
+          "descriptions": {
+            "pt": "Mapeamento de Gargalos de Conversão: Conduziu entrevistas qualitativas e mapeamentos de funil que identificaram que a falta de liquidez de parceiros na oferta e atritos de latência de API (43,9% de drop na primeira mensagem) eram os principais impeditivos para a conversão de assinaturas.",
+            "en": "Conversion Bottleneck Mapping: Conducted qualitative user interviews and funnel mappings that revealed that lack of merchant partner density (supply liquidity) and API processing latency (43.9% first-message dropout) were the primary conversion barriers for subscription growth."
+          }
+        }
+      ],
       "size": 0.58,
       "color": "#4a9eff"
     },
@@ -1197,6 +1707,17 @@
         "company-wipro": 1
       },
       "evidence_count": 1,
+      "evidence": [
+        {
+          "company_id": "company-wipro",
+          "role_id": "role-wipro-1",
+          "source": "master_resume.json:work_experience:wipro:bullet:10",
+          "descriptions": {
+            "pt": "Colaboração Interfuncional: Atuou como ponte estratégica entre linhas globais de produtos, garantia de qualidade e equipes de consultoria terceirizadas para manter documentação de projeto clara, gerenciar prazos e alinhar entregas com objetivos de negócios.",
+            "en": "Cross-Functional Collaboration: Acted as the strategic bridge between global product lines, quality assurance, and outsourced consultant teams to maintain clear project documentation, manage timelines, and align deliverables with core business objectives."
+          }
+        }
+      ],
       "size": 0.58,
       "color": "#f472b6"
     },
@@ -1219,6 +1740,17 @@
         "company-ak-branding-web-design": 1
       },
       "evidence_count": 1,
+      "evidence": [
+        {
+          "company_id": "company-ak-branding-web-design",
+          "role_id": "role-ak-branding-web-design-1",
+          "source": "master_resume.json:work_experience:ak-branding-web-design:bullet:4",
+          "descriptions": {
+            "pt": "Lançamento de E-Commerce de 0 a 1: Desenvolveu loja virtual do zero que atingiu R$ 10.000 em faturamento nos primeiros 3 meses de operação de forma 100% orgânica (R$0 em ads), alavancada apenas por posicionamento estratégico no Instagram.",
+            "en": "0-to-1 E-Commerce Monetization: Built a custom e-commerce platform from scratch that achieved R$ 10,000 in revenue within its first 3 months operating 100% organically ($0 ad spend) driven purely by strategic Instagram positioning."
+          }
+        }
+      ],
       "size": 0.58,
       "color": "#4a9eff"
     },
@@ -1241,6 +1773,17 @@
         "company-munzner": 1
       },
       "evidence_count": 1,
+      "evidence": [
+        {
+          "company_id": "company-munzner",
+          "role_id": "role-munzner-1",
+          "source": "master_resume.json:work_experience:munzner:bullet:1",
+          "descriptions": {
+            "pt": "Lançamento de Infoproduto (0 a 1): Idealizou e lançou o 1º curso digital da empresa (MasterStudy LMS/WordPress) como um produto de entrada (tripwire) para a metodologia pioneira Thinking Environment. Conquistou 50 vendas nos primeiros 2 meses com ROI de 1.0x a 1.5x, validando a aquisição de leads de forma autossustentável.",
+            "en": "0-to-1 Infoproduct & Tripwire ROI Strategy: Designed and launched the brand's first digital course (MasterStudy LMS/WordPress) as an entry-level tripwire offer for the pioneer Thinking Environment methodology. Secured 50 sales in the first 2 months with a 1.0x-1.5x ROI, self-sustaining customer acquisition."
+          }
+        }
+      ],
       "size": 0.58,
       "color": "#38bdf8"
     },
@@ -1263,6 +1806,17 @@
         "company-munzner": 1
       },
       "evidence_count": 1,
+      "evidence": [
+        {
+          "company_id": "company-munzner",
+          "role_id": "role-munzner-1",
+          "source": "master_resume.json:work_experience:munzner:bullet:2",
+          "descriptions": {
+            "pt": "Funil Automatizado de High-Ticket (~R$ 50k em Receita): Estruturou funil de e-mail marketing automatizado de 10 etapas (Bitrix24/Sendpulse) que atraiu 10.000+ acessos e converteu 10 matriculados em formações presenciais de R$ 5.000 (~R$ 50k em receita de tickets altos gerada por automação).",
+            "en": "Automated High-Ticket Nurturing Funnel (~R$ 50k Revenue): Built an automated 10-stage email nurturing funnel (Bitrix24/Sendpulse) attracting 10,000+ visits, converting ~10 enrollments for R$ 5,000 in-person masterclasses (~R$ 50k high-ticket revenue driven via automation)."
+          }
+        }
+      ],
       "size": 0.58,
       "color": "#00d4aa"
     },
@@ -1285,6 +1839,17 @@
         "company-conversas-brasileiras": 1
       },
       "evidence_count": 1,
+      "evidence": [
+        {
+          "company_id": "company-conversas-brasileiras",
+          "role_id": "role-conversas-brasileiras-1",
+          "source": "master_resume.json:work_experience:conversas-brasileiras:bullet:5",
+          "descriptions": {
+            "pt": "Experimentação de Modelos de Negócio: Concepção e teste prático de formatos de monetização consciente (como precificação baseada em valor percebido / pay-what-you-want), gerando aprendizados valiosos sobre comportamento de consumo, sustentabilidade financeira de projetos e validação de hipóteses de mercado.",
+            "en": "Business Model Experimentation: Conceptualized and practically tested conscious monetization formats (such as value-perceived pricing / pay-what-you-want), generating valuable insights on consumer behavior, project financial sustainability, and market hypothesis validation."
+          }
+        }
+      ],
       "size": 0.58,
       "color": "#4a9eff"
     },
@@ -1307,6 +1872,26 @@
         "company-conversas-brasileiras": 2
       },
       "evidence_count": 2,
+      "evidence": [
+        {
+          "company_id": "company-conversas-brasileiras",
+          "role_id": "role-conversas-brasileiras-1",
+          "source": "master_resume.json:work_experience:conversas-brasileiras:bullet:1",
+          "descriptions": {
+            "pt": "O 'Conversas Brasileiras' foi uma iniciativa social e experimental voltada para a criação de espaços de diálogo, fomento ao pensamento crítico e ativação da inteligência coletiva através de metodologias de facilitação humana e inovação social.",
+            "en": "The 'Conversas Brasileiras' was a social and experimental initiative aimed at creating dialogue spaces, fostering critical thinking, and activating collective intelligence through human facilitation methodologies and social innovation."
+          }
+        },
+        {
+          "company_id": "company-conversas-brasileiras",
+          "role_id": "role-conversas-brasileiras-1",
+          "source": "master_resume.json:work_experience:conversas-brasileiras:bullet:3",
+          "descriptions": {
+            "pt": "Facilitação e Inteligência Coletiva: Planejamento e moderação de 5 edições de rodas de conversa pela cidade (média de 20 participantes por encontro, engajando ~100 pessoas) utilizando abordagens de Art of Hosting (A Arte de Anfitriar) e Thinking Environment, aplicando dinâmicas como Aquário (Fishbowl) e círculos de diálogo.",
+            "en": "Facilitation & Collective Intelligence: Planned and moderated 5 community event editions across the city (average of 20 participants per meeting, engaging 100+ total attendees) utilizing Art of Hosting and Thinking Environment frameworks (Fishbowl dynamics and dialogue circles)."
+          }
+        }
+      ],
       "size": 0.66,
       "color": "#34d399"
     },
@@ -1329,6 +1914,17 @@
         "company-alvesa-transportes-log-stica-ltda": 1
       },
       "evidence_count": 1,
+      "evidence": [
+        {
+          "company_id": "company-alvesa-transportes-log-stica-ltda",
+          "role_id": "role-alvesa-transportes-log-stica-ltda-1",
+          "source": "master_resume.json:work_experience:alvesa-transportes-log-stica-ltda:bullet:1",
+          "descriptions": {
+            "pt": "Suporte às operações financeiras, incluindo controle de receitas e despesas, folha de pagamento, impostos e contas a pagar.",
+            "en": "Supported financial operations, including controlling revenues and expenses, payroll, taxes, and accounts payable."
+          }
+        }
+      ],
       "size": 0.58,
       "color": "#38bdf8"
     },
@@ -1351,6 +1947,17 @@
         "company-meu-barzin-startup": 1
       },
       "evidence_count": 1,
+      "evidence": [
+        {
+          "company_id": "company-meu-barzin-startup",
+          "role_id": "role-meu-barzin-startup-1",
+          "source": "master_resume.json:work_experience:meu-barzin-startup:bullet:5",
+          "descriptions": {
+            "pt": "Geração de Demanda e Métricas: Captou 505 leads qualificados de topo de funil com campanhas orgânicas e anúncios (além de crescer o Instagram para 2.000+ seguidores), alcançando uma taxa de 22,3% de usuários altamente engajados (conversando 4+ vezes com a IA).",
+            "en": "Demand Gen & Metrics: Captured 505 qualified top-of-funil leads via organic and paid campaigns (growing Instagram to 2,000+ followers), achieving a 22.3% high-engagement rate (users interacting 4+ times with the AI)."
+          }
+        }
+      ],
       "size": 0.58,
       "color": "#00d4aa"
     },
@@ -1373,6 +1980,17 @@
         "company-wipro": 1
       },
       "evidence_count": 1,
+      "evidence": [
+        {
+          "company_id": "company-wipro",
+          "role_id": "role-wipro-1",
+          "source": "master_resume.json:work_experience:wipro:bullet:13",
+          "descriptions": {
+            "pt": "Segurança e Governança de Dados: Participou ativamente da estruturação do Plano de Continuidade de Negócios (BCP) e elaborou manuais de governança sobre políticas de compartilhamento de dados externos em ambiente de alta restrição. Recebeu capacitações contínuas de Wipro/Meta em segurança da informação (phishing, engenharia social, tailgating e compliance).",
+            "en": "Data Security & Compliance Governance: Contributed to the development of the Business Continuity Plan (BCP) and drafted internal governance manuals detailing data sharing limits under highly restricted settings. Trained extensively by Wipro/Meta in policy compliance and information security (anti-phishing, social engineering prevention, and physical security)."
+          }
+        }
+      ],
       "size": 0.58,
       "color": "#f472b6"
     },
@@ -1397,6 +2015,26 @@
         "company-meu-barzin-startup": 1
       },
       "evidence_count": 2,
+      "evidence": [
+        {
+          "company_id": "company-meu-barzin-startup",
+          "role_id": "role-meu-barzin-startup-1",
+          "source": "master_resume.json:work_experience:meu-barzin-startup:bullet:5",
+          "descriptions": {
+            "pt": "Geração de Demanda e Métricas: Captou 505 leads qualificados de topo de funil com campanhas orgânicas e anúncios (além de crescer o Instagram para 2.000+ seguidores), alcançando uma taxa de 22,3% de usuários altamente engajados (conversando 4+ vezes com a IA).",
+            "en": "Demand Gen & Metrics: Captured 505 qualified top-of-funil leads via organic and paid campaigns (growing Instagram to 2,000+ followers), achieving a 22.3% high-engagement rate (users interacting 4+ times with the AI)."
+          }
+        },
+        {
+          "company_id": "company-ak-branding-web-design",
+          "role_id": "role-ak-branding-web-design-1",
+          "source": "master_resume.json:work_experience:ak-branding-web-design:bullet:3",
+          "descriptions": {
+            "pt": "Experimentação de Growth: Planejou e executou testes A/B em campanhas de anúncios, landing pages e experiências web para validar hipóteses de aquisição e conversão, orientando ajustes de criativos, mensagens e jornadas digitais.",
+            "en": "Growth Experimentation: Planned and executed A/B tests across paid campaigns, landing pages, and web experiences to validate acquisition and conversion hypotheses, informing adjustments to creative, messaging, and digital journeys."
+          }
+        }
+      ],
       "size": 0.66,
       "color": "#00d4aa"
     },
@@ -1419,6 +2057,17 @@
         "company-munzner": 1
       },
       "evidence_count": 1,
+      "evidence": [
+        {
+          "company_id": "company-munzner",
+          "role_id": "role-munzner-1",
+          "source": "master_resume.json:work_experience:munzner:bullet:2",
+          "descriptions": {
+            "pt": "Funil Automatizado de High-Ticket (~R$ 50k em Receita): Estruturou funil de e-mail marketing automatizado de 10 etapas (Bitrix24/Sendpulse) que atraiu 10.000+ acessos e converteu 10 matriculados em formações presenciais de R$ 5.000 (~R$ 50k em receita de tickets altos gerada por automação).",
+            "en": "Automated High-Ticket Nurturing Funnel (~R$ 50k Revenue): Built an automated 10-stage email nurturing funnel (Bitrix24/Sendpulse) attracting 10,000+ visits, converting ~10 enrollments for R$ 5,000 in-person masterclasses (~R$ 50k high-ticket revenue driven via automation)."
+          }
+        }
+      ],
       "size": 0.58,
       "color": "#ef4444"
     },
@@ -1441,6 +2090,17 @@
         "company-munzner": 1
       },
       "evidence_count": 1,
+      "evidence": [
+        {
+          "company_id": "company-munzner",
+          "role_id": "role-munzner-1",
+          "source": "master_resume.json:work_experience:munzner:bullet:4",
+          "descriptions": {
+            "pt": "Inbound Marketing e SEO Orgânico: Redigiu ~10 artigos estratégicos no blog alinhados à metodologia Thinking Environment, gerando ~1.000 visitas orgânicas e ~100 leads qualificados de alto valor (taxa de conversão visitor-to-lead de ~10%).",
+            "en": "Inbound Organic SEO & Content Marketing: Authored ~10 strategic technical blog articles on the Thinking Environment methodology, generating ~1,000 organic visits and ~100 qualified high-value leads (~10% visitor-to-lead conversion rate)."
+          }
+        }
+      ],
       "size": 0.58,
       "color": "#00d4aa"
     },
@@ -1463,6 +2123,17 @@
         "company-munzner": 1
       },
       "evidence_count": 1,
+      "evidence": [
+        {
+          "company_id": "company-munzner",
+          "role_id": "role-munzner-1",
+          "source": "master_resume.json:work_experience:munzner:bullet:1",
+          "descriptions": {
+            "pt": "Lançamento de Infoproduto (0 a 1): Idealizou e lançou o 1º curso digital da empresa (MasterStudy LMS/WordPress) como um produto de entrada (tripwire) para a metodologia pioneira Thinking Environment. Conquistou 50 vendas nos primeiros 2 meses com ROI de 1.0x a 1.5x, validando a aquisição de leads de forma autossustentável.",
+            "en": "0-to-1 Infoproduct & Tripwire ROI Strategy: Designed and launched the brand's first digital course (MasterStudy LMS/WordPress) as an entry-level tripwire offer for the pioneer Thinking Environment methodology. Secured 50 sales in the first 2 months with a 1.0x-1.5x ROI, self-sustaining customer acquisition."
+          }
+        }
+      ],
       "size": 0.58,
       "color": "#00d4aa"
     },
@@ -1485,6 +2156,17 @@
         "company-ak-branding-web-design": 1
       },
       "evidence_count": 1,
+      "evidence": [
+        {
+          "company_id": "company-ak-branding-web-design",
+          "role_id": "role-ak-branding-web-design-1",
+          "source": "master_resume.json:work_experience:ak-branding-web-design:bullet:2",
+          "descriptions": {
+            "pt": "Otimização de Conversão (CRO) e Chatbots: Implementou interfaces de chatbot e fluxos de UX que elevaram a captação de leads de 8 para 20-30 contatos/mês (+250%) em sites corporativos, além de criar landing pages para a construção civil que geravam 5 leads qualificados/dia.",
+            "en": "Conversion Rate Optimization (CRO) & Chatbots: Implemented chatbot interfaces and UX flows that boosted monthly lead capture from 8 to 20-30 contacts/month (+250%) on client websites, and designed real estate LPs generating 5 qualified leads/day."
+          }
+        }
+      ],
       "size": 0.58,
       "color": "#00d4aa"
     },
@@ -1507,6 +2189,17 @@
         "company-wipro": 1
       },
       "evidence_count": 1,
+      "evidence": [
+        {
+          "company_id": "company-wipro",
+          "role_id": "role-wipro-1",
+          "source": "master_resume.json:work_experience:wipro:bullet:3",
+          "descriptions": {
+            "pt": "Liderança dos pilares de Sales Excellence e Sales Productivity, traduzindo atualizações do portfólio de produtos da Meta em propostas de valor claras, pitches comerciais e frameworks práticos de vendas para o time do front.",
+            "en": "Lead Sales Excellence and Sales Productivity pillars, translating Meta product portfolio updates into clear value propositions, sales pitches, and practical commercial frameworks for frontline teams."
+          }
+        }
+      ],
       "size": 0.58,
       "color": "#38bdf8"
     },
@@ -1529,6 +2222,17 @@
         "company-meu-barzin-startup": 1
       },
       "evidence_count": 1,
+      "evidence": [
+        {
+          "company_id": "company-meu-barzin-startup",
+          "role_id": "role-meu-barzin-startup-1",
+          "source": "master_resume.json:work_experience:meu-barzin-startup:bullet:7",
+          "descriptions": {
+            "pt": "Mapeamento de Gargalos de Conversão: Conduziu entrevistas qualitativas e mapeamentos de funil que identificaram que a falta de liquidez de parceiros na oferta e atritos de latência de API (43,9% de drop na primeira mensagem) eram os principais impeditivos para a conversão de assinaturas.",
+            "en": "Conversion Bottleneck Mapping: Conducted qualitative user interviews and funnel mappings that revealed that lack of merchant partner density (supply liquidity) and API processing latency (43.9% first-message dropout) were the primary conversion barriers for subscription growth."
+          }
+        }
+      ],
       "size": 0.58,
       "color": "#4a9eff"
     },
@@ -1551,6 +2255,17 @@
         "company-ak-branding-web-design": 1
       },
       "evidence_count": 1,
+      "evidence": [
+        {
+          "company_id": "company-ak-branding-web-design",
+          "role_id": "role-ak-branding-web-design-1",
+          "source": "master_resume.json:work_experience:ak-branding-web-design:bullet:5",
+          "descriptions": {
+            "pt": "Conformidade LGPD em 100% dos Projetos: Estruturou a adequação técnica à Lei Geral de Proteção de Dados em todos os sites desenvolvidos, criando políticas de privacidade, termos de uso personalizados e sistemas de consentimento de cookies.",
+            "en": "100% Technical LGPD Compliance: Implemented data protection frameworks across 100% of delivered client websites, authoring custom privacy policies, terms of use, and cookie consent mechanisms."
+          }
+        }
+      ],
       "size": 0.58,
       "color": "#f472b6"
     },
@@ -1573,6 +2288,17 @@
         "company-alvesa-transportes-log-stica-ltda": 1
       },
       "evidence_count": 1,
+      "evidence": [
+        {
+          "company_id": "company-alvesa-transportes-log-stica-ltda",
+          "role_id": "role-alvesa-transportes-log-stica-ltda-1",
+          "source": "master_resume.json:work_experience:alvesa-transportes-log-stica-ltda:bullet:2",
+          "descriptions": {
+            "pt": "Coordenação de cronogramas logísticos, rastreamento de cargas e atribuição de motoristas.",
+            "en": "Coordinated logistical schedules, tracked cargo, and assigned drivers."
+          }
+        }
+      ],
       "size": 0.58,
       "color": "#38bdf8"
     },
@@ -1597,6 +2323,35 @@
         "company-wipro": 2
       },
       "evidence_count": 3,
+      "evidence": [
+        {
+          "company_id": "company-wipro",
+          "role_id": "role-wipro-1",
+          "source": "master_resume.json:work_experience:wipro:bullet:1",
+          "descriptions": {
+            "pt": "Responsável pela execução de ativações de enablement, estratégias de adoção e posicionamento prático de produtos para impulsionar a produtividade de vendas e o crescimento de receita no Projeto Libra (Meta).",
+            "en": "Responsible for executing enablement activations, adoption strategies, and tactical product positioning to drive sales productivity and revenue growth for Project Libra (Meta)."
+          }
+        },
+        {
+          "company_id": "company-wipro",
+          "role_id": "role-wipro-1",
+          "source": "master_resume.json:work_experience:wipro:bullet:2",
+          "descriptions": {
+            "pt": "Referência técnica na operação em estratégias de anúncios na Meta, atuando na absorção de materiais oficiais do cliente e replicação estratégica de inovações de produto e Go-to-Market (GTM) para mais de 150 Meta Marketing Pros.",
+            "en": "Act as the operation's technical reference for Meta ad strategies, absorbing official client materials and strategically replicating product innovations and Go-to-Market (GTM) strategies for 150+ Meta Marketing Pros."
+          }
+        },
+        {
+          "company_id": "company-alvesa-transportes-log-stica-ltda",
+          "role_id": "role-alvesa-transportes-log-stica-ltda-1",
+          "source": "master_resume.json:work_experience:alvesa-transportes-log-stica-ltda:bullet:3",
+          "descriptions": {
+            "pt": "Apoio ao marketing por meio da criação de conteúdo para redes sociais e coordenação básica de campanhas.",
+            "en": "Supported marketing efforts by creating social media content and coordinating basic campaigns."
+          }
+        }
+      ],
       "size": 0.74,
       "color": "#00d4aa"
     },
@@ -1619,6 +2374,17 @@
         "company-wipro": 1
       },
       "evidence_count": 1,
+      "evidence": [
+        {
+          "company_id": "company-wipro",
+          "role_id": "role-wipro-1",
+          "source": "master_resume.json:work_experience:wipro:bullet:8",
+          "descriptions": {
+            "pt": "Implementação de metodologias de vendas e frameworks estruturados, garantindo o alinhamento da operação com o framework OCIR e com a metodologia própria de qualidade da Meta.",
+            "en": "Implement structured sales methodologies and frameworks, ensuring operational alignment with the OCIR framework and Meta's proprietary quality assurance methodology."
+          }
+        }
+      ],
       "size": 0.58,
       "color": "#ef4444"
     },
@@ -1641,6 +2407,17 @@
         "company-meu-barzin-startup": 1
       },
       "evidence_count": 1,
+      "evidence": [
+        {
+          "company_id": "company-meu-barzin-startup",
+          "role_id": "role-meu-barzin-startup-1",
+          "source": "master_resume.json:work_experience:meu-barzin-startup:bullet:5",
+          "descriptions": {
+            "pt": "Geração de Demanda e Métricas: Captou 505 leads qualificados de topo de funil com campanhas orgânicas e anúncios (além de crescer o Instagram para 2.000+ seguidores), alcançando uma taxa de 22,3% de usuários altamente engajados (conversando 4+ vezes com a IA).",
+            "en": "Demand Gen & Metrics: Captured 505 qualified top-of-funil leads via organic and paid campaigns (growing Instagram to 2,000+ followers), achieving a 22.3% high-engagement rate (users interacting 4+ times with the AI)."
+          }
+        }
+      ],
       "size": 0.58,
       "color": "#ff8c42"
     },
@@ -1667,6 +2444,35 @@
         "company-munzner": 1
       },
       "evidence_count": 3,
+      "evidence": [
+        {
+          "company_id": "company-meu-barzin-startup",
+          "role_id": "role-meu-barzin-startup-1",
+          "source": "master_resume.json:work_experience:meu-barzin-startup:bullet:1",
+          "descriptions": {
+            "pt": "Concepção do MVP: Idealizou o ecossistema conversacional no WhatsApp integrado ao 'Meu Barzin Pass' (assinatura mensal de R$ 19,90 com benefício 'Compre 1, Leve 2' em bares locais), desenhando o modelo de negócios e validando a monetização com parceiros B2B.",
+            "en": "MVP Conception: Conceptualized the conversational WhatsApp ecosystem integrated with 'Meu Barzin Pass' (R$19.90 monthly subscription with buy-one-get-one deals at local bars), designing the monetization business model and validating B2B partnership value."
+          }
+        },
+        {
+          "company_id": "company-ak-branding-web-design",
+          "role_id": "role-ak-branding-web-design-1",
+          "source": "master_resume.json:work_experience:ak-branding-web-design:bullet:4",
+          "descriptions": {
+            "pt": "Lançamento de E-Commerce de 0 a 1: Desenvolveu loja virtual do zero que atingiu R$ 10.000 em faturamento nos primeiros 3 meses de operação de forma 100% orgânica (R$0 em ads), alavancada apenas por posicionamento estratégico no Instagram.",
+            "en": "0-to-1 E-Commerce Monetization: Built a custom e-commerce platform from scratch that achieved R$ 10,000 in revenue within its first 3 months operating 100% organically ($0 ad spend) driven purely by strategic Instagram positioning."
+          }
+        },
+        {
+          "company_id": "company-munzner",
+          "role_id": "role-munzner-1",
+          "source": "master_resume.json:work_experience:munzner:bullet:3",
+          "descriptions": {
+            "pt": "Mensuração de Monetização: Acompanhou canais, caminhos de aquisição e dados de CRM para avaliar conversão, receita e ROI do funil, orientando ajustes de campanhas, conteúdo e estratégias de monetização.",
+            "en": "Monetization Measurement: Tracked channels, acquisition paths, and CRM data to evaluate funnel conversion, revenue, and ROI, guiding adjustments to campaigns, content, and monetization strategies."
+          }
+        }
+      ],
       "size": 0.74,
       "color": "#4a9eff"
     },
@@ -1689,6 +2495,17 @@
         "company-munzner": 1
       },
       "evidence_count": 1,
+      "evidence": [
+        {
+          "company_id": "company-munzner",
+          "role_id": "role-munzner-1",
+          "source": "master_resume.json:work_experience:munzner:bullet:5",
+          "descriptions": {
+            "pt": "Especialização na metodologia global Thinking Environment para a construção de narrativas técnicas de alto impacto, aplicando os conceitos de escuta e facilitação na criação de conteúdos estratégicos para mídias sociais, posicionamento institucional e anúncios pagos.",
+            "en": "Specialized in the global Thinking Environment methodology to build high-impact technical narratives, applying active listening and facilitation concepts to create strategic content for social media, brand positioning, and paid media."
+          }
+        }
+      ],
       "size": 0.58,
       "color": "#00d4aa"
     },
@@ -1711,6 +2528,17 @@
         "company-meu-barzin-startup": 1
       },
       "evidence_count": 1,
+      "evidence": [
+        {
+          "company_id": "company-meu-barzin-startup",
+          "role_id": "role-meu-barzin-startup-1",
+          "source": "master_resume.json:work_experience:meu-barzin-startup:bullet:4",
+          "descriptions": {
+            "pt": "Bancos de Dados e CRM: Estruturou bases e protótipos de CRM utilizando Supabase/PostgreSQL e NocoDB, trabalhando com modelagem, organização e exploração de dados para apoiar operações e produtos digitais.",
+            "en": "Databases and CRM: Built database structures and CRM prototypes using Supabase/PostgreSQL and NocoDB, working with data modeling, organization, and exploration to support digital products and operations."
+          }
+        }
+      ],
       "size": 0.58,
       "color": "#ff8c42"
     },
@@ -1733,6 +2561,17 @@
         "company-wipro": 1
       },
       "evidence_count": 1,
+      "evidence": [
+        {
+          "company_id": "company-wipro",
+          "role_id": "role-wipro-1",
+          "source": "master_resume.json:work_experience:wipro:bullet:11",
+          "descriptions": {
+            "pt": "Governança Ágil e Squad de Treinamento: Participou do squad responsável pelo programa de capacitação, usando reuniões diárias, OKRs, roadmap e backlog para organizar tarefas semanais e priorizar demandas de clientes, gerentes, líderes e consultores internos.",
+            "en": "Agile Governance and Training Squad: Participated in the squad responsible for the enablement program, using daily meetings, OKRs, roadmap, and backlog to organize weekly tasks and prioritize requests from clients, managers, leaders, and internal consultants."
+          }
+        }
+      ],
       "size": 0.58,
       "color": "#38bdf8"
     },
@@ -1757,6 +2596,26 @@
         "company-wipro": 1
       },
       "evidence_count": 2,
+      "evidence": [
+        {
+          "company_id": "company-wipro",
+          "role_id": "role-wipro-1",
+          "source": "master_resume.json:work_experience:wipro:bullet:7",
+          "descriptions": {
+            "pt": "Aplicação de análise de causa raiz para identificar lacunas de conhecimento no time, desenhando planos de ação corretivos e construindo playbooks, scripts e materiais de suporte comercial.",
+            "en": "Apply root cause analysis to identify knowledge gaps within the team, designing corrective action plans and building playbooks, scripts, and sales enablement materials."
+          }
+        },
+        {
+          "company_id": "company-alvesa-transportes-log-stica-ltda",
+          "role_id": "role-alvesa-transportes-log-stica-ltda-1",
+          "source": "master_resume.json:work_experience:alvesa-transportes-log-stica-ltda:bullet:1",
+          "descriptions": {
+            "pt": "Suporte às operações financeiras, incluindo controle de receitas e despesas, folha de pagamento, impostos e contas a pagar.",
+            "en": "Supported financial operations, including controlling revenues and expenses, payroll, taxes, and accounts payable."
+          }
+        }
+      ],
       "size": 0.66,
       "color": "#38bdf8"
     },
@@ -1779,6 +2638,17 @@
         "company-ak-branding-web-design": 1
       },
       "evidence_count": 1,
+      "evidence": [
+        {
+          "company_id": "company-ak-branding-web-design",
+          "role_id": "role-ak-branding-web-design-1",
+          "source": "master_resume.json:work_experience:ak-branding-web-design:bullet:3",
+          "descriptions": {
+            "pt": "Experimentação de Growth: Planejou e executou testes A/B em campanhas de anúncios, landing pages e experiências web para validar hipóteses de aquisição e conversão, orientando ajustes de criativos, mensagens e jornadas digitais.",
+            "en": "Growth Experimentation: Planned and executed A/B tests across paid campaigns, landing pages, and web experiences to validate acquisition and conversion hypotheses, informing adjustments to creative, messaging, and digital journeys."
+          }
+        }
+      ],
       "size": 0.58,
       "color": "#00d4aa"
     },
@@ -1801,6 +2671,17 @@
         "company-conversas-brasileiras": 1
       },
       "evidence_count": 1,
+      "evidence": [
+        {
+          "company_id": "company-conversas-brasileiras",
+          "role_id": "role-conversas-brasileiras-1",
+          "source": "master_resume.json:work_experience:conversas-brasileiras:bullet:4",
+          "descriptions": {
+            "pt": "Desenvolvimento de Negócios e Parcerias B2B: Prospecção e negociação estratégica com espaços locais, como co-workings e centros culturais, garantindo a infraestrutura necessária para os encontros através de parcerias de benefício mútuo.",
+            "en": "Business Development & B2B Partnerships: Strategic prospecting and negotiation with local venues like co-workings and cultural centers, securing the necessary infrastructure for meetings through mutual-benefit partnerships."
+          }
+        }
+      ],
       "size": 0.58,
       "color": "#ef4444"
     },
@@ -1823,6 +2704,17 @@
         "company-wipro": 1
       },
       "evidence_count": 1,
+      "evidence": [
+        {
+          "company_id": "company-wipro",
+          "role_id": "role-wipro-1",
+          "source": "master_resume.json:work_experience:wipro:bullet:7",
+          "descriptions": {
+            "pt": "Aplicação de análise de causa raiz para identificar lacunas de conhecimento no time, desenhando planos de ação corretivos e construindo playbooks, scripts e materiais de suporte comercial.",
+            "en": "Apply root cause analysis to identify knowledge gaps within the team, designing corrective action plans and building playbooks, scripts, and sales enablement materials."
+          }
+        }
+      ],
       "size": 0.58,
       "color": "#ef4444"
     },
@@ -1845,6 +2737,17 @@
         "company-wipro": 1
       },
       "evidence_count": 1,
+      "evidence": [
+        {
+          "company_id": "company-wipro",
+          "role_id": "role-wipro-1",
+          "source": "master_resume.json:work_experience:wipro:bullet:9",
+          "descriptions": {
+            "pt": "Liderança do Next Level Bootcamp (Piloto): Idealizou, gamificou (badges digitais) e governou o programa piloto para 12 consultores com 100% de conclusão. Reduziu a curva de ramp-up e tempo de produtividade (time-to-productivity) dos novos contratados de 6 para 3 meses (-50%), alcançando 90%+ de nota de qualidade nas primeiras auditorias e 90% de satisfação dos consultores (CSAT), convertendo os participantes em Top Performers.",
+            "en": "Next Level Bootcamp Pilot & Ramp-up Reduction: Designed, gamified (digital badges), and governed the pilot enablement program for 12 consultants with 100% completion. Reduced new hire ramp-up time from 6 to 3 months (-50%), achieving 90%+ quality audit scores on initial reviews, 90% consultant CSAT, and converting all graduating consultants into operational Top Performers."
+          }
+        }
+      ],
       "size": 0.58,
       "color": "#38bdf8"
     },
@@ -1867,6 +2770,17 @@
         "company-meu-barzin-startup": 1
       },
       "evidence_count": 1,
+      "evidence": [
+        {
+          "company_id": "company-meu-barzin-startup",
+          "role_id": "role-meu-barzin-startup-1",
+          "source": "master_resume.json:work_experience:meu-barzin-startup:bullet:4",
+          "descriptions": {
+            "pt": "Bancos de Dados e CRM: Estruturou bases e protótipos de CRM utilizando Supabase/PostgreSQL e NocoDB, trabalhando com modelagem, organização e exploração de dados para apoiar operações e produtos digitais.",
+            "en": "Databases and CRM: Built database structures and CRM prototypes using Supabase/PostgreSQL and NocoDB, working with data modeling, organization, and exploration to support digital products and operations."
+          }
+        }
+      ],
       "size": 0.58,
       "color": "#ff8c42"
     },
@@ -1889,6 +2803,17 @@
         "company-wipro": 1
       },
       "evidence_count": 1,
+      "evidence": [
+        {
+          "company_id": "company-wipro",
+          "role_id": "role-wipro-1",
+          "source": "master_resume.json:work_experience:wipro:bullet:12",
+          "descriptions": {
+            "pt": "Relatórios de Desempenho: Parceria direta com a equipe de inteligência de dados (MIS) para escopar, solicitar e explorar painéis automatizados no Power BI e Excel, interpretando métricas de comportamento para subsidiar decisões críticas e otimizar funis.",
+            "en": "Performance Reporting: Partnered with the MIS data team to leverage Power BI and Excel dashboards, translating complex operational data into actionable progress reports and performance reviews for senior leadership."
+          }
+        }
+      ],
       "size": 0.58,
       "color": "#ff8c42"
     },
@@ -1911,6 +2836,17 @@
         "company-conversas-brasileiras": 1
       },
       "evidence_count": 1,
+      "evidence": [
+        {
+          "company_id": "company-conversas-brasileiras",
+          "role_id": "role-conversas-brasileiras-1",
+          "source": "master_resume.json:work_experience:conversas-brasileiras:bullet:5",
+          "descriptions": {
+            "pt": "Experimentação de Modelos de Negócio: Concepção e teste prático de formatos de monetização consciente (como precificação baseada em valor percebido / pay-what-you-want), gerando aprendizados valiosos sobre comportamento de consumo, sustentabilidade financeira de projetos e validação de hipóteses de mercado.",
+            "en": "Business Model Experimentation: Conceptualized and practically tested conscious monetization formats (such as value-perceived pricing / pay-what-you-want), generating valuable insights on consumer behavior, project financial sustainability, and market hypothesis validation."
+          }
+        }
+      ],
       "size": 0.58,
       "color": "#4a9eff"
     },
@@ -1933,6 +2869,17 @@
         "company-wipro": 1
       },
       "evidence_count": 1,
+      "evidence": [
+        {
+          "company_id": "company-wipro",
+          "role_id": "role-wipro-1",
+          "source": "master_resume.json:work_experience:wipro:bullet:11",
+          "descriptions": {
+            "pt": "Governança Ágil e Squad de Treinamento: Participou do squad responsável pelo programa de capacitação, usando reuniões diárias, OKRs, roadmap e backlog para organizar tarefas semanais e priorizar demandas de clientes, gerentes, líderes e consultores internos.",
+            "en": "Agile Governance and Training Squad: Participated in the squad responsible for the enablement program, using daily meetings, OKRs, roadmap, and backlog to organize weekly tasks and prioritize requests from clients, managers, leaders, and internal consultants."
+          }
+        }
+      ],
       "size": 0.58,
       "color": "#38bdf8"
     },
@@ -1955,6 +2902,17 @@
         "company-meu-barzin-startup": 1
       },
       "evidence_count": 1,
+      "evidence": [
+        {
+          "company_id": "company-meu-barzin-startup",
+          "role_id": "role-meu-barzin-startup-1",
+          "source": "master_resume.json:work_experience:meu-barzin-startup:bullet:2",
+          "descriptions": {
+            "pt": "Arquitetura Conversacional e UX: Desenhou fluxos conversacionais inteligentes via ManyChat e n8n, integrando RAG e regras de 'Alucinação Zero' para que o agente (mascote Capizin, Sommelier de Bares) fizesse buscas ricas de bares locais sem inventar dados.",
+            "en": "Conversational Architecture & UX: Designed intelligent conversation flows via ManyChat and n8n, integrating RAG and 'Zero Hallucination' rules to enable the AI agent (mascot Capizin, Bar Sommelier) to search and recommend venues without errors."
+          }
+        }
+      ],
       "size": 0.58,
       "color": "#4a9eff"
     },
@@ -1977,6 +2935,17 @@
         "company-wipro": 1
       },
       "evidence_count": 1,
+      "evidence": [
+        {
+          "company_id": "company-wipro",
+          "role_id": "role-wipro-1",
+          "source": "master_resume.json:work_experience:wipro:bullet:1",
+          "descriptions": {
+            "pt": "Responsável pela execução de ativações de enablement, estratégias de adoção e posicionamento prático de produtos para impulsionar a produtividade de vendas e o crescimento de receita no Projeto Libra (Meta).",
+            "en": "Responsible for executing enablement activations, adoption strategies, and tactical product positioning to drive sales productivity and revenue growth for Project Libra (Meta)."
+          }
+        }
+      ],
       "size": 0.58,
       "color": "#ef4444"
     },
@@ -1999,6 +2968,17 @@
         "company-meu-barzin-startup": 1
       },
       "evidence_count": 1,
+      "evidence": [
+        {
+          "company_id": "company-meu-barzin-startup",
+          "role_id": "role-meu-barzin-startup-1",
+          "source": "master_resume.json:work_experience:meu-barzin-startup:bullet:1",
+          "descriptions": {
+            "pt": "Concepção do MVP: Idealizou o ecossistema conversacional no WhatsApp integrado ao 'Meu Barzin Pass' (assinatura mensal de R$ 19,90 com benefício 'Compre 1, Leve 2' em bares locais), desenhando o modelo de negócios e validando a monetização com parceiros B2B.",
+            "en": "MVP Conception: Conceptualized the conversational WhatsApp ecosystem integrated with 'Meu Barzin Pass' (R$19.90 monthly subscription with buy-one-get-one deals at local bars), designing the monetization business model and validating B2B partnership value."
+          }
+        }
+      ],
       "size": 0.58,
       "color": "#4a9eff"
     },
@@ -2021,6 +3001,17 @@
         "company-wipro": 1
       },
       "evidence_count": 1,
+      "evidence": [
+        {
+          "company_id": "company-wipro",
+          "role_id": "role-wipro-1",
+          "source": "master_resume.json:work_experience:wipro:bullet:9",
+          "descriptions": {
+            "pt": "Liderança do Next Level Bootcamp (Piloto): Idealizou, gamificou (badges digitais) e governou o programa piloto para 12 consultores com 100% de conclusão. Reduziu a curva de ramp-up e tempo de produtividade (time-to-productivity) dos novos contratados de 6 para 3 meses (-50%), alcançando 90%+ de nota de qualidade nas primeiras auditorias e 90% de satisfação dos consultores (CSAT), convertendo os participantes em Top Performers.",
+            "en": "Next Level Bootcamp Pilot & Ramp-up Reduction: Designed, gamified (digital badges), and governed the pilot enablement program for 12 consultants with 100% completion. Reduced new hire ramp-up time from 6 to 3 months (-50%), achieving 90%+ quality audit scores on initial reviews, 90% consultant CSAT, and converting all graduating consultants into operational Top Performers."
+          }
+        }
+      ],
       "size": 0.58,
       "color": "#38bdf8"
     },
@@ -2043,6 +3034,17 @@
         "company-wipro": 1
       },
       "evidence_count": 1,
+      "evidence": [
+        {
+          "company_id": "company-wipro",
+          "role_id": "role-wipro-1",
+          "source": "master_resume.json:work_experience:wipro:bullet:5",
+          "descriptions": {
+            "pt": "Ownership de IA no CRM e Adoção Recorde: Liderou a ativação e adoção da IA nativa no CRM proprietário da Meta, do onboarding ao acompanhamento presencial side-by-side de 3 semanas. Elevou o uso de 4 para 10 prompts/dia por consultor (+150%), tornando a operação a #1 global em crescimento de adoção e melhorando a qualidade contextual dos prompts em chamadas ao vivo.",
+            "en": "AI CRM Ownership, Activation, and Record Adoption: Owned native AI activation and adoption within Meta's proprietary CRM, from onboarding through 3 weeks of hands-on side-by-side coaching. Increased usage from 4 to 10 prompts/day per consultant (+150%), making the operation #1 globally for adoption growth while improving contextual prompt quality during live calls."
+          }
+        }
+      ],
       "size": 0.58,
       "color": "#a855f7"
     },
@@ -2065,6 +3067,26 @@
         "company-wipro": 2
       },
       "evidence_count": 2,
+      "evidence": [
+        {
+          "company_id": "company-wipro",
+          "role_id": "role-wipro-1",
+          "source": "master_resume.json:work_experience:wipro:bullet:6",
+          "descriptions": {
+            "pt": "Acompanhamento, orientação e desenvolvimento contínuo dos agentes de marketing/vendas por meio de monitoria ativa, escuta de calls e feedbacks estruturados focados em performance comercial e excelência de atendimento.",
+            "en": "Conduct continuous monitoring, coaching, and development for marketing/sales agents through active quality assurance, call listening, and structured feedback loops focused on sales performance and service excellence."
+          }
+        },
+        {
+          "company_id": "company-wipro",
+          "role_id": "role-wipro-1",
+          "source": "master_resume.json:work_experience:wipro:bullet:8",
+          "descriptions": {
+            "pt": "Implementação de metodologias de vendas e frameworks estruturados, garantindo o alinhamento da operação com o framework OCIR e com a metodologia própria de qualidade da Meta.",
+            "en": "Implement structured sales methodologies and frameworks, ensuring operational alignment with the OCIR framework and Meta's proprietary quality assurance methodology."
+          }
+        }
+      ],
       "size": 0.66,
       "color": "#f472b6"
     },
@@ -2087,6 +3109,17 @@
         "company-wipro": 1
       },
       "evidence_count": 1,
+      "evidence": [
+        {
+          "company_id": "company-wipro",
+          "role_id": "role-wipro-1",
+          "source": "master_resume.json:work_experience:wipro:bullet:9",
+          "descriptions": {
+            "pt": "Liderança do Next Level Bootcamp (Piloto): Idealizou, gamificou (badges digitais) e governou o programa piloto para 12 consultores com 100% de conclusão. Reduziu a curva de ramp-up e tempo de produtividade (time-to-productivity) dos novos contratados de 6 para 3 meses (-50%), alcançando 90%+ de nota de qualidade nas primeiras auditorias e 90% de satisfação dos consultores (CSAT), convertendo os participantes em Top Performers.",
+            "en": "Next Level Bootcamp Pilot & Ramp-up Reduction: Designed, gamified (digital badges), and governed the pilot enablement program for 12 consultants with 100% completion. Reduced new hire ramp-up time from 6 to 3 months (-50%), achieving 90%+ quality audit scores on initial reviews, 90% consultant CSAT, and converting all graduating consultants into operational Top Performers."
+          }
+        }
+      ],
       "size": 0.58,
       "color": "#38bdf8"
     },
@@ -2109,6 +3142,17 @@
         "company-alvesa-transportes-log-stica-ltda": 1
       },
       "evidence_count": 1,
+      "evidence": [
+        {
+          "company_id": "company-alvesa-transportes-log-stica-ltda",
+          "role_id": "role-alvesa-transportes-log-stica-ltda-1",
+          "source": "master_resume.json:work_experience:alvesa-transportes-log-stica-ltda:bullet:4",
+          "descriptions": {
+            "pt": "Gestão de agendamentos administrativos, processos seletivos e atendimento ao cliente.",
+            "en": "Managed administrative appointments, selection processes, and customer service."
+          }
+        }
+      ],
       "size": 0.58,
       "color": "#38bdf8"
     },
@@ -2131,6 +3175,17 @@
         "company-munzner": 1
       },
       "evidence_count": 1,
+      "evidence": [
+        {
+          "company_id": "company-munzner",
+          "role_id": "role-munzner-1",
+          "source": "master_resume.json:work_experience:munzner:bullet:3",
+          "descriptions": {
+            "pt": "Mensuração de Monetização: Acompanhou canais, caminhos de aquisição e dados de CRM para avaliar conversão, receita e ROI do funil, orientando ajustes de campanhas, conteúdo e estratégias de monetização.",
+            "en": "Monetization Measurement: Tracked channels, acquisition paths, and CRM data to evaluate funnel conversion, revenue, and ROI, guiding adjustments to campaigns, content, and monetization strategies."
+          }
+        }
+      ],
       "size": 0.58,
       "color": "#ff8c42"
     },
@@ -2153,6 +3208,17 @@
         "company-wipro": 1
       },
       "evidence_count": 1,
+      "evidence": [
+        {
+          "company_id": "company-wipro",
+          "role_id": "role-wipro-1",
+          "source": "master_resume.json:work_experience:wipro:bullet:11",
+          "descriptions": {
+            "pt": "Governança Ágil e Squad de Treinamento: Participou do squad responsável pelo programa de capacitação, usando reuniões diárias, OKRs, roadmap e backlog para organizar tarefas semanais e priorizar demandas de clientes, gerentes, líderes e consultores internos.",
+            "en": "Agile Governance and Training Squad: Participated in the squad responsible for the enablement program, using daily meetings, OKRs, roadmap, and backlog to organize weekly tasks and prioritize requests from clients, managers, leaders, and internal consultants."
+          }
+        }
+      ],
       "size": 0.58,
       "color": "#38bdf8"
     },
@@ -2175,6 +3241,17 @@
         "company-munzner": 1
       },
       "evidence_count": 1,
+      "evidence": [
+        {
+          "company_id": "company-munzner",
+          "role_id": "role-munzner-1",
+          "source": "master_resume.json:work_experience:munzner:bullet:1",
+          "descriptions": {
+            "pt": "Lançamento de Infoproduto (0 a 1): Idealizou e lançou o 1º curso digital da empresa (MasterStudy LMS/WordPress) como um produto de entrada (tripwire) para a metodologia pioneira Thinking Environment. Conquistou 50 vendas nos primeiros 2 meses com ROI de 1.0x a 1.5x, validando a aquisição de leads de forma autossustentável.",
+            "en": "0-to-1 Infoproduct & Tripwire ROI Strategy: Designed and launched the brand's first digital course (MasterStudy LMS/WordPress) as an entry-level tripwire offer for the pioneer Thinking Environment methodology. Secured 50 sales in the first 2 months with a 1.0x-1.5x ROI, self-sustaining customer acquisition."
+          }
+        }
+      ],
       "size": 0.58,
       "color": "#ff8c42"
     },
@@ -2197,6 +3274,17 @@
         "company-wipro": 1
       },
       "evidence_count": 1,
+      "evidence": [
+        {
+          "company_id": "company-wipro",
+          "role_id": "role-wipro-1",
+          "source": "master_resume.json:work_experience:wipro:bullet:7",
+          "descriptions": {
+            "pt": "Aplicação de análise de causa raiz para identificar lacunas de conhecimento no time, desenhando planos de ação corretivos e construindo playbooks, scripts e materiais de suporte comercial.",
+            "en": "Apply root cause analysis to identify knowledge gaps within the team, designing corrective action plans and building playbooks, scripts, and sales enablement materials."
+          }
+        }
+      ],
       "size": 0.58,
       "color": "#f472b6"
     },
@@ -2221,6 +3309,35 @@
         "company-wipro": 2
       },
       "evidence_count": 3,
+      "evidence": [
+        {
+          "company_id": "company-wipro",
+          "role_id": "role-wipro-1",
+          "source": "master_resume.json:work_experience:wipro:bullet:6",
+          "descriptions": {
+            "pt": "Acompanhamento, orientação e desenvolvimento contínuo dos agentes de marketing/vendas por meio de monitoria ativa, escuta de calls e feedbacks estruturados focados em performance comercial e excelência de atendimento.",
+            "en": "Conduct continuous monitoring, coaching, and development for marketing/sales agents through active quality assurance, call listening, and structured feedback loops focused on sales performance and service excellence."
+          }
+        },
+        {
+          "company_id": "company-wipro",
+          "role_id": "role-wipro-1",
+          "source": "master_resume.json:work_experience:wipro:bullet:8",
+          "descriptions": {
+            "pt": "Implementação de metodologias de vendas e frameworks estruturados, garantindo o alinhamento da operação com o framework OCIR e com a metodologia própria de qualidade da Meta.",
+            "en": "Implement structured sales methodologies and frameworks, ensuring operational alignment with the OCIR framework and Meta's proprietary quality assurance methodology."
+          }
+        },
+        {
+          "company_id": "company-meu-barzin-startup",
+          "role_id": "role-meu-barzin-startup-1",
+          "source": "master_resume.json:work_experience:meu-barzin-startup:bullet:6",
+          "descriptions": {
+            "pt": "Desenvolvimento de Negócios B2B: Liderou a prospecção direta de bares de grande relevância em Curitiba, assinando parcerias de peso para o piloto de benefícios (como o Gal Gastrobar e o Officina).",
+            "en": "B2B Business Development: Led direct sales outreach and partner pitching, securing critical pilot partnerships with top Curitiba venues like Gal Gastrobar and Officina."
+          }
+        }
+      ],
       "size": 0.74,
       "color": "#ef4444"
     },
@@ -2243,6 +3360,26 @@
         "company-wipro": 2
       },
       "evidence_count": 2,
+      "evidence": [
+        {
+          "company_id": "company-wipro",
+          "role_id": "role-wipro-1",
+          "source": "master_resume.json:work_experience:wipro:bullet:1",
+          "descriptions": {
+            "pt": "Responsável pela execução de ativações de enablement, estratégias de adoção e posicionamento prático de produtos para impulsionar a produtividade de vendas e o crescimento de receita no Projeto Libra (Meta).",
+            "en": "Responsible for executing enablement activations, adoption strategies, and tactical product positioning to drive sales productivity and revenue growth for Project Libra (Meta)."
+          }
+        },
+        {
+          "company_id": "company-wipro",
+          "role_id": "role-wipro-1",
+          "source": "master_resume.json:work_experience:wipro:bullet:3",
+          "descriptions": {
+            "pt": "Liderança dos pilares de Sales Excellence e Sales Productivity, traduzindo atualizações do portfólio de produtos da Meta em propostas de valor claras, pitches comerciais e frameworks práticos de vendas para o time do front.",
+            "en": "Lead Sales Excellence and Sales Productivity pillars, translating Meta product portfolio updates into clear value propositions, sales pitches, and practical commercial frameworks for frontline teams."
+          }
+        }
+      ],
       "size": 0.66,
       "color": "#ef4444"
     },
@@ -2265,6 +3402,17 @@
         "company-wipro": 1
       },
       "evidence_count": 1,
+      "evidence": [
+        {
+          "company_id": "company-wipro",
+          "role_id": "role-wipro-1",
+          "source": "master_resume.json:work_experience:wipro:bullet:13",
+          "descriptions": {
+            "pt": "Segurança e Governança de Dados: Participou ativamente da estruturação do Plano de Continuidade de Negócios (BCP) e elaborou manuais de governança sobre políticas de compartilhamento de dados externos em ambiente de alta restrição. Recebeu capacitações contínuas de Wipro/Meta em segurança da informação (phishing, engenharia social, tailgating e compliance).",
+            "en": "Data Security & Compliance Governance: Contributed to the development of the Business Continuity Plan (BCP) and drafted internal governance manuals detailing data sharing limits under highly restricted settings. Trained extensively by Wipro/Meta in policy compliance and information security (anti-phishing, social engineering prevention, and physical security)."
+          }
+        }
+      ],
       "size": 0.58,
       "color": "#f472b6"
     },
@@ -2289,6 +3437,26 @@
         "company-munzner": 1
       },
       "evidence_count": 2,
+      "evidence": [
+        {
+          "company_id": "company-ak-branding-web-design",
+          "role_id": "role-ak-branding-web-design-1",
+          "source": "master_resume.json:work_experience:ak-branding-web-design:bullet:5",
+          "descriptions": {
+            "pt": "Conformidade LGPD em 100% dos Projetos: Estruturou a adequação técnica à Lei Geral de Proteção de Dados em todos os sites desenvolvidos, criando políticas de privacidade, termos de uso personalizados e sistemas de consentimento de cookies.",
+            "en": "100% Technical LGPD Compliance: Implemented data protection frameworks across 100% of delivered client websites, authoring custom privacy policies, terms of use, and cookie consent mechanisms."
+          }
+        },
+        {
+          "company_id": "company-munzner",
+          "role_id": "role-munzner-1",
+          "source": "master_resume.json:work_experience:munzner:bullet:4",
+          "descriptions": {
+            "pt": "Inbound Marketing e SEO Orgânico: Redigiu ~10 artigos estratégicos no blog alinhados à metodologia Thinking Environment, gerando ~1.000 visitas orgânicas e ~100 leads qualificados de alto valor (taxa de conversão visitor-to-lead de ~10%).",
+            "en": "Inbound Organic SEO & Content Marketing: Authored ~10 strategic technical blog articles on the Thinking Environment methodology, generating ~1,000 organic visits and ~100 qualified high-value leads (~10% visitor-to-lead conversion rate)."
+          }
+        }
+      ],
       "size": 0.66,
       "color": "#00d4aa"
     },
@@ -2311,6 +3479,17 @@
         "company-conversas-brasileiras": 1
       },
       "evidence_count": 1,
+      "evidence": [
+        {
+          "company_id": "company-conversas-brasileiras",
+          "role_id": "role-conversas-brasileiras-1",
+          "source": "master_resume.json:work_experience:conversas-brasileiras:bullet:1",
+          "descriptions": {
+            "pt": "O 'Conversas Brasileiras' foi uma iniciativa social e experimental voltada para a criação de espaços de diálogo, fomento ao pensamento crítico e ativação da inteligência coletiva através de metodologias de facilitação humana e inovação social.",
+            "en": "The 'Conversas Brasileiras' was a social and experimental initiative aimed at creating dialogue spaces, fostering critical thinking, and activating collective intelligence through human facilitation methodologies and social innovation."
+          }
+        }
+      ],
       "size": 0.58,
       "color": "#34d399"
     },
@@ -2333,6 +3512,17 @@
         "company-alvesa-transportes-log-stica-ltda": 1
       },
       "evidence_count": 1,
+      "evidence": [
+        {
+          "company_id": "company-alvesa-transportes-log-stica-ltda",
+          "role_id": "role-alvesa-transportes-log-stica-ltda-1",
+          "source": "master_resume.json:work_experience:alvesa-transportes-log-stica-ltda:bullet:3",
+          "descriptions": {
+            "pt": "Apoio ao marketing por meio da criação de conteúdo para redes sociais e coordenação básica de campanhas.",
+            "en": "Supported marketing efforts by creating social media content and coordinating basic campaigns."
+          }
+        }
+      ],
       "size": 0.58,
       "color": "#00d4aa"
     },
@@ -2355,6 +3545,17 @@
         "company-meu-barzin-startup": 1
       },
       "evidence_count": 1,
+      "evidence": [
+        {
+          "company_id": "company-meu-barzin-startup",
+          "role_id": "role-meu-barzin-startup-1",
+          "source": "master_resume.json:work_experience:meu-barzin-startup:bullet:4",
+          "descriptions": {
+            "pt": "Bancos de Dados e CRM: Estruturou bases e protótipos de CRM utilizando Supabase/PostgreSQL e NocoDB, trabalhando com modelagem, organização e exploração de dados para apoiar operações e produtos digitais.",
+            "en": "Databases and CRM: Built database structures and CRM prototypes using Supabase/PostgreSQL and NocoDB, working with data modeling, organization, and exploration to support digital products and operations."
+          }
+        }
+      ],
       "size": 0.58,
       "color": "#ff8c42"
     },
@@ -2377,6 +3578,17 @@
         "company-wipro": 1
       },
       "evidence_count": 1,
+      "evidence": [
+        {
+          "company_id": "company-wipro",
+          "role_id": "role-wipro-1",
+          "source": "master_resume.json:work_experience:wipro:bullet:11",
+          "descriptions": {
+            "pt": "Governança Ágil e Squad de Treinamento: Participou do squad responsável pelo programa de capacitação, usando reuniões diárias, OKRs, roadmap e backlog para organizar tarefas semanais e priorizar demandas de clientes, gerentes, líderes e consultores internos.",
+            "en": "Agile Governance and Training Squad: Participated in the squad responsible for the enablement program, using daily meetings, OKRs, roadmap, and backlog to organize weekly tasks and prioritize requests from clients, managers, leaders, and internal consultants."
+          }
+        }
+      ],
       "size": 0.58,
       "color": "#38bdf8"
     },
@@ -2399,6 +3611,26 @@
         "company-meu-barzin-startup": 2
       },
       "evidence_count": 2,
+      "evidence": [
+        {
+          "company_id": "company-meu-barzin-startup",
+          "role_id": "role-meu-barzin-startup-1",
+          "source": "master_resume.json:work_experience:meu-barzin-startup:bullet:3",
+          "descriptions": {
+            "pt": "Varredura e Tratamento de Dados: Mapeou, extraiu e higienizou dados de quase 200 bares de Curitiba via Web Scraping para criar um banco de dados de RAG confiável no Supabase hospedado em VPS.",
+            "en": "Data Scraping & Cleansing: Mapped, extracted, and cleansed data from nearly 200 bars in Curitiba via web scraping to build a reliable RAG database in Supabase hosted over a VPS."
+          }
+        },
+        {
+          "company_id": "company-meu-barzin-startup",
+          "role_id": "role-meu-barzin-startup-1",
+          "source": "master_resume.json:work_experience:meu-barzin-startup:bullet:4",
+          "descriptions": {
+            "pt": "Bancos de Dados e CRM: Estruturou bases e protótipos de CRM utilizando Supabase/PostgreSQL e NocoDB, trabalhando com modelagem, organização e exploração de dados para apoiar operações e produtos digitais.",
+            "en": "Databases and CRM: Built database structures and CRM prototypes using Supabase/PostgreSQL and NocoDB, working with data modeling, organization, and exploration to support digital products and operations."
+          }
+        }
+      ],
       "size": 0.66,
       "color": "#ff8c42"
     },
@@ -2421,6 +3653,17 @@
         "company-alvesa-transportes-log-stica-ltda": 1
       },
       "evidence_count": 1,
+      "evidence": [
+        {
+          "company_id": "company-alvesa-transportes-log-stica-ltda",
+          "role_id": "role-alvesa-transportes-log-stica-ltda-1",
+          "source": "master_resume.json:work_experience:alvesa-transportes-log-stica-ltda:bullet:4",
+          "descriptions": {
+            "pt": "Gestão de agendamentos administrativos, processos seletivos e atendimento ao cliente.",
+            "en": "Managed administrative appointments, selection processes, and customer service."
+          }
+        }
+      ],
       "size": 0.58,
       "color": "#38bdf8"
     },
@@ -2443,6 +3686,17 @@
         "company-wipro": 1
       },
       "evidence_count": 1,
+      "evidence": [
+        {
+          "company_id": "company-wipro",
+          "role_id": "role-wipro-1",
+          "source": "master_resume.json:work_experience:wipro:bullet:2",
+          "descriptions": {
+            "pt": "Referência técnica na operação em estratégias de anúncios na Meta, atuando na absorção de materiais oficiais do cliente e replicação estratégica de inovações de produto e Go-to-Market (GTM) para mais de 150 Meta Marketing Pros.",
+            "en": "Act as the operation's technical reference for Meta ad strategies, absorbing official client materials and strategically replicating product innovations and Go-to-Market (GTM) strategies for 150+ Meta Marketing Pros."
+          }
+        }
+      ],
       "size": 0.58,
       "color": "#ef4444"
     },
@@ -2465,6 +3719,17 @@
         "company-munzner": 1
       },
       "evidence_count": 1,
+      "evidence": [
+        {
+          "company_id": "company-munzner",
+          "role_id": "role-munzner-1",
+          "source": "master_resume.json:work_experience:munzner:bullet:5",
+          "descriptions": {
+            "pt": "Especialização na metodologia global Thinking Environment para a construção de narrativas técnicas de alto impacto, aplicando os conceitos de escuta e facilitação na criação de conteúdos estratégicos para mídias sociais, posicionamento institucional e anúncios pagos.",
+            "en": "Specialized in the global Thinking Environment methodology to build high-impact technical narratives, applying active listening and facilitation concepts to create strategic content for social media, brand positioning, and paid media."
+          }
+        }
+      ],
       "size": 0.58,
       "color": "#34d399"
     },
@@ -2487,6 +3752,17 @@
         "company-ak-branding-web-design": 1
       },
       "evidence_count": 1,
+      "evidence": [
+        {
+          "company_id": "company-ak-branding-web-design",
+          "role_id": "role-ak-branding-web-design-1",
+          "source": "master_resume.json:work_experience:ak-branding-web-design:bullet:6",
+          "descriptions": {
+            "pt": "Controles de Orçamento e Cronograma: Controlou escopos de projetos e orçamentos financeiros para múltiplas contas concorrentes, coordenando fluxos de trabalho internos e gerenciando execução de recursos especializados para evitar gargalos.",
+            "en": "Budget & Timeline Controls: Controlled project scopes and financial budgets for multiple concurrent accounts, coordinating internal workflows and managing specialized resource execution to prevent project roadblocks."
+          }
+        }
+      ],
       "size": 0.58,
       "color": "#38bdf8"
     },
@@ -2509,6 +3785,17 @@
         "company-alvesa-transportes-log-stica-ltda": 1
       },
       "evidence_count": 1,
+      "evidence": [
+        {
+          "company_id": "company-alvesa-transportes-log-stica-ltda",
+          "role_id": "role-alvesa-transportes-log-stica-ltda-1",
+          "source": "master_resume.json:work_experience:alvesa-transportes-log-stica-ltda:bullet:2",
+          "descriptions": {
+            "pt": "Coordenação de cronogramas logísticos, rastreamento de cargas e atribuição de motoristas.",
+            "en": "Coordinated logistical schedules, tracked cargo, and assigned drivers."
+          }
+        }
+      ],
       "size": 0.58,
       "color": "#ff8c42"
     },
@@ -2531,6 +3818,17 @@
         "company-wipro": 1
       },
       "evidence_count": 1,
+      "evidence": [
+        {
+          "company_id": "company-wipro",
+          "role_id": "role-wipro-1",
+          "source": "master_resume.json:work_experience:wipro:bullet:4",
+          "descriptions": {
+            "pt": "Capacitação técnica da equipe em ferramentas internas da Meta, liderando o aculturamento e replicação de treinamentos sobre o uso de CRMs proprietários e implementação prática de IAs nativas.",
+            "en": "Provide technical training to the team on Meta internal tools, driving onboarding and replicating training programs on proprietary CRMs and practical native AI implementations."
+          }
+        }
+      ],
       "size": 0.58,
       "color": "#ef4444"
     },
@@ -2553,6 +3851,17 @@
         "company-munzner": 1
       },
       "evidence_count": 1,
+      "evidence": [
+        {
+          "company_id": "company-munzner",
+          "role_id": "role-munzner-1",
+          "source": "master_resume.json:work_experience:munzner:bullet:1",
+          "descriptions": {
+            "pt": "Lançamento de Infoproduto (0 a 1): Idealizou e lançou o 1º curso digital da empresa (MasterStudy LMS/WordPress) como um produto de entrada (tripwire) para a metodologia pioneira Thinking Environment. Conquistou 50 vendas nos primeiros 2 meses com ROI de 1.0x a 1.5x, validando a aquisição de leads de forma autossustentável.",
+            "en": "0-to-1 Infoproduct & Tripwire ROI Strategy: Designed and launched the brand's first digital course (MasterStudy LMS/WordPress) as an entry-level tripwire offer for the pioneer Thinking Environment methodology. Secured 50 sales in the first 2 months with a 1.0x-1.5x ROI, self-sustaining customer acquisition."
+          }
+        }
+      ],
       "size": 0.58,
       "color": "#00d4aa"
     },
@@ -2575,6 +3884,17 @@
         "company-meu-barzin-startup": 1
       },
       "evidence_count": 1,
+      "evidence": [
+        {
+          "company_id": "company-meu-barzin-startup",
+          "role_id": "role-meu-barzin-startup-1",
+          "source": "master_resume.json:work_experience:meu-barzin-startup:bullet:2",
+          "descriptions": {
+            "pt": "Arquitetura Conversacional e UX: Desenhou fluxos conversacionais inteligentes via ManyChat e n8n, integrando RAG e regras de 'Alucinação Zero' para que o agente (mascote Capizin, Sommelier de Bares) fizesse buscas ricas de bares locais sem inventar dados.",
+            "en": "Conversational Architecture & UX: Designed intelligent conversation flows via ManyChat and n8n, integrating RAG and 'Zero Hallucination' rules to enable the AI agent (mascot Capizin, Bar Sommelier) to search and recommend venues without errors."
+          }
+        }
+      ],
       "size": 0.58,
       "color": "#4a9eff"
     },
@@ -2597,6 +3917,17 @@
         "company-ak-branding-web-design": 1
       },
       "evidence_count": 1,
+      "evidence": [
+        {
+          "company_id": "company-ak-branding-web-design",
+          "role_id": "role-ak-branding-web-design-1",
+          "source": "master_resume.json:work_experience:ak-branding-web-design:bullet:5",
+          "descriptions": {
+            "pt": "Conformidade LGPD em 100% dos Projetos: Estruturou a adequação técnica à Lei Geral de Proteção de Dados em todos os sites desenvolvidos, criando políticas de privacidade, termos de uso personalizados e sistemas de consentimento de cookies.",
+            "en": "100% Technical LGPD Compliance: Implemented data protection frameworks across 100% of delivered client websites, authoring custom privacy policies, terms of use, and cookie consent mechanisms."
+          }
+        }
+      ],
       "size": 0.58,
       "color": "#4a9eff"
     },
@@ -2619,6 +3950,17 @@
         "company-ak-branding-web-design": 1
       },
       "evidence_count": 1,
+      "evidence": [
+        {
+          "company_id": "company-ak-branding-web-design",
+          "role_id": "role-ak-branding-web-design-1",
+          "source": "master_resume.json:work_experience:ak-branding-web-design:bullet:1",
+          "descriptions": {
+            "pt": "Fundação e Gestão de Agência Boutique: Manteve ritmo de fechamento e entrega de 2 contratos de alto valor a cada 3 meses ao longo de 5 anos (40+ projetos entregues), gerenciando desde o posicionamento de marca até a arquitetura web para PMEs.",
+            "en": "Boutique Agency Leadership & Volume: Sustained a steady deal closure and project delivery cadence of 2 high-value contracts every 3 months across 5 years (40+ custom projects delivered), overseeing everything from brand positioning to web architecture for SMBs."
+          }
+        }
+      ],
       "size": 0.58,
       "color": "#00d4aa"
     },
@@ -2641,6 +3983,17 @@
         "company-ak-branding-web-design": 1
       },
       "evidence_count": 1,
+      "evidence": [
+        {
+          "company_id": "company-ak-branding-web-design",
+          "role_id": "role-ak-branding-web-design-1",
+          "source": "master_resume.json:work_experience:ak-branding-web-design:bullet:3",
+          "descriptions": {
+            "pt": "Experimentação de Growth: Planejou e executou testes A/B em campanhas de anúncios, landing pages e experiências web para validar hipóteses de aquisição e conversão, orientando ajustes de criativos, mensagens e jornadas digitais.",
+            "en": "Growth Experimentation: Planned and executed A/B tests across paid campaigns, landing pages, and web experiences to validate acquisition and conversion hypotheses, informing adjustments to creative, messaging, and digital journeys."
+          }
+        }
+      ],
       "size": 0.58,
       "color": "#4a9eff"
     },
@@ -2663,6 +4016,17 @@
         "company-ak-branding-web-design": 1
       },
       "evidence_count": 1,
+      "evidence": [
+        {
+          "company_id": "company-ak-branding-web-design",
+          "role_id": "role-ak-branding-web-design-1",
+          "source": "master_resume.json:work_experience:ak-branding-web-design:bullet:5",
+          "descriptions": {
+            "pt": "Conformidade LGPD em 100% dos Projetos: Estruturou a adequação técnica à Lei Geral de Proteção de Dados em todos os sites desenvolvidos, criando políticas de privacidade, termos de uso personalizados e sistemas de consentimento de cookies.",
+            "en": "100% Technical LGPD Compliance: Implemented data protection frameworks across 100% of delivered client websites, authoring custom privacy policies, terms of use, and cookie consent mechanisms."
+          }
+        }
+      ],
       "size": 0.58,
       "color": "#4a9eff"
     },
@@ -2685,6 +4049,17 @@
         "company-meu-barzin-startup": 1
       },
       "evidence_count": 1,
+      "evidence": [
+        {
+          "company_id": "company-meu-barzin-startup",
+          "role_id": "role-meu-barzin-startup-1",
+          "source": "master_resume.json:work_experience:meu-barzin-startup:bullet:3",
+          "descriptions": {
+            "pt": "Varredura e Tratamento de Dados: Mapeou, extraiu e higienizou dados de quase 200 bares de Curitiba via Web Scraping para criar um banco de dados de RAG confiável no Supabase hospedado em VPS.",
+            "en": "Data Scraping & Cleansing: Mapped, extracted, and cleansed data from nearly 200 bars in Curitiba via web scraping to build a reliable RAG database in Supabase hosted over a VPS."
+          }
+        }
+      ],
       "size": 0.58,
       "color": "#ff8c42"
     },
@@ -2707,6 +4082,17 @@
         "company-ak-branding-web-design": 1
       },
       "evidence_count": 1,
+      "evidence": [
+        {
+          "company_id": "company-ak-branding-web-design",
+          "role_id": "role-ak-branding-web-design-1",
+          "source": "master_resume.json:work_experience:ak-branding-web-design:bullet:4",
+          "descriptions": {
+            "pt": "Lançamento de E-Commerce de 0 a 1: Desenvolveu loja virtual do zero que atingiu R$ 10.000 em faturamento nos primeiros 3 meses de operação de forma 100% orgânica (R$0 em ads), alavancada apenas por posicionamento estratégico no Instagram.",
+            "en": "0-to-1 E-Commerce Monetization: Built a custom e-commerce platform from scratch that achieved R$ 10,000 in revenue within its first 3 months operating 100% organically ($0 ad spend) driven purely by strategic Instagram positioning."
+          }
+        }
+      ],
       "size": 0.58,
       "color": "#4a9eff"
     },
