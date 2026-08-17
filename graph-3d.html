@@ -422,6 +422,7 @@
         let selectedCompanyId = null;
         let selectedCategory = null;
         let selectedSkillId = null;
+        let selectedType = null;
         let clickTimer = null;
         const nodes3D = [];
         const edges3D = [];
@@ -721,7 +722,7 @@
             container.innerHTML = '';
             const fullView = document.createElement('button');
             fullView.type = 'button';
-            fullView.className = `filter-btn${selectedCompanyId || selectedCategory || selectedSkillId ? '' : ' active'}`;
+            fullView.className = `filter-btn${selectedCompanyId || selectedCategory || selectedSkillId || selectedType ? '' : ' active'}`;
             fullView.textContent = `↺ ${t('fullView')}`;
             fullView.addEventListener('click', resetFullView);
             container.appendChild(fullView);
@@ -740,31 +741,78 @@
             const legend = document.getElementById('legend');
             legend.innerHTML = '';
             const items = [
-                { label: 'Kevin', color: '#ffffff' },
-                { label: t('company'), color: '#60a5fa' },
-                { label: t('roles'), color: '#a78bfa' },
-                { label: t('metrics'), color: '#fbbf24' },
+                { label: 'Kevin', color: '#ffffff', type: 'Candidate' },
+                { label: t('company'), color: '#60a5fa', type: 'Company' },
+                { label: t('roles'), color: '#a78bfa', type: 'Role' },
+                { label: t('metrics'), color: '#fbbf24', type: 'Metric' },
                 ...Object.entries(graphData.categories || {}).map(([key, category]) => ({
                     label: localized(category),
                     color: category.color,
                     category: key,
                 })),
             ];
-            items.forEach(({ label, color, category }) => {
+            items.forEach(({ label, color, category, type }) => {
                 const item = document.createElement('div');
-                item.className = `legend-item${category ? ' selectable' : ''}${selectedCategory === category ? ' active' : ''}`;
+                const active = selectedCategory === category || selectedType === type;
+                item.className = `legend-item selectable${active ? ' active' : ''}`;
                 item.style.setProperty('--legend-color', color);
                 item.innerHTML = `<span class="legend-color" style="background:${color}"></span>${label}`;
-                if (category) {
-                    item.setAttribute('role', 'button');
-                    item.setAttribute('tabindex', '0');
-                    item.addEventListener('click', () => selectCategory(category));
-                    item.addEventListener('keydown', event => {
-                        if (event.key === 'Enter' || event.key === ' ') selectCategory(category);
-                    });
-                }
+                const activate = () => category ? selectCategory(category) : selectType(type);
+                item.setAttribute('role', 'button');
+                item.setAttribute('tabindex', '0');
+                item.setAttribute('aria-pressed', active ? 'true' : 'false');
+                item.addEventListener('click', activate);
+                item.addEventListener('keydown', event => {
+                    if (event.key === 'Enter' || event.key === ' ') {
+                        event.preventDefault();
+                        activate();
+                    }
+                });
                 legend.appendChild(item);
             });
+        }
+
+        function selectType(type) {
+            if (selectedType === type) {
+                resetFullView();
+                return;
+            }
+            selectedType = type;
+            selectedCategory = null;
+            selectedCompanyId = null;
+            selectedSkillId = null;
+            controls.autoRotate = false;
+            document.getElementById('detail-panel').classList.remove('visible');
+
+            const edgeType = {
+                Candidate: 'WORKED_AT',
+                Company: 'WORKED_AT',
+                Role: 'HAS_ROLE',
+                Metric: 'HAS_METRIC',
+            }[type];
+            const primaryIds = new Set(
+                graphData.nodes.filter(node => node.type === type).map(node => node.id)
+            );
+            const relatedEdges = graphData.edges.filter(edge =>
+                edge.type === edgeType && (primaryIds.has(edge.source) || primaryIds.has(edge.target))
+            );
+            const connectedIds = new Set();
+            relatedEdges.forEach(edge => {
+                connectedIds.add(edge.source);
+                connectedIds.add(edge.target);
+            });
+            nodes3D.forEach(mesh => {
+                const primary = primaryIds.has(mesh.userData.id);
+                const connected = connectedIds.has(mesh.userData.id);
+                setNodeAppearance(mesh, primary ? 1 : connected ? 0.65 : 0.035, primary ? 1.4 : connected ? 1.08 : 0.78, false);
+            });
+            const relatedKeys = new Set(relatedEdges.map(edge => `${edge.source}:${edge.target}:${edge.type}`));
+            edges3D.forEach(line => {
+                const key = `${line.userData.source}:${line.userData.target}:${line.userData.type}`;
+                line.material.opacity = relatedKeys.has(key) ? 0.78 : 0.012;
+            });
+            buildCompanyFilters();
+            buildLegend();
         }
 
         function selectCategory(category) {
@@ -775,6 +823,7 @@
             selectedCategory = category;
             selectedCompanyId = null;
             selectedSkillId = null;
+            selectedType = null;
             controls.autoRotate = false;
             document.getElementById('detail-panel').classList.remove('visible');
             const skillIds = new Set(
@@ -807,6 +856,7 @@
             selectedCompanyId = companyId;
             selectedCategory = null;
             selectedSkillId = null;
+            selectedType = null;
             controls.autoRotate = false;
             controls.target.copy(companyMesh.position);
             camera.position.copy(companyMesh.position).add(new THREE.Vector3(9, 7, 9));
@@ -927,6 +977,7 @@
             selectedSkillId = skillId;
             selectedCompanyId = null;
             selectedCategory = null;
+            selectedType = null;
             controls.autoRotate = false;
             controls.target.copy(skillMesh.position);
             camera.position.copy(skillMesh.position).add(new THREE.Vector3(7, 6, 7));
@@ -973,6 +1024,7 @@
             selectedCompanyId = null;
             selectedCategory = null;
             selectedSkillId = null;
+            selectedType = null;
             controls.autoRotate = true;
             controls.target.set(0, 0, 0);
             camera.position.copy(initialCamera);
