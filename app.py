@@ -26,11 +26,7 @@ try:
         JobMaterials
     )
     from engine.graph_engine import GraphEngine
-    from engine import schemas_graph
-    from engine.schemas_graph import NodeType, EdgeType
-    from engine.graph_rag import GraphRAGRetriever, MatchEngine
     from job_store import load_active_job
-    from components.brain_visualizer import render_brain_legend
     from components.brain_insights import render_brain_insights
 except Exception as e:
     st.error(f"⚠️ Erro ao carregar módulos (ImportError): {e}")
@@ -43,12 +39,38 @@ st.markdown("""
         .main {
             background-color: #fafbfc;
         }
+        [data-testid="stAppViewContainer"] .main .block-container {
+            max-width: 1480px;
+            padding: 2rem 2.5rem 3rem;
+        }
+        [data-testid="stAppViewContainer"] p,
+        [data-testid="stAppViewContainer"] li,
+        [data-testid="stAppViewContainer"] label,
+        [data-testid="stSidebar"] p,
+        [data-testid="stSidebar"] label {
+            font-size: 1rem;
+            line-height: 1.6;
+        }
+        [data-testid="stSidebar"] {
+            min-width: 320px;
+            max-width: 320px;
+        }
+        [data-baseweb="tab"] {
+            min-height: 3rem;
+            padding-left: 1rem;
+            padding-right: 1rem;
+        }
+        [data-baseweb="tab"] p {
+            font-size: 1rem;
+            font-weight: 600;
+        }
         .stButton>button {
             background-color: #1a365d;
             color: white;
             border-radius: 6px;
             border: none;
             padding: 0.5rem 1rem;
+            font-size: 1rem;
             font-weight: 600;
             transition: all 0.2s ease-in-out;
         }
@@ -64,6 +86,7 @@ st.markdown("""
             border-radius: 6px;
             border: none;
             padding: 0.5rem 1.2rem;
+            font-size: 1rem;
             font-weight: 600;
             transition: all 0.2s ease-in-out;
         }
@@ -107,6 +130,22 @@ st.markdown("""
             border-radius: 4px;
             box-shadow: 0 8px 24px rgba(0,0,0,0.12), 0 2px 6px rgba(0,0,0,0.08);
         }
+        @media (max-width: 768px) {
+            [data-testid="stAppViewContainer"] .main .block-container {
+                padding: 1rem 0.9rem 2rem;
+            }
+            [data-testid="stSidebar"] {
+                min-width: min(320px, 88vw);
+                max-width: min(320px, 88vw);
+            }
+            [data-baseweb="tab"] {
+                padding-left: 0.75rem;
+                padding-right: 0.75rem;
+            }
+            .title-text {
+                font-size: 2rem;
+            }
+        }
     </style>
 """, unsafe_allow_html=True)
 
@@ -114,7 +153,7 @@ st.markdown("""
 st.markdown("""
     <div class="title-container">
         <h1 class="title-text">💼 Master Resume Adaptation Studio</h1>
-        <p class="subtitle-text">Exiba, customize e exporte currículos adaptados localmente em PDF e HTML.</p>
+        <p class="subtitle-text">Visualize, revise e exporte currículos adaptados em PDF e HTML.</p>
     </div>
 """, unsafe_allow_html=True)
 
@@ -182,7 +221,7 @@ doc_lang = st.sidebar.radio(
     options=["Português (PT)", "English (EN)"],
     index=0 if metadata.get("document_language", "pt") == "pt" else 1,
     key=f"doc_lang_{metadata.get('company_name', '')}_{metadata.get('role_title', '')}",
-    help="Altera todo o conteúdo do currículo (títulos, resumo, experiências, etc.) carregando os respectivos arquivos locais."
+    help="Altera o idioma de todo o currículo, incluindo resumo, experiências e seções."
 )
 doc_lang_code = "en" if "English" in doc_lang else "pt"
 
@@ -243,7 +282,7 @@ else:
     st.sidebar.warning(f"⚠️ Nenhum currículo ({doc_lang_code}) adaptado localmente.")
 
 # Add manual refresh button
-if st.sidebar.button("🔄 Recarregar Dados Locais"):
+if st.sidebar.button("🔄 Atualizar currículo", use_container_width=True):
     st.session_state.adapted_resume = None
     st.session_state.job_materials = None
     active_job = load_active_job()
@@ -288,7 +327,6 @@ if graph_source:
     st.sidebar.caption(
         f"Grafo auxiliar carregado: {graph_stats.get('total_nodes', 0)} nós / {graph_stats.get('total_edges', 0)} arestas (não usado para enriquecer o currículo desta vaga)"
     )
-st.sidebar.info("🤖 **Como Adaptar Novas Vagas:**\nEnvie o link ou texto da vaga no chat do Antigravity. O assistente gerará os currículos e materiais atualizados no seu computador, e eles aparecerão automaticamente aqui após você clicar em Recarregar!")
 
 # Main Workspace Layout
 tab_studio, tab_tracker, tab_brain, tab_editor = st.tabs([
@@ -314,7 +352,7 @@ with tab_studio:
             <div style="font-size: 0.95rem; color:#2d3748; line-height: 1.6;">
                 <p style="margin: 3px 0;"><strong>Empresa:</strong> {company_name}</p>
                 <p style="margin: 3px 0;"><strong>Cargo / Função:</strong> {role_title}</p>
-                <p style="margin: 8px 0 0 0; font-size: 0.8rem; color:#718096; font-style: italic;">
+                <p style="margin: 8px 0 0 0; font-size: 0.95rem; color:#718096; font-style: italic;">
                     ✨ Este currículo e materiais foram adaptados localmente no chat do Antigravity. Use os botões abaixo para visualizar, baixar e imprimir!
                 </p>
             </div>
@@ -353,8 +391,8 @@ with tab_studio:
         color_fit = "#38a169" if fit_pct >= 85 else ("#d69e2e" if fit_pct >= 70 else "#e53e3e")
         
         # Format points as HTML lists
-        good_html = "".join([f"<li style='margin-bottom:6px; font-size:0.85rem; color:#2d3748;'>✅ {pt}</li>" for pt in good_points])
-        improve_html = "".join([f"<li style='margin-bottom:6px; font-size:0.85rem; color:#2d3748;'>⚠️ {pt}</li>" for pt in improve_points])
+        good_html = "".join([f"<li style='margin-bottom:6px; font-size:0.95rem; color:#2d3748;'>✅ {pt}</li>" for pt in good_points])
+        improve_html = "".join([f"<li style='margin-bottom:6px; font-size:0.95rem; color:#2d3748;'>⚠️ {pt}</li>" for pt in improve_points])
         
         st.markdown(f"""
             <div style='background-color:#ffffff; border:1px solid #e2e8f0; border-radius:12px; padding:1.2rem; margin-top:12px; margin-bottom:12px; box-shadow: 0 4px 6px rgba(0,0,0,0.02);'>
@@ -363,16 +401,16 @@ with tab_studio:
                 </h4>
                 <div style='display: flex; gap: 20px; flex-wrap: wrap;'>
                     <div style='flex: 1; min-width: 150px; border:1px solid #e2e8f0; border-radius:8px; padding:12px; text-align:center; background-color:#f8fafc; align-self: center;'>
-                        <span style='font-size:0.75rem; color:#718096; text-transform:uppercase; font-weight:600;'>Score de Match</span>
+                        <span style='font-size:0.9rem; color:#718096; text-transform:uppercase; font-weight:600;'>Score de Match</span>
                         <h2 style='margin:5px 0; color:{color_fit}; font-size:2.2rem; font-weight:800;'>{fit_pct}%</h2>
-                        <span style='font-size:0.75rem; color:#4a5568;'>Expectativa Salarial:<br><strong style='color:#1a365d;'>{salary_exp}</strong></span>
+                        <span style='font-size:0.9rem; color:#4a5568;'>Expectativa Salarial:<br><strong style='color:#1a365d;'>{salary_exp}</strong></span>
                     </div>
                     <div style='flex: 3; min-width: 280px;'>
-                        <p style='margin: 0 0 6px 0; font-weight: 700; color: #2d3748; font-size:0.85rem;'>👍 Pontos Fortes (Diferenciais):</p>
+                        <p style='margin: 0 0 6px 0; font-weight: 700; color: #2d3748; font-size:0.95rem;'>👍 Pontos Fortes (Diferenciais):</p>
                         <ul style='margin: 0 0 12px 0; padding-left: 0; list-style-type: none;'>
                             {good_html}
                         </ul>
-                        <p style='margin: 0 0 6px 0; font-weight: 700; color: #2d3748; font-size:0.85rem;'>💡 Pontos de Preparação (Estudos):</p>
+                        <p style='margin: 0 0 6px 0; font-weight: 700; color: #2d3748; font-size:0.95rem;'>💡 Pontos de Preparação (Estudos):</p>
                         <ul style='margin: 0; padding-left: 0; list-style-type: none;'>
                             {improve_html}
                         </ul>
@@ -544,28 +582,28 @@ with tab_tracker:
     with col_m1:
         st.markdown(f"""
             <div style='background-color:#ebf8ff; padding:1.2rem; border-radius:8px; border-left:5px solid #3182ce; text-align:center; box-shadow: 0 2px 4px rgba(0,0,0,0.03);'>
-                <p style='margin:0; font-size:0.85rem; color:#2b6cb0; font-weight:600; text-transform:uppercase; letter-spacing:0.5px;'>Total Enviados</p>
+                <p style='margin:0; font-size:0.95rem; color:#2b6cb0; font-weight:600; text-transform:uppercase; letter-spacing:0.5px;'>Total Enviados</p>
                 <h1 style='margin:5px 0 0 0; color:#1a365d; font-size:2rem; font-weight:800;'>{total_apps}</h1>
             </div>
         """, unsafe_allow_html=True)
     with col_m2:
         st.markdown(f"""
             <div style='background-color:#e6fffa; padding:1.2rem; border-radius:8px; border-left:5px solid #319795; text-align:center; box-shadow: 0 2px 4px rgba(0,0,0,0.03);'>
-                <p style='margin:0; font-size:0.85rem; color:#234e52; font-weight:600; text-transform:uppercase; letter-spacing:0.5px;'>Processos Ativos</p>
+                <p style='margin:0; font-size:0.95rem; color:#234e52; font-weight:600; text-transform:uppercase; letter-spacing:0.5px;'>Processos Ativos</p>
                 <h1 style='margin:5px 0 0 0; color:#1d4044; font-size:2rem; font-weight:800;'>{active_apps}</h1>
             </div>
         """, unsafe_allow_html=True)
     with col_m3:
         st.markdown(f"""
             <div style='background-color:#fefcbf; padding:1.2rem; border-radius:8px; border-left:5px solid #d69e2e; text-align:center; box-shadow: 0 2px 4px rgba(0,0,0,0.03);'>
-                <p style='margin:0; font-size:0.85rem; color:#744210; font-weight:600; text-transform:uppercase; letter-spacing:0.5px;'>Em Entrevistas</p>
+                <p style='margin:0; font-size:0.95rem; color:#744210; font-weight:600; text-transform:uppercase; letter-spacing:0.5px;'>Em Entrevistas</p>
                 <h1 style='margin:5px 0 0 0; color:#5f370e; font-size:2rem; font-weight:800;'>{interviews_count}</h1>
             </div>
         """, unsafe_allow_html=True)
     with col_m4:
         st.markdown(f"""
             <div style='background-color:#f0fff4; padding:1.2rem; border-radius:8px; border-left:5px solid #38a169; text-align:center; box-shadow: 0 2px 4px rgba(0,0,0,0.03);'>
-                <p style='margin:0; font-size:0.85rem; color:#22543d; font-weight:600; text-transform:uppercase; letter-spacing:0.5px;'>Propostas Recebidas</p>
+                <p style='margin:0; font-size:0.95rem; color:#22543d; font-weight:600; text-transform:uppercase; letter-spacing:0.5px;'>Propostas Recebidas</p>
                 <h1 style='margin:5px 0 0 0; color:#1c452f; font-size:2rem; font-weight:800;'>{success_count}</h1>
             </div>
         """, unsafe_allow_html=True)
@@ -644,7 +682,7 @@ with tab_tracker:
             elif app["status"] == "Desistente":
                 st_color = "#718096" # grey
                 
-            badge_html = f"<span style='background-color:{st_color}; color:white; padding:3px 10px; border-radius:12px; font-size:0.75rem; font-weight:bold; margin-left:10px;'>{app['status']}</span>"
+            badge_html = f"<span style='background-color:{st_color}; color:white; padding:3px 10px; border-radius:12px; font-size:0.9rem; font-weight:bold; margin-left:10px;'>{app['status']}</span>"
             
             role_name = app.get("role") or app.get("position") or "N/A"
             company_name_app = app.get("company", "Empresa")
@@ -681,21 +719,21 @@ with tab_tracker:
                             color_fit = "#38a169" if fit_pct >= 85 else ("#d69e2e" if fit_pct >= 70 else "#e53e3e")
                             st.markdown(f"""
                                 <div style='border:1px solid #e2e8f0; border-radius:8px; padding:12px; text-align:center; background-color:#f8fafc;'>
-                                    <span style='font-size:0.75rem; color:#718096; text-transform:uppercase; font-weight:600;'>Score de Match</span>
+                                    <span style='font-size:0.9rem; color:#718096; text-transform:uppercase; font-weight:600;'>Score de Match</span>
                                     <h2 style='margin:5px 0; color:{color_fit}; font-size:2rem; font-weight:800;'>{fit_pct}%</h2>
-                                    <span style='font-size:0.75rem; color:#4a5568;'>Expectativa Salarial:<br><strong style='color:#1a365d;'>{app.get("salary_expectation", "N/A")}</strong></span>
+                                    <span style='font-size:0.9rem; color:#4a5568;'>Expectativa Salarial:<br><strong style='color:#1a365d;'>{app.get("salary_expectation", "N/A")}</strong></span>
                                 </div>
                             """, unsafe_allow_html=True)
                         
                         with col_fit2:
                             st.markdown("**Pontos Fortes (Destaques):**")
                             for pt in app.get("good_points", []):
-                                st.markdown(f"✅ <span style='font-size:0.8rem; color:#2d3748;'>{pt}</span>", unsafe_allow_html=True)
+                                st.markdown(f"✅ <span style='font-size:0.95rem; color:#2d3748;'>{pt}</span>", unsafe_allow_html=True)
                             
                             st.markdown("<div style='height:8px;'></div>", unsafe_allow_html=True)
                             st.markdown("**Pontos de Preparação / Estudos:**")
                             for pt in app.get("improvement_points", []):
-                                st.markdown(f"⚠️ <span style='font-size:0.8rem; color:#2d3748;'>{pt}</span>", unsafe_allow_html=True)
+                                st.markdown(f"⚠️ <span style='font-size:0.95rem; color:#2d3748;'>{pt}</span>", unsafe_allow_html=True)
                         
                 with col_right:
                     # Status Select box
@@ -767,72 +805,6 @@ with tab_brain:
         
         brain_engine = st.session_state.brain_engine
         
-        # Get available jobs for focus
-        jobs = brain_engine.get_nodes_by_type(schemas_graph.NodeType.JOB_POSTING) if hasattr(schemas_graph, 'NodeType') else []
-        available_jobs = []
-        for job in jobs:
-            available_jobs.append({
-                "job_id": job.id,
-                "title": getattr(job, 'title', 'Unknown'),
-                "company_name": getattr(job, 'company_name', 'Unknown')
-            })
-        
-        # Sidebar controls
-        with st.sidebar:
-            st.markdown("---")
-            st.markdown("### 🧠 Brain Controls")
-            
-            job_options = ["Visão Geral (Grafo Completo)"] + [
-                f"{j['title']} @ {j['company_name']}" for j in available_jobs
-            ]
-            selected_job = st.selectbox("Focar em vaga:", options=job_options, index=0, key="brain_job_select")
-            
-            focus_job_id = None
-            if selected_job != "Visão Geral (Grafo Completo)":
-                for job in available_jobs:
-                    if f"{job['title']} @ {job['company_name']}" == selected_job:
-                        focus_job_id = job['job_id']
-                        break
-            
-            layout = st.radio("Layout:", options=["Hierárquico", "Força Direcionada"], index=0, horizontal=True, key="brain_layout")
-            layout_map = {"Hierárquico": "hierarchical", "Força Direcionada": "force"}
-            
-            st.markdown("**Filtros:**")
-            _nt = schemas_graph.NodeType
-            _counts = {nt: len(brain_engine.get_nodes_by_type(nt)) for nt in [
-                _nt.SKILL, _nt.TOOL, _nt.BULLET_POINT, _nt.CASE, _nt.REQUIREMENT]}
-            show_skills = st.checkbox(f"Skills ({_counts[_nt.SKILL]})", value=True, key="brain_skills")
-            show_tools = st.checkbox(f"Tools ({_counts[_nt.TOOL]})", value=True, key="brain_tools")
-            show_bullets = st.checkbox(f"Bullets ({_counts[_nt.BULLET_POINT]})", value=True, key="brain_bullets")
-            show_cases = st.checkbox(f"Cases ({_counts[_nt.CASE]})", value=True, key="brain_cases")
-            show_requirements = st.checkbox(f"Requisitos ({_counts[_nt.REQUIREMENT]})", value=True, key="brain_reqs")
-            st.caption("💡 Quanto mais cases e conquistas você cadastrar, mais ricos o grafo e os insights ficam.")
-
-            st.markdown("**Legenda:**")
-            legend_types = [
-                schemas_graph.NodeType.CANDIDATE, schemas_graph.NodeType.COMPANY,
-                schemas_graph.NodeType.ROLE, schemas_graph.NodeType.JOB_POSTING,
-            ]
-            if show_skills: legend_types.append(schemas_graph.NodeType.SKILL)
-            if show_tools: legend_types.append(schemas_graph.NodeType.TOOL)
-            if show_bullets: legend_types.append(schemas_graph.NodeType.BULLET_POINT)
-            if show_cases: legend_types.append(schemas_graph.NodeType.CASE)
-            if show_requirements: legend_types.append(schemas_graph.NodeType.REQUIREMENT)
-            render_brain_legend(legend_types)
-        
-        # Build filter types
-        filter_types = []
-        if show_skills: filter_types.append(schemas_graph.NodeType.SKILL)
-        if show_tools: filter_types.append(schemas_graph.NodeType.TOOL)
-        if show_bullets: filter_types.append(schemas_graph.NodeType.BULLET_POINT)
-        if show_cases: filter_types.append(schemas_graph.NodeType.CASE)
-        if show_requirements: filter_types.append(schemas_graph.NodeType.REQUIREMENT)
-        filter_types.extend([
-            schemas_graph.NodeType.CANDIDATE, schemas_graph.NodeType.COMPANY,
-            schemas_graph.NodeType.ROLE, schemas_graph.NodeType.CAREER_DNA,
-            schemas_graph.NodeType.JOB_POSTING
-        ])
-        
         # Build and render network
         try:
             # Use our 3D visualizer instead of PyVis
@@ -874,7 +846,7 @@ with tab_editor:
                 <h3 style="color:#1a365d; margin: 0 0 8px 0; font-size:1.15rem; font-weight:800; display:flex; align-items:center; gap:8px;">
                     📄 Exportar Currículo Mestre Completo (PDF Genérico)
                 </h3>
-                <p style="color:#4a5568; font-size:0.9rem; margin-bottom: 12px; line-height: 1.5;">
+                <p style="color:#4a5568; font-size:1rem; margin-bottom: 12px; line-height: 1.5;">
                     Gere e baixe a versão em PDF do seu currículo mestre completo destacando todas as suas principais experiências profissionais com métricas de resultado, competências e certificações (em Português ou Inglês), sem estar atrelado a nenhuma vaga específica.
                 </p>
             </div>
