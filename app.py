@@ -29,6 +29,7 @@ try:
     from engine import schemas_graph
     from engine.schemas_graph import NodeType, EdgeType
     from engine.graph_rag import GraphRAGRetriever, MatchEngine
+    from job_store import load_active_job
     from components.brain_visualizer import BrainVisualizer, render_brain_visualizer, render_brain_sidebar_controls, render_node_detail_panel, render_brain_legend
     from components.brain_insights import render_brain_insights
     from components.star_studio import render_star_studio, render_interview_simulator
@@ -162,7 +163,8 @@ def load_local_metadata():
             pass
     return {"company_name": "", "role_title": ""}
 
-metadata = load_local_metadata()
+active_job = load_active_job()
+metadata = active_job["metadata"] if active_job else load_local_metadata()
 
 # Source-of-truth validation: master resume only
 _source_label = "Fonte não declarada"
@@ -179,14 +181,17 @@ st.sidebar.markdown("<h3 style='color:#1a365d; font-size:1rem;'>🌐 Idioma do C
 doc_lang = st.sidebar.radio(
     "Selecione o idioma de exibição:",
     options=["Português (PT)", "English (EN)"],
-    index=1,
+    index=0 if metadata.get("document_language", "pt") == "pt" else 1,
+    key=f"doc_lang_{metadata.get('company_name', '')}_{metadata.get('role_title', '')}",
     help="Altera todo o conteúdo do currículo (títulos, resumo, experiências, etc.) carregando os respectivos arquivos locais."
 )
 doc_lang_code = "en" if "English" in doc_lang else "pt"
 
-# Resolve paths based on selected language
+# Resolve paths based on selected language. Versioned job artifacts take precedence.
 resume_path = f"adapted_resume_{doc_lang_code}.json"
 materials_path = f"job_materials_{doc_lang_code}.json"
+active_resume = active_job.get("resume", {}).get(doc_lang_code) if active_job else None
+active_materials = active_job.get("materials", {}).get(doc_lang_code) if active_job else None
 
 # Fallback to generic names if language-specific ones don't exist
 if not os.path.exists(resume_path):
@@ -194,15 +199,22 @@ if not os.path.exists(resume_path):
 if not os.path.exists(materials_path):
     materials_path = "job_materials.json"
 
-# Language state-change check to force reload
-if "last_loaded_lang" not in st.session_state or st.session_state.last_loaded_lang != doc_lang_code:
+# Active-job or language changes must invalidate objects retained by Streamlit.
+active_job_id = active_job.get("id") if active_job else None
+loaded_context = (active_job_id, doc_lang_code)
+if st.session_state.get("last_loaded_context") != loaded_context:
     st.session_state.adapted_resume = None
     st.session_state.job_materials = None
-    st.session_state.last_loaded_lang = doc_lang_code
+    st.session_state.last_loaded_context = loaded_context
 
 # Load pre-adapted resume
 if st.session_state.adapted_resume is None:
-    if os.path.exists(resume_path):
+    if active_resume:
+        try:
+            st.session_state.adapted_resume = AdaptedResume(**active_resume)
+        except Exception:
+            pass
+    elif os.path.exists(resume_path):
         try:
             with open(resume_path, "r", encoding="utf-8") as f:
                 resume_dict = json.load(f)
@@ -212,7 +224,12 @@ if st.session_state.adapted_resume is None:
 
 # Load pre-adapted materials
 if st.session_state.job_materials is None:
-    if os.path.exists(materials_path):
+    if active_materials:
+        try:
+            st.session_state.job_materials = JobMaterials(**active_materials)
+        except Exception:
+            pass
+    elif os.path.exists(materials_path):
         try:
             with open(materials_path, "r", encoding="utf-8") as f:
                 materials_dict = json.load(f)
@@ -230,16 +247,29 @@ else:
 if st.sidebar.button("🔄 Recarregar Dados Locais"):
     st.session_state.adapted_resume = None
     st.session_state.job_materials = None
-    metadata = load_local_metadata()
+    active_job = load_active_job()
+    metadata = active_job["metadata"] if active_job else load_local_metadata()
+    active_resume = active_job.get("resume", {}).get(doc_lang_code) if active_job else None
+    active_materials = active_job.get("materials", {}).get(doc_lang_code) if active_job else None
     
-    if os.path.exists(resume_path):
+    if active_resume:
+        try:
+            st.session_state.adapted_resume = AdaptedResume(**active_resume)
+        except Exception as e:
+            st.sidebar.error(f"Erro ao ler vaga ativa: {e}")
+    elif os.path.exists(resume_path):
         try:
             with open(resume_path, "r", encoding="utf-8") as f:
                 st.session_state.adapted_resume = AdaptedResume(**json.load(f))
         except Exception as e:
             st.sidebar.error(f"Erro ao ler JSON: {e}")
             
-    if os.path.exists(materials_path):
+    if active_materials:
+        try:
+            st.session_state.job_materials = JobMaterials(**active_materials)
+        except Exception as e:
+            st.sidebar.error(f"Erro ao ler materiais da vaga ativa: {e}")
+    elif os.path.exists(materials_path):
         try:
             with open(materials_path, "r", encoding="utf-8") as f:
                 st.session_state.job_materials = JobMaterials(**json.load(f))
@@ -810,16 +840,18 @@ with tab_brain:
         
         # Build and render network
         try:
-            viz = BrainVisualizer(brain_engine, height="700px")
-            viz.build_network(
-                focus_job_id=focus_job_id,
-                highlight_paths=True,
-                max_nodes=150,
-                layout=layout_map.get(layout, "hierarchical")
-            )
-            viz.render_in_streamlit(key="brain_viz")
+            # Use our 3D visualizer instead of PyVis
+            import streamlit.components.v1 as components
+            
+            # Read the 3D HTML file
+            with open('graph-3d.html', 'r', encoding='utf-8') as f:
+                html_content = f.read()
+            
+            # Embed the 3D visualizer
+            components.html(html_content, height=700, scrolling=False)
+            
         except Exception as e:
-            st.error(f"Erro ao renderizar grafo: {e}")
+            st.error(f"Erro ao renderizar grafo 3D: {e}")
             import traceback
             st.text(traceback.format_exc())
 

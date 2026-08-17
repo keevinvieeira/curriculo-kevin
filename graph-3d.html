@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kevin Augusto Vieira — Professional Graph 3D</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            background: #0a0a0f;
+            color: #fff;
+            font-family: 'Segoe UI', system-ui, sans-serif;
+            overflow: hidden;
+        }
+        #canvas-container {
+            position: fixed;
+            top: 0; left: 0;
+            width: 100vw; height: 100vh;
+            z-index: 1;
+        }
+        #ui-overlay {
+            position: fixed;
+            top: 0; left: 0;
+            width: 100vw; height: 100vh;
+            pointer-events: none;
+            z-index: 10;
+        }
+        #header {
+            position: absolute;
+            top: 24px; left: 24px;
+            pointer-events: auto;
+        }
+        #header h1 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, #4a9eff, #a855f7);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        #header p {
+            font-size: 0.8rem;
+            color: #8892b0;
+            margin-top: 4px;
+        }
+        
+        /* Stats bar */
+        #stats-bar {
+            position: absolute;
+            top: 24px; right: 24px;
+            display: flex;
+            gap: 12px;
+            pointer-events: auto;
+        }
+        .stat {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: 8px;
+            padding: 8px 14px;
+            text-align: center;
+            backdrop-filter: blur(10px);
+        }
+        .stat-value {
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: #4a9eff;
+        }
+        .stat-label {
+            font-size: 0.65rem;
+            color: #8892b0;
+            text-transform: uppercase;
+        }
+        
+        /* Filter buttons */
+        #company-filters {
+            position: absolute;
+            top: 100px; left: 24px;
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+            pointer-events: auto;
+        }
+        .filter-btn {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: 6px;
+            padding: 6px 12px;
+            font-size: 0.7rem;
+            cursor: pointer;
+            transition: all 0.2s;
+            text-align: left;
+            color: #a0aec0;
+        }
+        .filter-btn:hover {
+            background: rgba(255,255,255,0.1);
+            border-color: #4a9eff;
+            color: #fff;
+        }
+        .filter-btn.active {
+            background: rgba(74,158,255,0.2);
+            border-color: #4a9eff;
+            color: #4a9eff;
+        }
+        
+        /* Legend */
+        #legend {
+            position: absolute;
+            bottom: 24px; left: 24px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+            max-width: 450px;
+            pointer-events: auto;
+        }
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.08);
+            border-radius: 4px;
+            padding: 3px 8px;
+            font-size: 0.65rem;
+            cursor: pointer;
+        }
+        .legend-item:hover {
+            background: rgba(255,255,255,0.1);
+        }
+        .legend-color {
+            width: 8px; height: 8px;
+            border-radius: 50%;
+        }
+        
+        /* Detail panel */
+        #detail-panel {
+            position: absolute;
+            top: 100px; right: 24px;
+            width: 300px;
+            background: rgba(10,10,15,0.95);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: 12px;
+            padding: 20px;
+            backdrop-filter: blur(20px);
+            display: none;
+            pointer-events: auto;
+            max-height: 70vh;
+            overflow-y: auto;
+        }
+        #detail-panel.visible { display: block; }
+        #detail-panel h3 {
+            font-size: 1rem;
+            font-weight: 600;
+            margin-bottom: 6px;
+        }
+        #detail-panel .type-badge {
+            display: inline-block;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 0.6rem;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+        }
+        #detail-panel p {
+            font-size: 0.75rem;
+            color: #8892b0;
+            line-height: 1.5;
+        }
+        #detail-section {
+            margin-top: 14px;
+            padding-top: 12px;
+            border-top: 1px solid rgba(255,255,255,0.1);
+        }
+        #detail-section h4 {
+            font-size: 0.7rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #4a9eff;
+            margin-bottom: 8px;
+        }
+        .skill-item, .metric-item {
+            background: rgba(255,255,255,0.03);
+            border: 1px solid rgba(255,255,255,0.06);
+            border-radius: 6px;
+            padding: 6px 10px;
+            margin-bottom: 4px;
+            font-size: 0.7rem;
+        }
+        .skill-item .name { font-weight: 600; }
+        .skill-item .level { color: #fbbf24; font-size: 0.65rem; }
+        .metric-item .value { font-weight: 600; color: #fbbf24; }
+        .metric-item .context { color: #718096; font-size: 0.65rem; }
+        
+        #instructions {
+            position: absolute;
+            bottom: 80px; left: 24px;
+            font-size: 0.65rem;
+            color: #4a5568;
+            pointer-events: none;
+        }
+        
+        #loading {
+            position: fixed;
+            top: 0; left: 0;
+            width: 100vw; height: 100vh;
+            background: #0a0a0f;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 1000;
+            transition: opacity 0.5s;
+        }
+        #loading.hidden { opacity: 0; pointer-events: none; }
+        .spinner {
+            width: 40px; height: 40px;
+            border: 3px solid rgba(255,255,255,0.1);
+            border-top-color: #4a9eff;
+            border-radius: 50%;
+            animation: spin 0.8s linear infinite;
+        }
+        @keyframes spin { to { transform: rotate(360deg); } }
+    </style>
+</head>
+<body>
+    <div id="loading"><div class="spinner"></div></div>
+    
+    <div id="canvas-container"></div>
+    
+    <div id="ui-overlay">
+        <div id="header">
+            <h1>Kevin Augusto Vieira</h1>
+            <p>Click a company to see skills & metrics • Source: master_resume.json</p>
+        </div>
+        
+        <div id="stats-bar">
+            <div class="stat">
+                <div class="stat-value" id="stat-nodes">0</div>
+                <div class="stat-label">Nodes</div>
+            </div>
+            <div class="stat">
+                <div class="stat-value" id="stat-skills">0</div>
+                <div class="stat-label">Skills</div>
+            </div>
+            <div class="stat">
+                <div class="stat-value" id="stat-companies">0</div>
+                <div class="stat-label">Companies</div>
+            </div>
+            <div class="stat">
+                <div class="stat-value" id="stat-metrics">0</div>
+                <div class="stat-label">Metrics</div>
+            </div>
+        </div>
+        
+        <div id="company-filters"></div>
+        
+        <div id="legend"></div>
+        
+        <div id="instructions">
+            Click company = insights • Drag = rotate • Scroll = zoom • Double-click = focus
+        </div>
+        
+        <div id="detail-panel">
+            <h3 id="detail-title">Select a Company</h3>
+            <span class="type-badge" id="detail-type">Info</span>
+            <p id="detail-desc">Click any company node to see skills and metrics.</p>
+            <div id="detail-section">
+                <h4>Skills</h4>
+                <div id="detail-skills"></div>
+            </div>
+            <div id="detail-section">
+                <h4>Metrics</h4>
+                <div id="detail-metrics"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+    
+    <script>
+        let graphData = null;
+        const nodes3D = [];
+        const edges3D = [];
+        let scene, camera, renderer, controls;
+        let raycaster, mouse;
+        let selectedNode = null;
+        
+        const TYPE_COLORS = {
+            'Candidate': 0xffffff, 'Company': 0x60a5fa, 'Role': 0xa78bfa,
+            'Skill': 0x4a9eff, 'Metric': 0xfbbf24
+        };
+        
+        async function init() {
+            try {
+                const response = await fetch('data/graph_clean.json');
+                graphData = await response.json();
+            } catch (e) {
+                console.error('Failed to load:', e);
+                graphData = { nodes: [], edges: [], categories: {}, stats: {} };
+            }
+            
+            scene = new THREE.Scene();
+            scene.background = new THREE.Color(0x0a0a0f);
+            scene.fog = new THREE.FogExp2(0x0a0a0f, 0.012);
+            
+            camera = new THREE.PerspectiveCamera(60, window.innerWidth / window.innerHeight, 0.1, 1000);
+            camera.position.set(0, 12, 30);
+            
+            renderer = new THREE.WebGLRenderer({ antialias: true });
+            renderer.setSize(window.innerWidth, window.innerHeight);
+            renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+            document.getElementById('canvas-container').appendChild(renderer.domElement);
+            
+            controls = new THREE.OrbitControls(camera, renderer.domElement);
+            controls.enableDamping = true;
+            controls.dampingFactor = 0.05;
+            controls.maxDistance = 80;
+            controls.minDistance = 5;
+            controls.autoRotate = true;
+            controls.autoRotateSpeed = 0.2;
+            
+            raycaster = new THREE.Raycaster();
+            mouse = new THREE.Vector2();
+            
+            // Lights
+            scene.add(new THREE.AmbientLight(0x404060, 0.5));
+            const pl1 = new THREE.PointLight(0x4a9eff, 1, 100);
+            pl1.position.set(20, 20, 20);
+            scene.add(pl1);
+            const pl2 = new THREE.PointLight(0xa855f7, 0.6, 100);
+            pl2.position.set(-20, -10, 10);
+            scene.add(pl2);
+            
+            createNodes();
+            createEdges();
+            updateStats();
+            buildLegend();
+            buildCompanyFilters();
+            
+            window.addEventListener('resize', onWindowResize);
+            renderer.domElement.addEventListener('click', onClick);
+            renderer.domElement.addEventListener('dblclick', onDoubleClick);
+            
+            setTimeout(() => {
+                document.getElementById('loading').classList.add('hidden');
+            }, 500);
+            
+            animate();
+        }
+        
+        function createNodes() {
+            const nodeMeshes = new Map();
+            const typeGroups = { Candidate: [], Company: [], Role: [], Skill: [], Metric: [] };
+            
+            graphData.nodes.forEach((node, i) => {
+                const color = parseInt(node.color.replace('#', ''), 16) || TYPE_COLORS[node.type] || 0x94a3b8;
+                const size = node.size || 0.5;
+                
+                const geometry = new THREE.SphereGeometry(size * 0.3, 32, 32);
+                const material = new THREE.MeshBasicMaterial({
+                    color: color,
+                    transparent: true,
+                    opacity: node.glow ? 1 : 0.85
+                });
+                
+                const mesh = new THREE.Mesh(geometry, material);
+                
+                // Position based on type
+                let radius, phi, theta;
+                const idx = typeGroups[node.type]?.length || 0;
+                typeGroups[node.type]?.push(node);
+                
+                if (node.type === 'Candidate') {
+                    mesh.position.set(0, 0, 0);
+                } else if (node.type === 'Company') {
+                    const angle = (idx / 6) * Math.PI * 2;
+                    radius = 12;
+                    mesh.position.set(
+                        radius * Math.cos(angle),
+                        (Math.random() - 0.5) * 4,
+                        radius * Math.sin(angle)
+                    );
+                } else if (node.type === 'Role') {
+                    // Find parent company
+                    const parentCompany = graphData.nodes.find(n => n.type === 'Company');
+                    const parentMesh = parentCompany ? nodeMeshes.get(parentCompany.id) : null;
+                    const basePos = parentMesh ? parentMesh.position : { x: 0, y: 0, z: 0 };
+                    mesh.position.set(
+                        basePos.x + (Math.random() - 0.5) * 4,
+                        basePos.y + (Math.random() - 0.5) * 4,
+                        basePos.z + (Math.random() - 0.5) * 4
+                    );
+                } else {
+                    // Skills and metrics scattered around
+                    const parentCompany = graphData.nodes.find(n => n.type === 'Company');
+                    const parentMesh = parentCompany ? nodeMeshes.get(parentCompany.id) : null;
+                    const basePos = parentMesh ? parentMesh.position : { x: 0, y: 0, z: 0 };
+                    mesh.position.set(
+                        basePos.x + (Math.random() - 0.5) * 10,
+                        basePos.y + (Math.random() - 0.5) * 6,
+                        basePos.z + (Math.random() - 0.5) * 10
+                    );
+                }
+                
+                mesh.userData = node;
+                
+                // Glow for important nodes
+                if (node.glow || node.type === 'Company') {
+                    const spriteMaterial = new THREE.SpriteMaterial({
+                        map: createGlowTexture(color),
+                        transparent: true,
+                        opacity: 0.4
+                    });
+                    const sprite = new THREE.Sprite(spriteMaterial);
+                    sprite.scale.set(size * 3, size * 3, 1);
+                    mesh.add(sprite);
+                }
+                
+                scene.add(mesh);
+                nodes3D.push(mesh);
+                nodeMeshes.set(node.id, mesh);
+            });
+            
+            window.nodeMeshes = nodeMeshes;
+        }
+        
+        function createEdges() {
+            graphData.edges.forEach(edge => {
+                const sourceMesh = window.nodeMeshes.get(edge.source);
+                const targetMesh = window.nodeMeshes.get(edge.target);
+                
+                if (sourceMesh && targetMesh) {
+                    const points = [sourceMesh.position, targetMesh.position];
+                    const geometry = new THREE.BufferGeometry().setFromPoints(points);
+                    const material = new THREE.LineBasicMaterial({
+                        color: 0x4a5568,
+                        transparent: true,
+                        opacity: 0.25
+                    });
+                    const line = new THREE.Line(geometry, material);
+                    scene.add(line);
+                    edges3D.push(line);
+                }
+            });
+        }
+        
+        function createGlowTexture(color) {
+            const canvas = document.createElement('canvas');
+            canvas.width = 64; canvas.height = 64;
+            const ctx = canvas.getContext('2d');
+            const hex = '#' + color.toString(16).padStart(6, '0');
+            const gradient = ctx.createRadialGradient(32, 32, 0, 32, 32, 32);
+            gradient.addColorStop(0, hex);
+            gradient.addColorStop(1, 'transparent');
+            ctx.fillStyle = gradient;
+            ctx.fillRect(0, 0, 64, 64);
+            return new THREE.CanvasTexture(canvas);
+        }
+        
+        function updateStats() {
+            document.getElementById('stat-nodes').textContent = graphData.nodes.length;
+            document.getElementById('stat-skills').textContent = graphData.stats.total_skills;
+            document.getElementById('stat-companies').textContent = graphData.stats.total_companies;
+            document.getElementById('stat-metrics').textContent = graphData.stats.total_metrics;
+        }
+        
+        function buildLegend() {
+            const legend = document.getElementById('legend');
+            legend.innerHTML = '';
+            Object.entries(TYPE_COLORS).forEach(([type, color]) => {
+                const item = document.createElement('div');
+                item.className = 'legend-item';
+                item.innerHTML = `<span class="legend-color" style="background:#${color.toString(16).padStart(6,'0')}"></span>${type}`;
+                legend.appendChild(item);
+            });
+        }
+        
+        function buildCompanyFilters() {
+            const container = document.getElementById('company-filters');
+            container.innerHTML = '';
+            
+            const companies = graphData.nodes.filter(n => n.type === 'Company');
+            companies.forEach(company => {
+                const btn = document.createElement('button');
+                btn.className = 'filter-btn';
+                btn.textContent = company.label;
+                btn.dataset.company = company.label;
+                btn.addEventListener('click', () => focusOnCompany(company.label));
+                container.appendChild(btn);
+            });
+        }
+        
+        function focusOnCompany(companyName) {
+            // Find the company node
+            const companyNode = graphData.nodes.find(n => n.type === 'Company' && n.label === companyName);
+            if (!companyNode) return;
+            
+            const companyMesh = window.nodeMeshes.get(companyNode.id);
+            if (!companyMesh) return;
+            
+            // Move camera to focus
+            const target = companyMesh.position;
+            controls.target.copy(target);
+            camera.position.set(target.x + 8, target.y + 8, target.z + 8);
+            
+            // Show details
+            showCompanyInsights(companyName);
+            
+            // Highlight related nodes
+            highlightCompanyNodes(companyName);
+            
+            // Update buttons
+            document.querySelectorAll('.filter-btn').forEach(b => {
+                b.classList.toggle('active', b.dataset.company === companyName);
+            });
+        }
+        
+        function highlightCompanyNodes(companyName) {
+            // Find all skills and metrics for this company
+            const companySkills = graphData.nodes.filter(n => n.type === 'Skill' && n.company === companyName);
+            const companyMetrics = graphData.nodes.filter(n => n.type === 'Metric' && n.company === companyName);
+            
+            const highlightIds = new Set();
+            companySkills.forEach(s => highlightIds.add(s.id));
+            companyMetrics.forEach(m => highlightIds.add(m.id));
+            const companyNode = graphData.nodes.find(n => n.type === 'Company' && n.label === companyName);
+            if (companyNode) highlightIds.add(companyNode.id);
+            
+            // Update visual opacity
+            nodes3D.forEach(mesh => {
+                if (highlightIds.has(mesh.userData.id)) {
+                    mesh.material.opacity = 1;
+                    mesh.scale.setScalar(1.3);
+                } else {
+                    mesh.material.opacity = 0.2;
+                    mesh.scale.setScalar(1);
+                }
+            });
+            
+            edges3D.forEach(edge => {
+                // Find edge data
+                const edgeData = graphData.edges.find(e => {
+                    const s = window.nodeMeshes.get(e.source);
+                    const t = window.nodeMeshes.get(e.target);
+                    return s && t && (s === edge || t === edge);
+                });
+                edge.material.opacity = 0.15;
+            });
+        }
+        
+        function showCompanyInsights(companyName) {
+            const panel = document.getElementById('detail-panel');
+            panel.classList.add('visible');
+            
+            const companyNode = graphData.nodes.find(n => n.type === 'Company' && n.label === companyName);
+            const skills = graphData.nodes.filter(n => n.type === 'Skill' && n.company === companyName);
+            const metrics = graphData.nodes.filter(n => n.type === 'Metric' && n.company === companyName);
+            
+            document.getElementById('detail-title').textContent = companyName;
+            const badge = document.getElementById('detail-type');
+            badge.textContent = 'Company';
+            badge.style.background = '#60a5fa';
+            
+            document.getElementById('detail-desc').textContent = 
+                `${companyNode?.details || ''} • ${skills.length} skills • ${metrics.length} metrics`;
+            
+            // Skills section
+            const skillsDiv = document.getElementById('detail-skills');
+            skillsDiv.innerHTML = '';
+            skills.sort((a, b) => (b.level || 0) - (a.level || 0));
+            skills.forEach(skill => {
+                const div = document.createElement('div');
+                div.className = 'skill-item';
+                div.innerHTML = `
+                    <div class="name">${skill.label}</div>
+                    <div class="level">Level ${skill.level || '?'}/5 • ${skill.evidence_count || 0} achievements</div>
+                `;
+                skillsDiv.appendChild(div);
+            });
+            
+            // Metrics section
+            const metricsDiv = document.getElementById('detail-metrics');
+            metricsDiv.innerHTML = '';
+            metrics.forEach(metric => {
+                const div = document.createElement('div');
+                div.className = 'metric-item';
+                div.innerHTML = `
+                    <div class="value">${metric.label}</div>
+                    <div class="context">${metric.context || metric.details || ''}</div>
+                `;
+                metricsDiv.appendChild(div);
+            });
+        }
+        
+        function onClick(event) {
+            mouse.x = (event.clientX / window.innerWidth) * 2 - 1;
+            mouse.y = -(event.clientY / window.innerHeight) * 2 + 1;
+            
+            raycaster.setFromCamera(mouse, camera);
+            const intersects = raycaster.intersectObjects(nodes3D);
+            
+            if (intersects.length > 0) {
+                const node = intersects[0].object.userData;
+                if (node.type === 'Company') {
+                    focusOnCompany(node.label);
+                }
+            }
+        }
+        
+        function onDoubleClick(event) {
+            // Reset view
+            controls.target.set(0, 0, 0);
+            camera.position.set(0, 12, 30);
+            
+            nodes3D.forEach(mesh => {
+                mesh.material.opacity = mesh.userData.glow ? 1 : 0.85;
+                mesh.scale.setScalar(1);
+            });
+            
+            document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+        }
+        
+        function onWindowResize() {
+            camera.aspect = window.innerWidth / window.innerHeight;
+            camera.updateProjectionMatrix();
+            renderer.setSize(window.innerWidth, window.innerHeight);
+        }
+        
+        function animate() {
+            requestAnimationFrame(animate);
+            controls.update();
+            
+            // Gentle floating
+            nodes3D.forEach((mesh, i) => {
+                mesh.position.y += Math.sin(Date.now() * 0.001 + i) * 0.001;
+            });
+            
+            renderer.render(scene, camera);
+        }
+        
+        init();
+    </script>
+</body>
+</html>
