@@ -711,7 +711,8 @@
     "url": "https://olist.inhire.app/vagas/43429609-6d26-4485-89f2-1d1b51d56b39/especialista-em-go-to-market-or-erp?source=linkedin",
     "fit_score": 98,
     "salary_expectation": "R$ 13.000 - R$ 17.000 /mês (CLT / Híbrido Curitiba)",
-    "notes": "Vaga na sede em Curitiba/PR (Olist Tiny ERP). Foco em PMO de lançamentos GTM, orquestração matricial (Produto, Mkt, Vendas, CS), Sales Enablement (scripts, FAQs) e Certificação Google PM."
+    "notes": "Vaga na sede em Curitiba/PR (Olist Tiny ERP). Foco em PMO de lançamentos GTM, orquestração matricial (Produto, Mkt, Vendas, CS), Sales Enablement (scripts, FAQs) e Certificação Google PM.",
+    "source_job_id": "olist-especialista-gtm-erp"
   },
   {
     "id": "18",
@@ -733,7 +734,8 @@
     "url": "https://www.nuvemshop.com.br/carreiras",
     "fit_score": 99,
     "salary_expectation": "R$ 13.000 - R$ 17.000 /mês (CLT / Remoto)",
-    "notes": "Vaga remota de Sales & Partner Enablement Specialist na Nuvemshop. Encaixe cirúrgico de 99%: onboarding comercial (ramp-up -50%), playbooks de vendas para BDR/SDR/AE/Parceiros, inteligência conversacional/Gong, e-commerce e inglês fluente."
+    "notes": "Vaga remota de Sales & Partner Enablement Specialist na Nuvemshop. Encaixe cirúrgico de 99%: onboarding comercial (ramp-up -50%), playbooks de vendas para BDR/SDR/AE/Parceiros, inteligência conversacional/Gong, e-commerce e inglês fluente.",
+    "source_job_id": "nuvemshop-sales-partner-enablement-specialist"
   },
   {
     "id": "20",
@@ -777,7 +779,8 @@
     "url": "https://infobip.wd3.myworkdayjobs.com/en-US/InfobipCareers/job/Curitiba-Brazil/Senior-partnership-enablement-specialist_JR104822",
     "fit_score": 97,
     "salary_expectation": "BRL 14,000-18,000 gross/month (CLT, hybrid in Curitiba)",
-    "notes": "Vaga híbrida em Curitiba na Infobip (plataforma global de comunicação cloud). Interface estratégica entre Produto e ecossistema de parceiros — tradução de produto em narrativas de negócio, use cases, briefings e outreach. Encaixe de 97%."
+    "notes": "Vaga híbrida em Curitiba na Infobip (plataforma global de comunicação cloud). Interface estratégica entre Produto e ecossistema de parceiros — tradução de produto em narrativas de negócio, use cases, briefings e outreach. Encaixe de 97%.",
+    "source_job_id": "infobip-senior-partnership-enablement-specialist"
   },
   {
     "id": "24",
@@ -910,5 +913,619 @@
     "fit_score": 92,
     "salary_expectation": "EUR 3,000 net/month plus performance-based bonus",
     "notes": "Forte aderência em AI-native GTM, landing pages, Meta Ads, automação, e-commerce, CRO, LLMs, n8n, Make, APIs e execução autônoma. Gaps em Clay, SmartLead, infraestrutura avançada de cold email e outbound de 1.000+ contatos/dia. Elegibilidade remota global a confirmar."
+  },
+  {
+    "id": "36",
+    "company": "XTRATEGUS",
+    "role": "AI Productivity & Adoption Consultant",
+    "date_applied": "2026-08-18",
+    "status": "Candidatado",
+    "notes": "Candidatura enviada em 18/08/2026. Materiais PT/EN disponíveis no artefato versionado xtrategus-ai-productivity-adoption-consultant.",
+    "url": "https://br.linkedin.com/jobs/view/ai-productivity-adoption-consultant-at-xtrategus-4452268828",
+    "current_stage": "Candidatura",
+    "fit_score": 95,
+    "salary_expectation": "Faixa salarial não informada pela XTRATEGUS",
+    "good_points": [
+      "Liderou adoção de IA em CRM com onboarding e coaching, elevando o uso em 150%.",
+      "Experiência comprovada em treinamentos, facilitação, playbooks, documentação e comunicação com times globais.",
+      "Uso prático de IA, engenharia de prompts, n8n, APIs e prototipagem aplicada a negócios."
+    ],
+    "improvement_points": [
+      "Microsoft 365 Copilot, Gemini e Power Platform não estão comprovados no currículo mestre.",
+      "Não há certificação Microsoft documentada.",
+      "Modalidade e faixa salarial não foram informadas no anúncio."
+    ],
+    "source_job_id": "xtrategus-ai-productivity-adoption-consultant",
+    "stages": [
+      {
+        "name": "Candidatura",
+        "status": "Concluído",
+        "date": "2026-08-18"
+      },
+      {
+        "name": "Triagem (Screening)",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Entrevista de RH",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Entrevista Técnica",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Proposta (Offer)",
+        "status": "Pendente",
+        "date": ""
+      }
+    ]
+  },
+  {
+    "id": "37",
+    "company": "BairesDev",
+    "role": "Revenue Operations Specialist - Remote work | REF#300572",
+    "date_applied": "2026-08-18",
+    "status": "Candidatado",
+    "notes": "Candidatura enviada em 18/08/2026. Materiais PT/EN disponíveis no artefato versionado bairesdev-revenue-operations-specialist.",
+    "url": "https://br.linkedin.com/jobs/view/revenue-operations-specialist-remote-work-ref%23300572-at-bairesdev-4449089476",
+    "current_stage": "Candidatura",
+    "fit_score": 92,
+    "salary_expectation": "Não informada; pagamento em USD ou moeda local indicado no anúncio",
+    "good_points": [
+      "Experiência superior a 8 anos em marketing, produto, GTM e operações, com atuação direta em Sales Enablement no Projeto Meta.",
+      "Criou playbooks, pitches, scripts e treinamentos para mais de 150 profissionais e reduziu o ramp-up de 6 para 3 meses.",
+      "Liderou adoção de IA em CRM, elevando o uso de 4 para 10 prompts por dia (+150%), com inglês profissional de uso diário."
+    ],
+    "improvement_points": [
+      "O histórico combina Revenue Operations, Marketing Operations e Sales Enablement; não há cargo anterior formalmente chamado Revenue Operations Specialist.",
+      "A experiência em CRM inclui plataformas proprietárias e protótipos, mas ownership de administração avançada de Salesforce ou HubSpot não está comprovado.",
+      "A remuneração não foi publicada; a expectativa deve ser alinhada sem presumir compatibilidade."
+    ],
+    "source_job_id": "bairesdev-revenue-operations-specialist",
+    "stages": [
+      {
+        "name": "Candidatura",
+        "status": "Concluído",
+        "date": "2026-08-18"
+      },
+      {
+        "name": "Triagem (Screening)",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Entrevista de RH",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Entrevista Técnica",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Proposta (Offer)",
+        "status": "Pendente",
+        "date": ""
+      }
+    ]
+  },
+  {
+    "id": "38",
+    "company": "Grupo RIC Paraná",
+    "role": "Especialista de Sales Enablement",
+    "date_applied": "2026-08-18",
+    "status": "Candidatado",
+    "notes": "Candidatura enviada em 18/08/2026. Materiais PT/EN disponíveis no artefato versionado grupo-ric-especialista-sales-enablement.",
+    "url": "https://br.linkedin.com/jobs/view/especialista-de-sales-enablement-at-grupo-ric-paran%C3%A1-4445200147",
+    "current_stage": "Candidatura",
+    "fit_score": 91,
+    "salary_expectation": "Não informada",
+    "good_points": [
+      "Experiência direta liderando Sales Excellence, Sales Productivity, treinamentos, playbooks e pitches no Projeto Meta.",
+      "Bootcamp comprovado reduziu ramp-up em 50%, com 100% de conclusão, 90%+ de qualidade e 90% de CSAT.",
+      "Histórico em publicidade digital, mídia, Growth Marketing, CRM, e-learning e indicadores comerciais."
+    ],
+    "improvement_points": [
+      "A graduação completa é em Filosofia, não nos cursos nominalmente listados; a correlação vem de 8+ anos de atuação prática em marketing, mídia, vendas e treinamento.",
+      "Disponibilidade para viagens não está documentada e precisa ser confirmada antes de assumir o requisito.",
+      "A modalidade não é declarada; por localização e jornada, o artefato trata o trabalho presencial apenas como provável, não confirmado.",
+      "A faixa salarial não foi publicada e pode divergir da expectativa documentada."
+    ],
+    "source_job_id": "grupo-ric-especialista-sales-enablement",
+    "stages": [
+      {
+        "name": "Candidatura",
+        "status": "Concluído",
+        "date": "2026-08-18"
+      },
+      {
+        "name": "Triagem (Screening)",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Entrevista de RH",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Entrevista Técnica",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Proposta (Offer)",
+        "status": "Pendente",
+        "date": ""
+      }
+    ]
+  },
+  {
+    "id": "39",
+    "company": "Doctoralia Brasil",
+    "role": "GTM & Revenue Operations Specialist | NOA",
+    "date_applied": "2026-08-18",
+    "status": "Candidatado",
+    "notes": "Candidatura enviada em 18/08/2026. Materiais PT/EN disponíveis no artefato versionado doctoralia-noa-gtm-revenue-operations-specialist.",
+    "url": "https://br.linkedin.com/jobs/view/gtm-revenue-operations-specialist-noa-at-doctoralia-brasil-4439274127",
+    "current_stage": "Candidatura",
+    "fit_score": 90,
+    "salary_expectation": "Não informada",
+    "good_points": [
+      "Experiência na interseção entre Produto, Vendas e Operações, com GTM, CRM, melhoria de processos e adoção de IA.",
+      "Resultados mensuráveis em adoção (+150%), ramp-up (-50%), funil, receita, ROI, geração de leads e testes A/B.",
+      "Repertório literal em SQL básico, Power BI, Google Sheets, Google Analytics, Looker Studio, Python prático e métodos ágeis."
+    ],
+    "improvement_points": [
+      "SQL e Python são competências práticas, não engenharia ou análise avançada de dados.",
+      "Healthcare e SaaS são contextos transferíveis; não há longa experiência formal no setor de saúde.",
+      "HubSpot e Salesforce constam nas competências, mas administração avançada e ownership formal de pipeline nessas plataformas não estão comprovados.",
+      "A faixa salarial não foi publicada; o anúncio e o LinkedIn apresentam possível conflito na classificação contratual."
+    ],
+    "source_job_id": "doctoralia-noa-gtm-revenue-operations-specialist",
+    "stages": [
+      {
+        "name": "Candidatura",
+        "status": "Concluído",
+        "date": "2026-08-18"
+      },
+      {
+        "name": "Triagem (Screening)",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Entrevista de RH",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Entrevista Técnica",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Proposta (Offer)",
+        "status": "Pendente",
+        "date": ""
+      }
+    ]
+  },
+  {
+    "id": "40",
+    "company": "Playlist",
+    "role": "Revenue Enablement Specialist",
+    "date_applied": "2026-08-18",
+    "status": "Candidatado",
+    "notes": "Candidatura enviada em 18/08/2026. Materiais PT/EN disponíveis no artefato versionado playlist-revenue-enablement-specialist.",
+    "url": "https://www.playlist.com/careers/opportunities/4705948006",
+    "current_stage": "Candidatura",
+    "fit_score": 89,
+    "salary_expectation": "Published base equals approximately BRL 10,583-12,500/month and is below the documented Brazil/PJ target of BRL 15,000-22,000/month",
+    "good_points": [
+      "Direct experience leading Sales Excellence, Sales Productivity, onboarding, coaching, playbooks, scripts and enablement for 150+ Meta Marketing Pros.",
+      "Documented ownership of native AI activation in a proprietary CRM, increasing daily usage by 150% and making the operation #1 globally for adoption growth.",
+      "Strong overlap in sales content, agile project delivery, cross-functional collaboration, performance analysis and structured training."
+    ],
+    "improvement_points": [
+      "Hands-on Salesloft or another named Sales Engagement platform is not documented.",
+      "Salesforce is listed as a skill, but Salesforce administration, access provisioning, permissions and license management are not documented.",
+      "Formal ownership of an LMS, conversation-intelligence platform or vendor relationship is not documented.",
+      "The published annual base range is below the documented Brazil/PJ compensation target."
+    ],
+    "source_job_id": "playlist-revenue-enablement-specialist",
+    "stages": [
+      {
+        "name": "Candidatura",
+        "status": "Concluído",
+        "date": "2026-08-18"
+      },
+      {
+        "name": "Triagem (Screening)",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Entrevista de RH",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Entrevista Técnica",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Proposta (Offer)",
+        "status": "Pendente",
+        "date": ""
+      }
+    ]
+  },
+  {
+    "id": "41",
+    "company": "Modaxo",
+    "role": "AI Transformation Manager",
+    "date_applied": "2026-08-18",
+    "status": "Candidatado",
+    "notes": "Candidatura enviada em 18/08/2026. Materiais PT/EN disponíveis no artefato versionado modaxo-ai-transformation-manager.",
+    "url": "https://modaxo.wd3.myworkdayjobs.com/modaxo/job/Brazil---Remote/AI-Transformation-Manager_R57794-1",
+    "current_stage": "Candidatura",
+    "fit_score": 86,
+    "salary_expectation": "R$ 15,000-22,000/month (Brazil/PJ), subject to employment structure and total package",
+    "good_points": [
+      "Hands-on AI adoption leadership in a complex global operation, including onboarding, coaching, playbooks and a measured 150% increase in CRM AI usage.",
+      "Experience translating business needs into MVPs, roadmaps, backlogs, pilots and practical workflows using LLMs, n8n, APIs and data tools.",
+      "Strong cross-functional facilitation, stakeholder management, governance, compliance and capability-building background."
+    ],
+    "improvement_points": [
+      "No formal enterprise transformation title or ownership across multiple independent business units is documented.",
+      "ADKAR, Kotter and other named change-management frameworks are not documented.",
+      "The posting requires fluent English; the master resume documents advanced/professional English, not fluency.",
+      "Transportation-sector and Modaxo-specific experience are not documented."
+    ],
+    "source_job_id": "modaxo-ai-transformation-manager",
+    "stages": [
+      {
+        "name": "Candidatura",
+        "status": "Concluído",
+        "date": "2026-08-18"
+      },
+      {
+        "name": "Triagem (Screening)",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Entrevista de RH",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Entrevista Técnica",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Proposta (Offer)",
+        "status": "Pendente",
+        "date": ""
+      }
+    ]
+  },
+  {
+    "id": "42",
+    "company": "RD Station",
+    "role": "Analista de RevOps Sênior - ABM & IA",
+    "date_applied": "2026-08-18",
+    "status": "Candidatado",
+    "notes": "Candidatura enviada em 18/08/2026. Materiais PT/EN disponíveis no artefato versionado rd-station-revops-senior-abm-ia.",
+    "url": "https://br.linkedin.com/jobs/view/analista-de-revops-s%C3%AAnior-abm-ia-rd-station-remoto-at-rd-station-4447168958",
+    "current_stage": "Candidatura",
+    "fit_score": 85,
+    "salary_expectation": "R$ 15.000-22.000/mês (Brasil/PJ), sujeita ao regime de contratação e pacote total",
+    "good_points": [
+      "Forte aderência em Marketing Ops, GTM, CRM, automação no-code/low-code, n8n, APIs, IA generativa e engenharia de prompts.",
+      "Experiência comprovada em ICP, geração de demanda, funis, métricas de receita, análise de gargalos e construção de bases em Supabase/PostgreSQL.",
+      "Ownership de adoção de IA em CRM com aumento de 150% e experiência prática construindo produto conversacional com RAG."
+    ],
+    "improvement_points": [
+      "Experiência direta com estratégia formal de ABM não está documentada.",
+      "Apollo, ZoomInfo e outras plataformas especializadas de enriquecimento de dados não estão documentadas.",
+      "Salesforce consta como skill, mas gestão e atualização de pipeline em Salesforce não estão comprovadas.",
+      "Experiência específica em empresa B2B SaaS não aparece de forma inequívoca no currículo mestre."
+    ],
+    "source_job_id": "rd-station-revops-senior-abm-ia",
+    "stages": [
+      {
+        "name": "Candidatura",
+        "status": "Concluído",
+        "date": "2026-08-18"
+      },
+      {
+        "name": "Triagem (Screening)",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Entrevista de RH",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Entrevista Técnica",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Proposta (Offer)",
+        "status": "Pendente",
+        "date": ""
+      }
+    ]
+  },
+  {
+    "id": "43",
+    "company": "Next Level Growth",
+    "role": "Marketing Operations & Project Manager",
+    "date_applied": "2026-08-18",
+    "status": "Candidatado",
+    "notes": "Candidatura enviada em 18/08/2026. Materiais PT/EN disponíveis no artefato versionado next-level-growth-marketing-operations-project-manager.",
+    "url": "https://br.linkedin.com/jobs/view/marketing-operations-project-manager-at-next-level-growth-4454347116",
+    "current_stage": "Candidatura",
+    "fit_score": 83,
+    "salary_expectation": "Faixa não divulgada; expectativa de USD 4.000 a USD 6.000/mês para remoto internacional ou equivalente conforme regime e pacote total",
+    "good_points": [
+      "Mais de 40 projetos de marketing digital para múltiplas contas, com controle de escopo, orçamento, cronogramas e recursos.",
+      "Experiência em agência, campanhas, websites, landing pages, conteúdo, mídia paga, testes A/B e métricas de conversão.",
+      "Governança com PMO, Agile, OKRs, roadmap, backlog, documentação, reporting e coordenação multifuncional."
+    ],
+    "improvement_points": [
+      "GHL e Frame.io não estão documentados no currículo mestre.",
+      "Não há experiência setorial direta comprovada com cirurgiões plásticos, med spas ou marcas de luxo.",
+      "A faixa salarial e o regime contratual não foram divulgados; a expectativa deve ser calibrada ao pacote."
+    ],
+    "source_job_id": "next-level-growth-marketing-operations-project-manager",
+    "stages": [
+      {
+        "name": "Candidatura",
+        "status": "Concluído",
+        "date": "2026-08-18"
+      },
+      {
+        "name": "Triagem (Screening)",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Entrevista de RH",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Entrevista Técnica",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Proposta (Offer)",
+        "status": "Pendente",
+        "date": ""
+      }
+    ]
+  },
+  {
+    "id": "44",
+    "company": "RevBlack",
+    "role": "RevOps Consultant",
+    "date_applied": "2026-08-18",
+    "status": "Candidatado",
+    "notes": "Candidatura enviada em 18/08/2026. Materiais PT/EN disponíveis no artefato versionado revblack-revops-consultant.",
+    "url": "https://br.linkedin.com/jobs/view/revops-consultant-at-revblack-4453588250",
+    "current_stage": "Candidatura",
+    "fit_score": 82,
+    "salary_expectation": "Faixa não divulgada; expectativa de R$ 15.000 a R$ 22.000/mês para contratação no Brasil, sujeita ao regime e pacote total",
+    "good_points": [
+      "Experiência em Sales Enablement, Marketing Operations, GTM, CRM, funis, automação, processos e métricas de receita.",
+      "Histórico consultivo com mais de 40 projetos, diagnóstico de necessidades, gestão de stakeholders e entregas orientadas a resultados.",
+      "Uso de análise de causa raiz, Power BI, Excel, dados de CRM e mapeamento de gargalos para recomendações e melhoria operacional."
+    ],
+    "improvement_points": [
+      "HubSpot e Salesforce constam entre as ferramentas do currículo mestre, mas administração avançada, implementação e certificações nessas plataformas não estão comprovadas.",
+      "Não há experiência direta documentada como consultor RevOps em SaaS nem ownership completo de operações de Customer Success.",
+      "A remuneração não foi divulgada; a expectativa deve ser confirmada conforme regime e benefícios."
+    ],
+    "source_job_id": "revblack-revops-consultant",
+    "stages": [
+      {
+        "name": "Candidatura",
+        "status": "Concluído",
+        "date": "2026-08-18"
+      },
+      {
+        "name": "Triagem (Screening)",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Entrevista de RH",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Entrevista Técnica",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Proposta (Offer)",
+        "status": "Pendente",
+        "date": ""
+      }
+    ]
+  },
+  {
+    "id": "45",
+    "company": "Wellhub",
+    "role": "GTM Program Manager | Revenue Operations",
+    "date_applied": "2026-08-18",
+    "status": "Candidatado",
+    "notes": "Candidatura enviada em 18/08/2026. Materiais PT/EN disponíveis no artefato versionado wellhub-gtm-program-manager-revenue-operations.",
+    "url": "https://job-boards.greenhouse.io/gympass/jobs/8696872002",
+    "current_stage": "Candidatura",
+    "fit_score": 80,
+    "salary_expectation": "Not disclosed; exclusively CLT",
+    "good_points": [
+      "Experiência comprovada em GTM, Sales Enablement, Marketing Operations, gestão de projetos e coordenação multifuncional no Projeto Meta.",
+      "Experiência prática com n8n, Make, Salesforce, HubSpot, APIs/webhooks, IA aplicada a workflows, ICP e testes A/B.",
+      "Ownership de adoção de IA no CRM, com aumento de 150% no uso, além de métricas de funil, receita, ROI e conversão.",
+      "Interesse documentado em wellness e atuação remota a partir do Brasil."
+    ],
+    "improvement_points": [
+      "Knockout: o anúncio declara Fluent English obrigatório; o currículo mestre documenta inglês avançado/profissional, não fluente.",
+      "Knockout: expertise em AI Tools é obrigatória; há experiência forte e prática, mas a profundidade esperada deve ser validada tecnicamente.",
+      "Clay e Salesloft não constam no currículo mestre; não devem ser apresentados como experiência direta.",
+      "SQL é básico e voltado à exploração de dados, não análise avançada; Zapier e Apollo também não estão documentados.",
+      "A contratação é exclusivamente CLT e a remuneração não foi divulgada; alinhar expectativa ao pacote total."
+    ],
+    "source_job_id": "wellhub-gtm-program-manager-revenue-operations",
+    "stages": [
+      {
+        "name": "Candidatura",
+        "status": "Concluído",
+        "date": "2026-08-18"
+      },
+      {
+        "name": "Triagem (Screening)",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Entrevista de RH",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Entrevista Técnica",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Proposta (Offer)",
+        "status": "Pendente",
+        "date": ""
+      }
+    ]
+  },
+  {
+    "id": "46",
+    "company": "EBANX",
+    "role": "Revenue Strategy Mid Analyst",
+    "date_applied": "2026-08-18",
+    "status": "Candidatado",
+    "notes": "Candidatura enviada em 18/08/2026. Materiais PT/EN disponíveis no artefato versionado ebanx-revenue-strategy-mid-analyst.",
+    "url": "https://job-boards.greenhouse.io/ebanx/jobs/7787387003",
+    "current_stage": "Candidatura",
+    "fit_score": 75,
+    "salary_expectation": "Not disclosed",
+    "good_points": [
+      "Localização em Curitiba e experiência com métricas de receita, ROI, conversão, monetização e melhoria de processos.",
+      "Excel avançado, Power BI/Tableau, Supabase/PostgreSQL, automação e colaboração multifuncional constam no currículo mestre.",
+      "Histórico de apresentações, documentação, coordenação de stakeholders e tradução de dados operacionais em planos de ação.",
+      "Experiência com IA aplicada a workflows e protótipos, alinhada à evolução de processos da área."
+    ],
+    "improvement_points": [
+      "Knockout provável: a vaga exige Strong SQL; o currículo mestre registra apenas SQL Básico e Exploração de Dados.",
+      "Experiência em pricing é limitada a experimentação de modelos, monetização e acompanhamento de receita; não há ownership de pricing infrastructure ou metodologias avançadas.",
+      "Não há experiência direta documentada em fintech, pagamentos, finanças ou contabilidade.",
+      "Inglês é avançado/profissional, não deve ser elevado a fluente.",
+      "A remuneração não foi divulgada e pode divergir da expectativa documentada."
+    ],
+    "source_job_id": "ebanx-revenue-strategy-mid-analyst",
+    "stages": [
+      {
+        "name": "Candidatura",
+        "status": "Concluído",
+        "date": "2026-08-18"
+      },
+      {
+        "name": "Triagem (Screening)",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Entrevista de RH",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Entrevista Técnica",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Proposta (Offer)",
+        "status": "Pendente",
+        "date": ""
+      }
+    ]
+  },
+  {
+    "id": "47",
+    "company": "Techne",
+    "role": "Especialista em Automação e IA",
+    "date_applied": "2026-08-18",
+    "status": "Candidatado",
+    "notes": "Candidatura enviada em 18/08/2026. Materiais PT/EN disponíveis no artefato versionado techne-especialista-automacao-ia.",
+    "url": "https://techne.gupy.io/jobs/11862700",
+    "current_stage": "Candidatura",
+    "fit_score": 70,
+    "salary_expectation": "Não informada",
+    "good_points": [
+      "Experiência prática com automação usando n8n, Make, APIs/webhooks, IA generativa, RAG e codificação assistida por IA.",
+      "Histórico de mapeamento de processos, identificação de gargalos, melhoria contínua e implementação de IA em workflows.",
+      "Prototipagem de MVPs, integração de Supabase/PostgreSQL, NocoDB, ManyChat e automação de conteúdo e CRM.",
+      "Experiência em educação e capacitação por meio de bootcamp, treinamentos, LMS e produção de conteúdo."
+    ],
+    "improvement_points": [
+      "Knockout provável: a vaga exige graduação concluída em Computação, Sistemas, Engenharia ou área correlata; a formação concluída é Filosofia e Engenharia está incompleta.",
+      "Python é apenas prático para automação e análise, com codificação assistida por IA; não há profundidade comprovada de engenharia de software.",
+      "Não há experiência direta documentada com HeyGen, Text-to-Video ou produção audiovisual apoiada por IA.",
+      "Não há certificações documentadas em IA generativa, Prompt Engineering ou ferramentas de automação.",
+      "Agentes de IA aparecem como arquitetura conversacional/RAG e prototipagem, não como desenvolvimento avançado de agentes em produção."
+    ],
+    "source_job_id": "techne-especialista-automacao-ia",
+    "stages": [
+      {
+        "name": "Candidatura",
+        "status": "Concluído",
+        "date": "2026-08-18"
+      },
+      {
+        "name": "Triagem (Screening)",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Entrevista de RH",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Entrevista Técnica",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Proposta (Offer)",
+        "status": "Pendente",
+        "date": ""
+      }
+    ]
   }
 ]
