@@ -62,7 +62,7 @@
 - E-commerce: R$ 10.000 em 3 meses 100% orgânico (R$ 0 em ads)
 - 100% dos projetos com conformidade LGPD
 
-**Skills demonstradas:** Agency Management, CRO, Chatbots, A/B Testing, UX/UI, SEO, Web Development, LGPD Compliance, Budget Control
+**Skills demonstradas:** Agency Management, CRO, Chatbots, A/B Testing, UX/UI, Web Development, LGPD Compliance, Pesquisa Legal, Redação Técnica, Consultoria para Clientes, Budget Control
 
 ---
 

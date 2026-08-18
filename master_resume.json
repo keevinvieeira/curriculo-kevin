@@ -84,8 +84,8 @@
         },
         {
           "tags": ["ops", "root_cause_analysis", "playbooks"],
-          "pt": "Aplicação de análise de causa raiz para identificar lacunas de conhecimento no time, desenhando planos de ação corretivos e construindo playbooks, scripts e materiais de suporte comercial.",
-          "en": "Apply root cause analysis to identify knowledge gaps within the team, designing corrective action plans and building playbooks, scripts, and sales enablement materials."
+          "pt": "Aplicação de análise de causa raiz para identificar lacunas de conhecimento no time, coordenando o diagnóstico, o desenho e o acompanhamento de planos de ação corretivos, além da construção de playbooks, scripts e materiais de suporte comercial.",
+          "en": "Applied root cause analysis to identify team knowledge gaps, coordinating diagnosis, design, and follow-up of corrective action plans while building playbooks, scripts, and sales enablement materials."
         },
         {
           "tags": ["sales", "methodology", "quality_assurance"],
@@ -169,7 +169,7 @@
           "en": "B2B Business Development: Led direct sales outreach and partner pitching, securing critical pilot partnerships with top Curitiba venues like Gal Gastrobar and Officina."
         },
         {
-          "tags": ["discovery", "learning", "cro"],
+          "tags": ["discovery", "cro"],
           "pt": "Mapeamento de Gargalos de Conversão: Conduziu entrevistas qualitativas e mapeamentos de funil que identificaram que a falta de liquidez de parceiros na oferta e atritos de latência de API (43,9% de drop na primeira mensagem) eram os principais impeditivos para a conversão de assinaturas.",
           "en": "Conversion Bottleneck Mapping: Conducted qualitative user interviews and funnel mappings that revealed that lack of merchant partner density (supply liquidity) and API processing latency (43.9% first-message dropout) were the primary conversion barriers for subscription growth."
         }
@@ -215,9 +215,9 @@
           "en": "0-to-1 E-Commerce Monetization: Built a custom e-commerce platform from scratch that achieved R$ 10,000 in revenue within its first 3 months operating 100% organically ($0 ad spend) driven purely by strategic Instagram positioning."
         },
         {
-          "tags": ["ux_ui", "web_development", "seo", "lgpd"],
-          "pt": "Conformidade LGPD em 100% dos Projetos: Estruturou a adequação técnica à Lei Geral de Proteção de Dados em todos os sites desenvolvidos, criando políticas de privacidade, termos de uso personalizados e sistemas de consentimento de cookies.",
-          "en": "100% Technical LGPD Compliance: Implemented data protection frameworks across 100% of delivered client websites, authoring custom privacy policies, terms of use, and cookie consent mechanisms."
+          "tags": ["ux_ui", "web_development", "lgpd", "legal_research", "technical_writing", "client_consulting"],
+          "pt": "Conformidade LGPD em 100% dos Projetos: Antes da adoção de ferramentas de IA, estudou os requisitos da Lei Geral de Proteção de Dados, redigiu políticas de privacidade e termos de uso personalizados e projetou e implementou a experiência visual dos banners e fluxos de consentimento de cookies. O trabalho consultivo fortaleceu sua autoridade técnica perante os clientes.",
+          "en": "100% Technical LGPD Compliance: Before the adoption of AI tools, researched Brazilian data protection requirements, authored custom privacy policies and terms of use, and designed and implemented the visual experience for cookie banners and consent flows. This consulting work strengthened his technical authority with clients."
         },
         {
           "tags": ["budget", "controls", "timeline"],

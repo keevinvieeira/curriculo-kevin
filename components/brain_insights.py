@@ -56,18 +56,20 @@ def render_brain_insights():
     skills = _by_type(data, "Skill")
     metrics = _by_type(data, "Metric")
     roles = _by_type(data, "Role")
+    functions = _by_type(data, "Function")
 
     st.divider()
     st.subheader("📊 Insights do Grafo (fonte: master_resume.json)")
 
     # ---------- KPIs ----------
-    cols = st.columns(6)
+    cols = st.columns(7)
     cols[0].metric("Nós", stats.get("total_nodes", len(nodes)))
     cols[1].metric("Conexões", stats.get("total_edges", len(edges)))
     cols[2].metric("Skills", stats.get("total_skills", len(skills)))
     cols[3].metric("Empresas", stats.get("total_companies", len(companies)))
     cols[4].metric("Métricas", stats.get("total_metrics", len(metrics)))
     cols[5].metric("Cargos", len(roles))
+    cols[6].metric("Funções", len(functions))
 
     # ---------- 1. Skills por empresa ----------
     with st.expander("🏆 Skills por empresa", expanded=True):

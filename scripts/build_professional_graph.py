@@ -42,13 +42,13 @@ CATEGORY_TAGS = {
         "revenue_analytics", "roi", "sql", "supabase", "tracking", "web_scraping",
     },
     "sales": {
-        "b2b", "business_development", "coaching", "crm", "crm_enablement", "high_ticket",
+        "b2b", "business_development", "client_consulting", "coaching", "crm", "crm_enablement", "high_ticket",
         "methodology", "partnerships", "playbooks", "product_positioning", "sales",
         "sales_enablement", "technical_reference", "training",
     },
     "quality": {
-        "bcp", "compliance", "documentation", "governance", "lgpd", "quality_assurance",
-        "root_cause_analysis", "security",
+        "bcp", "compliance", "documentation", "governance", "legal_research", "lgpd",
+        "quality_assurance", "root_cause_analysis", "security", "technical_writing",
     },
     "facilitation": {
         "art_of_hosting", "collective_intelligence", "community", "community_management",
@@ -66,6 +66,7 @@ PT_SKILLS = {
     "branding": "Branding", "budget": "Orçamento", "business_development": "Desenvolvimento de Negócios",
     "business_model": "Modelo de Negócio", "business_models": "Modelos de Negócio",
     "chatbots": "Chatbots", "coaching": "Coaching", "collaboration": "Colaboração",
+    "client_consulting": "Consultoria para Clientes",
     "collective_intelligence": "Inteligência Coletiva", "community": "Comunidade",
     "community_management": "Gestão de Comunidade", "compliance": "Compliance",
     "content_creation": "Criação de Conteúdo", "content_marketing": "Marketing de Conteúdo",
@@ -79,6 +80,7 @@ PT_SKILLS = {
     "governance": "Governança", "growth": "Growth", "high_ticket": "High Ticket",
     "inbound": "Inbound Marketing", "infoproduct": "Infoproduto", "lead_generation": "Geração de Leads",
     "leadership": "Liderança", "learning": "Aprendizado", "lgpd": "LGPD",
+    "legal_research": "Pesquisa Legal",
     "logistics": "Logística", "marketing": "Marketing", "methodology": "Metodologia",
     "metrics": "Métricas", "monetization": "Monetização", "narratives": "Narrativas",
     "nocodb": "NocoDB", "okr": "OKRs", "ops": "Operações", "paid_media": "Mídia Paga",
@@ -94,6 +96,7 @@ PT_SKILLS = {
     "social_innovation": "Inovação Social", "social_media": "Mídias Sociais", "sql": "SQL",
     "squad": "Squad", "supabase": "Supabase", "support": "Suporte",
     "technical_reference": "Referência Técnica", "thinking_environment": "Thinking Environment",
+    "technical_writing": "Redação Técnica",
     "timeline": "Cronograma", "tracking": "Rastreamento", "training": "Treinamento",
     "tripwire": "Oferta de Entrada", "ux": "Experiência do Usuário", "ux_ui": "UX/UI",
     "volume": "Volume de Entregas", "web_design": "Web Design", "web_development": "Desenvolvimento Web",
@@ -172,13 +175,18 @@ def category_for(tag: str) -> str:
     return "operations"
 
 
+def function_title(text: str) -> str:
+    title = text.split(":", 1)[0] if ":" in text else text.split(".", 1)[0]
+    return title if len(title) <= 72 else f"{title[:69].rstrip()}..."
+
+
 def build_graph(master: dict[str, Any]) -> dict[str, Any]:
     nodes: list[dict[str, Any]] = []
     edges: list[dict[str, Any]] = []
     node_ids: set[str] = set()
     skill_companies: dict[str, set[str]] = defaultdict(set)
     skill_evidence: Counter[tuple[str, str]] = Counter()
-    skill_evidence_entries: dict[str, list[dict[str, Any]]] = defaultdict(list)
+    skill_functions: dict[str, set[str]] = defaultdict(set)
 
     def add_node(node: dict[str, Any]) -> None:
         if node["id"] in node_ids:
@@ -229,17 +237,28 @@ def build_graph(master: dict[str, Any]) -> dict[str, Any]:
 
         primary_role_id = f"role-{slug(company)}-1"
         for bullet_index, bullet in enumerate(item["bullets"], 1):
+            function_id = f"function-{slug(company)}-{bullet_index}"
+            add_node({
+                "id": function_id,
+                "type": "Function",
+                "labels": {
+                    "pt": function_title(bullet["pt"]),
+                    "en": function_title(bullet["en"]),
+                },
+                "descriptions": {"pt": bullet["pt"], "en": bullet["en"]},
+                "company_id": company_id,
+                "role_id": primary_role_id,
+                "source": f"master_resume.json:work_experience:{slug(company)}:bullet:{bullet_index}",
+                "size": 0.58,
+                "color": "#22d3ee",
+            })
+            edges.append({"source": primary_role_id, "target": function_id, "type": "HAS_FUNCTION"})
             for tag in set(bullet["tags"]):
                 if tag not in PT_SKILLS:
                     raise ValueError(f"Missing PT skill label for tag: {tag}")
                 skill_companies[tag].add(company_id)
                 skill_evidence[(tag, company_id)] += 1
-                skill_evidence_entries[tag].append({
-                    "company_id": company_id,
-                    "role_id": primary_role_id,
-                    "source": f"master_resume.json:work_experience:{slug(company)}:bullet:{bullet_index}",
-                    "descriptions": {"pt": bullet["pt"], "en": bullet["en"]},
-                })
+                skill_functions[tag].add(function_id)
 
     for tag in sorted(skill_companies):
         category = category_for(tag)
@@ -258,7 +277,7 @@ def build_graph(master: dict[str, Any]) -> dict[str, Any]:
             "companies": companies,
             "evidence_by_company": evidence_by_company,
             "evidence_count": sum(evidence_by_company.values()),
-            "evidence": skill_evidence_entries[tag],
+            "function_ids": sorted(skill_functions[tag]),
             "size": 0.5 + min(sum(evidence_by_company.values()), 4) * 0.08,
             "color": category_data["color"],
         })
@@ -269,6 +288,8 @@ def build_graph(master: dict[str, Any]) -> dict[str, Any]:
                 "type": "DEMONSTRATES",
                 "evidence_count": evidence_by_company[company_id],
             })
+        for function_id in sorted(skill_functions[tag]):
+            edges.append({"source": function_id, "target": skill_id, "type": "DEMONSTRATES_SKILL"})
 
     for item in work:
         company = item["company"]
@@ -304,6 +325,7 @@ def build_graph(master: dict[str, Any]) -> dict[str, Any]:
             "total_companies": sum(node["type"] == "Company" for node in nodes),
             "total_metrics": sum(node["type"] == "Metric" for node in nodes),
             "total_roles": sum(node["type"] == "Role" for node in nodes),
+            "total_functions": sum(node["type"] == "Function" for node in nodes),
         },
     }
 
