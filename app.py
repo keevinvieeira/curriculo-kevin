@@ -784,6 +784,57 @@ with tab_brain:
         try:
             # Use our 3D visualizer instead of PyVis
             import streamlit.components.v1 as components
+
+            portfolio_counter = """
+                <style>
+                    * { box-sizing: border-box; }
+                    body { margin: 0; font-family: Inter, "Segoe UI", sans-serif; }
+                    .counter-card {
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        gap: 20px;
+                        min-height: 76px;
+                        padding: 14px 18px;
+                        color: #e2e8f0;
+                        background: linear-gradient(135deg, #0f172a, #172554);
+                        border: 1px solid rgba(96, 165, 250, 0.3);
+                        border-radius: 10px;
+                    }
+                    .counter-kicker { color: #93c5fd; font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; }
+                    .counter-note { margin-top: 5px; color: #94a3b8; font-size: 12px; }
+                    .counter-values { display: flex; gap: 24px; text-align: right; }
+                    .counter-value { color: #f8fafc; font-size: 26px; line-height: 1; font-weight: 800; }
+                    .counter-label { margin-top: 4px; color: #94a3b8; font-size: 11px; text-transform: uppercase; }
+                </style>
+                <div class="counter-card">
+                    <div>
+                        <div class="counter-kicker">Acessos ao portfólio público</div>
+                        <div class="counter-note">Visualizações desde 18/08/2026; recargas e bots podem ser contabilizados.</div>
+                    </div>
+                    <div class="counter-values">
+                        <div><div class="counter-value" id="portfolio-total">...</div><div class="counter-label">Total</div></div>
+                        <div><div class="counter-value" id="portfolio-today">...</div><div class="counter-label">Hoje</div></div>
+                    </div>
+                </div>
+                <script>
+                    const portfolioPath = 'https://keevinvieeira.github.io/curriculo-kevin/';
+                    fetch(`https://api.visitorbadge.io/api/status?path=${encodeURIComponent(portfolioPath)}`)
+                        .then(response => {
+                            if (!response.ok) throw new Error(`HTTP ${response.status}`);
+                            return response.json();
+                        })
+                        .then(data => {
+                            document.getElementById('portfolio-total').textContent = Number(data.total || 0).toLocaleString('pt-BR');
+                            document.getElementById('portfolio-today').textContent = Number(data.today || 0).toLocaleString('pt-BR');
+                        })
+                        .catch(() => {
+                            document.getElementById('portfolio-total').textContent = '--';
+                            document.getElementById('portfolio-today').textContent = '--';
+                        });
+                </script>
+            """
+            components.html(portfolio_counter, height=92, scrolling=False)
             
             # Inject the canonical graph projection into the standalone HTML shell.
             with open('graph-3d.html', 'r', encoding='utf-8') as f:
