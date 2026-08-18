@@ -39,7 +39,7 @@
             top: 22px;
             left: 22px;
             pointer-events: auto;
-            max-width: min(620px, calc(100vw - 390px));
+            max-width: min(620px, calc(100vw - 430px));
         }
         .header-row {
             display: flex;
@@ -111,7 +111,7 @@
             pointer-events: auto;
         }
         .stat {
-            min-width: 66px;
+            min-width: 72px;
             padding: 7px 11px;
             text-align: center;
             border: 1px solid rgba(148, 163, 184, 0.16);
@@ -132,18 +132,6 @@
             text-transform: uppercase;
             letter-spacing: 0.04em;
         }
-        #portfolio-view-stat {
-            position: absolute;
-            top: 78px;
-            right: 22px;
-            display: flex;
-            min-width: 132px;
-            align-items: center;
-            justify-content: center;
-            pointer-events: auto;
-        }
-        #portfolio-view-stat[hidden] { display: none; }
-        #portfolio-view-stat img { display: block; height: 20px; }
         #company-filters {
             position: absolute;
             top: 104px;
@@ -181,11 +169,12 @@
             display: flex;
             flex-wrap: wrap;
             gap: 5px;
-            max-width: min(760px, calc(100vw - 370px));
+            max-width: min(760px, calc(60vw - 44px));
             pointer-events: auto;
         }
         .legend-item {
             display: inline-flex;
+            flex: 0 0 auto;
             align-items: center;
             gap: 5px;
             padding: 4px 7px;
@@ -194,6 +183,7 @@
             border: 1px solid rgba(148, 163, 184, 0.14);
             border-radius: 5px;
             font-size: 0.65rem;
+            white-space: nowrap;
         }
         .legend-item.selectable {
             cursor: pointer;
@@ -224,7 +214,7 @@
             position: absolute;
             top: 98px;
             right: 22px;
-            width: 340px;
+            width: 40vw;
             max-height: calc(100vh - 122px);
             padding: 18px;
             overflow-y: auto;
@@ -299,8 +289,12 @@
             font-size: 0.74rem;
             line-height: 1.4;
         }
-        .skill-item.clickable { cursor: pointer; transition: 150ms ease; }
-        .skill-item.clickable:hover { border-color: #60a5fa; background: rgba(37, 99, 235, 0.12); }
+        .role-item.clickable,
+        .skill-item.clickable,
+        .metric-item.clickable { cursor: pointer; transition: 150ms ease; }
+        .role-item.clickable:hover,
+        .skill-item.clickable:hover,
+        .metric-item.clickable:hover { border-color: #60a5fa; background: rgba(37, 99, 235, 0.12); }
         .item-name,
         .metric-value { font-weight: 650; color: #e2e8f0; }
         .item-meta,
@@ -354,10 +348,15 @@
             #header p { max-width: 310px; font-size: 0.7rem; }
             #stats-bar { top: 82px; left: 14px; right: auto; gap: 4px; }
             .stat { min-width: 55px; padding: 5px 7px; }
-            #portfolio-view-stat { top: 138px; right: auto; left: 14px; }
-            #company-filters { top: 178px; left: 14px; max-width: 160px; }
+            #company-filters { top: 140px; left: 14px; max-width: 160px; }
             .filter-btn { font-size: 0.65rem; }
-            #legend { left: 14px; right: 14px; bottom: 12px; max-width: none; }
+            #legend {
+                left: 14px;
+                right: auto;
+                bottom: 12px;
+                width: calc(100vw - 28px);
+                max-width: calc(100vw - 28px);
+            }
             #instructions { display: none; }
             #detail-panel {
                 top: auto;
@@ -389,12 +388,12 @@
             <p id="subtitle"></p>
         </header>
         <div id="stats-bar">
-            <div class="stat"><div class="stat-value" id="stat-nodes">0</div><div class="stat-label" data-i18n="nodes"></div></div>
-            <div class="stat"><div class="stat-value" id="stat-skills">0</div><div class="stat-label" data-i18n="skills"></div></div>
             <div class="stat"><div class="stat-value" id="stat-companies">0</div><div class="stat-label" data-i18n="companies"></div></div>
-            <div class="stat"><div class="stat-value" id="stat-metrics">0</div><div class="stat-label" data-i18n="metrics"></div></div>
+            <div class="stat"><div class="stat-value" id="stat-roles">0</div><div class="stat-label" data-i18n="roles"></div></div>
+            <div class="stat"><div class="stat-value" id="stat-abilities">0</div><div class="stat-label" data-i18n="abilities"></div></div>
+            <div class="stat"><div class="stat-value" id="stat-skills">0</div><div class="stat-label" data-i18n="skills"></div></div>
+            <div class="stat"><div class="stat-value" id="stat-results">0</div><div class="stat-label" data-i18n="results"></div></div>
         </div>
-        <div class="stat" id="portfolio-view-stat" hidden></div>
         <div id="company-filters"></div>
         <div id="instructions"></div>
         <div id="legend"></div>
@@ -428,27 +427,29 @@
             pt: {
                 pageTitle: 'Kevin Augusto Vieira - Grafo Profissional 3D',
                 subtitle: 'Explore empresas, funções, skills compartilhadas e métricas. Fonte: master_resume.json',
-                nodes: 'Nós', skills: 'Skills únicas', companies: 'Empresas', metrics: 'Métricas', roles: 'Cargos', functions: 'Funções',
+                skills: 'Skills', companies: 'Empresas', metrics: 'Métricas', roles: 'Cargos', role: 'Cargo', functions: 'Funções',
+                abilities: 'Habilidades', results: 'Resultados', result: 'Resultado',
                 fullView: 'Visão completa', company: 'Empresa', location: 'Localização', period: 'Período',
                 skill: 'Skill', category: 'Categoria', evidenceSection: 'Evidências no currículo',
                 function: 'Função', demonstrates: 'Demonstra também',
                 fullscreen: 'Tela cheia', exitFullscreen: 'Sair da tela cheia', fullscreenUnavailable: 'Tela cheia indisponível neste navegador',
                 evidence: 'evidência nesta empresa', evidences: 'evidências nesta empresa',
                 totalEvidence: 'no total', sharedWith: 'Também comprovada em',
-                instructions: 'Clique = explorar empresa • Arraste = girar • Scroll = zoom • Duplo clique ou Esc = visão completa',
+                instructions: 'Clique em qualquer esfera = explorar detalhes • Arraste = girar • Scroll = zoom • Duplo clique ou Esc = visão completa',
                 close: 'Fechar e voltar à visão completa',
             },
             en: {
                 pageTitle: 'Kevin Augusto Vieira - Professional Graph 3D',
                 subtitle: 'Explore companies, functions, shared skills, and metrics. Source: master_resume.json',
-                nodes: 'Nodes', skills: 'Unique skills', companies: 'Companies', metrics: 'Metrics', roles: 'Roles', functions: 'Functions',
+                skills: 'Skills', companies: 'Companies', metrics: 'Metrics', roles: 'Roles', role: 'Role', functions: 'Functions',
+                abilities: 'Skill areas', results: 'Outcomes', result: 'Outcome',
                 fullView: 'Full view', company: 'Company', location: 'Location', period: 'Period',
                 skill: 'Skill', category: 'Category', evidenceSection: 'Resume evidence',
                 function: 'Function', demonstrates: 'Also demonstrates',
                 fullscreen: 'Fullscreen', exitFullscreen: 'Exit fullscreen', fullscreenUnavailable: 'Fullscreen is unavailable in this browser',
                 evidence: 'evidence at this company', evidences: 'evidence items at this company',
                 totalEvidence: 'in total', sharedWith: 'Also demonstrated at',
-                instructions: 'Click = explore company • Drag = rotate • Scroll = zoom • Double-click or Esc = full view',
+                instructions: 'Click any sphere = explore details • Drag = rotate • Scroll = zoom • Double-click or Esc = full view',
                 close: 'Close and return to full view',
             },
         };
@@ -481,6 +482,7 @@
         let selectedCategory = null;
         let selectedSkillId = null;
         let selectedType = null;
+        let selectedNodeId = null;
         let clickTimer = null;
         const nodes3D = [];
         const edges3D = [];
@@ -774,6 +776,7 @@
             buildLegend();
             if (selectedCompanyId) showCompanyInsights(selectedCompanyId);
             if (selectedSkillId) showSkillInsights(selectedSkillId);
+            if (selectedNodeId) showProfessionalNodeInsights(selectedNodeId);
         }
 
         async function toggleFullscreen() {
@@ -801,10 +804,11 @@
 
         function updateStats() {
             const stats = graphData.stats || {};
-            document.getElementById('stat-nodes').textContent = stats.total_nodes ?? graphData.nodes.length;
-            document.getElementById('stat-skills').textContent = stats.total_skills ?? 0;
             document.getElementById('stat-companies').textContent = stats.total_companies ?? 0;
-            document.getElementById('stat-metrics').textContent = stats.total_metrics ?? 0;
+            document.getElementById('stat-roles').textContent = stats.total_roles ?? 0;
+            document.getElementById('stat-abilities').textContent = Object.keys(graphData.categories || {}).length;
+            document.getElementById('stat-skills').textContent = stats.total_skills ?? 0;
+            document.getElementById('stat-results').textContent = stats.total_metrics ?? 0;
         }
 
         function buildCompanyFilters() {
@@ -812,7 +816,7 @@
             container.innerHTML = '';
             const fullView = document.createElement('button');
             fullView.type = 'button';
-            fullView.className = `filter-btn${selectedCompanyId || selectedCategory || selectedSkillId || selectedType ? '' : ' active'}`;
+            fullView.className = `filter-btn${selectedCompanyId || selectedCategory || selectedSkillId || selectedType || selectedNodeId ? '' : ' active'}`;
             fullView.textContent = `↺ ${t('fullView')}`;
             fullView.addEventListener('click', resetFullView);
             container.appendChild(fullView);
@@ -845,9 +849,13 @@
             items.forEach(({ label, color, category, type }) => {
                 const item = document.createElement('div');
                 const active = selectedCategory === category || selectedType === type;
+                const count = category
+                    ? graphData.nodes.filter(node => node.type === 'Skill' && node.category === category).length
+                    : graphData.nodes.filter(node => node.type === type).length;
+                const countedLabel = type === 'Candidate' ? label : `${label} (${count})`;
                 item.className = `legend-item selectable${active ? ' active' : ''}`;
                 item.style.setProperty('--legend-color', color);
-                item.innerHTML = `<span class="legend-color" style="background:${color}"></span>${label}`;
+                item.innerHTML = `<span class="legend-color" style="background:${color}"></span>${countedLabel}`;
                 const activate = () => category ? selectCategory(category) : selectType(type);
                 item.setAttribute('role', 'button');
                 item.setAttribute('tabindex', '0');
@@ -872,6 +880,7 @@
             selectedCategory = null;
             selectedCompanyId = null;
             selectedSkillId = null;
+            selectedNodeId = null;
             controls.autoRotate = false;
             document.getElementById('detail-panel').classList.remove('visible');
 
@@ -916,6 +925,7 @@
             selectedCompanyId = null;
             selectedSkillId = null;
             selectedType = null;
+            selectedNodeId = null;
             controls.autoRotate = false;
             document.getElementById('detail-panel').classList.remove('visible');
             const skillIds = new Set(
@@ -956,6 +966,7 @@
             selectedCategory = null;
             selectedSkillId = null;
             selectedType = null;
+            selectedNodeId = null;
             controls.autoRotate = false;
             controls.target.copy(companyMesh.position);
             camera.position.copy(companyMesh.position).add(new THREE.Vector3(9, 7, 9));
@@ -1013,10 +1024,11 @@
             rolesDiv.innerHTML = '';
             roles.forEach(role => {
                 const item = document.createElement('div');
-                item.className = 'role-item';
+                item.className = 'role-item clickable';
                 item.innerHTML = `<div class="item-name"></div><div class="item-meta"></div>`;
                 item.querySelector('.item-name').textContent = nodeLabel(role);
                 item.querySelector('.item-meta').textContent = localized(role.dates);
+                item.addEventListener('click', () => focusOnProfessionalNode(role.id));
                 rolesDiv.appendChild(item);
             });
 
@@ -1045,10 +1057,11 @@
             metricsDiv.innerHTML = '';
             metrics.forEach(metric => {
                 const item = document.createElement('div');
-                item.className = 'metric-item';
+                item.className = 'metric-item clickable';
                 item.innerHTML = `<div class="metric-value"></div><div class="metric-context"></div>`;
                 item.querySelector('.metric-value').textContent = `${nodeLabel(metric)} · ${localized(metric.names)}`;
                 item.querySelector('.metric-context').textContent = localized(metric.contexts);
+                item.addEventListener('click', () => focusOnProfessionalNode(metric.id));
                 metricsDiv.appendChild(item);
             });
         }
@@ -1100,6 +1113,7 @@
             selectedCompanyId = null;
             selectedCategory = null;
             selectedType = null;
+            selectedNodeId = null;
             controls.autoRotate = false;
             controls.target.copy(skillMesh.position);
             camera.position.copy(skillMesh.position).add(new THREE.Vector3(7, 6, 7));
@@ -1148,11 +1162,167 @@
             skillsDiv.appendChild(evidenceContainer);
         }
 
+        function skillsForFunctions(functionIds) {
+            const ids = new Set(functionIds);
+            return graphData.nodes.filter(node =>
+                node.type === 'Skill' && node.function_ids?.some(id => ids.has(id))
+            );
+        }
+
+        function renderSkillItems(container, skills) {
+            container.innerHTML = '';
+            skills
+                .sort((a, b) => b.evidence_count - a.evidence_count)
+                .forEach(skill => {
+                    const item = document.createElement('div');
+                    item.className = 'skill-item clickable';
+                    item.innerHTML = `<div class="item-name"></div><div class="item-meta"></div>`;
+                    item.querySelector('.item-name').textContent = nodeLabel(skill);
+                    item.querySelector('.item-meta').textContent = `${skill.evidence_count} ${t('totalEvidence')}`;
+                    item.addEventListener('click', () => focusOnSkill(skill.id));
+                    container.appendChild(item);
+                });
+        }
+
+        function focusOnProfessionalNode(nodeId) {
+            const node = getNode(nodeId);
+            const nodeMesh = nodeMeshes.get(nodeId);
+            if (!node || !nodeMesh || !['Role', 'Function', 'Metric'].includes(node.type)) return;
+
+            selectedNodeId = nodeId;
+            selectedCompanyId = null;
+            selectedCategory = null;
+            selectedSkillId = null;
+            selectedType = null;
+            controls.autoRotate = false;
+            controls.target.copy(nodeMesh.position);
+            camera.position.copy(nodeMesh.position).add(new THREE.Vector3(7, 6, 7));
+
+            const relatedIds = new Set(['candidate', node.id]);
+            if (node.company_id) relatedIds.add(node.company_id);
+            if (node.type === 'Role') {
+                const functions = graphData.nodes.filter(item => item.type === 'Function' && item.role_id === node.id);
+                functions.forEach(item => relatedIds.add(item.id));
+                skillsForFunctions(functions.map(item => item.id)).forEach(item => relatedIds.add(item.id));
+                graphData.nodes
+                    .filter(item => item.type === 'Metric' && item.company_id === node.company_id)
+                    .forEach(item => relatedIds.add(item.id));
+            } else if (node.type === 'Function') {
+                relatedIds.add(node.role_id);
+                skillsForFunctions([node.id]).forEach(item => relatedIds.add(item.id));
+            } else {
+                graphData.nodes
+                    .filter(item => item.type === 'Role' && item.company_id === node.company_id)
+                    .forEach(item => relatedIds.add(item.id));
+            }
+
+            nodes3D.forEach(mesh => {
+                const selected = mesh.userData.id === node.id;
+                const related = relatedIds.has(mesh.userData.id);
+                setNodeAppearance(mesh, selected ? 1 : related ? 0.68 : 0.025, selected ? 1.55 : related ? 1.08 : 0.76, false);
+            });
+            edges3D.forEach(line => {
+                const related = relatedIds.has(line.userData.source) && relatedIds.has(line.userData.target);
+                line.material.opacity = related ? 0.82 : 0.012;
+            });
+            showProfessionalNodeInsights(nodeId);
+            buildCompanyFilters();
+            buildLegend();
+        }
+
+        function showProfessionalNodeInsights(nodeId) {
+            const node = getNode(nodeId);
+            if (!node) return;
+            const company = getNode(node.company_id);
+            const panel = document.getElementById('detail-panel');
+            const rolesSection = document.getElementById('section-roles');
+            const skillsSection = document.getElementById('section-skills');
+            const metricsSection = document.getElementById('section-metrics');
+            const rolesDiv = document.getElementById('detail-roles');
+            const skillsDiv = document.getElementById('detail-skills');
+            const metricsDiv = document.getElementById('detail-metrics');
+            panel.classList.add('visible');
+            rolesDiv.innerHTML = '';
+            skillsDiv.innerHTML = '';
+            metricsDiv.innerHTML = '';
+
+            if (node.type === 'Role') {
+                const functions = graphData.nodes.filter(item => item.type === 'Function' && item.role_id === node.id);
+                const skills = skillsForFunctions(functions.map(item => item.id));
+                const metrics = graphData.nodes.filter(item => item.type === 'Metric' && item.company_id === node.company_id);
+                document.getElementById('detail-title').textContent = nodeLabel(node);
+                document.getElementById('detail-type').textContent = t('role');
+                document.getElementById('detail-desc').textContent = [
+                    nodeLabel(company), localized(node.dates), `${functions.length} ${t('functions').toLocaleLowerCase()}`,
+                    `${skills.length} ${t('skills').toLocaleLowerCase()}`,
+                ].filter(Boolean).join(' • ');
+                rolesSection.style.display = '';
+                skillsSection.style.display = '';
+                metricsSection.style.display = '';
+                document.getElementById('roles-heading').textContent = t('functions');
+                document.getElementById('skills-heading').textContent = t('skills');
+                document.getElementById('metrics-heading').textContent = t('results');
+                functions.forEach(jobFunction => {
+                    const item = document.createElement('div');
+                    item.className = 'role-item clickable';
+                    item.innerHTML = `<div class="item-name"></div><div class="item-meta"></div>`;
+                    item.querySelector('.item-name').textContent = nodeLabel(jobFunction);
+                    item.querySelector('.item-meta').textContent = localized(jobFunction.descriptions);
+                    item.addEventListener('click', () => focusOnProfessionalNode(jobFunction.id));
+                    rolesDiv.appendChild(item);
+                });
+                renderSkillItems(skillsDiv, skills);
+                metrics.forEach(metric => {
+                    const item = document.createElement('div');
+                    item.className = 'metric-item clickable';
+                    item.innerHTML = `<div class="metric-value"></div><div class="metric-context"></div>`;
+                    item.querySelector('.metric-value').textContent = `${nodeLabel(metric)} · ${localized(metric.names)}`;
+                    item.querySelector('.metric-context').textContent = localized(metric.contexts);
+                    item.addEventListener('click', () => focusOnProfessionalNode(metric.id));
+                    metricsDiv.appendChild(item);
+                });
+            } else if (node.type === 'Function') {
+                const role = getNode(node.role_id);
+                const skills = skillsForFunctions([node.id]);
+                document.getElementById('detail-title').textContent = nodeLabel(node);
+                document.getElementById('detail-type').textContent = t('function');
+                document.getElementById('detail-desc').textContent = localized(node.descriptions);
+                rolesSection.style.display = '';
+                skillsSection.style.display = '';
+                metricsSection.style.display = 'none';
+                document.getElementById('roles-heading').textContent = t('role');
+                document.getElementById('skills-heading').textContent = t('skills');
+                const item = document.createElement('div');
+                item.className = 'role-item clickable';
+                item.innerHTML = `<div class="item-name"></div><div class="item-meta"></div>`;
+                item.querySelector('.item-name').textContent = nodeLabel(role);
+                item.querySelector('.item-meta').textContent = nodeLabel(company);
+                item.addEventListener('click', () => focusOnProfessionalNode(role.id));
+                rolesDiv.appendChild(item);
+                renderSkillItems(skillsDiv, skills);
+            } else {
+                document.getElementById('detail-title').textContent = `${nodeLabel(node)} · ${localized(node.names)}`;
+                document.getElementById('detail-type').textContent = t('result');
+                document.getElementById('detail-desc').textContent = localized(node.contexts);
+                rolesSection.style.display = '';
+                skillsSection.style.display = 'none';
+                metricsSection.style.display = 'none';
+                document.getElementById('roles-heading').textContent = t('company');
+                const item = document.createElement('div');
+                item.className = 'role-item clickable';
+                item.innerHTML = `<div class="item-name"></div>`;
+                item.querySelector('.item-name').textContent = nodeLabel(company);
+                item.addEventListener('click', () => focusOnCompany(company.id));
+                rolesDiv.appendChild(item);
+            }
+        }
+
         function resetFullView() {
             selectedCompanyId = null;
             selectedCategory = null;
             selectedSkillId = null;
             selectedType = null;
+            selectedNodeId = null;
             controls.autoRotate = true;
             controls.target.set(0, 0, 0);
             camera.position.copy(initialCamera);
@@ -1176,6 +1346,10 @@
                     focusOnCompany(intersection.object.userData.id);
                 } else if (intersection?.object.userData.type === 'Skill') {
                     focusOnSkill(intersection.object.userData.id);
+                } else if (['Role', 'Function', 'Metric'].includes(intersection?.object.userData.type)) {
+                    focusOnProfessionalNode(intersection.object.userData.id);
+                } else if (intersection?.object.userData.type === 'Candidate') {
+                    resetFullView();
                 }
             }, 220);
         }
@@ -1214,15 +1388,14 @@
         }
 
         function initPortfolioCounter() {
-            // Only direct GitHub Pages visits count; the Streamlit iframe is read-only.
+            // Keep the internal counter invisible and exclude Streamlit iframe loads.
             if (window.self !== window.top) return;
-            const container = document.getElementById('portfolio-view-stat');
-            const badge = document.createElement('img');
-            badge.src = 'https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fkeevinvieeira.github.io%2Fcurriculo-kevin%2F&label=VISUALIZA%C3%87%C3%95ES&countColor=%232563eb&labelColor=%230f172a&style=flat-square';
-            badge.alt = 'Visualizações do portfólio desde 18 de agosto de 2026';
-            badge.referrerPolicy = 'no-referrer';
-            container.appendChild(badge);
-            container.hidden = false;
+            const beacon = new Image(1, 1);
+            beacon.hidden = true;
+            beacon.alt = '';
+            beacon.referrerPolicy = 'no-referrer';
+            beacon.src = 'https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fkeevinvieeira.github.io%2Fcurriculo-kevin%2F&label=VISUALIZA%C3%87%C3%95ES&countColor=%232563eb&labelColor=%230f172a&style=flat-square';
+            document.body.appendChild(beacon);
         }
 
         initPortfolioCounter();
