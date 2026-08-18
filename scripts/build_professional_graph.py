@@ -12,6 +12,8 @@ from typing import Any
 ROOT = Path(__file__).resolve().parents[1]
 MASTER_PATH = ROOT / "master_resume.json"
 OUTPUT_PATH = ROOT / "data" / "graph_clean.json"
+TEMPLATE_PATH = ROOT / "graph-3d.html"
+STATIC_SITE_PATH = ROOT / "docs" / "index.html"
 
 CATEGORIES = {
     "product": {"pt": "Produto e Estratégia", "en": "Product & Strategy", "color": "#4a9eff"},
@@ -330,6 +332,16 @@ def build_graph(master: dict[str, Any]) -> dict[str, Any]:
     }
 
 
+def build_static_site(graph: dict[str, Any]) -> None:
+    template = TEMPLATE_PATH.read_text(encoding="utf-8")
+    if "__GRAPH_DATA__" not in template:
+        raise ValueError("graph-3d.html does not contain the graph data placeholder")
+    payload = json.dumps(graph, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
+    rendered = template.replace("__GRAPH_DATA__", payload)
+    STATIC_SITE_PATH.parent.mkdir(parents=True, exist_ok=True)
+    STATIC_SITE_PATH.write_text(rendered, encoding="utf-8")
+
+
 def main() -> None:
     with MASTER_PATH.open(encoding="utf-8") as file:
         master = json.load(file)
@@ -338,10 +350,12 @@ def main() -> None:
     with OUTPUT_PATH.open("w", encoding="utf-8") as file:
         json.dump(graph, file, ensure_ascii=False, indent=2)
         file.write("\n")
+    build_static_site(graph)
     print(
         f"Built {OUTPUT_PATH.relative_to(ROOT)}: "
         f"{graph['stats']['total_nodes']} nodes / {graph['stats']['total_edges']} edges"
     )
+    print(f"Built {STATIC_SITE_PATH.relative_to(ROOT)}")
 
 
 if __name__ == "__main__":
