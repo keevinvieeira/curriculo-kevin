@@ -1,28 +1,33 @@
 {
-  "company_name": "Confidential Marketing Agency",
-  "role_title": "Full-Stack Developer & AI Integration Specialist",
-  "url": "",
-  "fit_score": 78,
-  "salary_expectation": "$22/hour, subject to scope and engagement terms",
-  "document_language": "en",
+  "company_name": "Olist",
+  "role_title": "Especialista em Go-to-Market | ERP",
+  "url": "https://br.linkedin.com/jobs/view/especialista-em-go-to-market-erp-at-olist-4446910194",
+  "fit_score": 96,
+  "salary_expectation": "Faixa salarial não informada pela Olist",
+  "document_language": "pt",
   "available_languages": [
     "pt",
     "en"
   ],
-  "application_deadline": "2026-08-16T23:59:00-05:00",
+  "location": "Curitiba, PR",
+  "work_model": "Híbrido",
+  "employment_type": "CLT, tempo integral",
+  "seniority": "Pleno-sênior",
+  "listing_status": "Ativa no momento da consulta",
+  "published_at": "Aproximadamente 3 semanas antes de 2026-08-17",
+  "fetched_at": "2026-08-17T23:05:28-03:00",
+  "application_deadline": null,
   "source_files": [
     "master_resume.json"
   ],
   "good_points": [
-    "Experiência prática com IA, n8n, APIs/webhooks, Python, web scraping e Supabase/PostgreSQL em produtos digitais.",
-    "Experiência em agência, CRM, geração e mensuração de leads, automação de funis e atribuição de receita.",
-    "Experiência direta com escuta de calls, auditorias de qualidade, scripts, scoring operacional e coaching estruturado."
+    "Experiência direta em GTM, posicionamento de produto e Sales Enablement no Projeto Meta.",
+    "Atuação como ponte entre produto, qualidade, consultoria e linhas globais, com roadmap, backlog, OKRs e documentação.",
+    "Criação comprovada de pitches, playbooks, scripts, treinamentos e análises de adoção e performance."
   ],
   "improvement_points": [
-    "Playwright e browser automation autenticada não estão comprovados no currículo mestre; há evidência apenas de web scraping.",
-    "Tekmetric, Google Local Services Ads API, Google Ads API e WhatConverts API não aparecem no histórico documentado.",
-    "A vaga pede desenvolvimento full-stack; o histórico comprova web development, bancos de dados, integrações e Python prático, mas não senioridade formal como engenheiro full-stack.",
-    "A faixa máxima de $3.520/mês está abaixo da expectativa internacional registrada de $4.000-$6.000/mês.",
-    "O prazo informado encerrou em 16 de agosto de 2026; a disponibilidade da candidatura precisa ser verificada."
+    "Não há experiência direta comprovada com um produto ERP.",
+    "A faixa salarial não foi publicada; compatibilidade com a expectativa registrada deve ser confirmada.",
+    "O currículo não documenta ownership formal de um portfólio de bundles de ERP."
   ]
 }

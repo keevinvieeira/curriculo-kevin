@@ -1,92 +1,75 @@
 {
   "name": "Kevin Augusto Vieira",
-  "location": "Curitiba, PR, Brazil | Remote",
+  "location": "Curitiba, PR, Brazil",
   "phone": "+55 (41) 99694-1615",
   "email": "kevin.aug.vieira@gmail.com",
   "linkedin": "https://www.linkedin.com/in/kevin-augusto/",
   "github": "",
   "website": "",
-  "summary": "AI Integration, Automation, and Digital Product Specialist with 8+ years of experience connecting marketing, operations, CRM, data, and web development. Built workflows using n8n, APIs/webhooks, practical Python, and Supabase/PostgreSQL, and extracted and cleansed web data for a database of nearly 200 establishments. Experienced in cross-channel measurement, lead operations, revenue metrics, and automated funnels. At Wipro on the Meta Project, led native CRM AI adoption, increasing usage by 150%, while conducting call listening, quality reviews, and structured coaching. At AK Branding, delivered 40+ web projects for SMBs and implemented chatbot workflows that increased lead capture by 250%. Combines practical technical execution, root-cause analysis, documentation, and remote collaboration to replace manual processes with reliable, measurable systems.",
+  "summary": "Go-to-Market, Product, and Sales Enablement Specialist with 8+ years of experience turning digital product updates into value propositions, activation plans, campaigns, and commercial assets. At Wipro on the Meta Project, served as a technical reference for 150+ professionals, led Sales Excellence and Sales Productivity pillars, and coordinated training, playbooks, and CRM AI adoption, increasing usage by 150%. Combines agile governance, stakeholder management, analytics, and executive communication to organize launches, risks, dependencies, and outcomes.",
   "experience": [
     {
       "company": "Wipro",
-      "role": "AI Integration, CRM, and Quality Assurance Specialist (Meta Project)",
+      "role": "GTM, Sales Enablement, and Marketing Operations Specialist (Meta Project)",
       "dates": "September 2024 – July 2026",
       "location": "Curitiba, Brazil",
       "bullets": [
-        "AI Integration and Adoption: Led native AI activation in Meta's CRM from onboarding through hands-on coaching, increasing usage from 4 to 10 prompts/day per consultant (+150%).",
-        "Call Auditing and Coaching: Conducted active call listening, quality monitoring, and structured feedback based on sales scripts, frameworks, and service standards.",
-        "Validation and Data: Applied root-cause analysis and explored Power BI and Excel dashboards with the MIS team to identify gaps, validate results, and guide action plans.",
-        "Documentation and Governance: Built playbooks, scripts, and operational materials while collaborating across product, quality, and consulting teams in a restricted-data environment."
+        "Translated Meta portfolio updates into value propositions, pitches, frameworks, scripts, and assets for 150+ professionals.",
+        "Worked in the enablement squad using daily meetings, OKRs, roadmap, and backlog to prioritize stakeholder requests.",
+        "Led CRM AI activation, increasing usage from 4 to 10 prompts/day per consultant (+150%) and making the operation #1 globally for adoption growth.",
+        "Used Power BI, Excel, call listening, and root-cause analysis to guide action plans and funnel improvements."
       ]
     },
     {
       "company": "Meu Barzin (Startup)",
-      "role": "AI, Automation, and Data Product Manager",
+      "role": "Product and Go-to-Market Manager",
       "dates": "December 2025 – March 2026",
       "location": "Curitiba, Brazil",
       "bullets": [
-        "Automation Architecture: Designed a conversational product using ManyChat, n8n, RAG, and zero-hallucination rules, connecting user workflows to a trusted database.",
-        "Data Extraction and Cleansing: Scraped, cleansed, and organized data from nearly 200 establishments for a RAG database in Supabase hosted on a VPS.",
-        "Database and CRM: Built database structures and CRM prototypes in Supabase/PostgreSQL and NocoDB to support operations, data exploration, and product workflows.",
-        "Lead and Funnel Diagnosis: Captured 505 leads and analyzed the funnel, identifying 43.9% first-message abandonment caused by API latency."
+        "Designed a conversational MVP, defined its subscription model, and validated the value proposition with B2B partners.",
+        "Captured 505 leads and used interviews and funnel data to identify supply barriers and 43.9% first-message dropout."
       ]
     },
     {
       "company": "AK Branding & Web Design",
-      "role": "Web Development and Marketing Automation Consultant",
+      "role": "Marketing and Product Project Consultant",
       "dates": "March 2019 – September 2024",
       "location": "Curitiba, Brazil",
       "bullets": [
-        "Delivered 40+ digital projects for SMBs, managing web architecture, scope, timelines, budgets, and client communication.",
-        "Implemented chatbots and UX flows that increased lead capture from 8 to 20-30 leads/month (+250%), plus landing pages generating 5 qualified leads/day.",
-        "Ran A/B tests across ads, landing pages, and web journeys, using acquisition and conversion data to guide improvements.",
-        "Implemented privacy policies, consent mechanisms, and LGPD controls across 100% of delivered websites."
+        "Delivered 40+ SMB projects spanning positioning, web architecture, scope, budgets, and timelines.",
+        "Ran A/B tests across campaigns, landing pages, and web experiences; chatbot flows increased leads from 8 to 20-30 per month (+250%)."
       ]
     },
     {
       "company": "Munzner",
-      "role": "CRM, Automation, and Revenue Analytics Specialist",
+      "role": "Marketing, Growth, and Automation Specialist",
       "dates": "October 2018 – August 2024",
       "location": "Curitiba, Brazil",
       "bullets": [
-        "Built a 10-stage automated funnel in Bitrix24 and Sendpulse that attracted 10,000+ visits and generated approximately R$50,000 in revenue.",
-        "Tracked channels, acquisition paths, and CRM data to evaluate conversion, revenue, and ROI and guide funnel improvements."
+        "Launched the company's first digital course, securing 50 sales in 2 months at 1.0x-1.5x ROI.",
+        "Built a 10-stage automated funnel that generated approximately R$50,000 in revenue."
       ]
     }
   ],
   "skills": [
     {
-      "category": "AI, Automation, and Integrations",
+      "category": "GTM and Enablement",
       "skills": [
-        "Native AI Implementation in Workflows",
-        "Professional Prompt Engineering",
-        "n8n, Make, Botpress, and ManyChat",
-        "API/Webhook Integrations",
-        "Python for Automation and Analysis (practical level)",
-        "Web Scraping and RAG"
+        "Go-to-Market (GTM)",
+        "Sales Enablement Frameworks",
+        "Sales Productivity",
+        "Playbooks & Sales Scripts",
+        "Stakeholder Management"
       ]
     },
     {
-      "category": "Data, CRM, and Attribution",
+      "category": "Projects and Data",
       "skills": [
-        "Supabase/PostgreSQL and NocoDB",
-        "Basic SQL and Data Exploration",
-        "CRM Analytics and Automation",
-        "UTM Tracking and Cross-Channel Measurement",
-        "Revenue, ROI, LTV, and Conversion Metrics",
-        "Power BI, Excel, and Google Sheets"
-      ]
-    },
-    {
-      "category": "Web, Quality, and Operations",
-      "skills": [
-        "Web Development and WordPress/Elementor",
-        "Call Listening and Structured Feedback",
-        "Root Cause Analysis",
-        "Playbooks and Sales Scripts",
-        "Quality Methodologies and Auditing",
-        "Agile, OKRs, Roadmap, and Backlog"
+        "Agile Methodologies (Kanban, Scrum)",
+        "OKRs, KPIs, Roadmap, and Backlog",
+        "PMO Guidelines",
+        "Business Intelligence (Power BI/Tableau)",
+        "Root Cause Analysis"
       ]
     }
   ],
@@ -94,39 +77,24 @@
     {
       "institution": "Universidade Federal do Paraná (UFPR)",
       "degree": "Bachelor's Degree and Licentiate in Philosophy",
-      "dates": "2018 - 2023"
-    },
-    {
-      "institution": "UFPR / UTFPR",
-      "degree": "Electrical and Electronics Engineering (incomplete)",
-      "dates": "2012 - 2015"
+      "dates": "2018 – 2023"
     }
   ],
   "certifications": [
     {
       "name": "Google Project Management Professional Certificate",
       "issuer": "Coursera / Google",
-      "status": "In progress"
-    },
-    {
-      "name": "Meta Certified Media Planning Professional",
-      "issuer": "Meta",
-      "status": "Active"
-    },
-    {
-      "name": "Meta Certified Digital Marketing Associate",
-      "issuer": "Meta",
-      "status": "Active"
+      "status": "In progress - started September 2025"
     }
   ],
   "languages": [
     {
-      "language": "English",
-      "proficiency": "Advanced / professional working proficiency; daily use in corporate reporting, international coordination, and stakeholder alignment"
-    },
-    {
       "language": "Portuguese",
       "proficiency": "Native"
+    },
+    {
+      "language": "English",
+      "proficiency": "Advanced / professional; daily corporate use"
     }
   ],
   "additional_information": []

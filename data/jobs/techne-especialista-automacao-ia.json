@@ -1,0 +1,266 @@
+{
+  "id": "techne-especialista-automacao-ia",
+  "metadata": {
+    "company_name": "Techne",
+    "role_title": "Especialista em Automação e IA",
+    "url": "https://techne.gupy.io/jobs/11862700",
+    "fit_score": 70,
+    "salary_expectation": "Não informada no anúncio; expectativa documentada no currículo mestre: R$ 15.000 - R$ 22.000/mês (Brasil/PJ). Regime contratual e faixa devem ser confirmados.",
+    "document_language": "pt",
+    "available_languages": ["pt", "en"],
+    "location": "Brasil",
+    "work_model": "Remoto",
+    "compensation": "Não informada",
+    "deadline": "Não informado",
+    "source_files": ["master_resume.json"],
+    "good_points": [
+      "Experiência prática com automação usando n8n, Make, APIs/webhooks, IA generativa, RAG e codificação assistida por IA.",
+      "Histórico de mapeamento de processos, identificação de gargalos, melhoria contínua e implementação de IA em workflows.",
+      "Prototipagem de MVPs, integração de Supabase/PostgreSQL, NocoDB, ManyChat e automação de conteúdo e CRM.",
+      "Experiência em educação e capacitação por meio de bootcamp, treinamentos, LMS e produção de conteúdo."
+    ],
+    "improvement_points": [
+      "Knockout provável: a vaga exige graduação concluída em Computação, Sistemas, Engenharia ou área correlata; a formação concluída é Filosofia e Engenharia está incompleta.",
+      "Python é apenas prático para automação e análise, com codificação assistida por IA; não há profundidade comprovada de engenharia de software.",
+      "Não há experiência direta documentada com HeyGen, Text-to-Video ou produção audiovisual apoiada por IA.",
+      "Não há certificações documentadas em IA generativa, Prompt Engineering ou ferramentas de automação.",
+      "Agentes de IA aparecem como arquitetura conversacional/RAG e prototipagem, não como desenvolvimento avançado de agentes em produção."
+    ]
+  },
+  "job_details": {
+    "language": "Portuguese",
+    "location": "Brazil",
+    "work_model": "Remote",
+    "requirements": [
+      "Graduação concluída em Ciência da Computação, Sistemas de Informação, Engenharia ou área correlata",
+      "Automação de processos com IA e IA generativa para conteúdo",
+      "Desenvolvimento de scripts, automações e pequenas aplicações",
+      "Codificação assistida por IA e integrações via APIs",
+      "Python, JavaScript ou outra linguagem para automação e integração",
+      "Mapeamento e melhoria de processos"
+    ],
+    "responsibilities": [
+      "Automatizar a esteira de produção de conteúdo da Academia",
+      "Integrar IA generativa e plataformas Text-to-Video",
+      "Automatizar envio de roteiros para geração de vídeos",
+      "Criar scripts, integrações, pequenas aplicações e protótipos",
+      "Eliminar gargalos e pesquisar novas soluções de IA",
+      "Apoiar futura criação de agentes de IA"
+    ],
+    "knockout_requirements": [
+      "A graduação técnica concluída é requisito explícito; o candidato não a possui.",
+      "Conhecimento de linguagem para automação é requisito; Python existe apenas em nível prático.",
+      "HeyGen é diferencial, não requisito obrigatório, e não está documentado."
+    ]
+  },
+  "triage": {
+    "decision": "adapt",
+    "fit_score": 70,
+    "blockers": [
+      "Potential knockout: no completed degree in Computer Science, Information Systems, Engineering, or a related technical field.",
+      "Potential technical-screen risk: coding depth is practical and AI-assisted rather than software-engineering level."
+    ],
+    "notes": [
+      "Strong transferable fit in AI workflow automation, n8n, APIs/webhooks, RAG, process mapping, prototyping, and content/education operations.",
+      "Eligible for remote work from Brazil based on documented Curitiba location.",
+      "HeyGen is listed as a differentiator rather than a mandatory requirement, but no direct experience is documented.",
+      "Compensation and deadline are not disclosed."
+    ],
+    "gaps": [
+      "No completed technical degree.",
+      "Python is practical-level; JavaScript is not documented.",
+      "No direct HeyGen or text-to-video platform experience.",
+      "No documented AI, prompt-engineering, or automation certifications.",
+      "No proven software-engineering depth or production ownership of custom applications."
+    ],
+    "risks": [
+      "Education screening may reject the application before technical review.",
+      "A live coding assessment may exceed the documented practical Python level.",
+      "The role may prioritize audiovisual AI experience absent from the master resume.",
+      "Salary alignment is unknown."
+    ],
+    "deadline": "Não informado"
+  },
+  "resume": {
+    "pt": {
+      "name": "Kevin Augusto Vieira",
+      "location": "Curitiba, PR | Remoto Brasil",
+      "phone": "+55 (41) 99694-1615",
+      "email": "kevin.aug.vieira@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/kevin-augusto/",
+      "github": "",
+      "website": "",
+      "summary": "Especialista em automação de workflows e aplicação prática de IA com mais de 8 anos em produtos digitais, conteúdo, operações e melhoria de processos. Desenhou arquiteturas com n8n, Make, APIs/webhooks, RAG, Supabase/PostgreSQL e NocoDB e liderou a adoção de IA nativa em CRM, elevando o uso em 150%. Possui experiência em mapeamento de gargalos, prototipagem assistida por IA, LMS e capacitação técnica. Python é usado em nível prático para automação e análise, não como engenharia de software. A graduação concluída é em Filosofia; Engenharia Elétrica/Eletrônica está incompleta. Não declara experiência com HeyGen ou Text-to-Video.",
+      "experience": [
+        {
+          "company": "Wipro",
+          "role": "Especialista em Automação, IA e Enablement (Projeto Meta)",
+          "dates": "Setembro 2024 – Julho 2026",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Liderou a ativação de IA nativa no CRM, do onboarding ao acompanhamento prático, elevando o uso de 4 para 10 prompts/dia por consultor (+150%).",
+            "Mapeou lacunas com análise de causa raiz e criou playbooks, scripts, treinamentos e planos de ação para reduzir gargalos operacionais.",
+            "Idealizou e governou bootcamp para 12 consultores, reduzindo o ramp-up de 6 para 3 meses (-50%) com 100% de conclusão.",
+            "Atuou em squad com OKRs, roadmap e backlog, priorizando demandas de clientes, líderes e operação."
+          ]
+        },
+        {
+          "company": "Meu Barzin (Startup)",
+          "role": "Product Manager e Especialista em Automação e IA",
+          "dates": "Dezembro 2025 – Março 2026",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Desenhou fluxos conversacionais em ManyChat e n8n, integrando RAG, APIs e regras de alucinação zero a uma base Supabase hospedada em VPS.",
+            "Mapeou, extraiu e higienizou dados de quase 200 estabelecimentos e estruturou protótipos de CRM com Supabase/PostgreSQL e NocoDB.",
+            "Analisou o fluxo e identificou latência de API associada a 43,9% de abandono na primeira mensagem, orientando prioridades de melhoria."
+          ]
+        },
+        {
+          "company": "AK Branding & Web Design",
+          "role": "Consultor de Automação, Conteúdo e Produtos Digitais",
+          "dates": "Março 2019 – Setembro 2024",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Entregou mais de 40 projetos digitais e implementou interfaces de chatbot e fluxos de UX que elevaram leads de 8 para 20-30/mês (+250%).",
+            "Criou websites, landing pages, e-commerce e automações, coordenando escopo, cronogramas e recursos especializados."
+          ]
+        },
+        {
+          "company": "Munzner",
+          "role": "Especialista em Conteúdo, LMS e Automação",
+          "dates": "Outubro 2018 – Agosto 2024",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Idealizou e lançou o primeiro curso digital da empresa em MasterStudy LMS/WordPress, alcançando 50 vendas em 2 meses.",
+            "Estruturou funil automatizado de 10 etapas em Bitrix24 e Sendpulse, atraindo mais de 10 mil acessos e gerando aproximadamente R$ 50 mil."
+          ]
+        }
+      ],
+      "skills": [
+        {"category": "IA e Automação", "skills": ["Engenharia de Prompt Profissional", "Implementação de IAs Nativas em Fluxos de Trabalho", "n8n", "Make", "Botpress", "Integrações via APIs/Webhooks"]},
+        {"category": "Dados e Prototipagem", "skills": ["Python para Automação e Análise (nível prático)", "Vibe Coding e Prototipagem Assistida por IA", "Supabase/PostgreSQL", "NocoDB", "SQL Básico e Exploração de Dados", "Manipulação de Bancos de Dados (Supabase/PostgreSQL)"]},
+        {"category": "Processos e Conteúdo", "skills": ["Análise de Causa Raiz", "Prototipagem de MVPs", "Mapeamento de Gargalos de Funil", "WordPress/Elementor/LMS", "Organização de Bootcamps e Treinamentos de Alta Escala", "Metodologias Ágeis (Kanban, Scrum)"]}
+      ],
+      "education": [
+        {"institution": "Universidade Federal do Paraná (UFPR)", "degree": "Bacharelado e Licenciatura em Filosofia", "dates": "2018 – 2023"},
+        {"institution": "UFPR / UTFPR", "degree": "Engenharia Elétrica / Eletrônica (Incompleto)", "dates": "2012 – 2015"},
+        {"institution": "Recanto da Filosofia Clínica", "degree": "Especialização em Filosofia Clínica", "dates": "Janeiro 2023 – Dezembro 2024"}
+      ],
+      "certifications": [
+        {"name": "Google Project Management Professional Certificate", "issuer": "Coursera / Google", "status": "Em andamento"},
+        {"name": "Meta Certified Media Planning Professional", "issuer": "Meta", "status": "Ativo"},
+        {"name": "Meta Certified Digital Marketing Associate", "issuer": "Meta", "status": "Ativo"}
+      ],
+      "languages": [
+        {"language": "Português", "proficiency": "Nativo"},
+        {"language": "Inglês", "proficiency": "Avançado / Profissional (uso diário corporativo); não declarado como fluente"},
+        {"language": "Espanhol", "proficiency": "Básico"}
+      ],
+      "additional_information": []
+    },
+    "en": {
+      "name": "Kevin Augusto Vieira",
+      "location": "Curitiba, PR, Brazil | Remote Brazil",
+      "phone": "+55 (41) 99694-1615",
+      "email": "kevin.aug.vieira@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/kevin-augusto/",
+      "github": "",
+      "website": "",
+      "summary": "Workflow automation and applied AI specialist with 8+ years across digital products, content, operations, and process improvement. Designed architectures using n8n, Make, APIs/webhooks, RAG, Supabase/PostgreSQL, and NocoDB and led native CRM AI adoption, increasing usage by 150%. Experienced in bottleneck mapping, AI-assisted prototyping, LMS, and technical enablement. Uses Python at a practical level for automation and analysis, not as software engineering. Holds a completed Philosophy degree; Electrical/Electronics Engineering is incomplete. Does not claim HeyGen or text-to-video experience.",
+      "experience": [
+        {
+          "company": "Wipro",
+          "role": "Automation, AI, and Enablement Specialist (Meta Project)",
+          "dates": "September 2024 – July 2026",
+          "location": "Curitiba, Brazil",
+          "bullets": [
+            "Led native AI activation in CRM from onboarding through hands-on coaching, increasing usage from 4 to 10 prompts/day per consultant (+150%).",
+            "Mapped gaps through root-cause analysis and created playbooks, scripts, training, and action plans to reduce operational bottlenecks.",
+            "Designed and governed a bootcamp for 12 consultants, reducing ramp-up from 6 to 3 months (-50%) with 100% completion.",
+            "Worked in a squad using OKRs, roadmap, and backlog to prioritize requests from clients, leaders, and operations."
+          ]
+        },
+        {
+          "company": "Meu Barzin (Startup)",
+          "role": "Product Manager and Automation & AI Specialist",
+          "dates": "December 2025 – March 2026",
+          "location": "Curitiba, Brazil",
+          "bullets": [
+            "Designed conversational workflows in ManyChat and n8n, integrating RAG, APIs, and zero-hallucination rules with a VPS-hosted Supabase database.",
+            "Mapped, extracted, and cleansed data from nearly 200 venues and built CRM prototypes using Supabase/PostgreSQL and NocoDB.",
+            "Analyzed the flow and identified API latency associated with a 43.9% first-message dropout, guiding improvement priorities."
+          ]
+        },
+        {
+          "company": "AK Branding & Web Design",
+          "role": "Automation, Content, and Digital Products Consultant",
+          "dates": "March 2019 – September 2024",
+          "location": "Curitiba, Brazil",
+          "bullets": [
+            "Delivered 40+ digital projects and implemented chatbot interfaces and UX flows that increased leads from 8 to 20-30/month (+250%).",
+            "Created websites, landing pages, e-commerce, and automations while coordinating scope, schedules, and specialist resources."
+          ]
+        },
+        {
+          "company": "Munzner",
+          "role": "Content, LMS, and Automation Specialist",
+          "dates": "October 2018 – August 2024",
+          "location": "Curitiba, Brazil",
+          "bullets": [
+            "Designed and launched the company's first digital course in MasterStudy LMS/WordPress, securing 50 sales in 2 months.",
+            "Built a 10-stage automated funnel in Bitrix24 and Sendpulse, attracting 10,000+ visits and generating approximately R$50,000."
+          ]
+        }
+      ],
+      "skills": [
+        {"category": "AI and Automation", "skills": ["Professional Prompt Engineering", "Native AI Implementation in Workflows", "n8n", "Make", "Botpress", "API/Webhook Integrations"]},
+        {"category": "Data and Prototyping", "skills": ["Python for Automation and Analysis (practical level)", "AI-Assisted Vibe Coding and Prototyping", "Supabase/PostgreSQL", "NocoDB", "Basic SQL and Data Exploration", "Database Manipulation (Supabase/PostgreSQL)"]},
+        {"category": "Processes and Content", "skills": ["Root Cause Analysis", "MVP Prototyping", "Funnel Bottleneck Mapping", "WordPress/Elementor/LMS", "High-Scale Bootcamp & Training Organization", "Agile Methodologies (Kanban, Scrum)"]}
+      ],
+      "education": [
+        {"institution": "Universidade Federal do Paraná (UFPR)", "degree": "Bachelor's Degree and Licentiate in Philosophy", "dates": "2018 – 2023"},
+        {"institution": "UFPR / UTFPR", "degree": "Electrical and Electronics Engineering (Incomplete)", "dates": "2012 – 2015"},
+        {"institution": "Recanto da Filosofia Clínica", "degree": "Specialization in Clinical Philosophy", "dates": "January 2023 – December 2024"}
+      ],
+      "certifications": [
+        {"name": "Google Project Management Professional Certificate", "issuer": "Coursera / Google", "status": "In progress"},
+        {"name": "Meta Certified Media Planning Professional", "issuer": "Meta", "status": "Active"},
+        {"name": "Meta Certified Digital Marketing Associate", "issuer": "Meta", "status": "Active"}
+      ],
+      "languages": [
+        {"language": "Portuguese", "proficiency": "Native"},
+        {"language": "English", "proficiency": "Advanced / Professional Full Proficiency (daily corporate use); not claimed as fluent"},
+        {"language": "Spanish", "proficiency": "Basic"}
+      ],
+      "additional_information": []
+    }
+  },
+  "materials": {
+    "pt": {
+      "cover_letter": "Olá, time da Techne!\n\nA missão de automatizar a produção de conteúdo da Academia combina minha experiência em IA aplicada, automação, educação digital e melhoria de processos. Na Wipro, no Projeto Meta, liderei a adoção de IA no CRM, elevando o uso em 150%, e criei treinamentos, playbooks e um bootcamp que reduziu o ramp-up em 50%.\n\nNo Meu Barzin, desenhei fluxos com n8n, RAG, APIs e Supabase, estruturei dados de quase 200 estabelecimentos e usei análise de funil para identificar gargalos técnicos. Na Munzner, lancei um curso em LMS e automatizei um funil de conteúdo e relacionamento com mais de 10 mil acessos.\n\nMinha aderência está na arquitetura de workflows, integração de ferramentas e prototipagem assistida por IA. Mantenho transparência sobre os requisitos: minha graduação concluída é em Filosofia, Engenharia está incompleta, Python é prático e assistido por IA, e não tenho experiência documentada com HeyGen, Text-to-Video ou engenharia de software avançada.\n\nKevin Augusto Vieira",
+      "form_answers": [
+        {"question": "Você possui graduação concluída em área técnica?", "answer": "Não. Tenho Bacharelado e Licenciatura em Filosofia concluídos e formação incompleta em Engenharia Elétrica/Eletrônica. Reconheço que a graduação técnica concluída é um requisito explícito e potencialmente eliminatório."},
+        {"question": "Qual é sua experiência com scripts e programação?", "answer": "Uso Python em nível prático para automação e análise e codificação assistida por IA para protótipos e integrações. Minha experiência principal está em n8n, Make, APIs/webhooks, Supabase/PostgreSQL e arquitetura de workflows. Não me apresento como engenheiro de software nem como desenvolvedor Python avançado."},
+        {"question": "Conte sobre uma automação com IA que você implementou.", "answer": "No Meu Barzin, desenhei um fluxo conversacional com ManyChat e n8n, integrado a RAG, APIs e Supabase, com regras de alucinação zero. Na Wipro, liderei ativação e adoção de IA nativa no CRM, elevando o uso de 4 para 10 prompts/dia por consultor (+150%)."},
+        {"question": "Qual é sua experiência com HeyGen e Text-to-Video?", "answer": "Não tenho experiência direta documentada com HeyGen ou outras plataformas Text-to-Video. Minha base transferível inclui IA generativa aplicada a conteúdo, LMS, automação de workflows, APIs e prototipagem assistida por IA, mas não apresentaria produção audiovisual por IA como experiência adquirida."},
+        {"question": "Você possui certificações em IA ou automação?", "answer": "Não constam certificações específicas de IA generativa, Prompt Engineering ou automação no meu currículo mestre. Tenho certificações Meta em mídia e marketing e o Google Project Management Professional Certificate em andamento."}
+      ]
+    },
+    "en": {
+      "cover_letter": "Dear Techne team,\n\nThe mission of automating the Academy's content production combines my experience in applied AI, automation, digital education, and process improvement. At Wipro on the Meta Project, I led CRM AI adoption, increasing usage by 150%, and created training, playbooks, and a bootcamp that reduced ramp-up by 50%.\n\nAt Meu Barzin, I designed workflows using n8n, RAG, APIs, and Supabase, structured data from nearly 200 venues, and used funnel analysis to identify technical bottlenecks. At Munzner, I launched an LMS course and automated a content and nurturing funnel that attracted 10,000+ visits.\n\nMy alignment is strongest in workflow architecture, tool integration, and AI-assisted prototyping. I remain transparent about the requirements: my completed degree is in Philosophy, Engineering is incomplete, Python is practical and AI-assisted, and I have no documented HeyGen, text-to-video, or advanced software-engineering experience.\n\nKevin Augusto Vieira",
+      "form_answers": [
+        {"question": "Do you hold a completed technical degree?", "answer": "No. I hold a completed Bachelor's Degree and Licentiate in Philosophy and incomplete Electrical/Electronics Engineering studies. I recognize the completed technical degree as an explicit and potentially knockout requirement."},
+        {"question": "What is your scripting and programming experience?", "answer": "I use Python at a practical level for automation and analysis and AI-assisted coding for prototypes and integrations. My main experience is with n8n, Make, APIs/webhooks, Supabase/PostgreSQL, and workflow architecture. I do not present myself as a software engineer or advanced Python developer."},
+        {"question": "Tell us about an AI automation you implemented.", "answer": "At Meu Barzin, I designed a conversational workflow using ManyChat and n8n, integrated with RAG, APIs, and Supabase under zero-hallucination rules. At Wipro, I led native CRM AI activation and adoption, increasing usage from 4 to 10 prompts/day per consultant (+150%)."},
+        {"question": "What is your HeyGen and text-to-video experience?", "answer": "I have no documented direct experience with HeyGen or other text-to-video platforms. My transferable foundation includes generative AI for content, LMS, workflow automation, APIs, and AI-assisted prototyping, but I would not present AI audiovisual production as acquired experience."},
+        {"question": "Do you hold AI or automation certifications?", "answer": "My master resume does not list specific generative AI, prompt-engineering, or automation certifications. I hold active Meta media and marketing certifications, and the Google Project Management Professional Certificate is in progress."}
+      ]
+    }
+  },
+  "evidence": {
+    "skills": {
+      "pt": ["Engenharia de Prompt Profissional", "Implementação de IAs Nativas em Fluxos de Trabalho", "n8n", "Make", "Botpress", "Integrações via APIs/Webhooks", "Python para Automação e Análise (nível prático)", "Vibe Coding e Prototipagem Assistida por IA", "Supabase/PostgreSQL", "NocoDB", "SQL Básico e Exploração de Dados", "Análise de Causa Raiz", "Prototipagem de MVPs", "WordPress/Elementor/LMS"],
+      "en": ["Professional Prompt Engineering", "Native AI Implementation in Workflows", "n8n", "Make", "Botpress", "API/Webhook Integrations", "Python for Automation and Analysis (practical level)", "AI-Assisted Vibe Coding and Prototyping", "Supabase/PostgreSQL", "NocoDB", "Basic SQL and Data Exploration", "Root Cause Analysis", "MVP Prototyping", "WordPress/Elementor/LMS"]
+    }
+  }
+}

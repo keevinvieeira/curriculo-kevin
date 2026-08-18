@@ -1,92 +1,75 @@
 {
   "name": "Kevin Augusto Vieira",
-  "location": "Curitiba, PR | Remoto",
+  "location": "Curitiba, PR",
   "phone": "+55 (41) 99694-1615",
   "email": "kevin.aug.vieira@gmail.com",
   "linkedin": "https://www.linkedin.com/in/kevin-augusto/",
   "github": "",
   "website": "",
-  "summary": "Especialista em Integração de IA, Automação e Produtos Digitais com mais de 8 anos de experiência conectando marketing, operações, CRM, dados e desenvolvimento web. Construiu fluxos com n8n, APIs/webhooks, Python prático e Supabase/PostgreSQL, além de extrair e higienizar dados via web scraping para uma base com quase 200 estabelecimentos. Tem experiência em mensuração multicanal, geração e normalização operacional de leads, métricas de receita e automação de funis. Na Wipro, no Projeto Meta, liderou a adoção de IA nativa no CRM, elevando o uso em 150%, e realizou escuta de calls, auditorias de qualidade e feedback estruturado. Na AK Branding, entregou mais de 40 projetos web para PMEs e criou fluxos de chatbot que aumentaram a captação de leads em 250%. Combina execução técnica prática, análise de causa raiz, documentação e colaboração remota para substituir rotinas manuais por sistemas confiáveis e mensuráveis.",
+  "summary": "Especialista em Go-to-Market, Produto e Sales Enablement com mais de 8 anos de experiência transformando atualizações de produtos digitais em propostas de valor, planos de ativação, campanhas e materiais para times comerciais. Na Wipro, no Projeto Meta, foi referência técnica para mais de 150 profissionais, liderou pilares de Sales Excellence e Sales Productivity e coordenou treinamentos, playbooks e adoção de IA no CRM, elevando o uso em 150%. Combina governança ágil, gestão de stakeholders, análise de dados e comunicação executiva para organizar lançamentos, riscos, dependências e resultados.",
   "experience": [
     {
       "company": "Wipro",
-      "role": "Especialista em Integração de IA, CRM e Quality Assurance (Projeto Meta)",
+      "role": "Especialista em GTM, Sales Enablement e Operações de Marketing (Projeto Meta)",
       "dates": "Setembro 2024 – Julho 2026",
       "location": "Curitiba, PR",
       "bullets": [
-        "Integração e Adoção de IA: Liderou a ativação da IA nativa no CRM da Meta, do onboarding ao acompanhamento prático, elevando o uso de 4 para 10 prompts/dia por consultor (+150%).",
-        "Auditoria de Calls e Coaching: Realizou escuta ativa de chamadas, monitoria de qualidade e feedback estruturado com base em scripts, frameworks comerciais e padrões de atendimento.",
-        "Validação e Dados: Aplicou análise de causa raiz e explorou painéis de Power BI e Excel com a equipe de MIS para identificar gaps, validar resultados e orientar planos de ação.",
-        "Documentação e Governança: Criou playbooks, scripts e materiais operacionais, colaborando com produto, qualidade e consultoria em ambiente global e com dados restritos."
+        "Traduziu atualizações do portfólio da Meta em propostas de valor, pitches, frameworks, scripts e materiais para mais de 150 profissionais.",
+        "Participou do squad de capacitação usando reuniões diárias, OKRs, roadmap e backlog para priorizar demandas de clientes, líderes e consultores.",
+        "Liderou a ativação de IA no CRM, elevando o uso de 4 para 10 prompts/dia por consultor (+150%) e tornando a operação a #1 global em crescimento de adoção.",
+        "Usou Power BI, Excel, escuta de calls e análise de causa raiz para orientar planos de ação e otimização de funis."
       ]
     },
     {
       "company": "Meu Barzin (Startup)",
-      "role": "Product Manager de IA, Automação e Dados",
+      "role": "Product e Go-to-Market Manager",
       "dates": "Dezembro 2025 – Março 2026",
       "location": "Curitiba, PR",
       "bullets": [
-        "Arquitetura de Automação: Desenhou um produto conversacional usando ManyChat, n8n, RAG e regras de alucinação zero, conectando fluxos de usuário a uma base confiável.",
-        "Extração e Tratamento de Dados: Extraiu, higienizou e organizou dados de quase 200 estabelecimentos via web scraping para uma base RAG no Supabase hospedada em VPS.",
-        "Banco de Dados e CRM: Estruturou bases e protótipos de CRM em Supabase/PostgreSQL e NocoDB para apoiar operações, exploração de dados e produto.",
-        "Leads e Diagnóstico: Captou 505 leads e analisou o funil, identificando 43,9% de abandono na primeira mensagem causado por latência de API."
+        "Concebeu um MVP conversacional, definiu modelo de assinatura e validou a proposta com parceiros B2B.",
+        "Captou 505 leads e usou entrevistas e dados de funil para identificar barreiras de oferta e 43,9% de abandono na primeira mensagem."
       ]
     },
     {
       "company": "AK Branding & Web Design",
-      "role": "Consultor de Desenvolvimento Web e Automação de Marketing",
+      "role": "Consultor de Projetos de Marketing e Produto",
       "dates": "Março 2019 – Setembro 2024",
       "location": "Curitiba, PR",
       "bullets": [
-        "Entregou mais de 40 projetos digitais para PMEs, gerenciando arquitetura web, escopo, cronograma, orçamento e comunicação com clientes.",
-        "Implementou chatbots e fluxos de UX que elevaram a captação de 8 para 20-30 leads/mês (+250%), além de landing pages que geravam 5 leads qualificados/dia.",
-        "Executou testes A/B em anúncios, landing pages e jornadas web, usando dados de aquisição e conversão para orientar melhorias.",
-        "Implementou políticas, consentimento e controles de LGPD em 100% dos sites entregues."
+        "Entregou mais de 40 projetos para PMEs, coordenando posicionamento, arquitetura web, escopo, orçamento e cronogramas.",
+        "Executou testes A/B em campanhas, landing pages e experiências web; fluxos de chatbot elevaram leads de 8 para 20-30 por mês (+250%)."
       ]
     },
     {
       "company": "Munzner",
-      "role": "Especialista em CRM, Automação e Revenue Analytics",
+      "role": "Especialista em Marketing, Growth e Automação",
       "dates": "Outubro 2018 – Agosto 2024",
       "location": "Curitiba, PR",
       "bullets": [
-        "Construiu um funil automatizado de 10 etapas em Bitrix24 e Sendpulse que atraiu mais de 10.000 acessos e gerou aproximadamente R$ 50 mil em receita.",
-        "Acompanhou canais, caminhos de aquisição e dados de CRM para avaliar conversão, receita e ROI e orientar ajustes no funil."
+        "Lançou o primeiro curso digital da empresa, alcançando 50 vendas em 2 meses e ROI de 1,0x a 1,5x.",
+        "Estruturou funil automatizado de 10 etapas que gerou aproximadamente R$ 50 mil em receita."
       ]
     }
   ],
   "skills": [
     {
-      "category": "IA, Automação e Integrações",
+      "category": "GTM e Enablement",
       "skills": [
-        "Implementação de IAs Nativas em Fluxos de Trabalho",
-        "Engenharia de Prompt Profissional",
-        "n8n, Make, Botpress e ManyChat",
-        "Integrações via APIs/Webhooks",
-        "Python para Automação e Análise (nível prático)",
-        "Web Scraping e RAG"
+        "Go-to-Market (GTM)",
+        "Sales Enablement Frameworks",
+        "Sales Productivity",
+        "Playbooks & Scripts Comerciais",
+        "Gestão de Stakeholders"
       ]
     },
     {
-      "category": "Dados, CRM e Atribuição",
+      "category": "Projetos e Dados",
       "skills": [
-        "Supabase/PostgreSQL e NocoDB",
-        "SQL Básico e Exploração de Dados",
-        "CRM Analytics e Automação",
-        "UTM Tracking e Mensuração Multicanal",
-        "Métricas de Receita, ROI, LTV e Conversão",
-        "Power BI, Excel e Google Sheets"
-      ]
-    },
-    {
-      "category": "Web, Qualidade e Operações",
-      "skills": [
-        "Web Development e WordPress/Elementor",
-        "Escuta de Calls e Feedback Estruturado",
-        "Análise de Causa Raiz",
-        "Playbooks e Scripts Comerciais",
-        "Metodologias de Qualidade e Auditoria",
-        "Agile, OKRs, Roadmap e Backlog"
+        "Metodologias Ágeis (Kanban, Scrum)",
+        "OKRs, KPIs, Roadmap e Backlog",
+        "Diretrizes de PMO",
+        "Business Intelligence (Power BI/Tableau)",
+        "Análise de Causa Raiz"
       ]
     }
   ],
@@ -94,39 +77,24 @@
     {
       "institution": "Universidade Federal do Paraná (UFPR)",
       "degree": "Bacharelado e Licenciatura em Filosofia",
-      "dates": "2018 - 2023"
-    },
-    {
-      "institution": "UFPR / UTFPR",
-      "degree": "Engenharia Elétrica e Eletrônica (incompleto)",
-      "dates": "2012 - 2015"
+      "dates": "2018 – 2023"
     }
   ],
   "certifications": [
     {
       "name": "Google Project Management Professional Certificate",
       "issuer": "Coursera / Google",
-      "status": "Em andamento"
-    },
-    {
-      "name": "Meta Certified Media Planning Professional",
-      "issuer": "Meta",
-      "status": "Ativo"
-    },
-    {
-      "name": "Meta Certified Digital Marketing Associate",
-      "issuer": "Meta",
-      "status": "Ativo"
+      "status": "Em andamento / iniciado em Setembro 2025"
     }
   ],
   "languages": [
     {
-      "language": "Inglês",
-      "proficiency": "Avançado / profissional; uso diário em relatórios corporativos, coordenação internacional e alinhamento com stakeholders"
-    },
-    {
       "language": "Português",
       "proficiency": "Nativo"
+    },
+    {
+      "language": "Inglês",
+      "proficiency": "Avançado / profissional; uso diário corporativo"
     }
   ],
   "additional_information": []

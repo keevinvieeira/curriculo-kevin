@@ -1,21 +1,21 @@
 {
-  "cover_letter": "Hi Confidential Marketing Agency team,\n\nThe opportunity to replace spreadsheets and fragmented sources with a central lead, auditing, and AI coaching infrastructure directly matches my experience across automation, CRM, data, and marketing operations.\n\nAt Meu Barzin, I designed a conversational product using n8n, RAG, and Supabase/PostgreSQL, scraped and cleansed data from nearly 200 establishments, and built CRM prototypes. The product captured 505 leads, while funnel analysis identified 43.9% abandonment caused by API latency. At AK Branding, I delivered 40+ web projects and implemented chatbot workflows that increased lead capture by 250%.\n\nAt Wipro on the Meta Project, I led CRM AI adoption, increasing usage by 150%, and worked directly with call listening, quality audits, scripts, and structured feedback. That experience is particularly relevant to the proposed call scoring and coaching system.\n\nI have not yet used Tekmetric or Playwright in production, but I bring transferable experience in web scraping, practical Python, APIs/webhooks, n8n, relational databases, and data validation. I would begin with an auditable read-only integration, define data contracts and deduplication rules, and reconcile output against legacy spreadsheets before expanding automation.\n\nKevin Augusto Vieira",
+  "cover_letter": "Hello Olist team,\n\nTurning ERP product evolution into clear go-to-market plans directly matches my experience connecting product, operations, data, and commercial teams. At Wipro on the Meta Project, I translated global updates into value propositions, pitches, scripts, playbooks, and training for 150+ professionals. I also supported enablement squad governance through OKRs, roadmap, and backlog and led CRM AI adoption, increasing usage by 150%.\n\nI bring practical experience coordinating stakeholders, structuring documentation and action plans, and using data and feedback to prioritize activation. While I do not claim direct ERP experience, I have a consistent record of learning complex digital products and turning them into actionable messages and frontline tools. I would apply that combination to bring cadence, clarity, and impact to Olist launches.\n\nKevin Augusto Vieira",
   "form_answers": [
     {
-      "question": "How would you approach building this system?",
-      "answer": "I would first map each source, field, refresh frequency, business rule, and legacy reference output. I would then implement read-only ingestion per source, phone and identity normalization, a relational database with source lineage, and reconciliation tests. Revenue attribution, the 10-month audit rule, the web interface, and call scoring would follow as small, independently verifiable increments."
+      "question": "Tell us about your GTM experience.",
+      "answer": "On the Meta Project, I absorbed official materials and translated product updates into value propositions, pitches, scripts, frameworks, and training for 150+ professionals. Across startup and consulting work, I also handled positioning, launches, acquisition, and measurement."
     },
     {
-      "question": "What is your experience with AI and call auditing?",
-      "answer": "At Wipro on the Meta Project, I owned CRM AI adoption and increased usage by 150%. I also conducted call listening, quality monitoring, and structured feedback based on sales scripts and frameworks. For this project, I would translate handling rules into structured criteria, require transcript evidence for every score, and keep human review in the loop throughout the pilot."
+      "question": "How do you operate as a launch PMO?",
+      "answer": "I structure objectives, owners, dependencies, risks, rituals, and documentation. At Wipro, I worked in a squad using daily meetings, OKRs, roadmap, and backlog to prioritize requests and align clients, managers, leaders, and consultants."
     },
     {
-      "question": "What is your experience with Playwright, Tekmetric, and the listed APIs?",
-      "answer": "I have not yet used Playwright, Tekmetric, Google Local Services Ads API, or WhatConverts in production. My transferable experience includes web scraping, practical Python, APIs/webhooks, n8n, Supabase/PostgreSQL, CRM, and web development. I would validate authentication, limits, export stability, and terms of use through a short technical proof before committing to the final architecture."
+      "question": "What is your ERP experience?",
+      "answer": "I do not have documented direct professional ERP experience. My transferable fit is learning complex digital products, translating roadmaps into narratives and commercial assets, and coordinating GTM across product, marketing, sales, and operations."
     },
     {
-      "question": "What is your rate?",
-      "answer": "My proposed rate is $22/hour, at the top of the published range, given the full-time scope and the combination of automation, data, web application, and AI integration work."
+      "question": "What are your salary expectations?",
+      "answer": "The role's range was not disclosed. My documented Brazil target is R$15,000-R$22,000 per month for PJ contracts; for CLT employment, I consider total compensation, scope, and benefits."
     }
   ]
 }

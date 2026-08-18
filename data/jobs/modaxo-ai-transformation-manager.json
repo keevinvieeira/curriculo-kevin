@@ -1,0 +1,233 @@
+{
+  "id": "modaxo-ai-transformation-manager",
+  "metadata": {
+    "company_name": "Modaxo",
+    "role_title": "AI Transformation Manager",
+    "url": "https://modaxo.wd3.myworkdayjobs.com/modaxo/job/Brazil---Remote/AI-Transformation-Manager_R57794-1",
+    "fit_score": 86,
+    "document_language": "en",
+    "available_languages": ["pt", "en"],
+    "location": "Brazil - Remote",
+    "work_model": "Remote in Brazil with occasional business travel, primarily within LATAM",
+    "employment_type": "Full-time, regular; 1 opening",
+    "salary_range": "Not published",
+    "salary_expectation": "R$ 15,000-22,000/month (Brazil/PJ), subject to employment structure and total package",
+    "job_requisition_id": "R57794",
+    "posted_date": "2026-07-31",
+    "verified_at": "2026-08-17",
+    "source_status": "Official Workday posting accessible, posted and accepting applications when verified",
+    "source_files": ["master_resume.json"],
+    "good_points": [
+      "Hands-on AI adoption leadership in a complex global operation, including onboarding, coaching, playbooks and a measured 150% increase in CRM AI usage.",
+      "Experience translating business needs into MVPs, roadmaps, backlogs, pilots and practical workflows using LLMs, n8n, APIs and data tools.",
+      "Strong cross-functional facilitation, stakeholder management, governance, compliance and capability-building background."
+    ],
+    "improvement_points": [
+      "No formal enterprise transformation title or ownership across multiple independent business units is documented.",
+      "ADKAR, Kotter and other named change-management frameworks are not documented.",
+      "The posting requires fluent English; the master resume documents advanced/professional English, not fluency.",
+      "Transportation-sector and Modaxo-specific experience are not documented."
+    ]
+  },
+  "triage": {
+    "decision": "adapt",
+    "blockers": [],
+    "deadline": "Not stated; official posting remained open on 2026-08-17",
+    "notes": [
+      "Positioning should emphasize practical AI adoption, enablement, pilot governance, ethical AI and influence without authority.",
+      "Candidate is based in Brazil; occasional travel is a stated job condition but personal travel availability is not confirmed.",
+      "English should be represented only as advanced/professional corporate use, despite the posting's fluent-English requirement."
+    ],
+    "gaps": [
+      "No documented ADKAR or Kotter practice.",
+      "No documented responsibility for a group-wide AI roadmap across 40 companies or multiple business units.",
+      "No direct people-transportation industry background.",
+      "English evidence is advanced/professional rather than claimed fluent."
+    ],
+    "risks": [
+      "The manager scope may favor candidates with formal consulting or enterprise transformation leadership.",
+      "Occasional LATAM and international travel needs confirmation before acceptance.",
+      "The required English level may be assessed more strictly than the documented level."
+    ]
+  },
+  "resume": {
+    "pt": {
+      "name": "Kevin Augusto Vieira",
+      "location": "Curitiba, PR | Remoto no Brasil",
+      "phone": "+55 (41) 99694-1615",
+      "email": "kevin.aug.vieira@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/kevin-augusto/",
+      "github": "",
+      "website": "",
+      "summary": "Gestor de Produto, GTM e adoção de IA com mais de 8 anos de experiência transformando necessidades comerciais em pilotos, fluxos digitais, capacitação e melhoria operacional. Na Wipro, no Projeto Meta, liderou a adoção de IA no CRM com onboarding, playbooks e coaching, elevando o uso em 150% e levando a operação ao primeiro lugar global em crescimento de adoção. Conduziu bootcamp que reduziu o ramp-up em 50% e colaborou com linhas globais de produto, qualidade e consultoria. Combina roadmaps, OKRs, backlog, análise de causa raiz, facilitação, n8n, APIs, RAG e governança responsável de dados para levar iniciativas da hipótese ao aprendizado mensurável.",
+      "experience": [
+        {
+          "company": "Wipro",
+          "role": "Especialista em Transformação de IA, Enablement e GTM (Projeto Meta)",
+          "dates": "Setembro 2024 – Julho 2026",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Liderou ativação e adoção de IA no CRM proprietário, do onboarding a três semanas de suporte prático; aumentou o uso diário em 150% e levou a operação ao primeiro lugar global em crescimento de adoção.",
+            "Atuou como ponte entre linhas globais de produto, qualidade e equipes terceirizadas, alinhando documentação, prioridades, prazos e objetivos de negócio sem autoridade hierárquica direta.",
+            "Idealizou e governou bootcamp piloto para 12 consultores, reduzindo o ramp-up de 6 para 3 meses e alcançando 100% de conclusão, 90%+ de qualidade e 90% de CSAT.",
+            "Participou da governança do squad com reuniões diárias, OKRs, roadmap e backlog; contribuiu também para BCP e manuais de compartilhamento seguro de dados."
+          ]
+        },
+        {
+          "company": "Meu Barzin (Startup)",
+          "role": "Product Manager de IA e Automação",
+          "dates": "Dezembro 2025 – Março 2026",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Levou um produto conversacional da hipótese ao MVP com ManyChat, n8n, RAG e Supabase, integrando regras de alucinação zero e modelo de assinatura.",
+            "Mapeou, extraiu e higienizou dados de quase 200 estabelecimentos e estruturou base confiável no Supabase/PostgreSQL.",
+            "Usou métricas e entrevistas para identificar falta de liquidez de parceiros e 43,9% de abandono na primeira mensagem como bloqueadores de escala."
+          ]
+        },
+        {
+          "company": "AK Branding & Web Design",
+          "role": "Consultor de Transformação Digital e Projetos de Marketing",
+          "dates": "Março 2019 – Setembro 2024",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Conduziu mais de 40 projetos digitais para PMEs, traduzindo objetivos em escopo, arquitetura web, cronogramas, orçamento e entregas coordenadas.",
+            "Implementou jornadas, chatbots e experimentos que elevaram a geração de leads em até 250%, além de pesquisar e aplicar LGPD em todos os projetos."
+          ]
+        },
+        {
+          "company": "Munzner",
+          "role": "Especialista em Growth, Facilitação e Automação",
+          "dates": "Outubro 2018 – Agosto 2024",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Estruturou automação de CRM e nurturing em 10 etapas que atraiu 10.000+ acessos e gerou aproximadamente R$ 50 mil em receita.",
+            "Aplicou Thinking Environment à facilitação e à construção de narrativas técnicas, apoiando aprendizagem e comunicação de mudanças."
+          ]
+        }
+      ],
+      "skills": [
+        {"category": "Transformação e Gestão", "skills": ["Gestão de Stakeholders", "OKRs, KPIs, Roadmap e Backlog", "Metodologias Ágeis (Kanban, Scrum)", "Diretrizes de PMO", "Análise de Causa Raiz"]},
+        {"category": "IA e Automação", "skills": ["Implementação de IAs Nativas em Fluxos de Trabalho", "Engenharia de Prompt Profissional", "n8n", "Integrações via APIs/Webhooks", "Vibe Coding e Prototipagem Assistida por IA"]},
+        {"category": "Capacitação e Governança", "skills": ["Organização de Bootcamps e Treinamentos de Alta Escala", "Facilitação Avançada (Thinking Environment / Art of Hosting)", "Playbooks & Scripts Comerciais", "Business Intelligence (Power BI/Tableau)"]}
+      ],
+      "education": [
+        {"institution": "Universidade Federal do Paraná (UFPR)", "degree": "Bacharelado e Licenciatura em Filosofia", "dates": "2018 – 2023"},
+        {"institution": "Recanto da Filosofia Clínica", "degree": "Especialização em Filosofia Clínica", "dates": "Janeiro 2023 – Dezembro 2024"},
+        {"institution": "UFPR / UTFPR", "degree": "Engenharia Elétrica / Eletrônica (Incompleto)", "dates": "2012 – 2015"}
+      ],
+      "certifications": [
+        {"name": "Google Project Management Professional Certificate", "issuer": "Coursera / Google", "status": "Em andamento"},
+        {"name": "Programa de Mentoria em Project Management", "issuer": "FoundersPM", "status": "Em andamento"},
+        {"name": "Facilitador de Thinking Environment", "issuer": "Munzner", "status": "Maio 2020"}
+      ],
+      "languages": [
+        {"language": "Português", "proficiency": "Nativo"},
+        {"language": "Inglês", "proficiency": "Avançado / Profissional; uso diário corporativo para relatórios, coordenação internacional e alinhamento de stakeholders"},
+        {"language": "Espanhol", "proficiency": "Básico"}
+      ],
+      "additional_information": ["Formação em Filosofia aplicada à implementação ética de IA, mitigação de vieses, confidencialidade e conformidade regulatória."]
+    },
+    "en": {
+      "name": "Kevin Augusto Vieira",
+      "location": "Curitiba, PR, Brazil | Remote",
+      "phone": "+55 (41) 99694-1615",
+      "email": "kevin.aug.vieira@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/kevin-augusto/",
+      "github": "",
+      "website": "",
+      "summary": "Product, GTM, and AI adoption manager with 8+ years of experience turning commercial needs into pilots, digital workflows, capability building, and operational improvement. At Wipro on the Meta Project, led CRM AI adoption through onboarding, playbooks, and coaching, increasing usage by 150% and making the operation #1 globally for adoption growth. Governed a bootcamp that reduced ramp-up by 50% and collaborated across global product lines, quality, and consulting teams. Combines roadmaps, OKRs, backlogs, root-cause analysis, facilitation, n8n, APIs, RAG, and responsible data governance to move initiatives from hypothesis to measurable learning.",
+      "experience": [
+        {
+          "company": "Wipro",
+          "role": "AI Transformation, Enablement, and GTM Specialist (Meta Project)",
+          "dates": "September 2024 – July 2026",
+          "location": "Curitiba, Brazil",
+          "bullets": [
+            "Led native AI activation and adoption in a proprietary CRM, from onboarding through three weeks of practical support; increased daily usage by 150% and made the operation #1 globally for adoption growth.",
+            "Acted as a bridge across global product lines, quality, and outsourced teams, aligning documentation, priorities, timelines, and business goals without direct authority.",
+            "Designed and governed a pilot bootcamp for 12 consultants, reducing ramp-up from 6 to 3 months and achieving 100% completion, 90%+ quality, and 90% CSAT.",
+            "Participated in squad governance using daily meetings, OKRs, roadmap, and backlog; also contributed to BCP and secure data-sharing manuals."
+          ]
+        },
+        {
+          "company": "Meu Barzin (Startup)",
+          "role": "AI and Automation Product Manager",
+          "dates": "December 2025 – March 2026",
+          "location": "Curitiba, Brazil",
+          "bullets": [
+            "Moved a conversational product from hypothesis to MVP using ManyChat, n8n, RAG, and Supabase, integrating zero-hallucination rules and a subscription model.",
+            "Mapped, extracted, and cleansed data from nearly 200 establishments and structured a reliable Supabase/PostgreSQL knowledge base.",
+            "Used metrics and interviews to identify insufficient partner density and 43.9% first-message dropout as scaling blockers."
+          ]
+        },
+        {
+          "company": "AK Branding & Web Design",
+          "role": "Digital Transformation and Marketing Project Consultant",
+          "dates": "March 2019 – September 2024",
+          "location": "Curitiba, Brazil",
+          "bullets": [
+            "Delivered 40+ digital projects for SMBs, translating objectives into scope, web architecture, schedules, budgets, and coordinated delivery.",
+            "Implemented journeys, chatbots, and experiments that increased lead generation by up to 250%, while researching and applying LGPD requirements across all projects."
+          ]
+        },
+        {
+          "company": "Munzner",
+          "role": "Growth, Facilitation, and Automation Specialist",
+          "dates": "October 2018 – August 2024",
+          "location": "Curitiba, Brazil",
+          "bullets": [
+            "Built a 10-stage CRM and nurturing automation that attracted 10,000+ visits and generated approximately R$50,000 in revenue.",
+            "Applied Thinking Environment to facilitation and technical narratives, supporting learning and change communication."
+          ]
+        }
+      ],
+      "skills": [
+        {"category": "Transformation and Management", "skills": ["Stakeholder Management", "OKRs, KPIs, Roadmap, and Backlog", "Agile Methodologies (Kanban, Scrum)", "PMO Guidelines", "Root Cause Analysis"]},
+        {"category": "AI and Automation", "skills": ["Native AI Implementation in Workflows", "Professional Prompt Engineering", "n8n", "API/Webhook Integrations", "AI-Assisted Vibe Coding and Prototyping"]},
+        {"category": "Capability and Governance", "skills": ["High-Scale Bootcamp & Training Organization", "Advanced Facilitation (Thinking Environment / Art of Hosting)", "Playbooks & Sales Scripts", "Business Intelligence (Power BI/Tableau)"]}
+      ],
+      "education": [
+        {"institution": "Universidade Federal do Paraná (UFPR)", "degree": "Bachelor's Degree and Licentiate in Philosophy", "dates": "2018 – 2023"},
+        {"institution": "Recanto da Filosofia Clínica", "degree": "Specialization in Clinical Philosophy", "dates": "January 2023 – December 2024"},
+        {"institution": "UFPR / UTFPR", "degree": "Electrical and Electronics Engineering (Incomplete)", "dates": "2012 – 2015"}
+      ],
+      "certifications": [
+        {"name": "Google Project Management Professional Certificate", "issuer": "Coursera / Google", "status": "In progress"},
+        {"name": "Project Management Mentorship Program", "issuer": "FoundersPM", "status": "In progress"},
+        {"name": "Thinking Environment Facilitator", "issuer": "Munzner", "status": "May 2020"}
+      ],
+      "languages": [
+        {"language": "Portuguese", "proficiency": "Native"},
+        {"language": "English", "proficiency": "Advanced / Professional Full Proficiency; daily corporate use for technical reporting, international coordination, and stakeholder alignment"},
+        {"language": "Spanish", "proficiency": "Basic"}
+      ],
+      "additional_information": ["Philosophy background applied to ethical AI deployment, bias mitigation, confidentiality, and regulatory compliance."]
+    }
+  },
+  "materials": {
+    "pt": {
+      "cover_letter": "Olá, time da Modaxo!\n\nMinha experiência combina adoção prática de IA, capacitação, governança de projetos e tradução de necessidades comerciais em iniciativas executáveis. No Projeto Meta, pela Wipro, conduzi a ativação da IA nativa no CRM com onboarding, playbooks e três semanas de acompanhamento side-by-side. O uso cresceu 150%, e a operação tornou-se a primeira globalmente em crescimento de adoção.\n\nTambém idealizei e governei um bootcamp que reduziu o ramp-up de 6 para 3 meses, trabalhei como ponte entre linhas globais de produto, qualidade e equipes terceirizadas e organizei prioridades por OKRs, roadmap e backlog. No Meu Barzin, levei um produto conversacional com RAG, n8n e Supabase da hipótese ao MVP, usando métricas para identificar bloqueadores reais de escala.\n\nPosso apoiar a Modaxo na identificação de casos de uso, execução de pilotos, remoção de fricções, formação de champions e adoção responsável. Não apresento experiência em ADKAR ou Kotter nem um cargo formal de transformação multi-BU; minha evidência está na mudança implementada, mensurada e sustentada em operações reais.\n\nKevin Augusto Vieira",
+      "form_answers": [
+        {"question": "Conte sobre uma mudança significativa que você levou à adoção.", "answer": "No Projeto Meta, tive ownership da ativação da IA nativa no CRM. Estruturei onboarding, playbooks e três semanas de coaching side-by-side. O uso passou de 4 para 10 prompts por dia por consultor (+150%), e a operação ficou em primeiro lugar global em crescimento de adoção."},
+        {"question": "Como você prioriza oportunidades de IA?", "answer": "Começo pelo problema operacional ou comercial, impacto esperado, usuários afetados, qualidade e disponibilidade dos dados, esforço de integração, risco e capacidade de adoção. Transformo a hipótese em piloto pequeno, com métricas e critérios de continuidade. No Meu Barzin, essa abordagem revelou que densidade de parceiros e latência eram bloqueadores mais importantes do que adicionar funcionalidades."},
+        {"question": "Qual é sua experiência com change management e ADKAR/Kotter?", "answer": "Implementei mudanças por meio de diagnóstico, comunicação, treinamento, acompanhamento, feedback e métricas, mas não trabalhei formalmente com ADKAR ou Kotter. Minha experiência é prática e transferível: ativação de IA, bootcamps, coaching, análise de causa raiz e coordenação entre stakeholders sem autoridade direta."},
+        {"question": "Como você descreve seu inglês e disponibilidade para viagens?", "answer": "Meu inglês é avançado/profissional, com uso corporativo diário em relatórios, coordenação internacional e alinhamento de stakeholders; não o apresento como fluente. A vaga prevê viagens ocasionais, principalmente na América Latina, e esse requisito precisaria ser alinhado no processo, pois minha disponibilidade específica não está documentada."}
+      ]
+    },
+    "en": {
+      "cover_letter": "Hello Modaxo team,\n\nMy experience combines practical AI adoption, capability building, project governance, and translating commercial needs into executable initiatives. At Wipro on the Meta Project, I drove native CRM AI activation through onboarding, playbooks, and three weeks of side-by-side support. Usage increased by 150%, and the operation became #1 globally for adoption growth.\n\nI also designed and governed a bootcamp that reduced ramp-up from 6 to 3 months, worked across global product lines, quality, and outsourced teams, and organized priorities through OKRs, roadmaps, and backlogs. At Meu Barzin, I moved a conversational product using RAG, n8n, and Supabase from hypothesis to MVP, using metrics to identify the real blockers to scale.\n\nI can support Modaxo in identifying use cases, running pilots, removing friction, building champion capability, and encouraging responsible adoption. I do not claim ADKAR or Kotter experience or a formal multi-BU transformation title; my evidence is change implemented, measured, and sustained in real operations.\n\nKevin Augusto Vieira",
+      "form_answers": [
+        {"question": "Tell us about a significant change you drove to adoption.", "answer": "On the Meta Project, I owned native AI activation in the CRM. I structured onboarding, playbooks, and three weeks of side-by-side coaching. Usage increased from 4 to 10 prompts per consultant per day (+150%), and the operation ranked #1 globally for adoption growth."},
+        {"question": "How do you prioritize AI opportunities?", "answer": "I start with the operational or commercial problem, expected impact, affected users, data quality and availability, integration effort, risk, and adoption capacity. I convert the hypothesis into a small pilot with metrics and continuation criteria. At Meu Barzin, this approach showed that partner density and latency were more important blockers than adding features."},
+        {"question": "What is your change-management and ADKAR/Kotter experience?", "answer": "I have implemented change through diagnosis, communication, training, follow-up, feedback, and metrics, but I have not formally worked with ADKAR or Kotter. My transferable experience includes AI activation, bootcamps, coaching, root-cause analysis, and coordinating stakeholders without direct authority."},
+        {"question": "How would you describe your English and travel availability?", "answer": "My English is advanced/professional, with daily corporate use in reporting, international coordination, and stakeholder alignment; I do not present it as fluent. The role includes occasional travel, primarily within LATAM, and that requirement would need alignment during the process because my specific travel availability is not documented."}
+      ]
+    }
+  },
+  "evidence": {
+    "skills": {
+      "pt": ["Gestão de Stakeholders", "OKRs, KPIs, Roadmap e Backlog", "Metodologias Ágeis (Kanban, Scrum)", "Análise de Causa Raiz", "Implementação de IAs Nativas em Fluxos de Trabalho", "Engenharia de Prompt Profissional", "n8n", "Integrações via APIs/Webhooks"],
+      "en": ["Stakeholder Management", "OKRs, KPIs, Roadmap, and Backlog", "Agile Methodologies (Kanban, Scrum)", "Root Cause Analysis", "Native AI Implementation in Workflows", "Professional Prompt Engineering", "n8n", "API/Webhook Integrations"]
+    }
+  }
+}

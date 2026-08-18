@@ -1,0 +1,245 @@
+{
+  "id": "doctoralia-noa-gtm-revenue-operations-specialist",
+  "metadata": {
+    "company_name": "Doctoralia Brasil",
+    "role_title": "GTM & Revenue Operations Specialist | NOA",
+    "url": "https://br.linkedin.com/jobs/view/gtm-revenue-operations-specialist-noa-at-doctoralia-brasil-4439274127",
+    "fit_score": 90,
+    "location": "Curitiba, PR / Brasil",
+    "work_model": "Híbrido em Curitiba (2 dias no escritório e 3 em casa) ou 100% remoto, conforme enquadramento",
+    "employment_type": "Segunda a sexta, 09h às 18h, 40 horas semanais; LinkedIn exibe classificação conflitante de estágio",
+    "compensation": "Não informada",
+    "salary_expectation": "R$ 15.000 - R$ 22.000/mês (Brasil/PJ); equivalência CLT a negociar conforme pacote total",
+    "application_deadline": "Não informada",
+    "document_language": "en",
+    "available_languages": ["pt", "en"],
+    "source_files": ["master_resume.json", "job_store.py"],
+    "requirements": [
+      "4+ years in Operations, Strategy Ops, Sales Ops, RevOps, or Data Analysis",
+      "CRM platforms such as HubSpot or Salesforce, pipeline management, and process optimization",
+      "GTM processes, sales funnels, and business dynamics",
+      "Basic SQL and BI/analytics tools",
+      "Daily English and agile environments",
+      "Python for automation or analysis as a differentiator"
+    ],
+    "responsibilities": [
+      "Analyze data and channel performance to identify growth opportunities",
+      "Scale operations through processes, CRM optimization, and automation",
+      "Partner with Product and GTM to accelerate Noa adoption in Brazil",
+      "Design A/B tests and adoption experiments",
+      "Improve CRM data quality, sales processes, and pipeline visibility",
+      "Translate data into priorities and collaborate with global and local stakeholders"
+    ],
+    "good_points": [
+      "Experiência na interseção entre Produto, Vendas e Operações, com GTM, CRM, melhoria de processos e adoção de IA.",
+      "Resultados mensuráveis em adoção (+150%), ramp-up (-50%), funil, receita, ROI, geração de leads e testes A/B.",
+      "Repertório literal em SQL básico, Power BI, Google Sheets, Google Analytics, Looker Studio, Python prático e métodos ágeis."
+    ],
+    "improvement_points": [
+      "SQL e Python são competências práticas, não engenharia ou análise avançada de dados.",
+      "Healthcare e SaaS são contextos transferíveis; não há longa experiência formal no setor de saúde.",
+      "HubSpot e Salesforce constam nas competências, mas administração avançada e ownership formal de pipeline nessas plataformas não estão comprovados.",
+      "A faixa salarial não foi publicada; o anúncio e o LinkedIn apresentam possível conflito na classificação contratual."
+    ]
+  },
+  "triage": {
+    "decision": "adapt",
+    "fit_score": 90,
+    "blockers": [],
+    "notes": [
+      "Vaga oferece modelo híbrido em Curitiba ou remoto, com jornada explícita de 40 horas semanais.",
+      "Aderência forte em GTM, operações, dados, CRM, automação, experimentação, IA e colaboração global.",
+      "Prazo e remuneração não informados; LinkedIn classifica a vaga como estágio apesar do escopo pleno-sênior e exigência de 4+ anos."
+    ],
+    "gaps": [
+      "SQL e Python em nível prático, sem profundidade de engenharia de dados.",
+      "Experiência em healthcare é adjacente, não extensa.",
+      "Administração avançada de HubSpot/Salesforce e ownership formal de pipeline não estão documentados."
+    ],
+    "risks": [
+      "A jornada de 40 horas semanais não deve ser presumida como aceita sem confirmação do candidato.",
+      "Classificação contratual conflitante no LinkedIn requer confirmação.",
+      "Compatibilidade salarial precisa ser discutida."
+    ]
+  },
+  "resume": {
+    "pt": {
+      "name": "Kevin Augusto Vieira",
+      "location": "Curitiba, PR | Híbrido ou remoto",
+      "phone": "+55 (41) 99694-1615",
+      "email": "kevin.aug.vieira@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/kevin-augusto/",
+      "github": "",
+      "website": "",
+      "summary": "Especialista em GTM, Revenue Operations, Growth e Produto com mais de 8 anos de experiência transformando dados em decisões, melhorando processos e acelerando adoção. No Projeto Meta da Wipro, trabalhou entre Produto, Vendas e Operações, usando Power BI, Excel e análise de causa raiz e liderando adoção de IA em CRM com crescimento de 150%. Em produtos digitais, estruturou CRM e bases em Supabase/PostgreSQL e NocoDB, automações com n8n, testes A/B e análise de funil. Possui SQL básico, Python prático, Google Sheets, Google Analytics, Looker Studio, métodos ágeis e inglês profissional de uso diário.",
+      "experience": [
+        {
+          "company": "Wipro",
+          "role": "Especialista em GTM, Revenue Operations e Adoção de Produto (Projeto Meta)",
+          "dates": "Setembro 2024 – Julho 2026",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Atuou como ponte entre linhas globais de Produto, Vendas, Qualidade e Operações, alinhando documentação, prazos e prioridades de negócio.",
+            "Liderou adoção de IA nativa no CRM, elevando o uso de 4 para 10 prompts/dia por consultor (+150%) e alcançando o maior crescimento global de adoção.",
+            "Usou Power BI, Excel, escuta de calls e análise de causa raiz para identificar gaps, desenhar planos de ação e otimizar funis.",
+            "Trabalhou em squad ágil com reuniões diárias, OKRs, roadmap e backlog para priorizar demandas de stakeholders globais e locais."
+          ]
+        },
+        {
+          "company": "Meu Barzin (Startup)",
+          "role": "Product Manager e Responsável por Growth Operations",
+          "dates": "Dezembro 2025 – Março 2026",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Estruturou CRM e bases em Supabase/PostgreSQL e NocoDB e desenhou automações com n8n para apoiar produto e operações.",
+            "Captou 505 leads e atingiu 22,3% de usuários altamente engajados; entrevistas e análise de funil revelaram 43,9% de abandono na primeira mensagem."
+          ]
+        },
+        {
+          "company": "AK Branding & Web Design",
+          "role": "Consultor de Growth, Dados e Produtos Digitais",
+          "dates": "Março 2019 – Setembro 2024",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Conduziu mais de 40 projetos para PMEs, coordenando escopo, cronogramas, dados, stakeholders e melhoria de jornadas digitais.",
+            "Planejou testes A/B em campanhas, landing pages e experiências web; UX e chatbots elevaram leads de 8 para 20-30/mês (+250%)."
+          ]
+        },
+        {
+          "company": "Munzner",
+          "role": "Especialista em Growth, CRM e Revenue Analytics",
+          "dates": "Outubro 2018 – Agosto 2024",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Construiu funil automatizado de 10 etapas em Bitrix24 e Sendpulse, atraindo 10.000+ acessos e gerando aproximadamente R$ 50 mil em receita.",
+            "Acompanhou canais, caminhos de aquisição e CRM para avaliar conversão, receita e ROI e orientar ajustes de campanhas e monetização."
+          ]
+        }
+      ],
+      "skills": [
+        {"category": "GTM e Revenue Operations", "skills": ["Go-to-Market (GTM)", "Gestão de Stakeholders", "Métricas de Receita, ROI e Conversão", "Mapeamento de Gargalos de Funil", "Testes A/B e Design de Experimentos"]},
+        {"category": "Dados e BI", "skills": ["SQL Básico e Exploração de Dados", "Business Intelligence (Power BI/Tableau)", "Google Sheets Avançado", "Google Analytics", "Looker Studio"]},
+        {"category": "CRM e Automação", "skills": ["HubSpot", "Salesforce", "Supabase/PostgreSQL", "n8n", "Python para Automação e Análise (nível prático)", "Integrações via APIs/Webhooks"]}
+      ],
+      "education": [
+        {"institution": "Universidade Federal do Paraná (UFPR)", "degree": "Bacharelado e Licenciatura em Filosofia", "dates": "2018 – 2023"},
+        {"institution": "Universidade Federal do Paraná (UFPR) / UTFPR", "degree": "Engenharia Elétrica / Eletrônica (Incompleto)", "dates": "2012 – 2015"}
+      ],
+      "certifications": [
+        {"name": "Meta Certified Media Planning Professional", "issuer": "Meta", "status": "Ativo"},
+        {"name": "Meta Certified Digital Marketing Associate", "issuer": "Meta", "status": "Ativo"},
+        {"name": "Google Project Management Professional Certificate", "issuer": "Coursera / Google", "status": "Em andamento"}
+      ],
+      "languages": [
+        {"language": "Português", "proficiency": "Nativo"},
+        {"language": "Inglês", "proficiency": "Avançado / profissional; uso diário corporativo"},
+        {"language": "Espanhol", "proficiency": "Básico"}
+      ],
+      "additional_information": ["Interesse documentado em HealthTech, saúde integrativa e soluções digitais para bem-estar."]
+    },
+    "en": {
+      "name": "Kevin Augusto Vieira",
+      "location": "Curitiba, PR, Brazil | Hybrid or remote",
+      "phone": "+55 (41) 99694-1615",
+      "email": "kevin.aug.vieira@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/kevin-augusto/",
+      "github": "",
+      "website": "",
+      "summary": "GTM, Revenue Operations, Growth, and Product specialist with 8+ years of experience turning data into decisions, improving processes, and accelerating adoption. At Wipro on the Meta Project, worked across Product, Sales, and Operations, using Power BI, Excel, and root-cause analysis while leading CRM AI adoption with 150% growth. In digital products, structured CRM and databases in Supabase/PostgreSQL and NocoDB, built n8n automations, ran A/B tests, and analyzed funnels. Brings basic SQL, practical Python, Google Sheets, Google Analytics, Looker Studio, agile methods, and advanced professional English used daily.",
+      "experience": [
+        {
+          "company": "Wipro",
+          "role": "GTM, Revenue Operations, and Product Adoption Specialist (Meta Project)",
+          "dates": "September 2024 – July 2026",
+          "location": "Curitiba, Brazil",
+          "bullets": [
+            "Bridged global Product, Sales, Quality, and Operations teams, aligning documentation, timelines, and business priorities.",
+            "Led native CRM AI adoption, increasing usage from 4 to 10 prompts/day per consultant (+150%) and achieving the fastest global adoption growth.",
+            "Used Power BI, Excel, call listening, and root-cause analysis to identify gaps, design action plans, and optimize funnels.",
+            "Worked in an agile squad using daily meetings, OKRs, roadmap, and backlog to prioritize global and local stakeholder needs."
+          ]
+        },
+        {
+          "company": "Meu Barzin (Startup)",
+          "role": "Product Manager and Growth Operations Lead",
+          "dates": "December 2025 – March 2026",
+          "location": "Curitiba, Brazil",
+          "bullets": [
+            "Structured CRM and databases in Supabase/PostgreSQL and NocoDB and designed n8n automations to support product and operations.",
+            "Captured 505 leads and reached 22.3% highly engaged users; interviews and funnel analysis revealed a 43.9% first-message dropout."
+          ]
+        },
+        {
+          "company": "AK Branding & Web Design",
+          "role": "Growth, Data, and Digital Product Consultant",
+          "dates": "March 2019 – September 2024",
+          "location": "Curitiba, Brazil",
+          "bullets": [
+            "Delivered 40+ SMB projects, coordinating scope, schedules, data, stakeholders, and digital journey improvements.",
+            "Planned A/B tests across campaigns, landing pages, and web experiences; UX and chatbots increased leads from 8 to 20-30/month (+250%)."
+          ]
+        },
+        {
+          "company": "Munzner",
+          "role": "Growth, CRM, and Revenue Analytics Specialist",
+          "dates": "October 2018 – August 2024",
+          "location": "Curitiba, Brazil",
+          "bullets": [
+            "Built a 10-stage automated funnel in Bitrix24 and Sendpulse, attracting 10,000+ visits and generating approximately R$50,000 in revenue.",
+            "Tracked channels, acquisition paths, and CRM data to evaluate conversion, revenue, and ROI and guide campaign and monetization changes."
+          ]
+        }
+      ],
+      "skills": [
+        {"category": "GTM and Revenue Operations", "skills": ["Go-to-Market (GTM)", "Stakeholder Management", "Revenue, ROI, and Conversion Metrics", "Funnel Bottleneck Mapping", "A/B Testing and Experiment Design"]},
+        {"category": "Data and BI", "skills": ["Basic SQL and Data Exploration", "Business Intelligence (Power BI/Tableau)", "Advanced Google Sheets", "Google Analytics", "Looker Studio"]},
+        {"category": "CRM and Automation", "skills": ["HubSpot", "Salesforce", "Supabase/PostgreSQL", "n8n", "Python for Automation and Analysis (practical level)", "API/Webhook Integrations"]}
+      ],
+      "education": [
+        {"institution": "Universidade Federal do Paraná (UFPR)", "degree": "Bachelor's Degree and Licentiate in Philosophy", "dates": "2018 – 2023"},
+        {"institution": "Universidade Federal do Paraná (UFPR) / UTFPR", "degree": "STEM Track - Electrical and Electronics Engineering (Incomplete)", "dates": "2012 – 2015"}
+      ],
+      "certifications": [
+        {"name": "Meta Certified Media Planning Professional", "issuer": "Meta", "status": "Active"},
+        {"name": "Meta Certified Digital Marketing Associate", "issuer": "Meta", "status": "Active"},
+        {"name": "Google Project Management Professional Certificate", "issuer": "Coursera / Google", "status": "In progress"}
+      ],
+      "languages": [
+        {"language": "Portuguese", "proficiency": "Native"},
+        {"language": "English", "proficiency": "Advanced / professional working proficiency; daily corporate use"},
+        {"language": "Spanish", "proficiency": "Basic"}
+      ],
+      "additional_information": ["Documented interest in HealthTech, integrative health, and digital wellness solutions."]
+    }
+  },
+  "materials": {
+    "pt": {
+      "cover_letter": "Olá, time da Doctoralia Brasil!\n\nEscalar o Noa no Brasil exige combinar análise e execução na interseção entre Produto, Vendas e Operações, exatamente o contexto em que construí meus resultados mais relevantes. No Projeto Meta da Wipro, usei Power BI, Excel, escuta de calls e análise de causa raiz para identificar gaps e orientar ações, trabalhando com stakeholders globais e locais.\n\nTambém liderei a adoção de IA nativa no CRM, elevando o uso de 4 para 10 prompts por consultor (+150%). Em projetos de produto, estruturei bases e protótipos de CRM com Supabase/PostgreSQL e NocoDB, criei automações com n8n e conduzi testes A/B e análises de funil. No Meu Barzin, esses métodos ajudaram a identificar 43,9% de abandono na primeira mensagem e orientar prioridades de produto e crescimento.\n\nTenho SQL básico e Python prático, não experiência de engenharia de dados avançada. Minha vivência em healthcare é transferível, apoiada por experiência em IA, produtos digitais e interesse documentado em HealthTech. Quero aplicar essa combinação para aumentar adoção, qualidade de dados e eficiência operacional do Noa na Doctoralia Brasil.\n\nKevin Augusto Vieira",
+      "form_answers": [
+        {"question": "Como você transforma dados em decisões?", "answer": "Combino métricas de funil, CRM, receita e comportamento com sinais qualitativos. Na Wipro, Power BI, Excel, escuta de calls e análise de causa raiz viraram planos de ação. No Meu Barzin, entrevistas e análise de funil revelaram 43,9% de abandono na primeira mensagem e orientaram prioridades de produto."},
+        {"question": "Conte sobre uma iniciativa de adoção de produto.", "answer": "Liderei a ativação de IA nativa no CRM da Meta, do onboarding a três semanas de acompanhamento side-by-side. O uso cresceu de 4 para 10 prompts/dia por consultor (+150%), e a operação alcançou o maior crescimento global de adoção."},
+        {"question": "Qual é sua experiência com CRM, pipeline e automação?", "answer": "Atuei com CRM proprietário da Meta, Bitrix24, Sendpulse e protótipos em Supabase/PostgreSQL e NocoDB, além de automações com n8n. Usei dados de CRM para analisar aquisição, conversão, receita e ROI. HubSpot e Salesforce constam no repertório, mas não alego administração avançada ou ownership formal dessas plataformas."},
+        {"question": "Qual é seu nível de SQL e Python?", "answer": "Tenho SQL básico e exploração prática de dados em Supabase/PostgreSQL, além de Python em nível prático para automação e análise com desenvolvimento assistido por IA. Consigo explorar dados, prototipar soluções e colaborar com times técnicos, mas não me apresento como engenheiro de dados."},
+        {"question": "Você tem experiência em healthcare ou SaaS?", "answer": "Não tenho uma trajetória extensa formal em healthcare. Minha experiência transferível está em IA, produtos digitais, automação, CRM, adoção e operações, além de interesse documentado em HealthTech e soluções digitais de bem-estar. Também desenvolvi produtos e protótipos com modelos de assinatura, mas não apresento isso como longa experiência corporativa em SaaS de saúde."},
+        {"question": "Você pode cumprir 40 horas semanais e qual é sua expectativa salarial?", "answer": "A jornada de 40 horas e o modelo híbrido ou remoto precisam ser confirmados no processo; não registro disponibilidade sem esse alinhamento. Minha expectativa documentada no Brasil é de R$ 15.000 a R$ 22.000 por mês em modelo PJ, com equivalência CLT avaliada por salário, benefícios e escopo. A vaga não publicou faixa."}
+      ]
+    },
+    "en": {
+      "cover_letter": "Hi Doctoralia Brasil team,\n\nScaling Noa in Brazil requires combining analysis and execution at the intersection of Product, Sales, and Operations, which is exactly where I have delivered my strongest results. At Wipro on the Meta Project, I used Power BI, Excel, call listening, and root-cause analysis to identify gaps and guide action while collaborating with global and local stakeholders.\n\nI also led native AI adoption in CRM, increasing usage from 4 to 10 prompts per consultant (+150%). In product work, I structured CRM databases and prototypes with Supabase/PostgreSQL and NocoDB, built n8n automations, and ran A/B tests and funnel analyses. At Meu Barzin, these methods helped identify a 43.9% first-message dropout and guide product and growth priorities.\n\nI bring basic SQL and practical Python rather than advanced data engineering experience. My healthcare exposure is transferable, supported by work in AI and digital products and a documented interest in HealthTech. I would apply this combination to increase Noa adoption, data quality, and operational efficiency at Doctoralia Brasil.\n\nKevin Augusto Vieira",
+      "form_answers": [
+        {"question": "How do you turn data into decisions?", "answer": "I combine funnel, CRM, revenue, and behavior metrics with qualitative signals. At Wipro, Power BI, Excel, call listening, and root-cause analysis became action plans. At Meu Barzin, interviews and funnel analysis revealed a 43.9% first-message dropout and guided product priorities."},
+        {"question": "Tell us about a product adoption initiative.", "answer": "I led native AI activation in Meta's CRM, from onboarding through three weeks of side-by-side coaching. Usage increased from 4 to 10 prompts/day per consultant (+150%), and the operation achieved the fastest global adoption growth."},
+        {"question": "What is your CRM, pipeline, and automation experience?", "answer": "I worked with Meta's proprietary CRM, Bitrix24, Sendpulse, and prototypes in Supabase/PostgreSQL and NocoDB, plus n8n automations. I used CRM data to analyze acquisition, conversion, revenue, and ROI. HubSpot and Salesforce are in my toolkit, but I do not claim advanced administration or formal ownership of those platforms."},
+        {"question": "What is your SQL and Python level?", "answer": "I have basic SQL and practical data exploration experience in Supabase/PostgreSQL, plus practical Python for automation and analysis using AI-assisted development. I can explore data, prototype solutions, and collaborate with technical teams, but I do not present myself as a data engineer."},
+        {"question": "Do you have healthcare or SaaS experience?", "answer": "I do not have an extensive formal healthcare background. My transferable experience is in AI, digital products, automation, CRM, adoption, and operations, supported by a documented interest in HealthTech and digital wellness. I have also developed subscription-model products and prototypes, but I do not present that as long-term corporate healthcare SaaS experience."},
+        {"question": "Can you work 40 hours per week, and what are your salary expectations?", "answer": "The 40-hour schedule and hybrid or remote arrangement need confirmation during the process; I do not state availability without that alignment. My documented Brazilian expectation is R$15,000 to R$22,000 per month under a contractor model, with CLT equivalence assessed through salary, benefits, and scope. No range was published."}
+      ]
+    }
+  },
+  "evidence": {
+    "skills": {
+      "pt": ["Go-to-Market (GTM)", "SQL Básico e Exploração de Dados", "Google Sheets Avançado", "Looker Studio", "Python para Automação e Análise (nível prático)", "Testes A/B e Design de Experimentos"],
+      "en": ["Go-to-Market (GTM)", "Basic SQL and Data Exploration", "Advanced Google Sheets", "Looker Studio", "Python for Automation and Analysis (practical level)", "A/B Testing and Experiment Design"]
+    }
+  }
+}

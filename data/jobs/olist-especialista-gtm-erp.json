@@ -1,0 +1,81 @@
+{
+  "id": "olist-especialista-gtm-erp",
+  "metadata": {
+    "company_name": "Olist",
+    "role_title": "Especialista em Go-to-Market | ERP",
+    "url": "https://br.linkedin.com/jobs/view/especialista-em-go-to-market-erp-at-olist-4446910194",
+    "fit_score": 96,
+    "salary_expectation": "Faixa salarial não informada pela Olist",
+    "document_language": "pt",
+    "available_languages": ["pt", "en"],
+    "location": "Curitiba, PR",
+    "work_model": "Híbrido",
+    "employment_type": "CLT, tempo integral",
+    "seniority": "Pleno-sênior",
+    "listing_status": "Ativa no momento da consulta",
+    "published_at": "Aproximadamente 3 semanas antes de 2026-08-17",
+    "fetched_at": "2026-08-17T23:05:28-03:00",
+    "application_deadline": null,
+    "source_files": ["master_resume.json"],
+    "good_points": [
+      "Experiência direta em GTM, posicionamento de produto e Sales Enablement no Projeto Meta.",
+      "Atuação como ponte entre produto, qualidade, consultoria e linhas globais, com roadmap, backlog, OKRs e documentação.",
+      "Criação comprovada de pitches, playbooks, scripts, treinamentos e análises de adoção e performance."
+    ],
+    "improvement_points": [
+      "Não há experiência direta comprovada com um produto ERP.",
+      "A faixa salarial não foi publicada; compatibilidade com a expectativa registrada deve ser confirmada.",
+      "O currículo não documenta ownership formal de um portfólio de bundles de ERP."
+    ]
+  },
+  "triage": {
+    "decision": "adapt",
+    "fit_score": 96,
+    "blockers": [],
+    "deadline": "Não informada",
+    "notes": [
+      "Aderência excepcional em GTM, PMO de lançamentos, enablement, comunicação executiva e análise de adoção.",
+      "Curitiba e o modelo híbrido são compatíveis com a localização documentada.",
+      "Remuneração desconhecida; validar no processo seletivo."
+    ],
+    "gaps": [
+      "Sem experiência profissional direta documentada em ERP.",
+      "Sem ownership formal documentado de bundles de ERP."
+    ]
+  },
+  "resume": {
+    "pt": {
+      "name": "Kevin Augusto Vieira", "location": "Curitiba, PR", "phone": "+55 (41) 99694-1615", "email": "kevin.aug.vieira@gmail.com", "linkedin": "https://www.linkedin.com/in/kevin-augusto/", "github": "", "website": "",
+      "summary": "Especialista em Go-to-Market, Produto e Sales Enablement com mais de 8 anos de experiência transformando atualizações de produtos digitais em propostas de valor, planos de ativação, campanhas e materiais para times comerciais. Na Wipro, no Projeto Meta, foi referência técnica para mais de 150 profissionais, liderou pilares de Sales Excellence e Sales Productivity e coordenou treinamentos, playbooks e adoção de IA no CRM, elevando o uso em 150%. Combina governança ágil, gestão de stakeholders, análise de dados e comunicação executiva para organizar lançamentos, riscos, dependências e resultados.",
+      "experience": [
+        {"company": "Wipro", "role": "Especialista em GTM, Sales Enablement e Operações de Marketing (Projeto Meta)", "dates": "Setembro 2024 – Julho 2026", "location": "Curitiba, PR", "bullets": ["Traduziu atualizações do portfólio da Meta em propostas de valor, pitches, frameworks, scripts e materiais para mais de 150 profissionais.", "Participou do squad de capacitação usando reuniões diárias, OKRs, roadmap e backlog para priorizar demandas de clientes, líderes e consultores.", "Liderou a ativação de IA no CRM, elevando o uso de 4 para 10 prompts/dia por consultor (+150%) e tornando a operação a #1 global em crescimento de adoção.", "Usou Power BI, Excel, escuta de calls e análise de causa raiz para orientar planos de ação e otimização de funis."]},
+        {"company": "Meu Barzin (Startup)", "role": "Product e Go-to-Market Manager", "dates": "Dezembro 2025 – Março 2026", "location": "Curitiba, PR", "bullets": ["Concebeu um MVP conversacional, definiu modelo de assinatura e validou a proposta com parceiros B2B.", "Captou 505 leads e usou entrevistas e dados de funil para identificar barreiras de oferta e 43,9% de abandono na primeira mensagem."]},
+        {"company": "AK Branding & Web Design", "role": "Consultor de Projetos de Marketing e Produto", "dates": "Março 2019 – Setembro 2024", "location": "Curitiba, PR", "bullets": ["Entregou mais de 40 projetos para PMEs, coordenando posicionamento, arquitetura web, escopo, orçamento e cronogramas.", "Executou testes A/B em campanhas, landing pages e experiências web; fluxos de chatbot elevaram leads de 8 para 20-30 por mês (+250%)."]},
+        {"company": "Munzner", "role": "Especialista em Marketing, Growth e Automação", "dates": "Outubro 2018 – Agosto 2024", "location": "Curitiba, PR", "bullets": ["Lançou o primeiro curso digital da empresa, alcançando 50 vendas em 2 meses e ROI de 1,0x a 1,5x.", "Estruturou funil automatizado de 10 etapas que gerou aproximadamente R$ 50 mil em receita."]}
+      ],
+      "skills": [{"category": "GTM e Enablement", "skills": ["Go-to-Market (GTM)", "Sales Enablement Frameworks", "Sales Productivity", "Playbooks & Scripts Comerciais", "Gestão de Stakeholders"]}, {"category": "Projetos e Dados", "skills": ["Metodologias Ágeis (Kanban, Scrum)", "OKRs, KPIs, Roadmap e Backlog", "Diretrizes de PMO", "Business Intelligence (Power BI/Tableau)", "Análise de Causa Raiz"]}],
+      "education": [{"institution": "Universidade Federal do Paraná (UFPR)", "degree": "Bacharelado e Licenciatura em Filosofia", "dates": "2018 – 2023"}],
+      "certifications": [{"name": "Google Project Management Professional Certificate", "issuer": "Coursera / Google", "status": "Em andamento / iniciado em Setembro 2025"}],
+      "languages": [{"language": "Português", "proficiency": "Nativo"}, {"language": "Inglês", "proficiency": "Avançado / profissional; uso diário corporativo"}], "additional_information": []
+    },
+    "en": {
+      "name": "Kevin Augusto Vieira", "location": "Curitiba, PR, Brazil", "phone": "+55 (41) 99694-1615", "email": "kevin.aug.vieira@gmail.com", "linkedin": "https://www.linkedin.com/in/kevin-augusto/", "github": "", "website": "",
+      "summary": "Go-to-Market, Product, and Sales Enablement Specialist with 8+ years of experience turning digital product updates into value propositions, activation plans, campaigns, and commercial assets. At Wipro on the Meta Project, served as a technical reference for 150+ professionals, led Sales Excellence and Sales Productivity pillars, and coordinated training, playbooks, and CRM AI adoption, increasing usage by 150%. Combines agile governance, stakeholder management, analytics, and executive communication to organize launches, risks, dependencies, and outcomes.",
+      "experience": [
+        {"company": "Wipro", "role": "GTM, Sales Enablement, and Marketing Operations Specialist (Meta Project)", "dates": "September 2024 – July 2026", "location": "Curitiba, Brazil", "bullets": ["Translated Meta portfolio updates into value propositions, pitches, frameworks, scripts, and assets for 150+ professionals.", "Worked in the enablement squad using daily meetings, OKRs, roadmap, and backlog to prioritize stakeholder requests.", "Led CRM AI activation, increasing usage from 4 to 10 prompts/day per consultant (+150%) and making the operation #1 globally for adoption growth.", "Used Power BI, Excel, call listening, and root-cause analysis to guide action plans and funnel improvements."]},
+        {"company": "Meu Barzin (Startup)", "role": "Product and Go-to-Market Manager", "dates": "December 2025 – March 2026", "location": "Curitiba, Brazil", "bullets": ["Designed a conversational MVP, defined its subscription model, and validated the value proposition with B2B partners.", "Captured 505 leads and used interviews and funnel data to identify supply barriers and 43.9% first-message dropout."]},
+        {"company": "AK Branding & Web Design", "role": "Marketing and Product Project Consultant", "dates": "March 2019 – September 2024", "location": "Curitiba, Brazil", "bullets": ["Delivered 40+ SMB projects spanning positioning, web architecture, scope, budgets, and timelines.", "Ran A/B tests across campaigns, landing pages, and web experiences; chatbot flows increased leads from 8 to 20-30 per month (+250%)."]},
+        {"company": "Munzner", "role": "Marketing, Growth, and Automation Specialist", "dates": "October 2018 – August 2024", "location": "Curitiba, Brazil", "bullets": ["Launched the company's first digital course, securing 50 sales in 2 months at 1.0x-1.5x ROI.", "Built a 10-stage automated funnel that generated approximately R$50,000 in revenue."]}
+      ],
+      "skills": [{"category": "GTM and Enablement", "skills": ["Go-to-Market (GTM)", "Sales Enablement Frameworks", "Sales Productivity", "Playbooks & Sales Scripts", "Stakeholder Management"]}, {"category": "Projects and Data", "skills": ["Agile Methodologies (Kanban, Scrum)", "OKRs, KPIs, Roadmap, and Backlog", "PMO Guidelines", "Business Intelligence (Power BI/Tableau)", "Root Cause Analysis"]}],
+      "education": [{"institution": "Universidade Federal do Paraná (UFPR)", "degree": "Bachelor's Degree and Licentiate in Philosophy", "dates": "2018 – 2023"}],
+      "certifications": [{"name": "Google Project Management Professional Certificate", "issuer": "Coursera / Google", "status": "In progress - started September 2025"}],
+      "languages": [{"language": "Portuguese", "proficiency": "Native"}, {"language": "English", "proficiency": "Advanced / professional; daily corporate use"}], "additional_information": []
+    }
+  },
+  "materials": {
+    "pt": {"cover_letter": "Olá, time da Olist!\n\nA missão de transformar evoluções do ERP em planos de go-to-market claros combina diretamente com minha experiência conectando produto, operações, dados e times comerciais. Na Wipro, no Projeto Meta, traduzi atualizações globais em propostas de valor, pitches, scripts, playbooks e treinamentos para mais de 150 profissionais. Também participei da governança do squad de capacitação com OKRs, roadmap e backlog e liderei a adoção de IA no CRM, elevando o uso em 150%.\n\nTrago experiência prática em coordenar stakeholders, organizar documentação e planos de ação e usar dados e feedbacks para priorizar ativações. Embora eu não apresente experiência direta em ERP, tenho histórico consistente de aprender produtos digitais complexos e convertê-los em mensagens e ferramentas acionáveis para a linha de frente. Quero aplicar essa combinação para dar cadência, clareza e impacto aos lançamentos da Olist.\n\nKevin Augusto Vieira", "form_answers": [{"question": "Conte sobre sua experiência com GTM.", "answer": "No Projeto Meta, absorvi materiais oficiais e traduzi atualizações de produto em propostas de valor, pitches, scripts, frameworks e treinamentos para mais de 150 profissionais. Em projetos próprios e consultivos, também trabalhei com posicionamento, lançamentos, aquisição e mensuração."}, {"question": "Como você atua como PMO de lançamentos?", "answer": "Organizo objetivos, responsáveis, dependências, riscos, rituais e documentação. Na Wipro, participei de um squad que usava reuniões diárias, OKRs, roadmap e backlog para priorizar demandas e alinhar clientes, gestores, líderes e consultores."}, {"question": "Qual é sua experiência com ERP?", "answer": "Não tenho experiência profissional direta documentada em ERP. Minha aderência transferível está em aprender produtos digitais complexos, traduzir roadmaps em narrativas e materiais comerciais e coordenar GTM entre produto, marketing, vendas e operações."}, {"question": "Qual é sua pretensão salarial?", "answer": "A faixa da vaga não foi informada. Minha expectativa registrada para contratos no Brasil é de R$ 15.000 a R$ 22.000 por mês no modelo PJ; para CLT, considero o pacote total, escopo e benefícios."}]},
+    "en": {"cover_letter": "Hello Olist team,\n\nTurning ERP product evolution into clear go-to-market plans directly matches my experience connecting product, operations, data, and commercial teams. At Wipro on the Meta Project, I translated global updates into value propositions, pitches, scripts, playbooks, and training for 150+ professionals. I also supported enablement squad governance through OKRs, roadmap, and backlog and led CRM AI adoption, increasing usage by 150%.\n\nI bring practical experience coordinating stakeholders, structuring documentation and action plans, and using data and feedback to prioritize activation. While I do not claim direct ERP experience, I have a consistent record of learning complex digital products and turning them into actionable messages and frontline tools. I would apply that combination to bring cadence, clarity, and impact to Olist launches.\n\nKevin Augusto Vieira", "form_answers": [{"question": "Tell us about your GTM experience.", "answer": "On the Meta Project, I absorbed official materials and translated product updates into value propositions, pitches, scripts, frameworks, and training for 150+ professionals. Across startup and consulting work, I also handled positioning, launches, acquisition, and measurement."}, {"question": "How do you operate as a launch PMO?", "answer": "I structure objectives, owners, dependencies, risks, rituals, and documentation. At Wipro, I worked in a squad using daily meetings, OKRs, roadmap, and backlog to prioritize requests and align clients, managers, leaders, and consultants."}, {"question": "What is your ERP experience?", "answer": "I do not have documented direct professional ERP experience. My transferable fit is learning complex digital products, translating roadmaps into narratives and commercial assets, and coordinating GTM across product, marketing, sales, and operations."}, {"question": "What are your salary expectations?", "answer": "The role's range was not disclosed. My documented Brazil target is R$15,000-R$22,000 per month for PJ contracts; for CLT employment, I consider total compensation, scope, and benefits."}]}
+  },
+  "evidence": {"skills": {"pt": ["Go-to-Market (GTM)", "Sales Enablement Frameworks", "Sales Productivity", "Playbooks & Scripts Comerciais", "Gestão de Stakeholders", "OKRs, KPIs, Roadmap e Backlog", "Diretrizes de PMO", "Análise de Causa Raiz"], "en": ["Go-to-Market (GTM)", "Sales Enablement Frameworks", "Sales Productivity", "Playbooks & Sales Scripts", "Stakeholder Management", "OKRs, KPIs, Roadmap, and Backlog", "PMO Guidelines", "Root Cause Analysis"]}}
+}

@@ -1,0 +1,240 @@
+{
+  "id": "bairesdev-revenue-operations-specialist",
+  "metadata": {
+    "company_name": "BairesDev",
+    "role_title": "Revenue Operations Specialist - Remote work | REF#300572",
+    "url": "https://br.linkedin.com/jobs/view/revenue-operations-specialist-remote-work-ref%23300572-at-bairesdev-4449089476",
+    "fit_score": 92,
+    "location": "Brasil",
+    "work_model": "100% remoto",
+    "employment_type": "Tempo integral",
+    "compensation": "Não informada; pagamento em USD ou moeda local indicado no anúncio",
+    "salary_expectation": "R$ 15.000 - R$ 22.000/mês (Brasil/PJ) | USD 4.000 - 6.000/mês (remoto internacional)",
+    "application_deadline": "Não informada",
+    "document_language": "en",
+    "available_languages": ["pt", "en"],
+    "source_files": ["master_resume.json", "job_store.py"],
+    "requirements": [
+      "4+ years in Revenue Operations, Sales Operations, or Sales Enablement",
+      "Sales enablement content for revenue teams",
+      "AI prompt engineering for sales workflows and automation",
+      "Copy editing and sales communication optimization",
+      "GTM process optimization and CRM management",
+      "Advanced English"
+    ],
+    "responsibilities": [
+      "Create sales enablement materials across the revenue lifecycle",
+      "Develop AI prompts to automate sales workflows",
+      "Edit sales collateral for quality and brand alignment",
+      "Optimize GTM processes and sales velocity",
+      "Maintain CRM data integrity and actionable sales insights"
+    ],
+    "good_points": [
+      "Experiência superior a 8 anos em marketing, produto, GTM e operações, com atuação direta em Sales Enablement no Projeto Meta.",
+      "Criou playbooks, pitches, scripts e treinamentos para mais de 150 profissionais e reduziu o ramp-up de 6 para 3 meses.",
+      "Liderou adoção de IA em CRM, elevando o uso de 4 para 10 prompts por dia (+150%), com inglês profissional de uso diário."
+    ],
+    "improvement_points": [
+      "O histórico combina Revenue Operations, Marketing Operations e Sales Enablement; não há cargo anterior formalmente chamado Revenue Operations Specialist.",
+      "A experiência em CRM inclui plataformas proprietárias e protótipos, mas ownership de administração avançada de Salesforce ou HubSpot não está comprovado.",
+      "A remuneração não foi publicada; a expectativa deve ser alinhada sem presumir compatibilidade."
+    ]
+  },
+  "triage": {
+    "decision": "adapt",
+    "fit_score": 92,
+    "blockers": [],
+    "notes": [
+      "Vaga 100% remota no Brasil, com horário flexível e remuneração em USD ou moeda local.",
+      "Aderência forte em enablement, GTM, CRM, copy, IA aplicada, automação e inglês profissional.",
+      "Prazo de candidatura e faixa salarial não informados."
+    ],
+    "gaps": [
+      "Sem título formal anterior de Revenue Operations Specialist.",
+      "Administração avançada de Salesforce/HubSpot não está documentada.",
+      "Inglês é avançado/profissional, não declarado como fluente ou nativo."
+    ],
+    "risks": [
+      "O anúncio classifica o nível como Assistente apesar de exigir 4+ anos, criando possível desalinhamento de senioridade.",
+      "Compatibilidade salarial depende de confirmação durante o processo."
+    ]
+  },
+  "resume": {
+    "pt": {
+      "name": "Kevin Augusto Vieira",
+      "location": "Curitiba, PR | Remoto, Brasil",
+      "phone": "+55 (41) 99694-1615",
+      "email": "kevin.aug.vieira@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/kevin-augusto/",
+      "github": "",
+      "website": "",
+      "summary": "Especialista em Revenue Operations, Sales Enablement e GTM com mais de 8 anos de experiência conectando vendas, marketing, produto, dados e automação. No Projeto Meta da Wipro, criou propostas de valor, pitches, playbooks e treinamentos para mais de 150 profissionais, liderou um bootcamp que reduziu o ramp-up de 6 para 3 meses e elevou a adoção de IA no CRM em 150%. Combina engenharia de prompts, análise de causa raiz, Power BI, Excel, CRM, copy e gestão de stakeholders para remover atritos do processo comercial e transformar dados em ações.",
+      "experience": [
+        {
+          "company": "Wipro",
+          "role": "Especialista em Revenue Operations, Sales Enablement e GTM (Projeto Meta)",
+          "dates": "Setembro 2024 – Julho 2026",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Enablement e Conteúdo: Traduziu atualizações do portfólio Meta em propostas de valor, pitches, frameworks, playbooks e scripts para mais de 150 profissionais.",
+            "IA e CRM: Liderou onboarding e acompanhamento de IA nativa no CRM, elevando o uso de 4 para 10 prompts/dia por consultor (+150%) e tornando a operação a número 1 global em crescimento de adoção.",
+            "Processos e Ramp-up: Criou e governou bootcamp para 12 consultores, com 100% de conclusão, redução de 50% no ramp-up, 90%+ de qualidade e 90% de CSAT.",
+            "Dados e Melhoria Contínua: Trabalhou com Power BI, Excel, escuta de calls e análise de causa raiz para identificar gaps e coordenar planos de ação."
+          ]
+        },
+        {
+          "company": "Meu Barzin (Startup)",
+          "role": "Product Manager e Responsável por GTM e Operações",
+          "dates": "Dezembro 2025 – Março 2026",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Estruturou bases e protótipos de CRM em Supabase/PostgreSQL e NocoDB e automatizou fluxos com n8n.",
+            "Captou 505 leads e usou entrevistas e análise de funil para identificar 43,9% de abandono na primeira mensagem e priorizar melhorias."
+          ]
+        },
+        {
+          "company": "AK Branding & Web Design",
+          "role": "Consultor de Operações Comerciais e Projetos de Marketing",
+          "dates": "Março 2019 – Setembro 2024",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Conduziu mais de 40 projetos para PMEs, gerenciando escopo, orçamento, cronograma, posicionamento, ativos digitais e comunicação com clientes.",
+            "Executou testes A/B e implementou UX e chatbots que elevaram a geração de leads de 8 para 20-30 contatos/mês (+250%)."
+          ]
+        },
+        {
+          "company": "Munzner",
+          "role": "Especialista em Growth, CRM e Automação",
+          "dates": "Outubro 2018 – Agosto 2024",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Estruturou funil automatizado de 10 etapas em Bitrix24 e Sendpulse, atraindo 10.000+ acessos e gerando aproximadamente R$ 50 mil em receita.",
+            "Acompanhou canais, CRM, conversão, receita e ROI para orientar campanhas, conteúdo e monetização."
+          ]
+        }
+      ],
+      "skills": [
+        {"category": "Revenue Operations e Enablement", "skills": ["Sales Enablement Frameworks", "Go-to-Market (GTM)", "Sales Productivity", "Playbooks & Scripts Comerciais", "Gestão de Stakeholders"]},
+        {"category": "CRM, IA e Automação", "skills": ["CRMs Proprietários Meta", "HubSpot", "Salesforce", "n8n", "Integrações via APIs/Webhooks", "Engenharia de Prompt Profissional"]},
+        {"category": "Dados e Processos", "skills": ["Business Intelligence (Power BI/Tableau)", "Excel Avançado", "Análise de Causa Raiz", "Métricas de Receita, ROI e Conversão", "Mapeamento de Gargalos de Funil"]}
+      ],
+      "education": [
+        {"institution": "Universidade Federal do Paraná (UFPR)", "degree": "Bacharelado e Licenciatura em Filosofia", "dates": "2018 – 2023"},
+        {"institution": "Recanto da Filosofia Clínica", "degree": "Especialização em Filosofia Clínica", "dates": "Janeiro 2023 – Dezembro 2024"}
+      ],
+      "certifications": [
+        {"name": "Meta Certified Media Planning Professional", "issuer": "Meta", "status": "Ativo"},
+        {"name": "Meta Certified Digital Marketing Associate", "issuer": "Meta", "status": "Ativo"},
+        {"name": "Google Project Management Professional Certificate", "issuer": "Coursera / Google", "status": "Em andamento"}
+      ],
+      "languages": [
+        {"language": "Português", "proficiency": "Nativo"},
+        {"language": "Inglês", "proficiency": "Avançado / profissional; uso diário corporativo"},
+        {"language": "Espanhol", "proficiency": "Básico"}
+      ],
+      "additional_information": []
+    },
+    "en": {
+      "name": "Kevin Augusto Vieira",
+      "location": "Curitiba, PR, Brazil | Remote",
+      "phone": "+55 (41) 99694-1615",
+      "email": "kevin.aug.vieira@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/kevin-augusto/",
+      "github": "",
+      "website": "",
+      "summary": "Revenue Operations, Sales Enablement, and GTM specialist with 8+ years of experience connecting sales, marketing, product, data, and automation. At Wipro on the Meta Project, created value propositions, pitches, playbooks, and training for 150+ professionals, led a bootcamp that reduced ramp-up from 6 to 3 months, and increased CRM AI adoption by 150%. Combines prompt engineering, root-cause analysis, Power BI, Excel, CRM, copy editing, and stakeholder management to remove commercial friction and turn data into action.",
+      "experience": [
+        {
+          "company": "Wipro",
+          "role": "Revenue Operations, Sales Enablement, and GTM Specialist (Meta Project)",
+          "dates": "September 2024 – July 2026",
+          "location": "Curitiba, Brazil",
+          "bullets": [
+            "Enablement and Content: Translated Meta portfolio updates into value propositions, pitches, frameworks, playbooks, and scripts for 150+ professionals.",
+            "AI and CRM: Led onboarding and coaching for native CRM AI, increasing usage from 4 to 10 prompts/day per consultant (+150%) and making the operation number one globally for adoption growth.",
+            "Process and Ramp-up: Designed and governed a bootcamp for 12 consultants with 100% completion, 50% faster ramp-up, 90%+ quality, and 90% CSAT.",
+            "Data and Improvement: Used Power BI, Excel, call listening, and root-cause analysis to identify gaps and coordinate corrective plans."
+          ]
+        },
+        {
+          "company": "Meu Barzin (Startup)",
+          "role": "Product Manager and GTM & Operations Lead",
+          "dates": "December 2025 – March 2026",
+          "location": "Curitiba, Brazil",
+          "bullets": [
+            "Structured CRM databases and prototypes in Supabase/PostgreSQL and NocoDB and automated workflows with n8n.",
+            "Captured 505 leads and used interviews and funnel analysis to identify a 43.9% first-message dropout and prioritize improvements."
+          ]
+        },
+        {
+          "company": "AK Branding & Web Design",
+          "role": "Commercial Operations and Marketing Project Consultant",
+          "dates": "March 2019 – September 2024",
+          "location": "Curitiba, Brazil",
+          "bullets": [
+            "Delivered 40+ SMB projects, managing scope, budget, schedules, positioning, digital assets, and client communication.",
+            "Ran A/B tests and implemented UX and chatbot flows that increased lead generation from 8 to 20-30 contacts/month (+250%)."
+          ]
+        },
+        {
+          "company": "Munzner",
+          "role": "Growth, CRM, and Automation Specialist",
+          "dates": "October 2018 – August 2024",
+          "location": "Curitiba, Brazil",
+          "bullets": [
+            "Built a 10-stage automated funnel in Bitrix24 and Sendpulse, attracting 10,000+ visits and generating approximately R$50,000 in revenue.",
+            "Tracked channels, CRM, conversion, revenue, and ROI to guide campaigns, content, and monetization."
+          ]
+        }
+      ],
+      "skills": [
+        {"category": "Revenue Operations and Enablement", "skills": ["Sales Enablement Frameworks", "Go-to-Market (GTM)", "Sales Productivity", "Playbooks & Sales Scripts", "Stakeholder Management"]},
+        {"category": "CRM, AI, and Automation", "skills": ["Meta Proprietary CRMs", "HubSpot", "Salesforce", "n8n", "API/Webhook Integrations", "Professional Prompt Engineering"]},
+        {"category": "Data and Process", "skills": ["Business Intelligence (Power BI/Tableau)", "Advanced Excel", "Root Cause Analysis", "Revenue, ROI, and Conversion Metrics", "Funnel Bottleneck Mapping"]}
+      ],
+      "education": [
+        {"institution": "Universidade Federal do Paraná (UFPR)", "degree": "Bachelor's Degree and Licentiate in Philosophy", "dates": "2018 – 2023"},
+        {"institution": "Recanto da Filosofia Clínica", "degree": "Specialization in Clinical Philosophy", "dates": "January 2023 – December 2024"}
+      ],
+      "certifications": [
+        {"name": "Meta Certified Media Planning Professional", "issuer": "Meta", "status": "Active"},
+        {"name": "Meta Certified Digital Marketing Associate", "issuer": "Meta", "status": "Active"},
+        {"name": "Google Project Management Professional Certificate", "issuer": "Coursera / Google", "status": "In progress"}
+      ],
+      "languages": [
+        {"language": "Portuguese", "proficiency": "Native"},
+        {"language": "English", "proficiency": "Advanced / professional working proficiency; daily corporate use"},
+        {"language": "Spanish", "proficiency": "Basic"}
+      ],
+      "additional_information": []
+    }
+  },
+  "materials": {
+    "pt": {
+      "cover_letter": "Olá, time da BairesDev!\n\nA posição de Revenue Operations Specialist reúne os pilares em que construí meus resultados mais relevantes: Sales Enablement, processos de GTM, conteúdo comercial, CRM e IA aplicada. No Projeto Meta da Wipro, traduzi atualizações globais de produto em propostas de valor, pitches, playbooks e treinamentos para mais de 150 profissionais.\n\nTambém liderei a ativação da IA nativa no CRM, do onboarding ao acompanhamento prático, elevando o uso de 4 para 10 prompts por dia por consultor (+150%) e levando a operação ao primeiro lugar global em crescimento de adoção. Em outro programa, reduzi o ramp-up de novos consultores de 6 para 3 meses, com 90%+ de qualidade e 90% de satisfação.\n\nMinha experiência combina copy, análise de causa raiz, Power BI, Excel, CRM, automação e colaboração com stakeholders globais. Quero aplicar essa combinação para reduzir atritos no ciclo de receita e fortalecer a produtividade comercial da BairesDev.\n\nKevin Augusto Vieira",
+      "form_answers": [
+        {"question": "Qual é sua experiência em Revenue Operations e Sales Enablement?", "answer": "Tenho mais de 8 anos em marketing, produto, GTM e operações, com experiência direta em Sales Enablement no Projeto Meta. Criei pitches, playbooks, scripts e treinamentos para 150+ profissionais, usei dados para diagnosticar gaps e liderei programas de adoção e ramp-up. Meu histórico é aderente a RevOps, embora meus títulos anteriores não tenham sido formalmente Revenue Operations Specialist."},
+        {"question": "Como você utiliza IA em fluxos comerciais?", "answer": "Liderei a ativação da IA nativa no CRM da Meta, estruturando onboarding, orientação de prompts e acompanhamento side-by-side por três semanas. O uso cresceu de 4 para 10 prompts por dia por consultor (+150%). Também trabalho com engenharia de prompts, n8n e integrações via APIs/webhooks para prototipar automações."},
+        {"question": "Conte sobre uma melhoria de processo mensurável.", "answer": "Criei e governei o Next Level Bootcamp para 12 consultores. O programa teve 100% de conclusão, reduziu o ramp-up de 6 para 3 meses, atingiu 90%+ nas primeiras auditorias de qualidade e 90% de CSAT."},
+        {"question": "Qual é sua experiência com CRM e inglês?", "answer": "Atuei com CRM proprietário da Meta, Bitrix24, Sendpulse e protótipos em NocoDB e Supabase/PostgreSQL; HubSpot e Salesforce constam no meu repertório, mas não alego administração avançada dessas plataformas. Meu inglês é avançado/profissional e foi usado diariamente em relatórios, coordenação internacional e alinhamento de stakeholders."},
+        {"question": "Qual é sua expectativa salarial?", "answer": "Minha referência documentada para trabalho remoto internacional é de USD 4.000 a USD 6.000 por mês, ou equivalente coerente com escopo, senioridade, benefícios e modalidade contratual. A faixa da vaga não foi publicada, então estou aberto a alinhar a composição total."}
+      ]
+    },
+    "en": {
+      "cover_letter": "Hi BairesDev team,\n\nThe Revenue Operations Specialist role combines the areas where I have delivered my strongest results: sales enablement, GTM processes, commercial content, CRM, and applied AI. At Wipro on the Meta Project, I translated global product updates into value propositions, pitches, playbooks, and training for 150+ professionals.\n\nI also led native AI activation in CRM from onboarding through hands-on coaching, increasing usage from 4 to 10 prompts per day per consultant (+150%) and making the operation number one globally for adoption growth. In another program, I reduced new consultant ramp-up from 6 to 3 months while achieving 90%+ quality and 90% satisfaction.\n\nMy experience combines copy editing, root-cause analysis, Power BI, Excel, CRM, automation, and global stakeholder collaboration. I would bring this combination to remove friction across the revenue lifecycle and strengthen sales productivity at BairesDev.\n\nKevin Augusto Vieira",
+      "form_answers": [
+        {"question": "What is your experience in Revenue Operations and Sales Enablement?", "answer": "I have 8+ years across marketing, product, GTM, and operations, with direct Sales Enablement experience on the Meta Project. I created pitches, playbooks, scripts, and training for 150+ professionals, used data to diagnose gaps, and led adoption and ramp-up programs. My background aligns closely with RevOps, although my previous formal titles were not Revenue Operations Specialist."},
+        {"question": "How do you use AI in sales workflows?", "answer": "I led native AI activation in Meta's CRM, structuring onboarding, prompt guidance, and three weeks of side-by-side coaching. Usage increased from 4 to 10 prompts per day per consultant (+150%). I also use prompt engineering, n8n, and API/webhook integrations to prototype automations."},
+        {"question": "Describe a measurable process improvement.", "answer": "I designed and governed the Next Level Bootcamp for 12 consultants. It achieved 100% completion, reduced ramp-up from 6 to 3 months, reached 90%+ on initial quality audits, and achieved 90% CSAT."},
+        {"question": "What is your CRM and English experience?", "answer": "I worked with Meta's proprietary CRM, Bitrix24, Sendpulse, and prototypes in NocoDB and Supabase/PostgreSQL. HubSpot and Salesforce are in my toolkit, but I do not claim advanced administration ownership. My English is advanced/professional and was used daily for reporting, international coordination, and stakeholder alignment."},
+        {"question": "What are your salary expectations?", "answer": "My documented reference for international remote work is USD 4,000 to USD 6,000 per month, or an equivalent package aligned with scope, seniority, benefits, and contract model. Since the role's range was not published, I am open to discussing total compensation."}
+      ]
+    }
+  },
+  "evidence": {
+    "skills": {
+      "pt": ["Sales Enablement Frameworks", "Go-to-Market (GTM)", "Playbooks & Scripts Comerciais", "CRMs Proprietários Meta", "Engenharia de Prompt Profissional", "Análise de Causa Raiz"],
+      "en": ["Sales Enablement Frameworks", "Go-to-Market (GTM)", "Playbooks & Sales Scripts", "Meta Proprietary CRMs", "Professional Prompt Engineering", "Root Cause Analysis"]
+    }
+  }
+}

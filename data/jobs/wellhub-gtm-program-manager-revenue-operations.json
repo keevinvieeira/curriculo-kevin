@@ -1,0 +1,260 @@
+{
+  "id": "wellhub-gtm-program-manager-revenue-operations",
+  "metadata": {
+    "company_name": "Wellhub",
+    "role_title": "GTM Program Manager | Revenue Operations",
+    "url": "https://job-boards.greenhouse.io/gympass/jobs/8696872002",
+    "fit_score": 80,
+    "salary_expectation": "Não informada no anúncio; expectativa documentada no currículo mestre: R$ 15.000 - R$ 22.000/mês (Brasil/PJ). A vaga informa contratação exclusivamente CLT, portanto o valor deve ser alinhado com o pacote total.",
+    "document_language": "en",
+    "available_languages": ["pt", "en"],
+    "location": "Brazil",
+    "work_model": "Remote - Brazil",
+    "compensation": "Not disclosed; exclusively CLT",
+    "deadline": "Not disclosed",
+    "source_files": ["master_resume.json"],
+    "good_points": [
+      "Experiência comprovada em GTM, Sales Enablement, Marketing Operations, gestão de projetos e coordenação multifuncional no Projeto Meta.",
+      "Experiência prática com n8n, Make, Salesforce, HubSpot, APIs/webhooks, IA aplicada a workflows, ICP e testes A/B.",
+      "Ownership de adoção de IA no CRM, com aumento de 150% no uso, além de métricas de funil, receita, ROI e conversão.",
+      "Interesse documentado em wellness e atuação remota a partir do Brasil."
+    ],
+    "improvement_points": [
+      "Knockout: o anúncio declara Fluent English obrigatório; o currículo mestre documenta inglês avançado/profissional, não fluente.",
+      "Knockout: expertise em AI Tools é obrigatória; há experiência forte e prática, mas a profundidade esperada deve ser validada tecnicamente.",
+      "Clay e Salesloft não constam no currículo mestre; não devem ser apresentados como experiência direta.",
+      "SQL é básico e voltado à exploração de dados, não análise avançada; Zapier e Apollo também não estão documentados.",
+      "A contratação é exclusivamente CLT e a remuneração não foi divulgada; alinhar expectativa ao pacote total."
+    ]
+  },
+  "job_details": {
+    "language": "English",
+    "location": "Brazil",
+    "work_model": "Remote",
+    "requirements": [
+      "Excellent written and verbal English communication",
+      "AI tools expertise and technical curiosity",
+      "Experience in Revenue Operations, Sales Operations, Marketing Operations, Technical Product Management, or Project Management",
+      "Workflow automation using CRM, sales engagement, or orchestration platforms",
+      "Analytical work with SQL/Excel and experimentation"
+    ],
+    "responsibilities": [
+      "Build AI-powered enrichment workflows and outbound GTM infrastructure",
+      "Automate personalized messaging and account intelligence",
+      "Run A/B experiments and outbound pilots",
+      "Operate Clay, Salesloft, and Salesforce as regional subject-matter expert",
+      "Coordinate Sales, Marketing, Strategy, technical teams, and Revenue Operations"
+    ],
+    "knockout_requirements": [
+      "Fluent English is explicitly mandatory; documented level is Advanced / Professional Full Proficiency, not fluent.",
+      "AI Tools expertise is explicitly mandatory; practical evidence exists, but role-specific depth remains subject to assessment.",
+      "Candidates must be based in Brazil."
+    ]
+  },
+  "triage": {
+    "decision": "adapt",
+    "fit_score": 80,
+    "blockers": [
+      "Potential knockout: mandatory fluent English is not documented; the verified level is advanced/professional.",
+      "Potential knockout: the role expects day-to-day expertise in Clay and Salesloft, which is not documented."
+    ],
+    "notes": [
+      "Strong transferable fit in GTM programs, CRM adoption, AI workflows, n8n, Salesforce, experimentation, funnel analysis, and cross-functional coordination.",
+      "Eligible for a remote-Brazil role based on documented Curitiba location.",
+      "Proceed honestly: select Advanced/Professional rather than Fluent if the application form distinguishes those levels.",
+      "Compensation is undisclosed and the position is exclusively CLT."
+    ],
+    "gaps": [
+      "Fluent English is not documented.",
+      "No documented production use of Clay or Salesloft.",
+      "SQL is basic data exploration, not advanced analytics.",
+      "No documented Zapier or Apollo experience."
+    ],
+    "risks": [
+      "Automated screening may reject a non-fluent English selection.",
+      "The subject-matter-expert expectation for Clay and Salesloft is above the documented tooling experience.",
+      "Salary alignment is unknown because no range is disclosed."
+    ],
+    "deadline": "Not disclosed"
+  },
+  "resume": {
+    "pt": {
+      "name": "Kevin Augusto Vieira",
+      "location": "Curitiba, PR | Remoto Brasil",
+      "phone": "+55 (41) 99694-1615",
+      "email": "kevin.aug.vieira@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/kevin-augusto/",
+      "github": "",
+      "website": "",
+      "summary": "Especialista em Operações de Marketing, GTM e automação com mais de 8 anos de experiência coordenando iniciativas multifuncionais, melhorando funis e traduzindo dados em execução comercial. Na Wipro, no Projeto Meta, liderou a adoção de IA nativa no CRM, elevando o uso em 150%, e conectou linhas globais de produto, qualidade e operação. Construiu automações e protótipos com n8n, Make, APIs, Supabase/PostgreSQL e Python em nível prático, além de aplicar ICP, testes A/B, métricas de receita e análise de causa raiz. Inglês avançado/profissional para uso corporativo diário; não declara fluência nem experiência direta com Clay ou Salesloft.",
+      "experience": [
+        {
+          "company": "Wipro",
+          "role": "Especialista em Operações de Marketing, GTM e Sales Enablement (Projeto Meta)",
+          "dates": "Setembro 2024 – Julho 2026",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Liderou a ativação e adoção de IA nativa no CRM proprietário, elevando o uso de 4 para 10 prompts/dia por consultor (+150%) e tornando a operação a líder global em crescimento de adoção.",
+            "Atuou como ponte entre linhas globais de produto, qualidade e equipes de consultoria, mantendo documentação, prazos e entregas alinhados aos objetivos do negócio.",
+            "Usou Power BI, Excel, análise de causa raiz, escuta de calls e feedback estruturado para identificar gargalos, orientar planos de ação e melhorar a produtividade comercial.",
+            "Traduziu inovações de produto e GTM em propostas de valor, pitches, playbooks e treinamentos para mais de 150 Meta Marketing Pros."
+          ]
+        },
+        {
+          "company": "Meu Barzin (Startup)",
+          "role": "Product Manager e Responsável por GTM e Automação",
+          "dates": "Dezembro 2025 – Março 2026",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Desenhou fluxos conversacionais com ManyChat e n8n, integrando RAG, APIs e Supabase para um produto com base de quase 200 estabelecimentos.",
+            "Definiu ICP, modelo de assinatura e campanhas que captaram 505 leads e atingiram 22,3% de usuários altamente engajados.",
+            "Mapeou gargalos de funil e identificou latência de API ligada a 43,9% de abandono na primeira mensagem."
+          ]
+        },
+        {
+          "company": "AK Branding & Web Design",
+          "role": "Consultor de Projetos de Marketing, Growth e Automação",
+          "dates": "Março 2019 – Setembro 2024",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Entregou mais de 40 projetos digitais, controlando escopo, orçamento, cronogramas e recursos para múltiplas contas.",
+            "Executou testes A/B em campanhas, landing pages e jornadas digitais; fluxos de chatbot elevaram leads de 8 para 20-30 por mês (+250%)."
+          ]
+        },
+        {
+          "company": "Munzner",
+          "role": "Especialista em Marketing, Growth e Automação",
+          "dates": "Outubro 2018 – Agosto 2024",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Estruturou funil automatizado de 10 etapas em Bitrix24 e Sendpulse que gerou aproximadamente R$ 50 mil em receita.",
+            "Acompanhou CRM, aquisição, conversão, receita e ROI para orientar campanhas e estratégias de monetização."
+          ]
+        }
+      ],
+      "skills": [
+        {"category": "GTM e Operações", "skills": ["Go-to-Market (GTM)", "Sales Enablement Frameworks", "Sales Productivity", "Gestão de Stakeholders", "Estruturação de ICP (Ideal Customer Profile)", "Testes A/B e Design de Experimentos"]},
+        {"category": "CRM e Automação", "skills": ["Salesforce", "HubSpot", "n8n", "Make", "Integrações via APIs/Webhooks", "Implementação de IAs Nativas em Fluxos de Trabalho"]},
+        {"category": "Dados e Projetos", "skills": ["Excel Avançado", "Business Intelligence (Power BI/Tableau)", "SQL Básico e Exploração de Dados", "Análise de Causa Raiz", "OKRs, KPIs, Roadmap e Backlog", "Python para Automação e Análise (nível prático)"]}
+      ],
+      "education": [
+        {"institution": "Universidade Federal do Paraná (UFPR)", "degree": "Bacharelado e Licenciatura em Filosofia", "dates": "2018 – 2023"},
+        {"institution": "UFPR / UTFPR", "degree": "Engenharia Elétrica / Eletrônica (Incompleto)", "dates": "2012 – 2015"}
+      ],
+      "certifications": [
+        {"name": "Google Project Management Professional Certificate", "issuer": "Coursera / Google", "status": "Em andamento"},
+        {"name": "Meta Certified Media Planning Professional", "issuer": "Meta", "status": "Ativo"},
+        {"name": "Meta Certified Digital Marketing Associate", "issuer": "Meta", "status": "Ativo"}
+      ],
+      "languages": [
+        {"language": "Inglês", "proficiency": "Avançado / Profissional (uso diário corporativo); não declarado como fluente"},
+        {"language": "Português", "proficiency": "Nativo"},
+        {"language": "Espanhol", "proficiency": "Básico"}
+      ],
+      "additional_information": ["Wellness & HealthTech: profundo interesse em saúde integrativa, longevidade e soluções digitais para bem-estar."]
+    },
+    "en": {
+      "name": "Kevin Augusto Vieira",
+      "location": "Curitiba, PR, Brazil | Remote Brazil",
+      "phone": "+55 (41) 99694-1615",
+      "email": "kevin.aug.vieira@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/kevin-augusto/",
+      "github": "",
+      "website": "",
+      "summary": "Marketing Operations, GTM, and automation specialist with 8+ years of experience coordinating cross-functional initiatives, improving funnels, and turning data into commercial execution. At Wipro on the Meta Project, led native AI adoption in CRM, increasing usage by 150%, and connected global product lines, quality, and operations. Built automations and prototypes with n8n, Make, APIs, Supabase/PostgreSQL, and practical-level Python, while applying ICP development, A/B testing, revenue metrics, and root-cause analysis. Advanced/professional English for daily corporate use; does not claim fluency or direct Clay or Salesloft experience.",
+      "experience": [
+        {
+          "company": "Wipro",
+          "role": "Marketing Operations, GTM, and Sales Enablement Specialist (Meta Project)",
+          "dates": "September 2024 – July 2026",
+          "location": "Curitiba, Brazil",
+          "bullets": [
+            "Led native AI activation and adoption in a proprietary CRM, increasing usage from 4 to 10 prompts/day per consultant (+150%) and making the operation #1 globally for adoption growth.",
+            "Bridged global product lines, quality assurance, and consulting teams, keeping documentation, timelines, and delivery aligned with business goals.",
+            "Used Power BI, Excel, root-cause analysis, call listening, and structured feedback to identify bottlenecks, guide action plans, and improve sales productivity.",
+            "Translated product and GTM innovations into value propositions, pitches, playbooks, and training for 150+ Meta Marketing Pros."
+          ]
+        },
+        {
+          "company": "Meu Barzin (Startup)",
+          "role": "Product Manager, GTM, and Automation Lead",
+          "dates": "December 2025 – March 2026",
+          "location": "Curitiba, Brazil",
+          "bullets": [
+            "Designed conversational workflows with ManyChat and n8n, integrating RAG, APIs, and Supabase for a product backed by data from nearly 200 venues.",
+            "Defined ICP, subscription model, and campaigns that captured 505 leads and achieved 22.3% highly engaged users.",
+            "Mapped funnel bottlenecks and identified API latency linked to a 43.9% first-message dropout."
+          ]
+        },
+        {
+          "company": "AK Branding & Web Design",
+          "role": "Marketing Projects, Growth, and Automation Consultant",
+          "dates": "March 2019 – September 2024",
+          "location": "Curitiba, Brazil",
+          "bullets": [
+            "Delivered 40+ digital projects, controlling scope, budgets, schedules, and resources across concurrent accounts.",
+            "Ran A/B tests across campaigns, landing pages, and digital journeys; chatbot flows increased leads from 8 to 20-30 per month (+250%)."
+          ]
+        },
+        {
+          "company": "Munzner",
+          "role": "Marketing, Growth, and Automation Specialist",
+          "dates": "October 2018 – August 2024",
+          "location": "Curitiba, Brazil",
+          "bullets": [
+            "Built a 10-stage automated funnel in Bitrix24 and Sendpulse that generated approximately R$50,000 in revenue.",
+            "Tracked CRM, acquisition, conversion, revenue, and ROI to guide campaigns and monetization strategy."
+          ]
+        }
+      ],
+      "skills": [
+        {"category": "GTM and Operations", "skills": ["Go-to-Market (GTM)", "Sales Enablement Frameworks", "Sales Productivity", "Stakeholder Management", "ICP (Ideal Customer Profile) Mapping", "A/B Testing and Experiment Design"]},
+        {"category": "CRM and Automation", "skills": ["Salesforce", "HubSpot", "n8n", "Make", "API/Webhook Integrations", "Native AI Implementation in Workflows"]},
+        {"category": "Data and Projects", "skills": ["Advanced Excel", "Business Intelligence (Power BI/Tableau)", "Basic SQL and Data Exploration", "Root Cause Analysis", "OKRs, KPIs, Roadmap, and Backlog", "Python for Automation and Analysis (practical level)"]}
+      ],
+      "education": [
+        {"institution": "Universidade Federal do Paraná (UFPR)", "degree": "Bachelor's Degree and Licentiate in Philosophy", "dates": "2018 – 2023"},
+        {"institution": "UFPR / UTFPR", "degree": "Electrical and Electronics Engineering (Incomplete)", "dates": "2012 – 2015"}
+      ],
+      "certifications": [
+        {"name": "Google Project Management Professional Certificate", "issuer": "Coursera / Google", "status": "In progress"},
+        {"name": "Meta Certified Media Planning Professional", "issuer": "Meta", "status": "Active"},
+        {"name": "Meta Certified Digital Marketing Associate", "issuer": "Meta", "status": "Active"}
+      ],
+      "languages": [
+        {"language": "English", "proficiency": "Advanced / Professional Full Proficiency (daily corporate use); not claimed as fluent"},
+        {"language": "Portuguese", "proficiency": "Native"},
+        {"language": "Spanish", "proficiency": "Basic"}
+      ],
+      "additional_information": ["Wellness & HealthTech: deep interest in integrative health, longevity, and digital wellness solutions."]
+    }
+  },
+  "materials": {
+    "pt": {
+      "cover_letter": "Olá, time da Wellhub!\n\nA posição de GTM Program Manager combina minha experiência em operações comerciais, automação, IA e coordenação multifuncional. Na Wipro, no Projeto Meta, conectei linhas globais de produto, qualidade e operação, traduzi atualizações em playbooks para mais de 150 profissionais e liderei a adoção de IA no CRM, elevando o uso em 150%.\n\nNo Meu Barzin, desenhei fluxos com n8n, APIs, RAG e Supabase, defini ICP e modelo de assinatura e usei dados de funil para priorizar gargalos. Também acumulei experiência com Salesforce, HubSpot, Make, testes A/B, Excel, Power BI e métricas de receita.\n\nMinha experiência é aderente à construção e otimização de sistemas GTM, mas mantenho transparência: meu inglês é avançado/profissional, não declarado como fluente; SQL é básico; e ainda não operei Clay ou Salesloft em produção. Levo, porém, uma base prática de automação e aprendizado rápido para contribuir com os novos mercados da Wellhub.\n\nKevin Augusto Vieira",
+      "form_answers": [
+        {"question": "Qual é seu nível de inglês?", "answer": "Inglês avançado/profissional, com uso corporativo diário em relatórios, coordenação internacional e alinhamento de stakeholders. Não selecionaria fluente se essa opção representar domínio acima do nível documentado."},
+        {"question": "Descreva sua experiência hands-on com orquestração GTM, CRM e automação.", "answer": "Tenho experiência prática com n8n, Make, Salesforce, HubSpot, CRMs proprietários, APIs/webhooks e IA em workflows. No Projeto Meta, liderei adoção de IA no CRM (+150%); no Meu Barzin, conectei n8n, RAG, APIs e Supabase. Não tenho experiência direta documentada com Clay ou Salesloft."},
+        {"question": "Como seu histórico se relaciona a uma função IC de sistemas GTM e experimentos outbound?", "answer": "Meu histórico combina execução individual e coordenação: estruturo hipóteses, fluxos, documentação, métricas e planos de ação, além de alinhar Marketing, Sales, Produto e Operações. Tenho experiência em ICP, prospecção B2B, mensagens, testes A/B e CRM, mas não apresento ownership de Salesloft ou Clay como experiência já adquirida."},
+        {"question": "Qual é sua experiência com SQL e IA?", "answer": "SQL é básico e voltado à exploração de dados em Supabase/PostgreSQL; não o classifico como avançado. Em IA, desenhei arquitetura RAG, automações e protótipos e liderei ativação de IA nativa em CRM. Python é prático para automação e análise, com codificação assistida por IA, não engenharia de software."},
+        {"question": "Qual é sua expectativa salarial?", "answer": "Minha referência documentada para o Brasil é R$ 15.000 a R$ 22.000 por mês em regime PJ. Como esta posição é exclusivamente CLT, proponho alinhar uma expectativa equivalente considerando salário-base, benefícios, bônus e escopo total."}
+      ]
+    },
+    "en": {
+      "cover_letter": "Dear Wellhub team,\n\nThe GTM Program Manager role brings together my experience in commercial operations, automation, AI, and cross-functional coordination. At Wipro on the Meta Project, I connected global product lines, quality, and operations, translated updates into playbooks for 150+ professionals, and led CRM AI adoption, increasing usage by 150%.\n\nAt Meu Barzin, I designed workflows using n8n, APIs, RAG, and Supabase, defined the ICP and subscription model, and used funnel data to prioritize bottlenecks. I also bring experience with Salesforce, HubSpot, Make, A/B testing, Excel, Power BI, and revenue metrics.\n\nMy background aligns with building and improving GTM systems, while I remain transparent: my English is advanced/professional rather than claimed fluent; my SQL is basic; and I have not operated Clay or Salesloft in production. I do bring a practical automation foundation and rapid-learning approach to support Wellhub's new markets.\n\nKevin Augusto Vieira",
+      "form_answers": [
+        {"question": "What is your English proficiency level?", "answer": "Advanced / Professional Full Proficiency, with daily corporate use for reporting, international coordination, and stakeholder alignment. I would not select fluent if that option represents a level beyond the documented proficiency."},
+        {"question": "Describe your hands-on GTM orchestration, CRM, and automation experience.", "answer": "I have practical experience with n8n, Make, Salesforce, HubSpot, proprietary CRMs, APIs/webhooks, and AI workflows. On the Meta Project, I led CRM AI adoption (+150%); at Meu Barzin, I connected n8n, RAG, APIs, and Supabase. I do not have documented direct Clay or Salesloft experience."},
+        {"question": "How does your background fit an IC role building GTM systems and outbound experiments?", "answer": "My background combines individual execution and coordination: I structure hypotheses, workflows, documentation, metrics, and action plans while aligning Marketing, Sales, Product, and Operations. I have experience with ICPs, B2B prospecting, messaging, A/B tests, and CRM, but do not present Clay or Salesloft ownership as acquired experience."},
+        {"question": "What is your SQL and AI experience?", "answer": "My SQL is basic and focused on data exploration in Supabase/PostgreSQL; I do not classify it as advanced. In AI, I designed RAG architecture, automations, and prototypes and led native CRM AI activation. My Python is practical for automation and analysis with AI-assisted coding, not software engineering."},
+        {"question": "What is your salary expectation?", "answer": "My documented Brazil reference is R$15,000-R$22,000 per month under a contractor arrangement. Because this role is exclusively CLT, I would align an equivalent expectation based on base salary, benefits, bonus, and total scope."}
+      ]
+    }
+  },
+  "evidence": {
+    "skills": {
+      "pt": ["Go-to-Market (GTM)", "Sales Enablement Frameworks", "Sales Productivity", "Gestão de Stakeholders", "Estruturação de ICP (Ideal Customer Profile)", "Testes A/B e Design de Experimentos", "Salesforce", "HubSpot", "n8n", "Make", "Integrações via APIs/Webhooks", "Excel Avançado", "SQL Básico e Exploração de Dados", "Python para Automação e Análise (nível prático)"],
+      "en": ["Go-to-Market (GTM)", "Sales Enablement Frameworks", "Sales Productivity", "Stakeholder Management", "ICP (Ideal Customer Profile) Mapping", "A/B Testing and Experiment Design", "Salesforce", "HubSpot", "n8n", "Make", "API/Webhook Integrations", "Advanced Excel", "Basic SQL and Data Exploration", "Python for Automation and Analysis (practical level)"]
+    }
+  }
+}

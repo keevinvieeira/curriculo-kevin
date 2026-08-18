@@ -1,0 +1,217 @@
+{
+  "id": "next-level-growth-marketing-operations-project-manager",
+  "metadata": {
+    "company_name": "Next Level Growth",
+    "role_title": "Marketing Operations & Project Manager",
+    "url": "https://br.linkedin.com/jobs/view/marketing-operations-project-manager-at-next-level-growth-4454347116",
+    "fit_score": 83,
+    "salary_expectation": "Faixa não divulgada; expectativa de USD 4.000 a USD 6.000/mês para remoto internacional ou equivalente conforme regime e pacote total",
+    "document_language": "en",
+    "available_languages": ["pt", "en"],
+    "location": "Brasil | 100% remoto",
+    "employment_type": "Tempo integral",
+    "source_files": ["master_resume.json", "LinkedIn job posting 4454347116"],
+    "good_points": [
+      "Mais de 40 projetos de marketing digital para múltiplas contas, com controle de escopo, orçamento, cronogramas e recursos.",
+      "Experiência em agência, campanhas, websites, landing pages, conteúdo, mídia paga, testes A/B e métricas de conversão.",
+      "Governança com PMO, Agile, OKRs, roadmap, backlog, documentação, reporting e coordenação multifuncional."
+    ],
+    "improvement_points": [
+      "GHL e Frame.io não estão documentados no currículo mestre.",
+      "Não há experiência setorial direta comprovada com cirurgiões plásticos, med spas ou marcas de luxo.",
+      "A faixa salarial e o regime contratual não foram divulgados; a expectativa deve ser calibrada ao pacote."
+    ]
+  },
+  "triage": {
+    "decision": "adapt",
+    "blockers": [],
+    "notes": [
+      "Fit estimado em 83/100 pela aderência em marketing operations, gestão multicliente, orçamento, workflows e performance.",
+      "Vaga integral e remota no Brasil, compatível com a localização do candidato.",
+      "Posicionamento principal: operador sênior que conecta estratégia, tarefas, recursos, documentação e métricas em agência."
+    ],
+    "gaps": [
+      "Sem experiência documentada com GHL ou Frame.io.",
+      "Sem histórico setorial específico comprovado em med spas, cirurgia plástica ou luxo.",
+      "Experiência comprovada com Meta Business decorre de estratégias e certificações Meta, mas o currículo mestre não descreve administração avançada da ferramenta."
+    ]
+  },
+  "resume": {
+    "pt": {
+      "name": "Kevin Augusto Vieira",
+      "location": "Curitiba, PR | Remoto",
+      "phone": "+55 (41) 99694-1615",
+      "email": "kevin.aug.vieira@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/kevin-augusto/",
+      "github": "",
+      "website": "",
+      "summary": "Marketing Operations & Project Manager com mais de 8 anos de experiência coordenando campanhas, produtos digitais e mais de 40 projetos para múltiplas contas. Histórico em transformar objetivos de clientes em escopos, tarefas, cronogramas, orçamentos, documentação e indicadores claros, articulando criação, mídia, web e stakeholders. No Projeto Meta da Wipro, trabalhou com OKRs, roadmap, backlog, reporting e melhoria contínua; liderou programa que reduziu o ramp-up em 50%. Em agência, gerenciou entregas simultâneas e construiu experiências que elevaram leads em 250%. Combina execução independente, análise de performance e padronização de workflows para manter qualidade e previsibilidade em times remotos.",
+      "experience": [
+        {
+          "company": "AK Branding & Web Design",
+          "role": "Marketing Operations & Project Manager",
+          "dates": "Março 2019 – Setembro 2024",
+          "location": "Curitiba, PR | Projetos remotos",
+          "bullets": [
+            "Operação Multicliente: Entregou mais de 40 projetos para PMEs, coordenando múltiplas contas, escopos, orçamentos, cronogramas, recursos especializados e comunicação com clientes.",
+            "Workflows de Marketing: Organizou projetos de branding, websites, landing pages, campanhas, conteúdo e automações do kickoff à entrega, mitigando gargalos e mudanças de prioridade.",
+            "Performance: Planejou testes A/B em anúncios e experiências web; fluxos de UX e chatbot elevaram a captação de 8 para 20-30 leads/mês (+250%).",
+            "Resultados Comerciais: Desenvolveu e-commerce que atingiu R$ 10 mil em receita nos primeiros 3 meses com aquisição orgânica."
+          ]
+        },
+        {
+          "company": "Wipro",
+          "role": "Especialista em Operações de Marketing e Projetos (Projeto Meta)",
+          "dates": "Setembro 2024 – Julho 2026",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Governança e Priorização: Atuou em squad com reuniões diárias, OKRs, roadmap e backlog para priorizar demandas de clientes, gestores, líderes e consultores.",
+            "Programa End-to-End: Idealizou e governou bootcamp para 12 consultores, com 100% de conclusão, 90%+ de qualidade e redução de 50% no tempo de produtividade.",
+            "Reporting: Trabalhou com MIS para escopar e explorar dashboards em Power BI e Excel, convertendo métricas em relatórios e planos de ação para liderança.",
+            "Processos: Aplicou análise de causa raiz, criou documentação, playbooks e ações corretivas para elevar consistência operacional."
+          ]
+        },
+        {
+          "company": "Munzner",
+          "role": "Marketing Operations e Growth Specialist",
+          "dates": "Outubro 2018 – Agosto 2024",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Campanhas e Lançamento: Coordenou o primeiro produto digital, alcançando 50 vendas em 2 meses e ROI entre 1,0x e 1,5x.",
+            "Automação e Receita: Estruturou funil de 10 etapas em Bitrix24 e Sendpulse que gerou aproximadamente R$ 50 mil em receita, acompanhando aquisição, conversão e ROI."
+          ]
+        },
+        {
+          "company": "Meu Barzin (Startup)",
+          "role": "Product e Marketing Project Manager",
+          "dates": "Dezembro 2025 – Março 2026",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Execução de MVP: Coordenou produto conversacional, base de quase 200 estabelecimentos, automações, campanhas e parcerias B2B.",
+            "Análise de Funil: Captou 505 leads e usou entrevistas e métricas para identificar 43,9% de abandono na primeira mensagem e priorizar melhorias."
+          ]
+        }
+      ],
+      "skills": [
+        {"category": "Marketing Operations", "skills": ["Gestão de workflows multicliente", "Campanhas, conteúdo, mídia e entregáveis", "Padronização de processos e documentação", "Reporting e status executivo", "Métricas de campanha, funil e conversão"]},
+        {"category": "Project Management", "skills": ["Escopo, orçamento, cronogramas e riscos", "OKRs, KPIs, roadmap e backlog", "PMO, Kanban e Scrum", "Priorização e alocação de recursos", "Gestão de stakeholders"]},
+        {"category": "Ferramentas", "skills": ["Notion, Asana e Trello", "Google Drive, Sheets e Excel", "Meta Ads e Google Analytics", "Power BI e Looker Studio", "CRM, n8n, Make, APIs e webhooks"]}
+      ],
+      "education": [
+        {"institution": "Universidade Federal do Paraná (UFPR)", "degree": "Bacharelado e Licenciatura em Filosofia", "dates": "2018 – 2023"},
+        {"institution": "UFPR / UTFPR", "degree": "Engenharia Elétrica / Eletrônica (incompleto)", "dates": "2012 – 2015"}
+      ],
+      "certifications": [
+        {"name": "Google Project Management Professional Certificate", "issuer": "Coursera / Google", "status": "Em andamento"},
+        {"name": "Meta Certified Media Planning Professional", "issuer": "Meta", "status": "Ativo"},
+        {"name": "Meta Certified Digital Marketing Associate", "issuer": "Meta", "status": "Ativo"}
+      ],
+      "languages": [
+        {"language": "Inglês", "proficiency": "Avançado / Profissional; uso diário corporativo para relatórios, coordenação internacional e alinhamento de stakeholders"},
+        {"language": "Português", "proficiency": "Nativo"}
+      ],
+      "additional_information": []
+    },
+    "en": {
+      "name": "Kevin Augusto Vieira",
+      "location": "Curitiba, PR, Brazil | Remote",
+      "phone": "+55 (41) 99694-1615",
+      "email": "kevin.aug.vieira@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/kevin-augusto/",
+      "github": "",
+      "website": "",
+      "summary": "Marketing Operations & Project Manager with 8+ years of experience coordinating campaigns, digital products, and 40+ projects across multiple client accounts. Proven ability to turn client objectives into clear scopes, tasks, timelines, budgets, documentation, and metrics while aligning creative, media, web, and stakeholder teams. At Wipro on the Meta Project, worked with OKRs, roadmap, backlog, reporting, and continuous improvement, leading a program that reduced ramp-up time by 50%. In an agency setting, managed concurrent delivery and built experiences that increased leads by 250%. Combines independent execution, performance analysis, and workflow standardization to create quality and predictability in remote teams.",
+      "experience": [
+        {
+          "company": "AK Branding & Web Design",
+          "role": "Marketing Operations & Project Manager",
+          "dates": "March 2019 – September 2024",
+          "location": "Curitiba, Brazil | Remote projects",
+          "bullets": [
+            "Multi-Client Operations: Delivered 40+ projects for SMBs, coordinating concurrent accounts, scopes, budgets, timelines, specialized resources, and client communication.",
+            "Marketing Workflows: Organized branding, website, landing page, campaign, content, and automation projects from kickoff through delivery while mitigating bottlenecks and priority changes.",
+            "Performance: Planned A/B tests across ads and web experiences; UX and chatbot flows increased lead capture from 8 to 20-30 leads/month (+250%).",
+            "Commercial Results: Built an e-commerce operation that generated R$10,000 in its first 3 months through organic acquisition."
+          ]
+        },
+        {
+          "company": "Wipro",
+          "role": "Marketing Operations and Project Specialist (Meta Project)",
+          "dates": "September 2024 – July 2026",
+          "location": "Curitiba, Brazil",
+          "bullets": [
+            "Governance and Prioritization: Worked in a squad using daily meetings, OKRs, roadmap, and backlog to prioritize requests from clients, managers, leaders, and consultants.",
+            "End-to-End Program: Designed and governed a bootcamp for 12 consultants with 100% completion, 90%+ quality, and a 50% reduction in time-to-productivity.",
+            "Reporting: Partnered with MIS to scope and use Power BI and Excel dashboards, turning metrics into reports and action plans for leadership.",
+            "Processes: Applied root cause analysis and created documentation, playbooks, and corrective actions to improve operational consistency."
+          ]
+        },
+        {
+          "company": "Munzner",
+          "role": "Marketing Operations and Growth Specialist",
+          "dates": "October 2018 – August 2024",
+          "location": "Curitiba, Brazil",
+          "bullets": [
+            "Campaigns and Launch: Coordinated the first digital product launch, securing 50 sales in 2 months with a 1.0x to 1.5x ROI.",
+            "Automation and Revenue: Built a 10-stage Bitrix24 and Sendpulse funnel that generated approximately R$50,000, tracking acquisition, conversion, and ROI."
+          ]
+        },
+        {
+          "company": "Meu Barzin (Startup)",
+          "role": "Product and Marketing Project Manager",
+          "dates": "December 2025 – March 2026",
+          "location": "Curitiba, Brazil",
+          "bullets": [
+            "MVP Delivery: Coordinated a conversational product, a database of nearly 200 establishments, automations, campaigns, and B2B partnerships.",
+            "Funnel Analysis: Captured 505 leads and used interviews and metrics to identify a 43.9% first-message dropout and prioritize improvements."
+          ]
+        }
+      ],
+      "skills": [
+        {"category": "Marketing Operations", "skills": ["Multi-client workflow management", "Campaign, content, media, and deliverables", "Process standardization and documentation", "Reporting and executive status updates", "Campaign, funnel, and conversion metrics"]},
+        {"category": "Project Management", "skills": ["Scope, budget, timelines, and risks", "OKRs, KPIs, roadmap, and backlog", "PMO, Kanban, and Scrum", "Prioritization and resource allocation", "Stakeholder management"]},
+        {"category": "Tools", "skills": ["Notion, Asana, and Trello", "Google Drive, Sheets, and Excel", "Meta Ads and Google Analytics", "Power BI and Looker Studio", "CRM, n8n, Make, APIs, and webhooks"]}
+      ],
+      "education": [
+        {"institution": "Universidade Federal do Paraná (UFPR)", "degree": "Bachelor's Degree and Licentiate in Philosophy", "dates": "2018 – 2023"},
+        {"institution": "UFPR / UTFPR", "degree": "Electrical and Electronics Engineering (incomplete)", "dates": "2012 – 2015"}
+      ],
+      "certifications": [
+        {"name": "Google Project Management Professional Certificate", "issuer": "Coursera / Google", "status": "In progress"},
+        {"name": "Meta Certified Media Planning Professional", "issuer": "Meta", "status": "Active"},
+        {"name": "Meta Certified Digital Marketing Associate", "issuer": "Meta", "status": "Active"}
+      ],
+      "languages": [
+        {"language": "English", "proficiency": "Advanced / Professional Full Proficiency; daily corporate use for reporting, international coordination, and stakeholder alignment"},
+        {"language": "Portuguese", "proficiency": "Native"}
+      ],
+      "additional_information": []
+    }
+  },
+  "materials": {
+    "pt": {
+      "cover_letter": "Olá, time da Next Level Growth!\n\nA proposta de transformar estratégias de clientes em workflows claros, entregas pontuais e resultados mensuráveis combina diretamente com minha trajetória em operações e projetos de marketing. Na AK Branding, conduzi mais de 40 projetos para PMEs, coordenando múltiplas contas, escopos, orçamentos, cronogramas, recursos e comunicação do kickoff à entrega.\n\nEssa operação incluiu branding, websites, landing pages, campanhas, conteúdo e automações. Testes A/B e melhorias de UX e chatbot elevaram a captação de 8 para 20-30 leads por mês (+250%). Na Wipro, no Projeto Meta, trabalhei com OKRs, roadmap, backlog, dashboards e análise de causa raiz, além de liderar um programa que reduziu o tempo de produtividade em 50%.\n\nTenho experiência com Notion, ferramentas de projeto, Meta, Google Drive, dados e automação. Não alego experiência com GHL ou Frame.io, mas trago processos transferíveis e aprendizado rápido para incorporar essas ferramentas sem comprometer a qualidade da operação. Quero aplicar essa combinação de organização, visão analítica e execução hands-on para dar previsibilidade às contas da Next Level Growth.\n\nKevin Augusto Vieira",
+      "form_answers": [
+        {"question": "Como você gerencia várias contas e prioridades ao mesmo tempo?", "answer": "Torno objetivos, entregáveis, responsáveis, dependências, orçamento, prazo e riscos visíveis. Na AK Branding, entreguei mais de 40 projetos e coordenei contas simultâneas. Priorizo por impacto, urgência, dependências e capacidade, mantenho status concisos e renegocio escopo ou sequência quando as condições mudam."},
+        {"question": "Como você acompanha orçamento e performance?", "answer": "Conecto planejamento financeiro e resultado. Controlei escopos e orçamentos em múltiplos projetos e acompanhei aquisição, conversão, receita e ROI na Munzner. Uso Excel, Google Sheets, Power BI, UTMs e métricas de marketing para identificar desvios, tendências e ações."},
+        {"question": "Conte sobre uma melhoria de processo.", "answer": "No Projeto Meta, usei análise de causa raiz para mapear gaps, construir playbooks e acompanhar ações corretivas. Também governei um bootcamp com roadmap, backlog e critérios de qualidade que reduziu o ramp-up de 6 para 3 meses, mantendo 90%+ de qualidade."},
+        {"question": "Qual é sua experiência com GHL e Frame.io?", "answer": "Não tenho experiência documentada com GHL ou Frame.io. Tenho experiência prática com Notion, Asana, Trello, Google Drive, CRMs, Meta, n8n, Make, APIs e ferramentas de analytics. Posso transferir meus processos de briefing, status, aprovação, documentação e automação para o stack da agência, sem apresentar as duas ferramentas como domínio já comprovado."}
+      ]
+    },
+    "en": {
+      "cover_letter": "Hi Next Level Growth team,\n\nTurning client strategies into clear workflows, on-time deliverables, and measurable results directly matches my marketing operations and project background. At AK Branding, I delivered 40+ projects for SMBs while coordinating concurrent accounts, scopes, budgets, timelines, resources, and communication from kickoff through delivery.\n\nThis work covered branding, websites, landing pages, campaigns, content, and automation. A/B testing and UX and chatbot improvements increased lead capture from 8 to 20-30 per month (+250%). At Wipro on the Meta Project, I worked with OKRs, roadmap, backlog, dashboards, and root cause analysis, and led a program that reduced time-to-productivity by 50%.\n\nI have experience with Notion, project tools, Meta, Google Drive, data, and automation. I do not claim GHL or Frame.io experience, but I bring transferable processes and the ability to learn those tools quickly without compromising operational quality. I would apply this combination of organization, analytical judgment, and hands-on execution to create predictable delivery across Next Level Growth's client accounts.\n\nKevin Augusto Vieira",
+      "form_answers": [
+        {"question": "How do you manage multiple accounts and competing priorities?", "answer": "I make objectives, deliverables, owners, dependencies, budget, deadlines, and risks visible. At AK Branding, I delivered 40+ projects while coordinating concurrent accounts. I prioritize by impact, urgency, dependencies, and capacity, provide concise status updates, and renegotiate scope or sequence when conditions change."},
+        {"question": "How do you track budgets and performance?", "answer": "I connect financial planning to outcomes. I controlled scopes and budgets across multiple projects and tracked acquisition, conversion, revenue, and ROI at Munzner. I use Excel, Google Sheets, Power BI, UTMs, and marketing metrics to identify variance, trends, and actions."},
+        {"question": "Tell us about a process improvement you led.", "answer": "On the Meta Project, I used root cause analysis to map gaps, build playbooks, and follow corrective actions. I also governed a bootcamp through roadmap, backlog, and quality criteria that reduced ramp-up from 6 to 3 months while maintaining 90%+ quality."},
+        {"question": "What is your experience with GHL and Frame.io?", "answer": "I do not have documented GHL or Frame.io experience. I have practical experience with Notion, Asana, Trello, Google Drive, CRMs, Meta, n8n, Make, APIs, and analytics tools. I can transfer my briefing, status, approval, documentation, and automation processes into the agency stack without presenting either tool as already proven expertise."}
+      ]
+    }
+  },
+  "evidence": {
+    "skills": {
+      "pt": ["Metodologias Ágeis (Kanban, Scrum)", "OKRs, KPIs, Roadmap e Backlog", "Diretrizes de PMO", "Notion", "Cronogramas de Projeto e Gráficos de Gantt", "Métricas de Marketing (CTR, CPL, CAC, LTV, Churn, ROAS, MQL→SQL)"],
+      "en": ["Agile Methodologies (Kanban, Scrum)", "OKRs, KPIs, Roadmap, and Backlog", "PMO Guidelines", "Notion", "Project Schedules & Gantt Charts", "Marketing Metrics (CTR, CPL, CAC, LTV, Churn, ROAS, MQL→SQL)"]
+    }
+  }
+}

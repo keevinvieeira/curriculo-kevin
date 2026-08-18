@@ -89,6 +89,7 @@ py -3.12 -m streamlit run app.py --server.headless true
 
 - Use um processo em background rastreado para o servidor; nunca use `&`, `nohup` ou processos soltos.
 - Verifique os logs de inicializacao e sempre informe a URL local clicavel, normalmente `http://localhost:8501`, para que o usuario visualize e baixe o curriculo adaptado.
+- Sempre inclua tambem um link clicavel para abrir a pasta local dos arquivos entregues. Quando os arquivos forem publicados no repositorio, inclua o link web da pasta no GitHub para acesso fora da maquina local.
 
 ## Criterios de Qualidade
 
@@ -107,4 +108,5 @@ Ao concluir, informe de forma objetiva:
 - Artefato versionado criado.
 - Validacao realizada.
 - Status do Streamlit e link clicavel do servidor para visualizar e baixar o curriculo adaptado.
+- Link clicavel para abrir a pasta local da entrega e, quando disponivel, a pasta publicada no GitHub.
 - Lacunas ou alertas importantes, sem transformar a resposta em uma nova pergunta.

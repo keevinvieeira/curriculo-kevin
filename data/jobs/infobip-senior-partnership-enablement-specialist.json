@@ -1,0 +1,213 @@
+{
+  "id": "infobip-senior-partnership-enablement-specialist",
+  "metadata": {
+    "company_name": "Infobip",
+    "role_title": "Senior Partnership Enablement Specialist",
+    "url": "https://br.linkedin.com/jobs/view/senior-partnership-enablement-specialist-at-infobip-4450345106",
+    "fit_score": 84,
+    "salary_expectation": "Faixa não divulgada; expectativa de R$ 15.000 a R$ 22.000/mês para contratação no Brasil, sujeita ao pacote total",
+    "document_language": "en",
+    "available_languages": ["pt", "en"],
+    "location": "Curitiba, PR | Híbrido",
+    "employment_type": "Tempo integral",
+    "source_files": ["master_resume.json", "LinkedIn job posting 4450345106"],
+    "good_points": [
+      "Enablement, adoção e posicionamento de produtos no Projeto Meta, incluindo materiais e capacitação para mais de 150 profissionais.",
+      "Experiência em traduzir atualizações de produto em propostas de valor, pitches, playbooks, scripts e insights acionáveis.",
+      "Parcerias B2B comprovadas em projetos próprios e colaboração multifuncional com produto, qualidade, liderança e operações globais."
+    ],
+    "improvement_points": [
+      "Não há experiência direta comprovada em CPaaS ou plataformas de comunicação em nuvem.",
+      "Não há ownership formal e contínuo de um ecossistema regional de parceiros; a experiência comprovada combina enablement interno e parcerias B2B de menor escala.",
+      "A faixa salarial não foi divulgada; a expectativa deve ser calibrada conforme regime e pacote total."
+    ]
+  },
+  "triage": {
+    "decision": "adapt",
+    "blockers": [],
+    "notes": [
+      "Fit estimado em 84/100 pela forte aderência em enablement, comunicação de produto, casos de uso, adoção e colaboração multifuncional.",
+      "Modelo híbrido em Curitiba é geograficamente compatível; frequência presencial específica não consta no anúncio.",
+      "Remuneração não divulgada; expectativa brasileira registrada sem presumir compatibilidade."
+    ],
+    "gaps": [
+      "Sem experiência profissional direta documentada em CPaaS.",
+      "Sem ownership formal de ecossistema regional de parceiros ou programas formais de certificação de parceiros.",
+      "Experiência em integrações e produto é transferível, mas não equivale à capacitação técnica da plataforma Infobip."
+    ]
+  },
+  "resume": {
+    "pt": {
+      "name": "Kevin Augusto Vieira",
+      "location": "Curitiba, PR | Híbrido",
+      "phone": "+55 (41) 99694-1615",
+      "email": "kevin.aug.vieira@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/kevin-augusto/",
+      "github": "",
+      "website": "",
+      "summary": "Especialista sênior em Partnership Enablement, GTM e operações de marketing com mais de 8 anos de experiência em adoção de produtos, capacitação, comunicação de lançamentos e colaboração multifuncional. No Projeto Meta da Wipro, traduziu atualizações globais de produto em propostas de valor, pitches, playbooks e treinamentos para mais de 150 profissionais. Liderou um programa de enablement que reduziu o ramp-up em 50% e uma ativação de IA em CRM que elevou o uso em 150%. Complementa essa experiência com prospecção, negociação e validação de parcerias B2B em Curitiba. Traz capacidade comprovada de transformar conteúdo técnico em narrativas comerciais e casos de uso, sem alegar experiência direta em CPaaS ou ownership formal de ecossistemas de parceiros.",
+      "experience": [
+        {
+          "company": "Wipro",
+          "role": "Especialista em Partnership Enablement e GTM (Projeto Meta)",
+          "dates": "Setembro 2024 – Julho 2026",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Enablement de Produto: Absorveu materiais oficiais e traduziu inovações e atualizações de GTM da Meta em propostas de valor, pitches e frameworks práticos para mais de 150 profissionais.",
+            "Adoção e Capacitação: Liderou onboarding e acompanhamento de IA no CRM proprietário, elevando o uso de 4 para 10 prompts/dia por consultor (+150%) e alcançando o maior crescimento global de adoção.",
+            "Programa Escalável: Idealizou e governou bootcamp para 12 consultores com 100% de conclusão, 90%+ de qualidade e redução do ramp-up de 6 para 3 meses (-50%).",
+            "Ponte Multifuncional: Alinhou linhas globais de produto, qualidade e equipes de consultoria, mantendo documentação, prazos, playbooks e planos de ação claros."
+          ]
+        },
+        {
+          "company": "Meu Barzin (Startup)",
+          "role": "Product Manager e Responsável por Parcerias B2B",
+          "dates": "Dezembro 2025 – Março 2026",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Casos de Uso e Parcerias: Desenhou proposta de valor de assinatura e validou o modelo com parceiros B2B, conquistando estabelecimentos relevantes para o piloto.",
+            "Insights de Ecossistema: Entrevistas e análise de funil identificaram densidade de parceiros e latência de API como barreiras críticas para adoção e conversão."
+          ]
+        },
+        {
+          "company": "AK Branding & Web Design",
+          "role": "Consultor de Projetos de Marketing e Clientes",
+          "dates": "Março 2019 – Setembro 2024",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Entrega Consultiva: Conduziu mais de 40 projetos para PMEs, traduzindo objetivos de negócio em escopos, narrativas, experiências digitais e entregas com controle de cronograma e orçamento.",
+            "Adoção e Conversão: Implementou UX e chatbots que elevaram a captação de 8 para 20-30 contatos/mês (+250%)."
+          ]
+        },
+        {
+          "company": "Munzner",
+          "role": "Especialista em Marketing, Growth e Facilitação",
+          "dates": "Outubro 2018 – Agosto 2024",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Conteúdo e Casos de Uso: Transformou a metodologia Thinking Environment em narrativas, conteúdo técnico e campanhas, gerando cerca de 100 leads qualificados via inbound.",
+            "Lançamento e Automação: Lançou o primeiro curso digital e estruturou funil automatizado que gerou aproximadamente R$ 50 mil em receita."
+          ]
+        }
+      ],
+      "skills": [
+        {"category": "Partnership Enablement e GTM", "skills": ["Enablement e adoção de produtos", "Propostas de valor, pitches e casos de uso", "Playbooks, scripts e materiais comerciais", "Briefings, treinamentos e facilitação", "Parcerias B2B e gestão de stakeholders"]},
+        {"category": "Operações e Dados", "skills": ["Análise de causa raiz", "Power BI e Excel", "Métricas de adoção, qualidade e conversão", "OKRs, roadmap e backlog", "Documentação e planos de ação"]},
+        {"category": "CRM e Automação", "skills": ["CRMs Proprietários Meta", "HubSpot e Salesforce em nível de usuário", "n8n, Make, APIs e webhooks", "Supabase/PostgreSQL", "IA aplicada a workflows"]}
+      ],
+      "education": [
+        {"institution": "Universidade Federal do Paraná (UFPR)", "degree": "Bacharelado e Licenciatura em Filosofia", "dates": "2018 – 2023"},
+        {"institution": "Recanto da Filosofia Clínica", "degree": "Especialização em Filosofia Clínica", "dates": "Janeiro 2023 – Dezembro 2024"}
+      ],
+      "certifications": [
+        {"name": "Google Project Management Professional Certificate", "issuer": "Coursera / Google", "status": "Em andamento"},
+        {"name": "Meta Certified Media Planning Professional", "issuer": "Meta", "status": "Ativo"},
+        {"name": "Meta Certified Digital Marketing Associate", "issuer": "Meta", "status": "Ativo"}
+      ],
+      "languages": [
+        {"language": "Inglês", "proficiency": "Avançado / Profissional; uso diário corporativo para relatórios, coordenação internacional e alinhamento de stakeholders"},
+        {"language": "Português", "proficiency": "Nativo"}
+      ],
+      "additional_information": []
+    },
+    "en": {
+      "name": "Kevin Augusto Vieira",
+      "location": "Curitiba, PR, Brazil | Hybrid",
+      "phone": "+55 (41) 99694-1615",
+      "email": "kevin.aug.vieira@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/kevin-augusto/",
+      "github": "",
+      "website": "",
+      "summary": "Senior Partnership Enablement, GTM, and marketing operations specialist with 8+ years of experience in product adoption, training, release communication, and cross-functional collaboration. At Wipro on the Meta Project, translated global product updates into value propositions, pitches, playbooks, and training for 150+ professionals. Led an enablement program that reduced ramp-up time by 50% and a CRM AI activation that increased usage by 150%. Complements this work with direct B2B outreach, negotiation, and partnership validation in Curitiba. Proven ability to turn technical content into commercial narratives and use cases, without claiming direct CPaaS experience or formal partner-ecosystem ownership.",
+      "experience": [
+        {
+          "company": "Wipro",
+          "role": "Partnership Enablement and GTM Specialist (Meta Project)",
+          "dates": "September 2024 – July 2026",
+          "location": "Curitiba, Brazil",
+          "bullets": [
+            "Product Enablement: Absorbed official materials and translated Meta product innovations and GTM updates into value propositions, pitches, and practical frameworks for 150+ professionals.",
+            "Adoption and Training: Led onboarding and hands-on coaching for AI in Meta's proprietary CRM, increasing usage from 4 to 10 prompts/day per consultant (+150%) and achieving the operation's highest global adoption growth.",
+            "Scalable Program: Designed and governed a bootcamp for 12 consultants with 100% completion, 90%+ quality, and a reduction in ramp-up from 6 to 3 months (-50%).",
+            "Cross-Functional Bridge: Aligned global product lines, quality, and consulting teams through clear documentation, timelines, playbooks, and action plans."
+          ]
+        },
+        {
+          "company": "Meu Barzin (Startup)",
+          "role": "Product Manager and B2B Partnerships Lead",
+          "dates": "December 2025 – March 2026",
+          "location": "Curitiba, Brazil",
+          "bullets": [
+            "Use Cases and Partnerships: Designed a subscription value proposition and validated the model with B2B partners, securing relevant local venues for the pilot.",
+            "Ecosystem Insights: Interviews and funnel analysis identified partner density and API latency as critical adoption and conversion barriers."
+          ]
+        },
+        {
+          "company": "AK Branding & Web Design",
+          "role": "Marketing Project and Client Consultant",
+          "dates": "March 2019 – September 2024",
+          "location": "Curitiba, Brazil",
+          "bullets": [
+            "Consultative Delivery: Delivered 40+ projects for SMBs, translating business objectives into scopes, narratives, digital experiences, and deliverables with timeline and budget control.",
+            "Adoption and Conversion: Implemented UX and chatbot flows that increased lead capture from 8 to 20-30 contacts/month (+250%)."
+          ]
+        },
+        {
+          "company": "Munzner",
+          "role": "Marketing, Growth, and Facilitation Specialist",
+          "dates": "October 2018 – August 2024",
+          "location": "Curitiba, Brazil",
+          "bullets": [
+            "Content and Use Cases: Turned the Thinking Environment methodology into narratives, technical content, and campaigns that generated approximately 100 qualified inbound leads.",
+            "Launch and Automation: Launched the first digital course and built an automated funnel that generated approximately R$50,000 in revenue."
+          ]
+        }
+      ],
+      "skills": [
+        {"category": "Partnership Enablement and GTM", "skills": ["Product enablement and adoption", "Value propositions, pitches, and use cases", "Playbooks, scripts, and sales assets", "Briefings, training, and facilitation", "B2B partnerships and stakeholder management"]},
+        {"category": "Operations and Data", "skills": ["Root cause analysis", "Power BI and Excel", "Adoption, quality, and conversion metrics", "OKRs, roadmap, and backlog", "Documentation and action plans"]},
+        {"category": "CRM and Automation", "skills": ["Meta Proprietary CRMs", "HubSpot and Salesforce as an end user", "n8n, Make, APIs, and webhooks", "Supabase/PostgreSQL", "AI-enabled workflows"]}
+      ],
+      "education": [
+        {"institution": "Universidade Federal do Paraná (UFPR)", "degree": "Bachelor's Degree and Licentiate in Philosophy", "dates": "2018 – 2023"},
+        {"institution": "Recanto da Filosofia Clínica", "degree": "Specialization in Clinical Philosophy", "dates": "January 2023 – December 2024"}
+      ],
+      "certifications": [
+        {"name": "Google Project Management Professional Certificate", "issuer": "Coursera / Google", "status": "In progress"},
+        {"name": "Meta Certified Media Planning Professional", "issuer": "Meta", "status": "Active"},
+        {"name": "Meta Certified Digital Marketing Associate", "issuer": "Meta", "status": "Active"}
+      ],
+      "languages": [
+        {"language": "English", "proficiency": "Advanced / Professional Full Proficiency; daily corporate use for reporting, international coordination, and stakeholder alignment"},
+        {"language": "Portuguese", "proficiency": "Native"}
+      ],
+      "additional_information": []
+    }
+  },
+  "materials": {
+    "pt": {
+      "cover_letter": "Olá, time da Infobip!\n\nA missão de manter parceiros informados, capacitados e preparados para transformar novos produtos em valor para clientes conecta-se diretamente à minha experiência em enablement e adoção. No Projeto Meta da Wipro, traduzi atualizações globais de produto em propostas de valor, pitches, playbooks e treinamentos para mais de 150 profissionais.\n\nTambém idealizei e governei um bootcamp que reduziu o ramp-up de 6 para 3 meses, com 100% de conclusão e 90%+ de qualidade, e liderei a ativação de IA no CRM, elevando o uso em 150%. Em paralelo, validei propostas de valor e conquistei parcerias B2B para um piloto local, usando feedback e análise de funil para identificar oportunidades e barreiras de adoção.\n\nNão apresento experiência direta em CPaaS nem ownership formal de um ecossistema regional de parceiros. Apresento, porém, uma base sólida e mensurável em comunicação de produto, enablement, casos de uso, adoção e alinhamento entre times globais e operações locais que pode ser aplicada à plataforma da Infobip.\n\nKevin Augusto Vieira",
+      "form_answers": [
+        {"question": "Como você traduz atualizações técnicas em valor para parceiros?", "answer": "Começo pelo objetivo de negócio, público, problema e resultado esperado. No Projeto Meta, absorvi materiais oficiais e converti atualizações de produto em propostas de valor, pitches, scripts, playbooks e treinamentos para 150+ profissionais. Valido clareza com feedback de calls, métricas de adoção e análise de causa raiz."},
+        {"question": "Conte sobre um programa de enablement que você liderou.", "answer": "Idealizei e governei o Next Level Bootcamp para 12 consultores, estruturando roadmap, backlog, materiais, critérios de qualidade e acompanhamento. O programa teve 100% de conclusão, 90%+ de qualidade e reduziu o ramp-up de 6 para 3 meses."},
+        {"question": "Qual é sua experiência com parceiros e ecossistemas?", "answer": "Tenho experiência direta em prospecção, negociação e validação de parcerias B2B no Meu Barzin, além de colaboração entre produto, qualidade e operações globais na Wipro. Não alego ownership formal e contínuo de um ecossistema regional de parceiros; essa é uma expansão natural da minha experiência transferível."},
+        {"question": "Qual é sua experiência com CPaaS?", "answer": "Não tenho experiência profissional direta documentada em CPaaS. Minha base transferível inclui enablement de produtos digitais, comunicação de releases, APIs e webhooks em automações, casos de uso, CRM e adoção. Abordaria o domínio com treinamento estruturado e parceria próxima com produto e especialistas técnicos."}
+      ]
+    },
+    "en": {
+      "cover_letter": "Hi Infobip team,\n\nThe mission of keeping partners informed, enabled, and ready to turn new products into customer value closely matches my background in enablement and adoption. At Wipro on the Meta Project, I translated global product updates into value propositions, pitches, playbooks, and training for 150+ professionals.\n\nI also designed and governed a bootcamp that reduced ramp-up from 6 to 3 months, with 100% completion and 90%+ quality, and led CRM AI activation that increased usage by 150%. In parallel, I validated value propositions and secured B2B partnerships for a local pilot, using feedback and funnel analysis to identify opportunities and adoption barriers.\n\nI do not claim direct CPaaS experience or formal ownership of a regional partner ecosystem. I do bring a strong, measurable foundation in product communication, enablement, use cases, adoption, and alignment between global teams and local operations that I can apply to Infobip's platform.\n\nKevin Augusto Vieira",
+      "form_answers": [
+        {"question": "How do you translate technical updates into partner value?", "answer": "I start with the business objective, audience, problem, and expected outcome. On the Meta Project, I absorbed official materials and converted product updates into value propositions, pitches, scripts, playbooks, and training for 150+ professionals. I validate clarity through call feedback, adoption metrics, and root cause analysis."},
+        {"question": "Tell us about an enablement program you led.", "answer": "I designed and governed the Next Level Bootcamp for 12 consultants, structuring its roadmap, backlog, materials, quality criteria, and follow-up. It achieved 100% completion, 90%+ quality, and reduced ramp-up from 6 to 3 months."},
+        {"question": "What is your experience with partners and ecosystems?", "answer": "I have direct experience in B2B outreach, negotiation, and partnership validation at Meu Barzin, plus cross-functional collaboration across product, quality, and global operations at Wipro. I do not claim formal, ongoing ownership of a regional partner ecosystem; that would be a natural extension of my transferable experience."},
+        {"question": "What is your CPaaS experience?", "answer": "I do not have documented direct professional CPaaS experience. My transferable foundation includes digital-product enablement, release communication, APIs and webhooks in automation, use cases, CRM, and adoption. I would build domain depth through structured training and close partnership with product and technical specialists."}
+      ]
+    }
+  },
+  "evidence": {
+    "skills": {
+      "pt": ["Sales Enablement Frameworks", "Go-to-Market (GTM)", "Playbooks & Scripts Comerciais", "Gestão de Stakeholders", "Análise de Causa Raiz", "Organização de Bootcamps e Treinamentos de Alta Escala"],
+      "en": ["Sales Enablement Frameworks", "Go-to-Market (GTM)", "Playbooks & Sales Scripts", "Stakeholder Management", "Root Cause Analysis", "High-Scale Bootcamp & Training Organization"]
+    }
+  }
+}
