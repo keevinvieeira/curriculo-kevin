@@ -75,6 +75,25 @@
             color: #eff6ff;
             background: #2563eb;
         }
+        #fullscreen-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 6px 9px;
+            color: #cbd5e1;
+            background: rgba(15, 23, 42, 0.8);
+            border: 1px solid rgba(148, 163, 184, 0.25);
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 0.72rem;
+            font-weight: 650;
+        }
+        #fullscreen-btn:hover {
+            color: #fff;
+            border-color: #60a5fa;
+            background: rgba(37, 99, 235, 0.22);
+        }
+        #fullscreen-icon { font-size: 1rem; line-height: 1; }
         #stats-bar {
             position: absolute;
             top: 22px;
@@ -341,6 +360,10 @@
                     <button class="language-btn active" data-lang="pt" type="button">PT</button>
                     <button class="language-btn" data-lang="en" type="button">EN</button>
                 </div>
+                <button id="fullscreen-btn" type="button">
+                    <span id="fullscreen-icon">⛶</span>
+                    <span id="fullscreen-label"></span>
+                </button>
             </div>
             <p id="subtitle"></p>
         </header>
@@ -382,11 +405,12 @@
         const I18N = {
             pt: {
                 pageTitle: 'Kevin Augusto Vieira - Grafo Profissional 3D',
-                subtitle: 'Selecione uma empresa para explorar cargos, skills compartilhadas e métricas. Fonte: master_resume.json',
+                subtitle: 'Explore empresas, funções, skills compartilhadas e métricas. Fonte: master_resume.json',
                 nodes: 'Nós', skills: 'Skills únicas', companies: 'Empresas', metrics: 'Métricas', roles: 'Cargos', functions: 'Funções',
                 fullView: 'Visão completa', company: 'Empresa', location: 'Localização', period: 'Período',
                 skill: 'Skill', category: 'Categoria', evidenceSection: 'Evidências no currículo',
                 function: 'Função', demonstrates: 'Demonstra também',
+                fullscreen: 'Tela cheia', exitFullscreen: 'Sair da tela cheia', fullscreenUnavailable: 'Tela cheia indisponível neste navegador',
                 evidence: 'evidência nesta empresa', evidences: 'evidências nesta empresa',
                 totalEvidence: 'no total', sharedWith: 'Também comprovada em',
                 instructions: 'Clique = explorar empresa • Arraste = girar • Scroll = zoom • Duplo clique ou Esc = visão completa',
@@ -394,11 +418,12 @@
             },
             en: {
                 pageTitle: 'Kevin Augusto Vieira - Professional Graph 3D',
-                subtitle: 'Select a company to explore roles, shared skills, and metrics. Source: master_resume.json',
+                subtitle: 'Explore companies, functions, shared skills, and metrics. Source: master_resume.json',
                 nodes: 'Nodes', skills: 'Unique skills', companies: 'Companies', metrics: 'Metrics', roles: 'Roles', functions: 'Functions',
                 fullView: 'Full view', company: 'Company', location: 'Location', period: 'Period',
                 skill: 'Skill', category: 'Category', evidenceSection: 'Resume evidence',
                 function: 'Function', demonstrates: 'Also demonstrates',
+                fullscreen: 'Fullscreen', exitFullscreen: 'Exit fullscreen', fullscreenUnavailable: 'Fullscreen is unavailable in this browser',
                 evidence: 'evidence at this company', evidences: 'evidence items at this company',
                 totalEvidence: 'in total', sharedWith: 'Also demonstrated at',
                 instructions: 'Click = explore company • Drag = rotate • Scroll = zoom • Double-click or Esc = full view',
@@ -687,6 +712,11 @@
             renderer.domElement.addEventListener('click', onClick);
             renderer.domElement.addEventListener('dblclick', onDoubleClick);
             document.getElementById('detail-close').addEventListener('click', resetFullView);
+            document.getElementById('fullscreen-btn').addEventListener('click', toggleFullscreen);
+            document.addEventListener('fullscreenchange', () => {
+                updateFullscreenButton();
+                window.setTimeout(onWindowResize, 80);
+            });
             document.querySelectorAll('.language-btn').forEach(button => {
                 button.addEventListener('click', () => setLanguage(button.dataset.lang));
             });
@@ -704,6 +734,7 @@
             document.getElementById('subtitle').textContent = t('subtitle');
             document.getElementById('instructions').textContent = t('instructions');
             document.getElementById('detail-close').setAttribute('aria-label', t('close'));
+            updateFullscreenButton();
             document.querySelectorAll('[data-i18n]').forEach(element => {
                 element.textContent = t(element.dataset.i18n);
             });
@@ -721,6 +752,29 @@
             buildLegend();
             if (selectedCompanyId) showCompanyInsights(selectedCompanyId);
             if (selectedSkillId) showSkillInsights(selectedSkillId);
+        }
+
+        async function toggleFullscreen() {
+            try {
+                if (document.fullscreenElement) {
+                    await document.exitFullscreen();
+                } else if (document.documentElement.requestFullscreen) {
+                    await document.documentElement.requestFullscreen();
+                } else {
+                    throw new Error('Fullscreen API unavailable');
+                }
+            } catch (error) {
+                const button = document.getElementById('fullscreen-btn');
+                button.title = t('fullscreenUnavailable');
+                console.warn(t('fullscreenUnavailable'), error);
+            }
+        }
+
+        function updateFullscreenButton() {
+            const active = Boolean(document.fullscreenElement);
+            document.getElementById('fullscreen-icon').textContent = active ? '×' : '⛶';
+            document.getElementById('fullscreen-label').textContent = active ? t('exitFullscreen') : t('fullscreen');
+            document.getElementById('fullscreen-btn').setAttribute('aria-label', active ? t('exitFullscreen') : t('fullscreen'));
         }
 
         function updateStats() {

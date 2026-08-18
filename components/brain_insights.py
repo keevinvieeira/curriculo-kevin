@@ -71,6 +71,73 @@ def render_brain_insights():
     cols[5].metric("Cargos", len(roles))
     cols[6].metric("Funções", len(functions))
 
+    evidence_total = sum(skill.get("evidence_count", 0) for skill in skills)
+    single_evidence = sum(skill.get("evidence_count", 0) == 1 for skill in skills)
+    shared_skills = sorted(
+        (skill for skill in skills if len(skill.get("companies", [])) > 1),
+        key=lambda skill: (len(skill.get("companies", [])), skill.get("evidence_count", 0)),
+        reverse=True,
+    )
+    metric_functions = {
+        (metric.get("company_id"), metric.get("contexts", {}).get("pt", ""))
+        for metric in metrics
+    }
+
+    with st.expander("Leitura estratégica e posicionamento", expanded=True):
+        st.markdown(
+            "**Posicionamento central:** GTM, Sales Enablement e operações comerciais com "
+            "IA aplicada à adoção, automação e produtividade. O diferencial está na combinação "
+            "entre produto, marketing, vendas, dados e mudança operacional, não em engenharia de ML."
+        )
+
+        c1, c2, c3 = st.columns(3)
+        c1.metric("Evidências skill-função", evidence_total)
+        c2.metric("Skills em várias empresas", len(shared_skills))
+        c3.metric("Skills com 1 evidência", f"{single_evidence}/{len(skills)}")
+
+        if shared_skills:
+            strongest = ", ".join(
+                f"{_label(skill)} ({len(skill.get('companies', []))} empresas)"
+                for skill in shared_skills[:6]
+            )
+            st.success(f"Competências mais transferíveis entre contextos: {strongest}.")
+
+        st.warning(
+            f"Amplitude maior que profundidade documental: {single_evidence} de {len(skills)} "
+            "skills aparecem em apenas uma função. Isso não indica baixa proficiência, mas exige "
+            "cases adicionais antes de tratá-las como especialidades centrais."
+        )
+        st.info(
+            f"As {len(metrics)} métricas do grafo vêm de {len(metric_functions)} funções com "
+            "resultados numéricos. Elas devem ser apresentadas como conjuntos de resultados, "
+            "não como cases independentes."
+        )
+
+        market_rows = [
+            {"Cluster": "Sales / Revenue Enablement", "Aderência": "Forte", "Base": "Wipro: adoção, treinamento, playbooks, qualidade e ramp-up", "Limite": "Evidência concentrada na Wipro"},
+            {"Cluster": "GTM / Marketing Operations", "Aderência": "Forte", "Base": "GTM, CRM, funis, métricas e stakeholders", "Limite": "Pouca administração comprovada de plataformas enterprise"},
+            {"Cluster": "Growth Marketing / CRO", "Aderência": "Forte", "Base": "AK, Meu Barzin e Munzner", "Limite": "Experimentação estatística avançada não documentada"},
+            {"Cluster": "AI Adoption / Enablement", "Aderência": "Forte", "Base": "+150% de adoção, prompting, CRM e treinamento", "Limite": "Não equivale a ML engineering"},
+            {"Cluster": "Product Operations", "Aderência": "Moderada a forte", "Base": "Roadmap, backlog, adoção, dados e processos", "Limite": "Pouco histórico com título formal de Product Ops"},
+            {"Cluster": "Product Manager", "Aderência": "Moderada", "Base": "MVP, discovery, monetização e UX conversacional", "Limite": "Experiência formal curta e sem escala pós-MVP"},
+            {"Cluster": "RevOps / Analytics", "Aderência": "Moderada", "Base": "CRM, automação, receita, Power BI e Excel", "Limite": "SQL básico; forecasting e Salesforce/HubSpot sem case detalhado"},
+            {"Cluster": "Software / ML Engineering", "Aderência": "Baixa", "Base": "Python prático e IA aplicada", "Limite": "Sem engenharia de software, MLOps ou treinamento de modelos comprovados"},
+        ]
+        st.dataframe(_df(market_rows), width="stretch", hide_index=True)
+        st.caption(
+            "A aderência acima é uma interpretação de padrões comuns de vagas, não um ranking "
+            "de demanda do mercado em tempo real."
+        )
+
+        st.markdown("**Prioridades de desenvolvimento**")
+        st.markdown(
+            "1. Consolidar o posicionamento em GTM/Enablement/Product Operations com IA aplicada.\n"
+            "2. Criar cases para ferramentas declaradas sem evidência contextual detalhada.\n"
+            "3. Aprofundar SQL, automações via APIs e construção direta de dashboards.\n"
+            "4. Explicitar no currículo quais experiências foram simultâneas, consultivas ou paralelas.\n"
+            "5. Separar claramente uso, configuração, administração e integração de ferramentas."
+        )
+
     # ---------- 1. Skills por empresa ----------
     with st.expander("🏆 Skills por empresa", expanded=True):
         rows = []
