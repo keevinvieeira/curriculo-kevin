@@ -35,21 +35,6 @@
       "id": "role-wipro-1",
       "type": "Role",
       "labels": {
-        "pt": "Marketing Coordinator / Product Enablement Expert (Meta)",
-        "en": "Marketing Coordinator / Product Enablement Expert (Meta)"
-      },
-      "dates": {
-        "pt": "Setembro 2024 – Julho 2026",
-        "en": "September 2024 – July 2026"
-      },
-      "company_id": "company-wipro",
-      "size": 0.72,
-      "color": "#a78bfa"
-    },
-    {
-      "id": "role-wipro-2",
-      "type": "Role",
-      "labels": {
         "pt": "Especialista em Operações de Marketing / GTM e Sales Enablement (Projeto Meta)",
         "en": "Marketing Operations / Sales Enablement & GTM Specialist (Meta Project)"
       },
@@ -96,21 +81,6 @@
       "color": "#a78bfa"
     },
     {
-      "id": "role-meu-barzin-startup-2",
-      "type": "Role",
-      "labels": {
-        "pt": "Co-Founder & Responsável por Produto e GTM",
-        "en": "Co-Founder & Product & Go-To-Market (GTM) Lead"
-      },
-      "dates": {
-        "pt": "Dezembro 2025 – Março 2026",
-        "en": "December 2025 – March 2026"
-      },
-      "company_id": "company-meu-barzin-startup",
-      "size": 0.72,
-      "color": "#a78bfa"
-    },
-    {
       "id": "company-ak-branding-web-design",
       "type": "Company",
       "labels": {
@@ -131,21 +101,6 @@
     },
     {
       "id": "role-ak-branding-web-design-1",
-      "type": "Role",
-      "labels": {
-        "pt": "Founder & Product Design Consultant",
-        "en": "Founder & Product Design Consultant"
-      },
-      "dates": {
-        "pt": "Março 2019 – Setembro 2024",
-        "en": "March 2019 – September 2024"
-      },
-      "company_id": "company-ak-branding-web-design",
-      "size": 0.72,
-      "color": "#a78bfa"
-    },
-    {
-      "id": "role-ak-branding-web-design-2",
       "type": "Role",
       "labels": {
         "pt": "Fundador & Consultor de Projetos de Marketing",
@@ -188,51 +143,6 @@
       "dates": {
         "pt": "Outubro 2018 – Agosto 2024",
         "en": "October 2018 – August 2024"
-      },
-      "company_id": "company-munzner",
-      "size": 0.72,
-      "color": "#a78bfa"
-    },
-    {
-      "id": "role-munzner-2",
-      "type": "Role",
-      "labels": {
-        "pt": "Especialista em Automação de Marketing e Campanhas",
-        "en": "Marketing Automation & Campaign Specialist"
-      },
-      "dates": {
-        "pt": "Outubro 2018 – Agosto 2024",
-        "en": "October 2018 – August 2024"
-      },
-      "company_id": "company-munzner",
-      "size": 0.72,
-      "color": "#a78bfa"
-    },
-    {
-      "id": "role-munzner-3",
-      "type": "Role",
-      "labels": {
-        "pt": "Marketing Specialist",
-        "en": "Marketing Specialist"
-      },
-      "dates": {
-        "pt": "Fevereiro 2021 – Setembro 2024",
-        "en": "February 2021 – September 2024"
-      },
-      "company_id": "company-munzner",
-      "size": 0.72,
-      "color": "#a78bfa"
-    },
-    {
-      "id": "role-munzner-4",
-      "type": "Role",
-      "labels": {
-        "pt": "Internal Process Analyst",
-        "en": "Internal Process Analyst"
-      },
-      "dates": {
-        "pt": "Outubro 2018 – Fevereiro 2021",
-        "en": "October 2018 – February 2021"
       },
       "company_id": "company-munzner",
       "size": 0.72,
@@ -4698,11 +4608,6 @@
       "type": "HAS_ROLE"
     },
     {
-      "source": "company-wipro",
-      "target": "role-wipro-2",
-      "type": "HAS_ROLE"
-    },
-    {
       "source": "candidate",
       "target": "company-meu-barzin-startup",
       "type": "WORKED_AT"
@@ -4710,11 +4615,6 @@
     {
       "source": "company-meu-barzin-startup",
       "target": "role-meu-barzin-startup-1",
-      "type": "HAS_ROLE"
-    },
-    {
-      "source": "company-meu-barzin-startup",
-      "target": "role-meu-barzin-startup-2",
       "type": "HAS_ROLE"
     },
     {
@@ -4728,11 +4628,6 @@
       "type": "HAS_ROLE"
     },
     {
-      "source": "company-ak-branding-web-design",
-      "target": "role-ak-branding-web-design-2",
-      "type": "HAS_ROLE"
-    },
-    {
       "source": "candidate",
       "target": "company-munzner",
       "type": "WORKED_AT"
@@ -4740,21 +4635,6 @@
     {
       "source": "company-munzner",
       "target": "role-munzner-1",
-      "type": "HAS_ROLE"
-    },
-    {
-      "source": "company-munzner",
-      "target": "role-munzner-2",
-      "type": "HAS_ROLE"
-    },
-    {
-      "source": "company-munzner",
-      "target": "role-munzner-3",
-      "type": "HAS_ROLE"
-    },
-    {
-      "source": "company-munzner",
-      "target": "role-munzner-4",
       "type": "HAS_ROLE"
     },
     {
@@ -5708,11 +5588,11 @@
     }
   },
   "stats": {
-    "total_nodes": 158,
-    "total_edges": 171,
+    "total_nodes": 152,
+    "total_edges": 165,
     "total_skills": 108,
     "total_companies": 6,
     "total_metrics": 31,
-    "total_roles": 12
+    "total_roles": 6
   }
 }

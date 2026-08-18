@@ -42,16 +42,6 @@
       "roles": [
         {
           "title": {
-            "pt": "Marketing Coordinator / Product Enablement Expert (Meta)",
-            "en": "Marketing Coordinator / Product Enablement Expert (Meta)"
-          },
-          "dates": {
-            "pt": "Setembro 2024 – Julho 2026",
-            "en": "September 2024 – July 2026"
-          }
-        },
-        {
-          "title": {
             "pt": "Especialista em Operações de Marketing / GTM e Sales Enablement (Projeto Meta)",
             "en": "Marketing Operations / Sales Enablement & GTM Specialist (Meta Project)"
           },
@@ -145,16 +135,6 @@
             "pt": "Dezembro 2025 – Março 2026",
             "en": "December 2025 – March 2026"
           }
-        },
-        {
-          "title": {
-            "pt": "Co-Founder & Responsável por Produto e GTM",
-            "en": "Co-Founder & Product & Go-To-Market (GTM) Lead"
-          },
-          "dates": {
-            "pt": "Dezembro 2025 – Março 2026",
-            "en": "December 2025 – March 2026"
-          }
         }
       ],
       "bullets": [
@@ -202,16 +182,6 @@
         "en": "Curitiba, PR"
       },
       "roles": [
-        {
-          "title": {
-            "pt": "Founder & Product Design Consultant",
-            "en": "Founder & Product Design Consultant"
-          },
-          "dates": {
-            "pt": "Março 2019 – Setembro 2024",
-            "en": "March 2019 – September 2024"
-          }
-        },
         {
           "title": {
             "pt": "Fundador & Consultor de Projetos de Marketing",
@@ -271,36 +241,6 @@
           "dates": {
             "pt": "Outubro 2018 – Agosto 2024",
             "en": "October 2018 – August 2024"
-          }
-        },
-        {
-          "title": {
-            "pt": "Especialista em Automação de Marketing e Campanhas",
-            "en": "Marketing Automation & Campaign Specialist"
-          },
-          "dates": {
-            "pt": "Outubro 2018 – Agosto 2024",
-            "en": "October 2018 – August 2024"
-          }
-        },
-        {
-          "title": {
-            "pt": "Marketing Specialist",
-            "en": "Marketing Specialist"
-          },
-          "dates": {
-            "pt": "Fevereiro 2021 – Setembro 2024",
-            "en": "February 2021 – September 2024"
-          }
-        },
-        {
-          "title": {
-            "pt": "Internal Process Analyst",
-            "en": "Internal Process Analyst"
-          },
-          "dates": {
-            "pt": "Outubro 2018 – Fevereiro 2021",
-            "en": "October 2018 – February 2021"
           }
         }
       ],

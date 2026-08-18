@@ -21,10 +21,10 @@
 
 ---
 
-## 💼 EXPERIÊNCIA PROFISSIONAL (5 empresas)
+## 💼 EXPERIÊNCIA PROFISSIONAL (6 empresas)
 
 ### 1. Wipro (Projeto Meta) — Set 2024 a Jul 2026
-**Cargo:** Marketing Coordinator / Product Enablement Expert (Meta)
+**Cargo:** Especialista em Operações de Marketing / GTM e Sales Enablement (Projeto Meta)
 
 **Métricas reais:**
 - Aumentou uso de IA no CRM de 4 para 10 prompts/dia (+150%)
@@ -53,7 +53,7 @@
 ---
 
 ### 3. AK Branding & Web Design — Mar 2019 a Set 2024 (5 anos)
-**Cargo:** Founder & Product Design Consultant
+**Cargo:** Fundador & Consultor de Projetos de Marketing
 
 **Métricas reais:**
 - 40+ projetos entregues em 5 anos
