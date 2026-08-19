@@ -1527,5 +1527,27 @@
         "date": ""
       }
     ]
+  },
+  {
+    "id": "48",
+    "company": "Bizomas Florestas (Toiah)",
+    "role": "Distrito de Produto — Liderança",
+    "date_applied": "2026-08-19",
+    "status": "Pronto para Enviar",
+    "url": "https://toiah.com.br/jobs/fcThQZtAplfQuUlfTnuM",
+    "fit_score": 96,
+    "salary_expectation": "A combinar (PJ / CLT | Híbrido Curitiba)",
+    "notes": "Liderança de visão e estratégia de produto para distrito específico. Condução de discovery, ciclo de vida completo de produto, ponte entre Engenharia e Negócios. Fit 96%."
+  },
+  {
+    "id": "49",
+    "company": "Evermonte Executive Search",
+    "role": "Gerência de Marketing",
+    "date_applied": "2026-08-19",
+    "status": "Pronto para Enviar",
+    "url": "https://evermonte.com/job/gerencia-de-marketing-curitiba-pr/",
+    "fit_score": 94,
+    "salary_expectation": "R$ 15.000 - R$ 20.000 /mês (CLT | Presencial Curitiba)",
+    "notes": "Orquestração de estratégia de marca, trade marketing, CRM, calendários sazonais e gestão de agências para cliente varejo/omnichannel em Curitiba. Fit 94%."
   }
 ]
