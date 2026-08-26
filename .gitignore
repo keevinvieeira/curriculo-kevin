@@ -16,5 +16,8 @@ env/
 .DS_Store
 Thumbs.db
 
+# Editor / IDE
+.vscode/
+
 # Generated static portfolio artifact
 /docs/

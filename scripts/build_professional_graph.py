@@ -29,8 +29,9 @@ CATEGORIES = {
 CATEGORY_TAGS = {
     "product": {
         "business_model", "business_models", "discovery", "e_commerce", "experimentation",
-        "learning", "monetization", "pricing", "product_architecture", "product_strategy",
-        "ux", "ux_ui", "web_design", "web_development", "zero_to_one",
+        "learning", "monetization", "pricing", "product_architecture", "product_feedback",
+        "product_strategy", "ux", "ux_ui", "voice_of_customer", "web_design", "web_development",
+        "zero_to_one",
     },
     "growth": {
         "ab_testing", "acquisition", "ads", "agency_management", "branding", "content_creation",
@@ -90,6 +91,7 @@ PT_SKILLS = {
     "postgresql": "PostgreSQL", "power_bi": "Power BI", "pricing": "Precificação",
     "prioritization": "Priorização", "product_architecture": "Arquitetura de Produto",
     "product_positioning": "Posicionamento de Produto", "product_strategy": "Estratégia de Produto",
+    "product_feedback": "Feedback de Produto",
     "project_management": "Gestão de Projetos", "prompt_engineering": "Engenharia de Prompts",
     "quality_assurance": "Garantia de Qualidade", "ramp_up": "Ramp-up", "recruitment": "Recrutamento",
     "revenue_analytics": "Análise de Receita", "roadmap": "Roadmap", "roi": "ROI",
@@ -102,7 +104,7 @@ PT_SKILLS = {
     "timeline": "Cronograma", "tracking": "Rastreamento", "training": "Treinamento",
     "tripwire": "Oferta de Entrada", "ux": "Experiência do Usuário", "ux_ui": "UX/UI",
     "volume": "Volume de Entregas", "web_design": "Web Design", "web_development": "Desenvolvimento Web",
-    "web_scraping": "Web Scraping", "zero_to_one": "Construção de 0 a 1",
+    "voice_of_customer": "Voz do Usuário", "web_scraping": "Web Scraping", "zero_to_one": "Construção de 0 a 1",
 }
 
 EN_OVERRIDES = {
@@ -113,7 +115,7 @@ EN_OVERRIDES = {
     "ops": "Operations", "pmo": "PMO", "postgresql": "PostgreSQL", "power_bi": "Power BI",
     "prompt_engineering": "Prompt Engineering", "roi": "ROI", "seo": "SEO", "sql": "SQL",
     "supabase": "Supabase", "ux": "User Experience", "ux_ui": "UX/UI", "web_scraping": "Web Scraping",
-    "zero_to_one": "0-to-1 Building",
+    "voice_of_customer": "Voice of Customer", "zero_to_one": "0-to-1 Building",
 }
 
 # Curated, source-linked outcomes. Values and descriptions come from the cited master bullet.
@@ -123,11 +125,11 @@ METRICS = {
         (4, "+150%", "aumento no uso de IA", "increase in AI usage"),
         (4, "4 → 10", "prompts por dia", "prompts per day"),
         (4, "#1 global", "crescimento de adoção de IA", "AI adoption growth"),
-        (8, "12", "consultores no piloto", "consultants in the pilot"),
-        (8, "100%", "conclusão do bootcamp", "bootcamp completion"),
-        (8, "-50%", "tempo de ramp-up", "ramp-up time"),
-        (8, "90%+", "qualidade nas primeiras auditorias", "quality on initial audits"),
-        (8, "90%", "CSAT dos consultores", "consultant CSAT"),
+        (9, "12", "consultores no piloto", "consultants in the pilot"),
+        (9, "100%", "conclusão do bootcamp", "bootcamp completion"),
+        (9, "-50%", "tempo de ramp-up", "ramp-up time"),
+        (9, "90%+", "qualidade nas primeiras auditorias", "quality on initial audits"),
+        (9, "90%", "CSAT dos consultores", "consultant CSAT"),
     ],
     "Meu Barzin (Startup)": [
         (2, "~200", "bares mapeados", "venues mapped"),
