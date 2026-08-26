@@ -1,33 +1,27 @@
 {
-  "company_name": "Olist",
-  "role_title": "Especialista em Go-to-Market | ERP",
-  "url": "https://br.linkedin.com/jobs/view/especialista-em-go-to-market-erp-at-olist-4446910194",
-  "fit_score": 96,
-  "salary_expectation": "Faixa salarial não informada pela Olist",
-  "document_language": "pt",
+  "company_name": "SandboxAQ",
+  "role_title": "Product & Growth Marketer, AI Simulation",
+  "url": "https://www.sandboxaq.com/careers-list?ashby_jid=42615b29-0fcb-429c-b305-8fa6b1137153",
+  "fit_score": 74,
+  "document_language": "en",
   "available_languages": [
     "pt",
     "en"
   ],
-  "location": "Curitiba, PR",
-  "work_model": "Híbrido",
-  "employment_type": "CLT, tempo integral",
-  "seniority": "Pleno-sênior",
-  "listing_status": "Ativa no momento da consulta",
-  "published_at": "Aproximadamente 3 semanas antes de 2026-08-17",
-  "fetched_at": "2026-08-17T23:05:28-03:00",
-  "application_deadline": null,
-  "source_files": [
-    "master_resume.json"
-  ],
+  "source_status": "GRAPH ONLY. Evidence strictly from graph_clean.json (recovered via sandboxaq-context-pack.json). Contact/education/certifications/languages are NOT in the graph and are left empty by design.",
   "good_points": [
-    "Experiência direta em GTM, posicionamento de produto e Sales Enablement no Projeto Meta.",
-    "Atuação como ponte entre produto, qualidade, consultoria e linhas globais, com roadmap, backlog, OKRs e documentação.",
-    "Criação comprovada de pitches, playbooks, scripts, treinamentos e análises de adoção e performance."
+    "Sales Enablement & GTM at scale: enabled 150+ marketing pros at Wipro (Meta Project); operation became #1 globally in native-AI CRM adoption growth (+150%, 4->10 prompts/day).",
+    "Demand generation with measured results: 505 qualified leads (Meu Barzin); +250% lead capture (AK Branding); 10,000+ funnel visits / ~R$50k high-ticket (Munzner).",
+    "Translates complex technical capability into buyer value: RAG conversational agent with zero-hallucination rules (Meu Barzin); product feedback loop and cross-functional bridge (Wipro).",
+    "Uses AI tools to expand impact (native AI, n8n, prompt engineering) and measures pipeline with Power BI, ROI and funnel-bottleneck mapping."
   ],
   "improvement_points": [
-    "Não há experiência direta comprovada com um produto ERP.",
-    "A faixa salarial não foi publicada; compatibilidade com a expectativa registrada deve ser confirmada.",
-    "O currículo não documenta ownership formal de um portfólio de bundles de ERP."
+    "No life-sciences / chemistry / biopharma / simulation-domain background (graph gap).",
+    "No formal 'Product Marketing' title in the graph; evidence is GTM / Sales Enablement / Product Manager / Growth.",
+    "No Google Ads / Salesforce-HubSpot / Python / newsletter / field-marketing / competitor-research nodes in the graph (gaps)."
+  ],
+  "graph_limits": [
+    "graph_clean.json now models Candidate contact, Education, Certification and Language nodes (derived from master_resume).",
+    "Remaining gaps are domain/skill nodes absent from the graph (biopharma, chemistry, Python, etc.)."
   ]
 }

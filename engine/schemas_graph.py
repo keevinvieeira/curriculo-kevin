@@ -28,6 +28,9 @@ class NodeType(str, Enum):
     REQUIREMENT = "Requirement"
     CASE = "Case"
     STAR_STORY = "STARStory"
+    EDUCATION = "Education"
+    CERTIFICATION = "Certification"
+    LANGUAGE = "Language"
 
 
 class EdgeType(str, Enum):
@@ -45,6 +48,9 @@ class EdgeType(str, Enum):
     APPLIED_TO = "APPLIED_TO"
     HAS_CASE = "HAS_CASE"
     HAS_STAR_STORY = "HAS_STAR_STORY"
+    HAS_EDUCATION = "HAS_EDUCATION"
+    HAS_CERTIFICATION = "HAS_CERTIFICATION"
+    HAS_LANGUAGE = "HAS_LANGUAGE"
     BELONGS_TO_PROJECT = "BELONGS_TO_PROJECT"
 
 

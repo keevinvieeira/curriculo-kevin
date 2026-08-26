@@ -1,0 +1,207 @@
+{
+  "job_id": "job-sandboxaq-product-growth-marketer-ai-simulation",
+  "company": "SandboxAQ",
+  "title": "Product & Growth Marketer, AI Simulation",
+  "requirements": [
+    {
+      "id": "req-01",
+      "text": "Product marketing (positioning, messaging by persona)",
+      "mapped_skills": [
+        "marketing",
+        "narratives",
+        "product-positioning",
+        "product-strategy"
+      ]
+    },
+    {
+      "id": "req-02",
+      "text": "Growth marketing / demand generation",
+      "mapped_skills": [
+        "growth",
+        "lead-generation",
+        "marketing"
+      ]
+    },
+    {
+      "id": "req-03",
+      "text": "Go-to-market (GTM)",
+      "mapped_skills": [
+        "business-development",
+        "marketing",
+        "product-strategy"
+      ]
+    },
+    {
+      "id": "req-04",
+      "text": "Inbound marketing",
+      "mapped_skills": [
+        "content-marketing",
+        "inbound",
+        "seo"
+      ]
+    },
+    {
+      "id": "req-05",
+      "text": "SEO / organic content",
+      "mapped_skills": [
+        "content-marketing",
+        "seo"
+      ]
+    },
+    {
+      "id": "req-06",
+      "text": "Content marketing / thought leadership / case studies / white papers",
+      "mapped_skills": [
+        "content-creation",
+        "content-marketing",
+        "copywriting",
+        "narratives",
+        "technical-writing"
+      ]
+    },
+    {
+      "id": "req-07",
+      "text": "Email marketing / outbound / nurture / webinars",
+      "mapped_skills": [
+        "content-marketing",
+        "email-marketing",
+        "paid-media"
+      ]
+    },
+    {
+      "id": "req-08",
+      "text": "Sales enablement",
+      "mapped_skills": [
+        "coaching",
+        "crm-enablement",
+        "playbooks",
+        "sales-enablement",
+        "training"
+      ]
+    },
+    {
+      "id": "req-09",
+      "text": "CRM e automação de marketing",
+      "mapped_skills": [
+        "automation",
+        "crm",
+        "crm-enablement"
+      ]
+    },
+    {
+      "id": "req-10",
+      "text": "Funil de vendas / conversão (CRO)",
+      "mapped_skills": [
+        "cro",
+        "funnel",
+        "lead-generation"
+      ]
+    },
+    {
+      "id": "req-11",
+      "text": "Analytics / marketing metrics / pipeline / performance",
+      "mapped_skills": [
+        "analytics",
+        "metrics",
+        "revenue-analytics",
+        "roi"
+      ]
+    },
+    {
+      "id": "req-12",
+      "text": "Business intelligence (Power BI / dashboards)",
+      "mapped_skills": [
+        "analytics",
+        "power-bi"
+      ]
+    },
+    {
+      "id": "req-13",
+      "text": "AI tools to expand impact (native AI, prompt engineering)",
+      "mapped_skills": [
+        "ai",
+        "ai-implementation",
+        "prompt-engineering"
+      ]
+    },
+    {
+      "id": "req-14",
+      "text": "n8n / workflow automation / APIs",
+      "mapped_skills": [
+        "automation"
+      ]
+    },
+    {
+      "id": "req-15",
+      "text": "Cross-functional collaboration (product, science, commercial)",
+      "mapped_skills": [
+        "collaboration",
+        "cross-functional",
+        "leadership"
+      ]
+    },
+    {
+      "id": "req-16",
+      "text": "Stakeholder management",
+      "mapped_skills": [
+        "collaboration",
+        "cross-functional",
+        "leadership"
+      ]
+    },
+    {
+      "id": "req-17",
+      "text": "Translate complex technical capability into buyer value",
+      "mapped_skills": [
+        "copywriting",
+        "narratives",
+        "product-positioning",
+        "product-strategy"
+      ]
+    },
+    {
+      "id": "req-18",
+      "text": "Project management / roadmap / backlog",
+      "mapped_skills": [
+        "backlog",
+        "product-strategy",
+        "roadmap"
+      ]
+    },
+    {
+      "id": "req-19",
+      "text": "Facilitação / change communication",
+      "mapped_skills": [
+        "facilitation",
+        "narratives",
+        "training"
+      ]
+    },
+    {
+      "id": "req-20",
+      "text": "Technical / scientific writing",
+      "mapped_skills": [
+        "content-creation",
+        "copywriting",
+        "technical-writing"
+      ]
+    },
+    {
+      "id": "req-21",
+      "text": "Experiment design / A/B testing",
+      "mapped_skills": [
+        "experimentation"
+      ]
+    },
+    {
+      "id": "req-22",
+      "text": "Monetization / subscription models",
+      "mapped_skills": [
+        "business-model",
+        "business-models",
+        "monetization"
+      ]
+    }
+  ],
+  "unmapped": []
+}

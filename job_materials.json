@@ -1,21 +1,17 @@
 {
-  "cover_letter": "Olá, time da Olist!\n\nA missão de transformar evoluções do ERP em planos de go-to-market claros combina diretamente com minha experiência conectando produto, operações, dados e times comerciais. Na Wipro, no Projeto Meta, traduzi atualizações globais em propostas de valor, pitches, scripts, playbooks e treinamentos para mais de 150 profissionais. Também participei da governança do squad de capacitação com OKRs, roadmap e backlog e liderei a adoção de IA no CRM, elevando o uso em 150%.\n\nTrago experiência prática em coordenar stakeholders, organizar documentação e planos de ação e usar dados e feedbacks para priorizar ativações. Embora eu não apresente experiência direta em ERP, tenho histórico consistente de aprender produtos digitais complexos e convertê-los em mensagens e ferramentas acionáveis para a linha de frente. Quero aplicar essa combinação para dar cadência, clareza e impacto aos lançamentos da Olist.\n\nKevin Augusto Vieira",
+  "cover_letter": "Dear SandboxAQ Hiring Team,\n\nI am applying for the Product & Growth Marketer, AI Simulation role. My background is building go-to-market, sales-enablement and demand-generation programs that translate complex technical capability into commercial value — directly relevant to positioning AISim's Large Quantum Models for scientific buyers.\n\nAt Wipro (Meta Project) I enabled 150+ marketing professionals and made the operation #1 globally in native-AI CRM adoption growth (+150%, 4->10 prompts/day), while leading the Next Level Bootcamp that cut ramp-up time by 50%. At Meu Barzin I captured 505 qualified leads and architected a RAG conversational agent with zero-hallucination rules. At Munzner and AK Branding I built automated nurture funnels (10,000+ visits, ~R$50k high-ticket revenue; +250% lead capture) and inbound/SEO content (~1,000 organic visits). I use AI tools (native AI, n8n, prompt engineering) and measure pipeline with Power BI, ROI and funnel-bottleneck mapping.\n\nI am transparent about a gap: I do not yet have life-sciences, chemistry or simulation-domain depth. What I bring is the transferable skill of turning technical capability into buyer-facing narrative — exactly the bridge AISim needs. I would lean on your science and product teams and ramp quickly on the domain.\n\nThank you for the opportunity.\n\nSincerely,\nKevin Augusto Vieira",
   "form_answers": [
     {
-      "question": "Conte sobre sua experiência com GTM.",
-      "answer": "No Projeto Meta, absorvi materiais oficiais e traduzi atualizações de produto em propostas de valor, pitches, scripts, frameworks e treinamentos para mais de 150 profissionais. Em projetos próprios e consultivos, também trabalhei com posicionamento, lançamentos, aquisição e mensuração."
+      "question": "Why are you interested in SandboxAQ / AISim?",
+      "answer": "Because AISim's Large Quantum Models solve hard scientific problems (drug discovery, materials, chemistry) and I specialize in turning that kind of complex technical capability into buyer-facing value through GTM, enablement and content — the exact commercial bridge the role describes."
     },
     {
-      "question": "Como você atua como PMO de lançamentos?",
-      "answer": "Organizo objetivos, responsáveis, dependências, riscos, rituais e documentação. Na Wipro, participei de um squad que usava reuniões diárias, OKRs, roadmap e backlog para priorizar demandas e alinhar clientes, gestores, líderes e consultores."
+      "question": "Describe a campaign or program you built end-to-end.",
+      "answer": "At Wipro (Meta Project) I conceived and led the Next Level Bootcamp for 12 Meta Marketing Pros, cutting ramp-up time by 50% and reaching 100% completion, while making the operation #1 globally in native-AI CRM adoption (+150%). I owned enablement activations, adoption strategy and tactical product positioning."
     },
     {
-      "question": "Qual é sua experiência com ERP?",
-      "answer": "Não tenho experiência profissional direta documentada em ERP. Minha aderência transferível está em aprender produtos digitais complexos, traduzir roadmaps em narrativas e materiais comerciais e coordenar GTM entre produto, marketing, vendas e operações."
-    },
-    {
-      "question": "Qual é sua pretensão salarial?",
-      "answer": "A faixa da vaga não foi informada. Minha expectativa registrada para contratos no Brasil é de R$ 15.000 a R$ 22.000 por mês no modelo PJ; para CLT, considero o pacote total, escopo e benefícios."
+      "question": "How do you measure marketing performance?",
+      "answer": "I track channels, acquisition paths and CRM data to evaluate funnel conversion, revenue and ROI, using Power BI and Excel dashboards. At Munzner this guided a 10-stage automated funnel (~R$50k high-ticket revenue, 10,000+ visits); at AK Branding it lifted lead capture +250%."
     }
   ]
 }

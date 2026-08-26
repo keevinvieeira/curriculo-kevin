@@ -1,5 +1,5 @@
 {
-  "source": "master_resume.json",
+  "source": "master_resume.json + SandboxAQ JD (deterministic map)",
   "nodes": [
     {
       "id": "candidate",
@@ -4564,6 +4564,238 @@
       "proficiency": "Native",
       "size": 0.5,
       "color": "#38bdf8"
+    },
+    {
+      "id": "job-sandboxaq-product-growth-marketer-ai-simulation",
+      "type": "JobPosting",
+      "labels": {
+        "pt": "SandboxAQ — Product & Growth Marketer, AI Simulation",
+        "en": "SandboxAQ — Product & Growth Marketer, AI Simulation"
+      },
+      "url": "https://www.sandboxaq.com/careers-list?ashby_jid=42615b29-0fcb-429c-b305-8fa6b1137153",
+      "size": 2.4,
+      "color": "#f59e0b",
+      "glow": true
+    },
+    {
+      "id": "req-01",
+      "type": "Requirement",
+      "labels": {
+        "pt": "Product marketing (positioning, messaging by persona)",
+        "en": "Product marketing (positioning, messaging by persona)"
+      },
+      "size": 1.0,
+      "color": "#fb923c"
+    },
+    {
+      "id": "req-02",
+      "type": "Requirement",
+      "labels": {
+        "pt": "Growth marketing / demand generation",
+        "en": "Growth marketing / demand generation"
+      },
+      "size": 1.0,
+      "color": "#fb923c"
+    },
+    {
+      "id": "req-03",
+      "type": "Requirement",
+      "labels": {
+        "pt": "Go-to-market (GTM)",
+        "en": "Go-to-market (GTM)"
+      },
+      "size": 1.0,
+      "color": "#fb923c"
+    },
+    {
+      "id": "req-04",
+      "type": "Requirement",
+      "labels": {
+        "pt": "Inbound marketing",
+        "en": "Inbound marketing"
+      },
+      "size": 1.0,
+      "color": "#fb923c"
+    },
+    {
+      "id": "req-05",
+      "type": "Requirement",
+      "labels": {
+        "pt": "SEO / organic content",
+        "en": "SEO / organic content"
+      },
+      "size": 1.0,
+      "color": "#fb923c"
+    },
+    {
+      "id": "req-06",
+      "type": "Requirement",
+      "labels": {
+        "pt": "Content marketing / thought leadership / case studies / white papers",
+        "en": "Content marketing / thought leadership / case studies / white papers"
+      },
+      "size": 1.0,
+      "color": "#fb923c"
+    },
+    {
+      "id": "req-07",
+      "type": "Requirement",
+      "labels": {
+        "pt": "Email marketing / outbound / nurture / webinars",
+        "en": "Email marketing / outbound / nurture / webinars"
+      },
+      "size": 1.0,
+      "color": "#fb923c"
+    },
+    {
+      "id": "req-08",
+      "type": "Requirement",
+      "labels": {
+        "pt": "Sales enablement",
+        "en": "Sales enablement"
+      },
+      "size": 1.0,
+      "color": "#fb923c"
+    },
+    {
+      "id": "req-09",
+      "type": "Requirement",
+      "labels": {
+        "pt": "CRM e automação de marketing",
+        "en": "CRM e automação de marketing"
+      },
+      "size": 1.0,
+      "color": "#fb923c"
+    },
+    {
+      "id": "req-10",
+      "type": "Requirement",
+      "labels": {
+        "pt": "Funil de vendas / conversão (CRO)",
+        "en": "Funil de vendas / conversão (CRO)"
+      },
+      "size": 1.0,
+      "color": "#fb923c"
+    },
+    {
+      "id": "req-11",
+      "type": "Requirement",
+      "labels": {
+        "pt": "Analytics / marketing metrics / pipeline / performance",
+        "en": "Analytics / marketing metrics / pipeline / performance"
+      },
+      "size": 1.0,
+      "color": "#fb923c"
+    },
+    {
+      "id": "req-12",
+      "type": "Requirement",
+      "labels": {
+        "pt": "Business intelligence (Power BI / dashboards)",
+        "en": "Business intelligence (Power BI / dashboards)"
+      },
+      "size": 1.0,
+      "color": "#fb923c"
+    },
+    {
+      "id": "req-13",
+      "type": "Requirement",
+      "labels": {
+        "pt": "AI tools to expand impact (native AI, prompt engineering)",
+        "en": "AI tools to expand impact (native AI, prompt engineering)"
+      },
+      "size": 1.0,
+      "color": "#fb923c"
+    },
+    {
+      "id": "req-14",
+      "type": "Requirement",
+      "labels": {
+        "pt": "n8n / workflow automation / APIs",
+        "en": "n8n / workflow automation / APIs"
+      },
+      "size": 1.0,
+      "color": "#fb923c"
+    },
+    {
+      "id": "req-15",
+      "type": "Requirement",
+      "labels": {
+        "pt": "Cross-functional collaboration (product, science, commercial)",
+        "en": "Cross-functional collaboration (product, science, commercial)"
+      },
+      "size": 1.0,
+      "color": "#fb923c"
+    },
+    {
+      "id": "req-16",
+      "type": "Requirement",
+      "labels": {
+        "pt": "Stakeholder management",
+        "en": "Stakeholder management"
+      },
+      "size": 1.0,
+      "color": "#fb923c"
+    },
+    {
+      "id": "req-17",
+      "type": "Requirement",
+      "labels": {
+        "pt": "Translate complex technical capability into buyer value",
+        "en": "Translate complex technical capability into buyer value"
+      },
+      "size": 1.0,
+      "color": "#fb923c"
+    },
+    {
+      "id": "req-18",
+      "type": "Requirement",
+      "labels": {
+        "pt": "Project management / roadmap / backlog",
+        "en": "Project management / roadmap / backlog"
+      },
+      "size": 1.0,
+      "color": "#fb923c"
+    },
+    {
+      "id": "req-19",
+      "type": "Requirement",
+      "labels": {
+        "pt": "Facilitação / change communication",
+        "en": "Facilitação / change communication"
+      },
+      "size": 1.0,
+      "color": "#fb923c"
+    },
+    {
+      "id": "req-20",
+      "type": "Requirement",
+      "labels": {
+        "pt": "Technical / scientific writing",
+        "en": "Technical / scientific writing"
+      },
+      "size": 1.0,
+      "color": "#fb923c"
+    },
+    {
+      "id": "req-21",
+      "type": "Requirement",
+      "labels": {
+        "pt": "Experiment design / A/B testing",
+        "en": "Experiment design / A/B testing"
+      },
+      "size": 1.0,
+      "color": "#fb923c"
+    },
+    {
+      "id": "req-22",
+      "type": "Requirement",
+      "labels": {
+        "pt": "Monetization / subscription models",
+        "en": "Monetization / subscription models"
+      },
+      "size": 1.0,
+      "color": "#fb923c"
     }
   ],
   "edges": [
@@ -6539,6 +6771,456 @@
       "source": "candidate",
       "target": "lang-3",
       "type": "HAS_LANGUAGE"
+    },
+    {
+      "source": "candidate",
+      "target": "job-sandboxaq-product-growth-marketer-ai-simulation",
+      "type": "APPLIED_TO"
+    },
+    {
+      "source": "job-sandboxaq-product-growth-marketer-ai-simulation",
+      "target": "req-01",
+      "type": "REQUIRES"
+    },
+    {
+      "source": "req-01",
+      "target": "skill-product-positioning",
+      "type": "MAPS_TO_SKILL"
+    },
+    {
+      "source": "req-01",
+      "target": "skill-narratives",
+      "type": "MAPS_TO_SKILL"
+    },
+    {
+      "source": "req-01",
+      "target": "skill-marketing",
+      "type": "MAPS_TO_SKILL"
+    },
+    {
+      "source": "req-01",
+      "target": "skill-product-strategy",
+      "type": "MAPS_TO_SKILL"
+    },
+    {
+      "source": "job-sandboxaq-product-growth-marketer-ai-simulation",
+      "target": "req-02",
+      "type": "REQUIRES"
+    },
+    {
+      "source": "req-02",
+      "target": "skill-lead-generation",
+      "type": "MAPS_TO_SKILL"
+    },
+    {
+      "source": "req-02",
+      "target": "skill-marketing",
+      "type": "MAPS_TO_SKILL"
+    },
+    {
+      "source": "req-02",
+      "target": "skill-growth",
+      "type": "MAPS_TO_SKILL"
+    },
+    {
+      "source": "job-sandboxaq-product-growth-marketer-ai-simulation",
+      "target": "req-03",
+      "type": "REQUIRES"
+    },
+    {
+      "source": "req-03",
+      "target": "skill-business-development",
+      "type": "MAPS_TO_SKILL"
+    },
+    {
+      "source": "req-03",
+      "target": "skill-marketing",
+      "type": "MAPS_TO_SKILL"
+    },
+    {
+      "source": "req-03",
+      "target": "skill-product-strategy",
+      "type": "MAPS_TO_SKILL"
+    },
+    {
+      "source": "job-sandboxaq-product-growth-marketer-ai-simulation",
+      "target": "req-04",
+      "type": "REQUIRES"
+    },
+    {
+      "source": "req-04",
+      "target": "skill-seo",
+      "type": "MAPS_TO_SKILL"
+    },
+    {
+      "source": "req-04",
+      "target": "skill-inbound",
+      "type": "MAPS_TO_SKILL"
+    },
+    {
+      "source": "req-04",
+      "target": "skill-content-marketing",
+      "type": "MAPS_TO_SKILL"
+    },
+    {
+      "source": "job-sandboxaq-product-growth-marketer-ai-simulation",
+      "target": "req-05",
+      "type": "REQUIRES"
+    },
+    {
+      "source": "req-05",
+      "target": "skill-seo",
+      "type": "MAPS_TO_SKILL"
+    },
+    {
+      "source": "req-05",
+      "target": "skill-content-marketing",
+      "type": "MAPS_TO_SKILL"
+    },
+    {
+      "source": "job-sandboxaq-product-growth-marketer-ai-simulation",
+      "target": "req-06",
+      "type": "REQUIRES"
+    },
+    {
+      "source": "req-06",
+      "target": "skill-narratives",
+      "type": "MAPS_TO_SKILL"
+    },
+    {
+      "source": "req-06",
+      "target": "skill-technical-writing",
+      "type": "MAPS_TO_SKILL"
+    },
+    {
+      "source": "req-06",
+      "target": "skill-content-creation",
+      "type": "MAPS_TO_SKILL"
+    },
+    {
+      "source": "req-06",
+      "target": "skill-copywriting",
+      "type": "MAPS_TO_SKILL"
+    },
+    {
+      "source": "req-06",
+      "target": "skill-content-marketing",
+      "type": "MAPS_TO_SKILL"
+    },
+    {
+      "source": "job-sandboxaq-product-growth-marketer-ai-simulation",
+      "target": "req-07",
+      "type": "REQUIRES"
+    },
+    {
+      "source": "req-07",
+      "target": "skill-paid-media",
+      "type": "MAPS_TO_SKILL"
+    },
+    {
+      "source": "req-07",
+      "target": "skill-content-marketing",
+      "type": "MAPS_TO_SKILL"
+    },
+    {
+      "source": "req-07",
+      "target": "skill-email-marketing",
+      "type": "MAPS_TO_SKILL"
+    },
+    {
+      "source": "job-sandboxaq-product-growth-marketer-ai-simulation",
+      "target": "req-08",
+      "type": "REQUIRES"
+    },
+    {
+      "source": "req-08",
+      "target": "skill-crm-enablement",
+      "type": "MAPS_TO_SKILL"
+    },
+    {
+      "source": "req-08",
+      "target": "skill-playbooks",
+      "type": "MAPS_TO_SKILL"
+    },
+    {
+      "source": "req-08",
+      "target": "skill-sales-enablement",
+      "type": "MAPS_TO_SKILL"
+    },
+    {
+      "source": "req-08",
+      "target": "skill-training",
+      "type": "MAPS_TO_SKILL"
+    },
+    {
+      "source": "req-08",
+      "target": "skill-coaching",
+      "type": "MAPS_TO_SKILL"
+    },
+    {
+      "source": "job-sandboxaq-product-growth-marketer-ai-simulation",
+      "target": "req-09",
+      "type": "REQUIRES"
+    },
+    {
+      "source": "req-09",
+      "target": "skill-crm-enablement",
+      "type": "MAPS_TO_SKILL"
+    },
+    {
+      "source": "req-09",
+      "target": "skill-automation",
+      "type": "MAPS_TO_SKILL"
+    },
+    {
+      "source": "req-09",
+      "target": "skill-crm",
+      "type": "MAPS_TO_SKILL"
+    },
+    {
+      "source": "job-sandboxaq-product-growth-marketer-ai-simulation",
+      "target": "req-10",
+      "type": "REQUIRES"
+    },
+    {
+      "source": "req-10",
+      "target": "skill-cro",
+      "type": "MAPS_TO_SKILL"
+    },
+    {
+      "source": "req-10",
+      "target": "skill-funnel",
+      "type": "MAPS_TO_SKILL"
+    },
+    {
+      "source": "req-10",
+      "target": "skill-lead-generation",
+      "type": "MAPS_TO_SKILL"
+    },
+    {
+      "source": "job-sandboxaq-product-growth-marketer-ai-simulation",
+      "target": "req-11",
+      "type": "REQUIRES"
+    },
+    {
+      "source": "req-11",
+      "target": "skill-revenue-analytics",
+      "type": "MAPS_TO_SKILL"
+    },
+    {
+      "source": "req-11",
+      "target": "skill-roi",
+      "type": "MAPS_TO_SKILL"
+    },
+    {
+      "source": "req-11",
+      "target": "skill-metrics",
+      "type": "MAPS_TO_SKILL"
+    },
+    {
+      "source": "req-11",
+      "target": "skill-analytics",
+      "type": "MAPS_TO_SKILL"
+    },
+    {
+      "source": "job-sandboxaq-product-growth-marketer-ai-simulation",
+      "target": "req-12",
+      "type": "REQUIRES"
+    },
+    {
+      "source": "req-12",
+      "target": "skill-analytics",
+      "type": "MAPS_TO_SKILL"
+    },
+    {
+      "source": "req-12",
+      "target": "skill-power-bi",
+      "type": "MAPS_TO_SKILL"
+    },
+    {
+      "source": "job-sandboxaq-product-growth-marketer-ai-simulation",
+      "target": "req-13",
+      "type": "REQUIRES"
+    },
+    {
+      "source": "req-13",
+      "target": "skill-prompt-engineering",
+      "type": "MAPS_TO_SKILL"
+    },
+    {
+      "source": "req-13",
+      "target": "skill-ai",
+      "type": "MAPS_TO_SKILL"
+    },
+    {
+      "source": "req-13",
+      "target": "skill-ai-implementation",
+      "type": "MAPS_TO_SKILL"
+    },
+    {
+      "source": "job-sandboxaq-product-growth-marketer-ai-simulation",
+      "target": "req-14",
+      "type": "REQUIRES"
+    },
+    {
+      "source": "req-14",
+      "target": "skill-automation",
+      "type": "MAPS_TO_SKILL"
+    },
+    {
+      "source": "job-sandboxaq-product-growth-marketer-ai-simulation",
+      "target": "req-15",
+      "type": "REQUIRES"
+    },
+    {
+      "source": "req-15",
+      "target": "skill-cross-functional",
+      "type": "MAPS_TO_SKILL"
+    },
+    {
+      "source": "req-15",
+      "target": "skill-leadership",
+      "type": "MAPS_TO_SKILL"
+    },
+    {
+      "source": "req-15",
+      "target": "skill-collaboration",
+      "type": "MAPS_TO_SKILL"
+    },
+    {
+      "source": "job-sandboxaq-product-growth-marketer-ai-simulation",
+      "target": "req-16",
+      "type": "REQUIRES"
+    },
+    {
+      "source": "req-16",
+      "target": "skill-cross-functional",
+      "type": "MAPS_TO_SKILL"
+    },
+    {
+      "source": "req-16",
+      "target": "skill-leadership",
+      "type": "MAPS_TO_SKILL"
+    },
+    {
+      "source": "req-16",
+      "target": "skill-collaboration",
+      "type": "MAPS_TO_SKILL"
+    },
+    {
+      "source": "job-sandboxaq-product-growth-marketer-ai-simulation",
+      "target": "req-17",
+      "type": "REQUIRES"
+    },
+    {
+      "source": "req-17",
+      "target": "skill-product-positioning",
+      "type": "MAPS_TO_SKILL"
+    },
+    {
+      "source": "req-17",
+      "target": "skill-narratives",
+      "type": "MAPS_TO_SKILL"
+    },
+    {
+      "source": "req-17",
+      "target": "skill-copywriting",
+      "type": "MAPS_TO_SKILL"
+    },
+    {
+      "source": "req-17",
+      "target": "skill-product-strategy",
+      "type": "MAPS_TO_SKILL"
+    },
+    {
+      "source": "job-sandboxaq-product-growth-marketer-ai-simulation",
+      "target": "req-18",
+      "type": "REQUIRES"
+    },
+    {
+      "source": "req-18",
+      "target": "skill-backlog",
+      "type": "MAPS_TO_SKILL"
+    },
+    {
+      "source": "req-18",
+      "target": "skill-product-strategy",
+      "type": "MAPS_TO_SKILL"
+    },
+    {
+      "source": "req-18",
+      "target": "skill-roadmap",
+      "type": "MAPS_TO_SKILL"
+    },
+    {
+      "source": "job-sandboxaq-product-growth-marketer-ai-simulation",
+      "target": "req-19",
+      "type": "REQUIRES"
+    },
+    {
+      "source": "req-19",
+      "target": "skill-narratives",
+      "type": "MAPS_TO_SKILL"
+    },
+    {
+      "source": "req-19",
+      "target": "skill-training",
+      "type": "MAPS_TO_SKILL"
+    },
+    {
+      "source": "req-19",
+      "target": "skill-facilitation",
+      "type": "MAPS_TO_SKILL"
+    },
+    {
+      "source": "job-sandboxaq-product-growth-marketer-ai-simulation",
+      "target": "req-20",
+      "type": "REQUIRES"
+    },
+    {
+      "source": "req-20",
+      "target": "skill-content-creation",
+      "type": "MAPS_TO_SKILL"
+    },
+    {
+      "source": "req-20",
+      "target": "skill-copywriting",
+      "type": "MAPS_TO_SKILL"
+    },
+    {
+      "source": "req-20",
+      "target": "skill-technical-writing",
+      "type": "MAPS_TO_SKILL"
+    },
+    {
+      "source": "job-sandboxaq-product-growth-marketer-ai-simulation",
+      "target": "req-21",
+      "type": "REQUIRES"
+    },
+    {
+      "source": "req-21",
+      "target": "skill-experimentation",
+      "type": "MAPS_TO_SKILL"
+    },
+    {
+      "source": "job-sandboxaq-product-growth-marketer-ai-simulation",
+      "target": "req-22",
+      "type": "REQUIRES"
+    },
+    {
+      "source": "req-22",
+      "target": "skill-business-models",
+      "type": "MAPS_TO_SKILL"
+    },
+    {
+      "source": "req-22",
+      "target": "skill-monetization",
+      "type": "MAPS_TO_SKILL"
+    },
+    {
+      "source": "req-22",
+      "target": "skill-business-model",
+      "type": "MAPS_TO_SKILL"
     }
   ],
   "categories": {

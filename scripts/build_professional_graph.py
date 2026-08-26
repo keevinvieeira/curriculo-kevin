@@ -313,6 +313,59 @@ def build_graph(master: dict[str, Any]) -> dict[str, Any]:
             })
             edges.append({"source": company_id, "target": metric_id, "type": "HAS_METRIC"})
 
+    # --- Perfil do candidato: contact + education + certifications + languages ---
+    # Tudo derivado do master_resume (fonte unica de verdade). Nao inventa.
+    pi = master.get("personal_info", {})
+    cand_node = nodes[0]
+    cand_node["labels"] = {"pt": pi.get("name", "Kevin"), "en": pi.get("name", "Kevin")}
+    cand_node["location"] = pi.get("location", {})
+    cand_node["phone"] = pi.get("phone", "")
+    cand_node["email"] = pi.get("email", "")
+    cand_node["linkedin"] = pi.get("linkedin", "")
+    cand_node["github"] = pi.get("github", "")
+    cand_node["website"] = pi.get("website", "")
+
+    for edu_index, edu in enumerate(master.get("education", []), 1):
+        edu_id = f"edu-{edu_index}"
+        degree = edu.get("degree", {})
+        add_node({
+            "id": edu_id,
+            "type": "Education",
+            "labels": {"pt": degree.get("pt", ""), "en": degree.get("en", "")},
+            "institution": edu.get("institution", ""),
+            "dates": edu.get("dates", ""),
+            "size": 0.7,
+            "color": "#f472b6",
+        })
+        edges.append({"source": "candidate", "target": edu_id, "type": "HAS_EDUCATION"})
+
+    for cert_index, cert in enumerate(master.get("certifications", []), 1):
+        cert_id = f"cert-{cert_index}"
+        name = cert.get("name", "")
+        add_node({
+            "id": cert_id,
+            "type": "Certification",
+            "labels": {"pt": name, "en": name},
+            "issuer": cert.get("issuer", ""),
+            "status": cert.get("status", {}),
+            "size": 0.6,
+            "color": "#34d399",
+        })
+        edges.append({"source": "candidate", "target": cert_id, "type": "HAS_CERTIFICATION"})
+
+    for lang_index, lang in enumerate(master.get("languages", {}).get("en", []), 1):
+        lang_id = f"lang-{lang_index}"
+        add_node({
+            "id": lang_id,
+            "type": "Language",
+            "labels": {"pt": master.get("languages", {}).get("pt", [{}])[lang_index - 1].get("language", ""),
+                       "en": lang.get("language", "")},
+            "proficiency": lang.get("proficiency", ""),
+            "size": 0.5,
+            "color": "#38bdf8",
+        })
+        edges.append({"source": "candidate", "target": lang_id, "type": "HAS_LANGUAGE"})
+
     for edge in edges:
         if edge["source"] not in node_ids or edge["target"] not in node_ids:
             raise ValueError(f"Edge references unknown node: {edge}")
@@ -330,7 +383,10 @@ def build_graph(master: dict[str, Any]) -> dict[str, Any]:
             "total_metrics": sum(node["type"] == "Metric" for node in nodes),
             "total_roles": sum(node["type"] == "Role" for node in nodes),
             "total_functions": sum(node["type"] == "Function" for node in nodes),
-        },
+            "total_education": sum(node["type"] == "Education" for node in nodes),
+            "total_certifications": sum(node["type"] == "Certification" for node in nodes),
+            "total_languages": sum(node["type"] == "Language" for node in nodes),
+            },
     }
 
 

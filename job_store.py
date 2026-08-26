@@ -80,13 +80,27 @@ def validate_job(job: dict[str, Any], master_resume: dict[str, Any]) -> list[str
     if triage.get("decision") not in {"adapt", "hold", "discard"}:
         errors.append("triage.decision must be adapt, hold, or discard")
 
+    # Títulos reais do master resume (fatos legítimos, mesmo que contenham founder/co-founder)
+    master_titles = set()
+    for item in master_resume.get("work_experience", []):
+        for role in item.get("roles", []):
+            title = role.get("title") if isinstance(role, dict) else None
+            if isinstance(title, dict):
+                for v in title.values():
+                    if isinstance(v, str):
+                        master_titles.add(v.casefold())
+            elif isinstance(title, str):
+                master_titles.add(title.casefold())
+
     for language, resume in job.get("resume", {}).items():
         if not resume.get("summary"):
             errors.append(f"resume.{language}.summary is required")
         for experience in resume.get("experience", []):
             title = experience.get("role", "").casefold()
             if any(forbidden in title for forbidden in FORBIDDEN_TITLES):
-                errors.append(f"resume.{language} contains forbidden role title: {experience.get('role')}")
+                # Permite se o título existe de fato no master resume (cargo real)
+                if title not in master_titles:
+                    errors.append(f"resume.{language} contains forbidden role title: {experience.get('role')}")
 
     company = metadata.get("company_name", "").casefold()
     for language, materials in job.get("materials", {}).items():

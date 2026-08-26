@@ -6,70 +6,163 @@
   "linkedin": "https://www.linkedin.com/in/kevin-augusto/",
   "github": "",
   "website": "",
-  "summary": "Especialista em Go-to-Market, Produto e Sales Enablement com mais de 8 anos de experiência transformando atualizações de produtos digitais em propostas de valor, planos de ativação, campanhas e materiais para times comerciais. Na Wipro, no Projeto Meta, foi referência técnica para mais de 150 profissionais, liderou pilares de Sales Excellence e Sales Productivity e coordenou treinamentos, playbooks e adoção de IA no CRM, elevando o uso em 150%. Combina governança ágil, gestão de stakeholders, análise de dados e comunicação executiva para organizar lançamentos, riscos, dependências e resultados.",
+  "summary": "Marketeiro de Produto & Growth que constrói programas de GTM, sales enablement e geração de demanda e transforma capacidade técnica complexa em valor para o comprador. Na Wipro (Projeto Meta) capacitou 150+ profissionais de marketing, elevou a adoção de IA nativa no CRM de 4 para 10 prompts/dia (+150%) e tornou a operação #1 global em crescimento de adoção de IA. No Meu Barzin, capturou 505 leads qualificados e mapeou ~200 estabelecimentos enquanto arquitetava um agente conversacional com RAG. Na Munzner e AK Branding construiu funis automatizados (10.000+ acessos, ~R$ 50k high-ticket; +250% na captação de leads) e conteúdo inbound/SEO (~1.000 visitas orgânicas, ~10% visitor-to-lead). Usa ferramentas de IA (IA nativa, n8n, prompt engineering) e mensura pipeline com Power BI, ROI e mapeamento de gargalos de funil.",
   "experience": [
     {
       "company": "Wipro",
-      "role": "Especialista em GTM, Sales Enablement e Operações de Marketing (Projeto Meta)",
-      "dates": "Setembro 2024 – Julho 2026",
-      "location": "Curitiba, PR",
+      "role": "Marketing Operations / Sales Enablement & GTM Specialist (Meta Project)",
+      "dates": "September 2024 – July 2026",
+      "location": "Curitiba, Brazil",
       "bullets": [
-        "Traduziu atualizações do portfólio da Meta em propostas de valor, pitches, frameworks, scripts e materiais para mais de 150 profissionais.",
-        "Participou do squad de capacitação usando reuniões diárias, OKRs, roadmap e backlog para priorizar demandas de clientes, líderes e consultores.",
-        "Liderou a ativação de IA no CRM, elevando o uso de 4 para 10 prompts/dia por consultor (+150%) e tornando a operação a #1 global em crescimento de adoção.",
-        "Usou Power BI, Excel, escuta de calls e análise de causa raiz para orientar planos de ação e otimização de funis."
+        "Responsável pela execução de ativações de enablement, estratégias de adoção e posicionamento prático de produtos para impulsionar a produtividade de vendas e o crescimento de receita no Projeto Libra (Meta).",
+        "Referência técnica na operação em estratégias de anúncios na Meta, atuando na absorção de materiais oficiais do cliente e replicação estratégica de inovações de produto e Go-to-Market (GTM) para mais de 150 Meta Marketing Pros.",
+        "Ownership de IA no CRM e Adoção Recorde: Liderou a ativação e adoção da IA nativa no CRM proprietário da Meta, do onboarding ao acompanhamento presencial side-by-side de 3 semanas. Estruturou casos de uso, prompts, workshops, role plays e compartilhamento de boas práticas da linha de frente. Elevou o uso de 4 para 10 prompts/dia por consultor (+150%), tornando a operação a #1 global em crescimento de adoção e melhorando a qualidade contextual dos prompts em chamadas ao vivo.",
+        "Aplicação de análise de causa raiz para identificar lacunas de conhecimento no time, coordenando o diagnóstico, o desenho e o acompanhamento de planos de ação corretivos, além da construção de playbooks, scripts e materiais de suporte comercial.",
+        "Liderança dos pilares de Sales Excellence e Sales Productivity, traduzindo atualizações do portfólio de produtos da Meta em propostas de valor claras, pitches comerciais e frameworks práticos de vendas para o time do front."
       ]
     },
     {
       "company": "Meu Barzin (Startup)",
-      "role": "Product e Go-to-Market Manager",
-      "dates": "Dezembro 2025 – Março 2026",
-      "location": "Curitiba, PR",
+      "role": "Co-Founder & Product Manager",
+      "dates": "December 2025 – March 2026",
+      "location": "Curitiba, Brazil",
       "bullets": [
-        "Concebeu um MVP conversacional, definiu modelo de assinatura e validou a proposta com parceiros B2B.",
-        "Captou 505 leads e usou entrevistas e dados de funil para identificar barreiras de oferta e 43,9% de abandono na primeira mensagem."
-      ]
-    },
-    {
-      "company": "AK Branding & Web Design",
-      "role": "Consultor de Projetos de Marketing e Produto",
-      "dates": "Março 2019 – Setembro 2024",
-      "location": "Curitiba, PR",
-      "bullets": [
-        "Entregou mais de 40 projetos para PMEs, coordenando posicionamento, arquitetura web, escopo, orçamento e cronogramas.",
-        "Executou testes A/B em campanhas, landing pages e experiências web; fluxos de chatbot elevaram leads de 8 para 20-30 por mês (+250%)."
+        "Concepção do MVP: Idealizou o ecossistema conversacional no WhatsApp integrado ao 'Meu Barzin Pass' (assinatura mensal de R$ 19,90 com benefício 'Compre 1, Leve 2' em bares locais), desenhando o modelo de negócios e validando a monetização com parceiros B2B.",
+        "Geração de Demanda e Métricas: Captou 505 leads qualificados de topo de funil com campanhas orgânicas e anúncios (além de crescer o Instagram para 2.000+ seguidores), alcançando uma taxa de 22,3% de usuários altamente engajados (conversando 4+ vezes com a IA).",
+        "Desenvolvimento de Negócios B2B: Liderou a prospecção direta de bares de grande relevância em Curitiba, assinando parcerias de peso para o piloto de benefícios (como o Gal Gastrobar e o Officina).",
+        "Arquitetura Conversacional e UX: Desenhou fluxos conversacionais inteligentes via ManyChat e n8n, integrando RAG e regras de 'Alucinação Zero' para que o agente (mascote Capizin, Sommelier de Bares) fizesse buscas ricas de bares locais sem inventar dados.",
+        "Bancos de Dados e CRM: Estruturou bases e protótipos de CRM utilizando Supabase/PostgreSQL e NocoDB, trabalhando com modelagem, organização e exploração de dados para apoiar operações e produtos digitais."
       ]
     },
     {
       "company": "Munzner",
-      "role": "Especialista em Marketing, Growth e Automação",
-      "dates": "Outubro 2018 – Agosto 2024",
+      "role": "Marketing & Growth Specialist",
+      "dates": "October 2018 – August 2024",
       "location": "Curitiba, PR",
       "bullets": [
-        "Lançou o primeiro curso digital da empresa, alcançando 50 vendas em 2 meses e ROI de 1,0x a 1,5x.",
-        "Estruturou funil automatizado de 10 etapas que gerou aproximadamente R$ 50 mil em receita."
+        "Especialização na metodologia global Thinking Environment para a construção de narrativas técnicas de alto impacto, aplicando os conceitos de escuta e facilitação na criação de conteúdos estratégicos para mídias sociais, posicionamento institucional e anúncios pagos.",
+        "Inbound Marketing e SEO Orgânico: Redigiu ~10 artigos estratégicos no blog alinhados à metodologia Thinking Environment, gerando ~1.000 visitas orgânicas e ~100 leads qualificados de alto valor (taxa de conversão visitor-to-lead de ~10%).",
+        "Funil Automatizado de High-Ticket (~R$ 50k em Receita): Estruturou funil de e-mail marketing automatizado de 10 etapas (Bitrix24/Sendpulse) que atraiu 10.000+ acessos e converteu 10 matriculados em formações presenciais de R$ 5.000 (~R$ 50k em receita de tickets altos gerada por automação).",
+        "Mensuração de Monetização: Acompanhou canais, caminhos de aquisição e dados de CRM para avaliar conversão, receita e ROI do funil, orientando ajustes de campanhas, conteúdo e estratégias de monetização.",
+        "Lançamento de Infoproduto (0 a 1): Idealizou e lançou o 1º curso digital da empresa (MasterStudy LMS/WordPress) como um produto de entrada (tripwire) para a metodologia pioneira Thinking Environment. Conquistou 50 vendas nos primeiros 2 meses com ROI de 1.0x a 1.5x, validando a aquisição de leads de forma autossustentável."
+      ]
+    },
+    {
+      "company": "AK Branding & Web Design",
+      "role": "Founder & Marketing Project Consultant",
+      "dates": "March 2019 – September 2024",
+      "location": "Curitiba, PR",
+      "bullets": [
+        "Otimização de Conversão (CRO) e Chatbots: Implementou interfaces de chatbot e fluxos de UX que elevaram a captação de leads de 8 para 20-30 contatos/mês (+250%) em sites corporativos, além de criar landing pages para a construção civil que geravam 5 leads qualificados/dia.",
+        "Experimentação de Growth: Planejou e executou testes A/B em campanhas de anúncios, landing pages e experiências web para validar hipóteses de aquisição e conversão, orientando ajustes de criativos, mensagens e jornadas digitais.",
+        "Conformidade LGPD em 100% dos Projetos: Antes da adoção de ferramentas de IA, estudou os requisitos da Lei Geral de Proteção de Dados, redigiu políticas de privacidade e termos de uso personalizados e projetou e implementou a experiência visual dos banners e fluxos de consentimento de cookies. O trabalho consultivo fortaleceu sua autoridade técnica perante os clientes.",
+        "Lançamento de E-Commerce de 0 a 1: Desenvolveu loja virtual do zero que atingiu R$ 10.000 em faturamento nos primeiros 3 meses de operação de forma 100% orgânica (R$0 em ads), alavancada apenas por posicionamento estratégico no Instagram."
+      ]
+    },
+    {
+      "company": "Conversas Brasileiras",
+      "role": "Co-Founder",
+      "dates": "August 2018 – September 2019",
+      "location": "Curitiba, Paraná, Brazil",
+      "bullets": [
+        "Desenvolvimento de Negócios e Parcerias B2B: Prospecção e negociação estratégica com espaços locais, como co-workings e centros culturais, garantindo a infraestrutura necessária para os encontros através de parcerias de benefício mútuo.",
+        "Gestão e Engajamento de Comunidade (Community Management): Idealização e condução do projeto de ponta a ponta, criando conteúdos estratégicos e canais de comunicação para atrair, engajar e reter membros alinhados com o propósito do ecossistema.",
+        "O 'Conversas Brasileiras' foi uma iniciativa social e experimental voltada para a criação de espaços de diálogo, fomento ao pensamento crítico e ativação da inteligência coletiva através de metodologias de facilitação humana e inovação social.",
+        "Facilitação e Inteligência Coletiva: Planejamento e moderação de 5 edições de rodas de conversa pela cidade (média de 20 participantes por encontro, engajando ~100 pessoas) utilizando abordagens de Art of Hosting (A Arte de Anfitriar) e Thinking Environment, aplicando dinâmicas como Aquário (Fishbowl) e círculos de diálogo.",
+        "Experimentação de Modelos de Negócio: Concepção e teste prático de formatos de monetização consciente (como precificação baseada em valor percebido / pay-what-you-want), gerando aprendizados valiosos sobre comportamento de consumo, sustentabilidade financeira de projetos e validação de hipóteses de mercado."
+      ]
+    },
+    {
+      "company": "Alvesa Transportes Logística Ltda.",
+      "role": "Administrative Assistant",
+      "dates": "May 2015 – May 2016",
+      "location": "Curitiba, PR",
+      "bullets": [
+        "Apoio ao marketing por meio da criação de conteúdo para redes sociais e coordenação básica de campanhas."
       ]
     }
   ],
   "skills": [
     {
-      "category": "GTM e Enablement",
+      "category": "IA e Automação",
       "skills": [
-        "Go-to-Market (GTM)",
-        "Sales Enablement Frameworks",
-        "Sales Productivity",
-        "Playbooks & Scripts Comerciais",
-        "Gestão de Stakeholders"
+        "Automação",
+        "Engenharia de Prompts",
+        "Implementação de IA",
+        "Inteligência Artificial"
       ]
     },
     {
-      "category": "Projetos e Dados",
+      "category": "Dados e Analytics",
       "skills": [
-        "Metodologias Ágeis (Kanban, Scrum)",
-        "OKRs, KPIs, Roadmap e Backlog",
-        "Diretrizes de PMO",
-        "Business Intelligence (Power BI/Tableau)",
-        "Análise de Causa Raiz"
+        "Análise de Dados",
+        "Análise de Receita",
+        "Métricas",
+        "Power BI",
+        "ROI"
+      ]
+    },
+    {
+      "category": "Liderança e Operações",
+      "skills": [
+        "Backlog",
+        "Colaboração",
+        "Colaboração Interfuncional",
+        "Liderança",
+        "Roadmap"
+      ]
+    },
+    {
+      "category": "Vendas e Enablement",
+      "skills": [
+        "CRM",
+        "Capacitação em CRM",
+        "Coaching",
+        "Desenvolvimento de Negócios",
+        "Playbooks",
+        "Posicionamento de Produto",
+        "Sales Enablement",
+        "Treinamento"
+      ]
+    },
+    {
+      "category": "Produto e Estratégia",
+      "skills": [
+        "Estratégia de Produto",
+        "Experimentação",
+        "Modelo de Negócio",
+        "Modelos de Negócio",
+        "Monetização"
+      ]
+    },
+    {
+      "category": "Growth e Marketing",
+      "skills": [
+        "Copywriting",
+        "Criação de Conteúdo",
+        "E-mail Marketing",
+        "Funil",
+        "Geração de Leads",
+        "Growth",
+        "Inbound Marketing",
+        "Marketing",
+        "Marketing de Conteúdo",
+        "Mídia Paga",
+        "Narrativas",
+        "Otimização de Conversão",
+        "SEO"
+      ]
+    },
+    {
+      "category": "Facilitação e Comunidade",
+      "skills": [
+        "Facilitação"
+      ]
+    },
+    {
+      "category": "Qualidade e Governança",
+      "skills": [
+        "Redação Técnica"
       ]
     }
   ],
@@ -78,24 +171,70 @@
       "institution": "Universidade Federal do Paraná (UFPR)",
       "degree": "Bacharelado e Licenciatura em Filosofia",
       "dates": "2018 – 2023"
+    },
+    {
+      "institution": "Recanto da Filosofia Clínica",
+      "degree": "Especialização em Filosofia Clínica",
+      "dates": "Janeiro 2023 – Dezembro 2024"
+    },
+    {
+      "institution": "Universidade Federal do Paraná (UFPR) / UTFPR",
+      "degree": "Engenharia Elétrica / Eletrônica (Incompleto)",
+      "dates": "2012 – 2015"
     }
   ],
   "certifications": [
     {
       "name": "Google Project Management Professional Certificate",
       "issuer": "Coursera / Google",
-      "status": "Em andamento / iniciado em Setembro 2025"
+      "status": "Em andamento / Iniciado em Setembro 2025"
+    },
+    {
+      "name": "Meta Certified Media Planning Professional",
+      "issuer": "Meta",
+      "status": "Ativo"
+    },
+    {
+      "name": "Meta Certified Digital Marketing Associate",
+      "issuer": "Meta",
+      "status": "Ativo"
+    },
+    {
+      "name": "Facilitador de Thinking Environment",
+      "issuer": "Munzner",
+      "status": "Maio 2020"
+    },
+    {
+      "name": "Thinking Partnership",
+      "issuer": "Munzner",
+      "status": "Novembro 2019"
+    },
+    {
+      "name": "Fundamentos do Thinking Environment",
+      "issuer": "Munzner",
+      "status": "Outubro 2019"
+    },
+    {
+      "name": "Programa de Mentoria em Project Management",
+      "issuer": "FoundersPM",
+      "status": "Em Andamento"
     }
   ],
   "languages": [
     {
-      "language": "Português",
-      "proficiency": "Nativo"
+      "language": "English",
+      "proficiency": "Advanced / Professional Full Proficiency (Daily corporate use for technical reporting, international team coordination, and stakeholder alignment)"
     },
     {
-      "language": "Inglês",
-      "proficiency": "Avançado / profissional; uso diário corporativo"
+      "language": "Spanish",
+      "proficiency": "Basic"
+    },
+    {
+      "language": "Portuguese",
+      "proficiency": "Native"
     }
   ],
-  "additional_information": []
+  "additional_information": [
+    "Contact, education, certifications and languages now come from the enriched knowledge graph (graph_clean.json). Remaining graph gaps: life sciences / biopharma, chemistry / materials science, physics simulation, Google Ads, Salesforce / HubSpot, Python, newsletter / sequence building, field marketing / events, competitor research."
+  ]
 }

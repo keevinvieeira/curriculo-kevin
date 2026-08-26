@@ -353,7 +353,7 @@ class SkillTransferabilityEngine:
         print(f"Transferability matrix exported to: {output_path}")
 
 
-def build_transferability_engine(graph_path: str = "data/graph_with_cases.json") -> SkillTransferabilityEngine:
+def build_transferability_engine(graph_path: str = "data/graph_clean.json") -> SkillTransferabilityEngine:
     """Factory function to build engine from graph file."""
     engine = GraphEngine()
     engine.load_json(graph_path)

@@ -1,0 +1,250 @@
+{
+  "id": "sandboxaq-product-growth-marketer-ai-simulation",
+  "metadata": {
+    "company_name": "SandboxAQ",
+    "role_title": "Product & Growth Marketer, AI Simulation",
+    "url": "https://www.sandboxaq.com/careers-list?ashby_jid=42615b29-0fcb-429c-b305-8fa6b1137153&utm_source=LinkedInPaid",
+    "fit_score": 78,
+    "document_language": "en",
+    "available_languages": ["pt", "en"],
+    "location": "Remote (United States / Global)",
+    "work_model": "Remote",
+    "employment_type": "Full-time",
+    "salary_range": "Not published by SandboxAQ; third-party aggregator (Teal) listed $99,200-$186,000 base",
+    "salary_expectation": "R$ 15,000-22,000/month (Brazil/PJ) | $4,000-6,000 USD/month (Remote International)",
+    "posted_date": "2026-07-12 (per mirror boards)",
+    "verified_at": "2026-08-26",
+    "source_status": "Ashby API returned 401 and the careers landing page is an SPA that does not render the posting; full JD reconstructed from trusted mirror boards (Getro/Teal/HireConcierge) that republish the Ashby posting. No facts invented.",
+    "source_files": ["master_resume.json"],
+    "good_points": [
+      "Hands-on Sales Enablement and GTM activation at scale: translated Meta product updates into value props, pitches and frameworks adopted by 150+ Marketing Pros, and made the operation #1 globally in CRM AI adoption growth (+150%).",
+      "Demand generation with measured results: 10-stage nurture funnel (10,000+ visits, ~R$50k high-ticket), CRO lifting leads +250%, 505 qualified top-of-funnel leads and 22.3% repeat AI engagement at Meu Barzin.",
+      "Translates complex technical capability into buyer value: architected RAG + zero-hallucination conversational AI and coached consultants to use native AI in live calls — directly analogous to turning AISim's LQMs into commercial stories.",
+      "Uses AI tools to expand personal impact (native AI implementation, n8n, prompt engineering) and measures pipeline via Power BI, CAC/LTV/ROAS and funnel-bottleneck mapping."
+    ],
+    "improvement_points": [
+      "No direct life-sciences, chemistry, biopharma or simulation-domain background; AISim is biopharma/chemicals/materials.",
+      "No formal 'Product Marketing' title; evidence is GTM / Sales Enablement / Product Manager / Growth.",
+      "English is advanced/professional corporate, not 'fluent' as the US role may assess.",
+      "No published case studies / white-paper / thought-leadership assets for a deep-tech scientific buyer yet."
+    ]
+  },
+  "triage": {
+    "decision": "adapt",
+    "blockers": [],
+    "deadline": "Not stated",
+    "notes": [
+      "Positioning should lead with GTM + Sales Enablement + demand generation + turning complex AI into buyer-facing value, not with a life-sciences claim.",
+      "Be explicit and honest that domain depth (biopharma/chemistry) is a gap; show transferable translation skill instead.",
+      "English represented only as advanced/professional, matching the master resume."
+    ],
+    "gaps": [
+      "No life-sciences / chemistry / biopharma domain experience.",
+      "No formal Product Marketing title.",
+      "No scientific white-paper / case-study portfolio.",
+      "English evidence is advanced/professional, not fluent."
+    ],
+    "risks": [
+      "AISim may favor candidates with scientific/marketing fluency in biopharma or simulation.",
+      "US-remote compensation and employment structure differ from Brazil/PJ expectation."
+    ]
+  },
+  "resume": {
+    "pt": {
+      "name": "Kevin Augusto Vieira",
+      "location": "Curitiba, PR | Remoto (Brasil/Global)",
+      "phone": "+55 (41) 99694-1615",
+      "email": "kevin.aug.vieira@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/kevin-augusto/",
+      "github": "",
+      "website": "",
+      "summary": "Especialista em GTM, Sales Enablement e Growth com mais de 8 anos conectando produtos e capacidades técnicas a compradores reais. Na Wipro, no Projeto Meta, transformei atualizações de produto em propostas de valor, pitches e frameworks adotados por 150+ consultores e levei a operação ao primeiro lugar global em adoção de IA no CRM (+150%). No Meu Barzin, estruturei um agente conversacional com RAG e regras de alucinação zero, gerei 505 leads qualificados e 22,3% de engajamento recorrente. Na Munzner e na AK Branding, construí funis de nutrição (10.000+ acessos, ~R$ 50 mil em receita), CRO (+250% em leads) e conteúdo inbound/SEO (10% visitor-to-lead). Uso n8n, Power BI e IA nativa para expandir impacto e mensuro pipeline por CAC, LTV, ROAS e mapeamento de gargalos de funil.",
+      "experience": [
+        {
+          "company": "Wipro",
+          "role": "Especialista em Sales Enablement, GTM e Adoção de IA (Projeto Meta)",
+          "dates": "Setembro 2024 - Julho 2026",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Liderei o enablement e a ativação GTM do CRM proprietário da Meta, transformando atualizações de portfólio em propostas de valor, pitches comerciais e frameworks práticos adotados por 150+ Meta Marketing Pros.",
+            "Elevei a adoção de IA nativa no CRM de 4 para 10 prompts/dia por consultor (+150%), tornando a operação a #1 global em crescimento de adoção - um caso de transformar capacidade técnica complexa em comportamento comercial diário.",
+            "Consolidei feedback da linha de frente em relatórios por funcionalidade para stakeholders globais da Meta, recomendando melhorias de resumo e e-mail por IA (contexto, controle de tom, métricas do anunciante); gestores globais indicaram implementações decorrentes desse feedback.",
+            "Idealizei e governei bootcamp pós-onboarding para 12 consultores com diagnóstico de Power BI, reduzindo o ramp-up de 6 para 3 meses (-50%) e atingindo 90%+ de qualidade e 90% de CSAT.",
+            "Atuei como ponte entre Enablement, Qualidade, Dados, Vendas e Marketing usando OKRs, roadmap e backlog, e contribuí para BCP e governança de compartilhamento seguro de dados."
+          ]
+        },
+        {
+          "company": "Meu Barzin (Startup)",
+          "role": "Product Manager & GTM Lead",
+          "dates": "Dezembro 2025 - Marco 2026",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Co-fundei e concebi o MVP e o modelo de monetização (assinarura de R$ 19,90/mes) de um agente conversacional no WhatsApp, desenhando o posicionamento e validando o valor de parcerias B2B com bares locais.",
+            "Arquitetei fluxos conversacionais com ManyChat e n8n integrando RAG e regras de alucinação zero, transformando uma capacidade de IA de fronteira em experiência confiável voltada ao comprador.",
+            "Capturei 505 leads qualificados de topo de funil e cresci o Instagram para 2.000+ seguidores; 22,3% dos usuários interagiram 4+ vezes com a IA - geracao de demanda mensuravel.",
+            "Mapeei gargalos de conversao por entrevistas qualitativas, identificando 43,9% de abandono na primeira mensagem e falta de liquidez de parceiros como bloqueadores de escala."
+          ]
+        },
+        {
+          "company": "AK Branding & Web Design",
+          "role": "Consultor de Transformacao Digital e Marketing",
+          "dates": "Marco 2019 - Setembro 2024",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Entreguei 40+ projetos digitais em 5 anos, assumindo posicionamento, arquitetura web, orcamentos e entrega coordenada para PMEs.",
+            "Implementei chatbots e fluxos de UX que elevaram a captacao de leads de 8 para 20-30/mes (+250%) e landing pages de imoveis gerando 5 leads qualificados/dia.",
+            "Planejei e executei testes A/B em anuncios, landing pages e experiencias web para validar hipoteses de aquisicao e conversao.",
+            "Pesquisei e apliquei a LGPD em 100% dos projetos, redigindo politicas de privacidade e fluxos de consentimento - credibilidade tecnica com compradores sensiveis a conformidade."
+          ]
+        },
+        {
+          "company": "Munzner",
+          "role": "Especialista em Growth, Facilitacao e Automacao",
+          "dates": "Outubro 2018 - Agosto 2024",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Estruturei funil de e-mail automatizado de 10 etapas (Bitrix24/Sendpulse) que atraiu 10.000+ acessos e converteu ~R$ 50 mil em receita de ticket alto.",
+            "Redigi ~10 artigos de blog estrategicos sobre a metodologia Thinking Environment, gerando ~1.000 visitas organicas e ~100 leads qualificados (10% visitor-to-lead) - motor de conteudo inbound/SEO.",
+            "Lancei o primeiro curso digital da marca como oferta de entrada (tripwire), com 50 vendas em 2 meses e ROI de 1.0-1.5x."
+          ]
+        }
+      ],
+      "skills": [
+        {"category": "Estrategia de Produto & Growth", "skills": ["Go-to-Market (GTM)", "Inbound Marketing", "SEO", "Estruturação de ICP (Ideal Customer Profile)", "Jornada do Usuário (UX/UI)", "Modelos de Monetização/Assinatura", "Testes A/B e Design de Experimentos"]},
+        {"category": "Sales & Ops", "skills": ["Sales Enablement Frameworks", "Gestão de Stakeholders", "Playbooks & Scripts Comerciais", "Escuta de Calls e Feedback Estruturado"]},
+        {"category": "CRM & Automação", "skills": ["n8n", "Integrações via APIs/Webhooks", "Supabase/PostgreSQL", "Sendpulse", "HubSpot", "RD Station", "Bitrix24"]},
+        {"category": "Dados, BI & Qualidade", "skills": ["Business Intelligence (Power BI/Tableau)", "Métricas de Marketing (CTR, CPL, CAC, LTV, Churn, ROAS, MQL→SQL)", "Mapeamento de Gargalos de Funil", "Análise de Causa Raiz", "SQL Básico e Exploração de Dados"]},
+        {"category": "IA & Ferramentas", "skills": ["Implementação de IAs Nativas em Fluxos de Trabalho", "Engenharia de Prompt Profissional", "Vibe Coding e Prototipagem Assistida por IA"]},
+        {"category": "Gestão de Projetos & Facilitação", "skills": ["Metodologias Ágeis (Kanban, Scrum)", "OKRs, KPIs, Roadmap e Backlog", "Facilitação Avançada (Thinking Environment / Art of Hosting)"]}
+      ],
+      "education": [
+        {"institution": "Universidade Federal do Paraná (UFPR)", "degree": "Bacharelado e Licenciatura em Filosofia", "dates": "2018 - 2023"},
+        {"institution": "Recanto da Filosofia Clínica", "degree": "Especialização em Filosofia Clínica", "dates": "Janeiro 2023 - Dezembro 2024"},
+        {"institution": "UFPR / UTFPR", "degree": "Engenharia Elétrica / Eletrônica (Incompleto)", "dates": "2012 - 2015"}
+      ],
+      "certifications": [
+        {"name": "Google Project Management Professional Certificate", "issuer": "Coursera / Google", "status": "Em andamento"},
+        {"name": "Meta Certified Media Planning Professional", "issuer": "Meta", "status": "Ativo"},
+        {"name": "Meta Certified Digital Marketing Associate", "issuer": "Meta", "status": "Ativo"},
+        {"name": "Facilitador de Thinking Environment", "issuer": "Munzner", "status": "Maio 2020"}
+      ],
+      "languages": [
+        {"language": "Português", "proficiency": "Nativo"},
+        {"language": "Inglês", "proficiency": "Avançado / Profissional; uso corporativo diário em relatórios, coordenação internacional e alinhamento de stakeholders"},
+        {"language": "Espanhol", "proficiency": "Básico"}
+      ],
+      "additional_information": ["Filosofia aplicada à comunicação de mudança e narrativas técnicas; interesse em saúde integrativa, longevidade e soluções digitais de bem-estar (Wellness/HealthTech)."]
+    },
+    "en": {
+      "name": "Kevin Augusto Vieira",
+      "location": "Curitiba, PR, Brazil | Remote",
+      "phone": "+55 (41) 99694-1615",
+      "email": "kevin.aug.vieira@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/kevin-augusto/",
+      "github": "",
+      "website": "",
+      "summary": "GTM, Sales Enablement and Growth specialist with 8+ years connecting products and complex technical capabilities to real buyers. At Wipro on the Meta Project, I turned product updates into value propositions, sales pitches and frameworks adopted by 150+ consultants and made the operation #1 globally for CRM AI adoption growth (+150%). At Meu Barzin, I architected a conversational agent with RAG and zero-hallucination rules, generated 505 qualified leads and 22.3% repeat AI engagement. At Munzner and AK Branding, I built nurture funnels (10,000+ visits, ~$50k high-ticket revenue), CRO lifting leads +250%, and inbound/SEO content (10% visitor-to-lead). I use n8n, Power BI and native AI to expand my impact and measure pipeline through CAC, LTV, ROAS and funnel-bottleneck mapping.",
+      "experience": [
+        {
+          "company": "Wipro",
+          "role": "Sales Enablement, GTM and AI Adoption Specialist (Meta Project)",
+          "dates": "September 2024 - July 2026",
+          "location": "Curitiba, Brazil",
+          "bullets": [
+            "Led sales enablement and GTM activation for Meta's proprietary CRM, translating portfolio updates into value propositions, sales pitches and practical frameworks adopted by 150+ Meta Marketing Pros.",
+            "Increased native CRM AI adoption from 4 to 10 prompts/consultant/day (+150%), making the operation #1 globally for adoption growth - a case of turning a complex technical capability into daily commercial behavior.",
+            "Consolidated frontline usage feedback into feature-level reports for Meta global stakeholders, recommending AI summary/email improvements (interaction context, tone control, advertiser metrics); global managers indicated implementations resulted from this feedback.",
+            "Designed and governed a post-onboarding bootcamp for 12 consultants using Power BI diagnosis, reducing ramp-up from 6 to 3 months (-50%) with 90%+ quality and 90% CSAT.",
+            "Acted as bridge across Enablement, Quality, Data, Sales and Marketing using OKRs, roadmap and backlog, and contributed to BCP and secure data-sharing governance."
+          ]
+        },
+        {
+          "company": "Meu Barzin (Startup)",
+          "role": "Product Manager & GTM Lead",
+          "dates": "December 2025 - March 2026",
+          "location": "Curitiba, Brazil",
+          "bullets": [
+            "Co-founded and conceived the MVP and monetization model (R$19.90/mo subscription) for a conversational WhatsApp agent, shaping product positioning and validating B2B partnership value with local venues.",
+            "Architected conversational flows with ManyChat and n8n integrating RAG and zero-hallucination rules, turning a frontier AI capability into a reliable buyer-facing experience.",
+            "Captured 505 qualified top-of-funnel leads and grew Instagram to 2,000+ followers; 22.3% of users engaged 4+ times with the AI - measurable demand generation.",
+            "Mapped conversion bottlenecks via qualitative interviews, identifying 43.9% first-message dropout and partner-liquidity gaps as scaling blockers."
+          ]
+        },
+        {
+          "company": "AK Branding & Web Design",
+          "role": "Digital Transformation and Marketing Consultant",
+          "dates": "March 2019 - September 2024",
+          "location": "Curitiba, Brazil",
+          "bullets": [
+            "Delivered 40+ digital projects over 5 years, owning positioning, web architecture, budgets and coordinated delivery for SMBs.",
+            "Implemented chatbots and UX flows that lifted monthly lead capture from 8 to 20-30 contacts (+250%) and built real-estate landing pages generating 5 qualified leads/day.",
+            "Planned and ran A/B tests across ads, landing pages and web experiences to validate acquisition and conversion hypotheses.",
+            "Researched and applied LGPD across 100% of projects, authoring privacy policies and consent flows - technical credibility with compliance-sensitive buyers."
+          ]
+        },
+        {
+          "company": "Munzner",
+          "role": "Growth, Facilitation and Automation Specialist",
+          "dates": "October 2018 - August 2024",
+          "location": "Curitiba, Brazil",
+          "bullets": [
+            "Built a 10-stage automated email nurturing funnel (Bitrix24/Sendpulse) attracting 10,000+ visits and converting ~$50k in high-ticket revenue.",
+            "Authored ~10 strategic blog articles on the Thinking Environment methodology, generating ~1,000 organic visits and ~100 qualified leads (10% visitor-to-lead) - an inbound/SEO content engine.",
+            "Launched the brand's first digital course as a tripwire, securing 50 sales in 2 months with 1.0-1.5x ROI."
+          ]
+        }
+      ],
+      "skills": [
+        {"category": "Product Strategy & Growth", "skills": ["Go-to-Market (GTM)", "Inbound Marketing", "SEO", "ICP (Ideal Customer Profile) Mapping", "User Journey (UX/UI)", "Monetization/Subscription Models", "A/B Testing and Experiment Design"]},
+        {"category": "Sales & Ops", "skills": ["Sales Enablement Frameworks", "Stakeholder Management", "Playbooks & Sales Scripts", "Call Listening & Structured Feedback"]},
+        {"category": "CRM & Automation", "skills": ["n8n", "API/Webhook Integrations", "Supabase/PostgreSQL", "Sendpulse", "HubSpot", "RD Station", "Bitrix24"]},
+        {"category": "Data, BI & Quality Assurance", "skills": ["Business Intelligence (Power BI/Tableau)", "Marketing Metrics (CTR, CPL, CAC, LTV, Churn, ROAS, MQL→SQL)", "Funnel Bottleneck Mapping", "Root Cause Analysis", "Basic SQL and Data Exploration"]},
+        {"category": "AI & Tools", "skills": ["Native AI Implementation in Workflows", "Professional Prompt Engineering", "AI-Assisted Vibe Coding and Prototyping"]},
+        {"category": "Project Management & Facilitation", "skills": ["Agile Methodologies (Kanban, Scrum)", "OKRs, KPIs, Roadmap, and Backlog", "Advanced Facilitation (Thinking Environment / Art of Hosting)"]}
+      ],
+      "education": [
+        {"institution": "Universidade Federal do Paraná (UFPR)", "degree": "Bachelor's Degree and Licentiate in Philosophy", "dates": "2018 - 2023"},
+        {"institution": "Recanto da Filosofia Clínica", "degree": "Specialization in Clinical Philosophy", "dates": "January 2023 - December 2024"},
+        {"institution": "UFPR / UTFPR", "degree": "Electrical and Electronics Engineering (Incomplete)", "dates": "2012 - 2015"}
+      ],
+      "certifications": [
+        {"name": "Google Project Management Professional Certificate", "issuer": "Coursera / Google", "status": "In progress"},
+        {"name": "Meta Certified Media Planning Professional", "issuer": "Meta", "status": "Active"},
+        {"name": "Meta Certified Digital Marketing Associate", "issuer": "Meta", "status": "Active"},
+        {"name": "Thinking Environment Facilitator", "issuer": "Munzner", "status": "May 2020"}
+      ],
+      "languages": [
+        {"language": "Portuguese", "proficiency": "Native"},
+        {"language": "English", "proficiency": "Advanced / Professional Full Proficiency; daily corporate use for technical reporting, international coordination, and stakeholder alignment"},
+        {"language": "Spanish", "proficiency": "Basic"}
+      ],
+      "additional_information": ["Philosophy applied to change communication and technical narratives; deep interest in integrative health, longevity and digital wellness solutions (Wellness/HealthTech)."]
+    }
+  },
+  "materials": {
+    "pt": {
+      "cover_letter": "Olá, equipe da SandboxAQ!\n\nSou especialista em GTM, Sales Enablement e Growth, com mais de 8 anos transformando capacidades técnicas em valor para o comprador. No Projeto Meta, pela Wipro, transformei atualizações de produto em propostas de valor, pitches e frameworks adotados por 150+ consultores, e levei a operação ao primeiro lugar global em adoção de IA no CRM (+150%). No Meu Barzin, arquitetei um agente conversacional com RAG e regras de alucinação zero, gerei 505 leads qualificados e 22,3% de engajamento recorrente. Na Munzner e na AK Branding, construí funis de nutrição (10.000+ acessos, ~R$ 50 mil), CRO (+250% em leads) e conteúdo inbound/SEO (10% visitor-to-lead).\n\nPosso apoiar a AISim na posicionamento por persona, ativos de lançamento, demand generation via outbound/webinars/nurture e enablement comercial - usando IA para expandir impacto e Power BI para mensurar pipeline. Sou honesto sobre o que falta: não tenho experiência direta em life sciences/química/biopharma, e meu inglês é avançado/profissional (não fluente). Minha evidência está em traduzir IA complexa em histórias comerciais claras e mensuráveis, exatamente o que a vaga pede.\n\nKevin Augusto Vieira",
+      "form_answers": [
+        {"question": "Por que você tem interesse na SandboxAQ e nesta vaga?", "answer": "Porque a AISim pede alguém que una posicionamento de produto, demand generation e tradução de ciência complexa em valor para o comprador - e é exatamente onde minha experiência se concentra: GTM, Sales Enablement, funis de nutrição e transformação de IA técnica em adoção comercial. Quero levar capacidades de fronteira a compradores reais."},
+        {"question": "Conte sobre uma vez em que você traduziu uma capacidade técnica complexa em mensagem para o comprador.", "answer": "No Meu Barzin, arquiteturei um agente conversacional com ManyChat, n8n, RAG e regras de alucinação zero. O desafio não era a tecnologia e sim fazê-la soar confiável para o usuário final; defini fluxos, casos de uso e tom para que a IA recomendasse bares sem inventar dados. Na Wipro, transformei a IA nativa do CRM em adoção diária (+150%) estruturando onboarding, playbooks e coaching. Em ambos, o resultado foi comportamento comercial mensurável."},
+        {"question": "Como você aborda demand generation e medição de impacto no pipeline?", "answer": "Começo pelo comprador e pela jornada: construo funis de nutrição (na Munzner, 10 etapas geraram 10.000+ acessos e ~R$ 50 mil), CRO (na AK, +250% em leads) e conteúdo inbound/SEO (10% visitor-to-lead). Mensuro por CAC, LTV, ROAS e mapeamento de gargalos de funil; no Meu Barzin, identifiquei 43,9% de abandono na primeira mensagem como bloqueador antes de adicionar funcionalidades."},
+        {"question": "Qual é sua experiência com ferramentas de IA para expandir seu impacto?", "answer": "Uso IA nativa no dia a dia: implementação de IAs em fluxos (n8n, RAG), engenharia de prompt e vibe coding para prototipar. Na Wipro, fui dono da adoção de IA no CRM; na Munzner/AK, automatizei nutrição e CRO. Sou honesto de que não domino LLMs/LQMs científicos nem o domínio biopharma - minha profundidade é em aplicação comercial de IA, não em química ou simulação molecular."}
+      ]
+    },
+    "en": {
+      "cover_letter": "Hello SandboxAQ team,\n\nI am a GTM, Sales Enablement and Growth specialist with 8+ years turning complex technical capabilities into buyer value. At Wipro on the Meta Project, I translated product updates into value propositions, sales pitches and frameworks adopted by 150+ consultants, and made the operation #1 globally for CRM AI adoption growth (+150%). At Meu Barzin, I architected a conversational agent with RAG and zero-hallucination rules, generated 505 qualified leads and 22.3% repeat engagement. At Munzner and AK Branding, I built nurture funnels (10,000+ visits, ~$50k), CRO (+250% leads) and inbound/SEO content (10% visitor-to-lead).\n\nI can support AISim on persona positioning, launch assets, demand generation via outbound/webinars/nurture, and sales enablement - using AI to expand impact and Power BI to measure pipeline. I am upfront about gaps: I have no direct life-sciences/chemistry/biopharma background, and my English is advanced/professional rather than fluent. My evidence is in translating complex AI into clear, measurable commercial stories - exactly what this role asks for.\n\nKevin Augusto Vieira",
+      "form_answers": [
+        {"question": "Why are you interested in SandboxAQ and this role?", "answer": "Because AISim needs someone who joins product positioning, demand generation and translation of complex science into buyer value - and that is exactly where my experience concentrates: GTM, Sales Enablement, nurture funnels and turning technical AI into commercial adoption. I want to bring frontier capabilities to real buyers."},
+        {"question": "Tell us about a time you translated a complex technical capability into buyer-facing messaging.", "answer": "At Meu Barzin, I architected a conversational agent with ManyChat, n8n, RAG and zero-hallucination rules. The challenge was not the technology but making it sound trustworthy to the end user; I defined flows, use cases and tone so the AI recommended venues without inventing data. At Wipro, I turned native CRM AI into daily adoption (+150%) by structuring onboarding, playbooks and coaching. In both, the result was measurable commercial behavior."},
+        {"question": "How do you approach demand generation and measuring pipeline impact?", "answer": "I start with the buyer and the journey: I build nurture funnels (at Munzner, 10 stages drove 10,000+ visits and ~$50k), CRO (at AK, +250% leads) and inbound/SEO content (10% visitor-to-lead). I measure by CAC, LTV, ROAS and funnel-bottleneck mapping; at Meu Barzin I identified 43.9% first-message dropout as the blocker before adding features."},
+        {"question": "What is your experience using AI tools to expand your impact?", "answer": "I use native AI daily: workflow implementation (n8n, RAG), prompt engineering and vibe coding for prototyping. At Wipro I owned CRM AI adoption; at Munzner/AK I automated nurture and CRO. I am honest that I do not master scientific LLMs/LQMs or the biopharma domain - my depth is in commercial application of AI, not in chemistry or molecular simulation."}
+      ]
+    }
+  },
+  "evidence": {
+    "skills": {
+      "pt": ["Go-to-Market (GTM)", "Inbound Marketing", "SEO", "Estruturação de ICP (Ideal Customer Profile)", "Jornada do Usuário (UX/UI)", "Modelos de Monetização/Assinatura", "Testes A/B e Design de Experimentos", "Sales Enablement Frameworks", "Gestão de Stakeholders", "Playbooks & Scripts Comerciais", "Escuta de Calls e Feedback Estruturado", "n8n", "Integrações via APIs/Webhooks", "Supabase/PostgreSQL", "Sendpulse", "HubSpot", "RD Station", "Bitrix24", "Business Intelligence (Power BI/Tableau)", "Métricas de Marketing (CTR, CPL, CAC, LTV, Churn, ROAS, MQL→SQL)", "Mapeamento de Gargalos de Funil", "Análise de Causa Raiz", "SQL Básico e Exploração de Dados", "Implementação de IAs Nativas em Fluxos de Trabalho", "Engenharia de Prompt Profissional", "Vibe Coding e Prototipagem Assistida por IA", "Metodologias Ágeis (Kanban, Scrum)", "OKRs, KPIs, Roadmap e Backlog", "Facilitação Avançada (Thinking Environment / Art of Hosting)"],
+      "en": ["Go-to-Market (GTM)", "Inbound Marketing", "SEO", "ICP (Ideal Customer Profile) Mapping", "User Journey (UX/UI)", "Monetization/Subscription Models", "A/B Testing and Experiment Design", "Sales Enablement Frameworks", "Stakeholder Management", "Playbooks & Sales Scripts", "Call Listening & Structured Feedback", "n8n", "API/Webhook Integrations", "Supabase/PostgreSQL", "Sendpulse", "HubSpot", "RD Station", "Bitrix24", "Business Intelligence (Power BI/Tableau)", "Marketing Metrics (CTR, CPL, CAC, LTV, Churn, ROAS, MQL→SQL)", "Funnel Bottleneck Mapping", "Root Cause Analysis", "Basic SQL and Data Exploration", "Native AI Implementation in Workflows", "Professional Prompt Engineering", "AI-Assisted Vibe Coding and Prototyping", "Agile Methodologies (Kanban, Scrum)", "OKRs, KPIs, Roadmap, and Backlog", "Advanced Facilitation (Thinking Environment / Art of Hosting)"]
+    }
+  }
+}

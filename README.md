@@ -1,73 +1,146 @@
-# 💼 Master Resume Adaptation Studio
+# Career OS — Pipeline de Adaptação de Currículo (Documentação)
 
-Este projeto foi desenvolvido para ajudar você, Kevin, a adaptar seu currículo de forma inteligente e personalizada para vagas de emprego específicas, além de auxiliar no preenchimento de formulários e na geração de cartas de apresentação.
+Este repositório implementa o **Career OS**: um sistema pessoal onde o
+`master_resume.json` é a **fonte única de verdade** (PT/EN) e cada vaga vira um
+**artefato versionado** (`data/jobs/<slug>.json`) que o app Streamlit consome para
+pré-visualizar, exportar em PDF/Markdown e registrar no painel de candidaturas.
 
-A aplicação utiliza um arquivo central `master_resume.json` que contém todo o seu histórico profissional detalhado em dois idiomas (Português e Inglês), além de diferentes variações de bullet points (com foco em Gestão de Projetos, Operações, Growth, Marketing, CRM e IA). Ao inserir a descrição de uma vaga e selecionar o idioma desejado, a IA seleciona e reescreve os pontos para se alinharem perfeitamente à oportunidade.
+Princípio central: **zero alucinação**. Nenhuma experiência, empresa, cargo, ferramenta,
+métrica ou resultado pode ser inventado. A adaptação muda ênfase e linguagem, nunca os
+fatos. Toda skill declarada no artefato precisa existir literalmente no `master_resume.json`.
 
 ---
 
-## 🛠️ Como Instalar e Rodar
+## 1. Arquitetura
 
-### 1. Pré-requisitos
-Certifique-se de que possui o Python instalado (versão 3.10 ou superior). O seu sistema atual possui o Python 3.12.
-
-### 2. Instalação das Dependências
-Abra seu terminal na pasta do projeto e instale as dependências:
-```bash
-pip install -r requirements.txt
+```
+master_resume.json          <- FONTE ÚNICA DE VERDADE (PT/EN)
+        │
+        │  (vaga: URL ou texto colado)
+        ▼
+utils.fetch_job_description_from_url(url)   <- extrai texto da JD (BeautifulSoup)
+        │
+        ▼
+utils.adapt_resume_with_gemini(...)          <- GERA AdaptedResume (PT e EN)  [LLM]
+utils.generate_job_materials(...)            <- GERA carta + respostas (PT e EN) [LLM]
+        │
+        ▼
+job_store.create_from_active(job_id)         <- empacota em data/jobs/<slug>.json
+        │
+        ▼
+job_store.validate_job(job, master)          <- VALIDAÇÃO DETERMINÍSTICA anti-alucinação
+        │
+        ▼
+job_store.activate_job(job_id, master)       <- grava data/active.json + arquivos do app
+        │
+        ▼
+streamlit run app.py                         <- Visualizar / exportar / registrar
 ```
 
-### 3. Configurar Chave de API do Gemini
-A aplicação utiliza a API do Gemini. Para configurá-la:
-1. Copie o arquivo `.env.example` para um novo arquivo chamado `.env`:
-   ```bash
-   copy .env.example .env
-   ```
-2. Abra o arquivo `.env` e cole sua chave de API do Gemini na linha:
-   ```text
-   GEMINI_API_KEY=sua_chave_aqui
-   ```
-   *Caso não tenha uma chave, você pode gerá-la gratuitamente no [Google AI Studio](https://aistudio.google.com/).*
-   
-*Observação: Caso não configure o arquivo `.env`, você também poderá digitar a chave de API diretamente na barra lateral da aplicação visual.*
+Módulos:
+- `utils.py` — schema Pydantic (`AdaptedResume`, `JobMaterials`), parsing da JD,
+  adaptação via LLM, render HTML→PDF, markdown.
+- `engine/job_parser.py` — `JobProcessingPipeline`: parsing estruturado da JD em
+  requisitos + mapeamento para a taxonomia do grafo (caminho do Knowledge Graph; não
+  escreve o artefato de adaptação, serve para o grafo/insights).
+- `job_store.py` — empacotamento, validação e ativação de artefatos.
+- `app.py` — Streamlit (4 abas: Estúdio, Painel, Visualizador Neural, Editor Mestre).
+- `scripts/export_adapted_resumes.py` — gera PDFs de lote.
+- `scripts/register_shortlist_applications.py` — registra vagas em `applications.json`.
 
-### 4. Executar a Aplicação
-Com as dependências instaladas e a chave configurada, rode:
-```bash
-streamlit run app.py
+---
+
+## 2. Pipeline passo a passo (como qualquer IA deve executar)
+
+### Passo A — Obter a descrição da vaga (JD)
+- Se a URL for acessível: `utils.fetch_job_description_from_url(url)` (remove
+  script/style/nav e devolve texto puro).
+- Se o site bloquear (Ashby/SPA, login, 401): **não inventar**. Pedir ao usuário o
+  texto da vaga colado, ou buscar fontes espelho confiáveis (Getro, Teal, HireConcierge)
+  que republiquem o posting do Ashby. Registrar a origem em `metadata.source_status`.
+
+### Passo B — Gerar a adaptação (LLM)
+- `utils.adapt_resume_with_gemini(master_resume, job_description, "pt")` → `AdaptedResume`
+- `utils.adapt_resume_with_gemini(master_resume, job_description, "en")` → `AdaptedResume`
+- Regras do prompt (já codificadas): nunca inventar; selecionar/reescrever apenas fatos
+  reais do master; temperatura 0.2.
+- Nota de implementação: o projeto original usa Gemini. Se a `GEMINI_API_KEY` não
+  estiver disponível, a adaptação pode ser produzida por outro modelo, desde que o
+  **conteúdo** obedeça às mesmas regras e o **schema** de saída seja idêntico.
+
+### Passo C — Gerar materiais (LLM)
+- `utils.generate_job_materials(master_resume, job_description, "pt")` → `JobMaterials`
+- `utils.generate_job_materials(master_resume, job_description, "en")` → `JobMaterials`
+
+### Passo D — Empacotar o artefato
+Estrutura de `data/jobs/<slug>.json` (ver exemplo em `data/jobs/modaxo-ai-transformation-manager.json`):
+
+```json
+{
+  "id": "<slug>",
+  "metadata": {
+    "company_name": "...", "role_title": "...", "url": "...",
+    "fit_score": <int 0-100>, "document_language": "en|pt",
+    "available_languages": ["pt","en"],
+    "location": "...", "work_model": "...", "employment_type": "...",
+    "salary_range": "...", "salary_expectation": "...",
+    "source_files": ["master_resume.json"],
+    "good_points": [...], "improvement_points": [...]
+  },
+  "triage": {
+    "decision": "adapt|hold|discard",
+    "notes": [...], "gaps": [...], "risks": [...]
+  },
+  "resume":  { "pt": {<AdaptedResume>}, "en": {<AdaptedResume>} },
+  "materials": { "pt": {<JobMaterials>}, "en": {<JobMaterials>} },
+  "evidence": { "skills": { "pt": [...], "en": [...] } }
+}
 ```
-Uma página no seu navegador se abrirá automaticamente (geralmente em `http://localhost:8501`).
+
+`evidence.skills` deve listar **apenas** skills que existem literalmente em
+`master_resume.json` (casefold) — é o que `validate_job` checa.
+
+### Passo E — Validar (obrigatório, determinístico)
+`job_store.validate_job(job, master_resume)` falha se:
+1. faltar `metadata.company_name` ou `role_title`;
+2. faltar `resume`/`materials` em pt e en;
+3. `triage.decision` ≠ adapt|hold|discard;
+4. faltar `summary` no resume;
+5. houver título proibido (founder/co-founder) no resume;
+6. a carta não citar a empresa-alvo;
+7. alguma skill em `evidence.skills` não existir no master.
+
+### Passo F — Ativar no Streamlit
+`python -m scripts.activate_job <slug> --validate`
+- grava `data/active.json` (ponteiro),
+- escreve `metadata.json`, `adapted_resume_pt.json`, `adapted_resume_en.json`,
+  `job_materials_pt.json`, `job_materials_en.json`,
+- copia a versão padrão (`document_language`) para `adapted_resume.json`/`job_materials.json`.
+
+### Passo G — Visualizar
+`streamlit run app.py` → aba **Estúdio de Adaptação** mostra o currículo ativo;
+botão "Registrar no Painel" adiciona a `applications.json`.
 
 ---
 
-## 📦 Funcionalidades da Aplicação
+## 3. Como adaptar esta vaga específica (exemplo reproduzível)
 
-### 🎯 Estúdio de Adaptação (Aba Principal)
-1. Insira o **Nome da Empresa**, **Nome do Cargo** e cole a **Descrição da Vaga** completa.
-2. Escolha o **Idioma de Saída** na barra lateral.
-3. Clique em **Adaptar Currículo e Materiais 🚀**.
-4. Visualize os resultados:
-   - **Currículo Visual (HTML/PDF):** Veja uma prévia exata do currículo com visual premium e faça o download do arquivo HTML correspondente.
-   - **Currículo Markdown:** Uma versão textual limpa ideal para copiar ou converter para outros formatos de texto.
-   - **Carta de Apresentação:** Uma carta personalizada para a vaga baseada nas suas reais conquistas profissionais.
-   - **Auxiliar de Formulários:** Sugestões de respostas para perguntas de processos seletivos baseadas nas suas experiências (ex: desafios operacionais, CRM, automação, etc.).
-
-### 📝 Editor do Currículo Mestre (Segunda Aba)
-- Você pode visualizar todas as informações e bullet points do seu currículo mestre.
-- É possível fazer alterações diretas na caixa de texto JSON e salvar para atualizar o arquivo `master_resume.json` permanentemente.
+Para a vaga SandboxAQ "Product & Growth Marketer, AI Simulation" (ashby_jid
+42615b29-0fcb-429c-b305-8fa6b1137153):
+1. JD obtida via fontes espelho (Ashby bloqueou a API; landing page é SPA).
+2. Gerar PT+EN com as regras de zero-hallucination.
+3. `evidence.skills` = subset do master (ex: Product Marketing, GTM, Inbound/SEO,
+   CRM & Automation, Sales Enablement, AI native implementation, n8n, Power BI).
+4. `improvement_points` honestos: sem exposição direta a life sciences/chemistry/
+   biopharma; inglês avançado/profissional (não "fluent"); profundidade técnica de
+   LLM/LQM não documentada.
 
 ---
 
-## 🖨️ Como Exportar o Currículo em PDF com Visual Premium
-
-Para manter a fidelidade do design profissional (tipografia Inter, espaçamento equilibrado, margens limpas, etc.) sem necessitar de dependências pesadas em seu computador:
-
-1. Na aba **Currículo Visual (HTML/PDF)**, clique no botão **Baixar Currículo HTML**.
-2. Abra o arquivo `.html` baixado em qualquer navegador web (Chrome, Edge, Firefox, etc.).
-3. Pressione a tecla de atalho **Ctrl + P** (ou Cmd + P no Mac) para abrir o diálogo de impressão.
-4. Defina o Destino como **Salvar como PDF**.
-5. Nas configurações adicionais do diálogo de impressão:
-   - **Margens:** Defina para *Padrão* ou *Nenhuma*.
-   - **Cabeçalhos e rodapés:** *Desmarque* esta opção para evitar que a URL e datas apareçam nas bordas da página.
-   - **Gráficos de plano de fundo:** *Marque* esta opção para garantir que os elementos visuais apareçam corretamente.
-6. Clique em **Salvar**.
+## 4. Regras de ouro (não violáveis)
+1. master_resume.json é imutável como fonte; a adaptação só reescreve/selectiona.
+2. Nunca criar empresa, cargo, métrica ou ferramenta inexistente no master.
+3. Competência transferível = apresentada como transferível, não como experiência direta.
+4. Lacunas relevantes vão para `improvement_points` e para as respostas de formulário.
+5. Sempre validar (`validate_job`) antes de ativar.
+6. Sempre versionar o artefato em `data/jobs/` (nunca editar só os arquivos ativos).
