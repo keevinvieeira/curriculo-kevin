@@ -116,7 +116,7 @@
         },
         {
           "company": "Conversas Brasileiras",
-          "role": "Co-Founder",
+          "role": "Especialista em Marketing de Comunidades",
           "dates": "August 2018 – September 2019",
           "location": "Curitiba, Paraná, Brazil",
           "bullets": [
@@ -225,17 +225,12 @@
         {
           "institution": "Universidade Federal do Paraná (UFPR)",
           "degree": "Bacharelado e Licenciatura em Filosofia",
-          "dates": "2018 – 2023"
-        },
-        {
-          "institution": "Recanto da Filosofia Clínica",
-          "degree": "Especialização em Filosofia Clínica",
-          "dates": "Janeiro 2023 – Dezembro 2024"
+          "dates": "2018 - 2023"
         },
         {
           "institution": "Universidade Federal do Paraná (UFPR) / UTFPR",
-          "degree": "Engenharia Elétrica / Eletrônica (Incompleto)",
-          "dates": "2012 – 2015"
+          "degree": "Bacharelado em Engenharia (Incompleto - 2,5 anos cursados)",
+          "dates": "2012 - 2015"
         }
       ],
       "certifications": [
@@ -356,7 +351,7 @@
         },
         {
           "company": "Conversas Brasileiras",
-          "role": "Co-Founder",
+          "role": "Community Marketing Specialist",
           "dates": "August 2018 – September 2019",
           "location": "Curitiba, Paraná, Brazil",
           "bullets": [
@@ -463,19 +458,14 @@
       ],
       "education": [
         {
-          "institution": "Universidade Federal do Paraná (UFPR)",
-          "degree": "Bachelor's Degree and Licentiate in Philosophy",
-          "dates": "2018 – 2023"
+          "institution": "Federal University of Parana (UFPR)",
+          "degree": "Bachelor Degree and Licentiate in Philosophy",
+          "dates": "2018 - 2023"
         },
         {
-          "institution": "Recanto da Filosofia Clínica",
-          "degree": "Specialization in Clinical Philosophy",
-          "dates": "Janeiro 2023 – Dezembro 2024"
-        },
-        {
-          "institution": "Universidade Federal do Paraná (UFPR) / UTFPR",
-          "degree": "STEM Track - Electrical and Electronics Engineering (Incomplete)",
-          "dates": "2012 – 2015"
+          "institution": "Federal University of Parana (UFPR) / UTFPR",
+          "degree": "B.S. in Engineering (Incomplete - 2.5 years completed)",
+          "dates": "2012 - 2015"
         }
       ],
       "certifications": [

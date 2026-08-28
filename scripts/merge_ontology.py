@@ -4,18 +4,22 @@ Combines the resume graph with the full skill ontology.
 """
 
 import sys
-sys.path.insert(0, r'G:\Meu Drive\Arquivos HD\Kevin\curriculo')
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT))
 
 from engine.graph_engine import GraphEngine
 from engine import schemas_graph
 
 # Load both graphs
 main = GraphEngine()
-main.load_json(r'G:\Meu Drive\Arquivos HD\Kevin\curriculo\data\graph_with_cases.json')
+main_graph_path = ROOT / 'data' / 'graph_export.json'
+main.load_json(str(main_graph_path))
 print(f"Main graph: {main.stats()['total_nodes']} nodes, {main.stats()['total_edges']} edges")
 
 ontology = GraphEngine()
-ontology.load_json(r'G:\Meu Drive\Arquivos HD\Kevin\curriculo\data\graph_ontology.json')
+ontology.load_json(str(ROOT / 'data' / 'graph_ontology.json'))
 print(f"Ontology graph: {ontology.stats()['total_nodes']} nodes, {ontology.stats()['total_edges']} edges")
 
 # Build name-to-node maps for skills
@@ -155,7 +159,7 @@ for skill_name in test_skills:
         print(f"  {skill_name} -> SUBSET_OF -> {parent_names}")
 
 # Save merged graph
-output_path = r"G:\Meu Drive\Arquivos HD\Kevin\curriculo\data\graph_merged.json"
-main.save_json(output_path)
+output_path = ROOT / "data" / "graph_merged.json"
+main.save_json(str(output_path))
 print(f"\n[SAVE] Merged graph saved to: {output_path}")
 print(f"Final stats: {main.stats()['total_nodes']} nodes, {main.stats()['total_edges']} edges")

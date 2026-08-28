@@ -82,7 +82,7 @@
 ---
 
 ### 5. Conversas Brasileiras — Ago 2018 a Set 2019
-**Cargo:** Co-Founder
+**Cargo:** Especialista em Marketing de Comunidades
 
 **Métricas reais:**
 - 5 edições de rodas de conversa
@@ -104,9 +104,8 @@
 
 | Instituição | Curso | Período |
 |-------------|-------|---------|
-| UFPR | Bacharelado e Licenciatura em Filosofia | 2018–2023 |
-| Recanto da Filosofia Clínica | Especialização em Filosofia Clínica | 2023–2024 |
-| UFPR/UTFPR | Engenharia Elétrica/Eletrônica (incompleto) | 2012–2015 |
+| Universidade Federal do Paraná (UFPR) | Bacharelado e Licenciatura em Filosofia | 2018–2023 |
+| Universidade Federal do Paraná (UFPR) / UTFPR | Bacharelado em Engenharia (Incompleto - 2,5 anos cursados) | 2012–2015 |
 
 ---
 

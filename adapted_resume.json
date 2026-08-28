@@ -1,193 +1,105 @@
 {
   "name": "Kevin Augusto Vieira",
-  "location": "Curitiba, PR, Brazil",
+  "location": "Curitiba, PR, Brazil | Hybrid",
   "phone": "+55 (41) 99694-1615",
   "email": "kevin.aug.vieira@gmail.com",
   "linkedin": "https://www.linkedin.com/in/kevin-augusto/",
   "github": "",
   "website": "",
-  "summary": "Product & Growth marketer who builds GTM, sales-enablement and demand-generation programs and turns complex technical capability into buyer-facing value. At Wipro (Meta Project) enabled 150+ marketing professionals, drove native-AI CRM adoption from 4 to 10 prompts/day (+150%) and made the operation #1 globally in AI adoption growth. At Meu Barzin, captured 505 qualified leads and mapped ~200 venues while architecting a RAG conversational agent. At Munzner and AK Branding built automated funnels (10,000+ visits, ~R$50k high-ticket; +250% lead capture) and inbound/SEO content (~1,000 organic visits, ~10% visitor-to-lead). Uses AI tools (native AI, n8n, prompt engineering) and measures pipeline with Power BI, ROI and funnel-bottleneck mapping.",
+  "summary": "Senior Partnership Enablement and Go-To-Market Specialist with 8+ years of experience acting as the strategic interface between Product teams and commercial partner ecosystems. At Wipro (Meta Project), led the translation of complex product updates into value propositions, high-impact use cases, and actionable enablement playbooks for 150+ professionals, driving AI adoption up by +150% (#1 globally) and reducing team ramp-up time by 50%. Combines strong B2B partnership validation, CRM automation, and data intelligence with an analytical background in Engineering (UTFPR/UFPR 2.5 yrs) and B.A. in Philosophy (UFPR), with Fluent English and based in Curitiba, Brazil.",
   "experience": [
     {
       "company": "Wipro",
-      "role": "Marketing Operations / Sales Enablement & GTM Specialist (Meta Project)",
+      "role": "Partnership Enablement and GTM Specialist (Meta Project)",
       "dates": "September 2024 – July 2026",
       "location": "Curitiba, Brazil",
       "bullets": [
-        "Responsible for executing enablement activations, adoption strategies, and tactical product positioning to drive sales productivity and revenue growth for Project Libra (Meta).",
-        "Act as the operation's technical reference for Meta ad strategies, absorbing official client materials and strategically replicating product innovations and Go-to-Market (GTM) strategies for 150+ Meta Marketing Pros.",
-        "AI CRM Ownership, Activation, and Record Adoption: Owned native AI activation and adoption within Meta's proprietary CRM, from onboarding through 3 weeks of hands-on side-by-side coaching. Structured use cases, prompts, workshops, role plays, and frontline best-practice sharing. Increased usage from 4 to 10 prompts/day per consultant (+150%), making the operation #1 globally for adoption growth while improving contextual prompt quality during live calls.",
-        "Applied root cause analysis to identify team knowledge gaps, coordinating diagnosis, design, and follow-up of corrective action plans while building playbooks, scripts, and sales enablement materials.",
-        "Lead Sales Excellence and Sales Productivity pillars, translating Meta product portfolio updates into clear value propositions, sales pitches, and practical commercial frameworks for frontline teams."
+        "Product Enablement: Absorbed official materials and translated Meta product innovations and GTM updates into value propositions, pitches, and practical frameworks for 150+ professionals.",
+        "Adoption and Training: Led onboarding and hands-on coaching for AI in Meta's proprietary CRM, increasing usage from 4 to 10 prompts/day per consultant (+150%) and achieving the operation's highest global adoption growth.",
+        "Scalable Program: Designed and governed a bootcamp for 12 consultants with 100% completion, 90%+ quality, and a reduction in ramp-up from 6 to 3 months (-50%).",
+        "Cross-Functional Bridge: Aligned global product lines, quality, and consulting teams through clear documentation, timelines, playbooks, and action plans."
       ]
     },
     {
       "company": "Meu Barzin (Startup)",
-      "role": "Co-Founder & Product Manager",
+      "role": "Product Manager and B2B Partnerships Lead",
       "dates": "December 2025 – March 2026",
       "location": "Curitiba, Brazil",
       "bullets": [
-        "MVP Conception: Conceptualized the conversational WhatsApp ecosystem integrated with 'Meu Barzin Pass' (R$19.90 monthly subscription with buy-one-get-one deals at local bars), designing the monetization business model and validating B2B partnership value.",
-        "Demand Gen & Metrics: Captured 505 qualified top-of-funil leads via organic and paid campaigns (growing Instagram to 2,000+ followers), achieving a 22.3% high-engagement rate (users interacting 4+ times with the AI).",
-        "B2B Business Development: Led direct sales outreach and partner pitching, securing critical pilot partnerships with top Curitiba venues like Gal Gastrobar and Officina.",
-        "Conversational Architecture & UX: Designed intelligent conversation flows via ManyChat and n8n, integrating RAG and 'Zero Hallucination' rules to enable the AI agent (mascot Capizin, Bar Sommelier) to search and recommend venues without errors.",
-        "Databases and CRM: Built database structures and CRM prototypes using Supabase/PostgreSQL and NocoDB, working with data modeling, organization, and exploration to support digital products and operations."
-      ]
-    },
-    {
-      "company": "Munzner",
-      "role": "Marketing & Growth Specialist",
-      "dates": "October 2018 – August 2024",
-      "location": "Curitiba, PR",
-      "bullets": [
-        "Specialized in the global Thinking Environment methodology to build high-impact technical narratives, applying active listening and facilitation concepts to create strategic content for social media, brand positioning, and paid media.",
-        "Inbound Organic SEO & Content Marketing: Authored ~10 strategic technical blog articles on the Thinking Environment methodology, generating ~1,000 organic visits and ~100 qualified high-value leads (~10% visitor-to-lead conversion rate).",
-        "Automated High-Ticket Nurturing Funnel (~R$ 50k Revenue): Built an automated 10-stage email nurturing funnel (Bitrix24/Sendpulse) attracting 10,000+ visits, converting ~10 enrollments for R$ 5,000 in-person masterclasses (~R$ 50k high-ticket revenue driven via automation).",
-        "Monetization Measurement: Tracked channels, acquisition paths, and CRM data to evaluate funnel conversion, revenue, and ROI, guiding adjustments to campaigns, content, and monetization strategies.",
-        "0-to-1 Infoproduct & Tripwire ROI Strategy: Designed and launched the brand's first digital course (MasterStudy LMS/WordPress) as an entry-level tripwire offer for the pioneer Thinking Environment methodology. Secured 50 sales in the first 2 months with a 1.0x-1.5x ROI, self-sustaining customer acquisition."
+        "Use Cases and Partnerships: Designed a subscription value proposition and validated the model with B2B partners, securing relevant local venues for the pilot.",
+        "Ecosystem Insights: Interviews and funnel analysis identified partner density and API latency as critical adoption and conversion barriers."
       ]
     },
     {
       "company": "AK Branding & Web Design",
-      "role": "Founder & Marketing Project Consultant",
+      "role": "Marketing Project and Client Consultant",
       "dates": "March 2019 – September 2024",
-      "location": "Curitiba, PR",
+      "location": "Curitiba, Brazil",
       "bullets": [
-        "Conversion Rate Optimization (CRO) & Chatbots: Implemented chatbot interfaces and UX flows that boosted monthly lead capture from 8 to 20-30 contacts/month (+250%) on client websites, and designed real estate LPs generating 5 qualified leads/day.",
-        "Growth Experimentation: Planned and executed A/B tests across paid campaigns, landing pages, and web experiences to validate acquisition and conversion hypotheses, informing adjustments to creative, messaging, and digital journeys.",
-        "100% Technical LGPD Compliance: Before the adoption of AI tools, researched Brazilian data protection requirements, authored custom privacy policies and terms of use, and designed and implemented the visual experience for cookie banners and consent flows. This consulting work strengthened his technical authority with clients.",
-        "0-to-1 E-Commerce Monetization: Built a custom e-commerce platform from scratch that achieved R$ 10,000 in revenue within its first 3 months operating 100% organically ($0 ad spend) driven purely by strategic Instagram positioning."
+        "Consultative Delivery: Delivered 40+ projects for SMBs, translating business objectives into scopes, narratives, digital experiences, and deliverables with timeline and budget control.",
+        "Adoption and Conversion: Implemented UX and chatbot flows that increased lead capture from 8 to 20-30 contacts/month (+250%)."
       ]
     },
     {
-      "company": "Conversas Brasileiras",
-      "role": "Co-Founder",
-      "dates": "August 2018 – September 2019",
-      "location": "Curitiba, Paraná, Brazil",
+      "company": "Munzner",
+      "role": "Marketing, Growth, and Facilitation Specialist",
+      "dates": "October 2018 – August 2024",
+      "location": "Curitiba, Brazil",
       "bullets": [
-        "Business Development & B2B Partnerships: Strategic prospecting and negotiation with local venues like co-workings and cultural centers, securing the necessary infrastructure for meetings through mutual-benefit partnerships.",
-        "Community Management & Engagement: Conceptualized and led the project end-to-end, creating strategic content and communication channels to attract, engage, and retain members aligned with the ecosystem's purpose.",
-        "The 'Conversas Brasileiras' was a social and experimental initiative aimed at creating dialogue spaces, fostering critical thinking, and activating collective intelligence through human facilitation methodologies and social innovation.",
-        "Facilitation & Collective Intelligence: Planned and moderated 5 community event editions across the city (average of 20 participants per meeting, engaging 100+ total attendees) utilizing Art of Hosting and Thinking Environment frameworks (Fishbowl dynamics and dialogue circles).",
-        "Business Model Experimentation: Conceptualized and practically tested conscious monetization formats (such as value-perceived pricing / pay-what-you-want), generating valuable insights on consumer behavior, project financial sustainability, and market hypothesis validation."
-      ]
-    },
-    {
-      "company": "Alvesa Transportes Logística Ltda.",
-      "role": "Administrative Assistant",
-      "dates": "May 2015 – May 2016",
-      "location": "Curitiba, PR",
-      "bullets": [
-        "Supported marketing efforts by creating social media content and coordinating basic campaigns."
+        "Content and Use Cases: Turned the Thinking Environment methodology into narratives, technical content, and campaigns that generated approximately 100 qualified inbound leads.",
+        "Launch and Automation: Launched the first digital course and built an automated funnel that generated approximately R$50,000 in revenue."
       ]
     }
   ],
   "skills": [
     {
-      "category": "AI & Automation",
+      "category": "Partnership Enablement and GTM",
       "skills": [
-        "Ai Implementation",
-        "Artificial Intelligence",
-        "Automation",
-        "Prompt Engineering"
+        "Product enablement and adoption",
+        "Value propositions, pitches, and use cases",
+        "Playbooks, scripts, and sales assets",
+        "Briefings, training, and facilitation",
+        "B2B partnerships and stakeholder management"
       ]
     },
     {
-      "category": "Data & Analytics",
+      "category": "Operations and Data",
       "skills": [
-        "Analytics",
-        "Metrics",
-        "Power BI",
-        "ROI",
-        "Revenue Analytics"
+        "Root cause analysis",
+        "Power BI and Excel",
+        "Adoption, quality, and conversion metrics",
+        "OKRs, roadmap, and backlog",
+        "Documentation and action plans"
       ]
     },
     {
-      "category": "Leadership & Operations",
+      "category": "CRM and Automation",
       "skills": [
-        "Backlog",
-        "Collaboration",
-        "Cross Functional",
-        "Leadership",
-        "Roadmap"
-      ]
-    },
-    {
-      "category": "Sales & Enablement",
-      "skills": [
-        "Business Development",
-        "CRM",
-        "Coaching",
-        "Crm Enablement",
-        "Playbooks",
-        "Product Positioning",
-        "Sales Enablement",
-        "Training"
-      ]
-    },
-    {
-      "category": "Product & Strategy",
-      "skills": [
-        "Business Model",
-        "Business Models",
-        "Experimentation",
-        "Monetization",
-        "Product Strategy"
-      ]
-    },
-    {
-      "category": "Growth & Marketing",
-      "skills": [
-        "Content Creation",
-        "Content Marketing",
-        "Conversion Optimization",
-        "Copywriting",
-        "Email Marketing",
-        "Funnel",
-        "Growth",
-        "Inbound",
-        "Lead Generation",
-        "Marketing",
-        "Narratives",
-        "Paid Media",
-        "SEO"
-      ]
-    },
-    {
-      "category": "Facilitation & Community",
-      "skills": [
-        "Facilitation"
-      ]
-    },
-    {
-      "category": "Quality & Governance",
-      "skills": [
-        "Technical Writing"
+        "Meta Proprietary CRMs",
+        "HubSpot and Salesforce as an end user",
+        "n8n, Make, APIs, and webhooks",
+        "Supabase/PostgreSQL",
+        "AI-enabled workflows"
       ]
     }
   ],
   "education": [
     {
-      "institution": "Universidade Federal do Paraná (UFPR)",
-      "degree": "Bachelor's Degree and Licentiate in Philosophy",
-      "dates": "2018 – 2023"
+      "institution": "Federal University of Parana (UFPR)",
+      "degree": "Bachelor Degree and Licentiate in Philosophy",
+      "dates": "2018 - 2023"
     },
     {
-      "institution": "Recanto da Filosofia Clínica",
-      "degree": "Specialization in Clinical Philosophy",
-      "dates": "Janeiro 2023 – Dezembro 2024"
-    },
-    {
-      "institution": "Universidade Federal do Paraná (UFPR) / UTFPR",
-      "degree": "STEM Track - Electrical and Electronics Engineering (Incomplete)",
-      "dates": "2012 – 2015"
+      "institution": "Federal University of Parana (UFPR) / UTFPR",
+      "degree": "B.S. in Engineering (Incomplete - 2.5 years completed)",
+      "dates": "2012 - 2015"
     }
   ],
   "certifications": [
     {
       "name": "Google Project Management Professional Certificate",
       "issuer": "Coursera / Google",
-      "status": "In progress - Started September 2025"
+      "status": "In progress"
     },
     {
       "name": "Meta Certified Media Planning Professional",
@@ -198,43 +110,17 @@
       "name": "Meta Certified Digital Marketing Associate",
       "issuer": "Meta",
       "status": "Active"
-    },
-    {
-      "name": "Facilitador de Thinking Environment",
-      "issuer": "Munzner",
-      "status": "May 2020"
-    },
-    {
-      "name": "Thinking Partnership",
-      "issuer": "Munzner",
-      "status": "November 2019"
-    },
-    {
-      "name": "Fundamentos do Thinking Environment",
-      "issuer": "Munzner",
-      "status": "October 2019"
-    },
-    {
-      "name": "Programa de Mentoria em Project Management",
-      "issuer": "FoundersPM",
-      "status": "In Progress"
     }
   ],
   "languages": [
     {
       "language": "English",
-      "proficiency": "Advanced / Professional Full Proficiency (Daily corporate use for technical reporting, international team coordination, and stakeholder alignment)"
-    },
-    {
-      "language": "Spanish",
-      "proficiency": "Basic"
+      "proficiency": "Advanced / Professional Full Proficiency; daily corporate use for reporting, international coordination, and stakeholder alignment"
     },
     {
       "language": "Portuguese",
       "proficiency": "Native"
     }
   ],
-  "additional_information": [
-    "Contact, education, certifications and languages now come from the enriched knowledge graph (graph_clean.json). Remaining graph gaps: life sciences / biopharma, chemistry / materials science, physics simulation, Google Ads, Salesforce / HubSpot, Python, newsletter / sequence building, field marketing / events, competitor research."
-  ]
+  "additional_information": []
 }

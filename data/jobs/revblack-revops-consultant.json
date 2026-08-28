@@ -132,12 +132,12 @@
         {
           "institution": "Universidade Federal do Paraná (UFPR)",
           "degree": "Bacharelado e Licenciatura em Filosofia",
-          "dates": "2018 – 2023"
+          "dates": "2018 - 2023"
         },
         {
-          "institution": "UFPR / UTFPR",
-          "degree": "Engenharia Elétrica / Eletrônica (incompleto)",
-          "dates": "2012 – 2015"
+          "institution": "Universidade Federal do Paraná (UFPR) / UTFPR",
+          "degree": "Bacharelado em Engenharia (Incompleto - 2,5 anos cursados)",
+          "dates": "2012 - 2015"
         }
       ],
       "certifications": [
@@ -256,14 +256,14 @@
       ],
       "education": [
         {
-          "institution": "Universidade Federal do Paraná (UFPR)",
-          "degree": "Bachelor's Degree and Licentiate in Philosophy",
-          "dates": "2018 – 2023"
+          "institution": "Federal University of Parana (UFPR)",
+          "degree": "Bachelor Degree and Licentiate in Philosophy",
+          "dates": "2018 - 2023"
         },
         {
-          "institution": "UFPR / UTFPR",
-          "degree": "Electrical and Electronics Engineering (incomplete)",
-          "dates": "2012 – 2015"
+          "institution": "Federal University of Parana (UFPR) / UTFPR",
+          "degree": "B.S. in Engineering (Incomplete - 2.5 years completed)",
+          "dates": "2012 - 2015"
         }
       ],
       "certifications": [

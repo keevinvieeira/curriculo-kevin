@@ -96,6 +96,8 @@ py -3.12 -m streamlit run app.py --server.headless true
 - A adaptacao deve maximizar aderencia sem fabricar experiencia.
 - NUNCA inclua frases negativas, declaracoes de carencia, limitacoes defensivas ou gaps nos resumos profissionais, bullets de experiencia, habilidades ou cartas de apresentacao (ex.: jamais usar frases como 'sem alegar experiencia direta em X'). O curriculo e a apresentacao publica devem ser 100% positivos, orientados a valor, metricas reais e competencias comprovadas.
 - Lacunas tecnicas internas podem ser mantidas apenas no diagnostico interno de triagem para preparacao de entrevistas, mas nunca sao exibidas ou impressas no curriculo/PDF.
+- Educacao Obrigatoria: Sempre incluir o Bacharelado e Licenciatura em Filosofia (UFPR) e a Formacao em Engenharia (UFPR/UTFPR - Incompleto / 2,5 anos cursados). NUNCA incluir a Especializacao em Filosofia Clinica nos curriculos adaptados.
+- Experiencia Conversas Brasileiras: O cargo oficial e sempre 'Especialista em Marketing de Comunidades' / 'Community Marketing Specialist' (nunca 'Co-Founder' ou 'Fundador').
 - Prazos expirados e remuneracao abaixo da expectativa nao impedem automaticamente a adaptacao, mas devem ser destacados.
 - Nao modifique nem reverta alteracoes nao relacionadas existentes no workspace.
 - Nao registre a candidatura em `applications.json` sem pedido explicito do usuario; ativar no Streamlit nao significa marcar como candidatado.

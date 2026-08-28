@@ -5,9 +5,13 @@ Converts the flat JSON resume into a rich Knowledge Graph with nodes and edges.
 
 import json
 import re
+import sys
 from pathlib import Path
 from typing import Dict, List, Set, Any, Optional
 from collections import defaultdict
+
+ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT))
 
 from engine.schemas_graph import (
     NodeType, EdgeType, SkillCategory, SeniorityLevel,
