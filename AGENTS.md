@@ -76,20 +76,11 @@ python scripts/activate_job.py <slug-da-vaga> --validate
   - `job_materials_pt.json`
   - `job_materials_en.json`
 
-### 6. Publicar no Streamlit
+### 6. Publicar Online e Sincronizar no GitHub
 
-- Considere a vaga publicada apenas depois que `data/jobs/active.json` apontar para o novo slug e os arquivos de compatibilidade contiverem a nova adaptacao.
-- O `app.py` deve invalidar `st.session_state.adapted_resume` e `st.session_state.job_materials` quando mudar o par `(active_job_id, document_language)`.
-- Se o Streamlit estiver em execucao, preserve o processo e confirme que a troca da vaga provoca recarga.
-- Se nao houver processo local, inicie o app com:
-
-```powershell
-py -3.12 -m streamlit run app.py --server.headless true
-```
-
-- Use um processo em background rastreado para o servidor; nunca use `&`, `nohup` ou processos soltos.
-- Verifique os logs de inicializacao e sempre informe a URL local clicavel, normalmente `http://localhost:8501`, para que o usuario visualize e baixe o curriculo adaptado.
-- Sempre inclua tambem um link clicavel para abrir a pasta local dos arquivos entregues. Quando os arquivos forem publicados no repositorio, inclua o link web da pasta no GitHub para acesso fora da maquina local.
+- Toda adaptacao e compilacao de PDFs deve ser imediatamente sincronizada via `git push origin main` para deploy automatico no projeto online.
+- Nao e necessario iniciar ou manter servidores locais do Streamlit em segundo plano; o fluxo oficial e direto no projeto online e no GitHub.
+- Sempre inclua os links clicaveis para download dos PDFs gerados e o link web do repositorio no GitHub: `https://github.com/keevinvieeira/curriculo-kevin`.
 
 ## Criterios de Qualidade
 
