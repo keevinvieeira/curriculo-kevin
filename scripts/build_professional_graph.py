@@ -31,7 +31,7 @@ CATEGORY_TAGS = {
         "business_model", "business_models", "discovery", "product_discovery", "e_commerce", "experimentation",
         "learning", "monetization", "pricing", "prd", "product_architecture", "product_feedback",
         "product_strategy", "ux", "ux_ui", "frictionless_ux", "voice_of_customer", "web_design", "web_development",
-        "zero_to_one",
+        "zero_to_one", "product_operations", "ats", "deterministic_ux", "spatial_ui", "interaction_design",
     },
     "growth": {
         "ab_testing", "acquisition", "ads", "agency_management", "branding", "content_creation",
@@ -39,10 +39,10 @@ CATEGORY_TAGS = {
         "inbound", "infoproduct", "lead_generation", "marketing", "narratives", "paid_media",
         "seo", "social_media", "tripwire", "volume",
     },
-    "ai": {"ai", "ai_implementation", "automation", "chatbots", "prompt_engineering", "rapid_prototyping"},
+    "ai": {"ai", "ai_implementation", "automation", "chatbots", "prompt_engineering", "rapid_prototyping", "ai_personalization", "llm_orchestration", "graph_rag", "semantic_search", "skill_transferability", "prompt_governance", "ai_assisted_engineering", "match_engine"},
     "data": {
         "analytics", "data", "data_strategy", "database", "metrics", "nocodb", "postgresql", "power_bi",
-        "realtime_data", "revenue_analytics", "roi", "sql", "supabase", "tracking", "web_scraping",
+        "realtime_data", "revenue_analytics", "roi", "sql", "supabase", "tracking", "web_scraping", "data_architecture", "ssot", "json_schema", "data_governance", "knowledge_graphs", "data_modeling", "graph_theory", "gap_analysis", "funnel_analytics",
     },
     "sales": {
         "b2b", "business_development", "client_consulting", "coaching", "crm", "crm_enablement", "high_ticket",
@@ -108,6 +108,21 @@ PT_SKILLS = {
     "tripwire": "Oferta de Entrada", "ux": "Experiência do Usuário", "ux_ui": "UX/UI",
     "volume": "Volume de Entregas", "web_design": "Web Design", "web_development": "Desenvolvimento Web",
     "voice_of_customer": "Voz do Usuário", "web_scraping": "Web Scraping", "zero_to_one": "Construção de 0 a 1",
+    "data_architecture": "Data Architecture", "ssot": "Single Source of Truth", 
+    "json_schema": "JSON Schema", "data_governance": "Data Governance", 
+    "match_engine": "Match Engine", "gap_analysis": "Gap Analysis", 
+    "semantic_search": "Semantic Search", "ai_personalization": "AI Personalization", 
+    "llm_orchestration": "LLM Orchestration", "document_engineering": "Document Engineering", 
+    "html_css": "HTML/CSS", "ats_optimization": "ATS Optimization", 
+    "internationalization": "Internacionalização (PT/EN)", "product_operations": "Product Operations", 
+    "funnel_analytics": "Funnel Analytics", "ats": "Sistemas ATS", 
+    "knowledge_graphs": "Knowledge Graphs", "data_modeling": "Data Modeling", 
+    "graph_theory": "Graph Theory", "graph_rag": "GraphRAG", 
+    "skill_transferability": "Skill Transferability", "python": "Python", 
+    "webgl": "WebGL", "three_js": "Three.js", "spatial_ui": "Spatial UI", 
+    "interaction_design": "Interaction Design", "deterministic_ux": "Navegação Determinística", 
+    "ai_assisted_engineering": "Vibe Coding (AI Engineering)", "prompt_governance": "Prompt Governance", 
+    "ci_cd": "CI/CD Online-First", "test_automation": "Test Automation",
 }
 
 EN_OVERRIDES = {

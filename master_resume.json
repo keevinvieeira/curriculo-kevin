@@ -49,6 +49,153 @@
       },
       "projects": [
         {
+          "name": "AI Career OS & Cérebro Profissional 3D",
+          "description": {
+            "pt": "Ecossistema Completo de Gestão de Carreira, Motor de Match e Visualizador Ontológico",
+            "en": "Complete Career Management Ecosystem, Match Engine and Ontological Viewer"
+          },
+          "role": {
+            "pt": "AI-Native Product Lead & Systems Architect",
+            "en": "AI-Native Product Lead & Systems Architect"
+          },
+          "dates": {
+            "pt": "Julho 2026 – Agosto 2026",
+            "en": "July 2026 – August 2026"
+          },
+          "bullets": [
+            {
+              "tags": [
+                "data_architecture",
+                "ssot",
+                "json_schema",
+                "data_governance"
+              ],
+              "pt": "AI Career OS — Master Resume & Arquitetura de Dados (SSOT): Concebeu a fonte única de verdade estruturada em JSON, garantindo 100% de governança de dados, tipagem estrita e zero alucinações de modelos de linguagem para o histórico profissional.",
+              "en": "AI Career OS — Master Resume & Data Architecture (SSOT): Conceived the single source of truth structured in JSON, ensuring 100% data governance, strict typing, and zero language model hallucinations for the professional history."
+            },
+            {
+              "tags": [
+                "match_engine",
+                "gap_analysis",
+                "semantic_search",
+                "prompt_engineering"
+              ],
+              "pt": "AI Career OS — Motor de Match Engine & Fit Score: Arquitetou motor de inferência em tempo real para cálculo de aderência (Fit Score em %) de vagas sênior, mapeamento de gaps e diagnósticos estratégicos para entrevistas (>95% de precisão).",
+              "en": "AI Career OS — Match Engine & Fit Score: Architected a real-time inference engine to calculate adherence (Fit Score %) for senior roles, mapping gaps and generating strategic diagnostics for interviews (>95% accuracy)."
+            },
+            {
+              "tags": [
+                "ai_personalization",
+                "prompt_engineering",
+                "llm_orchestration"
+              ],
+              "pt": "AI Career OS — AI Resume Builder & Hiper-Personalização: Desenvolveu pipeline generativo para recriação dinâmica de currículos e cartas de apresentação hiper-personalizadas sem permitir fuga do contexto da base mestre.",
+              "en": "AI Career OS — AI Resume Builder & Hyper-Personalization: Developed a generative pipeline for dynamic recreation of hyper-personalized resumes and cover letters without allowing deviation from the master database context."
+            },
+            {
+              "tags": [
+                "document_engineering",
+                "html_css",
+                "ats_optimization",
+                "internationalization"
+              ],
+              "pt": "AI Career OS — Pipeline Tipográfico para ATS: Projetou motor de renderização HTML/CSS ➔ PDF com ajuste dinâmico de densidade tipográfica para formatação em página única (A4) bilíngue otimizada para robôs ATS.",
+              "en": "AI Career OS — Typographical Pipeline for ATS: Designed an HTML/CSS ➔ PDF rendering engine with dynamic typographical density adjustment for bilingual single-page (A4) formatting optimized for ATS bots."
+            },
+            {
+              "tags": [
+                "product_operations",
+                "funnel_analytics",
+                "ats",
+                "ux"
+              ],
+              "pt": "AI Career OS — Painel ATS Tracker (Gestão de Funil): Desenvolveu dashboard analítico para rastreamento de candidaturas, garantindo 100% de visibilidade nas taxas de conversão (Screening, RH, Técnica, Proposta) e centralização de anotações.",
+              "en": "AI Career OS — ATS Tracker Panel (Funnel Management): Developed an analytical dashboard for application tracking, ensuring 100% visibility into conversion rates (Screening, HR, Technical, Offer) and centralized notes."
+            },
+            {
+              "tags": [
+                "knowledge_graphs",
+                "data_modeling",
+                "graph_theory",
+                "product_discovery"
+              ],
+              "pt": "Cérebro Profissional 3D — Modelagem Ontológica de Grafos: Estruturou ontologia relacional de carreira com 355 nós e 451 arestas direcionadas tipadas, conectando hierarquicamente empresas, funções e impactos de negócio.",
+              "en": "3D Career Brain — Ontological Graph Modeling: Structured a relational career ontology with 355 nodes and 451 typed directed edges, hierarchically connecting companies, functions, and business impacts."
+            },
+            {
+              "tags": [
+                "graph_rag",
+                "semantic_search",
+                "skill_transferability",
+                "python"
+              ],
+              "pt": "Cérebro Profissional 3D — Motor Semântico GraphRAG: Construiu pipeline em Python para busca vetorial, cálculo de distâncias semânticas e taxonomia, viabilizando o motor algorítmico de transferabilidade de habilidades.",
+              "en": "3D Career Brain — GraphRAG Semantic Engine: Built a Python pipeline for vector search, semantic distance calculation, and taxonomy, enabling the algorithmic skill transferability engine."
+            },
+            {
+              "tags": [
+                "webgl",
+                "three_js",
+                "spatial_ui",
+                "interaction_design"
+              ],
+              "pt": "Cérebro Profissional 3D — Engenharia de UX Espacial em WebGL/Three.js: Implementou renderizador tridimensional no navegador agrupando nós em clusters interativos (Force-Directed Graph) com máxima fluidez gráfica.",
+              "en": "3D Career Brain — Spatial UX Engineering in WebGL/Three.js: Implemented an in-browser 3D renderer grouping nodes into interactive clusters (Force-Directed Graph) with maximum graphical fluidity."
+            },
+            {
+              "tags": [
+                "deterministic_ux",
+                "product_discovery",
+                "interaction_design"
+              ],
+              "pt": "Cérebro Profissional 3D — Design de Navegação Determinística: Criou algoritmo de travessia e interface hierárquica estrita linear (Empresa ➔ Cargo ➔ Função ➔ Skill ➔ Métrica), garantindo 0 saltos inconsistentes e impedindo desorientação cognitiva.",
+              "en": "3D Career Brain — Deterministic Navigation Design: Created a strict linear hierarchical traversal algorithm and interface (Company ➔ Role ➔ Function ➔ Skill ➔ Metric), ensuring 0 inconsistent jumps and preventing cognitive disorientation."
+            },
+            {
+              "tags": [
+                "ai_assisted_engineering",
+                "prompt_governance",
+                "ci_cd",
+                "test_automation"
+              ],
+              "pt": "AI Career OS — Orquestração de IA & Vibe Coding: Atuou como Tech Lead orquestrando IA generativa (Antigravity), conduzindo testes automatizados e mantendo fluxo contínuo de deploy em nuvem, garantindo +10x de velocidade de engenharia.",
+              "en": "AI Career OS — AI Orchestration & Vibe Coding: Acted as Tech Lead orchestrating generative AI (Antigravity), conducting automated testing, and maintaining continuous cloud deployment, ensuring +10x engineering speedup."
+            }
+          ],
+          "skills": [
+            "Data Architecture",
+            "Single Source of Truth",
+            "JSON Schema",
+            "Knowledge Graphs",
+            "Data Modeling",
+            "Graph Theory",
+            "Product Discovery 0→1",
+            "Product Operations",
+            "ATS",
+            "UX de Gestão",
+            "Deterministic UX",
+            "Spatial UI",
+            "Funnel Analytics",
+            "Prompt Engineering",
+            "AI Personalization",
+            "GraphRAG",
+            "Semantic Search",
+            "Skill Transferability",
+            "Prompt Governance",
+            "LLM Orchestration",
+            "Document Engineering",
+            "HTML/CSS",
+            "ATS Optimization",
+            "WebGL",
+            "Three.js",
+            "Python Data Pipelines",
+            "Vibe Coding",
+            "UAT",
+            "CI/CD Online-First",
+            "Test Automation"
+          ]
+        },
+        {
           "name": "Bússola da Rotina",
           "description": {
             "pt": "Web App de Produtividade Cirúrgica & Gestão de Carga Cognitiva",
@@ -225,6 +372,209 @@
       "roles": [
         {
           "title": {
+            "pt": "AI-Native Product Lead & Systems Architect (Cérebro Profissional 3D & AI Career OS)",
+            "en": "AI-Native Product Lead & Systems Architect (3D Career Brain & AI Career OS)"
+          },
+          "description": {
+            "pt": "Liderança de produto 0→1 e arquitetura de sistema para ecossistema completo de Gestão de Carreira Orientada a IA. Integração de Master Resume (SSOT), motor de adaptação dinâmica (GraphRAG), renderização ATS bilíngue, painel de tracking e visualizador ontológico 3D interativo via WebGL.",
+            "en": "0→1 product leadership and system architecture for a complete AI-Driven Career Management ecosystem. Integrated Master Resume (SSOT), dynamic adaptation engine (GraphRAG), bilingual ATS rendering, application tracking panel, and interactive 3D ontological viewer via WebGL."
+          },
+          "projects": [
+            "Cérebro Profissional 3D",
+            "AI Career OS"
+          ],
+          "responsibilities": [
+            {
+              "pt": "Master Resume & Arquitetura de Dados (SSOT): Concebeu a fonte única de verdade estruturada em JSON, garantindo 100% de governança de dados, tipagem estrita e zero alucinações de modelos de linguagem para o histórico profissional.",
+              "en": "Master Resume & Data Architecture (SSOT): Conceived the single source of truth structured in JSON, ensuring 100% data governance, strict typing, and zero language model hallucinations for the professional history.",
+              "skills": [
+                "Data Architecture",
+                "Single Source of Truth",
+                "JSON Schema",
+                "Data Governance"
+              ],
+              "metrics": [
+                {
+                  "value": "100%",
+                  "description": {
+                    "pt": "Governança de Dados (SSOT) sem redundâncias ou alucinações.",
+                    "en": "Data Governance (SSOT) with zero redundancies or hallucinations."
+                  }
+                }
+              ]
+            },
+            {
+              "pt": "Motor de Match Engine & Fit Score: Arquitetou motor de inferência em tempo real para cálculo de aderência (Fit Score em %) de vagas sênior, mapeamento de gaps e diagnósticos estratégicos para entrevistas.",
+              "en": "Match Engine & Fit Score: Architected a real-time inference engine to calculate adherence (Fit Score %) for senior roles, mapping gaps and generating strategic diagnostics for interviews.",
+              "skills": [
+                "Match Engine",
+                "Gap Analysis",
+                "Semantic Search",
+                "Prompt Engineering"
+              ],
+              "metrics": [
+                {
+                  "value": ">95%",
+                  "description": {
+                    "pt": "Precisão algorítmica no Match Score para vagas técnicas sênior.",
+                    "en": "Algorithmic accuracy in Match Score for senior technical roles."
+                  }
+                }
+              ]
+            },
+            {
+              "pt": "AI Resume Builder & Hiper-Personalização: Desenvolveu pipeline generativo para recriação de currículos e cartas de apresentação hiper-personalizadas sem permitir fuga do contexto da base mestre.",
+              "en": "AI Resume Builder & Hyper-Personalization: Developed a generative pipeline for recreating hyper-personalized resumes and cover letters without allowing deviation from the master database context.",
+              "skills": [
+                "AI Personalization",
+                "Prompt Engineering",
+                "LLM Orchestration"
+              ],
+              "metrics": []
+            },
+            {
+              "pt": "Pipeline Tipográfico para ATS (Document Engineering): Projetou motor de renderização HTML/CSS ➔ PDF com ajuste dinâmico de densidade tipográfica para formatação em página única (A4) bilíngue otimizada para robôs ATS.",
+              "en": "Typographical Pipeline for ATS (Document Engineering): Designed an HTML/CSS ➔ PDF rendering engine with dynamic typographical density adjustment for bilingual single-page (A4) formatting optimized for ATS bots.",
+              "skills": [
+                "Document Engineering",
+                "HTML/CSS Tipográfico",
+                "ATS Optimization",
+                "Internationalization"
+              ],
+              "metrics": [
+                {
+                  "value": "1 Pág A4",
+                  "description": {
+                    "pt": "Encaixe tipográfico perfeito aprovado por robôs ATS.",
+                    "en": "Perfect typographical fit approved by ATS parsing bots."
+                  }
+                }
+              ]
+            },
+            {
+              "pt": "Painel ATS Tracker (Gestão de Funil): Desenvolveu dashboard analítico para rastreamento de candidaturas, taxas de conversão (Screening, RH, Técnica, Proposta) e centralização de anotações.",
+              "en": "ATS Tracker Panel (Funnel Management): Developed an analytical dashboard for tracking applications, conversion rates (Screening, HR, Technical, Offer), and centralizing interview notes.",
+              "skills": [
+                "Product Operations",
+                "Funnel Analytics",
+                "Application Tracking Systems",
+                "UX de Gestão"
+              ],
+              "metrics": [
+                {
+                  "value": "100%",
+                  "description": {
+                    "pt": "Visibilidade e controle de todas as etapas do pipeline de candidaturas.",
+                    "en": "Visibility and control of all stages in the application pipeline."
+                  }
+                }
+              ]
+            },
+            {
+              "pt": "Modelagem Ontológica de Grafos: Estruturou ontologia relacional de carreira com mais de 350 nós e 450 arestas direcionadas tipadas, conectando hierarquicamente empresas, funções e impactos.",
+              "en": "Ontological Graph Modeling: Structured a relational career ontology with over 350 nodes and 450 typed directed edges, hierarchically connecting companies, functions, and business impacts.",
+              "skills": [
+                "Knowledge Graphs",
+                "Data Modeling",
+                "Graph Theory",
+                "Product Discovery"
+              ],
+              "metrics": [
+                {
+                  "value": "355+ Nós / 451+ Arestas",
+                  "description": {
+                    "pt": "Escala e profundidade semântica da ontologia mapeada.",
+                    "en": "Scale and semantic depth of the mapped ontology."
+                  }
+                }
+              ]
+            },
+            {
+              "pt": "Motor Semântico GraphRAG: Construiu pipeline em Python para busca vetorial, cálculo de distâncias semânticas e taxonomia, viabilizando o motor de transferabilidade de habilidades.",
+              "en": "GraphRAG Semantic Engine: Built a Python pipeline for vector search, semantic distance calculation, and taxonomy, enabling the skill transferability engine.",
+              "skills": [
+                "GraphRAG",
+                "Semantic Search",
+                "Skill Transferability",
+                "Python Data Pipelines"
+              ],
+              "metrics": []
+            },
+            {
+              "pt": "Engenharia de UX Espacial em WebGL/Three.js: Implementou renderizador tridimensional no navegador agrupando nós em clusters interativos (Force-Directed Graph) com máxima fluidez gráfica.",
+              "en": "Spatial UX Engineering in WebGL/Three.js: Implemented an in-browser 3D renderer grouping nodes into interactive clusters (Force-Directed Graph) with maximum graphical fluidity.",
+              "skills": [
+                "WebGL",
+                "Three.js",
+                "Spatial UI",
+                "Interaction Design"
+              ],
+              "metrics": []
+            },
+            {
+              "pt": "Design de Navegação Determinística: Criou algoritmo de travessia e interface hierárquica estrita linear (Empresa ➔ Cargo ➔ Função ➔ Skill ➔ Métrica), impedindo desorientação cognitiva.",
+              "en": "Deterministic Navigation Design: Created a strict linear hierarchical traversal algorithm and interface (Company ➔ Role ➔ Function ➔ Skill ➔ Metric), preventing cognitive disorientation.",
+              "skills": [
+                "Deterministic UX",
+                "Product Discovery",
+                "Interaction Design"
+              ],
+              "metrics": [
+                {
+                  "value": "0 Saltos",
+                  "description": {
+                    "pt": "Travessia linear perfeita na interface WebGL sem quebra de hierarquia.",
+                    "en": "Perfect linear traversal in the WebGL interface without hierarchy breakage."
+                  }
+                }
+              ]
+            },
+            {
+              "pt": "Orquestração de IA & Vibe Coding: Atuou como Tech Lead orquestrando IA generativa (Antigravity), conduzindo testes automatizados em Python e mantendo fluxo contínuo de deploy em nuvem.",
+              "en": "AI Orchestration & Vibe Coding: Acted as Tech Lead orchestrating generative AI (Antigravity), conducting automated testing in Python, and maintaining continuous cloud deployment.",
+              "skills": [
+                "AI-Assisted Engineering",
+                "Prompt Governance",
+                "CI/CD Online-First",
+                "Test Automation"
+              ],
+              "metrics": [
+                {
+                  "value": "+10x",
+                  "description": {
+                    "pt": "Velocidade acelerada no ciclo de engenharia vs desenvolvimento tradicional.",
+                    "en": "Accelerated speed in the engineering cycle vs traditional development."
+                  }
+                },
+                {
+                  "value": ">95%",
+                  "description": {
+                    "pt": "Economia de recursos ao substituir uma squad multidisciplinar.",
+                    "en": "Resource savings by replacing a multidisciplinary squad."
+                  }
+                }
+              ]
+            }
+          ],
+          "tools": [
+            "Python",
+            "Three.js",
+            "WebGL",
+            "JSON",
+            "HTML5",
+            "CSS3",
+            "Streamlit",
+            "Antigravity AI",
+            "GitHub Pages",
+            "Supabase"
+          ],
+          "dates": {
+            "pt": "Julho 2026 – Agosto 2026",
+            "en": "July 2026 – August 2026"
+          }
+        },
+        {
+          "title": {
             "pt": "Líder de Produto & Arquiteto de Sistemas com IA (Bússola da Rotina)",
             "en": "AI Product Lead & Systems Architect (Bússola da Rotina)"
           },
@@ -245,6 +595,104 @@
         }
       ],
       "bullets": [
+        {
+          "tags": [
+            "data_architecture",
+            "ssot",
+            "json_schema",
+            "data_governance"
+          ],
+          "pt": "AI Career OS — Master Resume & Arquitetura de Dados (SSOT): Concebeu a fonte única de verdade estruturada em JSON, garantindo 100% de governança de dados, tipagem estrita e zero alucinações de modelos de linguagem para o histórico profissional.",
+          "en": "AI Career OS — Master Resume & Data Architecture (SSOT): Conceived the single source of truth structured in JSON, ensuring 100% data governance, strict typing, and zero language model hallucinations for the professional history."
+        },
+        {
+          "tags": [
+            "match_engine",
+            "gap_analysis",
+            "semantic_search",
+            "prompt_engineering"
+          ],
+          "pt": "AI Career OS — Motor de Match Engine & Fit Score: Arquitetou motor de inferência em tempo real para cálculo de aderência (Fit Score em %) de vagas sênior, mapeamento de gaps e diagnósticos estratégicos para entrevistas (>95% de precisão).",
+          "en": "AI Career OS — Match Engine & Fit Score: Architected a real-time inference engine to calculate adherence (Fit Score %) for senior roles, mapping gaps and generating strategic diagnostics for interviews (>95% accuracy)."
+        },
+        {
+          "tags": [
+            "ai_personalization",
+            "prompt_engineering",
+            "llm_orchestration"
+          ],
+          "pt": "AI Career OS — AI Resume Builder & Hiper-Personalização: Desenvolveu pipeline generativo para recriação dinâmica de currículos e cartas de apresentação hiper-personalizadas sem permitir fuga do contexto da base mestre.",
+          "en": "AI Career OS — AI Resume Builder & Hyper-Personalization: Developed a generative pipeline for dynamic recreation of hyper-personalized resumes and cover letters without allowing deviation from the master database context."
+        },
+        {
+          "tags": [
+            "document_engineering",
+            "html_css",
+            "ats_optimization",
+            "internationalization"
+          ],
+          "pt": "AI Career OS — Pipeline Tipográfico para ATS: Projetou motor de renderização HTML/CSS ➔ PDF com ajuste dinâmico de densidade tipográfica para formatação em página única (A4) bilíngue otimizada para robôs ATS.",
+          "en": "AI Career OS — Typographical Pipeline for ATS: Designed an HTML/CSS ➔ PDF rendering engine with dynamic typographical density adjustment for bilingual single-page (A4) formatting optimized for ATS bots."
+        },
+        {
+          "tags": [
+            "product_operations",
+            "funnel_analytics",
+            "ats",
+            "ux"
+          ],
+          "pt": "AI Career OS — Painel ATS Tracker (Gestão de Funil): Desenvolveu dashboard analítico para rastreamento de candidaturas, garantindo 100% de visibilidade nas taxas de conversão (Screening, RH, Técnica, Proposta) e centralização de anotações.",
+          "en": "AI Career OS — ATS Tracker Panel (Funnel Management): Developed an analytical dashboard for application tracking, ensuring 100% visibility into conversion rates (Screening, HR, Technical, Offer) and centralized notes."
+        },
+        {
+          "tags": [
+            "knowledge_graphs",
+            "data_modeling",
+            "graph_theory",
+            "product_discovery"
+          ],
+          "pt": "Cérebro Profissional 3D — Modelagem Ontológica de Grafos: Estruturou ontologia relacional de carreira com 355 nós e 451 arestas direcionadas tipadas, conectando hierarquicamente empresas, funções e impactos de negócio.",
+          "en": "3D Career Brain — Ontological Graph Modeling: Structured a relational career ontology with 355 nodes and 451 typed directed edges, hierarchically connecting companies, functions, and business impacts."
+        },
+        {
+          "tags": [
+            "graph_rag",
+            "semantic_search",
+            "skill_transferability",
+            "python"
+          ],
+          "pt": "Cérebro Profissional 3D — Motor Semântico GraphRAG: Construiu pipeline em Python para busca vetorial, cálculo de distâncias semânticas e taxonomia, viabilizando o motor algorítmico de transferabilidade de habilidades.",
+          "en": "3D Career Brain — GraphRAG Semantic Engine: Built a Python pipeline for vector search, semantic distance calculation, and taxonomy, enabling the algorithmic skill transferability engine."
+        },
+        {
+          "tags": [
+            "webgl",
+            "three_js",
+            "spatial_ui",
+            "interaction_design"
+          ],
+          "pt": "Cérebro Profissional 3D — Engenharia de UX Espacial em WebGL/Three.js: Implementou renderizador tridimensional no navegador agrupando nós em clusters interativos (Force-Directed Graph) com máxima fluidez gráfica.",
+          "en": "3D Career Brain — Spatial UX Engineering in WebGL/Three.js: Implemented an in-browser 3D renderer grouping nodes into interactive clusters (Force-Directed Graph) with maximum graphical fluidity."
+        },
+        {
+          "tags": [
+            "deterministic_ux",
+            "product_discovery",
+            "interaction_design"
+          ],
+          "pt": "Cérebro Profissional 3D — Design de Navegação Determinística: Criou algoritmo de travessia e interface hierárquica estrita linear (Empresa ➔ Cargo ➔ Função ➔ Skill ➔ Métrica), garantindo 0 saltos inconsistentes e impedindo desorientação cognitiva.",
+          "en": "3D Career Brain — Deterministic Navigation Design: Created a strict linear hierarchical traversal algorithm and interface (Company ➔ Role ➔ Function ➔ Skill ➔ Metric), ensuring 0 inconsistent jumps and preventing cognitive disorientation."
+        },
+        {
+          "tags": [
+            "ai_assisted_engineering",
+            "prompt_governance",
+            "ci_cd",
+            "test_automation"
+          ],
+          "pt": "AI Career OS — Orquestração de IA & Vibe Coding: Atuou como Tech Lead orquestrando IA generativa (Antigravity), conduzindo testes automatizados e mantendo fluxo contínuo de deploy em nuvem, garantindo +10x de velocidade de engenharia.",
+          "en": "AI Career OS — AI Orchestration & Vibe Coding: Acted as Tech Lead orchestrating generative AI (Antigravity), conducting automated testing, and maintaining continuous cloud deployment, ensuring +10x engineering speedup."
+        },
         {
           "tags": [
             "product_discovery",

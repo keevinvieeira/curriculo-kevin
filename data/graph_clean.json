@@ -33,11 +33,28 @@
         "en": "Curitiba, PR, Brazil"
       },
       "dates": {
-        "pt": "Janeiro 2026 – Presente",
-        "en": "January 2026 – Present"
+        "pt": "Julho 2026 – Agosto 2026",
+        "en": "July 2026 – August 2026"
       },
       "size": 1.5,
       "color": "#60a5fa",
+      "glow": true
+    },
+    {
+      "id": "project-ai-career-os-cerebro-profissional-3d",
+      "type": "Project",
+      "labels": {
+        "pt": "AI Career OS & Cérebro Profissional 3D",
+        "en": "AI Career OS & Cérebro Profissional 3D"
+      },
+      "descriptions": {
+        "pt": "Ecossistema Completo de Gestão de Carreira, Motor de Match e Visualizador Ontológico",
+        "en": "Complete Career Management Ecosystem, Match Engine and Ontological Viewer"
+      },
+      "url": "",
+      "company_id": "company-ai-builder-projetos-de-produtos",
+      "size": 1.1,
+      "color": "#10b981",
       "glow": true
     },
     {
@@ -78,6 +95,21 @@
       "id": "role-ai-builder-projetos-de-produtos-1",
       "type": "Role",
       "labels": {
+        "pt": "AI-Native Product Lead & Systems Architect (Cérebro Profissional 3D & AI Career OS)",
+        "en": "AI-Native Product Lead & Systems Architect (3D Career Brain & AI Career OS)"
+      },
+      "dates": {
+        "pt": "Julho 2026 – Agosto 2026",
+        "en": "July 2026 – August 2026"
+      },
+      "company_id": "company-ai-builder-projetos-de-produtos",
+      "size": 0.72,
+      "color": "#a78bfa"
+    },
+    {
+      "id": "role-ai-builder-projetos-de-produtos-2",
+      "type": "Role",
+      "labels": {
         "pt": "Líder de Produto & Arquiteto de Sistemas com IA (Bússola da Rotina)",
         "en": "AI Product Lead & Systems Architect (Bússola da Rotina)"
       },
@@ -90,7 +122,7 @@
       "color": "#a78bfa"
     },
     {
-      "id": "role-ai-builder-projetos-de-produtos-2",
+      "id": "role-ai-builder-projetos-de-produtos-3",
       "type": "Role",
       "labels": {
         "pt": "Gerente de Produto & GTM (Meu Barzin)",
@@ -108,12 +140,12 @@
       "id": "function-ai-builder-projetos-de-produtos-1",
       "type": "Function",
       "labels": {
-        "pt": "Bússola da Rotina — Concepção de Produto e Metodologia 0→1",
-        "en": "Bússola da Rotina — 0-to-1 Product Discovery & Methodology"
+        "pt": "AI Career OS — Master Resume & Arquitetura de Dados (SSOT)",
+        "en": "AI Career OS — Master Resume & Data Architecture (SSOT)"
       },
       "descriptions": {
-        "pt": "Bússola da Rotina — Concepção de Produto e Metodologia 0→1: Idealizou e liderou de ponta a ponta a criação do Web App de produtividade e ergonomia mental, estruturando a Metodologia Bússola baseada em Timeblocking, limites de Work-in-Progress (WIP) e balanceamento de carga cognitiva, com PRD e roadmap completos.",
-        "en": "Bússola da Rotina — 0-to-1 Product Discovery & Methodology: Conceived and led end-to-end the productivity and mental ergonomics Web App, designing the proprietary Bússola Methodology combining Timeblocking, WIP limits, and cognitive load balancing with complete PRD and roadmap."
+        "pt": "AI Career OS — Master Resume & Arquitetura de Dados (SSOT): Concebeu a fonte única de verdade estruturada em JSON, garantindo 100% de governança de dados, tipagem estrita e zero alucinações de modelos de linguagem para o histórico profissional.",
+        "en": "AI Career OS — Master Resume & Data Architecture (SSOT): Conceived the single source of truth structured in JSON, ensuring 100% data governance, strict typing, and zero language model hallucinations for the professional history."
       },
       "company_id": "company-ai-builder-projetos-de-produtos",
       "role_id": "role-ai-builder-projetos-de-produtos-1",
@@ -125,12 +157,12 @@
       "id": "function-ai-builder-projetos-de-produtos-2",
       "type": "Function",
       "labels": {
-        "pt": "Bússola da Rotina — AI Tech Leadership & Desenvolvimento Acelerado (+...",
-        "en": "Bússola da Rotina — AI Tech Leadership & Accelerated Engineering (+10x)"
+        "pt": "AI Career OS — Motor de Match Engine & Fit Score",
+        "en": "AI Career OS — Match Engine & Fit Score"
       },
       "descriptions": {
-        "pt": "Bússola da Rotina — AI Tech Leadership & Desenvolvimento Acelerado (+10x): Atuou como Tech Lead orquestrando agentes inteligentes de IA (Antigravity/Claude) como desenvolvedores operacionais de código, construindo uma SPA completa com 5.700+ linhas com ganho de velocidade de 10x e redução de custo de desenvolvimento superior a 95%.",
-        "en": "Bússola da Rotina — AI Tech Leadership & Accelerated Engineering (+10x): Acted as Tech Lead orchestrating intelligent AI agents as operational pair programmers, building a complete 5,700+ line SPA with 10x delivery speedup and over 95% engineering cost savings."
+        "pt": "AI Career OS — Motor de Match Engine & Fit Score: Arquitetou motor de inferência em tempo real para cálculo de aderência (Fit Score em %) de vagas sênior, mapeamento de gaps e diagnósticos estratégicos para entrevistas (>95% de precisão).",
+        "en": "AI Career OS — Match Engine & Fit Score: Architected a real-time inference engine to calculate adherence (Fit Score %) for senior roles, mapping gaps and generating strategic diagnostics for interviews (>95% accuracy)."
       },
       "company_id": "company-ai-builder-projetos-de-produtos",
       "role_id": "role-ai-builder-projetos-de-produtos-1",
@@ -142,12 +174,12 @@
       "id": "function-ai-builder-projetos-de-produtos-3",
       "type": "Function",
       "labels": {
-        "pt": "Bússola da Rotina — Arquitetura de Dados em Tempo Real e Resolução de...",
-        "en": "Bússola da Rotina — Real-Time Data Architecture & Concurrency Resolution"
+        "pt": "AI Career OS — AI Resume Builder & Hiper-Personalização",
+        "en": "AI Career OS — AI Resume Builder & Hyper-Personalization"
       },
       "descriptions": {
-        "pt": "Bússola da Rotina — Arquitetura de Dados em Tempo Real e Resolução de Concorrência: Parametrizou a infraestrutura no Firebase (Firestore NoSQL e Auth) e diagnosticou falhas complexas de concorrência (race conditions entre escritas otimistas locais e snapshots remotos via hasPendingWrites), garantindo 100% de estabilidade de dados.",
-        "en": "Bússola da Rotina — Real-Time Data Architecture & Concurrency Resolution: Configured cloud infrastructure on Firebase (Firestore NoSQL & Auth) and diagnosed complex concurrency edge cases (race conditions between optimistic local writes and remote snapshots via hasPendingWrites), ensuring 100% data integrity."
+        "pt": "AI Career OS — AI Resume Builder & Hiper-Personalização: Desenvolveu pipeline generativo para recriação dinâmica de currículos e cartas de apresentação hiper-personalizadas sem permitir fuga do contexto da base mestre.",
+        "en": "AI Career OS — AI Resume Builder & Hyper-Personalization: Developed a generative pipeline for dynamic recreation of hyper-personalized resumes and cover letters without allowing deviation from the master database context."
       },
       "company_id": "company-ai-builder-projetos-de-produtos",
       "role_id": "role-ai-builder-projetos-de-produtos-1",
@@ -159,12 +191,12 @@
       "id": "function-ai-builder-projetos-de-produtos-4",
       "type": "Function",
       "labels": {
-        "pt": "Bússola da Rotina — Decisões de UX Anti-Atrito, Analytics e UAT",
-        "en": "Bússola da Rotina — Frictionless UX Decisions, Analytics & UAT"
+        "pt": "AI Career OS — Pipeline Tipográfico para ATS",
+        "en": "AI Career OS — Typographical Pipeline for ATS"
       },
       "descriptions": {
-        "pt": "Bússola da Rotina — Decisões de UX Anti-Atrito, Analytics e UAT: Projetou a aba de Analytics com telemetria de hábitos e tomou decisões críticas de UX para eliminação de atrito (remoção consciente de drag-and-drop em favor de seletores precisos), conduzindo testes reais de aceitação do usuário (UAT).",
-        "en": "Bússola da Rotina — Frictionless UX Decisions, Analytics & UAT: Designed the Analytics dashboard for habit telemetry and made critical frictionless UX decisions (deliberately eliminating drag-and-drop in favor of deterministic controls), conducting hands-on user acceptance testing (UAT)."
+        "pt": "AI Career OS — Pipeline Tipográfico para ATS: Projetou motor de renderização HTML/CSS ➔ PDF com ajuste dinâmico de densidade tipográfica para formatação em página única (A4) bilíngue otimizada para robôs ATS.",
+        "en": "AI Career OS — Typographical Pipeline for ATS: Designed an HTML/CSS ➔ PDF rendering engine with dynamic typographical density adjustment for bilingual single-page (A4) formatting optimized for ATS bots."
       },
       "company_id": "company-ai-builder-projetos-de-produtos",
       "role_id": "role-ai-builder-projetos-de-produtos-1",
@@ -176,12 +208,12 @@
       "id": "function-ai-builder-projetos-de-produtos-5",
       "type": "Function",
       "labels": {
-        "pt": "Meu Barzin — Concepção do MVP",
-        "en": "Meu Barzin — MVP Conception"
+        "pt": "AI Career OS — Painel ATS Tracker (Gestão de Funil)",
+        "en": "AI Career OS — ATS Tracker Panel (Funnel Management)"
       },
       "descriptions": {
-        "pt": "Meu Barzin — Concepção do MVP: Idealizou o ecossistema conversacional no WhatsApp integrado ao 'Meu Barzin Pass' (assinatura mensal de R$ 19,90 com benefício 'Compre 1, Leve 2' em bares locais), desenhando o modelo de negócios e validando a monetização com parceiros B2B.",
-        "en": "Meu Barzin — MVP Conception: Conceptualized the conversational WhatsApp ecosystem integrated with 'Meu Barzin Pass' (R.90 monthly subscription with buy-one-get-one deals at local bars), designing the monetization business model and validating B2B partnership value."
+        "pt": "AI Career OS — Painel ATS Tracker (Gestão de Funil): Desenvolveu dashboard analítico para rastreamento de candidaturas, garantindo 100% de visibilidade nas taxas de conversão (Screening, RH, Técnica, Proposta) e centralização de anotações.",
+        "en": "AI Career OS — ATS Tracker Panel (Funnel Management): Developed an analytical dashboard for application tracking, ensuring 100% visibility into conversion rates (Screening, HR, Technical, Offer) and centralized notes."
       },
       "company_id": "company-ai-builder-projetos-de-produtos",
       "role_id": "role-ai-builder-projetos-de-produtos-2",
@@ -193,12 +225,12 @@
       "id": "function-ai-builder-projetos-de-produtos-6",
       "type": "Function",
       "labels": {
-        "pt": "Meu Barzin — Arquitetura Conversacional e UX",
-        "en": "Meu Barzin — Conversational Architecture & UX"
+        "pt": "Cérebro Profissional 3D — Modelagem Ontológica de Grafos",
+        "en": "3D Career Brain — Ontological Graph Modeling"
       },
       "descriptions": {
-        "pt": "Meu Barzin — Arquitetura Conversacional e UX: Desenhou fluxos conversacionais inteligentes via ManyChat e n8n, integrando RAG e regras de 'Alucinação Zero' para que o agente (mascote Capizin, Sommelier de Bares) fizesse buscas ricas de bares locais sem inventar dados.",
-        "en": "Meu Barzin — Conversational Architecture & UX: Designed intelligent conversation flows via ManyChat and n8n, integrating RAG and 'Zero Hallucination' rules to enable the AI agent (mascot Capizin, Bar Sommelier) to search and recommend venues without errors."
+        "pt": "Cérebro Profissional 3D — Modelagem Ontológica de Grafos: Estruturou ontologia relacional de carreira com 355 nós e 451 arestas direcionadas tipadas, conectando hierarquicamente empresas, funções e impactos de negócio.",
+        "en": "3D Career Brain — Ontological Graph Modeling: Structured a relational career ontology with 355 nodes and 451 typed directed edges, hierarchically connecting companies, functions, and business impacts."
       },
       "company_id": "company-ai-builder-projetos-de-produtos",
       "role_id": "role-ai-builder-projetos-de-produtos-2",
@@ -210,12 +242,12 @@
       "id": "function-ai-builder-projetos-de-produtos-7",
       "type": "Function",
       "labels": {
-        "pt": "Meu Barzin — Varredura e Tratamento de Dados",
-        "en": "Meu Barzin — Data Scraping & Cleansing"
+        "pt": "Cérebro Profissional 3D — Motor Semântico GraphRAG",
+        "en": "3D Career Brain — GraphRAG Semantic Engine"
       },
       "descriptions": {
-        "pt": "Meu Barzin — Varredura e Tratamento de Dados: Mapeou, extraiu e higienizou dados de quase 200 bares de Curitiba via Web Scraping para criar um banco de dados de RAG confiável no Supabase hospedado em VPS.",
-        "en": "Meu Barzin — Data Scraping & Cleansing: Mapped, extracted, and cleansed data from nearly 200 bars in Curitiba via web scraping to build a reliable RAG database in Supabase hosted over a VPS."
+        "pt": "Cérebro Profissional 3D — Motor Semântico GraphRAG: Construiu pipeline em Python para busca vetorial, cálculo de distâncias semânticas e taxonomia, viabilizando o motor algorítmico de transferabilidade de habilidades.",
+        "en": "3D Career Brain — GraphRAG Semantic Engine: Built a Python pipeline for vector search, semantic distance calculation, and taxonomy, enabling the algorithmic skill transferability engine."
       },
       "company_id": "company-ai-builder-projetos-de-produtos",
       "role_id": "role-ai-builder-projetos-de-produtos-2",
@@ -227,12 +259,12 @@
       "id": "function-ai-builder-projetos-de-produtos-8",
       "type": "Function",
       "labels": {
-        "pt": "Meu Barzin — Bancos de Dados e CRM",
-        "en": "Meu Barzin — Databases and CRM"
+        "pt": "Cérebro Profissional 3D — Engenharia de UX Espacial em WebGL/Three.js",
+        "en": "3D Career Brain — Spatial UX Engineering in WebGL/Three.js"
       },
       "descriptions": {
-        "pt": "Meu Barzin — Bancos de Dados e CRM: Estruturou bases e protótipos de CRM utilizando Supabase/PostgreSQL e NocoDB, trabalhando com modelagem, organização e exploração de dados para apoiar operações e produtos digitais.",
-        "en": "Meu Barzin — Databases and CRM: Built database structures and CRM prototypes using Supabase/PostgreSQL and NocoDB, working with data modeling, organization, and exploration to support digital products and operations."
+        "pt": "Cérebro Profissional 3D — Engenharia de UX Espacial em WebGL/Three.js: Implementou renderizador tridimensional no navegador agrupando nós em clusters interativos (Force-Directed Graph) com máxima fluidez gráfica.",
+        "en": "3D Career Brain — Spatial UX Engineering in WebGL/Three.js: Implemented an in-browser 3D renderer grouping nodes into interactive clusters (Force-Directed Graph) with maximum graphical fluidity."
       },
       "company_id": "company-ai-builder-projetos-de-produtos",
       "role_id": "role-ai-builder-projetos-de-produtos-2",
@@ -244,12 +276,12 @@
       "id": "function-ai-builder-projetos-de-produtos-9",
       "type": "Function",
       "labels": {
-        "pt": "Meu Barzin — Geração de Demanda e Métricas",
-        "en": "Meu Barzin — Demand Gen & Metrics"
+        "pt": "Cérebro Profissional 3D — Design de Navegação Determinística",
+        "en": "3D Career Brain — Deterministic Navigation Design"
       },
       "descriptions": {
-        "pt": "Meu Barzin — Geração de Demanda e Métricas: Captou 505 leads qualificados de topo de funil com campanhas orgânicas e anúncios (além de crescer o Instagram para 2.000+ seguidores), alcançando uma taxa de 22,3% de usuários altamente engajados (conversando 4+ vezes com a IA).",
-        "en": "Meu Barzin — Demand Gen & Metrics: Captured 505 qualified top-of-funnel leads via organic and paid campaigns (growing Instagram to 2,000+ followers), achieving a 22.3% high-engagement rate (users interacting 4+ times with the AI)."
+        "pt": "Cérebro Profissional 3D — Design de Navegação Determinística: Criou algoritmo de travessia e interface hierárquica estrita linear (Empresa ➔ Cargo ➔ Função ➔ Skill ➔ Métrica), garantindo 0 saltos inconsistentes e impedindo desorientação cognitiva.",
+        "en": "3D Career Brain — Deterministic Navigation Design: Created a strict linear hierarchical traversal algorithm and interface (Company ➔ Role ➔ Function ➔ Skill ➔ Metric), ensuring 0 inconsistent jumps and preventing cognitive disorientation."
       },
       "company_id": "company-ai-builder-projetos-de-produtos",
       "role_id": "role-ai-builder-projetos-de-produtos-2",
@@ -261,12 +293,12 @@
       "id": "function-ai-builder-projetos-de-produtos-10",
       "type": "Function",
       "labels": {
-        "pt": "Meu Barzin — Desenvolvimento de Negócios B2B",
-        "en": "Meu Barzin — B2B Business Development"
+        "pt": "AI Career OS — Orquestração de IA & Vibe Coding",
+        "en": "AI Career OS — AI Orchestration & Vibe Coding"
       },
       "descriptions": {
-        "pt": "Meu Barzin — Desenvolvimento de Negócios B2B: Liderou a prospecção direta de bares de grande relevância em Curitiba, assinando parcerias de peso para o piloto de benefícios (como o Gal Gastrobar e o Officina).",
-        "en": "Meu Barzin — B2B Business Development: Led direct sales outreach and partner pitching, securing critical pilot partnerships with top Curitiba venues like Gal Gastrobar and Officina."
+        "pt": "AI Career OS — Orquestração de IA & Vibe Coding: Atuou como Tech Lead orquestrando IA generativa (Antigravity), conduzindo testes automatizados e mantendo fluxo contínuo de deploy em nuvem, garantindo +10x de velocidade de engenharia.",
+        "en": "AI Career OS — AI Orchestration & Vibe Coding: Acted as Tech Lead orchestrating generative AI (Antigravity), conducting automated testing, and maintaining continuous cloud deployment, ensuring +10x engineering speedup."
       },
       "company_id": "company-ai-builder-projetos-de-produtos",
       "role_id": "role-ai-builder-projetos-de-produtos-2",
@@ -278,6 +310,176 @@
       "id": "function-ai-builder-projetos-de-produtos-11",
       "type": "Function",
       "labels": {
+        "pt": "Bússola da Rotina — Concepção de Produto e Metodologia 0→1",
+        "en": "Bússola da Rotina — 0-to-1 Product Discovery & Methodology"
+      },
+      "descriptions": {
+        "pt": "Bússola da Rotina — Concepção de Produto e Metodologia 0→1: Idealizou e liderou de ponta a ponta a criação do Web App de produtividade e ergonomia mental, estruturando a Metodologia Bússola baseada em Timeblocking, limites de Work-in-Progress (WIP) e balanceamento de carga cognitiva, com PRD e roadmap completos.",
+        "en": "Bússola da Rotina — 0-to-1 Product Discovery & Methodology: Conceived and led end-to-end the productivity and mental ergonomics Web App, designing the proprietary Bússola Methodology combining Timeblocking, WIP limits, and cognitive load balancing with complete PRD and roadmap."
+      },
+      "company_id": "company-ai-builder-projetos-de-produtos",
+      "role_id": "role-ai-builder-projetos-de-produtos-2",
+      "source": "master_resume.json:work_experience:ai-builder-projetos-de-produtos:bullet:11",
+      "size": 0.58,
+      "color": "#22d3ee"
+    },
+    {
+      "id": "function-ai-builder-projetos-de-produtos-12",
+      "type": "Function",
+      "labels": {
+        "pt": "Bússola da Rotina — AI Tech Leadership & Desenvolvimento Acelerado (+...",
+        "en": "Bússola da Rotina — AI Tech Leadership & Accelerated Engineering (+10x)"
+      },
+      "descriptions": {
+        "pt": "Bússola da Rotina — AI Tech Leadership & Desenvolvimento Acelerado (+10x): Atuou como Tech Lead orquestrando agentes inteligentes de IA (Antigravity/Claude) como desenvolvedores operacionais de código, construindo uma SPA completa com 5.700+ linhas com ganho de velocidade de 10x e redução de custo de desenvolvimento superior a 95%.",
+        "en": "Bússola da Rotina — AI Tech Leadership & Accelerated Engineering (+10x): Acted as Tech Lead orchestrating intelligent AI agents as operational pair programmers, building a complete 5,700+ line SPA with 10x delivery speedup and over 95% engineering cost savings."
+      },
+      "company_id": "company-ai-builder-projetos-de-produtos",
+      "role_id": "role-ai-builder-projetos-de-produtos-2",
+      "source": "master_resume.json:work_experience:ai-builder-projetos-de-produtos:bullet:12",
+      "size": 0.58,
+      "color": "#22d3ee"
+    },
+    {
+      "id": "function-ai-builder-projetos-de-produtos-13",
+      "type": "Function",
+      "labels": {
+        "pt": "Bússola da Rotina — Arquitetura de Dados em Tempo Real e Resolução de...",
+        "en": "Bússola da Rotina — Real-Time Data Architecture & Concurrency Resolution"
+      },
+      "descriptions": {
+        "pt": "Bússola da Rotina — Arquitetura de Dados em Tempo Real e Resolução de Concorrência: Parametrizou a infraestrutura no Firebase (Firestore NoSQL e Auth) e diagnosticou falhas complexas de concorrência (race conditions entre escritas otimistas locais e snapshots remotos via hasPendingWrites), garantindo 100% de estabilidade de dados.",
+        "en": "Bússola da Rotina — Real-Time Data Architecture & Concurrency Resolution: Configured cloud infrastructure on Firebase (Firestore NoSQL & Auth) and diagnosed complex concurrency edge cases (race conditions between optimistic local writes and remote snapshots via hasPendingWrites), ensuring 100% data integrity."
+      },
+      "company_id": "company-ai-builder-projetos-de-produtos",
+      "role_id": "role-ai-builder-projetos-de-produtos-2",
+      "source": "master_resume.json:work_experience:ai-builder-projetos-de-produtos:bullet:13",
+      "size": 0.58,
+      "color": "#22d3ee"
+    },
+    {
+      "id": "function-ai-builder-projetos-de-produtos-14",
+      "type": "Function",
+      "labels": {
+        "pt": "Bússola da Rotina — Decisões de UX Anti-Atrito, Analytics e UAT",
+        "en": "Bússola da Rotina — Frictionless UX Decisions, Analytics & UAT"
+      },
+      "descriptions": {
+        "pt": "Bússola da Rotina — Decisões de UX Anti-Atrito, Analytics e UAT: Projetou a aba de Analytics com telemetria de hábitos e tomou decisões críticas de UX para eliminação de atrito (remoção consciente de drag-and-drop em favor de seletores precisos), conduzindo testes reais de aceitação do usuário (UAT).",
+        "en": "Bússola da Rotina — Frictionless UX Decisions, Analytics & UAT: Designed the Analytics dashboard for habit telemetry and made critical frictionless UX decisions (deliberately eliminating drag-and-drop in favor of deterministic controls), conducting hands-on user acceptance testing (UAT)."
+      },
+      "company_id": "company-ai-builder-projetos-de-produtos",
+      "role_id": "role-ai-builder-projetos-de-produtos-2",
+      "source": "master_resume.json:work_experience:ai-builder-projetos-de-produtos:bullet:14",
+      "size": 0.58,
+      "color": "#22d3ee"
+    },
+    {
+      "id": "function-ai-builder-projetos-de-produtos-15",
+      "type": "Function",
+      "labels": {
+        "pt": "Meu Barzin — Concepção do MVP",
+        "en": "Meu Barzin — MVP Conception"
+      },
+      "descriptions": {
+        "pt": "Meu Barzin — Concepção do MVP: Idealizou o ecossistema conversacional no WhatsApp integrado ao 'Meu Barzin Pass' (assinatura mensal de R$ 19,90 com benefício 'Compre 1, Leve 2' em bares locais), desenhando o modelo de negócios e validando a monetização com parceiros B2B.",
+        "en": "Meu Barzin — MVP Conception: Conceptualized the conversational WhatsApp ecosystem integrated with 'Meu Barzin Pass' (R.90 monthly subscription with buy-one-get-one deals at local bars), designing the monetization business model and validating B2B partnership value."
+      },
+      "company_id": "company-ai-builder-projetos-de-produtos",
+      "role_id": "role-ai-builder-projetos-de-produtos-2",
+      "source": "master_resume.json:work_experience:ai-builder-projetos-de-produtos:bullet:15",
+      "size": 0.58,
+      "color": "#22d3ee"
+    },
+    {
+      "id": "function-ai-builder-projetos-de-produtos-16",
+      "type": "Function",
+      "labels": {
+        "pt": "Meu Barzin — Arquitetura Conversacional e UX",
+        "en": "Meu Barzin — Conversational Architecture & UX"
+      },
+      "descriptions": {
+        "pt": "Meu Barzin — Arquitetura Conversacional e UX: Desenhou fluxos conversacionais inteligentes via ManyChat e n8n, integrando RAG e regras de 'Alucinação Zero' para que o agente (mascote Capizin, Sommelier de Bares) fizesse buscas ricas de bares locais sem inventar dados.",
+        "en": "Meu Barzin — Conversational Architecture & UX: Designed intelligent conversation flows via ManyChat and n8n, integrating RAG and 'Zero Hallucination' rules to enable the AI agent (mascot Capizin, Bar Sommelier) to search and recommend venues without errors."
+      },
+      "company_id": "company-ai-builder-projetos-de-produtos",
+      "role_id": "role-ai-builder-projetos-de-produtos-2",
+      "source": "master_resume.json:work_experience:ai-builder-projetos-de-produtos:bullet:16",
+      "size": 0.58,
+      "color": "#22d3ee"
+    },
+    {
+      "id": "function-ai-builder-projetos-de-produtos-17",
+      "type": "Function",
+      "labels": {
+        "pt": "Meu Barzin — Varredura e Tratamento de Dados",
+        "en": "Meu Barzin — Data Scraping & Cleansing"
+      },
+      "descriptions": {
+        "pt": "Meu Barzin — Varredura e Tratamento de Dados: Mapeou, extraiu e higienizou dados de quase 200 bares de Curitiba via Web Scraping para criar um banco de dados de RAG confiável no Supabase hospedado em VPS.",
+        "en": "Meu Barzin — Data Scraping & Cleansing: Mapped, extracted, and cleansed data from nearly 200 bars in Curitiba via web scraping to build a reliable RAG database in Supabase hosted over a VPS."
+      },
+      "company_id": "company-ai-builder-projetos-de-produtos",
+      "role_id": "role-ai-builder-projetos-de-produtos-2",
+      "source": "master_resume.json:work_experience:ai-builder-projetos-de-produtos:bullet:17",
+      "size": 0.58,
+      "color": "#22d3ee"
+    },
+    {
+      "id": "function-ai-builder-projetos-de-produtos-18",
+      "type": "Function",
+      "labels": {
+        "pt": "Meu Barzin — Bancos de Dados e CRM",
+        "en": "Meu Barzin — Databases and CRM"
+      },
+      "descriptions": {
+        "pt": "Meu Barzin — Bancos de Dados e CRM: Estruturou bases e protótipos de CRM utilizando Supabase/PostgreSQL e NocoDB, trabalhando com modelagem, organização e exploração de dados para apoiar operações e produtos digitais.",
+        "en": "Meu Barzin — Databases and CRM: Built database structures and CRM prototypes using Supabase/PostgreSQL and NocoDB, working with data modeling, organization, and exploration to support digital products and operations."
+      },
+      "company_id": "company-ai-builder-projetos-de-produtos",
+      "role_id": "role-ai-builder-projetos-de-produtos-2",
+      "source": "master_resume.json:work_experience:ai-builder-projetos-de-produtos:bullet:18",
+      "size": 0.58,
+      "color": "#22d3ee"
+    },
+    {
+      "id": "function-ai-builder-projetos-de-produtos-19",
+      "type": "Function",
+      "labels": {
+        "pt": "Meu Barzin — Geração de Demanda e Métricas",
+        "en": "Meu Barzin — Demand Gen & Metrics"
+      },
+      "descriptions": {
+        "pt": "Meu Barzin — Geração de Demanda e Métricas: Captou 505 leads qualificados de topo de funil com campanhas orgânicas e anúncios (além de crescer o Instagram para 2.000+ seguidores), alcançando uma taxa de 22,3% de usuários altamente engajados (conversando 4+ vezes com a IA).",
+        "en": "Meu Barzin — Demand Gen & Metrics: Captured 505 qualified top-of-funnel leads via organic and paid campaigns (growing Instagram to 2,000+ followers), achieving a 22.3% high-engagement rate (users interacting 4+ times with the AI)."
+      },
+      "company_id": "company-ai-builder-projetos-de-produtos",
+      "role_id": "role-ai-builder-projetos-de-produtos-2",
+      "source": "master_resume.json:work_experience:ai-builder-projetos-de-produtos:bullet:19",
+      "size": 0.58,
+      "color": "#22d3ee"
+    },
+    {
+      "id": "function-ai-builder-projetos-de-produtos-20",
+      "type": "Function",
+      "labels": {
+        "pt": "Meu Barzin — Desenvolvimento de Negócios B2B",
+        "en": "Meu Barzin — B2B Business Development"
+      },
+      "descriptions": {
+        "pt": "Meu Barzin — Desenvolvimento de Negócios B2B: Liderou a prospecção direta de bares de grande relevância em Curitiba, assinando parcerias de peso para o piloto de benefícios (como o Gal Gastrobar e o Officina).",
+        "en": "Meu Barzin — B2B Business Development: Led direct sales outreach and partner pitching, securing critical pilot partnerships with top Curitiba venues like Gal Gastrobar and Officina."
+      },
+      "company_id": "company-ai-builder-projetos-de-produtos",
+      "role_id": "role-ai-builder-projetos-de-produtos-2",
+      "source": "master_resume.json:work_experience:ai-builder-projetos-de-produtos:bullet:20",
+      "size": 0.58,
+      "color": "#22d3ee"
+    },
+    {
+      "id": "function-ai-builder-projetos-de-produtos-21",
+      "type": "Function",
+      "labels": {
         "pt": "Meu Barzin — Mapeamento de Gargalos de Conversão",
         "en": "Meu Barzin — Conversion Bottleneck Mapping"
       },
@@ -287,7 +489,7 @@
       },
       "company_id": "company-ai-builder-projetos-de-produtos",
       "role_id": "role-ai-builder-projetos-de-produtos-2",
-      "source": "master_resume.json:work_experience:ai-builder-projetos-de-produtos:bullet:11",
+      "source": "master_resume.json:work_experience:ai-builder-projetos-de-produtos:bullet:21",
       "size": 0.58,
       "color": "#22d3ee"
     },
@@ -1229,11 +1431,36 @@
       },
       "evidence_count": 3,
       "function_ids": [
-        "function-ai-builder-projetos-de-produtos-2",
-        "function-ai-builder-projetos-de-produtos-6",
+        "function-ai-builder-projetos-de-produtos-12",
+        "function-ai-builder-projetos-de-produtos-16",
         "function-wipro-4"
       ],
       "size": 0.74,
+      "color": "#a855f7"
+    },
+    {
+      "id": "skill-ai-assisted-engineering",
+      "type": "Skill",
+      "labels": {
+        "pt": "Vibe Coding (AI Engineering)",
+        "en": "Ai Assisted Engineering"
+      },
+      "category": "ai",
+      "category_labels": {
+        "pt": "IA e Automação",
+        "en": "AI & Automation"
+      },
+      "companies": [
+        "company-ai-builder-projetos-de-produtos"
+      ],
+      "evidence_by_company": {
+        "company-ai-builder-projetos-de-produtos": 1
+      },
+      "evidence_count": 1,
+      "function_ids": [
+        "function-ai-builder-projetos-de-produtos-10"
+      ],
+      "size": 0.58,
       "color": "#a855f7"
     },
     {
@@ -1258,11 +1485,36 @@
       },
       "evidence_count": 3,
       "function_ids": [
-        "function-ai-builder-projetos-de-produtos-2",
+        "function-ai-builder-projetos-de-produtos-12",
         "function-wipro-5",
         "function-wipro-6"
       ],
       "size": 0.74,
+      "color": "#a855f7"
+    },
+    {
+      "id": "skill-ai-personalization",
+      "type": "Skill",
+      "labels": {
+        "pt": "AI Personalization",
+        "en": "Ai Personalization"
+      },
+      "category": "ai",
+      "category_labels": {
+        "pt": "IA e Automação",
+        "en": "AI & Automation"
+      },
+      "companies": [
+        "company-ai-builder-projetos-de-produtos"
+      ],
+      "evidence_by_company": {
+        "company-ai-builder-projetos-de-produtos": 1
+      },
+      "evidence_count": 1,
+      "function_ids": [
+        "function-ai-builder-projetos-de-produtos-3"
+      ],
+      "size": 0.58,
       "color": "#a855f7"
     },
     {
@@ -1287,7 +1539,7 @@
       },
       "evidence_count": 2,
       "function_ids": [
-        "function-ai-builder-projetos-de-produtos-4",
+        "function-ai-builder-projetos-de-produtos-14",
         "function-wipro-14"
       ],
       "size": 0.66,
@@ -1319,6 +1571,56 @@
       "color": "#34d399"
     },
     {
+      "id": "skill-ats",
+      "type": "Skill",
+      "labels": {
+        "pt": "Sistemas ATS",
+        "en": "Ats"
+      },
+      "category": "product",
+      "category_labels": {
+        "pt": "Produto e Estratégia",
+        "en": "Product & Strategy"
+      },
+      "companies": [
+        "company-ai-builder-projetos-de-produtos"
+      ],
+      "evidence_by_company": {
+        "company-ai-builder-projetos-de-produtos": 1
+      },
+      "evidence_count": 1,
+      "function_ids": [
+        "function-ai-builder-projetos-de-produtos-5"
+      ],
+      "size": 0.58,
+      "color": "#4a9eff"
+    },
+    {
+      "id": "skill-ats-optimization",
+      "type": "Skill",
+      "labels": {
+        "pt": "ATS Optimization",
+        "en": "Ats Optimization"
+      },
+      "category": "operations",
+      "category_labels": {
+        "pt": "Liderança e Operações",
+        "en": "Leadership & Operations"
+      },
+      "companies": [
+        "company-ai-builder-projetos-de-produtos"
+      ],
+      "evidence_by_company": {
+        "company-ai-builder-projetos-de-produtos": 1
+      },
+      "evidence_count": 1,
+      "function_ids": [
+        "function-ai-builder-projetos-de-produtos-4"
+      ],
+      "size": 0.58,
+      "color": "#38bdf8"
+    },
+    {
       "id": "skill-automation",
       "type": "Skill",
       "labels": {
@@ -1340,8 +1642,8 @@
       },
       "evidence_count": 3,
       "function_ids": [
-        "function-ai-builder-projetos-de-produtos-2",
-        "function-ai-builder-projetos-de-produtos-6",
+        "function-ai-builder-projetos-de-produtos-12",
+        "function-ai-builder-projetos-de-produtos-16",
         "function-munzner-2"
       ],
       "size": 0.74,
@@ -1369,7 +1671,7 @@
       },
       "evidence_count": 2,
       "function_ids": [
-        "function-ai-builder-projetos-de-produtos-10",
+        "function-ai-builder-projetos-de-produtos-20",
         "function-conversas-brasileiras-4"
       ],
       "size": 0.66,
@@ -1523,7 +1825,7 @@
       },
       "evidence_count": 2,
       "function_ids": [
-        "function-ai-builder-projetos-de-produtos-10",
+        "function-ai-builder-projetos-de-produtos-20",
         "function-conversas-brasileiras-4"
       ],
       "size": 0.66,
@@ -1549,7 +1851,7 @@
       },
       "evidence_count": 1,
       "function_ids": [
-        "function-ai-builder-projetos-de-produtos-5"
+        "function-ai-builder-projetos-de-produtos-15"
       ],
       "size": 0.58,
       "color": "#4a9eff"
@@ -1603,6 +1905,31 @@
       ],
       "size": 0.58,
       "color": "#a855f7"
+    },
+    {
+      "id": "skill-ci-cd",
+      "type": "Skill",
+      "labels": {
+        "pt": "CI/CD Online-First",
+        "en": "Ci Cd"
+      },
+      "category": "operations",
+      "category_labels": {
+        "pt": "Liderança e Operações",
+        "en": "Leadership & Operations"
+      },
+      "companies": [
+        "company-ai-builder-projetos-de-produtos"
+      ],
+      "evidence_by_company": {
+        "company-ai-builder-projetos-de-produtos": 1
+      },
+      "evidence_count": 1,
+      "function_ids": [
+        "function-ai-builder-projetos-de-produtos-10"
+      ],
+      "size": 0.58,
+      "color": "#38bdf8"
     },
     {
       "id": "skill-client-consulting",
@@ -1851,7 +2178,7 @@
       },
       "evidence_count": 2,
       "function_ids": [
-        "function-ai-builder-projetos-de-produtos-3",
+        "function-ai-builder-projetos-de-produtos-13",
         "function-ak-branding-web-design-6"
       ],
       "size": 0.66,
@@ -1931,7 +2258,7 @@
       },
       "evidence_count": 4,
       "function_ids": [
-        "function-ai-builder-projetos-de-produtos-8",
+        "function-ai-builder-projetos-de-produtos-18",
         "function-munzner-2",
         "function-munzner-3",
         "function-wipro-4"
@@ -1986,7 +2313,7 @@
       },
       "evidence_count": 2,
       "function_ids": [
-        "function-ai-builder-projetos-de-produtos-11",
+        "function-ai-builder-projetos-de-produtos-21",
         "function-ak-branding-web-design-2"
       ],
       "size": 0.66,
@@ -2045,6 +2372,81 @@
       "color": "#ff8c42"
     },
     {
+      "id": "skill-data-architecture",
+      "type": "Skill",
+      "labels": {
+        "pt": "Data Architecture",
+        "en": "Data Architecture"
+      },
+      "category": "data",
+      "category_labels": {
+        "pt": "Dados e Analytics",
+        "en": "Data & Analytics"
+      },
+      "companies": [
+        "company-ai-builder-projetos-de-produtos"
+      ],
+      "evidence_by_company": {
+        "company-ai-builder-projetos-de-produtos": 1
+      },
+      "evidence_count": 1,
+      "function_ids": [
+        "function-ai-builder-projetos-de-produtos-1"
+      ],
+      "size": 0.58,
+      "color": "#ff8c42"
+    },
+    {
+      "id": "skill-data-governance",
+      "type": "Skill",
+      "labels": {
+        "pt": "Data Governance",
+        "en": "Data Governance"
+      },
+      "category": "data",
+      "category_labels": {
+        "pt": "Dados e Analytics",
+        "en": "Data & Analytics"
+      },
+      "companies": [
+        "company-ai-builder-projetos-de-produtos"
+      ],
+      "evidence_by_company": {
+        "company-ai-builder-projetos-de-produtos": 1
+      },
+      "evidence_count": 1,
+      "function_ids": [
+        "function-ai-builder-projetos-de-produtos-1"
+      ],
+      "size": 0.58,
+      "color": "#ff8c42"
+    },
+    {
+      "id": "skill-data-modeling",
+      "type": "Skill",
+      "labels": {
+        "pt": "Data Modeling",
+        "en": "Data Modeling"
+      },
+      "category": "data",
+      "category_labels": {
+        "pt": "Dados e Analytics",
+        "en": "Data & Analytics"
+      },
+      "companies": [
+        "company-ai-builder-projetos-de-produtos"
+      ],
+      "evidence_by_company": {
+        "company-ai-builder-projetos-de-produtos": 1
+      },
+      "evidence_count": 1,
+      "function_ids": [
+        "function-ai-builder-projetos-de-produtos-6"
+      ],
+      "size": 0.58,
+      "color": "#ff8c42"
+    },
+    {
       "id": "skill-data-strategy",
       "type": "Skill",
       "labels": {
@@ -2064,7 +2466,7 @@
       },
       "evidence_count": 1,
       "function_ids": [
-        "function-ai-builder-projetos-de-produtos-7"
+        "function-ai-builder-projetos-de-produtos-17"
       ],
       "size": 0.58,
       "color": "#ff8c42"
@@ -2089,10 +2491,35 @@
       },
       "evidence_count": 1,
       "function_ids": [
-        "function-ai-builder-projetos-de-produtos-3"
+        "function-ai-builder-projetos-de-produtos-13"
       ],
       "size": 0.58,
       "color": "#ff8c42"
+    },
+    {
+      "id": "skill-deterministic-ux",
+      "type": "Skill",
+      "labels": {
+        "pt": "Navegação Determinística",
+        "en": "Deterministic Ux"
+      },
+      "category": "product",
+      "category_labels": {
+        "pt": "Produto e Estratégia",
+        "en": "Product & Strategy"
+      },
+      "companies": [
+        "company-ai-builder-projetos-de-produtos"
+      ],
+      "evidence_by_company": {
+        "company-ai-builder-projetos-de-produtos": 1
+      },
+      "evidence_count": 1,
+      "function_ids": [
+        "function-ai-builder-projetos-de-produtos-9"
+      ],
+      "size": 0.58,
+      "color": "#4a9eff"
     },
     {
       "id": "skill-discovery",
@@ -2116,11 +2543,36 @@
       },
       "evidence_count": 2,
       "function_ids": [
-        "function-ai-builder-projetos-de-produtos-11",
+        "function-ai-builder-projetos-de-produtos-21",
         "function-wipro-10"
       ],
       "size": 0.66,
       "color": "#4a9eff"
+    },
+    {
+      "id": "skill-document-engineering",
+      "type": "Skill",
+      "labels": {
+        "pt": "Document Engineering",
+        "en": "Document Engineering"
+      },
+      "category": "operations",
+      "category_labels": {
+        "pt": "Liderança e Operações",
+        "en": "Leadership & Operations"
+      },
+      "companies": [
+        "company-ai-builder-projetos-de-produtos"
+      ],
+      "evidence_by_company": {
+        "company-ai-builder-projetos-de-produtos": 1
+      },
+      "evidence_count": 1,
+      "function_ids": [
+        "function-ai-builder-projetos-de-produtos-4"
+      ],
+      "size": 0.58,
+      "color": "#38bdf8"
     },
     {
       "id": "skill-documentation",
@@ -2324,7 +2776,7 @@
       },
       "evidence_count": 1,
       "function_ids": [
-        "function-ai-builder-projetos-de-produtos-4"
+        "function-ai-builder-projetos-de-produtos-14"
       ],
       "size": 0.58,
       "color": "#4a9eff"
@@ -2349,10 +2801,60 @@
       },
       "evidence_count": 1,
       "function_ids": [
-        "function-ai-builder-projetos-de-produtos-9"
+        "function-ai-builder-projetos-de-produtos-19"
       ],
       "size": 0.58,
       "color": "#00d4aa"
+    },
+    {
+      "id": "skill-funnel-analytics",
+      "type": "Skill",
+      "labels": {
+        "pt": "Funnel Analytics",
+        "en": "Funnel Analytics"
+      },
+      "category": "data",
+      "category_labels": {
+        "pt": "Dados e Analytics",
+        "en": "Data & Analytics"
+      },
+      "companies": [
+        "company-ai-builder-projetos-de-produtos"
+      ],
+      "evidence_by_company": {
+        "company-ai-builder-projetos-de-produtos": 1
+      },
+      "evidence_count": 1,
+      "function_ids": [
+        "function-ai-builder-projetos-de-produtos-5"
+      ],
+      "size": 0.58,
+      "color": "#ff8c42"
+    },
+    {
+      "id": "skill-gap-analysis",
+      "type": "Skill",
+      "labels": {
+        "pt": "Gap Analysis",
+        "en": "Gap Analysis"
+      },
+      "category": "data",
+      "category_labels": {
+        "pt": "Dados e Analytics",
+        "en": "Data & Analytics"
+      },
+      "companies": [
+        "company-ai-builder-projetos-de-produtos"
+      ],
+      "evidence_by_company": {
+        "company-ai-builder-projetos-de-produtos": 1
+      },
+      "evidence_count": 1,
+      "function_ids": [
+        "function-ai-builder-projetos-de-produtos-2"
+      ],
+      "size": 0.58,
+      "color": "#ff8c42"
     },
     {
       "id": "skill-governance",
@@ -2380,6 +2882,56 @@
       "color": "#f472b6"
     },
     {
+      "id": "skill-graph-rag",
+      "type": "Skill",
+      "labels": {
+        "pt": "GraphRAG",
+        "en": "Graph Rag"
+      },
+      "category": "ai",
+      "category_labels": {
+        "pt": "IA e Automação",
+        "en": "AI & Automation"
+      },
+      "companies": [
+        "company-ai-builder-projetos-de-produtos"
+      ],
+      "evidence_by_company": {
+        "company-ai-builder-projetos-de-produtos": 1
+      },
+      "evidence_count": 1,
+      "function_ids": [
+        "function-ai-builder-projetos-de-produtos-7"
+      ],
+      "size": 0.58,
+      "color": "#a855f7"
+    },
+    {
+      "id": "skill-graph-theory",
+      "type": "Skill",
+      "labels": {
+        "pt": "Graph Theory",
+        "en": "Graph Theory"
+      },
+      "category": "data",
+      "category_labels": {
+        "pt": "Dados e Analytics",
+        "en": "Data & Analytics"
+      },
+      "companies": [
+        "company-ai-builder-projetos-de-produtos"
+      ],
+      "evidence_by_company": {
+        "company-ai-builder-projetos-de-produtos": 1
+      },
+      "evidence_count": 1,
+      "function_ids": [
+        "function-ai-builder-projetos-de-produtos-6"
+      ],
+      "size": 0.58,
+      "color": "#ff8c42"
+    },
+    {
       "id": "skill-growth",
       "type": "Skill",
       "labels": {
@@ -2401,7 +2953,7 @@
       },
       "evidence_count": 2,
       "function_ids": [
-        "function-ai-builder-projetos-de-produtos-9",
+        "function-ai-builder-projetos-de-produtos-19",
         "function-ak-branding-web-design-3"
       ],
       "size": 0.66,
@@ -2431,6 +2983,31 @@
       ],
       "size": 0.58,
       "color": "#ef4444"
+    },
+    {
+      "id": "skill-html-css",
+      "type": "Skill",
+      "labels": {
+        "pt": "HTML/CSS",
+        "en": "Html Css"
+      },
+      "category": "operations",
+      "category_labels": {
+        "pt": "Liderança e Operações",
+        "en": "Leadership & Operations"
+      },
+      "companies": [
+        "company-ai-builder-projetos-de-produtos"
+      ],
+      "evidence_by_company": {
+        "company-ai-builder-projetos-de-produtos": 1
+      },
+      "evidence_count": 1,
+      "function_ids": [
+        "function-ai-builder-projetos-de-produtos-4"
+      ],
+      "size": 0.58,
+      "color": "#38bdf8"
     },
     {
       "id": "skill-inbound",
@@ -2481,6 +3058,107 @@
       ],
       "size": 0.58,
       "color": "#00d4aa"
+    },
+    {
+      "id": "skill-interaction-design",
+      "type": "Skill",
+      "labels": {
+        "pt": "Interaction Design",
+        "en": "Interaction Design"
+      },
+      "category": "product",
+      "category_labels": {
+        "pt": "Produto e Estratégia",
+        "en": "Product & Strategy"
+      },
+      "companies": [
+        "company-ai-builder-projetos-de-produtos"
+      ],
+      "evidence_by_company": {
+        "company-ai-builder-projetos-de-produtos": 2
+      },
+      "evidence_count": 2,
+      "function_ids": [
+        "function-ai-builder-projetos-de-produtos-8",
+        "function-ai-builder-projetos-de-produtos-9"
+      ],
+      "size": 0.66,
+      "color": "#4a9eff"
+    },
+    {
+      "id": "skill-internationalization",
+      "type": "Skill",
+      "labels": {
+        "pt": "Internacionalização (PT/EN)",
+        "en": "Internationalization"
+      },
+      "category": "operations",
+      "category_labels": {
+        "pt": "Liderança e Operações",
+        "en": "Leadership & Operations"
+      },
+      "companies": [
+        "company-ai-builder-projetos-de-produtos"
+      ],
+      "evidence_by_company": {
+        "company-ai-builder-projetos-de-produtos": 1
+      },
+      "evidence_count": 1,
+      "function_ids": [
+        "function-ai-builder-projetos-de-produtos-4"
+      ],
+      "size": 0.58,
+      "color": "#38bdf8"
+    },
+    {
+      "id": "skill-json-schema",
+      "type": "Skill",
+      "labels": {
+        "pt": "JSON Schema",
+        "en": "Json Schema"
+      },
+      "category": "data",
+      "category_labels": {
+        "pt": "Dados e Analytics",
+        "en": "Data & Analytics"
+      },
+      "companies": [
+        "company-ai-builder-projetos-de-produtos"
+      ],
+      "evidence_by_company": {
+        "company-ai-builder-projetos-de-produtos": 1
+      },
+      "evidence_count": 1,
+      "function_ids": [
+        "function-ai-builder-projetos-de-produtos-1"
+      ],
+      "size": 0.58,
+      "color": "#ff8c42"
+    },
+    {
+      "id": "skill-knowledge-graphs",
+      "type": "Skill",
+      "labels": {
+        "pt": "Knowledge Graphs",
+        "en": "Knowledge Graphs"
+      },
+      "category": "data",
+      "category_labels": {
+        "pt": "Dados e Analytics",
+        "en": "Data & Analytics"
+      },
+      "companies": [
+        "company-ai-builder-projetos-de-produtos"
+      ],
+      "evidence_by_company": {
+        "company-ai-builder-projetos-de-produtos": 1
+      },
+      "evidence_count": 1,
+      "function_ids": [
+        "function-ai-builder-projetos-de-produtos-6"
+      ],
+      "size": 0.58,
+      "color": "#ff8c42"
     },
     {
       "id": "skill-lead-generation",
@@ -2583,6 +3261,31 @@
       "color": "#f472b6"
     },
     {
+      "id": "skill-llm-orchestration",
+      "type": "Skill",
+      "labels": {
+        "pt": "LLM Orchestration",
+        "en": "Llm Orchestration"
+      },
+      "category": "ai",
+      "category_labels": {
+        "pt": "IA e Automação",
+        "en": "AI & Automation"
+      },
+      "companies": [
+        "company-ai-builder-projetos-de-produtos"
+      ],
+      "evidence_by_company": {
+        "company-ai-builder-projetos-de-produtos": 1
+      },
+      "evidence_count": 1,
+      "function_ids": [
+        "function-ai-builder-projetos-de-produtos-3"
+      ],
+      "size": 0.58,
+      "color": "#a855f7"
+    },
+    {
       "id": "skill-logistics",
       "type": "Skill",
       "labels": {
@@ -2637,6 +3340,31 @@
       "color": "#00d4aa"
     },
     {
+      "id": "skill-match-engine",
+      "type": "Skill",
+      "labels": {
+        "pt": "Match Engine",
+        "en": "Match Engine"
+      },
+      "category": "ai",
+      "category_labels": {
+        "pt": "IA e Automação",
+        "en": "AI & Automation"
+      },
+      "companies": [
+        "company-ai-builder-projetos-de-produtos"
+      ],
+      "evidence_by_company": {
+        "company-ai-builder-projetos-de-produtos": 1
+      },
+      "evidence_count": 1,
+      "function_ids": [
+        "function-ai-builder-projetos-de-produtos-2"
+      ],
+      "size": 0.58,
+      "color": "#a855f7"
+    },
+    {
       "id": "skill-methodology",
       "type": "Skill",
       "labels": {
@@ -2658,7 +3386,7 @@
       },
       "evidence_count": 2,
       "function_ids": [
-        "function-ai-builder-projetos-de-produtos-1",
+        "function-ai-builder-projetos-de-produtos-11",
         "function-wipro-9"
       ],
       "size": 0.66,
@@ -2684,7 +3412,7 @@
       },
       "evidence_count": 1,
       "function_ids": [
-        "function-ai-builder-projetos-de-produtos-9"
+        "function-ai-builder-projetos-de-produtos-19"
       ],
       "size": 0.58,
       "color": "#ff8c42"
@@ -2713,7 +3441,7 @@
       },
       "evidence_count": 3,
       "function_ids": [
-        "function-ai-builder-projetos-de-produtos-5",
+        "function-ai-builder-projetos-de-produtos-15",
         "function-ak-branding-web-design-4",
         "function-munzner-3"
       ],
@@ -2765,7 +3493,7 @@
       },
       "evidence_count": 1,
       "function_ids": [
-        "function-ai-builder-projetos-de-produtos-8"
+        "function-ai-builder-projetos-de-produtos-18"
       ],
       "size": 0.58,
       "color": "#ff8c42"
@@ -2943,7 +3671,7 @@
       },
       "evidence_count": 1,
       "function_ids": [
-        "function-ai-builder-projetos-de-produtos-8"
+        "function-ai-builder-projetos-de-produtos-18"
       ],
       "size": 0.58,
       "color": "#ff8c42"
@@ -2993,7 +3721,7 @@
       },
       "evidence_count": 1,
       "function_ids": [
-        "function-ai-builder-projetos-de-produtos-1"
+        "function-ai-builder-projetos-de-produtos-11"
       ],
       "size": 0.58,
       "color": "#4a9eff"
@@ -3069,7 +3797,7 @@
       },
       "evidence_count": 1,
       "function_ids": [
-        "function-ai-builder-projetos-de-produtos-6"
+        "function-ai-builder-projetos-de-produtos-16"
       ],
       "size": 0.58,
       "color": "#4a9eff"
@@ -3090,13 +3818,15 @@
         "company-ai-builder-projetos-de-produtos"
       ],
       "evidence_by_company": {
-        "company-ai-builder-projetos-de-produtos": 1
+        "company-ai-builder-projetos-de-produtos": 3
       },
-      "evidence_count": 1,
+      "evidence_count": 3,
       "function_ids": [
-        "function-ai-builder-projetos-de-produtos-1"
+        "function-ai-builder-projetos-de-produtos-11",
+        "function-ai-builder-projetos-de-produtos-6",
+        "function-ai-builder-projetos-de-produtos-9"
       ],
-      "size": 0.58,
+      "size": 0.74,
       "color": "#4a9eff"
     },
     {
@@ -3123,6 +3853,31 @@
         "function-wipro-6"
       ],
       "size": 0.66,
+      "color": "#4a9eff"
+    },
+    {
+      "id": "skill-product-operations",
+      "type": "Skill",
+      "labels": {
+        "pt": "Product Operations",
+        "en": "Product Operations"
+      },
+      "category": "product",
+      "category_labels": {
+        "pt": "Produto e Estratégia",
+        "en": "Product & Strategy"
+      },
+      "companies": [
+        "company-ai-builder-projetos-de-produtos"
+      ],
+      "evidence_by_company": {
+        "company-ai-builder-projetos-de-produtos": 1
+      },
+      "evidence_count": 1,
+      "function_ids": [
+        "function-ai-builder-projetos-de-produtos-5"
+      ],
+      "size": 0.58,
       "color": "#4a9eff"
     },
     {
@@ -3170,8 +3925,8 @@
       },
       "evidence_count": 2,
       "function_ids": [
-        "function-ai-builder-projetos-de-produtos-1",
-        "function-ai-builder-projetos-de-produtos-5"
+        "function-ai-builder-projetos-de-produtos-11",
+        "function-ai-builder-projetos-de-produtos-15"
       ],
       "size": 0.66,
       "color": "#4a9eff"
@@ -3218,16 +3973,68 @@
         "company-wipro"
       ],
       "evidence_by_company": {
-        "company-ai-builder-projetos-de-produtos": 1,
+        "company-ai-builder-projetos-de-produtos": 3,
         "company-wipro": 1
       },
-      "evidence_count": 2,
+      "evidence_count": 4,
       "function_ids": [
+        "function-ai-builder-projetos-de-produtos-12",
         "function-ai-builder-projetos-de-produtos-2",
+        "function-ai-builder-projetos-de-produtos-3",
         "function-wipro-5"
       ],
-      "size": 0.66,
+      "size": 0.8200000000000001,
       "color": "#a855f7"
+    },
+    {
+      "id": "skill-prompt-governance",
+      "type": "Skill",
+      "labels": {
+        "pt": "Prompt Governance",
+        "en": "Prompt Governance"
+      },
+      "category": "ai",
+      "category_labels": {
+        "pt": "IA e Automação",
+        "en": "AI & Automation"
+      },
+      "companies": [
+        "company-ai-builder-projetos-de-produtos"
+      ],
+      "evidence_by_company": {
+        "company-ai-builder-projetos-de-produtos": 1
+      },
+      "evidence_count": 1,
+      "function_ids": [
+        "function-ai-builder-projetos-de-produtos-10"
+      ],
+      "size": 0.58,
+      "color": "#a855f7"
+    },
+    {
+      "id": "skill-python",
+      "type": "Skill",
+      "labels": {
+        "pt": "Python",
+        "en": "Python"
+      },
+      "category": "operations",
+      "category_labels": {
+        "pt": "Liderança e Operações",
+        "en": "Leadership & Operations"
+      },
+      "companies": [
+        "company-ai-builder-projetos-de-produtos"
+      ],
+      "evidence_by_company": {
+        "company-ai-builder-projetos-de-produtos": 1
+      },
+      "evidence_count": 1,
+      "function_ids": [
+        "function-ai-builder-projetos-de-produtos-7"
+      ],
+      "size": 0.58,
+      "color": "#38bdf8"
     },
     {
       "id": "skill-quality-assurance",
@@ -3251,7 +4058,7 @@
       },
       "evidence_count": 3,
       "function_ids": [
-        "function-ai-builder-projetos-de-produtos-3",
+        "function-ai-builder-projetos-de-produtos-13",
         "function-wipro-7",
         "function-wipro-9"
       ],
@@ -3303,7 +4110,7 @@
       },
       "evidence_count": 1,
       "function_ids": [
-        "function-ai-builder-projetos-de-produtos-2"
+        "function-ai-builder-projetos-de-produtos-12"
       ],
       "size": 0.58,
       "color": "#a855f7"
@@ -3328,7 +4135,7 @@
       },
       "evidence_count": 1,
       "function_ids": [
-        "function-ai-builder-projetos-de-produtos-3"
+        "function-ai-builder-projetos-de-produtos-13"
       ],
       "size": 0.58,
       "color": "#ff8c42"
@@ -3455,7 +4262,7 @@
       },
       "evidence_count": 2,
       "function_ids": [
-        "function-ai-builder-projetos-de-produtos-3",
+        "function-ai-builder-projetos-de-produtos-13",
         "function-wipro-8"
       ],
       "size": 0.66,
@@ -3483,7 +4290,7 @@
       },
       "evidence_count": 3,
       "function_ids": [
-        "function-ai-builder-projetos-de-produtos-10",
+        "function-ai-builder-projetos-de-produtos-20",
         "function-wipro-7",
         "function-wipro-9"
       ],
@@ -3542,6 +4349,32 @@
       "color": "#f472b6"
     },
     {
+      "id": "skill-semantic-search",
+      "type": "Skill",
+      "labels": {
+        "pt": "Semantic Search",
+        "en": "Semantic Search"
+      },
+      "category": "ai",
+      "category_labels": {
+        "pt": "IA e Automação",
+        "en": "AI & Automation"
+      },
+      "companies": [
+        "company-ai-builder-projetos-de-produtos"
+      ],
+      "evidence_by_company": {
+        "company-ai-builder-projetos-de-produtos": 2
+      },
+      "evidence_count": 2,
+      "function_ids": [
+        "function-ai-builder-projetos-de-produtos-2",
+        "function-ai-builder-projetos-de-produtos-7"
+      ],
+      "size": 0.66,
+      "color": "#a855f7"
+    },
+    {
       "id": "skill-seo",
       "type": "Skill",
       "labels": {
@@ -3565,6 +4398,31 @@
       ],
       "size": 0.58,
       "color": "#00d4aa"
+    },
+    {
+      "id": "skill-skill-transferability",
+      "type": "Skill",
+      "labels": {
+        "pt": "Skill Transferability",
+        "en": "Skill Transferability"
+      },
+      "category": "ai",
+      "category_labels": {
+        "pt": "IA e Automação",
+        "en": "AI & Automation"
+      },
+      "companies": [
+        "company-ai-builder-projetos-de-produtos"
+      ],
+      "evidence_by_company": {
+        "company-ai-builder-projetos-de-produtos": 1
+      },
+      "evidence_count": 1,
+      "function_ids": [
+        "function-ai-builder-projetos-de-produtos-7"
+      ],
+      "size": 0.58,
+      "color": "#a855f7"
     },
     {
       "id": "skill-social-innovation",
@@ -3617,6 +4475,31 @@
       "color": "#00d4aa"
     },
     {
+      "id": "skill-spatial-ui",
+      "type": "Skill",
+      "labels": {
+        "pt": "Spatial UI",
+        "en": "Spatial Ui"
+      },
+      "category": "product",
+      "category_labels": {
+        "pt": "Produto e Estratégia",
+        "en": "Product & Strategy"
+      },
+      "companies": [
+        "company-ai-builder-projetos-de-produtos"
+      ],
+      "evidence_by_company": {
+        "company-ai-builder-projetos-de-produtos": 1
+      },
+      "evidence_count": 1,
+      "function_ids": [
+        "function-ai-builder-projetos-de-produtos-8"
+      ],
+      "size": 0.58,
+      "color": "#4a9eff"
+    },
+    {
       "id": "skill-sql",
       "type": "Skill",
       "labels": {
@@ -3636,7 +4519,7 @@
       },
       "evidence_count": 1,
       "function_ids": [
-        "function-ai-builder-projetos-de-produtos-8"
+        "function-ai-builder-projetos-de-produtos-18"
       ],
       "size": 0.58,
       "color": "#ff8c42"
@@ -3667,6 +4550,31 @@
       "color": "#38bdf8"
     },
     {
+      "id": "skill-ssot",
+      "type": "Skill",
+      "labels": {
+        "pt": "Single Source of Truth",
+        "en": "Ssot"
+      },
+      "category": "data",
+      "category_labels": {
+        "pt": "Dados e Analytics",
+        "en": "Data & Analytics"
+      },
+      "companies": [
+        "company-ai-builder-projetos-de-produtos"
+      ],
+      "evidence_by_company": {
+        "company-ai-builder-projetos-de-produtos": 1
+      },
+      "evidence_count": 1,
+      "function_ids": [
+        "function-ai-builder-projetos-de-produtos-1"
+      ],
+      "size": 0.58,
+      "color": "#ff8c42"
+    },
+    {
       "id": "skill-supabase",
       "type": "Skill",
       "labels": {
@@ -3686,8 +4594,8 @@
       },
       "evidence_count": 2,
       "function_ids": [
-        "function-ai-builder-projetos-de-produtos-7",
-        "function-ai-builder-projetos-de-produtos-8"
+        "function-ai-builder-projetos-de-produtos-17",
+        "function-ai-builder-projetos-de-produtos-18"
       ],
       "size": 0.66,
       "color": "#ff8c42"
@@ -3768,6 +4676,31 @@
       "color": "#f472b6"
     },
     {
+      "id": "skill-test-automation",
+      "type": "Skill",
+      "labels": {
+        "pt": "Test Automation",
+        "en": "Test Automation"
+      },
+      "category": "operations",
+      "category_labels": {
+        "pt": "Liderança e Operações",
+        "en": "Leadership & Operations"
+      },
+      "companies": [
+        "company-ai-builder-projetos-de-produtos"
+      ],
+      "evidence_by_company": {
+        "company-ai-builder-projetos-de-produtos": 1
+      },
+      "evidence_count": 1,
+      "function_ids": [
+        "function-ai-builder-projetos-de-produtos-10"
+      ],
+      "size": 0.58,
+      "color": "#38bdf8"
+    },
+    {
       "id": "skill-thinking-environment",
       "type": "Skill",
       "labels": {
@@ -3791,6 +4724,31 @@
       ],
       "size": 0.58,
       "color": "#34d399"
+    },
+    {
+      "id": "skill-three-js",
+      "type": "Skill",
+      "labels": {
+        "pt": "Three.js",
+        "en": "Three Js"
+      },
+      "category": "operations",
+      "category_labels": {
+        "pt": "Liderança e Operações",
+        "en": "Leadership & Operations"
+      },
+      "companies": [
+        "company-ai-builder-projetos-de-produtos"
+      ],
+      "evidence_by_company": {
+        "company-ai-builder-projetos-de-produtos": 1
+      },
+      "evidence_count": 1,
+      "function_ids": [
+        "function-ai-builder-projetos-de-produtos-8"
+      ],
+      "size": 0.58,
+      "color": "#38bdf8"
     },
     {
       "id": "skill-timeline",
@@ -3912,7 +4870,7 @@
       },
       "evidence_count": 1,
       "function_ids": [
-        "function-ai-builder-projetos-de-produtos-4"
+        "function-ai-builder-projetos-de-produtos-14"
       ],
       "size": 0.58,
       "color": "#f472b6"
@@ -3933,14 +4891,15 @@
         "company-ai-builder-projetos-de-produtos"
       ],
       "evidence_by_company": {
-        "company-ai-builder-projetos-de-produtos": 2
+        "company-ai-builder-projetos-de-produtos": 3
       },
-      "evidence_count": 2,
+      "evidence_count": 3,
       "function_ids": [
-        "function-ai-builder-projetos-de-produtos-4",
-        "function-ai-builder-projetos-de-produtos-6"
+        "function-ai-builder-projetos-de-produtos-14",
+        "function-ai-builder-projetos-de-produtos-16",
+        "function-ai-builder-projetos-de-produtos-5"
       ],
-      "size": 0.66,
+      "size": 0.74,
       "color": "#4a9eff"
     },
     {
@@ -3965,7 +4924,7 @@
       },
       "evidence_count": 2,
       "function_ids": [
-        "function-ai-builder-projetos-de-produtos-4",
+        "function-ai-builder-projetos-de-produtos-14",
         "function-ak-branding-web-design-5"
       ],
       "size": 0.66,
@@ -4092,10 +5051,35 @@
       },
       "evidence_count": 1,
       "function_ids": [
-        "function-ai-builder-projetos-de-produtos-7"
+        "function-ai-builder-projetos-de-produtos-17"
       ],
       "size": 0.58,
       "color": "#ff8c42"
+    },
+    {
+      "id": "skill-webgl",
+      "type": "Skill",
+      "labels": {
+        "pt": "WebGL",
+        "en": "Webgl"
+      },
+      "category": "operations",
+      "category_labels": {
+        "pt": "Liderança e Operações",
+        "en": "Leadership & Operations"
+      },
+      "companies": [
+        "company-ai-builder-projetos-de-produtos"
+      ],
+      "evidence_by_company": {
+        "company-ai-builder-projetos-de-produtos": 1
+      },
+      "evidence_count": 1,
+      "function_ids": [
+        "function-ai-builder-projetos-de-produtos-8"
+      ],
+      "size": 0.58,
+      "color": "#38bdf8"
     },
     {
       "id": "skill-zero-to-one",
@@ -4119,7 +5103,7 @@
       },
       "evidence_count": 2,
       "function_ids": [
-        "function-ai-builder-projetos-de-produtos-1",
+        "function-ai-builder-projetos-de-produtos-11",
         "function-ak-branding-web-design-4"
       ],
       "size": 0.66,
@@ -4137,8 +5121,8 @@
         "en": "0-to-1 methodology conception"
       },
       "contexts": {
-        "pt": "Bússola da Rotina — Concepção de Produto e Metodologia 0→1: Idealizou e liderou de ponta a ponta a criação do Web App de produtividade e ergonomia mental, estruturando a Metodologia Bússola baseada em Timeblocking, limites de Work-in-Progress (WIP) e balanceamento de carga cognitiva, com PRD e roadmap completos.",
-        "en": "Bússola da Rotina — 0-to-1 Product Discovery & Methodology: Conceived and led end-to-end the productivity and mental ergonomics Web App, designing the proprietary Bússola Methodology combining Timeblocking, WIP limits, and cognitive load balancing with complete PRD and roadmap."
+        "pt": "AI Career OS — Master Resume & Arquitetura de Dados (SSOT): Concebeu a fonte única de verdade estruturada em JSON, garantindo 100% de governança de dados, tipagem estrita e zero alucinações de modelos de linguagem para o histórico profissional.",
+        "en": "AI Career OS — Master Resume & Data Architecture (SSOT): Conceived the single source of truth structured in JSON, ensuring 100% data governance, strict typing, and zero language model hallucinations for the professional history."
       },
       "company_id": "company-ai-builder-projetos-de-produtos",
       "role_id": "role-ai-builder-projetos-de-produtos-1",
@@ -4157,8 +5141,8 @@
         "en": "development velocity vs traditional"
       },
       "contexts": {
-        "pt": "Bússola da Rotina — AI Tech Leadership & Desenvolvimento Acelerado (+10x): Atuou como Tech Lead orquestrando agentes inteligentes de IA (Antigravity/Claude) como desenvolvedores operacionais de código, construindo uma SPA completa com 5.700+ linhas com ganho de velocidade de 10x e redução de custo de desenvolvimento superior a 95%.",
-        "en": "Bússola da Rotina — AI Tech Leadership & Accelerated Engineering (+10x): Acted as Tech Lead orchestrating intelligent AI agents as operational pair programmers, building a complete 5,700+ line SPA with 10x delivery speedup and over 95% engineering cost savings."
+        "pt": "AI Career OS — Motor de Match Engine & Fit Score: Arquitetou motor de inferência em tempo real para cálculo de aderência (Fit Score em %) de vagas sênior, mapeamento de gaps e diagnósticos estratégicos para entrevistas (>95% de precisão).",
+        "en": "AI Career OS — Match Engine & Fit Score: Architected a real-time inference engine to calculate adherence (Fit Score %) for senior roles, mapping gaps and generating strategic diagnostics for interviews (>95% accuracy)."
       },
       "company_id": "company-ai-builder-projetos-de-produtos",
       "role_id": "role-ai-builder-projetos-de-produtos-1",
@@ -4177,8 +5161,8 @@
         "en": "engineering cost savings"
       },
       "contexts": {
-        "pt": "Bússola da Rotina — AI Tech Leadership & Desenvolvimento Acelerado (+10x): Atuou como Tech Lead orquestrando agentes inteligentes de IA (Antigravity/Claude) como desenvolvedores operacionais de código, construindo uma SPA completa com 5.700+ linhas com ganho de velocidade de 10x e redução de custo de desenvolvimento superior a 95%.",
-        "en": "Bússola da Rotina — AI Tech Leadership & Accelerated Engineering (+10x): Acted as Tech Lead orchestrating intelligent AI agents as operational pair programmers, building a complete 5,700+ line SPA with 10x delivery speedup and over 95% engineering cost savings."
+        "pt": "AI Career OS — Motor de Match Engine & Fit Score: Arquitetou motor de inferência em tempo real para cálculo de aderência (Fit Score em %) de vagas sênior, mapeamento de gaps e diagnósticos estratégicos para entrevistas (>95% de precisão).",
+        "en": "AI Career OS — Match Engine & Fit Score: Architected a real-time inference engine to calculate adherence (Fit Score %) for senior roles, mapping gaps and generating strategic diagnostics for interviews (>95% accuracy)."
       },
       "company_id": "company-ai-builder-projetos-de-produtos",
       "role_id": "role-ai-builder-projetos-de-produtos-1",
@@ -4197,8 +5181,8 @@
         "en": "lines of code in native SPA"
       },
       "contexts": {
-        "pt": "Bússola da Rotina — AI Tech Leadership & Desenvolvimento Acelerado (+10x): Atuou como Tech Lead orquestrando agentes inteligentes de IA (Antigravity/Claude) como desenvolvedores operacionais de código, construindo uma SPA completa com 5.700+ linhas com ganho de velocidade de 10x e redução de custo de desenvolvimento superior a 95%.",
-        "en": "Bússola da Rotina — AI Tech Leadership & Accelerated Engineering (+10x): Acted as Tech Lead orchestrating intelligent AI agents as operational pair programmers, building a complete 5,700+ line SPA with 10x delivery speedup and over 95% engineering cost savings."
+        "pt": "AI Career OS — Motor de Match Engine & Fit Score: Arquitetou motor de inferência em tempo real para cálculo de aderência (Fit Score em %) de vagas sênior, mapeamento de gaps e diagnósticos estratégicos para entrevistas (>95% de precisão).",
+        "en": "AI Career OS — Match Engine & Fit Score: Architected a real-time inference engine to calculate adherence (Fit Score %) for senior roles, mapping gaps and generating strategic diagnostics for interviews (>95% accuracy)."
       },
       "company_id": "company-ai-builder-projetos-de-produtos",
       "role_id": "role-ai-builder-projetos-de-produtos-1",
@@ -4217,8 +5201,8 @@
         "en": "real-time data stability"
       },
       "contexts": {
-        "pt": "Bússola da Rotina — Arquitetura de Dados em Tempo Real e Resolução de Concorrência: Parametrizou a infraestrutura no Firebase (Firestore NoSQL e Auth) e diagnosticou falhas complexas de concorrência (race conditions entre escritas otimistas locais e snapshots remotos via hasPendingWrites), garantindo 100% de estabilidade de dados.",
-        "en": "Bússola da Rotina — Real-Time Data Architecture & Concurrency Resolution: Configured cloud infrastructure on Firebase (Firestore NoSQL & Auth) and diagnosed complex concurrency edge cases (race conditions between optimistic local writes and remote snapshots via hasPendingWrites), ensuring 100% data integrity."
+        "pt": "AI Career OS — AI Resume Builder & Hiper-Personalização: Desenvolveu pipeline generativo para recriação dinâmica de currículos e cartas de apresentação hiper-personalizadas sem permitir fuga do contexto da base mestre.",
+        "en": "AI Career OS — AI Resume Builder & Hyper-Personalization: Developed a generative pipeline for dynamic recreation of hyper-personalized resumes and cover letters without allowing deviation from the master database context."
       },
       "company_id": "company-ai-builder-projetos-de-produtos",
       "role_id": "role-ai-builder-projetos-de-produtos-1",
@@ -4237,8 +5221,8 @@
         "en": "venues mapped via web scraping"
       },
       "contexts": {
-        "pt": "Meu Barzin — Varredura e Tratamento de Dados: Mapeou, extraiu e higienizou dados de quase 200 bares de Curitiba via Web Scraping para criar um banco de dados de RAG confiável no Supabase hospedado em VPS.",
-        "en": "Meu Barzin — Data Scraping & Cleansing: Mapped, extracted, and cleansed data from nearly 200 bars in Curitiba via web scraping to build a reliable RAG database in Supabase hosted over a VPS."
+        "pt": "Cérebro Profissional 3D — Motor Semântico GraphRAG: Construiu pipeline em Python para busca vetorial, cálculo de distâncias semânticas e taxonomia, viabilizando o motor algorítmico de transferabilidade de habilidades.",
+        "en": "3D Career Brain — GraphRAG Semantic Engine: Built a Python pipeline for vector search, semantic distance calculation, and taxonomy, enabling the algorithmic skill transferability engine."
       },
       "company_id": "company-ai-builder-projetos-de-produtos",
       "role_id": "role-ai-builder-projetos-de-produtos-2",
@@ -4257,8 +5241,8 @@
         "en": "qualified leads captured"
       },
       "contexts": {
-        "pt": "Meu Barzin — Geração de Demanda e Métricas: Captou 505 leads qualificados de topo de funil com campanhas orgânicas e anúncios (além de crescer o Instagram para 2.000+ seguidores), alcançando uma taxa de 22,3% de usuários altamente engajados (conversando 4+ vezes com a IA).",
-        "en": "Meu Barzin — Demand Gen & Metrics: Captured 505 qualified top-of-funnel leads via organic and paid campaigns (growing Instagram to 2,000+ followers), achieving a 22.3% high-engagement rate (users interacting 4+ times with the AI)."
+        "pt": "Cérebro Profissional 3D — Design de Navegação Determinística: Criou algoritmo de travessia e interface hierárquica estrita linear (Empresa ➔ Cargo ➔ Função ➔ Skill ➔ Métrica), garantindo 0 saltos inconsistentes e impedindo desorientação cognitiva.",
+        "en": "3D Career Brain — Deterministic Navigation Design: Created a strict linear hierarchical traversal algorithm and interface (Company ➔ Role ➔ Function ➔ Skill ➔ Metric), ensuring 0 inconsistent jumps and preventing cognitive disorientation."
       },
       "company_id": "company-ai-builder-projetos-de-produtos",
       "role_id": "role-ai-builder-projetos-de-produtos-2",
@@ -4277,8 +5261,8 @@
         "en": "Instagram followers"
       },
       "contexts": {
-        "pt": "Meu Barzin — Geração de Demanda e Métricas: Captou 505 leads qualificados de topo de funil com campanhas orgânicas e anúncios (além de crescer o Instagram para 2.000+ seguidores), alcançando uma taxa de 22,3% de usuários altamente engajados (conversando 4+ vezes com a IA).",
-        "en": "Meu Barzin — Demand Gen & Metrics: Captured 505 qualified top-of-funnel leads via organic and paid campaigns (growing Instagram to 2,000+ followers), achieving a 22.3% high-engagement rate (users interacting 4+ times with the AI)."
+        "pt": "Cérebro Profissional 3D — Design de Navegação Determinística: Criou algoritmo de travessia e interface hierárquica estrita linear (Empresa ➔ Cargo ➔ Função ➔ Skill ➔ Métrica), garantindo 0 saltos inconsistentes e impedindo desorientação cognitiva.",
+        "en": "3D Career Brain — Deterministic Navigation Design: Created a strict linear hierarchical traversal algorithm and interface (Company ➔ Role ➔ Function ➔ Skill ➔ Metric), ensuring 0 inconsistent jumps and preventing cognitive disorientation."
       },
       "company_id": "company-ai-builder-projetos-de-produtos",
       "role_id": "role-ai-builder-projetos-de-produtos-2",
@@ -4297,8 +5281,8 @@
         "en": "highly engaged users"
       },
       "contexts": {
-        "pt": "Meu Barzin — Geração de Demanda e Métricas: Captou 505 leads qualificados de topo de funil com campanhas orgânicas e anúncios (além de crescer o Instagram para 2.000+ seguidores), alcançando uma taxa de 22,3% de usuários altamente engajados (conversando 4+ vezes com a IA).",
-        "en": "Meu Barzin — Demand Gen & Metrics: Captured 505 qualified top-of-funnel leads via organic and paid campaigns (growing Instagram to 2,000+ followers), achieving a 22.3% high-engagement rate (users interacting 4+ times with the AI)."
+        "pt": "Cérebro Profissional 3D — Design de Navegação Determinística: Criou algoritmo de travessia e interface hierárquica estrita linear (Empresa ➔ Cargo ➔ Função ➔ Skill ➔ Métrica), garantindo 0 saltos inconsistentes e impedindo desorientação cognitiva.",
+        "en": "3D Career Brain — Deterministic Navigation Design: Created a strict linear hierarchical traversal algorithm and interface (Company ➔ Role ➔ Function ➔ Skill ➔ Metric), ensuring 0 inconsistent jumps and preventing cognitive disorientation."
       },
       "company_id": "company-ai-builder-projetos-de-produtos",
       "role_id": "role-ai-builder-projetos-de-produtos-2",
@@ -4317,8 +5301,8 @@
         "en": "first-message dropout (optimized)"
       },
       "contexts": {
-        "pt": "Meu Barzin — Mapeamento de Gargalos de Conversão: Conduziu entrevistas qualitativas e mapeamentos de funil que identificaram que a falta de liquidez de parceiros na oferta e atritos de latência de API (43,9% de drop na primeira mensagem) eram os principais impeditivos para a conversão de assinaturas.",
-        "en": "Meu Barzin — Conversion Bottleneck Mapping: Conducted qualitative user interviews and funnel mappings that revealed that lack of merchant partner density (supply liquidity) and API processing latency (43.9% first-message dropout) were the primary conversion barriers for subscription growth."
+        "pt": "Bússola da Rotina — Concepção de Produto e Metodologia 0→1: Idealizou e liderou de ponta a ponta a criação do Web App de produtividade e ergonomia mental, estruturando a Metodologia Bússola baseada em Timeblocking, limites de Work-in-Progress (WIP) e balanceamento de carga cognitiva, com PRD e roadmap completos.",
+        "en": "Bússola da Rotina — 0-to-1 Product Discovery & Methodology: Conceived and led end-to-end the productivity and mental ergonomics Web App, designing the proprietary Bússola Methodology combining Timeblocking, WIP limits, and cognitive load balancing with complete PRD and roadmap."
       },
       "company_id": "company-ai-builder-projetos-de-produtos",
       "role_id": "role-ai-builder-projetos-de-produtos-2",
@@ -5016,6 +6000,11 @@
     },
     {
       "source": "company-ai-builder-projetos-de-produtos",
+      "target": "project-ai-career-os-cerebro-profissional-3d",
+      "type": "HAS_PROJECT"
+    },
+    {
+      "source": "company-ai-builder-projetos-de-produtos",
       "target": "project-bussola-da-rotina",
       "type": "HAS_PROJECT"
     },
@@ -5045,6 +6034,11 @@
       "type": "HAS_ROLE"
     },
     {
+      "source": "company-ai-builder-projetos-de-produtos",
+      "target": "role-ai-builder-projetos-de-produtos-3",
+      "type": "HAS_ROLE"
+    },
+    {
       "source": "role-ai-builder-projetos-de-produtos-1",
       "target": "function-ai-builder-projetos-de-produtos-1",
       "type": "HAS_FUNCTION"
@@ -5152,6 +6146,106 @@
     {
       "source": "project-meu-barzin",
       "target": "function-ai-builder-projetos-de-produtos-11",
+      "type": "HAS_FUNCTION"
+    },
+    {
+      "source": "role-ai-builder-projetos-de-produtos-2",
+      "target": "function-ai-builder-projetos-de-produtos-12",
+      "type": "HAS_FUNCTION"
+    },
+    {
+      "source": "project-meu-barzin",
+      "target": "function-ai-builder-projetos-de-produtos-12",
+      "type": "HAS_FUNCTION"
+    },
+    {
+      "source": "role-ai-builder-projetos-de-produtos-2",
+      "target": "function-ai-builder-projetos-de-produtos-13",
+      "type": "HAS_FUNCTION"
+    },
+    {
+      "source": "project-meu-barzin",
+      "target": "function-ai-builder-projetos-de-produtos-13",
+      "type": "HAS_FUNCTION"
+    },
+    {
+      "source": "role-ai-builder-projetos-de-produtos-2",
+      "target": "function-ai-builder-projetos-de-produtos-14",
+      "type": "HAS_FUNCTION"
+    },
+    {
+      "source": "project-meu-barzin",
+      "target": "function-ai-builder-projetos-de-produtos-14",
+      "type": "HAS_FUNCTION"
+    },
+    {
+      "source": "role-ai-builder-projetos-de-produtos-2",
+      "target": "function-ai-builder-projetos-de-produtos-15",
+      "type": "HAS_FUNCTION"
+    },
+    {
+      "source": "project-meu-barzin",
+      "target": "function-ai-builder-projetos-de-produtos-15",
+      "type": "HAS_FUNCTION"
+    },
+    {
+      "source": "role-ai-builder-projetos-de-produtos-2",
+      "target": "function-ai-builder-projetos-de-produtos-16",
+      "type": "HAS_FUNCTION"
+    },
+    {
+      "source": "project-meu-barzin",
+      "target": "function-ai-builder-projetos-de-produtos-16",
+      "type": "HAS_FUNCTION"
+    },
+    {
+      "source": "role-ai-builder-projetos-de-produtos-2",
+      "target": "function-ai-builder-projetos-de-produtos-17",
+      "type": "HAS_FUNCTION"
+    },
+    {
+      "source": "project-meu-barzin",
+      "target": "function-ai-builder-projetos-de-produtos-17",
+      "type": "HAS_FUNCTION"
+    },
+    {
+      "source": "role-ai-builder-projetos-de-produtos-2",
+      "target": "function-ai-builder-projetos-de-produtos-18",
+      "type": "HAS_FUNCTION"
+    },
+    {
+      "source": "project-meu-barzin",
+      "target": "function-ai-builder-projetos-de-produtos-18",
+      "type": "HAS_FUNCTION"
+    },
+    {
+      "source": "role-ai-builder-projetos-de-produtos-2",
+      "target": "function-ai-builder-projetos-de-produtos-19",
+      "type": "HAS_FUNCTION"
+    },
+    {
+      "source": "project-meu-barzin",
+      "target": "function-ai-builder-projetos-de-produtos-19",
+      "type": "HAS_FUNCTION"
+    },
+    {
+      "source": "role-ai-builder-projetos-de-produtos-2",
+      "target": "function-ai-builder-projetos-de-produtos-20",
+      "type": "HAS_FUNCTION"
+    },
+    {
+      "source": "project-meu-barzin",
+      "target": "function-ai-builder-projetos-de-produtos-20",
+      "type": "HAS_FUNCTION"
+    },
+    {
+      "source": "role-ai-builder-projetos-de-produtos-2",
+      "target": "function-ai-builder-projetos-de-produtos-21",
+      "type": "HAS_FUNCTION"
+    },
+    {
+      "source": "project-meu-barzin",
+      "target": "function-ai-builder-projetos-de-produtos-21",
       "type": "HAS_FUNCTION"
     },
     {
@@ -5463,18 +6557,29 @@
       "evidence_count": 1
     },
     {
-      "source": "function-ai-builder-projetos-de-produtos-2",
+      "source": "function-ai-builder-projetos-de-produtos-12",
       "target": "skill-ai",
       "type": "DEMONSTRATES_SKILL"
     },
     {
-      "source": "function-ai-builder-projetos-de-produtos-6",
+      "source": "function-ai-builder-projetos-de-produtos-16",
       "target": "skill-ai",
       "type": "DEMONSTRATES_SKILL"
     },
     {
       "source": "function-wipro-4",
       "target": "skill-ai",
+      "type": "DEMONSTRATES_SKILL"
+    },
+    {
+      "source": "company-ai-builder-projetos-de-produtos",
+      "target": "skill-ai-assisted-engineering",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "function-ai-builder-projetos-de-produtos-10",
+      "target": "skill-ai-assisted-engineering",
       "type": "DEMONSTRATES_SKILL"
     },
     {
@@ -5490,7 +6595,7 @@
       "evidence_count": 2
     },
     {
-      "source": "function-ai-builder-projetos-de-produtos-2",
+      "source": "function-ai-builder-projetos-de-produtos-12",
       "target": "skill-ai-implementation",
       "type": "DEMONSTRATES_SKILL"
     },
@@ -5506,6 +6611,17 @@
     },
     {
       "source": "company-ai-builder-projetos-de-produtos",
+      "target": "skill-ai-personalization",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "function-ai-builder-projetos-de-produtos-3",
+      "target": "skill-ai-personalization",
+      "type": "DEMONSTRATES_SKILL"
+    },
+    {
+      "source": "company-ai-builder-projetos-de-produtos",
       "target": "skill-analytics",
       "type": "DEMONSTRATES",
       "evidence_count": 1
@@ -5517,7 +6633,7 @@
       "evidence_count": 1
     },
     {
-      "source": "function-ai-builder-projetos-de-produtos-4",
+      "source": "function-ai-builder-projetos-de-produtos-14",
       "target": "skill-analytics",
       "type": "DEMONSTRATES_SKILL"
     },
@@ -5539,6 +6655,28 @@
     },
     {
       "source": "company-ai-builder-projetos-de-produtos",
+      "target": "skill-ats",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "function-ai-builder-projetos-de-produtos-5",
+      "target": "skill-ats",
+      "type": "DEMONSTRATES_SKILL"
+    },
+    {
+      "source": "company-ai-builder-projetos-de-produtos",
+      "target": "skill-ats-optimization",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "function-ai-builder-projetos-de-produtos-4",
+      "target": "skill-ats-optimization",
+      "type": "DEMONSTRATES_SKILL"
+    },
+    {
+      "source": "company-ai-builder-projetos-de-produtos",
       "target": "skill-automation",
       "type": "DEMONSTRATES",
       "evidence_count": 2
@@ -5550,12 +6688,12 @@
       "evidence_count": 1
     },
     {
-      "source": "function-ai-builder-projetos-de-produtos-2",
+      "source": "function-ai-builder-projetos-de-produtos-12",
       "target": "skill-automation",
       "type": "DEMONSTRATES_SKILL"
     },
     {
-      "source": "function-ai-builder-projetos-de-produtos-6",
+      "source": "function-ai-builder-projetos-de-produtos-16",
       "target": "skill-automation",
       "type": "DEMONSTRATES_SKILL"
     },
@@ -5577,7 +6715,7 @@
       "evidence_count": 1
     },
     {
-      "source": "function-ai-builder-projetos-de-produtos-10",
+      "source": "function-ai-builder-projetos-de-produtos-20",
       "target": "skill-b2b",
       "type": "DEMONSTRATES_SKILL"
     },
@@ -5659,7 +6797,7 @@
       "evidence_count": 1
     },
     {
-      "source": "function-ai-builder-projetos-de-produtos-10",
+      "source": "function-ai-builder-projetos-de-produtos-20",
       "target": "skill-business-development",
       "type": "DEMONSTRATES_SKILL"
     },
@@ -5675,7 +6813,7 @@
       "evidence_count": 1
     },
     {
-      "source": "function-ai-builder-projetos-de-produtos-5",
+      "source": "function-ai-builder-projetos-de-produtos-15",
       "target": "skill-business-model",
       "type": "DEMONSTRATES_SKILL"
     },
@@ -5699,6 +6837,17 @@
     {
       "source": "function-ak-branding-web-design-2",
       "target": "skill-chatbots",
+      "type": "DEMONSTRATES_SKILL"
+    },
+    {
+      "source": "company-ai-builder-projetos-de-produtos",
+      "target": "skill-ci-cd",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "function-ai-builder-projetos-de-produtos-10",
+      "target": "skill-ci-cd",
       "type": "DEMONSTRATES_SKILL"
     },
     {
@@ -5813,7 +6962,7 @@
       "evidence_count": 1
     },
     {
-      "source": "function-ai-builder-projetos-de-produtos-3",
+      "source": "function-ai-builder-projetos-de-produtos-13",
       "target": "skill-controls",
       "type": "DEMONSTRATES_SKILL"
     },
@@ -5863,7 +7012,7 @@
       "evidence_count": 1
     },
     {
-      "source": "function-ai-builder-projetos-de-produtos-8",
+      "source": "function-ai-builder-projetos-de-produtos-18",
       "target": "skill-crm",
       "type": "DEMONSTRATES_SKILL"
     },
@@ -5906,7 +7055,7 @@
       "evidence_count": 1
     },
     {
-      "source": "function-ai-builder-projetos-de-produtos-11",
+      "source": "function-ai-builder-projetos-de-produtos-21",
       "target": "skill-cro",
       "type": "DEMONSTRATES_SKILL"
     },
@@ -5949,12 +7098,45 @@
     },
     {
       "source": "company-ai-builder-projetos-de-produtos",
+      "target": "skill-data-architecture",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "function-ai-builder-projetos-de-produtos-1",
+      "target": "skill-data-architecture",
+      "type": "DEMONSTRATES_SKILL"
+    },
+    {
+      "source": "company-ai-builder-projetos-de-produtos",
+      "target": "skill-data-governance",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "function-ai-builder-projetos-de-produtos-1",
+      "target": "skill-data-governance",
+      "type": "DEMONSTRATES_SKILL"
+    },
+    {
+      "source": "company-ai-builder-projetos-de-produtos",
+      "target": "skill-data-modeling",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "function-ai-builder-projetos-de-produtos-6",
+      "target": "skill-data-modeling",
+      "type": "DEMONSTRATES_SKILL"
+    },
+    {
+      "source": "company-ai-builder-projetos-de-produtos",
       "target": "skill-data-strategy",
       "type": "DEMONSTRATES",
       "evidence_count": 1
     },
     {
-      "source": "function-ai-builder-projetos-de-produtos-7",
+      "source": "function-ai-builder-projetos-de-produtos-17",
       "target": "skill-data-strategy",
       "type": "DEMONSTRATES_SKILL"
     },
@@ -5965,8 +7147,19 @@
       "evidence_count": 1
     },
     {
-      "source": "function-ai-builder-projetos-de-produtos-3",
+      "source": "function-ai-builder-projetos-de-produtos-13",
       "target": "skill-database",
+      "type": "DEMONSTRATES_SKILL"
+    },
+    {
+      "source": "company-ai-builder-projetos-de-produtos",
+      "target": "skill-deterministic-ux",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "function-ai-builder-projetos-de-produtos-9",
+      "target": "skill-deterministic-ux",
       "type": "DEMONSTRATES_SKILL"
     },
     {
@@ -5982,13 +7175,24 @@
       "evidence_count": 1
     },
     {
-      "source": "function-ai-builder-projetos-de-produtos-11",
+      "source": "function-ai-builder-projetos-de-produtos-21",
       "target": "skill-discovery",
       "type": "DEMONSTRATES_SKILL"
     },
     {
       "source": "function-wipro-10",
       "target": "skill-discovery",
+      "type": "DEMONSTRATES_SKILL"
+    },
+    {
+      "source": "company-ai-builder-projetos-de-produtos",
+      "target": "skill-document-engineering",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "function-ai-builder-projetos-de-produtos-4",
+      "target": "skill-document-engineering",
       "type": "DEMONSTRATES_SKILL"
     },
     {
@@ -6102,7 +7306,7 @@
       "evidence_count": 1
     },
     {
-      "source": "function-ai-builder-projetos-de-produtos-4",
+      "source": "function-ai-builder-projetos-de-produtos-14",
       "target": "skill-frictionless-ux",
       "type": "DEMONSTRATES_SKILL"
     },
@@ -6113,8 +7317,30 @@
       "evidence_count": 1
     },
     {
-      "source": "function-ai-builder-projetos-de-produtos-9",
+      "source": "function-ai-builder-projetos-de-produtos-19",
       "target": "skill-funnel",
+      "type": "DEMONSTRATES_SKILL"
+    },
+    {
+      "source": "company-ai-builder-projetos-de-produtos",
+      "target": "skill-funnel-analytics",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "function-ai-builder-projetos-de-produtos-5",
+      "target": "skill-funnel-analytics",
+      "type": "DEMONSTRATES_SKILL"
+    },
+    {
+      "source": "company-ai-builder-projetos-de-produtos",
+      "target": "skill-gap-analysis",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "function-ai-builder-projetos-de-produtos-2",
+      "target": "skill-gap-analysis",
       "type": "DEMONSTRATES_SKILL"
     },
     {
@@ -6130,6 +7356,28 @@
     },
     {
       "source": "company-ai-builder-projetos-de-produtos",
+      "target": "skill-graph-rag",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "function-ai-builder-projetos-de-produtos-7",
+      "target": "skill-graph-rag",
+      "type": "DEMONSTRATES_SKILL"
+    },
+    {
+      "source": "company-ai-builder-projetos-de-produtos",
+      "target": "skill-graph-theory",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "function-ai-builder-projetos-de-produtos-6",
+      "target": "skill-graph-theory",
+      "type": "DEMONSTRATES_SKILL"
+    },
+    {
+      "source": "company-ai-builder-projetos-de-produtos",
       "target": "skill-growth",
       "type": "DEMONSTRATES",
       "evidence_count": 1
@@ -6141,7 +7389,7 @@
       "evidence_count": 1
     },
     {
-      "source": "function-ai-builder-projetos-de-produtos-9",
+      "source": "function-ai-builder-projetos-de-produtos-19",
       "target": "skill-growth",
       "type": "DEMONSTRATES_SKILL"
     },
@@ -6159,6 +7407,17 @@
     {
       "source": "function-munzner-2",
       "target": "skill-high-ticket",
+      "type": "DEMONSTRATES_SKILL"
+    },
+    {
+      "source": "company-ai-builder-projetos-de-produtos",
+      "target": "skill-html-css",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "function-ai-builder-projetos-de-produtos-4",
+      "target": "skill-html-css",
       "type": "DEMONSTRATES_SKILL"
     },
     {
@@ -6181,6 +7440,55 @@
     {
       "source": "function-munzner-1",
       "target": "skill-infoproduct",
+      "type": "DEMONSTRATES_SKILL"
+    },
+    {
+      "source": "company-ai-builder-projetos-de-produtos",
+      "target": "skill-interaction-design",
+      "type": "DEMONSTRATES",
+      "evidence_count": 2
+    },
+    {
+      "source": "function-ai-builder-projetos-de-produtos-8",
+      "target": "skill-interaction-design",
+      "type": "DEMONSTRATES_SKILL"
+    },
+    {
+      "source": "function-ai-builder-projetos-de-produtos-9",
+      "target": "skill-interaction-design",
+      "type": "DEMONSTRATES_SKILL"
+    },
+    {
+      "source": "company-ai-builder-projetos-de-produtos",
+      "target": "skill-internationalization",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "function-ai-builder-projetos-de-produtos-4",
+      "target": "skill-internationalization",
+      "type": "DEMONSTRATES_SKILL"
+    },
+    {
+      "source": "company-ai-builder-projetos-de-produtos",
+      "target": "skill-json-schema",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "function-ai-builder-projetos-de-produtos-1",
+      "target": "skill-json-schema",
+      "type": "DEMONSTRATES_SKILL"
+    },
+    {
+      "source": "company-ai-builder-projetos-de-produtos",
+      "target": "skill-knowledge-graphs",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "function-ai-builder-projetos-de-produtos-6",
+      "target": "skill-knowledge-graphs",
       "type": "DEMONSTRATES_SKILL"
     },
     {
@@ -6228,6 +7536,17 @@
       "type": "DEMONSTRATES_SKILL"
     },
     {
+      "source": "company-ai-builder-projetos-de-produtos",
+      "target": "skill-llm-orchestration",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "function-ai-builder-projetos-de-produtos-3",
+      "target": "skill-llm-orchestration",
+      "type": "DEMONSTRATES_SKILL"
+    },
+    {
       "source": "company-alvesa-transportes-logistica-ltda",
       "target": "skill-logistics",
       "type": "DEMONSTRATES",
@@ -6267,6 +7586,17 @@
     },
     {
       "source": "company-ai-builder-projetos-de-produtos",
+      "target": "skill-match-engine",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "function-ai-builder-projetos-de-produtos-2",
+      "target": "skill-match-engine",
+      "type": "DEMONSTRATES_SKILL"
+    },
+    {
+      "source": "company-ai-builder-projetos-de-produtos",
       "target": "skill-methodology",
       "type": "DEMONSTRATES",
       "evidence_count": 1
@@ -6278,7 +7608,7 @@
       "evidence_count": 1
     },
     {
-      "source": "function-ai-builder-projetos-de-produtos-1",
+      "source": "function-ai-builder-projetos-de-produtos-11",
       "target": "skill-methodology",
       "type": "DEMONSTRATES_SKILL"
     },
@@ -6294,7 +7624,7 @@
       "evidence_count": 1
     },
     {
-      "source": "function-ai-builder-projetos-de-produtos-9",
+      "source": "function-ai-builder-projetos-de-produtos-19",
       "target": "skill-metrics",
       "type": "DEMONSTRATES_SKILL"
     },
@@ -6317,7 +7647,7 @@
       "evidence_count": 1
     },
     {
-      "source": "function-ai-builder-projetos-de-produtos-5",
+      "source": "function-ai-builder-projetos-de-produtos-15",
       "target": "skill-monetization",
       "type": "DEMONSTRATES_SKILL"
     },
@@ -6349,7 +7679,7 @@
       "evidence_count": 1
     },
     {
-      "source": "function-ai-builder-projetos-de-produtos-8",
+      "source": "function-ai-builder-projetos-de-produtos-18",
       "target": "skill-nocodb",
       "type": "DEMONSTRATES_SKILL"
     },
@@ -6437,7 +7767,7 @@
       "evidence_count": 1
     },
     {
-      "source": "function-ai-builder-projetos-de-produtos-8",
+      "source": "function-ai-builder-projetos-de-produtos-18",
       "target": "skill-postgresql",
       "type": "DEMONSTRATES_SKILL"
     },
@@ -6459,7 +7789,7 @@
       "evidence_count": 1
     },
     {
-      "source": "function-ai-builder-projetos-de-produtos-1",
+      "source": "function-ai-builder-projetos-de-produtos-11",
       "target": "skill-prd",
       "type": "DEMONSTRATES_SKILL"
     },
@@ -6497,7 +7827,7 @@
       "evidence_count": 1
     },
     {
-      "source": "function-ai-builder-projetos-de-produtos-6",
+      "source": "function-ai-builder-projetos-de-produtos-16",
       "target": "skill-product-architecture",
       "type": "DEMONSTRATES_SKILL"
     },
@@ -6505,10 +7835,20 @@
       "source": "company-ai-builder-projetos-de-produtos",
       "target": "skill-product-discovery",
       "type": "DEMONSTRATES",
-      "evidence_count": 1
+      "evidence_count": 3
     },
     {
-      "source": "function-ai-builder-projetos-de-produtos-1",
+      "source": "function-ai-builder-projetos-de-produtos-11",
+      "target": "skill-product-discovery",
+      "type": "DEMONSTRATES_SKILL"
+    },
+    {
+      "source": "function-ai-builder-projetos-de-produtos-6",
+      "target": "skill-product-discovery",
+      "type": "DEMONSTRATES_SKILL"
+    },
+    {
+      "source": "function-ai-builder-projetos-de-produtos-9",
       "target": "skill-product-discovery",
       "type": "DEMONSTRATES_SKILL"
     },
@@ -6529,6 +7869,17 @@
       "type": "DEMONSTRATES_SKILL"
     },
     {
+      "source": "company-ai-builder-projetos-de-produtos",
+      "target": "skill-product-operations",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "function-ai-builder-projetos-de-produtos-5",
+      "target": "skill-product-operations",
+      "type": "DEMONSTRATES_SKILL"
+    },
+    {
       "source": "company-wipro",
       "target": "skill-product-positioning",
       "type": "DEMONSTRATES",
@@ -6546,12 +7897,12 @@
       "evidence_count": 2
     },
     {
-      "source": "function-ai-builder-projetos-de-produtos-1",
+      "source": "function-ai-builder-projetos-de-produtos-11",
       "target": "skill-product-strategy",
       "type": "DEMONSTRATES_SKILL"
     },
     {
-      "source": "function-ai-builder-projetos-de-produtos-5",
+      "source": "function-ai-builder-projetos-de-produtos-15",
       "target": "skill-product-strategy",
       "type": "DEMONSTRATES_SKILL"
     },
@@ -6570,7 +7921,7 @@
       "source": "company-ai-builder-projetos-de-produtos",
       "target": "skill-prompt-engineering",
       "type": "DEMONSTRATES",
-      "evidence_count": 1
+      "evidence_count": 3
     },
     {
       "source": "company-wipro",
@@ -6579,13 +7930,45 @@
       "evidence_count": 1
     },
     {
+      "source": "function-ai-builder-projetos-de-produtos-12",
+      "target": "skill-prompt-engineering",
+      "type": "DEMONSTRATES_SKILL"
+    },
+    {
       "source": "function-ai-builder-projetos-de-produtos-2",
+      "target": "skill-prompt-engineering",
+      "type": "DEMONSTRATES_SKILL"
+    },
+    {
+      "source": "function-ai-builder-projetos-de-produtos-3",
       "target": "skill-prompt-engineering",
       "type": "DEMONSTRATES_SKILL"
     },
     {
       "source": "function-wipro-5",
       "target": "skill-prompt-engineering",
+      "type": "DEMONSTRATES_SKILL"
+    },
+    {
+      "source": "company-ai-builder-projetos-de-produtos",
+      "target": "skill-prompt-governance",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "function-ai-builder-projetos-de-produtos-10",
+      "target": "skill-prompt-governance",
+      "type": "DEMONSTRATES_SKILL"
+    },
+    {
+      "source": "company-ai-builder-projetos-de-produtos",
+      "target": "skill-python",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "function-ai-builder-projetos-de-produtos-7",
+      "target": "skill-python",
       "type": "DEMONSTRATES_SKILL"
     },
     {
@@ -6601,7 +7984,7 @@
       "evidence_count": 2
     },
     {
-      "source": "function-ai-builder-projetos-de-produtos-3",
+      "source": "function-ai-builder-projetos-de-produtos-13",
       "target": "skill-quality-assurance",
       "type": "DEMONSTRATES_SKILL"
     },
@@ -6633,7 +8016,7 @@
       "evidence_count": 1
     },
     {
-      "source": "function-ai-builder-projetos-de-produtos-2",
+      "source": "function-ai-builder-projetos-de-produtos-12",
       "target": "skill-rapid-prototyping",
       "type": "DEMONSTRATES_SKILL"
     },
@@ -6644,7 +8027,7 @@
       "evidence_count": 1
     },
     {
-      "source": "function-ai-builder-projetos-de-produtos-3",
+      "source": "function-ai-builder-projetos-de-produtos-13",
       "target": "skill-realtime-data",
       "type": "DEMONSTRATES_SKILL"
     },
@@ -6705,7 +8088,7 @@
       "evidence_count": 1
     },
     {
-      "source": "function-ai-builder-projetos-de-produtos-3",
+      "source": "function-ai-builder-projetos-de-produtos-13",
       "target": "skill-root-cause-analysis",
       "type": "DEMONSTRATES_SKILL"
     },
@@ -6727,7 +8110,7 @@
       "evidence_count": 2
     },
     {
-      "source": "function-ai-builder-projetos-de-produtos-10",
+      "source": "function-ai-builder-projetos-de-produtos-20",
       "target": "skill-sales",
       "type": "DEMONSTRATES_SKILL"
     },
@@ -6769,6 +8152,22 @@
       "type": "DEMONSTRATES_SKILL"
     },
     {
+      "source": "company-ai-builder-projetos-de-produtos",
+      "target": "skill-semantic-search",
+      "type": "DEMONSTRATES",
+      "evidence_count": 2
+    },
+    {
+      "source": "function-ai-builder-projetos-de-produtos-2",
+      "target": "skill-semantic-search",
+      "type": "DEMONSTRATES_SKILL"
+    },
+    {
+      "source": "function-ai-builder-projetos-de-produtos-7",
+      "target": "skill-semantic-search",
+      "type": "DEMONSTRATES_SKILL"
+    },
+    {
       "source": "company-munzner",
       "target": "skill-seo",
       "type": "DEMONSTRATES",
@@ -6777,6 +8176,17 @@
     {
       "source": "function-munzner-4",
       "target": "skill-seo",
+      "type": "DEMONSTRATES_SKILL"
+    },
+    {
+      "source": "company-ai-builder-projetos-de-produtos",
+      "target": "skill-skill-transferability",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "function-ai-builder-projetos-de-produtos-7",
+      "target": "skill-skill-transferability",
       "type": "DEMONSTRATES_SKILL"
     },
     {
@@ -6803,12 +8213,23 @@
     },
     {
       "source": "company-ai-builder-projetos-de-produtos",
-      "target": "skill-sql",
+      "target": "skill-spatial-ui",
       "type": "DEMONSTRATES",
       "evidence_count": 1
     },
     {
       "source": "function-ai-builder-projetos-de-produtos-8",
+      "target": "skill-spatial-ui",
+      "type": "DEMONSTRATES_SKILL"
+    },
+    {
+      "source": "company-ai-builder-projetos-de-produtos",
+      "target": "skill-sql",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "function-ai-builder-projetos-de-produtos-18",
       "target": "skill-sql",
       "type": "DEMONSTRATES_SKILL"
     },
@@ -6825,17 +8246,28 @@
     },
     {
       "source": "company-ai-builder-projetos-de-produtos",
+      "target": "skill-ssot",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "function-ai-builder-projetos-de-produtos-1",
+      "target": "skill-ssot",
+      "type": "DEMONSTRATES_SKILL"
+    },
+    {
+      "source": "company-ai-builder-projetos-de-produtos",
       "target": "skill-supabase",
       "type": "DEMONSTRATES",
       "evidence_count": 2
     },
     {
-      "source": "function-ai-builder-projetos-de-produtos-7",
+      "source": "function-ai-builder-projetos-de-produtos-17",
       "target": "skill-supabase",
       "type": "DEMONSTRATES_SKILL"
     },
     {
-      "source": "function-ai-builder-projetos-de-produtos-8",
+      "source": "function-ai-builder-projetos-de-produtos-18",
       "target": "skill-supabase",
       "type": "DEMONSTRATES_SKILL"
     },
@@ -6873,6 +8305,17 @@
       "type": "DEMONSTRATES_SKILL"
     },
     {
+      "source": "company-ai-builder-projetos-de-produtos",
+      "target": "skill-test-automation",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "function-ai-builder-projetos-de-produtos-10",
+      "target": "skill-test-automation",
+      "type": "DEMONSTRATES_SKILL"
+    },
+    {
       "source": "company-munzner",
       "target": "skill-thinking-environment",
       "type": "DEMONSTRATES",
@@ -6881,6 +8324,17 @@
     {
       "source": "function-munzner-5",
       "target": "skill-thinking-environment",
+      "type": "DEMONSTRATES_SKILL"
+    },
+    {
+      "source": "company-ai-builder-projetos-de-produtos",
+      "target": "skill-three-js",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "function-ai-builder-projetos-de-produtos-8",
+      "target": "skill-three-js",
       "type": "DEMONSTRATES_SKILL"
     },
     {
@@ -6934,7 +8388,7 @@
       "evidence_count": 1
     },
     {
-      "source": "function-ai-builder-projetos-de-produtos-4",
+      "source": "function-ai-builder-projetos-de-produtos-14",
       "target": "skill-uat",
       "type": "DEMONSTRATES_SKILL"
     },
@@ -6942,15 +8396,20 @@
       "source": "company-ai-builder-projetos-de-produtos",
       "target": "skill-ux",
       "type": "DEMONSTRATES",
-      "evidence_count": 2
+      "evidence_count": 3
     },
     {
-      "source": "function-ai-builder-projetos-de-produtos-4",
+      "source": "function-ai-builder-projetos-de-produtos-14",
       "target": "skill-ux",
       "type": "DEMONSTRATES_SKILL"
     },
     {
-      "source": "function-ai-builder-projetos-de-produtos-6",
+      "source": "function-ai-builder-projetos-de-produtos-16",
+      "target": "skill-ux",
+      "type": "DEMONSTRATES_SKILL"
+    },
+    {
+      "source": "function-ai-builder-projetos-de-produtos-5",
       "target": "skill-ux",
       "type": "DEMONSTRATES_SKILL"
     },
@@ -6967,7 +8426,7 @@
       "evidence_count": 1
     },
     {
-      "source": "function-ai-builder-projetos-de-produtos-4",
+      "source": "function-ai-builder-projetos-de-produtos-14",
       "target": "skill-ux-ui",
       "type": "DEMONSTRATES_SKILL"
     },
@@ -7032,8 +8491,19 @@
       "evidence_count": 1
     },
     {
-      "source": "function-ai-builder-projetos-de-produtos-7",
+      "source": "function-ai-builder-projetos-de-produtos-17",
       "target": "skill-web-scraping",
+      "type": "DEMONSTRATES_SKILL"
+    },
+    {
+      "source": "company-ai-builder-projetos-de-produtos",
+      "target": "skill-webgl",
+      "type": "DEMONSTRATES",
+      "evidence_count": 1
+    },
+    {
+      "source": "function-ai-builder-projetos-de-produtos-8",
+      "target": "skill-webgl",
       "type": "DEMONSTRATES_SKILL"
     },
     {
@@ -7049,7 +8519,7 @@
       "evidence_count": 1
     },
     {
-      "source": "function-ai-builder-projetos-de-produtos-1",
+      "source": "function-ai-builder-projetos-de-produtos-11",
       "target": "skill-zero-to-one",
       "type": "DEMONSTRATES_SKILL"
     },
@@ -7752,13 +9222,13 @@
     }
   },
   "stats": {
-    "total_nodes": 229,
-    "total_edges": 511,
-    "total_skills": 119,
+    "total_nodes": 272,
+    "total_edges": 602,
+    "total_skills": 150,
     "total_companies": 6,
     "total_metrics": 36,
-    "total_roles": 7,
-    "total_functions": 46,
+    "total_roles": 8,
+    "total_functions": 56,
     "total_education": 2,
     "total_certifications": 7,
     "total_languages": 3
