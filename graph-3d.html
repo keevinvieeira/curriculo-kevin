@@ -233,6 +233,43 @@
             justify-content: space-between;
             gap: 12px;
         }
+        .detail-header-left {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 6px;
+            flex: 1;
+            min-width: 0;
+        }
+        #detail-back {
+            display: none;
+            align-items: center;
+            gap: 6px;
+            padding: 5px 11px;
+            color: #93c5fd;
+            background: rgba(37, 99, 235, 0.22);
+            border: 1px solid rgba(96, 165, 250, 0.4);
+            border-radius: 7px;
+            cursor: pointer;
+            font-size: 0.74rem;
+            font-weight: 700;
+            transition: all 150ms ease;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+        }
+        #detail-back.visible {
+            display: inline-flex;
+        }
+        #detail-back:hover {
+            color: #ffffff;
+            background: rgba(37, 99, 235, 0.45);
+            border-color: #60a5fa;
+            transform: translateX(-3px);
+            box-shadow: 0 0 12px rgba(96, 165, 250, 0.35);
+        }
+        .back-icon {
+            font-size: 0.95rem;
+            line-height: 1;
+        }
         #detail-title {
             font-size: 1.05rem;
             line-height: 1.3;
@@ -399,7 +436,12 @@
         <div id="legend"></div>
         <aside id="detail-panel" aria-live="polite">
             <div class="detail-header">
-                <h3 id="detail-title"></h3>
+                <div class="detail-header-left">
+                    <button id="detail-back" type="button" aria-label="Voltar" title="Voltar ao item anterior">
+                        <span class="back-icon">←</span> <span id="detail-back-text" data-i18n="back">Voltar</span>
+                    </button>
+                    <h3 id="detail-title"></h3>
+                </div>
                 <button id="detail-close" type="button" aria-label="Fechar">×</button>
             </div>
             <span class="type-badge" id="detail-type"></span>
@@ -437,6 +479,7 @@
                 totalEvidence: 'no total', sharedWith: 'Também comprovada em',
                 instructions: 'Clique em qualquer esfera = explorar detalhes • Arraste = girar • Scroll = zoom • Duplo clique ou Esc = visão completa',
                 close: 'Fechar e voltar à visão completa',
+                back: 'Voltar',
             },
             en: {
                 pageTitle: 'Kevin Augusto Vieira - Professional Graph 3D',
@@ -451,6 +494,7 @@
                 totalEvidence: 'in total', sharedWith: 'Also demonstrated at',
                 instructions: 'Click any sphere = explore details • Drag = rotate • Scroll = zoom • Double-click or Esc = full view',
                 close: 'Close and return to full view',
+                back: 'Back',
             },
         };
 
@@ -489,6 +533,66 @@
         const nodeMeshes = new Map();
         const companyPositions = new Map();
         const initialCamera = new THREE.Vector3(0, 14, 34);
+
+                let navigationHistory = [];
+        let isNavigatingHistory = false;
+        let currentViewState = null;
+
+        function updateBackButton() {
+            const backBtn = document.getElementById('detail-back');
+            if (!backBtn) return;
+            if (navigationHistory.length > 0) {
+                backBtn.classList.add('visible');
+                const last = navigationHistory[navigationHistory.length - 1];
+                const prevTitle = last.title ? ` (${last.title})` : '';
+                backBtn.setAttribute('title', (currentLanguage === 'pt' ? 'Voltar para' : 'Back to') + prevTitle);
+                const labelElem = document.getElementById('detail-back-text');
+                if (labelElem) labelElem.textContent = t('back');
+            } else {
+                backBtn.classList.remove('visible');
+            }
+        }
+
+        function pushNavigationState(state) {
+            if (isNavigatingHistory) return;
+            if (currentViewState) {
+                if (currentViewState.action === state.action && currentViewState.id === state.id) {
+                    return;
+                }
+                navigationHistory.push(currentViewState);
+                if (navigationHistory.length > 40) navigationHistory.shift();
+            }
+            currentViewState = state;
+            updateBackButton();
+        }
+
+        function navigateBack() {
+            if (navigationHistory.length === 0) {
+                resetFullView();
+                return;
+            }
+            const prevState = navigationHistory.pop();
+            isNavigatingHistory = true;
+            try {
+                currentViewState = prevState;
+                if (prevState.action === 'company') {
+                    focusOnCompany(prevState.id, false);
+                } else if (prevState.action === 'skill') {
+                    focusOnSkill(prevState.id, false);
+                } else if (prevState.action === 'node') {
+                    focusOnProfessionalNode(prevState.id, false);
+                } else if (prevState.action === 'category') {
+                    selectCategory(prevState.id);
+                } else if (prevState.action === 'type') {
+                    selectType(prevState.id);
+                } else if (prevState.action === 'fullView') {
+                    resetFullView(false);
+                }
+            } finally {
+                isNavigatingHistory = false;
+                updateBackButton();
+            }
+        }
 
         function t(key) { return I18N[currentLanguage][key] || key; }
         function localized(value) {
@@ -959,9 +1063,13 @@
             buildLegend();
         }
 
-        function focusOnCompany(companyId) {
+        function focusOnCompany(companyId, pushState = true) {
             const companyMesh = nodeMeshes.get(companyId);
             if (!companyMesh) return;
+            const company = getNode(companyId);
+            if (pushState) {
+                pushNavigationState({ action: 'company', id: companyId, title: company ? nodeLabel(company) : companyId });
+            }
             selectedCompanyId = companyId;
             selectedCategory = null;
             selectedSkillId = null;
@@ -974,6 +1082,7 @@
             showCompanyInsights(companyId);
             buildCompanyFilters();
             buildLegend();
+            updateBackButton();
         }
 
         function highlightCompanyNodes(companyId) {
@@ -1105,10 +1214,13 @@
             });
         }
 
-        function focusOnSkill(skillId) {
+        function focusOnSkill(skillId, pushState = true) {
             const skill = getNode(skillId);
             const skillMesh = nodeMeshes.get(skillId);
             if (!skill || !skillMesh) return;
+            if (pushState) {
+                pushNavigationState({ action: 'skill', id: skillId, title: nodeLabel(skill) });
+            }
             selectedSkillId = skillId;
             selectedCompanyId = null;
             selectedCategory = null;
@@ -1136,6 +1248,7 @@
             showSkillInsights(skillId);
             buildCompanyFilters();
             buildLegend();
+            updateBackButton();
         }
 
         function showSkillInsights(skillId) {
@@ -1184,11 +1297,14 @@
                 });
         }
 
-        function focusOnProfessionalNode(nodeId) {
+        function focusOnProfessionalNode(nodeId, pushState = true) {
             const node = getNode(nodeId);
             const nodeMesh = nodeMeshes.get(nodeId);
             if (!node || !nodeMesh || !['Role', 'Function', 'Metric'].includes(node.type)) return;
 
+            if (pushState) {
+                pushNavigationState({ action: 'node', id: nodeId, title: nodeLabel(node) });
+            }
             selectedNodeId = nodeId;
             selectedCompanyId = null;
             selectedCategory = null;
@@ -1228,6 +1344,7 @@
             showProfessionalNodeInsights(nodeId);
             buildCompanyFilters();
             buildLegend();
+            updateBackButton();
         }
 
         function showProfessionalNodeInsights(nodeId) {
@@ -1317,7 +1434,11 @@
             }
         }
 
-        function resetFullView() {
+        function resetFullView(clearHistory = true) {
+            if (clearHistory && !isNavigatingHistory) {
+                navigationHistory = [];
+                currentViewState = null;
+            }
             selectedCompanyId = null;
             selectedCategory = null;
             selectedSkillId = null;
@@ -1333,6 +1454,7 @@
             document.getElementById('detail-panel').classList.remove('visible');
             buildCompanyFilters();
             buildLegend();
+            updateBackButton();
         }
 
         function onClick(event) {
