@@ -50,7 +50,7 @@ CATEGORY_TAGS = {
         "sales_enablement", "technical_reference", "training",
     },
     "quality": {
-        "bcp", "compliance", "documentation", "governance", "legal_research", "lgpd",
+        "bcp", "compliance", "controls", "documentation", "governance", "legal_research", "lgpd",
         "quality_assurance", "root_cause_analysis", "security", "technical_writing", "uat",
     },
     "facilitation": {
@@ -126,6 +126,20 @@ EN_OVERRIDES = {
 
 # Curated, source-linked outcomes. Values and descriptions come from the cited master bullet.
 METRICS = {
+    "AI Builder — Projetos de Produtos": [
+        # Bússola da Rotina
+        (0, "0→1", "concepção de metodologia autoral", "0-to-1 methodology conception"),
+        (1, "+10x", "velocidade de desenvolvimento vs tradicional", "development velocity vs traditional"),
+        (1, ">95%", "economia de custos de engenharia", "engineering cost savings"),
+        (1, "5.700+", "linhas de código em SPA nativa", "lines of code in native SPA"),
+        (2, "100%", "estabilidade de dados em tempo real", "real-time data stability"),
+        # Meu Barzin
+        (6, "~200", "bares mapeados via web scraping", "venues mapped via web scraping"),
+        (8, "505", "leads qualificados capturados", "qualified leads captured"),
+        (8, "2.000+", "seguidores no Instagram", "Instagram followers"),
+        (8, "22,3%", "usuários altamente engajados", "highly engaged users"),
+        (10, "43,9%", "abandono na primeira mensagem (otimizado)", "first-message dropout (optimized)"),
+    ],
     "Wipro": [
         (1, "150+", "profissionais capacitados", "professionals enabled"),
         (4, "+150%", "aumento no uso de IA", "increase in AI usage"),
@@ -136,13 +150,6 @@ METRICS = {
         (9, "-50%", "tempo de ramp-up", "ramp-up time"),
         (9, "90%+", "qualidade nas primeiras auditorias", "quality on initial audits"),
         (9, "90%", "CSAT dos consultores", "consultant CSAT"),
-    ],
-    "Meu Barzin (Startup)": [
-        (2, "~200", "bares mapeados", "venues mapped"),
-        (4, "505", "leads qualificados", "qualified leads"),
-        (4, "2.000+", "seguidores no Instagram", "Instagram followers"),
-        (4, "22,3%", "usuários altamente engajados", "highly engaged users"),
-        (6, "43,9%", "abandono na primeira mensagem", "first-message dropout"),
     ],
     "AK Branding & Web Design": [
         (0, "40+", "projetos entregues", "projects delivered"),
@@ -170,8 +177,12 @@ METRICS = {
 }
 
 
+import unicodedata
+
 def slug(value: str) -> str:
-    return re.sub(r"[^a-z0-9]+", "-", value.casefold()).strip("-")
+    nfkd = unicodedata.normalize('NFKD', value)
+    ascii_val = nfkd.encode('ASCII', 'ignore').decode('ASCII')
+    return re.sub(r"[^a-z0-9]+", "-", ascii_val.casefold()).strip("-")
 
 
 def english_label(tag: str) -> str:
@@ -232,6 +243,23 @@ def build_graph(master: dict[str, Any]) -> dict[str, Any]:
         })
         edges.append({"source": "candidate", "target": company_id, "type": "WORKED_AT"})
 
+        # Process Projects if present
+        if "projects" in item:
+            for proj in item["projects"]:
+                proj_id = f"project-{slug(proj['name'])}"
+                add_node({
+                    "id": proj_id,
+                    "type": "Project",
+                    "labels": {"pt": proj["name"], "en": proj["name"]},
+                    "descriptions": proj.get("description", {}),
+                    "url": proj.get("url", ""),
+                    "company_id": company_id,
+                    "size": 1.1,
+                    "color": "#10b981",
+                    "glow": True,
+                })
+                edges.append({"source": company_id, "target": proj_id, "type": "HAS_PROJECT"})
+
         for role_index, role in enumerate(item["roles"]):
             role_id = f"role-{slug(company)}-{role_index + 1}"
             add_node({
@@ -244,9 +272,22 @@ def build_graph(master: dict[str, Any]) -> dict[str, Any]:
                 "color": "#a78bfa",
             })
             edges.append({"source": company_id, "target": role_id, "type": "HAS_ROLE"})
+            # Link Project to Role if AI Builder
+            if company == "AI Builder — Projetos de Produtos":
+                if role_index == 0:
+                    edges.append({"source": "project-bussola-da-rotina", "target": role_id, "type": "HAS_ROLE"})
+                elif role_index == 1:
+                    edges.append({"source": "project-meu-barzin", "target": role_id, "type": "HAS_ROLE"})
 
         primary_role_id = f"role-{slug(company)}-1"
         for bullet_index, bullet in enumerate(item["bullets"], 1):
+            if company == "AI Builder — Projetos de Produtos":
+                current_role_id = f"role-{slug(company)}-1" if bullet_index <= 4 else f"role-{slug(company)}-2"
+                current_proj_id = "project-bussola-da-rotina" if bullet_index <= 4 else "project-meu-barzin"
+            else:
+                current_role_id = primary_role_id
+                current_proj_id = None
+
             function_id = f"function-{slug(company)}-{bullet_index}"
             add_node({
                 "id": function_id,
@@ -257,12 +298,15 @@ def build_graph(master: dict[str, Any]) -> dict[str, Any]:
                 },
                 "descriptions": {"pt": bullet["pt"], "en": bullet["en"]},
                 "company_id": company_id,
-                "role_id": primary_role_id,
+                "role_id": current_role_id,
                 "source": f"master_resume.json:work_experience:{slug(company)}:bullet:{bullet_index}",
                 "size": 0.58,
                 "color": "#22d3ee",
             })
-            edges.append({"source": primary_role_id, "target": function_id, "type": "HAS_FUNCTION"})
+            edges.append({"source": current_role_id, "target": function_id, "type": "HAS_FUNCTION"})
+            if current_proj_id:
+                edges.append({"source": current_proj_id, "target": function_id, "type": "HAS_FUNCTION"})
+
             for tag in set(bullet["tags"]):
                 if tag not in PT_SKILLS:
                     raise ValueError(f"Missing PT skill label for tag: {tag}")
@@ -306,7 +350,15 @@ def build_graph(master: dict[str, Any]) -> dict[str, Any]:
         company_id = company_ids[company]
         for metric_index, (bullet_index, value, name_pt, name_en) in enumerate(METRICS.get(company, []), 1):
             bullet = item["bullets"][bullet_index]
+            if company == "AI Builder — Projetos de Produtos":
+                current_role_id = f"role-{slug(company)}-1" if bullet_index < 4 else f"role-{slug(company)}-2"
+                current_proj_id = "project-bussola-da-rotina" if bullet_index < 4 else "project-meu-barzin"
+            else:
+                current_role_id = primary_role_id
+                current_proj_id = None
+
             metric_id = f"metric-{slug(company)}-{metric_index}"
+            function_id = f"function-{slug(company)}-{bullet_index + 1}"
             add_node({
                 "id": metric_id,
                 "type": "Metric",
@@ -314,10 +366,15 @@ def build_graph(master: dict[str, Any]) -> dict[str, Any]:
                 "names": {"pt": name_pt, "en": name_en},
                 "contexts": {"pt": bullet["pt"], "en": bullet["en"]},
                 "company_id": company_id,
+                "role_id": current_role_id,
                 "size": 0.52,
                 "color": "#fbbf24",
             })
             edges.append({"source": company_id, "target": metric_id, "type": "HAS_METRIC"})
+            edges.append({"source": current_role_id, "target": metric_id, "type": "HAS_METRIC"})
+            if current_proj_id:
+                edges.append({"source": current_proj_id, "target": metric_id, "type": "HAS_METRIC"})
+            edges.append({"source": function_id, "target": metric_id, "type": "PRODUCED_METRIC"})
 
     # --- Perfil do candidato: contact + education + certifications + languages ---
     # Tudo derivado do master_resume (fonte unica de verdade). Nao inventa.
