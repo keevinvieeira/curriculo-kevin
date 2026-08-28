@@ -47,15 +47,162 @@
         "pt": "Curitiba, PR",
         "en": "Curitiba, PR, Brazil"
       },
-      "roles": [
+      "projects": [
         {
-          "title": {
+          "name": "Bússola da Rotina",
+          "description": {
+            "pt": "Web App de Produtividade Cirúrgica & Gestão de Carga Cognitiva",
+            "en": "Surgical Productivity & Cognitive Load Management Web App"
+          },
+          "url": "https://github.com/keevinvieeira/rotina-bussola",
+          "role": {
             "pt": "Líder de Produto & Arquiteto de Sistemas com IA",
             "en": "AI Product Lead & Systems Architect"
           },
           "dates": {
             "pt": "Janeiro 2026 – Presente",
             "en": "January 2026 – Present"
+          },
+          "bullets": [
+            {
+              "tags": [
+                "product_discovery",
+                "product_strategy",
+                "zero_to_one",
+                "methodology",
+                "prd"
+              ],
+              "pt": "Concepção de Produto e Metodologia 0→1: Idealizou e liderou de ponta a ponta a criação do Web App de produtividade e ergonomia mental, estruturando a Metodologia Bússola baseada em Timeblocking, limites de Work-in-Progress (WIP) e balanceamento de carga cognitiva, com PRD e roadmap completos.",
+              "en": "0-to-1 Product Discovery & Methodology: Conceived and led end-to-end the productivity and mental ergonomics Web App, designing the proprietary Bússola Methodology combining Timeblocking, WIP limits, and cognitive load balancing with complete PRD and roadmap."
+            },
+            {
+              "tags": [
+                "ai",
+                "ai_implementation",
+                "prompt_engineering",
+                "automation",
+                "rapid_prototyping"
+              ],
+              "pt": "AI Tech Leadership & Desenvolvimento Acelerado (+10x): Atuou como Tech Lead orquestrando agentes inteligentes de IA (Antigravity/Claude) como desenvolvedores operacionais de código, construindo uma SPA completa com 5.700+ linhas com ganho de velocidade de 10x e redução de custo de desenvolvimento superior a 95%.",
+              "en": "AI Tech Leadership & Accelerated Engineering (+10x): Acted as Tech Lead orchestrating intelligent AI agents as operational pair programmers, building a complete 5,700+ line SPA with 10x delivery speedup and over 95% engineering cost savings."
+            },
+            {
+              "tags": [
+                "database",
+                "realtime_data",
+                "quality_assurance",
+                "root_cause_analysis",
+                "controls"
+              ],
+              "pt": "Arquitetura de Dados em Tempo Real e Resolução de Concorrência: Parametrizou a infraestrutura no Firebase (Firestore NoSQL e Auth) e diagnosticou falhas complexas de concorrência (race conditions entre escritas otimistas locais e snapshots remotos via hasPendingWrites), garantindo 100% de estabilidade de dados.",
+              "en": "Real-Time Data Architecture & Concurrency Resolution: Configured cloud infrastructure on Firebase (Firestore NoSQL & Auth) and diagnosed complex concurrency edge cases (race conditions between optimistic local writes and remote snapshots via hasPendingWrites), ensuring 100% data integrity."
+            },
+            {
+              "tags": [
+                "ux_ui",
+                "ux",
+                "frictionless_ux",
+                "analytics",
+                "uat"
+              ],
+              "pt": "Decisões de UX Anti-Atrito, Analytics e UAT: Projetou a aba de Analytics com telemetria de hábitos e tomou decisões críticas de UX para eliminação de atrito (remoção consciente de drag-and-drop em favor de seletores precisos), conduzindo testes reais de aceitação do usuário (UAT).",
+              "en": "Frictionless UX Decisions, Analytics & UAT: Designed the Analytics dashboard for habit telemetry and made critical frictionless UX decisions (deliberately eliminating drag-and-drop in favor of deterministic controls), conducting hands-on user acceptance testing (UAT)."
+            }
+          ],
+          "skills": [
+            "Product Discovery 0→1",
+            "PRD & Roadmap",
+            "AI Tech Lead",
+            "Vibe Coding",
+            "Context Anchoring",
+            "Frictionless UX",
+            "Cognitive Ergonomics",
+            "Firebase Firestore NoSQL",
+            "Cloudflare Workers",
+            "Race Conditions Debugging",
+            "UAT Testing"
+          ]
+        },
+        {
+          "name": "Meu Barzin",
+          "description": {
+            "pt": "Marketplace e Assistente de Experiências Gastronômicas com IA",
+            "en": "AI-Powered Venue & Nightlife Marketplace"
+          },
+          "role": {
+            "pt": "Gerente de Produto & GTM",
+            "en": "Product Manager & GTM Lead"
+          },
+          "dates": {
+            "pt": "Dezembro 2025 – Março 2026",
+            "en": "December 2025 – March 2026"
+          },
+          "bullets": [
+            {
+              "tags": [
+                "ai",
+                "chatbots",
+                "automation",
+                "b2b",
+                "growth"
+              ],
+              "pt": "Arquitetura RAG e Assistente de IA: Desenvolveu assistente inteligente de busca de experiências via IA e RAG integrado ao WhatsApp (n8n/Supabase), mapeando jornadas conversacionais para recomendação personalizada de estabelecimentos.",
+              "en": "RAG Architecture & AI Assistant: Built an intelligent AI-powered venue discovery assistant with RAG over WhatsApp (n8n/Supabase), mapping conversational journeys for personalized recommendations."
+            },
+            {
+              "tags": [
+                "web_scraping",
+                "database",
+                "postgresql",
+                "nocodb"
+              ],
+              "pt": "Engenharia de Dados & Web Scraping: Mapeou quase 200 bares e restaurantes via Web Scraping estruturado, alimentando o banco de dados no PostgreSQL/NocoDB e gerando a inteligência de catálogo da plataforma.",
+              "en": "Data Engineering & Web Scraping: Scraped and structured data from nearly 200 venues into PostgreSQL/NocoDB, establishing the core catalog intelligence for the platform."
+            },
+            {
+              "tags": [
+                "growth",
+                "b2b",
+                "lead_generation",
+                "cro"
+              ],
+              "pt": "Geração de Demanda e Validação B2B: Captou 505 leads qualificados de topo de funil com 22,3% de alto engajamento, liderando a prospecção comercial e assinando parcerias de peso para o piloto de benefícios.",
+              "en": "Demand Generation & B2B Partnerships: Captured 505 qualified top-of-funnel leads with a 22.3% high-engagement rate, leading sales outreach and closing key pilot partnerships."
+            }
+          ],
+          "skills": [
+            "RAG Architecture",
+            "n8n",
+            "WhatsApp API",
+            "Supabase",
+            "PostgreSQL",
+            "NocoDB",
+            "Web Scraping",
+            "B2B Sales",
+            "Demand Generation",
+            "CRO"
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "title": {
+            "pt": "Líder de Produto & Arquiteto de Sistemas com IA (Bússola da Rotina)",
+            "en": "AI Product Lead & Systems Architect (Bússola da Rotina)"
+          },
+          "dates": {
+            "pt": "Janeiro 2026 – Presente",
+            "en": "January 2026 – Present"
+          }
+        },
+        {
+          "title": {
+            "pt": "Gerente de Produto & GTM (Meu Barzin)",
+            "en": "Product Manager & GTM Lead (Meu Barzin)"
+          },
+          "dates": {
+            "pt": "Dezembro 2025 – Março 2026",
+            "en": "December 2025 – March 2026"
           }
         }
       ],
@@ -68,8 +215,8 @@
             "methodology",
             "prd"
           ],
-          "pt": "Bússola da Rotina — Concepção de Produto e Metodologia 0→1: Idealizou e liderou de ponta a ponta a criação do Web App de produtividade e ergonomia mental, estruturando a Metodologia Bússola baseada em Timeblocking, limites de Work-in-Progress (WIP) e balanceamento de carga cognitiva, com PRD e roadmap completos.",
-          "en": "Bússola da Rotina — 0-to-1 Product Discovery & Methodology: Conceived and led end-to-end the productivity and mental ergonomics Web App, designing the proprietary Bússola Methodology combining Timeblocking, WIP limits, and cognitive load balancing with complete PRD and roadmap."
+          "pt": "Bússola da Rotina — Concepção 0→1 & Metodologia: Idealizou e liderou a criação do Web App de produtividade cirúrgica, estruturando a Metodologia Bússola baseada em Timeblocking, limites de WIP e balanceamento de carga cognitiva, com PRD e roadmap completos.",
+          "en": "Bússola da Rotina — 0-to-1 Discovery & Methodology: Conceived and led the productivity Web App, designing the proprietary Bússola Methodology combining Timeblocking, WIP limits, and cognitive load balancing with complete PRD and roadmap."
         },
         {
           "tags": [
@@ -79,19 +226,18 @@
             "automation",
             "rapid_prototyping"
           ],
-          "pt": "Bússola da Rotina — AI Tech Leadership & Desenvolvimento Acelerado (+10x): Atuou como Tech Lead orquestrando agentes inteligentes de IA (Antigravity/Claude) como desenvolvedores operacionais de código, construindo uma SPA completa com 5.700+ linhas com ganho de velocidade de 10x e redução de custo de desenvolvimento superior a 95%.",
-          "en": "Bússola da Rotina — AI Tech Leadership & Accelerated Engineering (+10x): Acted as Tech Lead orchestrating intelligent AI agents as operational pair programmers, building a complete 5,700+ line SPA with 10x delivery speedup and over 95% engineering cost savings."
+          "pt": "Bússola da Rotina — AI Tech Leadership (+10x Velocidade): Atuou como Tech Lead orquestrando agentes de IA (Antigravity/Claude) como desenvolvedores operacionais de código, construindo SPA completa com 5.700+ linhas com ganho de velocidade de 10x e redução de custo >95%.",
+          "en": "Bússola da Rotina — AI Tech Leadership (+10x Speedup): Acted as Tech Lead orchestrating AI agents as operational coders, building a 5,700+ line SPA with 10x delivery speedup and >95% cost reduction."
         },
         {
           "tags": [
             "database",
             "realtime_data",
             "quality_assurance",
-            "root_cause_analysis",
-            "controls"
+            "root_cause_analysis"
           ],
-          "pt": "Bússola da Rotina — Arquitetura de Dados em Tempo Real e Resolução de Concorrência: Parametrizou a infraestrutura no Firebase (Firestore NoSQL e Auth) e diagnosticou falhas complexas de concorrência (race conditions entre escritas otimistas locais e snapshots remotos via hasPendingWrites), garantindo 100% de estabilidade de dados.",
-          "en": "Bússola da Rotina — Real-Time Data Architecture & Concurrency Resolution: Configured cloud infrastructure on Firebase (Firestore NoSQL & Auth) and diagnosed complex concurrency edge cases (race conditions between optimistic local writes and remote snapshots via hasPendingWrites), ensuring 100% data integrity."
+          "pt": "Bússola da Rotina — Dados em Tempo Real & Race Conditions: Parametrizou infraestrutura no Firebase (Firestore NoSQL/Auth) e diagnosticou falhas complexas de concorrência (race conditions via hasPendingWrites), garantindo 100% de estabilidade de dados.",
+          "en": "Bússola da Rotina — Real-Time Data & Concurrency Resolution: Configured Firebase (Firestore NoSQL/Auth) and diagnosed complex concurrency edge cases (race conditions via hasPendingWrites), ensuring 100% data integrity."
         },
         {
           "tags": [
@@ -101,8 +247,8 @@
             "analytics",
             "uat"
           ],
-          "pt": "Bússola da Rotina — Decisões de UX Anti-Atrito, Analytics e UAT: Projetou a aba de Analytics com telemetria de hábitos e tomou decisões críticas de UX para eliminação de atrito (remoção consciente de drag-and-drop em favor de seletores precisos), conduzindo testes reais de aceitação do usuário (UAT).",
-          "en": "Bússola da Rotina — Frictionless UX Decisions, Analytics & UAT: Designed the Analytics dashboard for habit telemetry and made critical frictionless UX decisions (deliberately eliminating drag-and-drop in favor of deterministic controls), conducting hands-on user acceptance testing (UAT)."
+          "pt": "Bússola da Rotina — UX Anti-Atrito & Analytics: Projetou a aba de Analytics com telemetria de hábitos e eliminou componentes de atrito (remoção consciente de drag-and-drop em favor de seletores determinísticos), conduzindo testes reais de aceitação (UAT).",
+          "en": "Bússola da Rotina — Frictionless UX & Analytics: Designed the Analytics dashboard for habit telemetry and eliminated UX friction (deliberately replacing drag-and-drop with deterministic controls), conducting UAT testing."
         },
         {
           "tags": [
@@ -113,8 +259,8 @@
             "b2b",
             "growth"
           ],
-          "pt": "Meu Barzin — Arquitetura RAG, Automações e Validação de Demanda: Desenvolveu assistente inteligente de busca de experiências via IA e RAG integrado ao WhatsApp (n8n/Supabase), mapeou 200 estabelecimentos via Web Scraping e captou 505 leads qualificados de topo de funil com 22,3% de engajamento.",
-          "en": "Meu Barzin — RAG Architecture, Automations & Demand Validation: Built an intelligent AI-powered venue discovery assistant with RAG over WhatsApp (n8n/Supabase), scraped 200 venues, and captured 505 qualified top-of-funnel leads with a 22.3% high-engagement rate."
+          "pt": "Meu Barzin — RAG, Automações e Validação de Demanda: Desenvolveu assistente inteligente de busca de experiências via IA e RAG integrado ao WhatsApp (n8n/Supabase), mapeou 200 estabelecimentos via Web Scraping e captou 505 leads qualificados com 22,3% de engajamento.",
+          "en": "Meu Barzin — RAG, Automations & Demand Validation: Built an intelligent AI venue discovery assistant with RAG over WhatsApp (n8n/Supabase), scraped 200 venues, and captured 505 qualified leads with 22.3% engagement."
         }
       ]
     },

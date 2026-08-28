@@ -44,8 +44,8 @@
       "id": "role-ai-builder-projetos-de-produtos-1",
       "type": "Role",
       "labels": {
-        "pt": "Líder de Produto & Arquiteto de Sistemas com IA",
-        "en": "AI Product Lead & Systems Architect"
+        "pt": "Líder de Produto & Arquiteto de Sistemas com IA (Bússola da Rotina)",
+        "en": "AI Product Lead & Systems Architect (Bússola da Rotina)"
       },
       "dates": {
         "pt": "Janeiro 2026 – Presente",
@@ -56,15 +56,30 @@
       "color": "#a78bfa"
     },
     {
+      "id": "role-ai-builder-projetos-de-produtos-2",
+      "type": "Role",
+      "labels": {
+        "pt": "Gerente de Produto & GTM (Meu Barzin)",
+        "en": "Product Manager & GTM Lead (Meu Barzin)"
+      },
+      "dates": {
+        "pt": "Dezembro 2025 – Março 2026",
+        "en": "December 2025 – March 2026"
+      },
+      "company_id": "company-ai-builder-projetos-de-produtos",
+      "size": 0.72,
+      "color": "#a78bfa"
+    },
+    {
       "id": "function-ai-builder-projetos-de-produtos-1",
       "type": "Function",
       "labels": {
-        "pt": "Bússola da Rotina — Concepção de Produto e Metodologia 0→1",
-        "en": "Bússola da Rotina — 0-to-1 Product Discovery & Methodology"
+        "pt": "Bússola da Rotina — Concepção 0→1 & Metodologia",
+        "en": "Bússola da Rotina — 0-to-1 Discovery & Methodology"
       },
       "descriptions": {
-        "pt": "Bússola da Rotina — Concepção de Produto e Metodologia 0→1: Idealizou e liderou de ponta a ponta a criação do Web App de produtividade e ergonomia mental, estruturando a Metodologia Bússola baseada em Timeblocking, limites de Work-in-Progress (WIP) e balanceamento de carga cognitiva, com PRD e roadmap completos.",
-        "en": "Bússola da Rotina — 0-to-1 Product Discovery & Methodology: Conceived and led end-to-end the productivity and mental ergonomics Web App, designing the proprietary Bússola Methodology combining Timeblocking, WIP limits, and cognitive load balancing with complete PRD and roadmap."
+        "pt": "Bússola da Rotina — Concepção 0→1 & Metodologia: Idealizou e liderou a criação do Web App de produtividade cirúrgica, estruturando a Metodologia Bússola baseada em Timeblocking, limites de WIP e balanceamento de carga cognitiva, com PRD e roadmap completos.",
+        "en": "Bússola da Rotina — 0-to-1 Discovery & Methodology: Conceived and led the productivity Web App, designing the proprietary Bússola Methodology combining Timeblocking, WIP limits, and cognitive load balancing with complete PRD and roadmap."
       },
       "company_id": "company-ai-builder-projetos-de-produtos",
       "role_id": "role-ai-builder-projetos-de-produtos-1",
@@ -76,12 +91,12 @@
       "id": "function-ai-builder-projetos-de-produtos-2",
       "type": "Function",
       "labels": {
-        "pt": "Bússola da Rotina — AI Tech Leadership & Desenvolvimento Acelerado (+...",
-        "en": "Bússola da Rotina — AI Tech Leadership & Accelerated Engineering (+10x)"
+        "pt": "Bússola da Rotina — AI Tech Leadership (+10x Velocidade)",
+        "en": "Bússola da Rotina — AI Tech Leadership (+10x Speedup)"
       },
       "descriptions": {
-        "pt": "Bússola da Rotina — AI Tech Leadership & Desenvolvimento Acelerado (+10x): Atuou como Tech Lead orquestrando agentes inteligentes de IA (Antigravity/Claude) como desenvolvedores operacionais de código, construindo uma SPA completa com 5.700+ linhas com ganho de velocidade de 10x e redução de custo de desenvolvimento superior a 95%.",
-        "en": "Bússola da Rotina — AI Tech Leadership & Accelerated Engineering (+10x): Acted as Tech Lead orchestrating intelligent AI agents as operational pair programmers, building a complete 5,700+ line SPA with 10x delivery speedup and over 95% engineering cost savings."
+        "pt": "Bússola da Rotina — AI Tech Leadership (+10x Velocidade): Atuou como Tech Lead orquestrando agentes de IA (Antigravity/Claude) como desenvolvedores operacionais de código, construindo SPA completa com 5.700+ linhas com ganho de velocidade de 10x e redução de custo >95%.",
+        "en": "Bússola da Rotina — AI Tech Leadership (+10x Speedup): Acted as Tech Lead orchestrating AI agents as operational coders, building a 5,700+ line SPA with 10x delivery speedup and >95% cost reduction."
       },
       "company_id": "company-ai-builder-projetos-de-produtos",
       "role_id": "role-ai-builder-projetos-de-produtos-1",
@@ -93,12 +108,12 @@
       "id": "function-ai-builder-projetos-de-produtos-3",
       "type": "Function",
       "labels": {
-        "pt": "Bússola da Rotina — Arquitetura de Dados em Tempo Real e Resolução de...",
-        "en": "Bússola da Rotina — Real-Time Data Architecture & Concurrency Resolution"
+        "pt": "Bússola da Rotina — Dados em Tempo Real & Race Conditions",
+        "en": "Bússola da Rotina — Real-Time Data & Concurrency Resolution"
       },
       "descriptions": {
-        "pt": "Bússola da Rotina — Arquitetura de Dados em Tempo Real e Resolução de Concorrência: Parametrizou a infraestrutura no Firebase (Firestore NoSQL e Auth) e diagnosticou falhas complexas de concorrência (race conditions entre escritas otimistas locais e snapshots remotos via hasPendingWrites), garantindo 100% de estabilidade de dados.",
-        "en": "Bússola da Rotina — Real-Time Data Architecture & Concurrency Resolution: Configured cloud infrastructure on Firebase (Firestore NoSQL & Auth) and diagnosed complex concurrency edge cases (race conditions between optimistic local writes and remote snapshots via hasPendingWrites), ensuring 100% data integrity."
+        "pt": "Bússola da Rotina — Dados em Tempo Real & Race Conditions: Parametrizou infraestrutura no Firebase (Firestore NoSQL/Auth) e diagnosticou falhas complexas de concorrência (race conditions via hasPendingWrites), garantindo 100% de estabilidade de dados.",
+        "en": "Bússola da Rotina — Real-Time Data & Concurrency Resolution: Configured Firebase (Firestore NoSQL/Auth) and diagnosed complex concurrency edge cases (race conditions via hasPendingWrites), ensuring 100% data integrity."
       },
       "company_id": "company-ai-builder-projetos-de-produtos",
       "role_id": "role-ai-builder-projetos-de-produtos-1",
@@ -110,12 +125,12 @@
       "id": "function-ai-builder-projetos-de-produtos-4",
       "type": "Function",
       "labels": {
-        "pt": "Bússola da Rotina — Decisões de UX Anti-Atrito, Analytics e UAT",
-        "en": "Bússola da Rotina — Frictionless UX Decisions, Analytics & UAT"
+        "pt": "Bússola da Rotina — UX Anti-Atrito & Analytics",
+        "en": "Bússola da Rotina — Frictionless UX & Analytics"
       },
       "descriptions": {
-        "pt": "Bússola da Rotina — Decisões de UX Anti-Atrito, Analytics e UAT: Projetou a aba de Analytics com telemetria de hábitos e tomou decisões críticas de UX para eliminação de atrito (remoção consciente de drag-and-drop em favor de seletores precisos), conduzindo testes reais de aceitação do usuário (UAT).",
-        "en": "Bússola da Rotina — Frictionless UX Decisions, Analytics & UAT: Designed the Analytics dashboard for habit telemetry and made critical frictionless UX decisions (deliberately eliminating drag-and-drop in favor of deterministic controls), conducting hands-on user acceptance testing (UAT)."
+        "pt": "Bússola da Rotina — UX Anti-Atrito & Analytics: Projetou a aba de Analytics com telemetria de hábitos e eliminou componentes de atrito (remoção consciente de drag-and-drop em favor de seletores determinísticos), conduzindo testes reais de aceitação (UAT).",
+        "en": "Bússola da Rotina — Frictionless UX & Analytics: Designed the Analytics dashboard for habit telemetry and eliminated UX friction (deliberately replacing drag-and-drop with deterministic controls), conducting UAT testing."
       },
       "company_id": "company-ai-builder-projetos-de-produtos",
       "role_id": "role-ai-builder-projetos-de-produtos-1",
@@ -127,12 +142,12 @@
       "id": "function-ai-builder-projetos-de-produtos-5",
       "type": "Function",
       "labels": {
-        "pt": "Meu Barzin — Arquitetura RAG, Automações e Validação de Demanda",
-        "en": "Meu Barzin — RAG Architecture, Automations & Demand Validation"
+        "pt": "Meu Barzin — RAG, Automações e Validação de Demanda",
+        "en": "Meu Barzin — RAG, Automations & Demand Validation"
       },
       "descriptions": {
-        "pt": "Meu Barzin — Arquitetura RAG, Automações e Validação de Demanda: Desenvolveu assistente inteligente de busca de experiências via IA e RAG integrado ao WhatsApp (n8n/Supabase), mapeou 200 estabelecimentos via Web Scraping e captou 505 leads qualificados de topo de funil com 22,3% de engajamento.",
-        "en": "Meu Barzin — RAG Architecture, Automations & Demand Validation: Built an intelligent AI-powered venue discovery assistant with RAG over WhatsApp (n8n/Supabase), scraped 200 venues, and captured 505 qualified top-of-funnel leads with a 22.3% high-engagement rate."
+        "pt": "Meu Barzin — RAG, Automações e Validação de Demanda: Desenvolveu assistente inteligente de busca de experiências via IA e RAG integrado ao WhatsApp (n8n/Supabase), mapeou 200 estabelecimentos via Web Scraping e captou 505 leads qualificados com 22,3% de engajamento.",
+        "en": "Meu Barzin — RAG, Automations & Demand Validation: Built an intelligent AI venue discovery assistant with RAG over WhatsApp (n8n/Supabase), scraped 200 venues, and captured 505 qualified leads with 22.3% engagement."
       },
       "company_id": "company-ai-builder-projetos-de-produtos",
       "role_id": "role-ai-builder-projetos-de-produtos-1",
@@ -1666,19 +1681,16 @@
         "en": "Leadership & Operations"
       },
       "companies": [
-        "company-ai-builder-projetos-de-produtos",
         "company-ak-branding-web-design"
       ],
       "evidence_by_company": {
-        "company-ai-builder-projetos-de-produtos": 1,
         "company-ak-branding-web-design": 1
       },
-      "evidence_count": 2,
+      "evidence_count": 1,
       "function_ids": [
-        "function-ai-builder-projetos-de-produtos-3",
         "function-ak-branding-web-design-6"
       ],
-      "size": 0.66,
+      "size": 0.58,
       "color": "#38bdf8"
     },
     {
@@ -4400,6 +4412,11 @@
       "type": "HAS_ROLE"
     },
     {
+      "source": "company-ai-builder-projetos-de-produtos",
+      "target": "role-ai-builder-projetos-de-produtos-2",
+      "type": "HAS_ROLE"
+    },
+    {
       "source": "role-ai-builder-projetos-de-produtos-1",
       "target": "function-ai-builder-projetos-de-produtos-1",
       "type": "HAS_FUNCTION"
@@ -5060,21 +5077,10 @@
       "type": "DEMONSTRATES_SKILL"
     },
     {
-      "source": "company-ai-builder-projetos-de-produtos",
-      "target": "skill-controls",
-      "type": "DEMONSTRATES",
-      "evidence_count": 1
-    },
-    {
       "source": "company-ak-branding-web-design",
       "target": "skill-controls",
       "type": "DEMONSTRATES",
       "evidence_count": 1
-    },
-    {
-      "source": "function-ai-builder-projetos-de-produtos-3",
-      "target": "skill-controls",
-      "type": "DEMONSTRATES_SKILL"
     },
     {
       "source": "function-ak-branding-web-design-6",
@@ -6393,12 +6399,12 @@
     }
   },
   "stats": {
-    "total_nodes": 201,
-    "total_edges": 366,
+    "total_nodes": 202,
+    "total_edges": 365,
     "total_skills": 110,
     "total_companies": 6,
     "total_metrics": 26,
-    "total_roles": 6,
+    "total_roles": 7,
     "total_functions": 40,
     "total_education": 2,
     "total_certifications": 7,

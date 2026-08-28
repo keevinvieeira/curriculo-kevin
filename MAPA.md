@@ -21,20 +21,21 @@
 
 ---
 
-### 1. AI Builder — Projetos de Produtos — Jan 2026 a Presente
-**Cargo:** Líder de Produto & Arquiteto de Sistemas com IA (AI Product Lead & Systems Architect)
+### 1. AI Builder — Projetos de Produtos (Product Studio) — Jan 2026 a Presente
 
-**Produtos Autorais:**
-* **Bússola da Rotina (Web App de Produtividade & Carga Cognitiva):**
-  - Concepção 0→1 da Metodologia Bússola (Timeblocking, limites de WIP, balanceamento cognitivo).
-  - AI Tech Leadership & Vibe Coding (+10x velocidade de desenvolvimento, SPA de 5.700+ linhas, economia >95% em custos).
-  - Arquitetura de dados em tempo real no Firebase (Firestore/Auth) e diagnóstico de race conditions (`hasPendingWrites`).
-  - Decisões de UX anti-atrito, dashboard de Analytics e testes UAT de aceitação.
-* **Meu Barzin (Startup / Marketplace com IA & RAG):**
-  - Assistente inteligente de bares no WhatsApp via RAG (n8n/Supabase) e Web Scraping de 200 bares.
-  - 505 leads qualificados capturados com 22,3% de alto engajamento e parcerias B2B.
+#### 📂 Categoria: Projetos Autorais
 
-**Skills demonstradas:** Product Discovery 0→1, PRD & Requirements Architecture, AI Tech Lead, Context Anchoring, Prompting Diagnóstico, Frictionless UX, Cognitive Load Design, Race Conditions Diagnosis, Realtime Data, UAT, Firebase Firestore, Cloudflare Workers, n8n, Supabase.
+* 🔹 **Projeto 1: Bússola da Rotina**
+  * **Cargo:** Líder de Produto & Arquiteto de Sistemas com IA (*AI Product Lead & Systems Architect*)
+  * **Período:** Janeiro 2026 – Presente
+  * **Métricas reais:** +10x velocidade de desenvolvimento, >95% economia de custos de squad, SPA com 5.700+ linhas, 100% estabilidade de escrita local/remota.
+  * **Skills demonstradas:** Product Discovery 0→1, Arquitetura de Requisitos & PRD, AI Tech Lead, Vibe Coding, Engenharia de Contexto, Prompting Diagnóstico, Frictionless UX, Ergonomia Cognitiva, Firebase Firestore NoSQL, Cloudflare Workers, Testes UAT.
+
+* 🔹 **Projeto 2: Meu Barzin**
+  * **Cargo:** Gerente de Produto & GTM (*Product Manager & GTM Lead*)
+  * **Período:** Dezembro 2025 – Março 2026
+  * **Métricas reais:** 505 leads qualificados capturados (22,3% alto engajamento), 200 bares catalogados via Web Scraping, parcerias B2B fechadas.
+  * **Skills demonstradas:** Arquitetura RAG com IA, n8n, Automação de WhatsApp, PostgreSQL, Supabase, NocoDB, Web Scraping, GTM B2B, CRO.
 
 ---
 
