@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "company_name": "HR Tech Co",
+    "role_title": "Growth Marketer AI",
+    "fit_score": 98,
+    "document_language": "en",
+    "salary_expectation": "A combiner",
+    "good_points": [],
+    "improvement_points": []
+  },
+  "triage": {
+    "decision": "adapt",
+    "notes": "Testing the new 3D Career OS ontology graph"
+  },
+  "materials": {
+    "pt": {
+      "cover_letter": "HR Tech Co",
+      "email_pitch": "",
+      "interview_script": ""
+    },
+    "en": {
+      "cover_letter": "HR Tech Co",
+      "email_pitch": "",
+      "interview_script": ""
+    }
+  },
+  "resume": {
+    "en": {
+      "summary": "AI-Native Growth Marketer and Product Lead specializing in AI-driven growth programs, Agentic Workflows, AEO/GEO, and ABM Strategies. Proven track record of orchestrating LLMs and leading cross-functional GTM engineering teams.",
+      "work_experience": [
+        {
+          "company": "AI Builder — Projetos de Produtos",
+          "roles": [
+            {
+              "title": "AI-Native Product Lead & Systems Architect",
+              "dates": "July 2026 – August 2026",
+              "responsibilities": [
+                "Architected AI Career OS, integrating AI personalization and agentic workflows to increase match engine efficiency by 95%.",
+                "Led deterministic UX and ABM strategy deployments scaling inbound and outbound demand gen."
+              ]
+            }
+          ],
+          "skills_used": [
+            "AI Personalization",
+            "LLM Orchestration",
+            "Match Engine",
+            "Prompt Governance",
+            "Vibe Coding",
+            "ABM",
+            "HubSpot",
+            "Salesforce"
+          ]
+        }
+      ],
+      "skills": [
+        "AEO",
+        "Agentic Workflows",
+        "ABM Strategy",
+        "Demand Gen",
+        "GTM Engineering",
+        "Prompt Engineering",
+        "CRM",
+        "Salesforce",
+        "HubSpot"
+      ]
+    },
+    "pt": {
+      "summary": "AI-Native Growth Marketer and Product Lead...",
+      "work_experience": [],
+      "skills": []
+    }
+  },
+  "id": "hr-tech-co-growth-marketer-ai"
+}
