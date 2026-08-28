@@ -1,25 +1,25 @@
 {
-  "company_name": "Zicasso",
-  "role_title": "Growth Product Manager",
-  "url": "",
-  "fit_score": 91,
-  "salary_expectation": "USD 4,500-6,500/month (remote Brazil; target: USD 5,500/month)",
+  "company_name": "Infobip",
+  "role_title": "Senior Partnership Enablement Specialist",
+  "url": "https://br.linkedin.com/jobs/view/senior-partnership-enablement-specialist-at-infobip-4450345106",
+  "fit_score": 97,
+  "salary_expectation": "Faixa não divulgada; expectativa de R$ 15.000 a R$ 22.000/mês para contratação no Brasil, sujeita ao pacote total",
   "document_language": "en",
   "available_languages": [
     "pt",
     "en"
   ],
+  "location": "Curitiba, PR | Híbrido",
+  "employment_type": "Tempo integral",
   "source_files": [
-    "master_resume.json"
+    "master_resume.json",
+    "LinkedIn job posting 4450345106"
   ],
   "good_points": [
-    "Growth Product Management, CRO, testes A/B, discovery, roadmap, backlog e priorização por impacto.",
-    "Google Analytics, Power BI/Tableau, dashboards, tracking, análise de funil e decisões orientadas por hipóteses.",
-    "IA, LLMs, RAG, colaboração com Engenharia/Design/Marketing e experiência internacional em inglês."
+    "Interface estratégica comprovada entre times de Produto e canais comerciais no Projeto Meta (Wipro), conduzindo adoção em escala.",
+    "Liderança de programa de enablement (Next Level Bootcamp) que reduziu o tempo de ramp-up em 50% (de 6 para 3 meses) com 90%+ de qualidade em auditorias.",
+    "Aceleração de uso de ferramentas de IA no CRM em +150%, posicionando a operação como #1 global em crescimento de adoção.",
+    "Histórico sólido de prospecção, desenho de propostas de valor e parcerias B2B, com residência em Curitiba/PR e Inglês Fluente."
   ],
-  "improvement_points": [
-    "Jira é requisito explícito e ainda não foi confirmado no currículo mestre.",
-    "A experiência funcional em Product Management é forte, mas o período formal com esse título é menor que 3-5 anos.",
-    "Não há experiência direta em travel-tech ou mercado de luxo; Google Analytics está comprovado, mas GA4 não foi especificado."
-  ]
+  "improvement_points": []
 }

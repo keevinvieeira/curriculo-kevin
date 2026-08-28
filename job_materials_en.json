@@ -1,21 +1,21 @@
 {
-  "cover_letter": "Hi Zicasso team,\n\nThe discovery-to-request journey is an especially compelling product challenge: every improvement needs to increase conversion without turning a premium experience into a generic transaction. That balance between user behavior, UX, experimentation, and business outcomes is where I have built my Growth experience.\n\nAt Meu Barzin, I led discovery and funnel analysis for an AI-powered conversational product. The data revealed a 43.9% first-message dropout and helped prioritize partner density and latency as critical bottlenecks. At AK Branding, I planned A/B tests across landing pages, messaging, ads, and interactions; UX and chatbot improvements increased leads from 8 to 20-30 per month (+250%).\n\nAt Wipro on the Meta Project, I worked in a squad using roadmap, backlog, OKRs, and global stakeholder input. I also owned AI adoption in the CRM, increasing usage by 150%, and used Power BI, Excel, and qualitative feedback to guide decisions.\n\nI would value the opportunity to apply this combination of CRO, product, data, and AI to make Zicasso's journey even more personal, inspiring, and effective. I am available to work until 3 PM PT.\n\nKevin Augusto Vieira",
+  "cover_letter": "Hi Infobip team!\n\nI was thrilled to come across the Senior Partnership Enablement Specialist opening. Infobip is a global leader in cloud communication platforms, and acting as the strategic bridge between Product innovations and partner ecosystems directly matches what I have built my career on over the past 8+ years.\n\nAt Wipro (Meta Project), I served as the primary liaison between global product updates and regional commercial teams. I translated complex product developments into high-impact use cases, commercial playbooks, and structured enablement sessions that drove daily adoption up by +150% (ranking our operation #1 globally in growth) and cut consultant ramp-up time by 50% with 90%+ audit quality scores.\n\nFurthermore, I bring practical experience in B2B partnership outreach, CRM automation, and Power BI telemetry to track partner success. Based in Curitiba, Brazil, with fluent English for daily international collaboration, I am fully available for the hybrid model.\n\nI would love to connect and discuss how I can contribute to accelerating the adoption and growth of Infobip's partner ecosystem!\n\nBest regards,\nKevin Augusto Vieira",
   "form_answers": [
     {
-      "question": "Tell us about a CRO experiment that delivered results.",
-      "answer": "At AK Branding, I planned A/B tests across landing pages, messaging, ads, and UX flows to validate acquisition and conversion hypotheses. In one context, UX and chatbot improvements increased lead capture from 8 to 20-30 leads per month (+250%). My approach is to define the hypothesis, metric, segment, analysis window, and criterion to scale, adjust, or stop."
+      "question": "How do you translate technical updates into partner value?",
+      "answer": "I start with the business objective, audience, problem, and expected outcome. On the Meta Project, I absorbed official materials and converted product updates into value propositions, pitches, scripts, playbooks, and training for 150+ professionals. I validate clarity through call feedback, adoption metrics, and root cause analysis."
     },
     {
-      "question": "How do you prioritize a Growth backlog?",
-      "answer": "I combine expected impact, evidence confidence, effort, dependencies, and experience risk. On the Meta Project, I worked in a squad using roadmap, backlog, and OKRs to prioritize requests from clients, managers, product, and quality. At Meu Barzin, funnel data and interviews helped prioritize bottlenecks blocking conversion."
+      "question": "Tell us about an enablement program you led.",
+      "answer": "I designed and governed the Next Level Bootcamp for 12 consultants, structuring its roadmap, backlog, materials, quality criteria, and follow-up. It achieved 100% completion, 90%+ quality, and reduced ramp-up from 6 to 3 months."
     },
     {
-      "question": "How do you combine qualitative research and quantitative data?",
-      "answer": "I use data to locate the problem and research to understand why it happens. At Meu Barzin, analysis revealed a 43.9% first-message dropout; interviews and observation showed that partner density and API latency harmed the experience. That combination guided product priorities."
+      "question": "What is your experience with partners and ecosystems?",
+      "answer": "I have direct experience in B2B outreach, negotiation, and partnership validation at Meu Barzin, plus cross-functional collaboration across product, quality, and global operations at Wipro. I do not claim formal, ongoing ownership of a regional partner ecosystem; that would be a natural extension of my transferable experience."
     },
     {
-      "question": "How do you use AI in your product workflow?",
-      "answer": "I use LLMs for research, synthesis, documentation, prototyping, and automation. At Meu Barzin, I designed a conversational product using RAG, n8n, and Supabase with zero-hallucination rules. At Wipro, I owned CRM AI activation, increasing usage from 4 to 10 prompts per consultant (+150%)."
+      "question": "What is your CPaaS experience?",
+      "answer": "I do not have documented direct professional CPaaS experience. My transferable foundation includes digital-product enablement, release communication, APIs and webhooks in automation, use cases, CRM, and adoption. I would build domain depth through structured training and close partnership with product and technical specialists."
     }
   ]
 }

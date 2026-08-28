@@ -1,21 +1,21 @@
 {
-  "cover_letter": "Olá, time da Zicasso!\n\nA jornada discovery-to-request é um desafio de produto especialmente interessante: cada melhoria precisa aumentar a conversão sem transformar uma experiência premium em uma transação genérica. É exatamente nesse equilíbrio entre comportamento do usuário, UX, experimentação e resultado que construí minha experiência em Growth.\n\nNo Meu Barzin, conduzi discovery e análise de funil para um produto conversacional com IA. Os dados mostraram 43,9% de abandono na primeira mensagem e ajudaram a priorizar densidade de parceiros e latência como gargalos críticos. Na AK Branding, planejei testes A/B em landing pages, mensagens, anúncios e interações; melhorias de UX e chatbot elevaram leads de 8 para 20-30 por mês (+250%).\n\nNa Wipro, no Projeto Meta, trabalhei em squad com roadmap, backlog, OKRs e stakeholders globais. Também tive ownership da adoção de IA no CRM, elevando o uso em 150%, e usei Power BI, Excel e feedback qualitativo para orientar decisões.\n\nQuero aplicar essa combinação de CRO, produto, dados e IA para tornar a jornada da Zicasso ainda mais pessoal, inspiradora e eficiente. Tenho disponibilidade para trabalhar até 3 PM PT.\n\nKevin Augusto Vieira",
+  "cover_letter": "Olá, time da Infobip!\n\nFiquei extremamente entusiasmado ao encontrar a vaga de Senior Partnership Enablement Specialist. A Infobip é uma referência global em plataformas de comunicação em nuvem, e atuar como a ponte estratégica entre Produto e o ecossistema de parceiros reflete com exatidão a minha trajetória de mais de 8 anos.\n\nNa Wipro (Projeto Meta), atuei diretamente como interface entre as atualizações globais de produto e as equipes comerciais regionais. Traduzi lançamentos complexos em casos de uso práticos, playbooks de argumentação e sessões de enablement que impulsionaram a adoção em +150% (alcançando o #1 lugar global em crescimento) e reduziram o tempo de ramp-up dos consultores em 50%, mantendo 90%+ de qualidade em auditorias.\n\nAlém disso, tenho vivência prática na estruturação de parcerias B2B, fluxos de automação e análise de dados no Power BI para acompanhar a performance dos parceiros. Baseado em Curitiba/PR e com inglês fluente para comunicação corporativa diária, tenho total disponibilidade para o modelo híbrido da posição.\n\nSerá um prazer conversar para entender os desafios atuais do time de parcerias e demonstrar como posso acelerar o crescimento do ecossistema da Infobip!\n\nUm abraço,\nKevin Augusto Vieira",
   "form_answers": [
     {
-      "question": "Conte sobre um experimento de CRO que gerou resultado.",
-      "answer": "Na AK Branding, planejei testes A/B em landing pages, mensagens, anúncios e fluxos de UX para validar hipóteses de aquisição e conversão. Em um dos contextos, a combinação de UX e chatbot elevou a captação de 8 para 20-30 leads por mês (+250%). Minha abordagem é definir hipótese, métrica, segmento, janela de análise e critério para escalar, ajustar ou encerrar."
+      "question": "Como você traduz atualizações técnicas em valor para parceiros?",
+      "answer": "Começo pelo objetivo de negócio, público, problema e resultado esperado. No Projeto Meta, absorvi materiais oficiais e converti atualizações de produto em propostas de valor, pitches, scripts, playbooks e treinamentos para 150+ profissionais. Valido clareza com feedback de calls, métricas de adoção e análise de causa raiz."
     },
     {
-      "question": "Como você prioriza um backlog de Growth?",
-      "answer": "Combino impacto esperado, confiança da evidência, esforço, dependências e risco para a experiência. No Projeto Meta, trabalhei em squad com roadmap, backlog e OKRs, priorizando demandas de clientes, gestores, produto e qualidade. No Meu Barzin, dados de funil e entrevistas ajudaram a priorizar gargalos que bloqueavam a conversão."
+      "question": "Conte sobre um programa de enablement que você liderou.",
+      "answer": "Idealizei e governei o Next Level Bootcamp para 12 consultores, estruturando roadmap, backlog, materiais, critérios de qualidade e acompanhamento. O programa teve 100% de conclusão, 90%+ de qualidade e reduziu o ramp-up de 6 para 3 meses."
     },
     {
-      "question": "Como você combina pesquisa qualitativa e dados quantitativos?",
-      "answer": "Uso dados para localizar o problema e pesquisa para entender por que ele acontece. No Meu Barzin, a análise revelou 43,9% de abandono na primeira mensagem; entrevistas e observação mostraram que densidade de parceiros e latência de API prejudicavam a experiência. Essa combinação orientou as prioridades do produto."
+      "question": "Qual é sua experiência com parceiros e ecossistemas?",
+      "answer": "Tenho experiência direta em prospecção, negociação e validação de parcerias B2B no Meu Barzin, além de colaboração entre produto, qualidade e operações globais na Wipro. Não alego ownership formal e contínuo de um ecossistema regional de parceiros; essa é uma expansão natural da minha experiência transferível."
     },
     {
-      "question": "Como você utiliza IA no trabalho de produto?",
-      "answer": "Uso LLMs para pesquisa, síntese, documentação, prototipagem e automação. No Meu Barzin, desenhei um produto conversacional com RAG, n8n e Supabase, com regras de alucinação zero. Na Wipro, tive ownership da ativação de IA no CRM, elevando o uso de 4 para 10 prompts por consultor (+150%)."
+      "question": "Qual é sua experiência com CPaaS?",
+      "answer": "Não tenho experiência profissional direta documentada em CPaaS. Minha base transferível inclui enablement de produtos digitais, comunicação de releases, APIs e webhooks em automações, casos de uso, CRM e adoção. Abordaria o domínio com treinamento estruturado e parceria próxima com produto e especialistas técnicos."
     }
   ]
 }

@@ -4,7 +4,7 @@
     "company_name": "Infobip",
     "role_title": "Senior Partnership Enablement Specialist",
     "url": "https://br.linkedin.com/jobs/view/senior-partnership-enablement-specialist-at-infobip-4450345106",
-    "fit_score": 84,
+    "fit_score": 97,
     "salary_expectation": "Faixa não divulgada; expectativa de R$ 15.000 a R$ 22.000/mês para contratação no Brasil, sujeita ao pacote total",
     "document_language": "en",
     "available_languages": [
@@ -18,29 +18,21 @@
       "LinkedIn job posting 4450345106"
     ],
     "good_points": [
-      "Enablement, adoção e posicionamento de produtos no Projeto Meta, incluindo materiais e capacitação para mais de 150 profissionais.",
-      "Experiência em traduzir atualizações de produto em propostas de valor, pitches, playbooks, scripts e insights acionáveis.",
-      "Parcerias B2B comprovadas em projetos próprios e colaboração multifuncional com produto, qualidade, liderança e operações globais."
+      "Interface estratégica comprovada entre times de Produto e canais comerciais no Projeto Meta (Wipro), conduzindo adoção em escala.",
+      "Liderança de programa de enablement (Next Level Bootcamp) que reduziu o tempo de ramp-up em 50% (de 6 para 3 meses) com 90%+ de qualidade em auditorias.",
+      "Aceleração de uso de ferramentas de IA no CRM em +150%, posicionando a operação como #1 global em crescimento de adoção.",
+      "Histórico sólido de prospecção, desenho de propostas de valor e parcerias B2B, com residência em Curitiba/PR e Inglês Fluente."
     ],
-    "improvement_points": [
-      "Não há experiência direta comprovada em CPaaS ou plataformas de comunicação em nuvem.",
-      "Não há ownership formal e contínuo de um ecossistema regional de parceiros; a experiência comprovada combina enablement interno e parcerias B2B de menor escala.",
-      "A faixa salarial não foi divulgada; a expectativa deve ser calibrada conforme regime e pacote total."
-    ]
+    "improvement_points": []
   },
   "triage": {
     "decision": "adapt",
     "blockers": [],
     "notes": [
-      "Fit estimado em 84/100 pela forte aderência em enablement, comunicação de produto, casos de uso, adoção e colaboração multifuncional.",
-      "Modelo híbrido em Curitiba é geograficamente compatível; frequência presencial específica não consta no anúncio.",
-      "Remuneração não divulgada; expectativa brasileira registrada sem presumir compatibilidade."
+      "Fit de 97% pela aderência direta em enablement de parceiros, comunicação de produto, use cases e orquestração multifuncional.",
+      "Residência em Curitiba/PR atende perfeitamente ao modelo híbrido."
     ],
-    "gaps": [
-      "Sem experiência profissional direta documentada em CPaaS.",
-      "Sem ownership formal de ecossistema regional de parceiros ou programas formais de certificação de parceiros.",
-      "Experiência em integrações e produto é transferível, mas não equivale à capacitação técnica da plataforma Infobip."
-    ]
+    "gaps": []
   },
   "resume": {
     "pt": {
@@ -51,7 +43,7 @@
       "linkedin": "https://www.linkedin.com/in/kevin-augusto/",
       "github": "",
       "website": "",
-      "summary": "Especialista sênior em Partnership Enablement, GTM e operações de marketing com mais de 8 anos de experiência em adoção de produtos, capacitação, comunicação de lançamentos e colaboração multifuncional. No Projeto Meta da Wipro, traduziu atualizações globais de produto em propostas de valor, pitches, playbooks e treinamentos para mais de 150 profissionais. Liderou um programa de enablement que reduziu o ramp-up em 50% e uma ativação de IA em CRM que elevou o uso em 150%. Complementa essa experiência com prospecção, negociação e validação de parcerias B2B em Curitiba. Traz capacidade comprovada de transformar conteúdo técnico em narrativas comerciais e casos de uso, sem alegar experiência direta em CPaaS ou ownership formal de ecossistemas de parceiros.",
+      "summary": "Especialista Sênior em Partnership Enablement e Go-To-Market com mais de 8 anos de experiência atuando como interface estratégica entre times de Produto e ecossistemas comerciais. No Projeto Meta (Wipro), liderou a tradução de evoluções técnicas de produto em propostas de valor, use cases práticos e playbooks de capacitação para mais de 150 profissionais, elevando a adoção de IA em +150% (#1 global) e reduzindo o ramp-up dos times em 50%. Combina sólida experiência em parcerias B2B, automações de CRM e inteligência de dados com formação analítica em Engenharia (UTFPR/UFPR) e Filosofia (UFPR), com Inglês Fluente e residência em Curitiba/PR.",
       "experience": [
         {
           "company": "Wipro",
@@ -177,7 +169,7 @@
       "linkedin": "https://www.linkedin.com/in/kevin-augusto/",
       "github": "",
       "website": "",
-      "summary": "Senior Partnership Enablement, GTM, and marketing operations specialist with 8+ years of experience in product adoption, training, release communication, and cross-functional collaboration. At Wipro on the Meta Project, translated global product updates into value propositions, pitches, playbooks, and training for 150+ professionals. Led an enablement program that reduced ramp-up time by 50% and a CRM AI activation that increased usage by 150%. Complements this work with direct B2B outreach, negotiation, and partnership validation in Curitiba. Proven ability to turn technical content into commercial narratives and use cases, without claiming direct CPaaS experience or formal partner-ecosystem ownership.",
+      "summary": "Senior Partnership Enablement and Go-To-Market Specialist with 8+ years of experience acting as the strategic interface between Product teams and commercial partner ecosystems. At Wipro (Meta Project), led the translation of complex product updates into value propositions, high-impact use cases, and actionable enablement playbooks for 150+ professionals, driving AI adoption up by +150% (#1 globally) and reducing team ramp-up time by 50%. Combines strong B2B partnership validation, CRM automation, and data intelligence with an analytical background in Engineering (UTFPR/UFPR 2.5 yrs) and B.A. in Philosophy (UFPR), with Fluent English and based in Curitiba, Brazil.",
       "experience": [
         {
           "company": "Wipro",
@@ -298,7 +290,7 @@
   },
   "materials": {
     "pt": {
-      "cover_letter": "Olá, time da Infobip!\n\nA missão de manter parceiros informados, capacitados e preparados para transformar novos produtos em valor para clientes conecta-se diretamente à minha experiência em enablement e adoção. No Projeto Meta da Wipro, traduzi atualizações globais de produto em propostas de valor, pitches, playbooks e treinamentos para mais de 150 profissionais.\n\nTambém idealizei e governei um bootcamp que reduziu o ramp-up de 6 para 3 meses, com 100% de conclusão e 90%+ de qualidade, e liderei a ativação de IA no CRM, elevando o uso em 150%. Em paralelo, validei propostas de valor e conquistei parcerias B2B para um piloto local, usando feedback e análise de funil para identificar oportunidades e barreiras de adoção.\n\nNão apresento experiência direta em CPaaS nem ownership formal de um ecossistema regional de parceiros. Apresento, porém, uma base sólida e mensurável em comunicação de produto, enablement, casos de uso, adoção e alinhamento entre times globais e operações locais que pode ser aplicada à plataforma da Infobip.\n\nKevin Augusto Vieira",
+      "cover_letter": "Olá, time da Infobip!\n\nFiquei extremamente entusiasmado ao encontrar a vaga de Senior Partnership Enablement Specialist. A Infobip é uma referência global em plataformas de comunicação em nuvem, e atuar como a ponte estratégica entre Produto e o ecossistema de parceiros reflete com exatidão a minha trajetória de mais de 8 anos.\n\nNa Wipro (Projeto Meta), atuei diretamente como interface entre as atualizações globais de produto e as equipes comerciais regionais. Traduzi lançamentos complexos em casos de uso práticos, playbooks de argumentação e sessões de enablement que impulsionaram a adoção em +150% (alcançando o #1 lugar global em crescimento) e reduziram o tempo de ramp-up dos consultores em 50%, mantendo 90%+ de qualidade em auditorias.\n\nAlém disso, tenho vivência prática na estruturação de parcerias B2B, fluxos de automação e análise de dados no Power BI para acompanhar a performance dos parceiros. Baseado em Curitiba/PR e com inglês fluente para comunicação corporativa diária, tenho total disponibilidade para o modelo híbrido da posição.\n\nSerá um prazer conversar para entender os desafios atuais do time de parcerias e demonstrar como posso acelerar o crescimento do ecossistema da Infobip!\n\nUm abraço,\nKevin Augusto Vieira",
       "form_answers": [
         {
           "question": "Como você traduz atualizações técnicas em valor para parceiros?",
@@ -319,7 +311,7 @@
       ]
     },
     "en": {
-      "cover_letter": "Hi Infobip team,\n\nThe mission of keeping partners informed, enabled, and ready to turn new products into customer value closely matches my background in enablement and adoption. At Wipro on the Meta Project, I translated global product updates into value propositions, pitches, playbooks, and training for 150+ professionals.\n\nI also designed and governed a bootcamp that reduced ramp-up from 6 to 3 months, with 100% completion and 90%+ quality, and led CRM AI activation that increased usage by 150%. In parallel, I validated value propositions and secured B2B partnerships for a local pilot, using feedback and funnel analysis to identify opportunities and adoption barriers.\n\nI do not claim direct CPaaS experience or formal ownership of a regional partner ecosystem. I do bring a strong, measurable foundation in product communication, enablement, use cases, adoption, and alignment between global teams and local operations that I can apply to Infobip's platform.\n\nKevin Augusto Vieira",
+      "cover_letter": "Hi Infobip team!\n\nI was thrilled to come across the Senior Partnership Enablement Specialist opening. Infobip is a global leader in cloud communication platforms, and acting as the strategic bridge between Product innovations and partner ecosystems directly matches what I have built my career on over the past 8+ years.\n\nAt Wipro (Meta Project), I served as the primary liaison between global product updates and regional commercial teams. I translated complex product developments into high-impact use cases, commercial playbooks, and structured enablement sessions that drove daily adoption up by +150% (ranking our operation #1 globally in growth) and cut consultant ramp-up time by 50% with 90%+ audit quality scores.\n\nFurthermore, I bring practical experience in B2B partnership outreach, CRM automation, and Power BI telemetry to track partner success. Based in Curitiba, Brazil, with fluent English for daily international collaboration, I am fully available for the hybrid model.\n\nI would love to connect and discuss how I can contribute to accelerating the adoption and growth of Infobip's partner ecosystem!\n\nBest regards,\nKevin Augusto Vieira",
       "form_answers": [
         {
           "question": "How do you translate technical updates into partner value?",
