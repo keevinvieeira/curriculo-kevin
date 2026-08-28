@@ -437,7 +437,7 @@
         <aside id="detail-panel" aria-live="polite">
             <div class="detail-header">
                 <div class="detail-header-left">
-                    <button id="detail-back" type="button" aria-label="Voltar" title="Voltar ao item anterior">
+                    <button id="detail-back" type="button" aria-label="Voltar" title="Voltar ao item anterior" onclick="navigateBack()">
                         <span class="back-icon">←</span> <span id="detail-back-text" data-i18n="back">Voltar</span>
                     </button>
                     <h3 id="detail-title"></h3>
@@ -543,13 +543,15 @@
             if (!backBtn) return;
             if (navigationHistory.length > 0) {
                 backBtn.classList.add('visible');
+                backBtn.style.display = 'inline-flex';
                 const last = navigationHistory[navigationHistory.length - 1];
-                const prevTitle = last.title ? ` (${last.title})` : '';
+                const prevTitle = last && last.title ? ` (${last.title})` : '';
                 backBtn.setAttribute('title', (currentLanguage === 'pt' ? 'Voltar para' : 'Back to') + prevTitle);
                 const labelElem = document.getElementById('detail-back-text');
                 if (labelElem) labelElem.textContent = t('back');
             } else {
                 backBtn.classList.remove('visible');
+                backBtn.style.display = 'none';
             }
         }
 
@@ -560,7 +562,7 @@
                     return;
                 }
                 navigationHistory.push(currentViewState);
-                if (navigationHistory.length > 40) navigationHistory.shift();
+                if (navigationHistory.length > 50) navigationHistory.shift();
             }
             currentViewState = state;
             updateBackButton();
@@ -588,6 +590,8 @@
                 } else if (prevState.action === 'fullView') {
                     resetFullView(false);
                 }
+            } catch (err) {
+                console.error('Error in navigateBack:', err);
             } finally {
                 isNavigatingHistory = false;
                 updateBackButton();
@@ -836,10 +840,23 @@
 
         function bindEvents() {
             window.addEventListener('resize', onWindowResize);
-            window.addEventListener('keydown', event => { if (event.key === 'Escape') resetFullView(); });
+            window.addEventListener('keydown', event => {
+                if (event.key === 'Escape') resetFullView();
+                if ((event.altKey && event.key === 'ArrowLeft') || (event.key === 'Backspace' && !['INPUT', 'TEXTAREA'].includes(document.activeElement?.tagName))) {
+                    navigateBack();
+                }
+            });
             renderer.domElement.addEventListener('click', onClick);
             renderer.domElement.addEventListener('dblclick', onDoubleClick);
-            document.getElementById('detail-close').addEventListener('click', resetFullView);
+            document.getElementById('detail-close').addEventListener('click', () => resetFullView());
+            const backBtn = document.getElementById('detail-back');
+            if (backBtn) {
+                backBtn.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    navigateBack();
+                });
+            }
             document.getElementById('fullscreen-btn').addEventListener('click', toggleFullscreen);
             document.addEventListener('fullscreenchange', () => {
                 updateFullscreenButton();
