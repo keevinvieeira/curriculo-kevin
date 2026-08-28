@@ -785,15 +785,21 @@
                     glow.userData = { isGlow: true, baseOpacity: 0.34 };
                     mesh.add(glow);
                 }
-                if (node.type === 'Candidate' || node.type === 'Company' || node.type === 'Skill') {
-                    const labelColor = node.type === 'Candidate' ? '#ffffff' : node.type === 'Skill' ? node.color : '#bfdbfe';
-                    const label = createTextSprite(nodeLabel(node), labelColor);
-                    label.position.set(0, size * 0.55, 0);
-                    label.visible = node.type !== 'Skill';
-                    label.userData.isNodeLabel = true;
-                    mesh.add(label);
-                    mesh.userData.labelSprite = label;
-                }
+                const labelColorMap = {
+                    Candidate: '#ffffff',
+                    Company: '#60a5fa',
+                    Role: '#a78bfa',
+                    Function: '#22d3ee',
+                    Metric: '#fbbf24',
+                    Skill: node.color || '#38bdf8'
+                };
+                const labelColor = labelColorMap[node.type] || '#bfdbfe';
+                const label = createTextSprite(nodeLabel(node), labelColor);
+                label.position.set(0, size * 0.55, 0);
+                label.visible = node.type === 'Candidate' || node.type === 'Company';
+                label.userData.isNodeLabel = true;
+                mesh.add(label);
+                mesh.userData.labelSprite = label;
 
                 scene.add(mesh);
                 nodes3D.push(mesh);
@@ -886,16 +892,22 @@
             return sprite;
         }
 
-        function setNodeAppearance(mesh, opacity, scale, showSkillLabel = false) {
+        function setNodeAppearance(mesh, opacity, scale, showLabel = null) {
             mesh.material.opacity = opacity;
             mesh.scale.setScalar(scale);
             mesh.children.forEach(child => {
                 if (child.userData.isNodeLabel) {
-                    if (mesh.userData.type === 'Skill') {
-                        child.visible = showSkillLabel;
-                        child.material.opacity = showSkillLabel ? 1 : 0;
+                    if (showLabel !== null && showLabel !== undefined) {
+                        child.visible = Boolean(showLabel);
+                        child.material.opacity = showLabel ? Math.max(0.2, opacity) : 0;
                     } else {
-                        child.material.opacity = Math.max(0.08, opacity);
+                        if (mesh.userData.type === 'Candidate' || mesh.userData.type === 'Company') {
+                            child.visible = opacity > 0.05;
+                            child.material.opacity = Math.max(0.08, opacity);
+                        } else {
+                            child.visible = opacity >= 0.8;
+                            child.material.opacity = opacity;
+                        }
                     }
                 } else if (child.userData.isGlow) {
                     child.material.opacity = child.userData.baseOpacity * Math.max(0.08, opacity);
@@ -905,7 +917,7 @@
 
         function replaceTextSprite(mesh, text, color) {
             const oldSprite = mesh.userData.labelSprite;
-            const wasVisible = oldSprite?.visible ?? true;
+            const wasVisible = oldSprite?.visible ?? (mesh.userData.type === 'Candidate' || mesh.userData.type === 'Company');
             if (oldSprite) mesh.remove(oldSprite);
             const sprite = createTextSprite(text, color);
             sprite.position.set(0, (mesh.userData.size || 1) * 0.55, 0);
@@ -965,9 +977,15 @@
             });
             nodes3D.forEach(mesh => {
                 if (!mesh.userData.labelSprite) return;
-                const color = mesh.userData.type === 'Candidate'
-                    ? '#ffffff'
-                    : mesh.userData.type === 'Skill' ? mesh.userData.color : '#bfdbfe';
+                const labelColorMap = {
+                    Candidate: '#ffffff',
+                    Company: '#60a5fa',
+                    Role: '#a78bfa',
+                    Function: '#22d3ee',
+                    Metric: '#fbbf24',
+                    Skill: mesh.userData.color || '#38bdf8'
+                };
+                const color = labelColorMap[mesh.userData.type] || '#bfdbfe';
                 replaceTextSprite(mesh, nodeLabel(mesh.userData), color);
             });
             buildCompanyFilters();
@@ -1103,7 +1121,7 @@
             nodes3D.forEach(mesh => {
                 const primary = primaryIds.has(mesh.userData.id);
                 const connected = connectedIds.has(mesh.userData.id);
-                setNodeAppearance(mesh, primary ? 1 : connected ? 0.65 : 0.035, primary ? 1.4 : connected ? 1.08 : 0.78, false);
+                setNodeAppearance(mesh, primary ? 1 : connected ? 0.65 : 0.035, primary ? 1.4 : connected ? 1.08 : 0.78, primary);
             });
             const relatedKeys = new Set(relatedEdges.map(edge => `${edge.source}:${edge.target}:${edge.type}`));
             edges3D.forEach(line => {
@@ -1480,7 +1498,7 @@
             nodes3D.forEach(mesh => {
                 const selected = mesh.userData.id === node.id;
                 const related = relatedIds.has(mesh.userData.id);
-                setNodeAppearance(mesh, selected ? 1 : related ? 0.68 : 0.025, selected ? 1.55 : related ? 1.08 : 0.76, false);
+                setNodeAppearance(mesh, selected ? 1 : related ? 0.68 : 0.025, selected ? 1.55 : related ? 1.08 : 0.76, selected || (related && mesh.userData.type === 'Role'));
             });
             edges3D.forEach(line => {
                 const related = relatedIds.has(line.userData.source) && relatedIds.has(line.userData.target);
