@@ -302,6 +302,15 @@ if st.sidebar.button("🔄 Atualizar currículo", use_container_width=True):
             
     st.rerun()
 
+# 3D Portfolio Link Button in Sidebar
+st.sidebar.markdown("""
+    <div style='margin-top: 10px; margin-bottom: 8px;'>
+        <a href='https://keevinvieeira.github.io/curriculo-kevin/' target='_blank' style='display:flex; align-items:center; justify-content:center; gap:8px; width:100%; padding:10px 14px; background:linear-gradient(135deg, #0f172a, #1e293b); color:#38bdf8; border:1px solid #38bdf8; border-radius:8px; text-decoration:none; font-weight:700; font-size:0.9rem; box-shadow:0 2px 4px rgba(0,0,0,0.08);'>
+            🌐 Abrir Cérebro 3D ↗
+        </a>
+    </div>
+""", unsafe_allow_html=True)
+
 st.sidebar.markdown("---")
 if _source_label == "Currículo mestre (fonte única de verdade)":
     st.sidebar.success(
@@ -772,8 +781,18 @@ with tab_tracker:
 # TAB 3: BRAIN VISUALIZER
 # ====================
 with tab_brain:
-    st.subheader("🧠 Visualizador Neural do Cérebro Profissional")
-    st.write("Navegue no seu Knowledge Graph interativo. Veja como suas experiências, skills e tools se conectam. Selecione uma vaga para destacar os caminhos neurais relevantes.")
+    col_tb1, col_tb2 = st.columns([3, 1])
+    with col_tb1:
+        st.subheader("🧠 Visualizador Neural do Cérebro Profissional")
+        st.write("Navegue no seu Knowledge Graph interativo. Veja como suas experiências, skills e tools se conectam.")
+    with col_tb2:
+        st.markdown("""
+            <div style='text-align: right; padding-top: 10px;'>
+                <a href='https://keevinvieeira.github.io/curriculo-kevin/' target='_blank' style='display:inline-flex; align-items:center; gap:6px; padding:8px 16px; background:#2563eb; color:#ffffff; border-radius:6px; text-decoration:none; font-weight:600; font-size:0.88rem; box-shadow: 0 2px 4px rgba(37,99,235,0.2);'>
+                    🔗 Abrir em Nova Aba ↗
+                </a>
+            </div>
+        """, unsafe_allow_html=True)
     
     # Load graph for visualization
     brain_graph_path = GRAPH_SOURCE_PATH
