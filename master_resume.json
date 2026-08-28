@@ -42,6 +42,83 @@
   ],
   "work_experience": [
     {
+      "company": "AI Builder — Projetos de Produtos",
+      "location": {
+        "pt": "Curitiba, PR",
+        "en": "Curitiba, PR, Brazil"
+      },
+      "roles": [
+        {
+          "title": {
+            "pt": "Líder de Produto & Arquiteto de Sistemas com IA",
+            "en": "AI Product Lead & Systems Architect"
+          },
+          "dates": {
+            "pt": "Janeiro 2026 – Presente",
+            "en": "January 2026 – Present"
+          }
+        }
+      ],
+      "bullets": [
+        {
+          "tags": [
+            "product_discovery",
+            "product_strategy",
+            "zero_to_one",
+            "methodology",
+            "prd"
+          ],
+          "pt": "Bússola da Rotina — Concepção de Produto e Metodologia 0→1: Idealizou e liderou de ponta a ponta a criação do Web App de produtividade e ergonomia mental, estruturando a Metodologia Bússola baseada em Timeblocking, limites de Work-in-Progress (WIP) e balanceamento de carga cognitiva, com PRD e roadmap completos.",
+          "en": "Bússola da Rotina — 0-to-1 Product Discovery & Methodology: Conceived and led end-to-end the productivity and mental ergonomics Web App, designing the proprietary Bússola Methodology combining Timeblocking, WIP limits, and cognitive load balancing with complete PRD and roadmap."
+        },
+        {
+          "tags": [
+            "ai",
+            "ai_implementation",
+            "prompt_engineering",
+            "automation",
+            "rapid_prototyping"
+          ],
+          "pt": "Bússola da Rotina — AI Tech Leadership & Desenvolvimento Acelerado (+10x): Atuou como Tech Lead orquestrando agentes inteligentes de IA (Antigravity/Claude) como desenvolvedores operacionais de código, construindo uma SPA completa com 5.700+ linhas com ganho de velocidade de 10x e redução de custo de desenvolvimento superior a 95%.",
+          "en": "Bússola da Rotina — AI Tech Leadership & Accelerated Engineering (+10x): Acted as Tech Lead orchestrating intelligent AI agents as operational pair programmers, building a complete 5,700+ line SPA with 10x delivery speedup and over 95% engineering cost savings."
+        },
+        {
+          "tags": [
+            "database",
+            "realtime_data",
+            "quality_assurance",
+            "root_cause_analysis",
+            "controls"
+          ],
+          "pt": "Bússola da Rotina — Arquitetura de Dados em Tempo Real e Resolução de Concorrência: Parametrizou a infraestrutura no Firebase (Firestore NoSQL e Auth) e diagnosticou falhas complexas de concorrência (race conditions entre escritas otimistas locais e snapshots remotos via hasPendingWrites), garantindo 100% de estabilidade de dados.",
+          "en": "Bússola da Rotina — Real-Time Data Architecture & Concurrency Resolution: Configured cloud infrastructure on Firebase (Firestore NoSQL & Auth) and diagnosed complex concurrency edge cases (race conditions between optimistic local writes and remote snapshots via hasPendingWrites), ensuring 100% data integrity."
+        },
+        {
+          "tags": [
+            "ux_ui",
+            "ux",
+            "frictionless_ux",
+            "analytics",
+            "uat"
+          ],
+          "pt": "Bússola da Rotina — Decisões de UX Anti-Atrito, Analytics e UAT: Projetou a aba de Analytics com telemetria de hábitos e tomou decisões críticas de UX para eliminação de atrito (remoção consciente de drag-and-drop em favor de seletores precisos), conduzindo testes reais de aceitação do usuário (UAT).",
+          "en": "Bússola da Rotina — Frictionless UX Decisions, Analytics & UAT: Designed the Analytics dashboard for habit telemetry and made critical frictionless UX decisions (deliberately eliminating drag-and-drop in favor of deterministic controls), conducting hands-on user acceptance testing (UAT)."
+        },
+        {
+          "tags": [
+            "ai",
+            "chatbots",
+            "automation",
+            "web_scraping",
+            "b2b",
+            "growth"
+          ],
+          "pt": "Meu Barzin — Arquitetura RAG, Automações e Validação de Demanda: Desenvolveu assistente inteligente de busca de experiências via IA e RAG integrado ao WhatsApp (n8n/Supabase), mapeou 200 estabelecimentos via Web Scraping e captou 505 leads qualificados de topo de funil com 22,3% de engajamento.",
+          "en": "Meu Barzin — RAG Architecture, Automations & Demand Validation: Built an intelligent AI-powered venue discovery assistant with RAG over WhatsApp (n8n/Supabase), scraped 200 venues, and captured 505 qualified top-of-funnel leads with a 22.3% high-engagement rate."
+        }
+      ]
+    },
+    {
       "company": "Wipro",
       "project": "Meta",
       "location": {
@@ -205,92 +282,6 @@
           ],
           "pt": "Segurança e Governança de Dados: Participou ativamente da estruturação do Plano de Continuidade de Negócios (BCP) e elaborou manuais de governança sobre políticas de compartilhamento de dados externos em ambiente de alta restrição. Recebeu capacitações contínuas de Wipro/Meta em segurança da informação (phishing, engenharia social, tailgating e compliance).",
           "en": "Data Security & Compliance Governance: Contributed to the development of the Business Continuity Plan (BCP) and drafted internal governance manuals detailing data sharing limits under highly restricted settings. Trained extensively by Wipro/Meta in policy compliance and information security (anti-phishing, social engineering prevention, and physical security)."
-        }
-      ]
-    },
-    {
-      "company": "Meu Barzin (Startup)",
-      "location": {
-        "pt": "Curitiba, PR",
-        "en": "Curitiba, Brazil"
-      },
-      "roles": [
-        {
-          "title": {
-            "pt": "Co-Founder & Product Manager",
-            "en": "Co-Founder & Product Manager"
-          },
-          "dates": {
-            "pt": "Dezembro 2025 – Março 2026",
-            "en": "December 2025 – March 2026"
-          }
-        }
-      ],
-      "bullets": [
-        {
-          "tags": [
-            "product_strategy",
-            "monetization",
-            "business_model"
-          ],
-          "pt": "Concepção do MVP: Idealizou o ecossistema conversacional no WhatsApp integrado ao 'Meu Barzin Pass' (assinatura mensal de R$ 19,90 com benefício 'Compre 1, Leve 2' em bares locais), desenhando o modelo de negócios e validando a monetização com parceiros B2B.",
-          "en": "MVP Conception: Conceptualized the conversational WhatsApp ecosystem integrated with 'Meu Barzin Pass' (R$19.90 monthly subscription with buy-one-get-one deals at local bars), designing the monetization business model and validating B2B partnership value."
-        },
-        {
-          "tags": [
-            "product_architecture",
-            "ux",
-            "ai",
-            "automation"
-          ],
-          "pt": "Arquitetura Conversacional e UX: Desenhou fluxos conversacionais inteligentes via ManyChat e n8n, integrando RAG e regras de 'Alucinação Zero' para que o agente (mascote Capizin, Sommelier de Bares) fizesse buscas ricas de bares locais sem inventar dados.",
-          "en": "Conversational Architecture & UX: Designed intelligent conversation flows via ManyChat and n8n, integrating RAG and 'Zero Hallucination' rules to enable the AI agent (mascot Capizin, Bar Sommelier) to search and recommend venues without errors."
-        },
-        {
-          "tags": [
-            "data_strategy",
-            "web_scraping",
-            "supabase"
-          ],
-          "pt": "Varredura e Tratamento de Dados: Mapeou, extraiu e higienizou dados de quase 200 bares de Curitiba via Web Scraping para criar um banco de dados de RAG confiável no Supabase hospedado em VPS.",
-          "en": "Data Scraping & Cleansing: Mapped, extracted, and cleansed data from nearly 200 bars in Curitiba via web scraping to build a reliable RAG database in Supabase hosted over a VPS."
-        },
-        {
-          "tags": [
-            "sql",
-            "postgresql",
-            "crm",
-            "nocodb",
-            "supabase"
-          ],
-          "pt": "Bancos de Dados e CRM: Estruturou bases e protótipos de CRM utilizando Supabase/PostgreSQL e NocoDB, trabalhando com modelagem, organização e exploração de dados para apoiar operações e produtos digitais.",
-          "en": "Databases and CRM: Built database structures and CRM prototypes using Supabase/PostgreSQL and NocoDB, working with data modeling, organization, and exploration to support digital products and operations."
-        },
-        {
-          "tags": [
-            "growth",
-            "funnel",
-            "metrics"
-          ],
-          "pt": "Geração de Demanda e Métricas: Captou 505 leads qualificados de topo de funil com campanhas orgânicas e anúncios (além de crescer o Instagram para 2.000+ seguidores), alcançando uma taxa de 22,3% de usuários altamente engajados (conversando 4+ vezes com a IA).",
-          "en": "Demand Gen & Metrics: Captured 505 qualified top-of-funil leads via organic and paid campaigns (growing Instagram to 2,000+ followers), achieving a 22.3% high-engagement rate (users interacting 4+ times with the AI)."
-        },
-        {
-          "tags": [
-            "business_development",
-            "sales",
-            "b2b"
-          ],
-          "pt": "Desenvolvimento de Negócios B2B: Liderou a prospecção direta de bares de grande relevância em Curitiba, assinando parcerias de peso para o piloto de benefícios (como o Gal Gastrobar e o Officina).",
-          "en": "B2B Business Development: Led direct sales outreach and partner pitching, securing critical pilot partnerships with top Curitiba venues like Gal Gastrobar and Officina."
-        },
-        {
-          "tags": [
-            "discovery",
-            "cro"
-          ],
-          "pt": "Mapeamento de Gargalos de Conversão: Conduziu entrevistas qualitativas e mapeamentos de funil que identificaram que a falta de liquidez de parceiros na oferta e atritos de latência de API (43,9% de drop na primeira mensagem) eram os principais impeditivos para a conversão de assinaturas.",
-          "en": "Conversion Bottleneck Mapping: Conducted qualitative user interviews and funnel mappings that revealed that lack of merchant partner density (supply liquidity) and API processing latency (43.9% first-message dropout) were the primary conversion barriers for subscription growth."
         }
       ]
     },

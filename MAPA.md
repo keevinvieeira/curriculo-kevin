@@ -21,9 +21,24 @@
 
 ---
 
-## 💼 EXPERIÊNCIA PROFISSIONAL (6 empresas)
+### 1. AI Builder — Projetos de Produtos — Jan 2026 a Presente
+**Cargo:** Líder de Produto & Arquiteto de Sistemas com IA (AI Product Lead & Systems Architect)
 
-### 1. Wipro (Projeto Meta) — Set 2024 a Jul 2026
+**Produtos Autorais:**
+* **Bússola da Rotina (Web App de Produtividade & Carga Cognitiva):**
+  - Concepção 0→1 da Metodologia Bússola (Timeblocking, limites de WIP, balanceamento cognitivo).
+  - AI Tech Leadership & Vibe Coding (+10x velocidade de desenvolvimento, SPA de 5.700+ linhas, economia >95% em custos).
+  - Arquitetura de dados em tempo real no Firebase (Firestore/Auth) e diagnóstico de race conditions (`hasPendingWrites`).
+  - Decisões de UX anti-atrito, dashboard de Analytics e testes UAT de aceitação.
+* **Meu Barzin (Startup / Marketplace com IA & RAG):**
+  - Assistente inteligente de bares no WhatsApp via RAG (n8n/Supabase) e Web Scraping de 200 bares.
+  - 505 leads qualificados capturados com 22,3% de alto engajamento e parcerias B2B.
+
+**Skills demonstradas:** Product Discovery 0→1, PRD & Requirements Architecture, AI Tech Lead, Context Anchoring, Prompting Diagnóstico, Frictionless UX, Cognitive Load Design, Race Conditions Diagnosis, Realtime Data, UAT, Firebase Firestore, Cloudflare Workers, n8n, Supabase.
+
+---
+
+### 2. Wipro (Projeto Meta) — Set 2024 a Jul 2026
 **Cargo:** Especialista em Operações de Marketing / GTM e Sales Enablement (Projeto Meta)
 
 **Métricas reais:**
@@ -35,20 +50,6 @@
 - 90% CSAT dos consultores
 
 **Skills demonstradas:** Sales Enablement, AI Implementation, CRM, Training, Root Cause Analysis, Playbooks, Agile Governance, OKRs, Power BI, Data Security, LGPD
-
----
-
-### 2. Meu Barzin (Startup) — Dez 2025 a Mar 2026
-**Cargo:** Co-Founder & Product Manager
-
-**Métricas reais:**
-- 505 leads qualificados capturados
-- 2.000+ seguidores no Instagram
-- 22,3% taxa de engajamento (usuários interagindo 4+ vezes com IA)
-- Mapeou quase 200 bares via Web Scraping
-- Identificou 43,9% de drop na primeira mensagem (latência de API)
-
-**Skills demonstradas:** Product Strategy, RAG Architecture, n8n, ManyChat, Supabase, PostgreSQL, NocoDB, Web Scraping, B2B Sales, Growth Funnel, CRO
 
 ---
 

@@ -28,9 +28,9 @@ CATEGORIES = {
 
 CATEGORY_TAGS = {
     "product": {
-        "business_model", "business_models", "discovery", "e_commerce", "experimentation",
-        "learning", "monetization", "pricing", "product_architecture", "product_feedback",
-        "product_strategy", "ux", "ux_ui", "voice_of_customer", "web_design", "web_development",
+        "business_model", "business_models", "discovery", "product_discovery", "e_commerce", "experimentation",
+        "learning", "monetization", "pricing", "prd", "product_architecture", "product_feedback",
+        "product_strategy", "ux", "ux_ui", "frictionless_ux", "voice_of_customer", "web_design", "web_development",
         "zero_to_one",
     },
     "growth": {
@@ -39,10 +39,10 @@ CATEGORY_TAGS = {
         "inbound", "infoproduct", "lead_generation", "marketing", "narratives", "paid_media",
         "seo", "social_media", "tripwire", "volume",
     },
-    "ai": {"ai", "ai_implementation", "automation", "chatbots", "prompt_engineering"},
+    "ai": {"ai", "ai_implementation", "automation", "chatbots", "prompt_engineering", "rapid_prototyping"},
     "data": {
-        "analytics", "data", "data_strategy", "metrics", "nocodb", "postgresql", "power_bi",
-        "revenue_analytics", "roi", "sql", "supabase", "tracking", "web_scraping",
+        "analytics", "data", "data_strategy", "database", "metrics", "nocodb", "postgresql", "power_bi",
+        "realtime_data", "revenue_analytics", "roi", "sql", "supabase", "tracking", "web_scraping",
     },
     "sales": {
         "b2b", "business_development", "client_consulting", "coaching", "crm", "crm_enablement", "high_ticket",
@@ -51,7 +51,7 @@ CATEGORY_TAGS = {
     },
     "quality": {
         "bcp", "compliance", "documentation", "governance", "legal_research", "lgpd",
-        "quality_assurance", "root_cause_analysis", "security", "technical_writing",
+        "quality_assurance", "root_cause_analysis", "security", "technical_writing", "uat",
     },
     "facilitation": {
         "art_of_hosting", "collective_intelligence", "community", "community_management",
@@ -99,6 +99,9 @@ PT_SKILLS = {
     "sales_enablement": "Sales Enablement", "security": "Segurança", "seo": "SEO",
     "social_innovation": "Inovação Social", "social_media": "Mídias Sociais", "sql": "SQL",
     "squad": "Squad", "supabase": "Supabase", "support": "Suporte",
+    "prd": "Arquitetura de Requisitos / PRD", "product_discovery": "Product Discovery",
+    "rapid_prototyping": "Prototipação Acelerada", "realtime_data": "Dados em Tempo Real",
+    "database": "Banco de Dados", "frictionless_ux": "Design Anti-Atrito", "uat": "Testes de Aceitação (UAT)",
     "technical_reference": "Referência Técnica", "thinking_environment": "Thinking Environment",
     "technical_writing": "Redação Técnica",
     "timeline": "Cronograma", "tracking": "Rastreamento", "training": "Treinamento",
@@ -113,6 +116,9 @@ EN_OVERRIDES = {
     "e_commerce": "E-commerce", "e_learning": "E-learning", "email_marketing": "Email Marketing",
     "high_ticket": "High Ticket", "lgpd": "LGPD", "nocodb": "NocoDB", "okr": "OKRs",
     "ops": "Operations", "pmo": "PMO", "postgresql": "PostgreSQL", "power_bi": "Power BI",
+    "prd": "PRD & Requirements Architecture", "product_discovery": "Product Discovery",
+    "rapid_prototyping": "Rapid Prototyping", "realtime_data": "Real-Time Data Architecture",
+    "database": "Database Architecture", "frictionless_ux": "Frictionless UX Design", "uat": "User Acceptance Testing (UAT)",
     "prompt_engineering": "Prompt Engineering", "roi": "ROI", "seo": "SEO", "sql": "SQL",
     "supabase": "Supabase", "ux": "User Experience", "ux_ui": "UX/UI", "web_scraping": "Web Scraping",
     "voice_of_customer": "Voice of Customer", "zero_to_one": "0-to-1 Building",
