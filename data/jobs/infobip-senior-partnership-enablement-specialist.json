@@ -7,10 +7,16 @@
     "fit_score": 84,
     "salary_expectation": "Faixa não divulgada; expectativa de R$ 15.000 a R$ 22.000/mês para contratação no Brasil, sujeita ao pacote total",
     "document_language": "en",
-    "available_languages": ["pt", "en"],
+    "available_languages": [
+      "pt",
+      "en"
+    ],
     "location": "Curitiba, PR | Híbrido",
     "employment_type": "Tempo integral",
-    "source_files": ["master_resume.json", "LinkedIn job posting 4450345106"],
+    "source_files": [
+      "master_resume.json",
+      "LinkedIn job posting 4450345106"
+    ],
     "good_points": [
       "Enablement, adoção e posicionamento de produtos no Projeto Meta, incluindo materiais e capacitação para mais de 150 profissionais.",
       "Experiência em traduzir atualizações de produto em propostas de valor, pitches, playbooks, scripts e insights acionáveis.",
@@ -91,22 +97,75 @@
         }
       ],
       "skills": [
-        {"category": "Partnership Enablement e GTM", "skills": ["Enablement e adoção de produtos", "Propostas de valor, pitches e casos de uso", "Playbooks, scripts e materiais comerciais", "Briefings, treinamentos e facilitação", "Parcerias B2B e gestão de stakeholders"]},
-        {"category": "Operações e Dados", "skills": ["Análise de causa raiz", "Power BI e Excel", "Métricas de adoção, qualidade e conversão", "OKRs, roadmap e backlog", "Documentação e planos de ação"]},
-        {"category": "CRM e Automação", "skills": ["CRMs Proprietários Meta", "HubSpot e Salesforce em nível de usuário", "n8n, Make, APIs e webhooks", "Supabase/PostgreSQL", "IA aplicada a workflows"]}
+        {
+          "category": "Partnership Enablement e GTM",
+          "skills": [
+            "Enablement e adoção de produtos",
+            "Propostas de valor, pitches e casos de uso",
+            "Playbooks, scripts e materiais comerciais",
+            "Briefings, treinamentos e facilitação",
+            "Parcerias B2B e gestão de stakeholders"
+          ]
+        },
+        {
+          "category": "Operações e Dados",
+          "skills": [
+            "Análise de causa raiz",
+            "Power BI e Excel",
+            "Métricas de adoção, qualidade e conversão",
+            "OKRs, roadmap e backlog",
+            "Documentação e planos de ação"
+          ]
+        },
+        {
+          "category": "CRM e Automação",
+          "skills": [
+            "CRMs Proprietários Meta",
+            "HubSpot e Salesforce em nível de usuário",
+            "n8n, Make, APIs e webhooks",
+            "Supabase/PostgreSQL",
+            "IA aplicada a workflows"
+          ]
+        }
       ],
       "education": [
-        {"institution": "Universidade Federal do Paraná (UFPR)", "degree": "Bacharelado e Licenciatura em Filosofia", "dates": "2018 – 2023"},
-        {"institution": "Recanto da Filosofia Clínica", "degree": "Especialização em Filosofia Clínica", "dates": "Janeiro 2023 – Dezembro 2024"}
+        {
+          "institution": "Universidade Federal do Paraná (UFPR)",
+          "degree": "Bacharelado e Licenciatura em Filosofia",
+          "dates": "2018 – 2023"
+        },
+        {
+          "institution": "Recanto da Filosofia Clínica",
+          "degree": "Especialização em Filosofia Clínica",
+          "dates": "Janeiro 2023 – Dezembro 2024"
+        }
       ],
       "certifications": [
-        {"name": "Google Project Management Professional Certificate", "issuer": "Coursera / Google", "status": "Em andamento"},
-        {"name": "Meta Certified Media Planning Professional", "issuer": "Meta", "status": "Ativo"},
-        {"name": "Meta Certified Digital Marketing Associate", "issuer": "Meta", "status": "Ativo"}
+        {
+          "name": "Google Project Management Professional Certificate",
+          "issuer": "Coursera / Google",
+          "status": "Em andamento"
+        },
+        {
+          "name": "Meta Certified Media Planning Professional",
+          "issuer": "Meta",
+          "status": "Ativo"
+        },
+        {
+          "name": "Meta Certified Digital Marketing Associate",
+          "issuer": "Meta",
+          "status": "Ativo"
+        }
       ],
       "languages": [
-        {"language": "Inglês", "proficiency": "Avançado / Profissional; uso diário corporativo para relatórios, coordenação internacional e alinhamento de stakeholders"},
-        {"language": "Português", "proficiency": "Nativo"}
+        {
+          "language": "Inglês",
+          "proficiency": "Avançado / Profissional; uso diário corporativo para relatórios, coordenação internacional e alinhamento de stakeholders"
+        },
+        {
+          "language": "Português",
+          "proficiency": "Nativo"
+        }
       ],
       "additional_information": []
     },
@@ -164,22 +223,75 @@
         }
       ],
       "skills": [
-        {"category": "Partnership Enablement and GTM", "skills": ["Product enablement and adoption", "Value propositions, pitches, and use cases", "Playbooks, scripts, and sales assets", "Briefings, training, and facilitation", "B2B partnerships and stakeholder management"]},
-        {"category": "Operations and Data", "skills": ["Root cause analysis", "Power BI and Excel", "Adoption, quality, and conversion metrics", "OKRs, roadmap, and backlog", "Documentation and action plans"]},
-        {"category": "CRM and Automation", "skills": ["Meta Proprietary CRMs", "HubSpot and Salesforce as an end user", "n8n, Make, APIs, and webhooks", "Supabase/PostgreSQL", "AI-enabled workflows"]}
+        {
+          "category": "Partnership Enablement and GTM",
+          "skills": [
+            "Product enablement and adoption",
+            "Value propositions, pitches, and use cases",
+            "Playbooks, scripts, and sales assets",
+            "Briefings, training, and facilitation",
+            "B2B partnerships and stakeholder management"
+          ]
+        },
+        {
+          "category": "Operations and Data",
+          "skills": [
+            "Root cause analysis",
+            "Power BI and Excel",
+            "Adoption, quality, and conversion metrics",
+            "OKRs, roadmap, and backlog",
+            "Documentation and action plans"
+          ]
+        },
+        {
+          "category": "CRM and Automation",
+          "skills": [
+            "Meta Proprietary CRMs",
+            "HubSpot and Salesforce as an end user",
+            "n8n, Make, APIs, and webhooks",
+            "Supabase/PostgreSQL",
+            "AI-enabled workflows"
+          ]
+        }
       ],
       "education": [
-        {"institution": "Universidade Federal do Paraná (UFPR)", "degree": "Bachelor's Degree and Licentiate in Philosophy", "dates": "2018 – 2023"},
-        {"institution": "Recanto da Filosofia Clínica", "degree": "Specialization in Clinical Philosophy", "dates": "January 2023 – December 2024"}
+        {
+          "institution": "Universidade Federal do Paraná (UFPR)",
+          "degree": "Bachelor's Degree and Licentiate in Philosophy",
+          "dates": "2018 – 2023"
+        },
+        {
+          "institution": "Recanto da Filosofia Clínica",
+          "degree": "Specialization in Clinical Philosophy",
+          "dates": "January 2023 – December 2024"
+        }
       ],
       "certifications": [
-        {"name": "Google Project Management Professional Certificate", "issuer": "Coursera / Google", "status": "In progress"},
-        {"name": "Meta Certified Media Planning Professional", "issuer": "Meta", "status": "Active"},
-        {"name": "Meta Certified Digital Marketing Associate", "issuer": "Meta", "status": "Active"}
+        {
+          "name": "Google Project Management Professional Certificate",
+          "issuer": "Coursera / Google",
+          "status": "In progress"
+        },
+        {
+          "name": "Meta Certified Media Planning Professional",
+          "issuer": "Meta",
+          "status": "Active"
+        },
+        {
+          "name": "Meta Certified Digital Marketing Associate",
+          "issuer": "Meta",
+          "status": "Active"
+        }
       ],
       "languages": [
-        {"language": "English", "proficiency": "Advanced / Professional Full Proficiency; daily corporate use for reporting, international coordination, and stakeholder alignment"},
-        {"language": "Portuguese", "proficiency": "Native"}
+        {
+          "language": "English",
+          "proficiency": "Advanced / Professional Full Proficiency; daily corporate use for reporting, international coordination, and stakeholder alignment"
+        },
+        {
+          "language": "Portuguese",
+          "proficiency": "Native"
+        }
       ],
       "additional_information": []
     }
@@ -188,26 +300,64 @@
     "pt": {
       "cover_letter": "Olá, time da Infobip!\n\nA missão de manter parceiros informados, capacitados e preparados para transformar novos produtos em valor para clientes conecta-se diretamente à minha experiência em enablement e adoção. No Projeto Meta da Wipro, traduzi atualizações globais de produto em propostas de valor, pitches, playbooks e treinamentos para mais de 150 profissionais.\n\nTambém idealizei e governei um bootcamp que reduziu o ramp-up de 6 para 3 meses, com 100% de conclusão e 90%+ de qualidade, e liderei a ativação de IA no CRM, elevando o uso em 150%. Em paralelo, validei propostas de valor e conquistei parcerias B2B para um piloto local, usando feedback e análise de funil para identificar oportunidades e barreiras de adoção.\n\nNão apresento experiência direta em CPaaS nem ownership formal de um ecossistema regional de parceiros. Apresento, porém, uma base sólida e mensurável em comunicação de produto, enablement, casos de uso, adoção e alinhamento entre times globais e operações locais que pode ser aplicada à plataforma da Infobip.\n\nKevin Augusto Vieira",
       "form_answers": [
-        {"question": "Como você traduz atualizações técnicas em valor para parceiros?", "answer": "Começo pelo objetivo de negócio, público, problema e resultado esperado. No Projeto Meta, absorvi materiais oficiais e converti atualizações de produto em propostas de valor, pitches, scripts, playbooks e treinamentos para 150+ profissionais. Valido clareza com feedback de calls, métricas de adoção e análise de causa raiz."},
-        {"question": "Conte sobre um programa de enablement que você liderou.", "answer": "Idealizei e governei o Next Level Bootcamp para 12 consultores, estruturando roadmap, backlog, materiais, critérios de qualidade e acompanhamento. O programa teve 100% de conclusão, 90%+ de qualidade e reduziu o ramp-up de 6 para 3 meses."},
-        {"question": "Qual é sua experiência com parceiros e ecossistemas?", "answer": "Tenho experiência direta em prospecção, negociação e validação de parcerias B2B no Meu Barzin, além de colaboração entre produto, qualidade e operações globais na Wipro. Não alego ownership formal e contínuo de um ecossistema regional de parceiros; essa é uma expansão natural da minha experiência transferível."},
-        {"question": "Qual é sua experiência com CPaaS?", "answer": "Não tenho experiência profissional direta documentada em CPaaS. Minha base transferível inclui enablement de produtos digitais, comunicação de releases, APIs e webhooks em automações, casos de uso, CRM e adoção. Abordaria o domínio com treinamento estruturado e parceria próxima com produto e especialistas técnicos."}
+        {
+          "question": "Como você traduz atualizações técnicas em valor para parceiros?",
+          "answer": "Começo pelo objetivo de negócio, público, problema e resultado esperado. No Projeto Meta, absorvi materiais oficiais e converti atualizações de produto em propostas de valor, pitches, scripts, playbooks e treinamentos para 150+ profissionais. Valido clareza com feedback de calls, métricas de adoção e análise de causa raiz."
+        },
+        {
+          "question": "Conte sobre um programa de enablement que você liderou.",
+          "answer": "Idealizei e governei o Next Level Bootcamp para 12 consultores, estruturando roadmap, backlog, materiais, critérios de qualidade e acompanhamento. O programa teve 100% de conclusão, 90%+ de qualidade e reduziu o ramp-up de 6 para 3 meses."
+        },
+        {
+          "question": "Qual é sua experiência com parceiros e ecossistemas?",
+          "answer": "Tenho experiência direta em prospecção, negociação e validação de parcerias B2B no Meu Barzin, além de colaboração entre produto, qualidade e operações globais na Wipro. Não alego ownership formal e contínuo de um ecossistema regional de parceiros; essa é uma expansão natural da minha experiência transferível."
+        },
+        {
+          "question": "Qual é sua experiência com CPaaS?",
+          "answer": "Não tenho experiência profissional direta documentada em CPaaS. Minha base transferível inclui enablement de produtos digitais, comunicação de releases, APIs e webhooks em automações, casos de uso, CRM e adoção. Abordaria o domínio com treinamento estruturado e parceria próxima com produto e especialistas técnicos."
+        }
       ]
     },
     "en": {
       "cover_letter": "Hi Infobip team,\n\nThe mission of keeping partners informed, enabled, and ready to turn new products into customer value closely matches my background in enablement and adoption. At Wipro on the Meta Project, I translated global product updates into value propositions, pitches, playbooks, and training for 150+ professionals.\n\nI also designed and governed a bootcamp that reduced ramp-up from 6 to 3 months, with 100% completion and 90%+ quality, and led CRM AI activation that increased usage by 150%. In parallel, I validated value propositions and secured B2B partnerships for a local pilot, using feedback and funnel analysis to identify opportunities and adoption barriers.\n\nI do not claim direct CPaaS experience or formal ownership of a regional partner ecosystem. I do bring a strong, measurable foundation in product communication, enablement, use cases, adoption, and alignment between global teams and local operations that I can apply to Infobip's platform.\n\nKevin Augusto Vieira",
       "form_answers": [
-        {"question": "How do you translate technical updates into partner value?", "answer": "I start with the business objective, audience, problem, and expected outcome. On the Meta Project, I absorbed official materials and converted product updates into value propositions, pitches, scripts, playbooks, and training for 150+ professionals. I validate clarity through call feedback, adoption metrics, and root cause analysis."},
-        {"question": "Tell us about an enablement program you led.", "answer": "I designed and governed the Next Level Bootcamp for 12 consultants, structuring its roadmap, backlog, materials, quality criteria, and follow-up. It achieved 100% completion, 90%+ quality, and reduced ramp-up from 6 to 3 months."},
-        {"question": "What is your experience with partners and ecosystems?", "answer": "I have direct experience in B2B outreach, negotiation, and partnership validation at Meu Barzin, plus cross-functional collaboration across product, quality, and global operations at Wipro. I do not claim formal, ongoing ownership of a regional partner ecosystem; that would be a natural extension of my transferable experience."},
-        {"question": "What is your CPaaS experience?", "answer": "I do not have documented direct professional CPaaS experience. My transferable foundation includes digital-product enablement, release communication, APIs and webhooks in automation, use cases, CRM, and adoption. I would build domain depth through structured training and close partnership with product and technical specialists."}
+        {
+          "question": "How do you translate technical updates into partner value?",
+          "answer": "I start with the business objective, audience, problem, and expected outcome. On the Meta Project, I absorbed official materials and converted product updates into value propositions, pitches, scripts, playbooks, and training for 150+ professionals. I validate clarity through call feedback, adoption metrics, and root cause analysis."
+        },
+        {
+          "question": "Tell us about an enablement program you led.",
+          "answer": "I designed and governed the Next Level Bootcamp for 12 consultants, structuring its roadmap, backlog, materials, quality criteria, and follow-up. It achieved 100% completion, 90%+ quality, and reduced ramp-up from 6 to 3 months."
+        },
+        {
+          "question": "What is your experience with partners and ecosystems?",
+          "answer": "I have direct experience in B2B outreach, negotiation, and partnership validation at Meu Barzin, plus cross-functional collaboration across product, quality, and global operations at Wipro. I do not claim formal, ongoing ownership of a regional partner ecosystem; that would be a natural extension of my transferable experience."
+        },
+        {
+          "question": "What is your CPaaS experience?",
+          "answer": "I do not have documented direct professional CPaaS experience. My transferable foundation includes digital-product enablement, release communication, APIs and webhooks in automation, use cases, CRM, and adoption. I would build domain depth through structured training and close partnership with product and technical specialists."
+        }
       ]
     }
   },
   "evidence": {
     "skills": {
-      "pt": ["Sales Enablement Frameworks", "Go-to-Market (GTM)", "Playbooks & Scripts Comerciais", "Gestão de Stakeholders", "Análise de Causa Raiz", "Organização de Bootcamps e Treinamentos de Alta Escala"],
-      "en": ["Sales Enablement Frameworks", "Go-to-Market (GTM)", "Playbooks & Sales Scripts", "Stakeholder Management", "Root Cause Analysis", "High-Scale Bootcamp & Training Organization"]
+      "pt": [
+        "Sales Enablement Frameworks",
+        "Go-to-Market (GTM)",
+        "Playbooks & Scripts Comerciais",
+        "Gestão de Stakeholders",
+        "Análise de Causa Raiz",
+        "Organização de Bootcamps e Treinamentos de Alta Escala"
+      ],
+      "en": [
+        "Sales Enablement Frameworks",
+        "Go-to-Market (GTM)",
+        "Playbooks & Sales Scripts",
+        "Stakeholder Management",
+        "Root Cause Analysis",
+        "High-Scale Bootcamp & Training Organization"
+      ]
     }
   }
 }

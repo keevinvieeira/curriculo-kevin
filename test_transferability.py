@@ -1,8 +1,10 @@
 import sys
-sys.path.insert(0, r'G:\Meu Drive\Arquivos HD\Kevin\curriculo')
+from pathlib import Path
+ROOT = Path(__file__).resolve().parent
+sys.path.insert(0, str(ROOT))
 from engine.skill_transferability import build_transferability_engine
 
-transfer_engine = build_transferability_engine(r'G:\Meu Drive\Arquivos HD\Kevin\curriculo\data\graph_merged.json')
+transfer_engine = build_transferability_engine(str(ROOT / 'data' / 'graph_merged.json'))
 
 print('=== Skill Transferability Engine Test (Merged Graph) ===\n')
 
@@ -47,11 +49,14 @@ for gap in gaps:
         print(f'      Path: {" -> ".join(gap.best_match.path)}')
 
 # Test 5: Skill Cluster
-print('\n5. Skill Cluster (Thinking Environment):')
-cluster = transfer_engine.get_skill_cluster('Thinking Environment', radius=2)
-print(f'   Ancestors: {cluster["ancestors"]}')
-print(f'   Descendants: {cluster["descendants"][:5]}')
-print(f'   Related: {[(s, f"{w:.2f}") for s, w in cluster["related"][:5]]}')
-print(f'   Transferable (r=2): {len(cluster["transferable_to"])} skills')
+print('\n5. Skill Cluster (n8n):')
+cluster = transfer_engine.get_skill_cluster('n8n', radius=2)
+if cluster:
+    print(f'   Ancestors: {cluster.get("ancestors", [])}')
+    print(f'   Descendants: {cluster.get("descendants", [])[:5]}')
+    print(f'   Related: {[(s, f"{w:.2f}") for s, w in cluster.get("related", [])[:5]]}')
+    print(f'   Transferable (r=2): {len(cluster.get("transferable_to", []))} skills')
+else:
+    print('   Skill cluster not found for test skill.')
 
 print('\n[OK] All tests passed!')

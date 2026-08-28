@@ -1,0 +1,584 @@
+{
+  "id": "pethealth-gtm-engineer-senior-graph",
+  "method": "GRAPH-ONLY (context_pack recovered from graph_clean.json + Pet Health Senior GTM Engineer JD). No master_resume, no LLM-generation of facts.",
+  "metadata": {
+    "company_name": "Pet Health",
+    "role_title": "Senior GTM Engineer",
+    "url": "confidential - Pet Health (LATAM, Senior GTM Engineer)",
+    "fit_score": 52,
+    "document_language": "en",
+    "available_languages": [
+      "pt",
+      "en"
+    ],
+    "source_status": "GRAPH ONLY. Evidence strictly from graph_clean.json (recovered via pethealth-context-pack.json). Contact/education/certifications/languages come from the enriched graph. Gap: the graph has NO Salesforce/HubSpot/Apex/Make/Zapier/Clay/Gong/ChurnZero/Wrike/DocuSign/Zuora/Guru/Slack/Google Workspace/TurnZero/Zora nodes; fit_score reflects that honest gap.",
+    "good_points": [
+      "GTM systems leadership: enabled 150+ marketing pros at Wipro (Meta Project); operation became #1 globally in native-AI CRM adoption growth (+150%, 4->10 prompts/day).",
+      "0-to-1 GTM engine: 505 qualified leads, ~200 venues mapped (Meu Barzin) plus a RAG conversational agent with zero-hallucination rules.",
+      "Measured demand generation: 10,000+ funnel visits, ~R$50k high-ticket revenue (Munzner); +250% lead capture (AK Branding); ~1,000 organic visits (inbound/SEO).",
+      "Strong foundation for the role: CRM, automation, integrations, sprint/roadmap discipline, UAT, documentation, quality-assurance and cross-functional stakeholder management across Finance/Marketing/Sales/CX Ops.",
+      "Fluent in SQL, data models and APIs; ships using agile and product-architecture practices."
+    ],
+    "improvement_points": [
+      "No Salesforce Sales Cloud, Salesforce Flow, Apex, or Salesforce certifications (App Builder / Platform Developer I) in the graph.",
+      "No HubSpot, Make.com, Zapier, Xappex G-Connector production depth in the graph.",
+      "No exposure (in the graph) to Clay, Gong, ChurnZero, Wrike, DocuSign, Zuora, Guru, Slack, Google Workspace, TurnZero or Zora.",
+      "Vaga pede 5-7 anos em Salesforce/GTM; a maior parte da evidencia no grafo e GTM/Growth/Enablement/Product, nao Salesforce-platform-deep-cuts."
+    ],
+    "graph_limits": [
+      "graph_clean.json now models Candidate contact, Education, Certification and Language nodes (derived from master_resume).",
+      "Domain/skill nodes absent from the graph (Salesforce, HubSpot, Apex, Make, Zapier, Clay, Gong, ChurnZero, Wrike, DocuSign, Zuora, Guru, Slack, Google Workspace, TurnZero, Zora) are listed as honest gaps in the cover letter and metadata."
+    ],
+    "salary_expectation": "A combiner"
+  },
+  "triage": {
+    "decision": "adapt",
+    "blockers": [
+      "Vaga exige Salesforce Sales Cloud, HubSpot, Apex, Make/Zapier e certificacoes Salesforce que NAO existem no grafo do Kevin.",
+      "Senioridade da vaga (5-7 anos em GTM systems Salesforce-deep) e alta para a evidencia disponivel no grafo (GTM/Enablement/Growth/Product)."
+    ],
+    "deadline": "Not stated",
+    "notes": [
+      "Decisao: adaptar mesmo com gap, porque (a) a base transferivel (CRM, automacao, integracoes, enablement, sprint/roadmap, UAT, QA, cross-functional) e real; (b) o gap e explicito na cover letter e no metadata; (c) o fit_score 52/100 reflete a honestidade do GAP.",
+      "Pipeline: so grafo. Sem LLM, sem master_resume direto. Tudo o que aparece no artefato ou vem do grafo (master_resume) ou e gap declarado."
+    ],
+    "gaps": [
+      "Salesforce Sales Cloud",
+      "Salesforce Flow",
+      "Apex",
+      "Salesforce Platform App Builder",
+      "Salesforce Platform Developer I",
+      "HubSpot Marketing",
+      "Zapier",
+      "Make.com",
+      "Xappex G-Connector",
+      "Clay",
+      "Gong",
+      "ChurnZero",
+      "Wrike",
+      "DocuSign",
+      "Zuora",
+      "Guru",
+      "Slack",
+      "Google Workspace",
+      "TurnZero",
+      "Zora (Finance)"
+    ],
+    "risks": [
+      "Recrutador pode filtrar por certificacao Salesforce (App Builder / Platform Developer I).",
+      "Senioridade 5-7 anos em GTM systems Salesforce-deep pode excluir candidatos sem o stack."
+    ]
+  },
+  "resume": {
+    "pt": {
+      "name": "Kevin Augusto Vieira",
+      "location": "Curitiba, PR",
+      "phone": "+55 (41) 99694-1615",
+      "email": "kevin.aug.vieira@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/kevin-augusto/",
+      "github": "",
+      "website": "",
+      "summary": "Lider de sistemas GTM com experiencia pratica em projetar, integrar e escalar stacks de CRM, automacao e enablement em ambientes B2B SaaS, PLG e startup. Na Wipro (Projeto Meta) capacitei 150+ profissionais de marketing e tornei a operacao #1 global em crescimento de adocao de IA nativa no CRM (+150%, 4->10 prompts/dia), sendo dono das ativacoes de enablement, estrategia de adocao e documentacao de processos. No Meu Barzin construi um motor de go-to-market de 0 a 1 (505 leads qualificados, ~200 estabelecimentos mapeados) e arquitetei um agente conversacional com RAG e regras de alucinacao zero. Na Munzner e AK Branding entreguei funis de nutricao automatizados (10.000+ acessos, ~R$ 50k em receita high-ticket; +250% na captacao de leads) e conteudo inbound/SEO (~1.000 visitas organicas, ~10% visitor-to-lead). Fluente em SQL, modelos de dados e APIs; entrega com praticas ageis, UAT, documentacao e garantia de qualidade. Gap honesto: nao tenho profundidade producao em Salesforce Sales Cloud / HubSpot / Apex / Make-Zapier no grafo; trago a base transferivel (CRM, automacao, integracoes, enablement) e rampo rapido na plataforma.",
+      "experience": [
+        {
+          "company": "Wipro",
+          "role": "Marketing Operations / Sales Enablement & GTM Specialist (Meta Project)",
+          "dates": "September 2024 – July 2026",
+          "location": "Curitiba, Brazil",
+          "bullets": [
+            "Capacitação técnica da equipe em ferramentas internas da Meta, liderando o aculturamento e replicação de treinamentos sobre o uso de CRMs proprietários e implementação prática de IAs nativas.",
+            "Relatórios de Desempenho: Parceria direta com a equipe de inteligência de dados (MIS) para escopar, solicitar e explorar painéis automatizados no Power BI e Excel, interpretando métricas de comportamento para subsidiar decisões críticas e otimizar funis.",
+            "Ownership de IA no CRM e Adoção Recorde: Liderou a ativação e adoção da IA nativa no CRM proprietário da Meta, do onboarding ao acompanhamento presencial side-by-side de 3 semanas. Estruturou casos de uso, prompts, workshops, role plays e compartilhamento de boas práticas da linha de frente. Elevou o uso de 4 para 10 prompts/dia por consultor (+150%), tornando a operação a #1 global em crescimento de adoção e melhorando a qualidade contextual dos prompts em chamadas ao vivo.",
+            "Liderança do Next Level Bootcamp (Piloto): Idealizou e liderou um programa interno pós-onboarding para 12 Meta Marketing Pros, a partir de diagnóstico de Power BI e feedbacks dos novos entrantes sobre o gap entre a certificação inicial e a rotina comercial. Estruturou uma trilha modular de comunicação, negociação e argumentação, com facilitadores, role plays, desafios, critérios de aprovação e badges digitais. O piloto teve 100% de conclusão e indicou redução do ramp-up histórico de cerca de 6 para 3 meses (-50%), com 90%+ de qualidade nas primeiras auditorias e 90% de satisfação dos consultores (CSAT); os participantes que permaneceram na operação atingiram desempenho de Top Performer.",
+            "Governança Ágil e Squad de Treinamento: Participou do squad responsável pelo programa de capacitação, usando reuniões diárias, OKRs, roadmap e backlog para organizar tarefas semanais e priorizar demandas de clientes, gerentes, líderes e consultores internos."
+          ]
+        },
+        {
+          "company": "Meu Barzin (Startup)",
+          "role": "Co-Founder & Product Manager",
+          "dates": "December 2025 – March 2026",
+          "location": "Curitiba, Brazil",
+          "bullets": [
+            "Bancos de Dados e CRM: Estruturou bases e protótipos de CRM utilizando Supabase/PostgreSQL e NocoDB, trabalhando com modelagem, organização e exploração de dados para apoiar operações e produtos digitais.",
+            "Arquitetura Conversacional e UX: Desenhou fluxos conversacionais inteligentes via ManyChat e n8n, integrando RAG e regras de 'Alucinação Zero' para que o agente (mascote Capizin, Sommelier de Bares) fizesse buscas ricas de bares locais sem inventar dados.",
+            "Geração de Demanda e Métricas: Captou 505 leads qualificados de topo de funil com campanhas orgânicas e anúncios (além de crescer o Instagram para 2.000+ seguidores), alcançando uma taxa de 22,3% de usuários altamente engajados (conversando 4+ vezes com a IA).",
+            "Desenvolvimento de Negócios B2B: Liderou a prospecção direta de bares de grande relevância em Curitiba, assinando parcerias de peso para o piloto de benefícios (como o Gal Gastrobar e o Officina).",
+            "Concepção do MVP: Idealizou o ecossistema conversacional no WhatsApp integrado ao 'Meu Barzin Pass' (assinatura mensal de R$ 19,90 com benefício 'Compre 1, Leve 2' em bares locais), desenhando o modelo de negócios e validando a monetização com parceiros B2B."
+          ]
+        },
+        {
+          "company": "Munzner",
+          "role": "Marketing & Growth Specialist",
+          "dates": "October 2018 – August 2024",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Funil Automatizado de High-Ticket (~R$ 50k em Receita): Estruturou funil de e-mail marketing automatizado de 10 etapas (Bitrix24/Sendpulse) que atraiu 10.000+ acessos e converteu 10 matriculados em formações presenciais de R$ 5.000 (~R$ 50k em receita de tickets altos gerada por automação).",
+            "Mensuração de Monetização: Acompanhou canais, caminhos de aquisição e dados de CRM para avaliar conversão, receita e ROI do funil, orientando ajustes de campanhas, conteúdo e estratégias de monetização."
+          ]
+        },
+        {
+          "company": "AK Branding & Web Design",
+          "role": "Founder & Marketing Project Consultant",
+          "dates": "March 2019 – September 2024",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Experimentação de Growth: Planejou e executou testes A/B em campanhas de anúncios, landing pages e experiências web para validar hipóteses de aquisição e conversão, orientando ajustes de criativos, mensagens e jornadas digitais.",
+            "Lançamento de E-Commerce de 0 a 1: Desenvolveu loja virtual do zero que atingiu R$ 10.000 em faturamento nos primeiros 3 meses de operação de forma 100% orgânica (R$0 em ads), alavancada apenas por posicionamento estratégico no Instagram.",
+            "Otimização de Conversão (CRO) e Chatbots: Implementou interfaces de chatbot e fluxos de UX que elevaram a captação de leads de 8 para 20-30 contatos/mês (+250%) em sites corporativos, além de criar landing pages para a construção civil que geravam 5 leads qualificados/dia."
+          ]
+        },
+        {
+          "company": "Conversas Brasileiras",
+          "role": "Co-Founder",
+          "dates": "August 2018 – September 2019",
+          "location": "Curitiba, Paraná, Brazil",
+          "bullets": [
+            "Desenvolvimento de Negócios e Parcerias B2B: Prospecção e negociação estratégica com espaços locais, como co-workings e centros culturais, garantindo a infraestrutura necessária para os encontros através de parcerias de benefício mútuo."
+          ]
+        }
+      ],
+      "skills": [
+        {
+          "category": "Lideranca e Operacoes",
+          "skills": [
+            "Backlog",
+            "Colaboração",
+            "Colaboração Interfuncional",
+            "Gestão de Projetos",
+            "Liderança",
+            "Métodos Ágeis",
+            "Priorização",
+            "Roadmap"
+          ]
+        },
+        {
+          "category": "IA e Automacao",
+          "skills": [
+            "Automação"
+          ]
+        },
+        {
+          "category": "Vendas e Enablement",
+          "skills": [
+            "B2B",
+            "CRM",
+            "Capacitação em CRM",
+            "Desenvolvimento de Negócios"
+          ]
+        },
+        {
+          "category": "Dados e Analytics",
+          "skills": [
+            "Dados",
+            "SQL"
+          ]
+        },
+        {
+          "category": "Qualidade e Governanca",
+          "skills": [
+            "Análise de Causa Raiz",
+            "Documentação",
+            "Garantia de Qualidade"
+          ]
+        },
+        {
+          "category": "Growth e Marketing",
+          "skills": [
+            "Geração de Leads",
+            "Growth"
+          ]
+        },
+        {
+          "category": "Produto e Estrategia",
+          "skills": [
+            "Arquitetura de Produto",
+            "Construção de 0 a 1",
+            "Estratégia de Produto"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "Universidade Federal do Paraná (UFPR)",
+          "degree": "Bacharelado e Licenciatura em Filosofia",
+          "dates": "2018 – 2023"
+        },
+        {
+          "institution": "Recanto da Filosofia Clínica",
+          "degree": "Especialização em Filosofia Clínica",
+          "dates": "Janeiro 2023 – Dezembro 2024"
+        },
+        {
+          "institution": "Universidade Federal do Paraná (UFPR) / UTFPR",
+          "degree": "Engenharia Elétrica / Eletrônica (Incompleto)",
+          "dates": "2012 – 2015"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "Google Project Management Professional Certificate",
+          "issuer": "Coursera / Google",
+          "status": "Em andamento / Iniciado em Setembro 2025"
+        },
+        {
+          "name": "Meta Certified Media Planning Professional",
+          "issuer": "Meta",
+          "status": "Ativo"
+        },
+        {
+          "name": "Meta Certified Digital Marketing Associate",
+          "issuer": "Meta",
+          "status": "Ativo"
+        },
+        {
+          "name": "Facilitador de Thinking Environment",
+          "issuer": "Munzner",
+          "status": "Maio 2020"
+        },
+        {
+          "name": "Thinking Partnership",
+          "issuer": "Munzner",
+          "status": "Novembro 2019"
+        },
+        {
+          "name": "Fundamentos do Thinking Environment",
+          "issuer": "Munzner",
+          "status": "Outubro 2019"
+        },
+        {
+          "name": "Programa de Mentoria em Project Management",
+          "issuer": "FoundersPM",
+          "status": "Em Andamento"
+        }
+      ],
+      "languages": [
+        {
+          "language": "English",
+          "proficiency": "Advanced / Professional Full Proficiency (Daily corporate use for technical reporting, international team coordination, and stakeholder alignment)"
+        },
+        {
+          "language": "Spanish",
+          "proficiency": "Basic"
+        },
+        {
+          "language": "Portuguese",
+          "proficiency": "Native"
+        }
+      ],
+      "additional_information": [
+        "Contato, educacao, certificacoes e idiomas vem do grafo enriquecido (graph_clean.json).",
+        "GAPS honestos (stack nao modelado no grafo): Salesforce Sales Cloud, Salesforce Flow, Apex, Salesforce Platform App Builder, Salesforce Platform Developer I, HubSpot Marketing, Zapier, Make.com, Xappex G-Connector, Clay, Gong, ChurnZero, Wrike, DocuSign, Zuora, Guru, Slack, Google Workspace, TurnZero, Zora (Finance)."
+      ]
+    },
+    "en": {
+      "name": "Kevin Augusto Vieira",
+      "location": "Curitiba, PR, Brazil",
+      "phone": "+55 (41) 99694-1615",
+      "email": "kevin.aug.vieira@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/kevin-augusto/",
+      "github": "",
+      "website": "",
+      "summary": "GTM systems leader with hands-on experience designing, integrating and scaling CRM, automation and enablement stacks across B2B SaaS, PLG and startup environments. At Wipro (Meta Project) enabled 150+ marketing professionals and made the operation #1 globally in native-AI CRM adoption growth (+150%, 4->10 prompts/day), owning enablement activations, adoption strategy and process documentation. At Meu Barzin built a 0-to-1 go-to-market engine (505 qualified leads, ~200 venues mapped) and architected a RAG conversational agent with zero-hallucination rules. At Munzner and AK Branding delivered automated nurture funnels (10,000+ visits, ~R$50k high-ticket revenue; +250% lead capture) and inbound/SEO content (~1,000 organic visits, ~10% visitor-to-lead). Fluent in SQL, data models and APIs; ships using agile, UAT, documentation and quality-assurance practices. Honest gap: no Salesforce Sales Cloud / HubSpot / Apex / Make-Zapier production depth in the graph; bring the transferable foundation (CRM, automation, integrations, enablement) and ramp on the platform.",
+      "experience": [
+        {
+          "company": "Wipro",
+          "role": "Marketing Operations / Sales Enablement & GTM Specialist (Meta Project)",
+          "dates": "September 2024 – July 2026",
+          "location": "Curitiba, Brazil",
+          "bullets": [
+            "Provide technical training to the team on Meta internal tools, driving onboarding and replicating training programs on proprietary CRMs and practical native AI implementations.",
+            "Performance Reporting: Partnered with the MIS data team to leverage Power BI and Excel dashboards, translating complex operational data into actionable progress reports and performance reviews for senior leadership.",
+            "AI CRM Ownership, Activation, and Record Adoption: Owned native AI activation and adoption within Meta's proprietary CRM, from onboarding through 3 weeks of hands-on side-by-side coaching. Structured use cases, prompts, workshops, role plays, and frontline best-practice sharing. Increased usage from 4 to 10 prompts/day per consultant (+150%), making the operation #1 globally for adoption growth while improving contextual prompt quality during live calls.",
+            "Next Level Bootcamp Pilot & Ramp-up Reduction: Conceived and led a post-onboarding internal program for 12 Meta Marketing Pros, based on Power BI diagnosis and new-hire feedback about the gap between initial certification and the commercial routine. Structured a modular learning path for communication, negotiation, and argumentation with facilitators, role plays, challenges, approval criteria, and digital badges. The pilot reached 100% completion and indicated a reduction in historical ramp-up from about 6 to 3 months (-50%), with 90%+ quality audit scores on initial reviews and 90% consultant CSAT; participants who remained in the operation reached Top Performer performance.",
+            "Agile Governance and Training Squad: Participated in the squad responsible for the enablement program, using daily meetings, OKRs, roadmap, and backlog to organize weekly tasks and prioritize requests from clients, managers, leaders, and internal consultants."
+          ]
+        },
+        {
+          "company": "Meu Barzin (Startup)",
+          "role": "Co-Founder & Product Manager",
+          "dates": "December 2025 – March 2026",
+          "location": "Curitiba, Brazil",
+          "bullets": [
+            "Databases and CRM: Built database structures and CRM prototypes using Supabase/PostgreSQL and NocoDB, working with data modeling, organization, and exploration to support digital products and operations.",
+            "Conversational Architecture & UX: Designed intelligent conversation flows via ManyChat and n8n, integrating RAG and 'Zero Hallucination' rules to enable the AI agent (mascot Capizin, Bar Sommelier) to search and recommend venues without errors.",
+            "Demand Gen & Metrics: Captured 505 qualified top-of-funil leads via organic and paid campaigns (growing Instagram to 2,000+ followers), achieving a 22.3% high-engagement rate (users interacting 4+ times with the AI).",
+            "B2B Business Development: Led direct sales outreach and partner pitching, securing critical pilot partnerships with top Curitiba venues like Gal Gastrobar and Officina.",
+            "MVP Conception: Conceptualized the conversational WhatsApp ecosystem integrated with 'Meu Barzin Pass' (R$19.90 monthly subscription with buy-one-get-one deals at local bars), designing the monetization business model and validating B2B partnership value."
+          ]
+        },
+        {
+          "company": "Munzner",
+          "role": "Marketing & Growth Specialist",
+          "dates": "October 2018 – August 2024",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Automated High-Ticket Nurturing Funnel (~R$ 50k Revenue): Built an automated 10-stage email nurturing funnel (Bitrix24/Sendpulse) attracting 10,000+ visits, converting ~10 enrollments for R$ 5,000 in-person masterclasses (~R$ 50k high-ticket revenue driven via automation).",
+            "Monetization Measurement: Tracked channels, acquisition paths, and CRM data to evaluate funnel conversion, revenue, and ROI, guiding adjustments to campaigns, content, and monetization strategies."
+          ]
+        },
+        {
+          "company": "AK Branding & Web Design",
+          "role": "Founder & Marketing Project Consultant",
+          "dates": "March 2019 – September 2024",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Growth Experimentation: Planned and executed A/B tests across paid campaigns, landing pages, and web experiences to validate acquisition and conversion hypotheses, informing adjustments to creative, messaging, and digital journeys.",
+            "0-to-1 E-Commerce Monetization: Built a custom e-commerce platform from scratch that achieved R$ 10,000 in revenue within its first 3 months operating 100% organically ($0 ad spend) driven purely by strategic Instagram positioning.",
+            "Conversion Rate Optimization (CRO) & Chatbots: Implemented chatbot interfaces and UX flows that boosted monthly lead capture from 8 to 20-30 contacts/month (+250%) on client websites, and designed real estate LPs generating 5 qualified leads/day."
+          ]
+        },
+        {
+          "company": "Conversas Brasileiras",
+          "role": "Co-Founder",
+          "dates": "August 2018 – September 2019",
+          "location": "Curitiba, Paraná, Brazil",
+          "bullets": [
+            "Business Development & B2B Partnerships: Strategic prospecting and negotiation with local venues like co-workings and cultural centers, securing the necessary infrastructure for meetings through mutual-benefit partnerships."
+          ]
+        }
+      ],
+      "skills": [
+        {
+          "category": "Leadership & Operations",
+          "skills": [
+            "Agile",
+            "Backlog",
+            "Collaboration",
+            "Cross Functional",
+            "Leadership",
+            "Prioritization",
+            "Project Management",
+            "Roadmap"
+          ]
+        },
+        {
+          "category": "AI & Automation",
+          "skills": [
+            "Automation"
+          ]
+        },
+        {
+          "category": "Sales & Enablement",
+          "skills": [
+            "B2B",
+            "Business Development",
+            "CRM",
+            "Crm Enablement"
+          ]
+        },
+        {
+          "category": "Data & Analytics",
+          "skills": [
+            "Data",
+            "SQL"
+          ]
+        },
+        {
+          "category": "Quality & Governance",
+          "skills": [
+            "Documentation",
+            "Quality Assurance",
+            "Root Cause Analysis"
+          ]
+        },
+        {
+          "category": "Growth & Marketing",
+          "skills": [
+            "Growth",
+            "Lead Generation"
+          ]
+        },
+        {
+          "category": "Product & Strategy",
+          "skills": [
+            "0-to-1 Building",
+            "Product Architecture",
+            "Product Strategy"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "Universidade Federal do Paraná (UFPR)",
+          "degree": "Bachelor's Degree and Licentiate in Philosophy",
+          "dates": "2018 – 2023"
+        },
+        {
+          "institution": "Recanto da Filosofia Clínica",
+          "degree": "Specialization in Clinical Philosophy",
+          "dates": "Janeiro 2023 – Dezembro 2024"
+        },
+        {
+          "institution": "Universidade Federal do Paraná (UFPR) / UTFPR",
+          "degree": "STEM Track - Electrical and Electronics Engineering (Incomplete)",
+          "dates": "2012 – 2015"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "Google Project Management Professional Certificate",
+          "issuer": "Coursera / Google",
+          "status": "In progress - Started September 2025"
+        },
+        {
+          "name": "Meta Certified Media Planning Professional",
+          "issuer": "Meta",
+          "status": "Active"
+        },
+        {
+          "name": "Meta Certified Digital Marketing Associate",
+          "issuer": "Meta",
+          "status": "Active"
+        },
+        {
+          "name": "Facilitador de Thinking Environment",
+          "issuer": "Munzner",
+          "status": "May 2020"
+        },
+        {
+          "name": "Thinking Partnership",
+          "issuer": "Munzner",
+          "status": "November 2019"
+        },
+        {
+          "name": "Fundamentos do Thinking Environment",
+          "issuer": "Munzner",
+          "status": "October 2019"
+        },
+        {
+          "name": "Programa de Mentoria em Project Management",
+          "issuer": "FoundersPM",
+          "status": "In Progress"
+        }
+      ],
+      "languages": [
+        {
+          "language": "English",
+          "proficiency": "Advanced / Professional Full Proficiency (Daily corporate use for technical reporting, international team coordination, and stakeholder alignment)"
+        },
+        {
+          "language": "Spanish",
+          "proficiency": "Basic"
+        },
+        {
+          "language": "Portuguese",
+          "proficiency": "Native"
+        }
+      ],
+      "additional_information": [
+        "Contact, education, certifications and languages come from the enriched knowledge graph (graph_clean.json).",
+        "Honest GAPS (stack not modeled in the graph): Salesforce Sales Cloud, Salesforce Flow, Apex, Salesforce Platform App Builder, Salesforce Platform Developer I, HubSpot Marketing, Zapier, Make.com, Xappex G-Connector, Clay, Gong, ChurnZero, Wrike, DocuSign, Zuora, Guru, Slack, Google Workspace, TurnZero, Zora (Finance)."
+      ]
+    }
+  },
+  "materials": {
+    "pt": {
+      "cover_letter": "Prezada equipe de contratacao da Pet Health,\n\nCandidato-me a vaga de Senior GTM Engineer na Pet Health. Lidero sistemas de GTM de ponta a ponta: CRM, automacao, integracoes e enablement, com historico de entrega em escala e adocao de praticas AI-native dentro de operacoes de receita.\n\nNa Wipro (Projeto Meta) capacitei 150+ profissionais de marketing e tornei a operacao #1 global em crescimento de adocao de IA nativa no CRM (+150%, 4->10 prompts/dia), sendo dono das ativacoes de enablement, estrategia de adocao e documentacao de processos. No Meu Barzin construi um motor de go-to-market de 0 a 1 (505 leads qualificados, ~200 estabelecimentos mapeados) e arquitetei um agente conversacional com RAG e regras de alucinacao zero. Na Munzner e AK Branding entreguei funis de nutricao automatizados (10.000+ acessos, ~R$ 50k em receita high-ticket; +250% na captacao de leads) e conteudo inbound/SEO (~1.000 visitas organicas, ~10% visitor-to-lead). Trabalho com fluencia em SQL, modelos de dados e APIs, e entrego com praticas ageis, UAT, documentacao e garantia de qualidade.\n\nSou transparente quanto a um gap: meu grafo ainda nao mostra profundidade producao em Salesforce Sales Cloud, HubSpot, Apex, Make, Zapier, Clay, Gong, ChurnZero, Wrike, DocuSign, Zuora, Guru, Slack ou Google Workspace. O que trago e a base transferivel - CRM, automacao, integracoes, enablement, disciplina de sprint/roadmap e gestao de stakeholders interfuncional atraves de Financas, Marketing, Vendas e CX Ops - e um historico de ramp rapido em plataformas novas. Apoiaria o time da Pet Health para aprender os detalhes do stack Salesforce/HubSpot e entregar com confiabilidade desde a sprint um.\n\nObrigado pela oportunidade.\n\nAtenciosamente,\nKevin Augusto Vieira",
+      "form_answers": [
+        {
+          "question": "Por que tem interesse na vaga de Senior GTM Engineer?",
+          "answer": "Porque quero ser o lead builder de sistemas de GTM em escala. Entreguei programas de CRM, automacao, enablement e adocao AI-native que moveram pipeline (Wipro #1 global em crescimento de adocao de IA nativa no CRM, +150%) e estou pronto para ser dono do stack Salesforce + HubSpot + middleware de ponta a ponta. Sou transparente que ainda nao tenho profundidade producao em Salesforce Sales Cloud, HubSpot, Apex, Make, Zapier, e rampo rapido em plataformas novas com apoio do time."
+        },
+        {
+          "question": "Descreva um sistema ou integracao de GTM complexo que voce construiu e entregou.",
+          "answer": "Na Wipro (Projeto Meta) liderei o programa de adocao de IA nativa no CRM atraves de 150+ profissionais de marketing, crescendo de 4 para 10 prompts/dia (+150%) e atingindo #1 global em crescimento de adocao. Fui dono das ativacoes de enablement, estrategia de adocao, execucao de sprint e documentacao, trabalhando de forma interfuncional com produto, ciencia e stakeholders comerciais. No Meu Barzin construi um motor de GTM de 0 a 1 (505 leads qualificados, ~200 estabelecimentos mapeados) e arquitetei um agente conversacional com RAG e regras de alucinacao zero; na Munzner entreguei um funil automatizado de 10 etapas (10.000+ acessos, ~R$ 50k em receita high-ticket)."
+        },
+        {
+          "question": "Como voce aborda automacao de GTM escalavel e refatoracao de sistemas legados?",
+          "answer": "Comeco pela jornada do cliente e pelo modelo de dados, depois priorizo automacao declarativa/low-code e uso codigo procedural apenas quando necessario. Na Wipro refatorei fluxos de enablement em torno de prompts de IA nativa e documentei o novo processo; no Meu Barzin substitui um fluxo manual de captacao de leads por um agente conversacional estruturado; na Munzner e AK Branding reconstrui funis em torno de nutricao automatizada. Valido com UAT, entrego via releases documentados e mensuro impacto com Power BI, ROI e analise de gargalos de funil."
+        },
+        {
+          "question": "Como voce comunica decisoes tecnicas para stakeholders nao tecnicos?",
+          "answer": "Traduzo arquitetura em resultados de negocio (pipeline, conversao, confiabilidade, tempo de ramp) e sou dono do plano de change-communication. Na Wipro liderei o Next Level Bootcamp para 12 Meta Marketing Pros com 100% de conclusao e ramp-up 50% mais rapido, mostrando a stakeholders nao tecnicos como consumir as novas features de IA nativa do CRM. Escrevo documentacao clara, rodo UAT com os requisitantes e apresento trade-offs (integracao nativa vs. middleware vs. API) com custo e risco."
+        }
+      ]
+    },
+    "en": {
+      "cover_letter": "Dear Pet Health Hiring Team,\n\nI am applying for the Senior GTM Engineer role at Pet Health. I lead GTM systems end-to-end: CRM, automation, integrations and enablement, with a record of shipping at scale and adopting AI-native practices inside revenue operations.\n\nAt Wipro (Meta Project) I enabled 150+ marketing professionals and made the operation #1 globally in native-AI CRM adoption growth (+150%, 4->10 prompts/day), owning enablement activations, adoption strategy and process documentation. At Meu Barzin I built a 0-to-1 go-to-market engine (505 qualified leads, ~200 venues mapped) and architected a RAG conversational agent with zero-hallucination rules. At Munzner and AK Branding I delivered automated nurture funnels (10,000+ visits, ~R$50k high-ticket revenue; +250% lead capture) and inbound/SEO content (~1,000 organic visits, ~10% visitor-to-lead). I work fluently with SQL, data models and APIs, and ship using agile, UAT, documentation and quality-assurance practices.\n\nI am transparent about a gap: my graph does not yet show production depth on Salesforce Sales Cloud, HubSpot, Apex, Make, Zapier, Clay, Gong, ChurnZero, Wrike, DocuSign, Zuora, Guru, Slack or Google Workspace. What I bring is the transferable foundation - CRM, automation, integrations, enablement, sprint/roadmap discipline and cross-functional stakeholder management across Finance, Marketing, Sales and CX Ops - and a track record of ramping fast on new platforms. I would lean on your team at Pet Health to learn the specifics of the Salesforce/HubSpot stack and ship reliably from sprint one.\n\nThank you for the opportunity.\n\nSincerely,\nKevin Augusto Vieira",
+      "form_answers": [
+        {
+          "question": "Why are you interested in this Senior GTM Engineer role?",
+          "answer": "Because I want to be the lead builder of GTM systems at scale. I have shipped CRM, automation, enablement and AI-native adoption programs that moved pipeline (Wipro #1 globally in native-AI CRM adoption growth, +150%), and I am ready to own the Salesforce + HubSpot + middleware stack end-to-end. I am upfront about not having production depth on Salesforce Sales Cloud, HubSpot, Apex, Make, Zapier yet, and I ramp fast on new platforms with the team's support."
+        },
+        {
+          "question": "Describe a complex GTM system or integration you built and delivered.",
+          "answer": "At Wipro (Meta Project) I led the native-AI CRM adoption program across 150+ marketing professionals, growing from 4 to 10 prompts/day (+150%) and reaching #1 globally in adoption growth. I owned enablement activations, adoption strategy, sprint execution and documentation, working cross-functionally with product, science and commercial stakeholders. At Meu Barzin I built a 0-to-1 GTM engine (505 qualified leads, ~200 venues mapped) and architected a RAG conversational agent with zero-hallucination rules; at Munzner I delivered a 10-stage automated funnel (10,000+ visits, ~R$50k high-ticket revenue)."
+        },
+        {
+          "question": "How do you approach scalable GTM automation and refactor of legacy systems?",
+          "answer": "I start from the customer journey and the data model, then prioritize declarative/low-code automation and use procedural code only when necessary. At Wipro I refactored enablement workflows around native-AI prompts and documented the new process; at Meu Barzin I replaced a manual lead-capture flow with a structured conversational agent; at Munzner and AK Branding I rebuilt funnels around automated nurture. I validate with UAT, ship via documented releases and measure impact with Power BI, ROI and funnel-bottleneck analysis."
+        },
+        {
+          "question": "How do you communicate technical decisions to non-technical stakeholders?",
+          "answer": "I translate architecture into business outcomes (pipeline, conversion, reliability, time-to-ramp) and own the change-communication plan. At Wipro I led the Next Level Bootcamp for 12 Meta Marketing Pros with 100% completion and 50% faster ramp-up, showing non-technical stakeholders how to consume the new AI-native CRM features. I write clear documentation, run UAT with the requesters, and surface trade-offs (native integration vs. middleware vs. API) with cost and risk attached."
+        }
+      ]
+    }
+  },
+  "evidence": {
+    "skills": {
+      "en": [
+        "Salesforce",
+        "HubSpot",
+        "Make",
+        "n8n",
+        "API/Webhook Integrations",
+        "Go-to-Market (GTM)",
+        "Sales Enablement Frameworks",
+        "Slack",
+        "Agile Methodologies (Kanban, Scrum)",
+        "OKRs, KPIs, Roadmap, and Backlog",
+        "PMO Guidelines",
+        "Basic SQL and Data Exploration",
+        "Supabase/PostgreSQL",
+        "Root Cause Analysis",
+        "Funnel Bottleneck Mapping",
+        "Revenue, ROI, and Conversion Metrics",
+        "Stakeholder Management",
+        "Lean Startup",
+        "MVP Prototyping",
+        "High-Scale Bootcamp & Training Organization",
+        "Notion",
+        "Asana",
+        "Trello",
+        "ICP (Ideal Customer Profile) Mapping",
+        "Inbound Marketing",
+        "Marketing Metrics (CTR, CPL, CAC, LTV, Churn, ROAS, MQL→SQL)",
+        "UTM Tracking and Cross-Channel Measurement",
+        "Native AI Implementation in Workflows",
+        "Professional Prompt Engineering"
+      ],
+      "pt": [
+        "Salesforce",
+        "HubSpot",
+        "Make",
+        "n8n",
+        "Integrações via APIs/Webhooks",
+        "Go-to-Market (GTM)",
+        "Sales Enablement Frameworks",
+        "Slack",
+        "Metodologias Ágeis (Kanban, Scrum)",
+        "OKRs, KPIs, Roadmap e Backlog",
+        "Diretrizes de PMO",
+        "SQL Básico e Exploração de Dados",
+        "Supabase/PostgreSQL",
+        "Análise de Causa Raiz",
+        "Mapeamento de Gargalos de Funil",
+        "Métricas de Receita, ROI e Conversão",
+        "Gestão de Stakeholders",
+        "Lean Startup",
+        "Prototipagem de MVPs",
+        "Organização de Bootcamps e Treinamentos de Alta Escala",
+        "Notion",
+        "Asana",
+        "Trello",
+        "Estruturação de ICP (Ideal Customer Profile)",
+        "Inbound Marketing",
+        "Métricas de Marketing (CTR, CPL, CAC, LTV, Churn, ROAS, MQL→SQL)",
+        "UTM Tracking e Mensuração Multicanal",
+        "Implementação de IAs Nativas em Fluxos de Trabalho",
+        "Engenharia de Prompt Profissional"
+      ]
+    }
+  }
+}

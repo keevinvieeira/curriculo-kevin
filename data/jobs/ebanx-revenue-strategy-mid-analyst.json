@@ -7,12 +7,17 @@
     "fit_score": 75,
     "salary_expectation": "Não informada no anúncio; expectativa documentada no currículo mestre: R$ 15.000 - R$ 22.000/mês (Brasil/PJ). Regime e pacote devem ser confirmados antes de propor um valor.",
     "document_language": "en",
-    "available_languages": ["pt", "en"],
+    "available_languages": [
+      "pt",
+      "en"
+    ],
     "location": "Curitiba or São Paulo",
     "work_model": "Hybrid",
     "compensation": "Not disclosed",
     "deadline": "Not disclosed",
-    "source_files": ["master_resume.json"],
+    "source_files": [
+      "master_resume.json"
+    ],
     "good_points": [
       "Localização em Curitiba e experiência com métricas de receita, ROI, conversão, monetização e melhoria de processos.",
       "Excel avançado, Power BI/Tableau, Supabase/PostgreSQL, automação e colaboração multifuncional constam no currículo mestre.",
@@ -134,23 +139,81 @@
         }
       ],
       "skills": [
-        {"category": "Dados e BI", "skills": ["Excel Avançado", "Business Intelligence (Power BI/Tableau)", "SQL Básico e Exploração de Dados", "Google Sheets Avançado", "Métricas de Receita, ROI e Conversão", "Manipulação de Bancos de Dados (Supabase/PostgreSQL)"]},
-        {"category": "Receita e Growth", "skills": ["Modelos de Monetização/Assinatura", "Testes A/B e Design de Experimentos", "Mapeamento de Gargalos de Funil", "Métricas de Marketing (CTR, CPL, CAC, LTV, Churn, ROAS, MQL→SQL)", "Análise de Causa Raiz"]},
-        {"category": "Processos e Automação", "skills": ["Gestão de Stakeholders", "Metodologias Ágeis (Kanban, Scrum)", "OKRs, KPIs, Roadmap e Backlog", "n8n", "Make", "Implementação de IAs Nativas em Fluxos de Trabalho"]}
+        {
+          "category": "Dados e BI",
+          "skills": [
+            "Excel Avançado",
+            "Business Intelligence (Power BI/Tableau)",
+            "SQL Básico e Exploração de Dados",
+            "Google Sheets Avançado",
+            "Métricas de Receita, ROI e Conversão",
+            "Manipulação de Bancos de Dados (Supabase/PostgreSQL)"
+          ]
+        },
+        {
+          "category": "Receita e Growth",
+          "skills": [
+            "Modelos de Monetização/Assinatura",
+            "Testes A/B e Design de Experimentos",
+            "Mapeamento de Gargalos de Funil",
+            "Métricas de Marketing (CTR, CPL, CAC, LTV, Churn, ROAS, MQL→SQL)",
+            "Análise de Causa Raiz"
+          ]
+        },
+        {
+          "category": "Processos e Automação",
+          "skills": [
+            "Gestão de Stakeholders",
+            "Metodologias Ágeis (Kanban, Scrum)",
+            "OKRs, KPIs, Roadmap e Backlog",
+            "n8n",
+            "Make",
+            "Implementação de IAs Nativas em Fluxos de Trabalho"
+          ]
+        }
       ],
       "education": [
-        {"institution": "Universidade Federal do Paraná (UFPR)", "degree": "Bacharelado e Licenciatura em Filosofia", "dates": "2018 – 2023"},
-        {"institution": "UFPR / UTFPR", "degree": "Engenharia Elétrica / Eletrônica (Incompleto)", "dates": "2012 – 2015"}
+        {
+          "institution": "Universidade Federal do Paraná (UFPR)",
+          "degree": "Bacharelado e Licenciatura em Filosofia",
+          "dates": "2018 – 2023"
+        },
+        {
+          "institution": "UFPR / UTFPR",
+          "degree": "Engenharia Elétrica / Eletrônica (Incompleto)",
+          "dates": "2012 – 2015"
+        }
       ],
       "certifications": [
-        {"name": "Google Project Management Professional Certificate", "issuer": "Coursera / Google", "status": "Em andamento"},
-        {"name": "Meta Certified Media Planning Professional", "issuer": "Meta", "status": "Ativo"},
-        {"name": "Meta Certified Digital Marketing Associate", "issuer": "Meta", "status": "Ativo"}
+        {
+          "name": "Google Project Management Professional Certificate",
+          "issuer": "Coursera / Google",
+          "status": "Em andamento"
+        },
+        {
+          "name": "Meta Certified Media Planning Professional",
+          "issuer": "Meta",
+          "status": "Ativo"
+        },
+        {
+          "name": "Meta Certified Digital Marketing Associate",
+          "issuer": "Meta",
+          "status": "Ativo"
+        }
       ],
       "languages": [
-        {"language": "Inglês", "proficiency": "Avançado / Profissional (uso diário corporativo); não declarado como fluente"},
-        {"language": "Português", "proficiency": "Nativo"},
-        {"language": "Espanhol", "proficiency": "Básico"}
+        {
+          "language": "Inglês",
+          "proficiency": "Avançado / Profissional (uso diário corporativo); não declarado como fluente"
+        },
+        {
+          "language": "Português",
+          "proficiency": "Nativo"
+        },
+        {
+          "language": "Espanhol",
+          "proficiency": "Básico"
+        }
       ],
       "additional_information": []
     },
@@ -209,23 +272,81 @@
         }
       ],
       "skills": [
-        {"category": "Data and BI", "skills": ["Advanced Excel", "Business Intelligence (Power BI/Tableau)", "Basic SQL and Data Exploration", "Advanced Google Sheets", "Revenue, ROI, and Conversion Metrics", "Database Manipulation (Supabase/PostgreSQL)"]},
-        {"category": "Revenue and Growth", "skills": ["Monetization/Subscription Models", "A/B Testing and Experiment Design", "Funnel Bottleneck Mapping", "Marketing Metrics (CTR, CPL, CAC, LTV, Churn, ROAS, MQL→SQL)", "Root Cause Analysis"]},
-        {"category": "Processes and Automation", "skills": ["Stakeholder Management", "Agile Methodologies (Kanban, Scrum)", "OKRs, KPIs, Roadmap, and Backlog", "n8n", "Make", "Native AI Implementation in Workflows"]}
+        {
+          "category": "Data and BI",
+          "skills": [
+            "Advanced Excel",
+            "Business Intelligence (Power BI/Tableau)",
+            "Basic SQL and Data Exploration",
+            "Advanced Google Sheets",
+            "Revenue, ROI, and Conversion Metrics",
+            "Database Manipulation (Supabase/PostgreSQL)"
+          ]
+        },
+        {
+          "category": "Revenue and Growth",
+          "skills": [
+            "Monetization/Subscription Models",
+            "A/B Testing and Experiment Design",
+            "Funnel Bottleneck Mapping",
+            "Marketing Metrics (CTR, CPL, CAC, LTV, Churn, ROAS, MQL→SQL)",
+            "Root Cause Analysis"
+          ]
+        },
+        {
+          "category": "Processes and Automation",
+          "skills": [
+            "Stakeholder Management",
+            "Agile Methodologies (Kanban, Scrum)",
+            "OKRs, KPIs, Roadmap, and Backlog",
+            "n8n",
+            "Make",
+            "Native AI Implementation in Workflows"
+          ]
+        }
       ],
       "education": [
-        {"institution": "Universidade Federal do Paraná (UFPR)", "degree": "Bachelor's Degree and Licentiate in Philosophy", "dates": "2018 – 2023"},
-        {"institution": "UFPR / UTFPR", "degree": "Electrical and Electronics Engineering (Incomplete)", "dates": "2012 – 2015"}
+        {
+          "institution": "Universidade Federal do Paraná (UFPR)",
+          "degree": "Bachelor's Degree and Licentiate in Philosophy",
+          "dates": "2018 – 2023"
+        },
+        {
+          "institution": "UFPR / UTFPR",
+          "degree": "Electrical and Electronics Engineering (Incomplete)",
+          "dates": "2012 – 2015"
+        }
       ],
       "certifications": [
-        {"name": "Google Project Management Professional Certificate", "issuer": "Coursera / Google", "status": "In progress"},
-        {"name": "Meta Certified Media Planning Professional", "issuer": "Meta", "status": "Active"},
-        {"name": "Meta Certified Digital Marketing Associate", "issuer": "Meta", "status": "Active"}
+        {
+          "name": "Google Project Management Professional Certificate",
+          "issuer": "Coursera / Google",
+          "status": "In progress"
+        },
+        {
+          "name": "Meta Certified Media Planning Professional",
+          "issuer": "Meta",
+          "status": "Active"
+        },
+        {
+          "name": "Meta Certified Digital Marketing Associate",
+          "issuer": "Meta",
+          "status": "Active"
+        }
       ],
       "languages": [
-        {"language": "English", "proficiency": "Advanced / Professional Full Proficiency (daily corporate use); not claimed as fluent"},
-        {"language": "Portuguese", "proficiency": "Native"},
-        {"language": "Spanish", "proficiency": "Basic"}
+        {
+          "language": "English",
+          "proficiency": "Advanced / Professional Full Proficiency (daily corporate use); not claimed as fluent"
+        },
+        {
+          "language": "Portuguese",
+          "proficiency": "Native"
+        },
+        {
+          "language": "Spanish",
+          "proficiency": "Basic"
+        }
       ],
       "additional_information": []
     }
@@ -234,28 +355,84 @@
     "pt": {
       "cover_letter": "Olá, time da EBANX!\n\nA oportunidade de apoiar Revenue Strategy com dados, automação e coordenação multifuncional conecta-se à minha experiência em métricas de receita, melhoria de processos e execução analítica. Na Wipro, no Projeto Meta, trabalhei com o time de MIS usando Power BI e Excel para transformar dados operacionais em relatórios e planos de ação para liderança.\n\nNo Meu Barzin, estruturei bases em Supabase/PostgreSQL e NocoDB, desenhei um modelo de assinatura e analisei aquisição, engajamento e gargalos de conversão. Na Munzner, acompanhei CRM, receita e ROI de um funil automatizado que gerou aproximadamente R$ 50 mil.\n\nTenho Excel avançado, experiência em BI, automação e IA aplicada a processos. Também sou transparente sobre os gaps: meu SQL é básico, não forte; minha experiência de pricing concentra-se em monetização e experimentos de modelo de negócio; e não tenho experiência direta em fintech ou pagamentos. Quero aplicar essa base analítica e desenvolver a profundidade necessária para apoiar a próxima fase da EBANX.\n\nKevin Augusto Vieira",
       "form_answers": [
-        {"question": "Qual é sua experiência com SQL?", "answer": "Tenho SQL básico e experiência de exploração e organização de dados em Supabase/PostgreSQL e NocoDB. Consigo apoiar análises e protótipos, mas não classifico meu nível como forte ou avançado e reconheço que esse é um requisito eliminatório potencial."},
-        {"question": "Qual é sua experiência com pricing?", "answer": "Minha experiência é transferível: desenhei modelos de assinatura e pay-what-you-want, acompanhei receita, conversão e ROI e testei hipóteses de monetização. Não tive ownership de uma ferramenta corporativa de pricing nem de infraestrutura de precificação."},
-        {"question": "Como você transforma dados em decisão?", "answer": "Combino dashboards, métricas de funil, CRM, receita e feedback qualitativo. Na Wipro, usei Power BI, Excel e análise de causa raiz para orientar planos de ação. No Meu Barzin, dados mostraram 43,9% de abandono na primeira mensagem e ajudaram a priorizar latência de API e densidade de parceiros."},
-        {"question": "Qual é sua experiência com fintech e pagamentos?", "answer": "Não tenho experiência profissional direta em fintech ou pagamentos. Minha base transferível inclui estratégia de receita, monetização, CRM, dados, automação e coordenação multifuncional, com disposição para desenvolver rapidamente o domínio específico."},
-        {"question": "Qual é seu nível de inglês?", "answer": "Avançado/profissional, com uso diário em relatórios, coordenação internacional e alinhamento de stakeholders. Não o apresento como fluente."}
+        {
+          "question": "Qual é sua experiência com SQL?",
+          "answer": "Tenho SQL básico e experiência de exploração e organização de dados em Supabase/PostgreSQL e NocoDB. Consigo apoiar análises e protótipos, mas não classifico meu nível como forte ou avançado e reconheço que esse é um requisito eliminatório potencial."
+        },
+        {
+          "question": "Qual é sua experiência com pricing?",
+          "answer": "Minha experiência é transferível: desenhei modelos de assinatura e pay-what-you-want, acompanhei receita, conversão e ROI e testei hipóteses de monetização. Não tive ownership de uma ferramenta corporativa de pricing nem de infraestrutura de precificação."
+        },
+        {
+          "question": "Como você transforma dados em decisão?",
+          "answer": "Combino dashboards, métricas de funil, CRM, receita e feedback qualitativo. Na Wipro, usei Power BI, Excel e análise de causa raiz para orientar planos de ação. No Meu Barzin, dados mostraram 43,9% de abandono na primeira mensagem e ajudaram a priorizar latência de API e densidade de parceiros."
+        },
+        {
+          "question": "Qual é sua experiência com fintech e pagamentos?",
+          "answer": "Não tenho experiência profissional direta em fintech ou pagamentos. Minha base transferível inclui estratégia de receita, monetização, CRM, dados, automação e coordenação multifuncional, com disposição para desenvolver rapidamente o domínio específico."
+        },
+        {
+          "question": "Qual é seu nível de inglês?",
+          "answer": "Avançado/profissional, com uso diário em relatórios, coordenação internacional e alinhamento de stakeholders. Não o apresento como fluente."
+        }
       ]
     },
     "en": {
       "cover_letter": "Dear EBANX team,\n\nThe opportunity to support Revenue Strategy through data, automation, and cross-functional coordination aligns with my experience in revenue metrics, process improvement, and analytical execution. At Wipro on the Meta Project, I partnered with the MIS team using Power BI and Excel to turn operational data into leadership reports and action plans.\n\nAt Meu Barzin, I structured databases in Supabase/PostgreSQL and NocoDB, designed a subscription model, and analyzed acquisition, engagement, and conversion bottlenecks. At Munzner, I tracked CRM, revenue, and ROI for an automated funnel that generated approximately R$50,000.\n\nI bring advanced Excel, BI, automation, and applied AI experience. I am also transparent about the gaps: my SQL is basic rather than strong; my pricing experience centers on monetization and business-model experiments; and I do not have direct fintech or payments experience. I would apply this analytical foundation while building the depth required to support EBANX's next phase.\n\nKevin Augusto Vieira",
       "form_answers": [
-        {"question": "What is your SQL experience?", "answer": "I have basic SQL and data exploration and organization experience in Supabase/PostgreSQL and NocoDB. I can support analysis and prototypes, but I do not classify my level as strong or advanced and recognize this as a potential knockout requirement."},
-        {"question": "What is your pricing experience?", "answer": "My experience is transferable: I designed subscription and pay-what-you-want models, tracked revenue, conversion, and ROI, and tested monetization hypotheses. I have not owned an enterprise pricing tool or pricing infrastructure."},
-        {"question": "How do you turn data into decisions?", "answer": "I combine dashboards, funnel, CRM, revenue metrics, and qualitative feedback. At Wipro, I used Power BI, Excel, and root-cause analysis to guide action plans. At Meu Barzin, data revealed a 43.9% first-message dropout and helped prioritize API latency and partner density."},
-        {"question": "What is your fintech and payments experience?", "answer": "I do not have direct professional fintech or payments experience. My transferable foundation includes revenue strategy, monetization, CRM, data, automation, and cross-functional coordination, with a structured approach to learning the domain."},
-        {"question": "What is your English level?", "answer": "Advanced / Professional Full Proficiency, with daily use in reporting, international coordination, and stakeholder alignment. I do not present it as fluent."}
+        {
+          "question": "What is your SQL experience?",
+          "answer": "I have basic SQL and data exploration and organization experience in Supabase/PostgreSQL and NocoDB. I can support analysis and prototypes, but I do not classify my level as strong or advanced and recognize this as a potential knockout requirement."
+        },
+        {
+          "question": "What is your pricing experience?",
+          "answer": "My experience is transferable: I designed subscription and pay-what-you-want models, tracked revenue, conversion, and ROI, and tested monetization hypotheses. I have not owned an enterprise pricing tool or pricing infrastructure."
+        },
+        {
+          "question": "How do you turn data into decisions?",
+          "answer": "I combine dashboards, funnel, CRM, revenue metrics, and qualitative feedback. At Wipro, I used Power BI, Excel, and root-cause analysis to guide action plans. At Meu Barzin, data revealed a 43.9% first-message dropout and helped prioritize API latency and partner density."
+        },
+        {
+          "question": "What is your fintech and payments experience?",
+          "answer": "I do not have direct professional fintech or payments experience. My transferable foundation includes revenue strategy, monetization, CRM, data, automation, and cross-functional coordination, with a structured approach to learning the domain."
+        },
+        {
+          "question": "What is your English level?",
+          "answer": "Advanced / Professional Full Proficiency, with daily use in reporting, international coordination, and stakeholder alignment. I do not present it as fluent."
+        }
       ]
     }
   },
   "evidence": {
     "skills": {
-      "pt": ["Excel Avançado", "Business Intelligence (Power BI/Tableau)", "SQL Básico e Exploração de Dados", "Google Sheets Avançado", "Métricas de Receita, ROI e Conversão", "Manipulação de Bancos de Dados (Supabase/PostgreSQL)", "Modelos de Monetização/Assinatura", "Testes A/B e Design de Experimentos", "Mapeamento de Gargalos de Funil", "Análise de Causa Raiz", "Gestão de Stakeholders", "n8n"],
-      "en": ["Advanced Excel", "Business Intelligence (Power BI/Tableau)", "Basic SQL and Data Exploration", "Advanced Google Sheets", "Revenue, ROI, and Conversion Metrics", "Database Manipulation (Supabase/PostgreSQL)", "Monetization/Subscription Models", "A/B Testing and Experiment Design", "Funnel Bottleneck Mapping", "Root Cause Analysis", "Stakeholder Management", "n8n"]
+      "pt": [
+        "Excel Avançado",
+        "Business Intelligence (Power BI/Tableau)",
+        "SQL Básico e Exploração de Dados",
+        "Google Sheets Avançado",
+        "Métricas de Receita, ROI e Conversão",
+        "Manipulação de Bancos de Dados (Supabase/PostgreSQL)",
+        "Modelos de Monetização/Assinatura",
+        "Testes A/B e Design de Experimentos",
+        "Mapeamento de Gargalos de Funil",
+        "Análise de Causa Raiz",
+        "Gestão de Stakeholders",
+        "n8n"
+      ],
+      "en": [
+        "Advanced Excel",
+        "Business Intelligence (Power BI/Tableau)",
+        "Basic SQL and Data Exploration",
+        "Advanced Google Sheets",
+        "Revenue, ROI, and Conversion Metrics",
+        "Database Manipulation (Supabase/PostgreSQL)",
+        "Monetization/Subscription Models",
+        "A/B Testing and Experiment Design",
+        "Funnel Bottleneck Mapping",
+        "Root Cause Analysis",
+        "Stakeholder Management",
+        "n8n"
+      ]
     }
   }
 }

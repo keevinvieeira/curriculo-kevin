@@ -12,8 +12,14 @@
     "salary_expectation": "R$ 15.000 - R$ 22.000/mês (Brasil/PJ); equivalência CLT a negociar conforme pacote total",
     "application_deadline": "Não informada",
     "document_language": "pt",
-    "available_languages": ["pt", "en"],
-    "source_files": ["master_resume.json", "job_store.py"],
+    "available_languages": [
+      "pt",
+      "en"
+    ],
+    "source_files": [
+      "master_resume.json",
+      "job_store.py"
+    ],
     "requirements": [
       "Graduação completa em Marketing, Publicidade, Administração, Comunicação ou áreas correlatas",
       "Experiência em Sales Enablement, Vendas, Treinamento Comercial ou Trade/Growth Marketing",
@@ -117,23 +123,78 @@
         }
       ],
       "skills": [
-        {"category": "Sales Enablement", "skills": ["Sales Enablement Frameworks", "Sales Productivity", "Playbooks & Scripts Comerciais", "Escuta de Calls e Feedback Estruturado", "Organização de Bootcamps e Treinamentos de Alta Escala"]},
-        {"category": "GTM, CRM e Dados", "skills": ["Go-to-Market (GTM)", "CRMs Proprietários Meta", "Business Intelligence (Power BI/Tableau)", "Excel Avançado", "Métricas de Receita, ROI e Conversão"]},
-        {"category": "Projetos e Colaboração", "skills": ["Gestão de Stakeholders", "Metodologias Ágeis (Kanban, Scrum)", "OKRs, KPIs, Roadmap e Backlog", "Facilitação Avançada (Thinking Environment / Art of Hosting)"]}
+        {
+          "category": "Sales Enablement",
+          "skills": [
+            "Sales Enablement Frameworks",
+            "Sales Productivity",
+            "Playbooks & Scripts Comerciais",
+            "Escuta de Calls e Feedback Estruturado",
+            "Organização de Bootcamps e Treinamentos de Alta Escala"
+          ]
+        },
+        {
+          "category": "GTM, CRM e Dados",
+          "skills": [
+            "Go-to-Market (GTM)",
+            "CRMs Proprietários Meta",
+            "Business Intelligence (Power BI/Tableau)",
+            "Excel Avançado",
+            "Métricas de Receita, ROI e Conversão"
+          ]
+        },
+        {
+          "category": "Projetos e Colaboração",
+          "skills": [
+            "Gestão de Stakeholders",
+            "Metodologias Ágeis (Kanban, Scrum)",
+            "OKRs, KPIs, Roadmap e Backlog",
+            "Facilitação Avançada (Thinking Environment / Art of Hosting)"
+          ]
+        }
       ],
       "education": [
-        {"institution": "Universidade Federal do Paraná (UFPR)", "degree": "Bacharelado e Licenciatura em Filosofia", "dates": "2018 – 2023"},
-        {"institution": "Recanto da Filosofia Clínica", "degree": "Especialização em Filosofia Clínica", "dates": "Janeiro 2023 – Dezembro 2024"}
+        {
+          "institution": "Universidade Federal do Paraná (UFPR)",
+          "degree": "Bacharelado e Licenciatura em Filosofia",
+          "dates": "2018 – 2023"
+        },
+        {
+          "institution": "Recanto da Filosofia Clínica",
+          "degree": "Especialização em Filosofia Clínica",
+          "dates": "Janeiro 2023 – Dezembro 2024"
+        }
       ],
       "certifications": [
-        {"name": "Meta Certified Media Planning Professional", "issuer": "Meta", "status": "Ativo"},
-        {"name": "Meta Certified Digital Marketing Associate", "issuer": "Meta", "status": "Ativo"},
-        {"name": "Facilitador de Thinking Environment", "issuer": "Munzner", "status": "Maio 2020"}
+        {
+          "name": "Meta Certified Media Planning Professional",
+          "issuer": "Meta",
+          "status": "Ativo"
+        },
+        {
+          "name": "Meta Certified Digital Marketing Associate",
+          "issuer": "Meta",
+          "status": "Ativo"
+        },
+        {
+          "name": "Facilitador de Thinking Environment",
+          "issuer": "Munzner",
+          "status": "Maio 2020"
+        }
       ],
       "languages": [
-        {"language": "Português", "proficiency": "Nativo"},
-        {"language": "Inglês", "proficiency": "Avançado / profissional; uso diário corporativo"},
-        {"language": "Espanhol", "proficiency": "Básico"}
+        {
+          "language": "Português",
+          "proficiency": "Nativo"
+        },
+        {
+          "language": "Inglês",
+          "proficiency": "Avançado / profissional; uso diário corporativo"
+        },
+        {
+          "language": "Espanhol",
+          "proficiency": "Básico"
+        }
       ],
       "additional_information": []
     },
@@ -191,23 +252,78 @@
         }
       ],
       "skills": [
-        {"category": "Sales Enablement", "skills": ["Sales Enablement Frameworks", "Sales Productivity", "Playbooks & Sales Scripts", "Call Listening & Structured Feedback", "High-Scale Bootcamp & Training Organization"]},
-        {"category": "GTM, CRM, and Data", "skills": ["Go-to-Market (GTM)", "Meta Proprietary CRMs", "Business Intelligence (Power BI/Tableau)", "Advanced Excel", "Revenue, ROI, and Conversion Metrics"]},
-        {"category": "Projects and Collaboration", "skills": ["Stakeholder Management", "Agile Methodologies (Kanban, Scrum)", "OKRs, KPIs, Roadmap, and Backlog", "Advanced Facilitation (Thinking Environment / Art of Hosting)"]}
+        {
+          "category": "Sales Enablement",
+          "skills": [
+            "Sales Enablement Frameworks",
+            "Sales Productivity",
+            "Playbooks & Sales Scripts",
+            "Call Listening & Structured Feedback",
+            "High-Scale Bootcamp & Training Organization"
+          ]
+        },
+        {
+          "category": "GTM, CRM, and Data",
+          "skills": [
+            "Go-to-Market (GTM)",
+            "Meta Proprietary CRMs",
+            "Business Intelligence (Power BI/Tableau)",
+            "Advanced Excel",
+            "Revenue, ROI, and Conversion Metrics"
+          ]
+        },
+        {
+          "category": "Projects and Collaboration",
+          "skills": [
+            "Stakeholder Management",
+            "Agile Methodologies (Kanban, Scrum)",
+            "OKRs, KPIs, Roadmap, and Backlog",
+            "Advanced Facilitation (Thinking Environment / Art of Hosting)"
+          ]
+        }
       ],
       "education": [
-        {"institution": "Universidade Federal do Paraná (UFPR)", "degree": "Bachelor's Degree and Licentiate in Philosophy", "dates": "2018 – 2023"},
-        {"institution": "Recanto da Filosofia Clínica", "degree": "Specialization in Clinical Philosophy", "dates": "January 2023 – December 2024"}
+        {
+          "institution": "Universidade Federal do Paraná (UFPR)",
+          "degree": "Bachelor's Degree and Licentiate in Philosophy",
+          "dates": "2018 – 2023"
+        },
+        {
+          "institution": "Recanto da Filosofia Clínica",
+          "degree": "Specialization in Clinical Philosophy",
+          "dates": "January 2023 – December 2024"
+        }
       ],
       "certifications": [
-        {"name": "Meta Certified Media Planning Professional", "issuer": "Meta", "status": "Active"},
-        {"name": "Meta Certified Digital Marketing Associate", "issuer": "Meta", "status": "Active"},
-        {"name": "Thinking Environment Facilitator", "issuer": "Munzner", "status": "May 2020"}
+        {
+          "name": "Meta Certified Media Planning Professional",
+          "issuer": "Meta",
+          "status": "Active"
+        },
+        {
+          "name": "Meta Certified Digital Marketing Associate",
+          "issuer": "Meta",
+          "status": "Active"
+        },
+        {
+          "name": "Thinking Environment Facilitator",
+          "issuer": "Munzner",
+          "status": "May 2020"
+        }
       ],
       "languages": [
-        {"language": "Portuguese", "proficiency": "Native"},
-        {"language": "English", "proficiency": "Advanced / professional working proficiency; daily corporate use"},
-        {"language": "Spanish", "proficiency": "Basic"}
+        {
+          "language": "Portuguese",
+          "proficiency": "Native"
+        },
+        {
+          "language": "English",
+          "proficiency": "Advanced / professional working proficiency; daily corporate use"
+        },
+        {
+          "language": "Spanish",
+          "proficiency": "Basic"
+        }
       ],
       "additional_information": []
     }
@@ -216,30 +332,80 @@
     "pt": {
       "cover_letter": "Olá, time do Grupo RIC Paraná!\n\nA oportunidade de estruturar Sales Enablement para um portfólio multiplataforma conecta diretamente minha experiência em capacitação comercial, mídia, conteúdo e melhoria de processos. No Projeto Meta da Wipro, liderei pilares de Sales Excellence e Sales Productivity, transformando atualizações de produtos em propostas de valor, pitches, playbooks e frameworks para mais de 150 profissionais.\n\nIdealizei e governei um bootcamp que reduziu o ramp-up de novos consultores de 6 para 3 meses, com 100% de conclusão, 90%+ de qualidade nas primeiras auditorias e 90% de satisfação. Também conduzi coaching, escuta de calls, análise de causa raiz e treinamentos de CRM e IA, elevando a adoção da ferramenta em 150%.\n\nMinha trajetória inclui mais de 40 projetos de marketing e mídia para PMEs, lançamento de e-learning e análise de indicadores de conversão, receita e ROI. Embora minha graduação seja em Filosofia, e não em um dos cursos nominalmente listados, trago formação completa e experiência prática diretamente aderente ao escopo. A disponibilidade para viagens precisa ser confirmada antes de qualquer compromisso.\n\nKevin Augusto Vieira",
       "form_answers": [
-        {"question": "Conte sobre sua experiência em Sales Enablement.", "answer": "No Projeto Meta, liderei Sales Excellence e Sales Productivity, traduzi atualizações de produto em propostas de valor, pitches e frameworks e criei playbooks, scripts e materiais para mais de 150 profissionais. Também conduzi coaching, escuta de calls e feedback estruturado para melhorar performance comercial."},
-        {"question": "Como você reduziu o ramp-up de novos vendedores?", "answer": "Idealizei, gamifiquei e governei o Next Level Bootcamp para 12 consultores. O programa alcançou 100% de conclusão, reduziu o ramp-up de 6 para 3 meses, atingiu 90%+ nas primeiras auditorias e 90% de CSAT."},
-        {"question": "Qual é sua experiência com indicadores e CRM?", "answer": "Atuei com CRM proprietário da Meta, Bitrix24, Sendpulse e protótipos em NocoDB e Supabase/PostgreSQL. Usei Power BI, Excel, escuta de calls e análise de causa raiz; acompanhei conversão, receita, ROI, aquisição e adoção para priorizar melhorias."},
-        {"question": "Sua formação atende ao requisito?", "answer": "Tenho Bacharelado e Licenciatura completos em Filosofia pela UFPR e especialização em Filosofia Clínica. O curso não está entre os nomes listados no anúncio. Minha aderência vem de mais de 8 anos de experiência prática em marketing, mídia, vendas, facilitação, conteúdo e treinamento comercial, e prefiro tratar a equivalência acadêmica com transparência."},
-        {"question": "Você possui disponibilidade para viagens?", "answer": "Minha disponibilidade para viagens não está previamente documentada e precisa ser alinhada quanto à frequência, duração e antecedência. Não assumo esse compromisso sem confirmar as condições concretas da função."},
-        {"question": "Qual é sua expectativa salarial?", "answer": "Minha expectativa documentada para o mercado brasileiro é de R$ 15.000 a R$ 22.000 por mês em modelo PJ. Para CLT, avalio a equivalência considerando salário, benefícios, presencialidade e escopo. Como a vaga não publica faixa, a compatibilidade precisa ser alinhada."}
+        {
+          "question": "Conte sobre sua experiência em Sales Enablement.",
+          "answer": "No Projeto Meta, liderei Sales Excellence e Sales Productivity, traduzi atualizações de produto em propostas de valor, pitches e frameworks e criei playbooks, scripts e materiais para mais de 150 profissionais. Também conduzi coaching, escuta de calls e feedback estruturado para melhorar performance comercial."
+        },
+        {
+          "question": "Como você reduziu o ramp-up de novos vendedores?",
+          "answer": "Idealizei, gamifiquei e governei o Next Level Bootcamp para 12 consultores. O programa alcançou 100% de conclusão, reduziu o ramp-up de 6 para 3 meses, atingiu 90%+ nas primeiras auditorias e 90% de CSAT."
+        },
+        {
+          "question": "Qual é sua experiência com indicadores e CRM?",
+          "answer": "Atuei com CRM proprietário da Meta, Bitrix24, Sendpulse e protótipos em NocoDB e Supabase/PostgreSQL. Usei Power BI, Excel, escuta de calls e análise de causa raiz; acompanhei conversão, receita, ROI, aquisição e adoção para priorizar melhorias."
+        },
+        {
+          "question": "Sua formação atende ao requisito?",
+          "answer": "Tenho Bacharelado e Licenciatura completos em Filosofia pela UFPR e especialização em Filosofia Clínica. O curso não está entre os nomes listados no anúncio. Minha aderência vem de mais de 8 anos de experiência prática em marketing, mídia, vendas, facilitação, conteúdo e treinamento comercial, e prefiro tratar a equivalência acadêmica com transparência."
+        },
+        {
+          "question": "Você possui disponibilidade para viagens?",
+          "answer": "Minha disponibilidade para viagens não está previamente documentada e precisa ser alinhada quanto à frequência, duração e antecedência. Não assumo esse compromisso sem confirmar as condições concretas da função."
+        },
+        {
+          "question": "Qual é sua expectativa salarial?",
+          "answer": "Minha expectativa documentada para o mercado brasileiro é de R$ 15.000 a R$ 22.000 por mês em modelo PJ. Para CLT, avalio a equivalência considerando salário, benefícios, presencialidade e escopo. Como a vaga não publica faixa, a compatibilidade precisa ser alinhada."
+        }
       ]
     },
     "en": {
       "cover_letter": "Dear Grupo RIC Paraná team,\n\nThe opportunity to build Sales Enablement for a multi-platform portfolio directly connects with my experience in commercial training, media, content, and process improvement. At Wipro on the Meta Project, I led Sales Excellence and Sales Productivity pillars, turning product updates into value propositions, pitches, playbooks, and frameworks for 150+ professionals.\n\nI designed and governed a bootcamp that reduced new consultant ramp-up from 6 to 3 months, with 100% completion, 90%+ quality in initial audits, and 90% satisfaction. I also delivered coaching, call listening, root-cause analysis, and CRM and AI training, increasing tool adoption by 150%.\n\nMy background includes 40+ marketing and media projects for SMBs, an e-learning launch, and analysis of conversion, revenue, and ROI metrics. My completed degree is in Philosophy rather than one of the specifically listed fields, but my practical experience closely matches the role. Travel availability would need to be confirmed before making any commitment.\n\nKevin Augusto Vieira",
       "form_answers": [
-        {"question": "Tell us about your Sales Enablement experience.", "answer": "On the Meta Project, I led Sales Excellence and Sales Productivity, translated product updates into value propositions, pitches, and frameworks, and created playbooks, scripts, and materials for 150+ professionals. I also delivered coaching, call listening, and structured feedback to improve sales performance."},
-        {"question": "How have you reduced new seller ramp-up?", "answer": "I designed, gamified, and governed the Next Level Bootcamp for 12 consultants. It achieved 100% completion, reduced ramp-up from 6 to 3 months, reached 90%+ in initial quality audits, and achieved 90% CSAT."},
-        {"question": "What is your experience with metrics and CRM?", "answer": "I worked with Meta's proprietary CRM, Bitrix24, Sendpulse, and prototypes in NocoDB and Supabase/PostgreSQL. I used Power BI, Excel, call listening, and root-cause analysis, and tracked conversion, revenue, ROI, acquisition, and adoption to prioritize improvements."},
-        {"question": "Does your education meet the requirement?", "answer": "I hold a completed Bachelor's Degree and Licentiate in Philosophy from UFPR and a specialization in Clinical Philosophy. The degree is not one of the fields named in the posting. My fit comes from 8+ years of practical experience in marketing, media, sales, facilitation, content, and commercial training, and I prefer to be transparent about the academic equivalence."},
-        {"question": "Are you available to travel?", "answer": "My travel availability is not previously documented and would need alignment on frequency, duration, and notice. I would not commit before confirming the role's specific conditions."},
-        {"question": "What are your salary expectations?", "answer": "My documented Brazilian market expectation is R$15,000 to R$22,000 per month under a contractor model. For CLT employment, I assess the equivalent based on salary, benefits, onsite requirements, and scope. Since no range was published, compatibility needs discussion."}
+        {
+          "question": "Tell us about your Sales Enablement experience.",
+          "answer": "On the Meta Project, I led Sales Excellence and Sales Productivity, translated product updates into value propositions, pitches, and frameworks, and created playbooks, scripts, and materials for 150+ professionals. I also delivered coaching, call listening, and structured feedback to improve sales performance."
+        },
+        {
+          "question": "How have you reduced new seller ramp-up?",
+          "answer": "I designed, gamified, and governed the Next Level Bootcamp for 12 consultants. It achieved 100% completion, reduced ramp-up from 6 to 3 months, reached 90%+ in initial quality audits, and achieved 90% CSAT."
+        },
+        {
+          "question": "What is your experience with metrics and CRM?",
+          "answer": "I worked with Meta's proprietary CRM, Bitrix24, Sendpulse, and prototypes in NocoDB and Supabase/PostgreSQL. I used Power BI, Excel, call listening, and root-cause analysis, and tracked conversion, revenue, ROI, acquisition, and adoption to prioritize improvements."
+        },
+        {
+          "question": "Does your education meet the requirement?",
+          "answer": "I hold a completed Bachelor's Degree and Licentiate in Philosophy from UFPR and a specialization in Clinical Philosophy. The degree is not one of the fields named in the posting. My fit comes from 8+ years of practical experience in marketing, media, sales, facilitation, content, and commercial training, and I prefer to be transparent about the academic equivalence."
+        },
+        {
+          "question": "Are you available to travel?",
+          "answer": "My travel availability is not previously documented and would need alignment on frequency, duration, and notice. I would not commit before confirming the role's specific conditions."
+        },
+        {
+          "question": "What are your salary expectations?",
+          "answer": "My documented Brazilian market expectation is R$15,000 to R$22,000 per month under a contractor model. For CLT employment, I assess the equivalent based on salary, benefits, onsite requirements, and scope. Since no range was published, compatibility needs discussion."
+        }
       ]
     }
   },
   "evidence": {
     "skills": {
-      "pt": ["Sales Enablement Frameworks", "Sales Productivity", "Playbooks & Scripts Comerciais", "Escuta de Calls e Feedback Estruturado", "Organização de Bootcamps e Treinamentos de Alta Escala", "Métricas de Receita, ROI e Conversão"],
-      "en": ["Sales Enablement Frameworks", "Sales Productivity", "Playbooks & Sales Scripts", "Call Listening & Structured Feedback", "High-Scale Bootcamp & Training Organization", "Revenue, ROI, and Conversion Metrics"]
+      "pt": [
+        "Sales Enablement Frameworks",
+        "Sales Productivity",
+        "Playbooks & Scripts Comerciais",
+        "Escuta de Calls e Feedback Estruturado",
+        "Organização de Bootcamps e Treinamentos de Alta Escala",
+        "Métricas de Receita, ROI e Conversão"
+      ],
+      "en": [
+        "Sales Enablement Frameworks",
+        "Sales Productivity",
+        "Playbooks & Sales Scripts",
+        "Call Listening & Structured Feedback",
+        "High-Scale Bootcamp & Training Organization",
+        "Revenue, ROI, and Conversion Metrics"
+      ]
     }
   }
 }

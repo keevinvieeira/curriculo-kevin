@@ -26,7 +26,8 @@
     "graph_limits": [
       "graph_clean.json now models Candidate contact, Education, Certification and Language nodes (derived from master_resume).",
       "Remaining gaps are domain/skill nodes absent from the graph (biopharma, chemistry, Python, etc.)."
-    ]
+    ],
+    "salary_expectation": "A combiner"
   },
   "triage": {
     "decision": "adapt",

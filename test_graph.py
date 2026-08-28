@@ -1,11 +1,13 @@
 import sys
-sys.path.insert(0, r'G:\Meu Drive\Arquivos HD\Kevin\curriculo')
+from pathlib import Path
+ROOT = Path(__file__).resolve().parent
+sys.path.insert(0, str(ROOT))
 from engine.graph_engine import GraphEngine
 from engine import schemas_graph
 
 # Load the migrated graph
 engine = GraphEngine()
-engine.load_json(r'G:\Meu Drive\Arquivos HD\Kevin\curriculo\data\graph_export.json')
+engine.load_json(str(ROOT / 'data' / 'graph_merged.json'))
 engine.print_stats()
 
 # Test queries

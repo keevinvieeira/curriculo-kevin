@@ -1,27 +1,25 @@
 {
-  "company_name": "SandboxAQ",
-  "role_title": "Product & Growth Marketer, AI Simulation",
-  "url": "https://www.sandboxaq.com/careers-list?ashby_jid=42615b29-0fcb-429c-b305-8fa6b1137153",
-  "fit_score": 74,
+  "company_name": "Zicasso",
+  "role_title": "Growth Product Manager",
+  "url": "",
+  "fit_score": 91,
+  "salary_expectation": "USD 4,500-6,500/month (remote Brazil; target: USD 5,500/month)",
   "document_language": "en",
   "available_languages": [
     "pt",
     "en"
   ],
-  "source_status": "GRAPH ONLY. Evidence strictly from graph_clean.json (recovered via sandboxaq-context-pack.json). Contact/education/certifications/languages are NOT in the graph and are left empty by design.",
+  "source_files": [
+    "master_resume.json"
+  ],
   "good_points": [
-    "Sales Enablement & GTM at scale: enabled 150+ marketing pros at Wipro (Meta Project); operation became #1 globally in native-AI CRM adoption growth (+150%, 4->10 prompts/day).",
-    "Demand generation with measured results: 505 qualified leads (Meu Barzin); +250% lead capture (AK Branding); 10,000+ funnel visits / ~R$50k high-ticket (Munzner).",
-    "Translates complex technical capability into buyer value: RAG conversational agent with zero-hallucination rules (Meu Barzin); product feedback loop and cross-functional bridge (Wipro).",
-    "Uses AI tools to expand impact (native AI, n8n, prompt engineering) and measures pipeline with Power BI, ROI and funnel-bottleneck mapping."
+    "Growth Product Management, CRO, testes A/B, discovery, roadmap, backlog e priorização por impacto.",
+    "Google Analytics, Power BI/Tableau, dashboards, tracking, análise de funil e decisões orientadas por hipóteses.",
+    "IA, LLMs, RAG, colaboração com Engenharia/Design/Marketing e experiência internacional em inglês."
   ],
   "improvement_points": [
-    "No life-sciences / chemistry / biopharma / simulation-domain background (graph gap).",
-    "No formal 'Product Marketing' title in the graph; evidence is GTM / Sales Enablement / Product Manager / Growth.",
-    "No Google Ads / Salesforce-HubSpot / Python / newsletter / field-marketing / competitor-research nodes in the graph (gaps)."
-  ],
-  "graph_limits": [
-    "graph_clean.json now models Candidate contact, Education, Certification and Language nodes (derived from master_resume).",
-    "Remaining gaps are domain/skill nodes absent from the graph (biopharma, chemistry, Python, etc.)."
+    "Jira é requisito explícito e ainda não foi confirmado no currículo mestre.",
+    "A experiência funcional em Product Management é forte, mas o período formal com esse título é menor que 3-5 anos.",
+    "Não há experiência direta em travel-tech ou mercado de luxo; Google Analytics está comprovado, mas GA4 não foi especificado."
   ]
 }

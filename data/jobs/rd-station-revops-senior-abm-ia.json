@@ -6,7 +6,10 @@
     "url": "https://br.linkedin.com/jobs/view/analista-de-revops-s%C3%AAnior-abm-ia-rd-station-remoto-at-rd-station-4447168958",
     "fit_score": 85,
     "document_language": "pt",
-    "available_languages": ["pt", "en"],
+    "available_languages": [
+      "pt",
+      "en"
+    ],
     "location": "Brasil",
     "work_model": "Remoto no Brasil",
     "employment_type": "Tempo integral",
@@ -14,7 +17,9 @@
     "salary_expectation": "R$ 15.000-22.000/mês (Brasil/PJ), sujeita ao regime de contratação e pacote total",
     "verified_at": "2026-08-17",
     "source_status": "Anúncio público do LinkedIn acessível e com opção de candidatura quando verificado",
-    "source_files": ["master_resume.json"],
+    "source_files": [
+      "master_resume.json"
+    ],
     "good_points": [
       "Forte aderência em Marketing Ops, GTM, CRM, automação no-code/low-code, n8n, APIs, IA generativa e engenharia de prompts.",
       "Experiência comprovada em ICP, geração de demanda, funis, métricas de receita, análise de gargalos e construção de bases em Supabase/PostgreSQL.",
@@ -104,23 +109,81 @@
         }
       ],
       "skills": [
-        {"category": "RevOps e Growth", "skills": ["Go-to-Market (GTM)", "Estruturação de ICP (Ideal Customer Profile)", "Mapeamento de Gargalos de Funil", "Métricas de Marketing (CTR, CPL, CAC, LTV, Churn, ROAS, MQL→SQL)", "Métricas de Receita, ROI e Conversão"]},
-        {"category": "CRM e Automação", "skills": ["RD Station", "HubSpot", "Salesforce", "Bitrix24", "n8n", "Make", "Integrações via APIs/Webhooks"]},
-        {"category": "IA e Dados", "skills": ["Engenharia de Prompt Profissional", "Implementação de IAs Nativas em Fluxos de Trabalho", "SQL Básico e Exploração de Dados", "Supabase/PostgreSQL", "Business Intelligence (Power BI/Tableau)"]}
+        {
+          "category": "RevOps e Growth",
+          "skills": [
+            "Go-to-Market (GTM)",
+            "Estruturação de ICP (Ideal Customer Profile)",
+            "Mapeamento de Gargalos de Funil",
+            "Métricas de Marketing (CTR, CPL, CAC, LTV, Churn, ROAS, MQL→SQL)",
+            "Métricas de Receita, ROI e Conversão"
+          ]
+        },
+        {
+          "category": "CRM e Automação",
+          "skills": [
+            "RD Station",
+            "HubSpot",
+            "Salesforce",
+            "Bitrix24",
+            "n8n",
+            "Make",
+            "Integrações via APIs/Webhooks"
+          ]
+        },
+        {
+          "category": "IA e Dados",
+          "skills": [
+            "Engenharia de Prompt Profissional",
+            "Implementação de IAs Nativas em Fluxos de Trabalho",
+            "SQL Básico e Exploração de Dados",
+            "Supabase/PostgreSQL",
+            "Business Intelligence (Power BI/Tableau)"
+          ]
+        }
       ],
       "education": [
-        {"institution": "Universidade Federal do Paraná (UFPR)", "degree": "Bacharelado e Licenciatura em Filosofia", "dates": "2018 – 2023"},
-        {"institution": "Recanto da Filosofia Clínica", "degree": "Especialização em Filosofia Clínica", "dates": "Janeiro 2023 – Dezembro 2024"}
+        {
+          "institution": "Universidade Federal do Paraná (UFPR)",
+          "degree": "Bacharelado e Licenciatura em Filosofia",
+          "dates": "2018 – 2023"
+        },
+        {
+          "institution": "Recanto da Filosofia Clínica",
+          "degree": "Especialização em Filosofia Clínica",
+          "dates": "Janeiro 2023 – Dezembro 2024"
+        }
       ],
       "certifications": [
-        {"name": "Google Project Management Professional Certificate", "issuer": "Coursera / Google", "status": "Em andamento"},
-        {"name": "Meta Certified Media Planning Professional", "issuer": "Meta", "status": "Ativo"},
-        {"name": "Meta Certified Digital Marketing Associate", "issuer": "Meta", "status": "Ativo"}
+        {
+          "name": "Google Project Management Professional Certificate",
+          "issuer": "Coursera / Google",
+          "status": "Em andamento"
+        },
+        {
+          "name": "Meta Certified Media Planning Professional",
+          "issuer": "Meta",
+          "status": "Ativo"
+        },
+        {
+          "name": "Meta Certified Digital Marketing Associate",
+          "issuer": "Meta",
+          "status": "Ativo"
+        }
       ],
       "languages": [
-        {"language": "Português", "proficiency": "Nativo"},
-        {"language": "Inglês", "proficiency": "Avançado / Profissional; uso diário corporativo para relatórios, coordenação internacional e alinhamento de stakeholders"},
-        {"language": "Espanhol", "proficiency": "Básico"}
+        {
+          "language": "Português",
+          "proficiency": "Nativo"
+        },
+        {
+          "language": "Inglês",
+          "proficiency": "Avançado / Profissional; uso diário corporativo para relatórios, coordenação internacional e alinhamento de stakeholders"
+        },
+        {
+          "language": "Espanhol",
+          "proficiency": "Básico"
+        }
       ],
       "additional_information": []
     },
@@ -180,23 +243,81 @@
         }
       ],
       "skills": [
-        {"category": "RevOps and Growth", "skills": ["Go-to-Market (GTM)", "ICP (Ideal Customer Profile) Mapping", "Funnel Bottleneck Mapping", "Marketing Metrics (CTR, CPL, CAC, LTV, Churn, ROAS, MQL→SQL)", "Revenue, ROI, and Conversion Metrics"]},
-        {"category": "CRM and Automation", "skills": ["RD Station", "HubSpot", "Salesforce", "Bitrix24", "n8n", "Make", "API/Webhook Integrations"]},
-        {"category": "AI and Data", "skills": ["Professional Prompt Engineering", "Native AI Implementation in Workflows", "Basic SQL and Data Exploration", "Supabase/PostgreSQL", "Business Intelligence (Power BI/Tableau)"]}
+        {
+          "category": "RevOps and Growth",
+          "skills": [
+            "Go-to-Market (GTM)",
+            "ICP (Ideal Customer Profile) Mapping",
+            "Funnel Bottleneck Mapping",
+            "Marketing Metrics (CTR, CPL, CAC, LTV, Churn, ROAS, MQL→SQL)",
+            "Revenue, ROI, and Conversion Metrics"
+          ]
+        },
+        {
+          "category": "CRM and Automation",
+          "skills": [
+            "RD Station",
+            "HubSpot",
+            "Salesforce",
+            "Bitrix24",
+            "n8n",
+            "Make",
+            "API/Webhook Integrations"
+          ]
+        },
+        {
+          "category": "AI and Data",
+          "skills": [
+            "Professional Prompt Engineering",
+            "Native AI Implementation in Workflows",
+            "Basic SQL and Data Exploration",
+            "Supabase/PostgreSQL",
+            "Business Intelligence (Power BI/Tableau)"
+          ]
+        }
       ],
       "education": [
-        {"institution": "Universidade Federal do Paraná (UFPR)", "degree": "Bachelor's Degree and Licentiate in Philosophy", "dates": "2018 – 2023"},
-        {"institution": "Recanto da Filosofia Clínica", "degree": "Specialization in Clinical Philosophy", "dates": "January 2023 – December 2024"}
+        {
+          "institution": "Universidade Federal do Paraná (UFPR)",
+          "degree": "Bachelor's Degree and Licentiate in Philosophy",
+          "dates": "2018 – 2023"
+        },
+        {
+          "institution": "Recanto da Filosofia Clínica",
+          "degree": "Specialization in Clinical Philosophy",
+          "dates": "January 2023 – December 2024"
+        }
       ],
       "certifications": [
-        {"name": "Google Project Management Professional Certificate", "issuer": "Coursera / Google", "status": "In progress"},
-        {"name": "Meta Certified Media Planning Professional", "issuer": "Meta", "status": "Active"},
-        {"name": "Meta Certified Digital Marketing Associate", "issuer": "Meta", "status": "Active"}
+        {
+          "name": "Google Project Management Professional Certificate",
+          "issuer": "Coursera / Google",
+          "status": "In progress"
+        },
+        {
+          "name": "Meta Certified Media Planning Professional",
+          "issuer": "Meta",
+          "status": "Active"
+        },
+        {
+          "name": "Meta Certified Digital Marketing Associate",
+          "issuer": "Meta",
+          "status": "Active"
+        }
       ],
       "languages": [
-        {"language": "Portuguese", "proficiency": "Native"},
-        {"language": "English", "proficiency": "Advanced / Professional Full Proficiency; daily corporate use for technical reporting, international coordination, and stakeholder alignment"},
-        {"language": "Spanish", "proficiency": "Basic"}
+        {
+          "language": "Portuguese",
+          "proficiency": "Native"
+        },
+        {
+          "language": "English",
+          "proficiency": "Advanced / Professional Full Proficiency; daily corporate use for technical reporting, international coordination, and stakeholder alignment"
+        },
+        {
+          "language": "Spanish",
+          "proficiency": "Basic"
+        }
       ],
       "additional_information": []
     }
@@ -205,28 +326,78 @@
     "pt": {
       "cover_letter": "Olá, time da RD Station!\n\nA interseção entre RevOps, automação e IA corresponde ao eixo central da minha experiência. No Projeto Meta, pela Wipro, liderei a ativação da IA no CRM com onboarding, playbooks e coaching, elevando o uso em 150% e tornando a operação a primeira global em crescimento de adoção. Também converti atualizações de produto, dados e escuta de calls em ações de Sales Excellence para mais de 150 profissionais.\n\nNo Meu Barzin, desenhei fluxos com n8n, RAG, APIs e Supabase/PostgreSQL, estruturei ICP e prospecção B2B, captei 505 leads e usei análise de funil para identificar falta de densidade de parceiros e 43,9% de abandono na primeira mensagem. Na Munzner, uma automação de CRM em 10 etapas atraiu 10.000+ acessos e gerou aproximadamente R$ 50 mil.\n\nPosso contribuir com mapeamento de processos, agentes e workflows, integração de dados, CRM e mensuração de pipeline. Não apresento experiência formal em ABM, Apollo ou ZoomInfo; minha base transferível está em ICP, personalização, prospecção, automação, dados e execução de GTM orientada a resultados.\n\nKevin Augusto Vieira",
       "form_answers": [
-        {"question": "Descreva um processo de RevOps que você automatizou.", "answer": "Na Munzner, estruturei um funil automatizado de 10 etapas em Bitrix24 e Sendpulse, conectando conteúdo, nurturing e CRM. O fluxo atraiu mais de 10.000 acessos, converteu aproximadamente 10 matrículas de R$ 5.000 e gerou cerca de R$ 50 mil em receita."},
-        {"question": "Como você utiliza IA generativa e agentes em operações?", "answer": "Uso LLMs, engenharia de prompts, n8n, APIs, RAG e bancos de dados para desenhar fluxos e protótipos. No Projeto Meta, conduzi a adoção da IA nativa no CRM e elevei o uso em 150%. No Meu Barzin, construí um agente conversacional com regras de alucinação zero e base de quase 200 estabelecimentos."},
-        {"question": "Qual é sua experiência com ABM e enriquecimento de dados?", "answer": "Não liderei um programa formal de ABM nem usei Apollo ou ZoomInfo em produção. Minha experiência transferível inclui estruturação de ICP, prospecção B2B, segmentação, personalização de mensagens, web scraping, higienização de dados, CRM, automações e análise de sinais de comportamento e conversão."},
-        {"question": "Qual é sua experiência com Salesforce e SQL?", "answer": "Salesforce está no meu repertório, mas não exerci administração da plataforma nem ownership comprovado de pipeline nela. Meu SQL é básico, voltado à exploração de dados. Trabalhei de forma prática com modelagem, organização e exploração em Supabase/PostgreSQL, sem alegar SQL avançado."},
-        {"question": "Como você identifica gargalos de pipeline?", "answer": "Defino etapas, eventos e métricas, combino dados de CRM e canais com feedback qualitativo e uso análise de causa raiz. No Meu Barzin, esse processo revelou 43,9% de abandono na primeira mensagem e baixa densidade de parceiros; na Wipro, calls, qualidade e dashboards orientaram planos corretivos."}
+        {
+          "question": "Descreva um processo de RevOps que você automatizou.",
+          "answer": "Na Munzner, estruturei um funil automatizado de 10 etapas em Bitrix24 e Sendpulse, conectando conteúdo, nurturing e CRM. O fluxo atraiu mais de 10.000 acessos, converteu aproximadamente 10 matrículas de R$ 5.000 e gerou cerca de R$ 50 mil em receita."
+        },
+        {
+          "question": "Como você utiliza IA generativa e agentes em operações?",
+          "answer": "Uso LLMs, engenharia de prompts, n8n, APIs, RAG e bancos de dados para desenhar fluxos e protótipos. No Projeto Meta, conduzi a adoção da IA nativa no CRM e elevei o uso em 150%. No Meu Barzin, construí um agente conversacional com regras de alucinação zero e base de quase 200 estabelecimentos."
+        },
+        {
+          "question": "Qual é sua experiência com ABM e enriquecimento de dados?",
+          "answer": "Não liderei um programa formal de ABM nem usei Apollo ou ZoomInfo em produção. Minha experiência transferível inclui estruturação de ICP, prospecção B2B, segmentação, personalização de mensagens, web scraping, higienização de dados, CRM, automações e análise de sinais de comportamento e conversão."
+        },
+        {
+          "question": "Qual é sua experiência com Salesforce e SQL?",
+          "answer": "Salesforce está no meu repertório, mas não exerci administração da plataforma nem ownership comprovado de pipeline nela. Meu SQL é básico, voltado à exploração de dados. Trabalhei de forma prática com modelagem, organização e exploração em Supabase/PostgreSQL, sem alegar SQL avançado."
+        },
+        {
+          "question": "Como você identifica gargalos de pipeline?",
+          "answer": "Defino etapas, eventos e métricas, combino dados de CRM e canais com feedback qualitativo e uso análise de causa raiz. No Meu Barzin, esse processo revelou 43,9% de abandono na primeira mensagem e baixa densidade de parceiros; na Wipro, calls, qualidade e dashboards orientaram planos corretivos."
+        }
       ]
     },
     "en": {
       "cover_letter": "Hello RD Station team,\n\nThe intersection of RevOps, automation, and AI is central to my experience. At Wipro on the Meta Project, I led CRM AI activation through onboarding, playbooks, and coaching, increasing usage by 150% and making the operation #1 globally for adoption growth. I also translated product updates, data, and call insights into Sales Excellence actions for 150+ professionals.\n\nAt Meu Barzin, I designed workflows using n8n, RAG, APIs, and Supabase/PostgreSQL, structured ICP and B2B prospecting, captured 505 leads, and used funnel analysis to identify insufficient partner density and 43.9% first-message dropout. At Munzner, a 10-stage CRM automation attracted 10,000+ visits and generated approximately R$50,000.\n\nI can contribute process mapping, AI agents and workflows, data integration, CRM, and pipeline measurement. I do not claim formal ABM, Apollo, or ZoomInfo experience; my transferable foundation is ICP development, personalization, prospecting, automation, data, and results-oriented GTM execution.\n\nKevin Augusto Vieira",
       "form_answers": [
-        {"question": "Describe a RevOps process you automated.", "answer": "At Munzner, I built a 10-stage automated funnel in Bitrix24 and Sendpulse connecting content, nurturing, and CRM. The flow attracted 10,000+ visits, converted approximately 10 enrollments at R$5,000 each, and generated about R$50,000 in revenue."},
-        {"question": "How do you use generative AI and agents in operations?", "answer": "I use LLMs, prompt engineering, n8n, APIs, RAG, and databases to design workflows and prototypes. On the Meta Project, I drove native CRM AI adoption and increased usage by 150%. At Meu Barzin, I built a conversational agent with zero-hallucination rules and data from nearly 200 establishments."},
-        {"question": "What is your ABM and data-enrichment experience?", "answer": "I have not led a formal ABM program or used Apollo or ZoomInfo in production. My transferable experience includes ICP development, B2B prospecting, segmentation, message personalization, web scraping, data cleansing, CRM, automation, and analysis of behavioral and conversion signals."},
-        {"question": "What is your Salesforce and SQL experience?", "answer": "Salesforce is part of my skills profile, but I have not administered the platform or owned a pipeline in it. My SQL is basic and focused on data exploration. I have practical experience modeling, organizing, and exploring data in Supabase/PostgreSQL, without claiming advanced SQL."},
-        {"question": "How do you identify pipeline bottlenecks?", "answer": "I define stages, events, and metrics, combine CRM and channel data with qualitative feedback, and apply root-cause analysis. At Meu Barzin, this revealed 43.9% first-message dropout and insufficient partner density; at Wipro, calls, quality data, and dashboards guided corrective plans."}
+        {
+          "question": "Describe a RevOps process you automated.",
+          "answer": "At Munzner, I built a 10-stage automated funnel in Bitrix24 and Sendpulse connecting content, nurturing, and CRM. The flow attracted 10,000+ visits, converted approximately 10 enrollments at R$5,000 each, and generated about R$50,000 in revenue."
+        },
+        {
+          "question": "How do you use generative AI and agents in operations?",
+          "answer": "I use LLMs, prompt engineering, n8n, APIs, RAG, and databases to design workflows and prototypes. On the Meta Project, I drove native CRM AI adoption and increased usage by 150%. At Meu Barzin, I built a conversational agent with zero-hallucination rules and data from nearly 200 establishments."
+        },
+        {
+          "question": "What is your ABM and data-enrichment experience?",
+          "answer": "I have not led a formal ABM program or used Apollo or ZoomInfo in production. My transferable experience includes ICP development, B2B prospecting, segmentation, message personalization, web scraping, data cleansing, CRM, automation, and analysis of behavioral and conversion signals."
+        },
+        {
+          "question": "What is your Salesforce and SQL experience?",
+          "answer": "Salesforce is part of my skills profile, but I have not administered the platform or owned a pipeline in it. My SQL is basic and focused on data exploration. I have practical experience modeling, organizing, and exploring data in Supabase/PostgreSQL, without claiming advanced SQL."
+        },
+        {
+          "question": "How do you identify pipeline bottlenecks?",
+          "answer": "I define stages, events, and metrics, combine CRM and channel data with qualitative feedback, and apply root-cause analysis. At Meu Barzin, this revealed 43.9% first-message dropout and insufficient partner density; at Wipro, calls, quality data, and dashboards guided corrective plans."
+        }
       ]
     }
   },
   "evidence": {
     "skills": {
-      "pt": ["Go-to-Market (GTM)", "Estruturação de ICP (Ideal Customer Profile)", "Mapeamento de Gargalos de Funil", "Métricas de Receita, ROI e Conversão", "RD Station", "n8n", "Integrações via APIs/Webhooks", "Engenharia de Prompt Profissional", "SQL Básico e Exploração de Dados"],
-      "en": ["Go-to-Market (GTM)", "ICP (Ideal Customer Profile) Mapping", "Funnel Bottleneck Mapping", "Revenue, ROI, and Conversion Metrics", "RD Station", "n8n", "API/Webhook Integrations", "Professional Prompt Engineering", "Basic SQL and Data Exploration"]
+      "pt": [
+        "Go-to-Market (GTM)",
+        "Estruturação de ICP (Ideal Customer Profile)",
+        "Mapeamento de Gargalos de Funil",
+        "Métricas de Receita, ROI e Conversão",
+        "RD Station",
+        "n8n",
+        "Integrações via APIs/Webhooks",
+        "Engenharia de Prompt Profissional",
+        "SQL Básico e Exploração de Dados"
+      ],
+      "en": [
+        "Go-to-Market (GTM)",
+        "ICP (Ideal Customer Profile) Mapping",
+        "Funnel Bottleneck Mapping",
+        "Revenue, ROI, and Conversion Metrics",
+        "RD Station",
+        "n8n",
+        "API/Webhook Integrations",
+        "Professional Prompt Engineering",
+        "Basic SQL and Data Exploration"
+      ]
     }
   }
 }

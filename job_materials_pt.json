@@ -1,17 +1,21 @@
 {
-  "cover_letter": "Prezada equipe de contratação da SandboxAQ,\n\nCandidato-me à vaga de Product & Growth Marketer, AI Simulation. Minha trajetória é construir programas de go-to-market, sales enablement e geração de demanda que traduzem capacidade técnica complexa em valor comercial — diretamente relevante para posicionar os Large Quantum Models da AISim para compradores científicos.\n\ncapacitei 150+ profissionais de marketing e tornei a operação #1 global em crescimento de adoção de IA nativa no CRM (+150%, 4->10 prompts/dia), liderando o Next Level Bootcamp que reduziu o ramp-up em 50%. No Meu Barzin capturei 505 leads qualificados e arquiteturei um agente conversacional com RAG e regras de alucinação zero. Na Munzner e AK Branding construí funis de nutrição automatizados (10.000+ acessos, ~R$ 50k em receita high-ticket; +250% na captação de leads) e conteúdo inbound/SEO (~1.000 visitas orgânicas). Uso ferramentas de IA (IA nativa, n8n, prompt engineering) e mensuro pipeline com Power BI, ROI e mapeamento de gargalos de funil.\n\nSou transparente quanto a uma lacuna: ainda não tenho profundidade em ciências da vida, química ou domínio de simulação. O que trago é a habilidade transferível de transformar capacidade técnica em narrativa voltada ao comprador — exatamente a ponte que a AISim precisa. Apoiaria as equipes de ciência e produto e evoluiria rápido no domínio.\n\nObrigado pela oportunidade.\n\nAtenciosamente,\nKevin Augusto Vieira",
+  "cover_letter": "Olá, time da Zicasso!\n\nA jornada discovery-to-request é um desafio de produto especialmente interessante: cada melhoria precisa aumentar a conversão sem transformar uma experiência premium em uma transação genérica. É exatamente nesse equilíbrio entre comportamento do usuário, UX, experimentação e resultado que construí minha experiência em Growth.\n\nNo Meu Barzin, conduzi discovery e análise de funil para um produto conversacional com IA. Os dados mostraram 43,9% de abandono na primeira mensagem e ajudaram a priorizar densidade de parceiros e latência como gargalos críticos. Na AK Branding, planejei testes A/B em landing pages, mensagens, anúncios e interações; melhorias de UX e chatbot elevaram leads de 8 para 20-30 por mês (+250%).\n\nNa Wipro, no Projeto Meta, trabalhei em squad com roadmap, backlog, OKRs e stakeholders globais. Também tive ownership da adoção de IA no CRM, elevando o uso em 150%, e usei Power BI, Excel e feedback qualitativo para orientar decisões.\n\nQuero aplicar essa combinação de CRO, produto, dados e IA para tornar a jornada da Zicasso ainda mais pessoal, inspiradora e eficiente. Tenho disponibilidade para trabalhar até 3 PM PT.\n\nKevin Augusto Vieira",
   "form_answers": [
     {
-      "question": "Por que tem interesse na SandboxAQ / AISim?",
-      "answer": "Porque os Large Quantum Models da AISim resolvem problemas científicos difíceis (descoberta de fármacos, materiais, química) e eu especializo-me em transformar esse tipo de capacidade técnica complexa em valor para o comprador via GTM, enablement e conteúdo — a ponte comercial exata que a vaga descreve."
+      "question": "Conte sobre um experimento de CRO que gerou resultado.",
+      "answer": "Na AK Branding, planejei testes A/B em landing pages, mensagens, anúncios e fluxos de UX para validar hipóteses de aquisição e conversão. Em um dos contextos, a combinação de UX e chatbot elevou a captação de 8 para 20-30 leads por mês (+250%). Minha abordagem é definir hipótese, métrica, segmento, janela de análise e critério para escalar, ajustar ou encerrar."
     },
     {
-      "question": "Descreva uma campanha ou programa que você construiu de ponta a ponta.",
-      "answer": "Na Wipro (Projeto Meta) idealizei e liderei o Next Level Bootcamp para 12 Meta Marketing Pros, reduzindo o ramp-up em 50% e com 100% de conclusão, tornando a operação #1 global em adoção de IA nativa no CRM (+150%). Era dono das ativações de enablement, estratégia de adoção e posicionamento tático de produto."
+      "question": "Como você prioriza um backlog de Growth?",
+      "answer": "Combino impacto esperado, confiança da evidência, esforço, dependências e risco para a experiência. No Projeto Meta, trabalhei em squad com roadmap, backlog e OKRs, priorizando demandas de clientes, gestores, produto e qualidade. No Meu Barzin, dados de funil e entrevistas ajudaram a priorizar gargalos que bloqueavam a conversão."
     },
     {
-      "question": "Como você mensura a performance de marketing?",
-      "answer": "Acompanho canais, caminhos de aquisição e dados de CRM para avaliar conversão, receita e ROI de funil, usando Power BI e dashboards Excel. Na Munzner isso guiou um funil automatizado de 10 etapas (~R$ 50k em receita high-ticket, 10.000+ acessos); na AK Branding elevou a captação de leads em +250%."
+      "question": "Como você combina pesquisa qualitativa e dados quantitativos?",
+      "answer": "Uso dados para localizar o problema e pesquisa para entender por que ele acontece. No Meu Barzin, a análise revelou 43,9% de abandono na primeira mensagem; entrevistas e observação mostraram que densidade de parceiros e latência de API prejudicavam a experiência. Essa combinação orientou as prioridades do produto."
+    },
+    {
+      "question": "Como você utiliza IA no trabalho de produto?",
+      "answer": "Uso LLMs para pesquisa, síntese, documentação, prototipagem e automação. No Meu Barzin, desenhei um produto conversacional com RAG, n8n e Supabase, com regras de alucinação zero. Na Wipro, tive ownership da ativação de IA no CRM, elevando o uso de 4 para 10 prompts por consultor (+150%)."
     }
   ]
 }

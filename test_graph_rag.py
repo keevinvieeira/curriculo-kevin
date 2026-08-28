@@ -1,12 +1,14 @@
 import sys
-sys.path.insert(0, r'G:\Meu Drive\Arquivos HD\Kevin\curriculo')
+from pathlib import Path
+ROOT = Path(__file__).resolve().parent
+sys.path.insert(0, str(ROOT))
 
 from engine.graph_rag import GraphRAGRetriever, MatchEngine, run_full_analysis
 from engine.graph_engine import GraphEngine
 
-# Load merged graph
+# Load graph
 engine = GraphEngine()
-engine.load_json(r'G:\Meu Drive\Arquivos HD\Kevin\curriculo\data\graph_merged.json')
+engine.load_json(str(ROOT / 'data' / 'graph_merged.json'))
 print(f"Graph loaded: {engine.stats()['total_nodes']} nodes, {engine.stats()['total_edges']} edges")
 
 # Find a job posting (should be none yet - need to create one via pipeline)

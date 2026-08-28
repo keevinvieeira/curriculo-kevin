@@ -1,43 +1,336 @@
 {
   "id": "nuvemshop-sales-partner-enablement-specialist",
   "metadata": {
-    "company_name": "Nuvemshop", "role_title": "Sales & Partner Enablement Specialist", "url": "https://nuvemshop-tiendanube.inhire.app/vagas/6e8df598-d13a-4000-9807-1f2eaac76aa4/sales-&-partner-enablement-specialist", "fit_score": 94,
-    "salary_expectation": "Faixa salarial não informada pela Nuvemshop", "document_language": "pt", "available_languages": ["pt", "en"], "location": "Brasil", "work_model": "Remote-first dentro do país de contratação", "employment_type": "CLT", "listing_status": "Published", "published_at": "2026-06-05T18:29:46.725Z", "last_published_at": "2026-07-28T14:31:46.120Z", "fetched_at": "2026-08-17T23:05:28-03:00", "application_deadline": null, "source_files": ["master_resume.json"],
-    "good_points": ["Experiência direta em Sales Enablement, playbooks, coaching, escuta de calls e metodologias comerciais.", "Bootcamp comprovado com redução de ramp-up em 50%, 100% de conclusão e 90% de satisfação.", "Inglês avançado profissional, gestão de stakeholders e análise de performance com Power BI e Excel."],
-    "improvement_points": ["Gong e outras plataformas de conversational intelligence não estão comprovados no currículo mestre.", "Espanhol está documentado como básico, não como proficiente.", "A faixa salarial não foi informada; compatibilidade deve ser confirmada."]
+    "company_name": "Nuvemshop",
+    "role_title": "Sales & Partner Enablement Specialist",
+    "url": "https://nuvemshop-tiendanube.inhire.app/vagas/6e8df598-d13a-4000-9807-1f2eaac76aa4/sales-&-partner-enablement-specialist",
+    "fit_score": 94,
+    "salary_expectation": "Faixa salarial não informada pela Nuvemshop",
+    "document_language": "pt",
+    "available_languages": [
+      "pt",
+      "en"
+    ],
+    "location": "Brasil",
+    "work_model": "Remote-first dentro do país de contratação",
+    "employment_type": "CLT",
+    "listing_status": "Published",
+    "published_at": "2026-06-05T18:29:46.725Z",
+    "last_published_at": "2026-07-28T14:31:46.120Z",
+    "fetched_at": "2026-08-17T23:05:28-03:00",
+    "application_deadline": null,
+    "source_files": [
+      "master_resume.json"
+    ],
+    "good_points": [
+      "Experiência direta em Sales Enablement, playbooks, coaching, escuta de calls e metodologias comerciais.",
+      "Bootcamp comprovado com redução de ramp-up em 50%, 100% de conclusão e 90% de satisfação.",
+      "Inglês avançado profissional, gestão de stakeholders e análise de performance com Power BI e Excel."
+    ],
+    "improvement_points": [
+      "Gong e outras plataformas de conversational intelligence não estão comprovados no currículo mestre.",
+      "Espanhol está documentado como básico, não como proficiente.",
+      "A faixa salarial não foi informada; compatibilidade deve ser confirmada."
+    ]
   },
-  "triage": {"decision": "adapt", "fit_score": 94, "blockers": [], "deadline": "Não informada", "notes": ["Aderência direta à missão de elevar autonomia e performance de BDRs, SDRs, AEs e parceiros por treinamento e coaching.", "Remote-first no Brasil é compatível com a localização documentada.", "Remuneração desconhecida; validar no processo."], "gaps": ["Sem uso documentado de Gong ou ferramenta formal de conversational intelligence.", "Espanhol básico.", "Sem administração formal documentada de LMS, embora haja lançamento de curso em MasterStudy LMS/WordPress."]},
+  "triage": {
+    "decision": "adapt",
+    "fit_score": 94,
+    "blockers": [],
+    "deadline": "Não informada",
+    "notes": [
+      "Aderência direta à missão de elevar autonomia e performance de BDRs, SDRs, AEs e parceiros por treinamento e coaching.",
+      "Remote-first no Brasil é compatível com a localização documentada.",
+      "Remuneração desconhecida; validar no processo."
+    ],
+    "gaps": [
+      "Sem uso documentado de Gong ou ferramenta formal de conversational intelligence.",
+      "Espanhol básico.",
+      "Sem administração formal documentada de LMS, embora haja lançamento de curso em MasterStudy LMS/WordPress."
+    ]
+  },
   "resume": {
     "pt": {
-      "name": "Kevin Augusto Vieira", "location": "Curitiba, PR | Remoto no Brasil", "phone": "+55 (41) 99694-1615", "email": "kevin.aug.vieira@gmail.com", "linkedin": "https://www.linkedin.com/in/kevin-augusto/", "github": "", "website": "",
+      "name": "Kevin Augusto Vieira",
+      "location": "Curitiba, PR | Remoto no Brasil",
+      "phone": "+55 (41) 99694-1615",
+      "email": "kevin.aug.vieira@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/kevin-augusto/",
+      "github": "",
+      "website": "",
       "summary": "Especialista em Sales Enablement e GTM com mais de 8 anos de experiência em treinamento, coaching, playbooks, produtividade comercial e análise de performance. Na Wipro, no Projeto Meta, liderou Sales Excellence e Sales Productivity, capacitou mais de 150 profissionais e aplicou escuta de calls, feedback estruturado e análise de causa raiz. Idealizou um bootcamp que reduziu o ramp-up de 6 para 3 meses (-50%), com 100% de conclusão, 90%+ de qualidade e 90% de satisfação. Combina gestão de stakeholders, inteligência de dados e facilitação para transformar atualizações de produto e padrões de conversas em mudanças mensuráveis de comportamento.",
       "experience": [
-        {"company": "Wipro", "role": "Especialista em Sales Enablement, GTM e Produtividade Comercial (Projeto Meta)", "dates": "Setembro 2024 – Julho 2026", "location": "Curitiba, PR", "bullets": ["Liderou Sales Excellence e Sales Productivity, traduzindo produtos em propostas de valor, pitches, scripts e frameworks para a linha de frente.", "Capacitou mais de 150 Meta Marketing Pros e conduziu escuta de calls, monitoria e feedback estruturado focado em performance.", "Criou playbooks e planos corretivos por análise de causa raiz e alinhou produto, qualidade, liderança e consultoria.", "Idealizou bootcamp para 12 consultores, reduzindo ramp-up de 6 para 3 meses, com 100% de conclusão, 90%+ de qualidade e 90% de satisfação."]},
-        {"company": "Meu Barzin (Startup)", "role": "Product e Business Development Manager", "dates": "Dezembro 2025 – Março 2026", "location": "Curitiba, PR", "bullets": ["Liderou prospecção e pitches B2B, fechando parcerias relevantes para o piloto.", "Mapeou funil e entrevistas para identificar barreiras de conversão e orientar prioridades."]},
-        {"company": "AK Branding & Web Design", "role": "Consultor de Projetos de Marketing e Clientes", "dates": "Março 2019 – Setembro 2024", "location": "Curitiba, PR", "bullets": ["Conduziu mais de 40 projetos para PMEs, gerenciando relacionamento, escopo, orçamento, cronograma e entregas.", "Criou jornadas e chatbots que elevaram leads de 8 para 20-30 por mês (+250%)."]},
-        {"company": "Munzner", "role": "Especialista em Marketing, Conteúdo e Aprendizagem Digital", "dates": "Outubro 2018 – Agosto 2024", "location": "Curitiba, PR", "bullets": ["Idealizou e lançou o primeiro curso digital da empresa em MasterStudy LMS/WordPress, com 50 vendas em 2 meses.", "Aplicou Thinking Environment à facilitação, escuta e construção de narrativas técnicas."]}
+        {
+          "company": "Wipro",
+          "role": "Especialista em Sales Enablement, GTM e Produtividade Comercial (Projeto Meta)",
+          "dates": "Setembro 2024 – Julho 2026",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Liderou Sales Excellence e Sales Productivity, traduzindo produtos em propostas de valor, pitches, scripts e frameworks para a linha de frente.",
+            "Capacitou mais de 150 Meta Marketing Pros e conduziu escuta de calls, monitoria e feedback estruturado focado em performance.",
+            "Criou playbooks e planos corretivos por análise de causa raiz e alinhou produto, qualidade, liderança e consultoria.",
+            "Idealizou bootcamp para 12 consultores, reduzindo ramp-up de 6 para 3 meses, com 100% de conclusão, 90%+ de qualidade e 90% de satisfação."
+          ]
+        },
+        {
+          "company": "Meu Barzin (Startup)",
+          "role": "Product e Business Development Manager",
+          "dates": "Dezembro 2025 – Março 2026",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Liderou prospecção e pitches B2B, fechando parcerias relevantes para o piloto.",
+            "Mapeou funil e entrevistas para identificar barreiras de conversão e orientar prioridades."
+          ]
+        },
+        {
+          "company": "AK Branding & Web Design",
+          "role": "Consultor de Projetos de Marketing e Clientes",
+          "dates": "Março 2019 – Setembro 2024",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Conduziu mais de 40 projetos para PMEs, gerenciando relacionamento, escopo, orçamento, cronograma e entregas.",
+            "Criou jornadas e chatbots que elevaram leads de 8 para 20-30 por mês (+250%)."
+          ]
+        },
+        {
+          "company": "Munzner",
+          "role": "Especialista em Marketing, Conteúdo e Aprendizagem Digital",
+          "dates": "Outubro 2018 – Agosto 2024",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Idealizou e lançou o primeiro curso digital da empresa em MasterStudy LMS/WordPress, com 50 vendas em 2 meses.",
+            "Aplicou Thinking Environment à facilitação, escuta e construção de narrativas técnicas."
+          ]
+        }
       ],
-      "skills": [{"category": "Enablement", "skills": ["Sales Enablement Frameworks", "Sales Productivity", "Escuta de Calls e Feedback Estruturado", "Playbooks & Scripts Comerciais", "Organização de Bootcamps e Treinamentos de Alta Escala"]}, {"category": "Dados e Liderança", "skills": ["Gestão de Stakeholders", "Análise de Causa Raiz", "Business Intelligence (Power BI/Tableau)", "Excel Avançado", "Framework OCIR"]}],
-      "education": [{"institution": "Universidade Federal do Paraná (UFPR)", "degree": "Bacharelado e Licenciatura em Filosofia", "dates": "2018 – 2023"}], "certifications": [{"name": "Facilitador de Thinking Environment", "issuer": "Munzner", "status": "Maio 2020"}],
-      "languages": [{"language": "Português", "proficiency": "Nativo"}, {"language": "Inglês", "proficiency": "Avançado / profissional; uso diário corporativo"}, {"language": "Espanhol", "proficiency": "Básico"}], "additional_information": []
+      "skills": [
+        {
+          "category": "Enablement",
+          "skills": [
+            "Sales Enablement Frameworks",
+            "Sales Productivity",
+            "Escuta de Calls e Feedback Estruturado",
+            "Playbooks & Scripts Comerciais",
+            "Organização de Bootcamps e Treinamentos de Alta Escala"
+          ]
+        },
+        {
+          "category": "Dados e Liderança",
+          "skills": [
+            "Gestão de Stakeholders",
+            "Análise de Causa Raiz",
+            "Business Intelligence (Power BI/Tableau)",
+            "Excel Avançado",
+            "Framework OCIR"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "Universidade Federal do Paraná (UFPR)",
+          "degree": "Bacharelado e Licenciatura em Filosofia",
+          "dates": "2018 – 2023"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "Facilitador de Thinking Environment",
+          "issuer": "Munzner",
+          "status": "Maio 2020"
+        }
+      ],
+      "languages": [
+        {
+          "language": "Português",
+          "proficiency": "Nativo"
+        },
+        {
+          "language": "Inglês",
+          "proficiency": "Avançado / profissional; uso diário corporativo"
+        },
+        {
+          "language": "Espanhol",
+          "proficiency": "Básico"
+        }
+      ],
+      "additional_information": []
     },
     "en": {
-      "name": "Kevin Augusto Vieira", "location": "Curitiba, PR, Brazil | Remote", "phone": "+55 (41) 99694-1615", "email": "kevin.aug.vieira@gmail.com", "linkedin": "https://www.linkedin.com/in/kevin-augusto/", "github": "", "website": "",
+      "name": "Kevin Augusto Vieira",
+      "location": "Curitiba, PR, Brazil | Remote",
+      "phone": "+55 (41) 99694-1615",
+      "email": "kevin.aug.vieira@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/kevin-augusto/",
+      "github": "",
+      "website": "",
       "summary": "Sales Enablement and GTM Specialist with 8+ years of experience in training, coaching, playbooks, sales productivity, and performance analysis. At Wipro on the Meta Project, led Sales Excellence and Sales Productivity, enabled 150+ professionals, and applied call listening, structured feedback, and root-cause analysis. Designed a bootcamp that reduced ramp-up from 6 to 3 months (-50%), with 100% completion, 90%+ quality, and 90% satisfaction. Combines stakeholder management, data intelligence, and facilitation to turn product updates and conversation patterns into measurable behavior change.",
       "experience": [
-        {"company": "Wipro", "role": "Sales Enablement, GTM, and Sales Productivity Specialist (Meta Project)", "dates": "September 2024 – July 2026", "location": "Curitiba, Brazil", "bullets": ["Led Sales Excellence and Sales Productivity, translating products into value propositions, pitches, scripts, and frontline frameworks.", "Enabled 150+ Meta Marketing Pros and conducted call listening, monitoring, and structured performance feedback.", "Built playbooks and corrective plans through root-cause analysis and aligned product, quality, leadership, and consulting stakeholders.", "Designed a bootcamp for 12 consultants, reducing ramp-up from 6 to 3 months with 100% completion, 90%+ quality, and 90% satisfaction."]},
-        {"company": "Meu Barzin (Startup)", "role": "Product and Business Development Manager", "dates": "December 2025 – March 2026", "location": "Curitiba, Brazil", "bullets": ["Led B2B prospecting and partner pitches, securing relevant pilot partnerships.", "Mapped funnels and interviews to identify conversion barriers and guide priorities."]},
-        {"company": "AK Branding & Web Design", "role": "Marketing Projects and Client Consultant", "dates": "March 2019 – September 2024", "location": "Curitiba, Brazil", "bullets": ["Delivered 40+ SMB projects, managing client relationships, scope, budgets, timelines, and delivery.", "Built journeys and chatbots that increased leads from 8 to 20-30 per month (+250%)."]},
-        {"company": "Munzner", "role": "Marketing, Content, and Digital Learning Specialist", "dates": "October 2018 – August 2024", "location": "Curitiba, Brazil", "bullets": ["Designed and launched the company's first digital course in MasterStudy LMS/WordPress, securing 50 sales in 2 months.", "Applied Thinking Environment to facilitation, listening, and technical narratives."]}
+        {
+          "company": "Wipro",
+          "role": "Sales Enablement, GTM, and Sales Productivity Specialist (Meta Project)",
+          "dates": "September 2024 – July 2026",
+          "location": "Curitiba, Brazil",
+          "bullets": [
+            "Led Sales Excellence and Sales Productivity, translating products into value propositions, pitches, scripts, and frontline frameworks.",
+            "Enabled 150+ Meta Marketing Pros and conducted call listening, monitoring, and structured performance feedback.",
+            "Built playbooks and corrective plans through root-cause analysis and aligned product, quality, leadership, and consulting stakeholders.",
+            "Designed a bootcamp for 12 consultants, reducing ramp-up from 6 to 3 months with 100% completion, 90%+ quality, and 90% satisfaction."
+          ]
+        },
+        {
+          "company": "Meu Barzin (Startup)",
+          "role": "Product and Business Development Manager",
+          "dates": "December 2025 – March 2026",
+          "location": "Curitiba, Brazil",
+          "bullets": [
+            "Led B2B prospecting and partner pitches, securing relevant pilot partnerships.",
+            "Mapped funnels and interviews to identify conversion barriers and guide priorities."
+          ]
+        },
+        {
+          "company": "AK Branding & Web Design",
+          "role": "Marketing Projects and Client Consultant",
+          "dates": "March 2019 – September 2024",
+          "location": "Curitiba, Brazil",
+          "bullets": [
+            "Delivered 40+ SMB projects, managing client relationships, scope, budgets, timelines, and delivery.",
+            "Built journeys and chatbots that increased leads from 8 to 20-30 per month (+250%)."
+          ]
+        },
+        {
+          "company": "Munzner",
+          "role": "Marketing, Content, and Digital Learning Specialist",
+          "dates": "October 2018 – August 2024",
+          "location": "Curitiba, Brazil",
+          "bullets": [
+            "Designed and launched the company's first digital course in MasterStudy LMS/WordPress, securing 50 sales in 2 months.",
+            "Applied Thinking Environment to facilitation, listening, and technical narratives."
+          ]
+        }
       ],
-      "skills": [{"category": "Enablement", "skills": ["Sales Enablement Frameworks", "Sales Productivity", "Call Listening & Structured Feedback", "Playbooks & Sales Scripts", "High-Scale Bootcamp & Training Organization"]}, {"category": "Data and Leadership", "skills": ["Stakeholder Management", "Root Cause Analysis", "Business Intelligence (Power BI/Tableau)", "Advanced Excel", "OCIR Framework"]}],
-      "education": [{"institution": "Universidade Federal do Paraná (UFPR)", "degree": "Bachelor's Degree and Licentiate in Philosophy", "dates": "2018 – 2023"}], "certifications": [{"name": "Thinking Environment Facilitator", "issuer": "Munzner", "status": "May 2020"}],
-      "languages": [{"language": "Portuguese", "proficiency": "Native"}, {"language": "English", "proficiency": "Advanced / professional; daily corporate use"}, {"language": "Spanish", "proficiency": "Basic"}], "additional_information": []
+      "skills": [
+        {
+          "category": "Enablement",
+          "skills": [
+            "Sales Enablement Frameworks",
+            "Sales Productivity",
+            "Call Listening & Structured Feedback",
+            "Playbooks & Sales Scripts",
+            "High-Scale Bootcamp & Training Organization"
+          ]
+        },
+        {
+          "category": "Data and Leadership",
+          "skills": [
+            "Stakeholder Management",
+            "Root Cause Analysis",
+            "Business Intelligence (Power BI/Tableau)",
+            "Advanced Excel",
+            "OCIR Framework"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "Universidade Federal do Paraná (UFPR)",
+          "degree": "Bachelor's Degree and Licentiate in Philosophy",
+          "dates": "2018 – 2023"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "Thinking Environment Facilitator",
+          "issuer": "Munzner",
+          "status": "May 2020"
+        }
+      ],
+      "languages": [
+        {
+          "language": "Portuguese",
+          "proficiency": "Native"
+        },
+        {
+          "language": "English",
+          "proficiency": "Advanced / professional; daily corporate use"
+        },
+        {
+          "language": "Spanish",
+          "proficiency": "Basic"
+        }
+      ],
+      "additional_information": []
     }
   },
   "materials": {
-    "pt": {"cover_letter": "Olá, time da Nuvemshop!\n\nDesenvolver autonomia e alta performance comercial por meio de playbooks, prática e coaching baseado em dados é o centro da minha experiência recente. Na Wipro, no Projeto Meta, liderei os pilares de Sales Excellence e Sales Productivity, traduzi atualizações de produto em pitches, scripts e frameworks e capacitei mais de 150 profissionais.\n\nTambém conduzi escuta de calls, feedback estruturado e análise de causa raiz para transformar lacunas em planos de melhoria. Idealizei o Next Level Bootcamp para 12 consultores, com 100% de conclusão, 90%+ de qualidade, 90% de satisfação e redução do ramp-up de 6 para 3 meses. Minha experiência com dados inclui parceria com MIS para explorar Power BI e Excel e orientar decisões.\n\nAinda não usei Gong em produção e meu espanhol é básico, pontos que trato com transparência. Em contrapartida, trago prática direta em enablement, coaching, onboarding, metodologias comerciais e alinhamento com stakeholders globais para contribuir com o motor de receita da Nuvemshop.\n\nKevin Augusto Vieira", "form_answers": [{"question": "Conte sobre um programa de enablement que você liderou.", "answer": "Idealizei e governei o Next Level Bootcamp para 12 consultores. O programa teve 100% de conclusão, reduziu o ramp-up de 6 para 3 meses, alcançou 90%+ nas primeiras auditorias e 90% de satisfação."}, {"question": "Como você usa conversas de vendas para orientar coaching?", "answer": "Faço escuta ativa, comparo comportamentos com scripts e frameworks, identifico padrões e aplico análise de causa raiz. A partir disso, estruturo feedback, prática orientada, materiais e acompanhamento de evolução."}, {"question": "Qual é sua experiência com Gong e LMS?", "answer": "Ainda não utilizei Gong em produção. Tenho experiência direta com escuta de calls e qualidade e posso transferir essa prática para conversational intelligence. Em LMS, lancei um curso digital em MasterStudy LMS/WordPress, mas não apresento administração corporativa formal de LMS como experiência comprovada."}, {"question": "Qual é sua pretensão salarial?", "answer": "A faixa não foi informada. Minha expectativa registrada para contratos no Brasil é de R$ 15.000 a R$ 22.000 por mês no modelo PJ; para CLT, avalio remuneração total, benefícios e escopo."}]},
-    "en": {"cover_letter": "Hello Nuvemshop team,\n\nBuilding commercial autonomy and high performance through playbooks, practice, and data-informed coaching is central to my recent experience. At Wipro on the Meta Project, I led Sales Excellence and Sales Productivity pillars, translated product updates into pitches, scripts, and frameworks, and enabled 150+ professionals.\n\nI also conducted call listening, structured feedback, and root-cause analysis to turn gaps into improvement plans. I designed the Next Level Bootcamp for 12 consultants, achieving 100% completion, 90%+ quality, 90% satisfaction, and reducing ramp-up from 6 to 3 months. My analytics experience includes partnering with MIS to explore Power BI and Excel and guide decisions.\n\nI have not used Gong in production, and my Spanish is basic, which I state transparently. In return, I bring direct enablement, coaching, onboarding, sales methodology, and global stakeholder experience to support Nuvemshop's revenue engine.\n\nKevin Augusto Vieira", "form_answers": [{"question": "Tell us about an enablement program you led.", "answer": "I designed and governed the Next Level Bootcamp for 12 consultants. It achieved 100% completion, reduced ramp-up from 6 to 3 months, reached 90%+ on initial quality audits, and achieved 90% participant satisfaction."}, {"question": "How do you use sales conversations to guide coaching?", "answer": "I listen actively, compare behaviors against scripts and frameworks, identify patterns, and apply root-cause analysis. I then structure feedback, guided practice, assets, and follow-up."}, {"question": "What is your experience with Gong and LMS platforms?", "answer": "I have not yet used Gong in production. I do have direct call-listening and quality experience that transfers to conversational intelligence. For LMS, I launched a digital course using MasterStudy LMS/WordPress, but I do not claim formal corporate LMS administration."}, {"question": "What are your salary expectations?", "answer": "The range was not disclosed. My documented Brazil target is R$15,000-R$22,000 per month for PJ contracts; for CLT employment, I consider total compensation, benefits, and scope."}]}
+    "pt": {
+      "cover_letter": "Olá, time da Nuvemshop!\n\nDesenvolver autonomia e alta performance comercial por meio de playbooks, prática e coaching baseado em dados é o centro da minha experiência recente. Na Wipro, no Projeto Meta, liderei os pilares de Sales Excellence e Sales Productivity, traduzi atualizações de produto em pitches, scripts e frameworks e capacitei mais de 150 profissionais.\n\nTambém conduzi escuta de calls, feedback estruturado e análise de causa raiz para transformar lacunas em planos de melhoria. Idealizei o Next Level Bootcamp para 12 consultores, com 100% de conclusão, 90%+ de qualidade, 90% de satisfação e redução do ramp-up de 6 para 3 meses. Minha experiência com dados inclui parceria com MIS para explorar Power BI e Excel e orientar decisões.\n\nAinda não usei Gong em produção e meu espanhol é básico, pontos que trato com transparência. Em contrapartida, trago prática direta em enablement, coaching, onboarding, metodologias comerciais e alinhamento com stakeholders globais para contribuir com o motor de receita da Nuvemshop.\n\nKevin Augusto Vieira",
+      "form_answers": [
+        {
+          "question": "Conte sobre um programa de enablement que você liderou.",
+          "answer": "Idealizei e governei o Next Level Bootcamp para 12 consultores. O programa teve 100% de conclusão, reduziu o ramp-up de 6 para 3 meses, alcançou 90%+ nas primeiras auditorias e 90% de satisfação."
+        },
+        {
+          "question": "Como você usa conversas de vendas para orientar coaching?",
+          "answer": "Faço escuta ativa, comparo comportamentos com scripts e frameworks, identifico padrões e aplico análise de causa raiz. A partir disso, estruturo feedback, prática orientada, materiais e acompanhamento de evolução."
+        },
+        {
+          "question": "Qual é sua experiência com Gong e LMS?",
+          "answer": "Ainda não utilizei Gong em produção. Tenho experiência direta com escuta de calls e qualidade e posso transferir essa prática para conversational intelligence. Em LMS, lancei um curso digital em MasterStudy LMS/WordPress, mas não apresento administração corporativa formal de LMS como experiência comprovada."
+        },
+        {
+          "question": "Qual é sua pretensão salarial?",
+          "answer": "A faixa não foi informada. Minha expectativa registrada para contratos no Brasil é de R$ 15.000 a R$ 22.000 por mês no modelo PJ; para CLT, avalio remuneração total, benefícios e escopo."
+        }
+      ]
+    },
+    "en": {
+      "cover_letter": "Hello Nuvemshop team,\n\nBuilding commercial autonomy and high performance through playbooks, practice, and data-informed coaching is central to my recent experience. At Wipro on the Meta Project, I led Sales Excellence and Sales Productivity pillars, translated product updates into pitches, scripts, and frameworks, and enabled 150+ professionals.\n\nI also conducted call listening, structured feedback, and root-cause analysis to turn gaps into improvement plans. I designed the Next Level Bootcamp for 12 consultants, achieving 100% completion, 90%+ quality, 90% satisfaction, and reducing ramp-up from 6 to 3 months. My analytics experience includes partnering with MIS to explore Power BI and Excel and guide decisions.\n\nI have not used Gong in production, and my Spanish is basic, which I state transparently. In return, I bring direct enablement, coaching, onboarding, sales methodology, and global stakeholder experience to support Nuvemshop's revenue engine.\n\nKevin Augusto Vieira",
+      "form_answers": [
+        {
+          "question": "Tell us about an enablement program you led.",
+          "answer": "I designed and governed the Next Level Bootcamp for 12 consultants. It achieved 100% completion, reduced ramp-up from 6 to 3 months, reached 90%+ on initial quality audits, and achieved 90% participant satisfaction."
+        },
+        {
+          "question": "How do you use sales conversations to guide coaching?",
+          "answer": "I listen actively, compare behaviors against scripts and frameworks, identify patterns, and apply root-cause analysis. I then structure feedback, guided practice, assets, and follow-up."
+        },
+        {
+          "question": "What is your experience with Gong and LMS platforms?",
+          "answer": "I have not yet used Gong in production. I do have direct call-listening and quality experience that transfers to conversational intelligence. For LMS, I launched a digital course using MasterStudy LMS/WordPress, but I do not claim formal corporate LMS administration."
+        },
+        {
+          "question": "What are your salary expectations?",
+          "answer": "The range was not disclosed. My documented Brazil target is R$15,000-R$22,000 per month for PJ contracts; for CLT employment, I consider total compensation, benefits, and scope."
+        }
+      ]
+    }
   },
-  "evidence": {"skills": {"pt": ["Sales Enablement Frameworks", "Sales Productivity", "Escuta de Calls e Feedback Estruturado", "Playbooks & Scripts Comerciais", "Organização de Bootcamps e Treinamentos de Alta Escala", "Gestão de Stakeholders", "Análise de Causa Raiz", "Business Intelligence (Power BI/Tableau)", "Excel Avançado", "Framework OCIR"], "en": ["Sales Enablement Frameworks", "Sales Productivity", "Call Listening & Structured Feedback", "Playbooks & Sales Scripts", "High-Scale Bootcamp & Training Organization", "Stakeholder Management", "Root Cause Analysis", "Business Intelligence (Power BI/Tableau)", "Advanced Excel", "OCIR Framework"]}}
+  "evidence": {
+    "skills": {
+      "pt": [
+        "Sales Enablement Frameworks",
+        "Sales Productivity",
+        "Escuta de Calls e Feedback Estruturado",
+        "Playbooks & Scripts Comerciais",
+        "Organização de Bootcamps e Treinamentos de Alta Escala",
+        "Gestão de Stakeholders",
+        "Análise de Causa Raiz",
+        "Business Intelligence (Power BI/Tableau)",
+        "Excel Avançado",
+        "Framework OCIR"
+      ],
+      "en": [
+        "Sales Enablement Frameworks",
+        "Sales Productivity",
+        "Call Listening & Structured Feedback",
+        "Playbooks & Sales Scripts",
+        "High-Scale Bootcamp & Training Organization",
+        "Stakeholder Management",
+        "Root Cause Analysis",
+        "Business Intelligence (Power BI/Tableau)",
+        "Advanced Excel",
+        "OCIR Framework"
+      ]
+    }
+  }
 }

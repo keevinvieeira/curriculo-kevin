@@ -7,10 +7,16 @@
     "fit_score": 83,
     "salary_expectation": "Faixa não divulgada; expectativa de USD 4.000 a USD 6.000/mês para remoto internacional ou equivalente conforme regime e pacote total",
     "document_language": "en",
-    "available_languages": ["pt", "en"],
+    "available_languages": [
+      "pt",
+      "en"
+    ],
     "location": "Brasil | 100% remoto",
     "employment_type": "Tempo integral",
-    "source_files": ["master_resume.json", "LinkedIn job posting 4454347116"],
+    "source_files": [
+      "master_resume.json",
+      "LinkedIn job posting 4454347116"
+    ],
     "good_points": [
       "Mais de 40 projetos de marketing digital para múltiplas contas, com controle de escopo, orçamento, cronogramas e recursos.",
       "Experiência em agência, campanhas, websites, landing pages, conteúdo, mídia paga, testes A/B e métricas de conversão.",
@@ -93,22 +99,75 @@
         }
       ],
       "skills": [
-        {"category": "Marketing Operations", "skills": ["Gestão de workflows multicliente", "Campanhas, conteúdo, mídia e entregáveis", "Padronização de processos e documentação", "Reporting e status executivo", "Métricas de campanha, funil e conversão"]},
-        {"category": "Project Management", "skills": ["Escopo, orçamento, cronogramas e riscos", "OKRs, KPIs, roadmap e backlog", "PMO, Kanban e Scrum", "Priorização e alocação de recursos", "Gestão de stakeholders"]},
-        {"category": "Ferramentas", "skills": ["Notion, Asana e Trello", "Google Drive, Sheets e Excel", "Meta Ads e Google Analytics", "Power BI e Looker Studio", "CRM, n8n, Make, APIs e webhooks"]}
+        {
+          "category": "Marketing Operations",
+          "skills": [
+            "Gestão de workflows multicliente",
+            "Campanhas, conteúdo, mídia e entregáveis",
+            "Padronização de processos e documentação",
+            "Reporting e status executivo",
+            "Métricas de campanha, funil e conversão"
+          ]
+        },
+        {
+          "category": "Project Management",
+          "skills": [
+            "Escopo, orçamento, cronogramas e riscos",
+            "OKRs, KPIs, roadmap e backlog",
+            "PMO, Kanban e Scrum",
+            "Priorização e alocação de recursos",
+            "Gestão de stakeholders"
+          ]
+        },
+        {
+          "category": "Ferramentas",
+          "skills": [
+            "Notion, Asana e Trello",
+            "Google Drive, Sheets e Excel",
+            "Meta Ads e Google Analytics",
+            "Power BI e Looker Studio",
+            "CRM, n8n, Make, APIs e webhooks"
+          ]
+        }
       ],
       "education": [
-        {"institution": "Universidade Federal do Paraná (UFPR)", "degree": "Bacharelado e Licenciatura em Filosofia", "dates": "2018 – 2023"},
-        {"institution": "UFPR / UTFPR", "degree": "Engenharia Elétrica / Eletrônica (incompleto)", "dates": "2012 – 2015"}
+        {
+          "institution": "Universidade Federal do Paraná (UFPR)",
+          "degree": "Bacharelado e Licenciatura em Filosofia",
+          "dates": "2018 – 2023"
+        },
+        {
+          "institution": "UFPR / UTFPR",
+          "degree": "Engenharia Elétrica / Eletrônica (incompleto)",
+          "dates": "2012 – 2015"
+        }
       ],
       "certifications": [
-        {"name": "Google Project Management Professional Certificate", "issuer": "Coursera / Google", "status": "Em andamento"},
-        {"name": "Meta Certified Media Planning Professional", "issuer": "Meta", "status": "Ativo"},
-        {"name": "Meta Certified Digital Marketing Associate", "issuer": "Meta", "status": "Ativo"}
+        {
+          "name": "Google Project Management Professional Certificate",
+          "issuer": "Coursera / Google",
+          "status": "Em andamento"
+        },
+        {
+          "name": "Meta Certified Media Planning Professional",
+          "issuer": "Meta",
+          "status": "Ativo"
+        },
+        {
+          "name": "Meta Certified Digital Marketing Associate",
+          "issuer": "Meta",
+          "status": "Ativo"
+        }
       ],
       "languages": [
-        {"language": "Inglês", "proficiency": "Avançado / Profissional; uso diário corporativo para relatórios, coordenação internacional e alinhamento de stakeholders"},
-        {"language": "Português", "proficiency": "Nativo"}
+        {
+          "language": "Inglês",
+          "proficiency": "Avançado / Profissional; uso diário corporativo para relatórios, coordenação internacional e alinhamento de stakeholders"
+        },
+        {
+          "language": "Português",
+          "proficiency": "Nativo"
+        }
       ],
       "additional_information": []
     },
@@ -168,22 +227,75 @@
         }
       ],
       "skills": [
-        {"category": "Marketing Operations", "skills": ["Multi-client workflow management", "Campaign, content, media, and deliverables", "Process standardization and documentation", "Reporting and executive status updates", "Campaign, funnel, and conversion metrics"]},
-        {"category": "Project Management", "skills": ["Scope, budget, timelines, and risks", "OKRs, KPIs, roadmap, and backlog", "PMO, Kanban, and Scrum", "Prioritization and resource allocation", "Stakeholder management"]},
-        {"category": "Tools", "skills": ["Notion, Asana, and Trello", "Google Drive, Sheets, and Excel", "Meta Ads and Google Analytics", "Power BI and Looker Studio", "CRM, n8n, Make, APIs, and webhooks"]}
+        {
+          "category": "Marketing Operations",
+          "skills": [
+            "Multi-client workflow management",
+            "Campaign, content, media, and deliverables",
+            "Process standardization and documentation",
+            "Reporting and executive status updates",
+            "Campaign, funnel, and conversion metrics"
+          ]
+        },
+        {
+          "category": "Project Management",
+          "skills": [
+            "Scope, budget, timelines, and risks",
+            "OKRs, KPIs, roadmap, and backlog",
+            "PMO, Kanban, and Scrum",
+            "Prioritization and resource allocation",
+            "Stakeholder management"
+          ]
+        },
+        {
+          "category": "Tools",
+          "skills": [
+            "Notion, Asana, and Trello",
+            "Google Drive, Sheets, and Excel",
+            "Meta Ads and Google Analytics",
+            "Power BI and Looker Studio",
+            "CRM, n8n, Make, APIs, and webhooks"
+          ]
+        }
       ],
       "education": [
-        {"institution": "Universidade Federal do Paraná (UFPR)", "degree": "Bachelor's Degree and Licentiate in Philosophy", "dates": "2018 – 2023"},
-        {"institution": "UFPR / UTFPR", "degree": "Electrical and Electronics Engineering (incomplete)", "dates": "2012 – 2015"}
+        {
+          "institution": "Universidade Federal do Paraná (UFPR)",
+          "degree": "Bachelor's Degree and Licentiate in Philosophy",
+          "dates": "2018 – 2023"
+        },
+        {
+          "institution": "UFPR / UTFPR",
+          "degree": "Electrical and Electronics Engineering (incomplete)",
+          "dates": "2012 – 2015"
+        }
       ],
       "certifications": [
-        {"name": "Google Project Management Professional Certificate", "issuer": "Coursera / Google", "status": "In progress"},
-        {"name": "Meta Certified Media Planning Professional", "issuer": "Meta", "status": "Active"},
-        {"name": "Meta Certified Digital Marketing Associate", "issuer": "Meta", "status": "Active"}
+        {
+          "name": "Google Project Management Professional Certificate",
+          "issuer": "Coursera / Google",
+          "status": "In progress"
+        },
+        {
+          "name": "Meta Certified Media Planning Professional",
+          "issuer": "Meta",
+          "status": "Active"
+        },
+        {
+          "name": "Meta Certified Digital Marketing Associate",
+          "issuer": "Meta",
+          "status": "Active"
+        }
       ],
       "languages": [
-        {"language": "English", "proficiency": "Advanced / Professional Full Proficiency; daily corporate use for reporting, international coordination, and stakeholder alignment"},
-        {"language": "Portuguese", "proficiency": "Native"}
+        {
+          "language": "English",
+          "proficiency": "Advanced / Professional Full Proficiency; daily corporate use for reporting, international coordination, and stakeholder alignment"
+        },
+        {
+          "language": "Portuguese",
+          "proficiency": "Native"
+        }
       ],
       "additional_information": []
     }
@@ -192,26 +304,64 @@
     "pt": {
       "cover_letter": "Olá, time da Next Level Growth!\n\nA proposta de transformar estratégias de clientes em workflows claros, entregas pontuais e resultados mensuráveis combina diretamente com minha trajetória em operações e projetos de marketing. Na AK Branding, conduzi mais de 40 projetos para PMEs, coordenando múltiplas contas, escopos, orçamentos, cronogramas, recursos e comunicação do kickoff à entrega.\n\nEssa operação incluiu branding, websites, landing pages, campanhas, conteúdo e automações. Testes A/B e melhorias de UX e chatbot elevaram a captação de 8 para 20-30 leads por mês (+250%). Na Wipro, no Projeto Meta, trabalhei com OKRs, roadmap, backlog, dashboards e análise de causa raiz, além de liderar um programa que reduziu o tempo de produtividade em 50%.\n\nTenho experiência com Notion, ferramentas de projeto, Meta, Google Drive, dados e automação. Não alego experiência com GHL ou Frame.io, mas trago processos transferíveis e aprendizado rápido para incorporar essas ferramentas sem comprometer a qualidade da operação. Quero aplicar essa combinação de organização, visão analítica e execução hands-on para dar previsibilidade às contas da Next Level Growth.\n\nKevin Augusto Vieira",
       "form_answers": [
-        {"question": "Como você gerencia várias contas e prioridades ao mesmo tempo?", "answer": "Torno objetivos, entregáveis, responsáveis, dependências, orçamento, prazo e riscos visíveis. Na AK Branding, entreguei mais de 40 projetos e coordenei contas simultâneas. Priorizo por impacto, urgência, dependências e capacidade, mantenho status concisos e renegocio escopo ou sequência quando as condições mudam."},
-        {"question": "Como você acompanha orçamento e performance?", "answer": "Conecto planejamento financeiro e resultado. Controlei escopos e orçamentos em múltiplos projetos e acompanhei aquisição, conversão, receita e ROI na Munzner. Uso Excel, Google Sheets, Power BI, UTMs e métricas de marketing para identificar desvios, tendências e ações."},
-        {"question": "Conte sobre uma melhoria de processo.", "answer": "No Projeto Meta, usei análise de causa raiz para mapear gaps, construir playbooks e acompanhar ações corretivas. Também governei um bootcamp com roadmap, backlog e critérios de qualidade que reduziu o ramp-up de 6 para 3 meses, mantendo 90%+ de qualidade."},
-        {"question": "Qual é sua experiência com GHL e Frame.io?", "answer": "Não tenho experiência documentada com GHL ou Frame.io. Tenho experiência prática com Notion, Asana, Trello, Google Drive, CRMs, Meta, n8n, Make, APIs e ferramentas de analytics. Posso transferir meus processos de briefing, status, aprovação, documentação e automação para o stack da agência, sem apresentar as duas ferramentas como domínio já comprovado."}
+        {
+          "question": "Como você gerencia várias contas e prioridades ao mesmo tempo?",
+          "answer": "Torno objetivos, entregáveis, responsáveis, dependências, orçamento, prazo e riscos visíveis. Na AK Branding, entreguei mais de 40 projetos e coordenei contas simultâneas. Priorizo por impacto, urgência, dependências e capacidade, mantenho status concisos e renegocio escopo ou sequência quando as condições mudam."
+        },
+        {
+          "question": "Como você acompanha orçamento e performance?",
+          "answer": "Conecto planejamento financeiro e resultado. Controlei escopos e orçamentos em múltiplos projetos e acompanhei aquisição, conversão, receita e ROI na Munzner. Uso Excel, Google Sheets, Power BI, UTMs e métricas de marketing para identificar desvios, tendências e ações."
+        },
+        {
+          "question": "Conte sobre uma melhoria de processo.",
+          "answer": "No Projeto Meta, usei análise de causa raiz para mapear gaps, construir playbooks e acompanhar ações corretivas. Também governei um bootcamp com roadmap, backlog e critérios de qualidade que reduziu o ramp-up de 6 para 3 meses, mantendo 90%+ de qualidade."
+        },
+        {
+          "question": "Qual é sua experiência com GHL e Frame.io?",
+          "answer": "Não tenho experiência documentada com GHL ou Frame.io. Tenho experiência prática com Notion, Asana, Trello, Google Drive, CRMs, Meta, n8n, Make, APIs e ferramentas de analytics. Posso transferir meus processos de briefing, status, aprovação, documentação e automação para o stack da agência, sem apresentar as duas ferramentas como domínio já comprovado."
+        }
       ]
     },
     "en": {
       "cover_letter": "Hi Next Level Growth team,\n\nTurning client strategies into clear workflows, on-time deliverables, and measurable results directly matches my marketing operations and project background. At AK Branding, I delivered 40+ projects for SMBs while coordinating concurrent accounts, scopes, budgets, timelines, resources, and communication from kickoff through delivery.\n\nThis work covered branding, websites, landing pages, campaigns, content, and automation. A/B testing and UX and chatbot improvements increased lead capture from 8 to 20-30 per month (+250%). At Wipro on the Meta Project, I worked with OKRs, roadmap, backlog, dashboards, and root cause analysis, and led a program that reduced time-to-productivity by 50%.\n\nI have experience with Notion, project tools, Meta, Google Drive, data, and automation. I do not claim GHL or Frame.io experience, but I bring transferable processes and the ability to learn those tools quickly without compromising operational quality. I would apply this combination of organization, analytical judgment, and hands-on execution to create predictable delivery across Next Level Growth's client accounts.\n\nKevin Augusto Vieira",
       "form_answers": [
-        {"question": "How do you manage multiple accounts and competing priorities?", "answer": "I make objectives, deliverables, owners, dependencies, budget, deadlines, and risks visible. At AK Branding, I delivered 40+ projects while coordinating concurrent accounts. I prioritize by impact, urgency, dependencies, and capacity, provide concise status updates, and renegotiate scope or sequence when conditions change."},
-        {"question": "How do you track budgets and performance?", "answer": "I connect financial planning to outcomes. I controlled scopes and budgets across multiple projects and tracked acquisition, conversion, revenue, and ROI at Munzner. I use Excel, Google Sheets, Power BI, UTMs, and marketing metrics to identify variance, trends, and actions."},
-        {"question": "Tell us about a process improvement you led.", "answer": "On the Meta Project, I used root cause analysis to map gaps, build playbooks, and follow corrective actions. I also governed a bootcamp through roadmap, backlog, and quality criteria that reduced ramp-up from 6 to 3 months while maintaining 90%+ quality."},
-        {"question": "What is your experience with GHL and Frame.io?", "answer": "I do not have documented GHL or Frame.io experience. I have practical experience with Notion, Asana, Trello, Google Drive, CRMs, Meta, n8n, Make, APIs, and analytics tools. I can transfer my briefing, status, approval, documentation, and automation processes into the agency stack without presenting either tool as already proven expertise."}
+        {
+          "question": "How do you manage multiple accounts and competing priorities?",
+          "answer": "I make objectives, deliverables, owners, dependencies, budget, deadlines, and risks visible. At AK Branding, I delivered 40+ projects while coordinating concurrent accounts. I prioritize by impact, urgency, dependencies, and capacity, provide concise status updates, and renegotiate scope or sequence when conditions change."
+        },
+        {
+          "question": "How do you track budgets and performance?",
+          "answer": "I connect financial planning to outcomes. I controlled scopes and budgets across multiple projects and tracked acquisition, conversion, revenue, and ROI at Munzner. I use Excel, Google Sheets, Power BI, UTMs, and marketing metrics to identify variance, trends, and actions."
+        },
+        {
+          "question": "Tell us about a process improvement you led.",
+          "answer": "On the Meta Project, I used root cause analysis to map gaps, build playbooks, and follow corrective actions. I also governed a bootcamp through roadmap, backlog, and quality criteria that reduced ramp-up from 6 to 3 months while maintaining 90%+ quality."
+        },
+        {
+          "question": "What is your experience with GHL and Frame.io?",
+          "answer": "I do not have documented GHL or Frame.io experience. I have practical experience with Notion, Asana, Trello, Google Drive, CRMs, Meta, n8n, Make, APIs, and analytics tools. I can transfer my briefing, status, approval, documentation, and automation processes into the agency stack without presenting either tool as already proven expertise."
+        }
       ]
     }
   },
   "evidence": {
     "skills": {
-      "pt": ["Metodologias Ágeis (Kanban, Scrum)", "OKRs, KPIs, Roadmap e Backlog", "Diretrizes de PMO", "Notion", "Cronogramas de Projeto e Gráficos de Gantt", "Métricas de Marketing (CTR, CPL, CAC, LTV, Churn, ROAS, MQL→SQL)"],
-      "en": ["Agile Methodologies (Kanban, Scrum)", "OKRs, KPIs, Roadmap, and Backlog", "PMO Guidelines", "Notion", "Project Schedules & Gantt Charts", "Marketing Metrics (CTR, CPL, CAC, LTV, Churn, ROAS, MQL→SQL)"]
+      "pt": [
+        "Metodologias Ágeis (Kanban, Scrum)",
+        "OKRs, KPIs, Roadmap e Backlog",
+        "Diretrizes de PMO",
+        "Notion",
+        "Cronogramas de Projeto e Gráficos de Gantt",
+        "Métricas de Marketing (CTR, CPL, CAC, LTV, Churn, ROAS, MQL→SQL)"
+      ],
+      "en": [
+        "Agile Methodologies (Kanban, Scrum)",
+        "OKRs, KPIs, Roadmap, and Backlog",
+        "PMO Guidelines",
+        "Notion",
+        "Project Schedules & Gantt Charts",
+        "Marketing Metrics (CTR, CPL, CAC, LTV, Churn, ROAS, MQL→SQL)"
+      ]
     }
   }
 }

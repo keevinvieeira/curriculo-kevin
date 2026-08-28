@@ -1,17 +1,21 @@
 {
-  "cover_letter": "Dear SandboxAQ Hiring Team,\n\nI am applying for the Product & Growth Marketer, AI Simulation role. My background is building go-to-market, sales-enablement and demand-generation programs that translate complex technical capability into commercial value — directly relevant to positioning AISim's Large Quantum Models for scientific buyers.\n\nAt Wipro (Meta Project) I enabled 150+ marketing professionals and made the operation #1 globally in native-AI CRM adoption growth (+150%, 4->10 prompts/day), while leading the Next Level Bootcamp that cut ramp-up time by 50%. At Meu Barzin I captured 505 qualified leads and architected a RAG conversational agent with zero-hallucination rules. At Munzner and AK Branding I built automated nurture funnels (10,000+ visits, ~R$50k high-ticket revenue; +250% lead capture) and inbound/SEO content (~1,000 organic visits). I use AI tools (native AI, n8n, prompt engineering) and measure pipeline with Power BI, ROI and funnel-bottleneck mapping.\n\nI am transparent about a gap: I do not yet have life-sciences, chemistry or simulation-domain depth. What I bring is the transferable skill of turning technical capability into buyer-facing narrative — exactly the bridge AISim needs. I would lean on your science and product teams and ramp quickly on the domain.\n\nThank you for the opportunity.\n\nSincerely,\nKevin Augusto Vieira",
+  "cover_letter": "Hi Zicasso team,\n\nThe discovery-to-request journey is an especially compelling product challenge: every improvement needs to increase conversion without turning a premium experience into a generic transaction. That balance between user behavior, UX, experimentation, and business outcomes is where I have built my Growth experience.\n\nAt Meu Barzin, I led discovery and funnel analysis for an AI-powered conversational product. The data revealed a 43.9% first-message dropout and helped prioritize partner density and latency as critical bottlenecks. At AK Branding, I planned A/B tests across landing pages, messaging, ads, and interactions; UX and chatbot improvements increased leads from 8 to 20-30 per month (+250%).\n\nAt Wipro on the Meta Project, I worked in a squad using roadmap, backlog, OKRs, and global stakeholder input. I also owned AI adoption in the CRM, increasing usage by 150%, and used Power BI, Excel, and qualitative feedback to guide decisions.\n\nI would value the opportunity to apply this combination of CRO, product, data, and AI to make Zicasso's journey even more personal, inspiring, and effective. I am available to work until 3 PM PT.\n\nKevin Augusto Vieira",
   "form_answers": [
     {
-      "question": "Why are you interested in SandboxAQ / AISim?",
-      "answer": "Because AISim's Large Quantum Models solve hard scientific problems (drug discovery, materials, chemistry) and I specialize in turning that kind of complex technical capability into buyer-facing value through GTM, enablement and content — the exact commercial bridge the role describes."
+      "question": "Tell us about a CRO experiment that delivered results.",
+      "answer": "At AK Branding, I planned A/B tests across landing pages, messaging, ads, and UX flows to validate acquisition and conversion hypotheses. In one context, UX and chatbot improvements increased lead capture from 8 to 20-30 leads per month (+250%). My approach is to define the hypothesis, metric, segment, analysis window, and criterion to scale, adjust, or stop."
     },
     {
-      "question": "Describe a campaign or program you built end-to-end.",
-      "answer": "At Wipro (Meta Project) I conceived and led the Next Level Bootcamp for 12 Meta Marketing Pros, cutting ramp-up time by 50% and reaching 100% completion, while making the operation #1 globally in native-AI CRM adoption (+150%). I owned enablement activations, adoption strategy and tactical product positioning."
+      "question": "How do you prioritize a Growth backlog?",
+      "answer": "I combine expected impact, evidence confidence, effort, dependencies, and experience risk. On the Meta Project, I worked in a squad using roadmap, backlog, and OKRs to prioritize requests from clients, managers, product, and quality. At Meu Barzin, funnel data and interviews helped prioritize bottlenecks blocking conversion."
     },
     {
-      "question": "How do you measure marketing performance?",
-      "answer": "I track channels, acquisition paths and CRM data to evaluate funnel conversion, revenue and ROI, using Power BI and Excel dashboards. At Munzner this guided a 10-stage automated funnel (~R$50k high-ticket revenue, 10,000+ visits); at AK Branding it lifted lead capture +250%."
+      "question": "How do you combine qualitative research and quantitative data?",
+      "answer": "I use data to locate the problem and research to understand why it happens. At Meu Barzin, analysis revealed a 43.9% first-message dropout; interviews and observation showed that partner density and API latency harmed the experience. That combination guided product priorities."
+    },
+    {
+      "question": "How do you use AI in your product workflow?",
+      "answer": "I use LLMs for research, synthesis, documentation, prototyping, and automation. At Meu Barzin, I designed a conversational product using RAG, n8n, and Supabase with zero-hallucination rules. At Wipro, I owned CRM AI activation, increasing usage from 4 to 10 prompts per consultant (+150%)."
     }
   ]
 }

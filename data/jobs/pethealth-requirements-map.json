@@ -1,0 +1,166 @@
+{
+  "job_id": "job-pethealth-gtm-engineer-senior",
+  "company": "Pet Health (confidential)",
+  "title": "Senior GTM Engineer",
+  "requirements": [
+    {
+      "id": "req-01",
+      "text": "Salesforce Sales Cloud expertise",
+      "mapped_skills": [
+        "crm"
+      ]
+    },
+    {
+      "id": "req-02",
+      "text": "Salesforce Flow (declarative automation)",
+      "mapped_skills": [
+        "automation",
+        "crm"
+      ]
+    },
+    {
+      "id": "req-03",
+      "text": "Apex (procedural Salesforce code)",
+      "mapped_skills": []
+    },
+    {
+      "id": "req-04",
+      "text": "Salesforce Platform App Builder / Platform Developer I certifications",
+      "mapped_skills": []
+    },
+    {
+      "id": "req-05",
+      "text": "GTM processes in B2B or PLG SaaS environments",
+      "mapped_skills": [
+        "b2b",
+        "business-development",
+        "growth"
+      ]
+    },
+    {
+      "id": "req-06",
+      "text": "Salesforce + HubSpot integration via middleware/automation tools",
+      "mapped_skills": [
+        "automation",
+        "crm"
+      ]
+    },
+    {
+      "id": "req-07",
+      "text": "Middleware / automation tools (Zapier, Make)",
+      "mapped_skills": [
+        "automation"
+      ]
+    },
+    {
+      "id": "req-08",
+      "text": "HubSpot Marketing experience",
+      "mapped_skills": [
+        "crm"
+      ]
+    },
+    {
+      "id": "req-09",
+      "text": "CRM systems, data models, APIs, and SQL",
+      "mapped_skills": [
+        "crm",
+        "data",
+        "sql"
+      ]
+    },
+    {
+      "id": "req-10",
+      "text": "Design and deliver scalable GTM systems and automation workflows",
+      "mapped_skills": [
+        "automation",
+        "crm",
+        "crm-enablement"
+      ]
+    },
+    {
+      "id": "req-11",
+      "text": "Salesforce declarative tools and automation best practices",
+      "mapped_skills": [
+        "automation",
+        "crm"
+      ]
+    },
+    {
+      "id": "req-12",
+      "text": "English communication (spoken and written)",
+      "mapped_skills": []
+    },
+    {
+      "id": "req-13",
+      "text": "Startup experience",
+      "mapped_skills": [
+        "zero-to-one"
+      ]
+    },
+    {
+      "id": "req-14",
+      "text": "Experience with Clay / Gong / ChurnZero / Wrike / DocuSign / Zuora / Guru / Slack / Google Workspace",
+      "mapped_skills": []
+    },
+    {
+      "id": "req-15",
+      "text": "Make.com / Zapier / Xappex G-Connector",
+      "mapped_skills": [
+        "automation"
+      ]
+    },
+    {
+      "id": "req-16",
+      "text": "Lead enrichment and prioritization (fit, intent, engagement signals)",
+      "mapped_skills": [
+        "lead-generation",
+        "prioritization"
+      ]
+    },
+    {
+      "id": "req-17",
+      "text": "Sprint execution, roadmap contribution, UAT and documentation",
+      "mapped_skills": [
+        "agile",
+        "backlog",
+        "documentation",
+        "project-management",
+        "quality-assurance",
+        "roadmap"
+      ]
+    },
+    {
+      "id": "req-18",
+      "text": "Cross-functional stakeholder management (Finance, Marketing, Sales, CX Ops)",
+      "mapped_skills": [
+        "collaboration",
+        "cross-functional",
+        "leadership"
+      ]
+    },
+    {
+      "id": "req-19",
+      "text": "Translate architectural direction into technical requirements and end-to-end GTM implementations",
+      "mapped_skills": [
+        "cross-functional",
+        "product-architecture",
+        "product-strategy"
+      ]
+    },
+    {
+      "id": "req-20",
+      "text": "Refactor legacy systems; implement scalable automation for reliability",
+      "mapped_skills": [
+        "automation",
+        "quality-assurance",
+        "root-cause-analysis"
+      ]
+    }
+  ],
+  "unmapped": [
+    "Apex (procedural Salesforce code)",
+    "Salesforce Platform App Builder / Platform Developer I certifications",
+    "English communication (spoken and written)",
+    "Experience with Clay / Gong / ChurnZero / Wrike / DocuSign / Zuora / Guru / Slack / Google Workspace"
+  ]
+}

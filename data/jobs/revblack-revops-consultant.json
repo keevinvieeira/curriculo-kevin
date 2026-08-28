@@ -7,10 +7,16 @@
     "fit_score": 82,
     "salary_expectation": "Faixa não divulgada; expectativa de R$ 15.000 a R$ 22.000/mês para contratação no Brasil, sujeita ao regime e pacote total",
     "document_language": "en",
-    "available_languages": ["pt", "en"],
+    "available_languages": [
+      "pt",
+      "en"
+    ],
     "location": "Batel, Curitiba, PR | Híbrido: 3 dias no escritório e 2 remotos",
     "employment_type": "Tempo integral",
-    "source_files": ["master_resume.json", "LinkedIn job posting 4453588250"],
+    "source_files": [
+      "master_resume.json",
+      "LinkedIn job posting 4453588250"
+    ],
     "good_points": [
       "Experiência em Sales Enablement, Marketing Operations, GTM, CRM, funis, automação, processos e métricas de receita.",
       "Histórico consultivo com mais de 40 projetos, diagnóstico de necessidades, gestão de stakeholders e entregas orientadas a resultados.",
@@ -91,22 +97,75 @@
         }
       ],
       "skills": [
-        {"category": "Revenue Operations", "skills": ["Marketing Ops e Sales Ops", "Mapeamento e otimização de processos", "Funil, conversão, receita e ROI", "Sales Enablement e produtividade", "Recomendações orientadas a dados"]},
-        {"category": "CRM e Automação", "skills": ["CRMs Proprietários Meta", "HubSpot e Salesforce em nível de usuário", "Bitrix24, Sendpulse e RD Station", "n8n, Make, APIs e webhooks", "Supabase/PostgreSQL e NocoDB"]},
-        {"category": "Consultoria e Analytics", "skills": ["Descoberta e gestão de stakeholders", "Análise de causa raiz", "Power BI, Excel e Google Sheets", "SQL básico e exploração de dados", "Documentação, playbooks e treinamento"]}
+        {
+          "category": "Revenue Operations",
+          "skills": [
+            "Marketing Ops e Sales Ops",
+            "Mapeamento e otimização de processos",
+            "Funil, conversão, receita e ROI",
+            "Sales Enablement e produtividade",
+            "Recomendações orientadas a dados"
+          ]
+        },
+        {
+          "category": "CRM e Automação",
+          "skills": [
+            "CRMs Proprietários Meta",
+            "HubSpot e Salesforce em nível de usuário",
+            "Bitrix24, Sendpulse e RD Station",
+            "n8n, Make, APIs e webhooks",
+            "Supabase/PostgreSQL e NocoDB"
+          ]
+        },
+        {
+          "category": "Consultoria e Analytics",
+          "skills": [
+            "Descoberta e gestão de stakeholders",
+            "Análise de causa raiz",
+            "Power BI, Excel e Google Sheets",
+            "SQL básico e exploração de dados",
+            "Documentação, playbooks e treinamento"
+          ]
+        }
       ],
       "education": [
-        {"institution": "Universidade Federal do Paraná (UFPR)", "degree": "Bacharelado e Licenciatura em Filosofia", "dates": "2018 – 2023"},
-        {"institution": "UFPR / UTFPR", "degree": "Engenharia Elétrica / Eletrônica (incompleto)", "dates": "2012 – 2015"}
+        {
+          "institution": "Universidade Federal do Paraná (UFPR)",
+          "degree": "Bacharelado e Licenciatura em Filosofia",
+          "dates": "2018 – 2023"
+        },
+        {
+          "institution": "UFPR / UTFPR",
+          "degree": "Engenharia Elétrica / Eletrônica (incompleto)",
+          "dates": "2012 – 2015"
+        }
       ],
       "certifications": [
-        {"name": "Google Project Management Professional Certificate", "issuer": "Coursera / Google", "status": "Em andamento"},
-        {"name": "Meta Certified Media Planning Professional", "issuer": "Meta", "status": "Ativo"},
-        {"name": "Meta Certified Digital Marketing Associate", "issuer": "Meta", "status": "Ativo"}
+        {
+          "name": "Google Project Management Professional Certificate",
+          "issuer": "Coursera / Google",
+          "status": "Em andamento"
+        },
+        {
+          "name": "Meta Certified Media Planning Professional",
+          "issuer": "Meta",
+          "status": "Ativo"
+        },
+        {
+          "name": "Meta Certified Digital Marketing Associate",
+          "issuer": "Meta",
+          "status": "Ativo"
+        }
       ],
       "languages": [
-        {"language": "Inglês", "proficiency": "Avançado / Profissional; uso diário corporativo para relatórios, coordenação internacional e alinhamento de stakeholders"},
-        {"language": "Português", "proficiency": "Nativo"}
+        {
+          "language": "Inglês",
+          "proficiency": "Avançado / Profissional; uso diário corporativo para relatórios, coordenação internacional e alinhamento de stakeholders"
+        },
+        {
+          "language": "Português",
+          "proficiency": "Nativo"
+        }
       ],
       "additional_information": []
     },
@@ -164,22 +223,75 @@
         }
       ],
       "skills": [
-        {"category": "Revenue Operations", "skills": ["Marketing Ops and Sales Ops", "Process mapping and optimization", "Funnel, conversion, revenue, and ROI", "Sales enablement and productivity", "Data-driven recommendations"]},
-        {"category": "CRM and Automation", "skills": ["Meta Proprietary CRMs", "HubSpot and Salesforce as an end user", "Bitrix24, Sendpulse, and RD Station", "n8n, Make, APIs, and webhooks", "Supabase/PostgreSQL and NocoDB"]},
-        {"category": "Consulting and Analytics", "skills": ["Discovery and stakeholder management", "Root cause analysis", "Power BI, Excel, and Google Sheets", "Basic SQL and data exploration", "Documentation, playbooks, and training"]}
+        {
+          "category": "Revenue Operations",
+          "skills": [
+            "Marketing Ops and Sales Ops",
+            "Process mapping and optimization",
+            "Funnel, conversion, revenue, and ROI",
+            "Sales enablement and productivity",
+            "Data-driven recommendations"
+          ]
+        },
+        {
+          "category": "CRM and Automation",
+          "skills": [
+            "Meta Proprietary CRMs",
+            "HubSpot and Salesforce as an end user",
+            "Bitrix24, Sendpulse, and RD Station",
+            "n8n, Make, APIs, and webhooks",
+            "Supabase/PostgreSQL and NocoDB"
+          ]
+        },
+        {
+          "category": "Consulting and Analytics",
+          "skills": [
+            "Discovery and stakeholder management",
+            "Root cause analysis",
+            "Power BI, Excel, and Google Sheets",
+            "Basic SQL and data exploration",
+            "Documentation, playbooks, and training"
+          ]
+        }
       ],
       "education": [
-        {"institution": "Universidade Federal do Paraná (UFPR)", "degree": "Bachelor's Degree and Licentiate in Philosophy", "dates": "2018 – 2023"},
-        {"institution": "UFPR / UTFPR", "degree": "Electrical and Electronics Engineering (incomplete)", "dates": "2012 – 2015"}
+        {
+          "institution": "Universidade Federal do Paraná (UFPR)",
+          "degree": "Bachelor's Degree and Licentiate in Philosophy",
+          "dates": "2018 – 2023"
+        },
+        {
+          "institution": "UFPR / UTFPR",
+          "degree": "Electrical and Electronics Engineering (incomplete)",
+          "dates": "2012 – 2015"
+        }
       ],
       "certifications": [
-        {"name": "Google Project Management Professional Certificate", "issuer": "Coursera / Google", "status": "In progress"},
-        {"name": "Meta Certified Media Planning Professional", "issuer": "Meta", "status": "Active"},
-        {"name": "Meta Certified Digital Marketing Associate", "issuer": "Meta", "status": "Active"}
+        {
+          "name": "Google Project Management Professional Certificate",
+          "issuer": "Coursera / Google",
+          "status": "In progress"
+        },
+        {
+          "name": "Meta Certified Media Planning Professional",
+          "issuer": "Meta",
+          "status": "Active"
+        },
+        {
+          "name": "Meta Certified Digital Marketing Associate",
+          "issuer": "Meta",
+          "status": "Active"
+        }
       ],
       "languages": [
-        {"language": "English", "proficiency": "Advanced / Professional Full Proficiency; daily corporate use for reporting, international coordination, and stakeholder alignment"},
-        {"language": "Portuguese", "proficiency": "Native"}
+        {
+          "language": "English",
+          "proficiency": "Advanced / Professional Full Proficiency; daily corporate use for reporting, international coordination, and stakeholder alignment"
+        },
+        {
+          "language": "Portuguese",
+          "proficiency": "Native"
+        }
       ],
       "additional_information": []
     }
@@ -188,26 +300,66 @@
     "pt": {
       "cover_letter": "Olá, time da RevBlack!\n\nA missão de transformar CRM em crescimento e eficiência conecta-se à evolução natural da minha experiência em Marketing Ops, Sales Enablement, dados e melhoria de processos. No Projeto Meta da Wipro, liderei a ativação de IA no CRM proprietário, elevando o uso em 150%, e usei análise de causa raiz, escuta de calls, playbooks e dashboards para melhorar produtividade e qualidade.\n\nEm consultoria, conduzi mais de 40 projetos, traduzindo objetivos de clientes em escopos, workflows, cronogramas e resultados. Na Munzner, estruturei um funil automatizado em Bitrix24 e Sendpulse que gerou aproximadamente R$ 50 mil, acompanhando aquisição, conversão, receita e ROI. Também construí protótipos de CRM e bases em Supabase/PostgreSQL e NocoDB.\n\nHubSpot e Salesforce fazem parte do meu repertório de ferramentas, mas não alego administração avançada, certificações ou implementações end-to-end nessas plataformas. Quero aprofundar essa competência na RevBlack, contribuindo desde o início com diagnóstico, processos, analytics, documentação e gestão consultiva de stakeholders.\n\nKevin Augusto Vieira",
       "form_answers": [
-        {"question": "Conte sobre uma melhoria de CRM ou processo comercial.", "answer": "No Projeto Meta, liderei a ativação de IA no CRM proprietário do onboarding ao acompanhamento prático por 3 semanas. O uso passou de 4 para 10 prompts/dia por consultor (+150%). Combinei treinamento, playbooks, observação de calls e feedback para melhorar adoção e qualidade contextual."},
-        {"question": "Como você transforma dados em recomendações?", "answer": "Começo pela decisão de negócio e verifico qualidade, definição e contexto dos dados. Usei Power BI, Excel, CRM, análise de causa raiz e feedback qualitativo para identificar gaps e ações. No Meu Barzin, a análise revelou 43,9% de abandono na primeira mensagem e baixa densidade de parceiros como prioridades."},
-        {"question": "Qual é sua experiência consultiva com clientes?", "answer": "Conduzi mais de 40 projetos para PMEs, do diagnóstico e escopo à coordenação de orçamento, cronograma, recursos e entrega. Meu foco é tornar objetivos mensuráveis, documentar decisões, comunicar riscos com clareza e conectar recomendações a impacto comercial."},
-        {"question": "Qual é seu nível em HubSpot e Salesforce?", "answer": "HubSpot e Salesforce constam no meu repertório, mas não apresento experiência comprovada de administração avançada, certificações ou implementação end-to-end. Minha experiência mais profunda está em CRM proprietário da Meta, Bitrix24, Sendpulse, protótipos de CRM, automação, dados e adoção. Estou preparado para aprofundar a configuração técnica com treinamento e prática supervisionada."}
+        {
+          "question": "Conte sobre uma melhoria de CRM ou processo comercial.",
+          "answer": "No Projeto Meta, liderei a ativação de IA no CRM proprietário do onboarding ao acompanhamento prático por 3 semanas. O uso passou de 4 para 10 prompts/dia por consultor (+150%). Combinei treinamento, playbooks, observação de calls e feedback para melhorar adoção e qualidade contextual."
+        },
+        {
+          "question": "Como você transforma dados em recomendações?",
+          "answer": "Começo pela decisão de negócio e verifico qualidade, definição e contexto dos dados. Usei Power BI, Excel, CRM, análise de causa raiz e feedback qualitativo para identificar gaps e ações. No Meu Barzin, a análise revelou 43,9% de abandono na primeira mensagem e baixa densidade de parceiros como prioridades."
+        },
+        {
+          "question": "Qual é sua experiência consultiva com clientes?",
+          "answer": "Conduzi mais de 40 projetos para PMEs, do diagnóstico e escopo à coordenação de orçamento, cronograma, recursos e entrega. Meu foco é tornar objetivos mensuráveis, documentar decisões, comunicar riscos com clareza e conectar recomendações a impacto comercial."
+        },
+        {
+          "question": "Qual é seu nível em HubSpot e Salesforce?",
+          "answer": "HubSpot e Salesforce constam no meu repertório, mas não apresento experiência comprovada de administração avançada, certificações ou implementação end-to-end. Minha experiência mais profunda está em CRM proprietário da Meta, Bitrix24, Sendpulse, protótipos de CRM, automação, dados e adoção. Estou preparado para aprofundar a configuração técnica com treinamento e prática supervisionada."
+        }
       ]
     },
     "en": {
       "cover_letter": "Hi RevBlack team,\n\nThe mission of turning CRM into growth and efficiency is a natural next step from my experience in Marketing Ops, Sales Enablement, data, and process improvement. At Wipro on the Meta Project, I led AI activation in a proprietary CRM, increasing usage by 150%, and used root cause analysis, call listening, playbooks, and dashboards to improve productivity and quality.\n\nIn consulting, I delivered 40+ projects, translating client objectives into scopes, workflows, timelines, and outcomes. At Munzner, I built an automated Bitrix24 and Sendpulse funnel that generated approximately R$50,000 while tracking acquisition, conversion, revenue, and ROI. I also built CRM prototypes and databases in Supabase/PostgreSQL and NocoDB.\n\nHubSpot and Salesforce are part of my toolset, but I do not claim advanced administration, certifications, or end-to-end implementations on either platform. I want to deepen that capability at RevBlack while contributing immediately through discovery, processes, analytics, documentation, and consultative stakeholder management.\n\nKevin Augusto Vieira",
       "form_answers": [
-        {"question": "Tell us about a CRM or commercial process improvement.", "answer": "On the Meta Project, I led AI activation in the proprietary CRM from onboarding through 3 weeks of hands-on coaching. Usage increased from 4 to 10 prompts/day per consultant (+150%). I combined training, playbooks, call observation, and feedback to improve adoption and contextual quality."},
-        {"question": "How do you turn data into recommendations?", "answer": "I start with the business decision and verify data quality, definition, and context. I have used Power BI, Excel, CRM data, root cause analysis, and qualitative feedback to identify gaps and actions. At Meu Barzin, analysis revealed a 43.9% first-message dropout and low partner density as priorities."},
-        {"question": "What is your client consulting experience?", "answer": "I delivered 40+ projects for SMBs, from discovery and scope through budget, timeline, resource coordination, and delivery. I focus on making objectives measurable, documenting decisions, communicating risks clearly, and linking recommendations to commercial impact."},
-        {"question": "What is your HubSpot and Salesforce level?", "answer": "HubSpot and Salesforce are part of my toolset, but I do not claim proven advanced administration, certifications, or end-to-end implementation. My deeper experience is with Meta's proprietary CRM, Bitrix24, Sendpulse, CRM prototypes, automation, data, and adoption. I am prepared to deepen technical configuration through structured training and supervised practice."}
+        {
+          "question": "Tell us about a CRM or commercial process improvement.",
+          "answer": "On the Meta Project, I led AI activation in the proprietary CRM from onboarding through 3 weeks of hands-on coaching. Usage increased from 4 to 10 prompts/day per consultant (+150%). I combined training, playbooks, call observation, and feedback to improve adoption and contextual quality."
+        },
+        {
+          "question": "How do you turn data into recommendations?",
+          "answer": "I start with the business decision and verify data quality, definition, and context. I have used Power BI, Excel, CRM data, root cause analysis, and qualitative feedback to identify gaps and actions. At Meu Barzin, analysis revealed a 43.9% first-message dropout and low partner density as priorities."
+        },
+        {
+          "question": "What is your client consulting experience?",
+          "answer": "I delivered 40+ projects for SMBs, from discovery and scope through budget, timeline, resource coordination, and delivery. I focus on making objectives measurable, documenting decisions, communicating risks clearly, and linking recommendations to commercial impact."
+        },
+        {
+          "question": "What is your HubSpot and Salesforce level?",
+          "answer": "HubSpot and Salesforce are part of my toolset, but I do not claim proven advanced administration, certifications, or end-to-end implementation. My deeper experience is with Meta's proprietary CRM, Bitrix24, Sendpulse, CRM prototypes, automation, data, and adoption. I am prepared to deepen technical configuration through structured training and supervised practice."
+        }
       ]
     }
   },
   "evidence": {
     "skills": {
-      "pt": ["HubSpot", "Salesforce", "Bitrix24", "Análise de Causa Raiz", "Mapeamento de Gargalos de Funil", "Métricas de Receita, ROI e Conversão", "SQL Básico e Exploração de Dados"],
-      "en": ["HubSpot", "Salesforce", "Bitrix24", "Root Cause Analysis", "Funnel Bottleneck Mapping", "Revenue, ROI, and Conversion Metrics", "Basic SQL and Data Exploration"]
+      "pt": [
+        "HubSpot",
+        "Salesforce",
+        "Bitrix24",
+        "Análise de Causa Raiz",
+        "Mapeamento de Gargalos de Funil",
+        "Métricas de Receita, ROI e Conversão",
+        "SQL Básico e Exploração de Dados"
+      ],
+      "en": [
+        "HubSpot",
+        "Salesforce",
+        "Bitrix24",
+        "Root Cause Analysis",
+        "Funnel Bottleneck Mapping",
+        "Revenue, ROI, and Conversion Metrics",
+        "Basic SQL and Data Exploration"
+      ]
     }
   }
 }

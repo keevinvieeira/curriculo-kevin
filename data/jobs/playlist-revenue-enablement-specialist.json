@@ -6,7 +6,10 @@
     "url": "https://www.playlist.com/careers/opportunities/4705948006",
     "fit_score": 89,
     "document_language": "en",
-    "available_languages": ["pt", "en"],
+    "available_languages": [
+      "pt",
+      "en"
+    ],
     "location": "Brazil",
     "work_model": "Remote-first in Brazil",
     "employment_type": "Full-time, salary non-exempt",
@@ -14,7 +17,9 @@
     "salary_expectation": "Published base equals approximately BRL 10,583-12,500/month and is below the documented Brazil/PJ target of BRL 15,000-22,000/month",
     "verified_at": "2026-08-17",
     "source_status": "Public company careers page accessible and accepting applications when verified",
-    "source_files": ["master_resume.json"],
+    "source_files": [
+      "master_resume.json"
+    ],
     "good_points": [
       "Direct experience leading Sales Excellence, Sales Productivity, onboarding, coaching, playbooks, scripts and enablement for 150+ Meta Marketing Pros.",
       "Documented ownership of native AI activation in a proprietary CRM, increasing daily usage by 150% and making the operation #1 globally for adoption growth.",
@@ -102,23 +107,79 @@
         }
       ],
       "skills": [
-        {"category": "Revenue Enablement", "skills": ["Sales Enablement Frameworks", "Sales Productivity", "Playbooks & Scripts Comerciais", "Escuta de Calls e Feedback Estruturado", "Organização de Bootcamps e Treinamentos de Alta Escala"]},
-        {"category": "Operações e Dados", "skills": ["Gestão de Stakeholders", "Metodologias Ágeis (Kanban, Scrum)", "Análise de Causa Raiz", "Business Intelligence (Power BI/Tableau)", "Excel Avançado"]},
-        {"category": "CRM, IA e Automação", "skills": ["CRMs Proprietários Meta", "Salesforce", "HubSpot", "Implementação de IAs Nativas em Fluxos de Trabalho", "Engenharia de Prompt Profissional"]}
+        {
+          "category": "Revenue Enablement",
+          "skills": [
+            "Sales Enablement Frameworks",
+            "Sales Productivity",
+            "Playbooks & Scripts Comerciais",
+            "Escuta de Calls e Feedback Estruturado",
+            "Organização de Bootcamps e Treinamentos de Alta Escala"
+          ]
+        },
+        {
+          "category": "Operações e Dados",
+          "skills": [
+            "Gestão de Stakeholders",
+            "Metodologias Ágeis (Kanban, Scrum)",
+            "Análise de Causa Raiz",
+            "Business Intelligence (Power BI/Tableau)",
+            "Excel Avançado"
+          ]
+        },
+        {
+          "category": "CRM, IA e Automação",
+          "skills": [
+            "CRMs Proprietários Meta",
+            "Salesforce",
+            "HubSpot",
+            "Implementação de IAs Nativas em Fluxos de Trabalho",
+            "Engenharia de Prompt Profissional"
+          ]
+        }
       ],
       "education": [
-        {"institution": "Universidade Federal do Paraná (UFPR)", "degree": "Bacharelado e Licenciatura em Filosofia", "dates": "2018 – 2023"},
-        {"institution": "Recanto da Filosofia Clínica", "degree": "Especialização em Filosofia Clínica", "dates": "Janeiro 2023 – Dezembro 2024"}
+        {
+          "institution": "Universidade Federal do Paraná (UFPR)",
+          "degree": "Bacharelado e Licenciatura em Filosofia",
+          "dates": "2018 – 2023"
+        },
+        {
+          "institution": "Recanto da Filosofia Clínica",
+          "degree": "Especialização em Filosofia Clínica",
+          "dates": "Janeiro 2023 – Dezembro 2024"
+        }
       ],
       "certifications": [
-        {"name": "Google Project Management Professional Certificate", "issuer": "Coursera / Google", "status": "Em andamento"},
-        {"name": "Meta Certified Media Planning Professional", "issuer": "Meta", "status": "Ativo"},
-        {"name": "Meta Certified Digital Marketing Associate", "issuer": "Meta", "status": "Ativo"}
+        {
+          "name": "Google Project Management Professional Certificate",
+          "issuer": "Coursera / Google",
+          "status": "Em andamento"
+        },
+        {
+          "name": "Meta Certified Media Planning Professional",
+          "issuer": "Meta",
+          "status": "Ativo"
+        },
+        {
+          "name": "Meta Certified Digital Marketing Associate",
+          "issuer": "Meta",
+          "status": "Ativo"
+        }
       ],
       "languages": [
-        {"language": "Português", "proficiency": "Nativo"},
-        {"language": "Inglês", "proficiency": "Avançado / Profissional; uso diário corporativo para relatórios, coordenação internacional e alinhamento de stakeholders"},
-        {"language": "Espanhol", "proficiency": "Básico"}
+        {
+          "language": "Português",
+          "proficiency": "Nativo"
+        },
+        {
+          "language": "Inglês",
+          "proficiency": "Avançado / Profissional; uso diário corporativo para relatórios, coordenação internacional e alinhamento de stakeholders"
+        },
+        {
+          "language": "Espanhol",
+          "proficiency": "Básico"
+        }
       ],
       "additional_information": []
     },
@@ -177,23 +238,79 @@
         }
       ],
       "skills": [
-        {"category": "Revenue Enablement", "skills": ["Sales Enablement Frameworks", "Sales Productivity", "Playbooks & Sales Scripts", "Call Listening & Structured Feedback", "High-Scale Bootcamp & Training Organization"]},
-        {"category": "Operations and Data", "skills": ["Stakeholder Management", "Agile Methodologies (Kanban, Scrum)", "Root Cause Analysis", "Business Intelligence (Power BI/Tableau)", "Advanced Excel"]},
-        {"category": "CRM, AI, and Automation", "skills": ["Meta Proprietary CRMs", "Salesforce", "HubSpot", "Native AI Implementation in Workflows", "Professional Prompt Engineering"]}
+        {
+          "category": "Revenue Enablement",
+          "skills": [
+            "Sales Enablement Frameworks",
+            "Sales Productivity",
+            "Playbooks & Sales Scripts",
+            "Call Listening & Structured Feedback",
+            "High-Scale Bootcamp & Training Organization"
+          ]
+        },
+        {
+          "category": "Operations and Data",
+          "skills": [
+            "Stakeholder Management",
+            "Agile Methodologies (Kanban, Scrum)",
+            "Root Cause Analysis",
+            "Business Intelligence (Power BI/Tableau)",
+            "Advanced Excel"
+          ]
+        },
+        {
+          "category": "CRM, AI, and Automation",
+          "skills": [
+            "Meta Proprietary CRMs",
+            "Salesforce",
+            "HubSpot",
+            "Native AI Implementation in Workflows",
+            "Professional Prompt Engineering"
+          ]
+        }
       ],
       "education": [
-        {"institution": "Universidade Federal do Paraná (UFPR)", "degree": "Bachelor's Degree and Licentiate in Philosophy", "dates": "2018 – 2023"},
-        {"institution": "Recanto da Filosofia Clínica", "degree": "Specialization in Clinical Philosophy", "dates": "January 2023 – December 2024"}
+        {
+          "institution": "Universidade Federal do Paraná (UFPR)",
+          "degree": "Bachelor's Degree and Licentiate in Philosophy",
+          "dates": "2018 – 2023"
+        },
+        {
+          "institution": "Recanto da Filosofia Clínica",
+          "degree": "Specialization in Clinical Philosophy",
+          "dates": "January 2023 – December 2024"
+        }
       ],
       "certifications": [
-        {"name": "Google Project Management Professional Certificate", "issuer": "Coursera / Google", "status": "In progress"},
-        {"name": "Meta Certified Media Planning Professional", "issuer": "Meta", "status": "Active"},
-        {"name": "Meta Certified Digital Marketing Associate", "issuer": "Meta", "status": "Active"}
+        {
+          "name": "Google Project Management Professional Certificate",
+          "issuer": "Coursera / Google",
+          "status": "In progress"
+        },
+        {
+          "name": "Meta Certified Media Planning Professional",
+          "issuer": "Meta",
+          "status": "Active"
+        },
+        {
+          "name": "Meta Certified Digital Marketing Associate",
+          "issuer": "Meta",
+          "status": "Active"
+        }
       ],
       "languages": [
-        {"language": "Portuguese", "proficiency": "Native"},
-        {"language": "English", "proficiency": "Advanced / Professional Full Proficiency; daily corporate use for technical reporting, international coordination, and stakeholder alignment"},
-        {"language": "Spanish", "proficiency": "Basic"}
+        {
+          "language": "Portuguese",
+          "proficiency": "Native"
+        },
+        {
+          "language": "English",
+          "proficiency": "Advanced / Professional Full Proficiency; daily corporate use for technical reporting, international coordination, and stakeholder alignment"
+        },
+        {
+          "language": "Spanish",
+          "proficiency": "Basic"
+        }
       ],
       "additional_information": []
     }
@@ -202,26 +319,66 @@
     "pt": {
       "cover_letter": "Olá, time da Playlist!\n\nA oportunidade de combinar Revenue Enablement, conteúdo comercial, adoção de tecnologia e IA está diretamente conectada à minha experiência no Projeto Meta, pela Wipro. Liderei os pilares de Sales Excellence e Sales Productivity, traduzindo atualizações de produto em propostas de valor, pitches, playbooks e materiais para mais de 150 profissionais.\n\nTambém conduzi a ativação da IA nativa no CRM proprietário, do onboarding a três semanas de coaching side-by-side. O trabalho elevou o uso de 4 para 10 prompts por dia (+150%) e tornou a operação a primeira globalmente em crescimento de adoção. Em um bootcamp piloto, reduzi o ramp-up de 6 para 3 meses, com 100% de conclusão, 90%+ de qualidade e 90% de satisfação.\n\nPosso contribuir com execução de enablement, conteúdo, treinamento, análise de performance e colaboração entre vendas, marketing e operações. Minha experiência em administração de ferramentas é mais forte em CRMs proprietários e automações do que em Salesloft ou gestão formal de licenças, lacuna que abordo com transparência e capacidade comprovada de aprender sistemas rapidamente.\n\nKevin Augusto Vieira",
       "form_answers": [
-        {"question": "Descreva sua experiência com Revenue Enablement.", "answer": "Na Wipro, no Projeto Meta, liderei Sales Excellence e Sales Productivity, convertendo atualizações globais em pitches, playbooks, scripts e treinamentos para mais de 150 profissionais. Também usei escuta de calls, feedback estruturado, análise de causa raiz e dados para diagnosticar lacunas e acompanhar planos de melhoria."},
-        {"question": "Como você aplicou IA a um fluxo comercial?", "answer": "Tive ownership da ativação da IA nativa no CRM proprietário da Meta. Estruturei onboarding, materiais e três semanas de acompanhamento side-by-side. O uso cresceu de 4 para 10 prompts por dia por consultor (+150%), e a operação alcançou o primeiro lugar global em crescimento de adoção."},
-        {"question": "Qual é sua experiência com Salesloft, Salesforce e administração de sales tech?", "answer": "Salesforce consta no meu repertório, mas não exerci função de administrador nem realizei provisionamento, permissões ou licenças. Também não usei Salesloft em produção. Minha experiência direta inclui CRMs proprietários Meta, Bitrix24, Sendpulse, HubSpot, automações e suporte à adoção; apresento essa base como transferível, não como administração já comprovada."},
-        {"question": "Qual é sua expectativa salarial?", "answer": "Minha referência documentada para contratos no Brasil é de R$ 15.000 a R$ 22.000 por mês, dependendo do regime, benefícios e escopo. Reconheço que a faixa publicada de R$ 127 mil a R$ 150 mil anuais fica abaixo dessa referência e avaliaria o pacote total antes de uma decisão."}
+        {
+          "question": "Descreva sua experiência com Revenue Enablement.",
+          "answer": "Na Wipro, no Projeto Meta, liderei Sales Excellence e Sales Productivity, convertendo atualizações globais em pitches, playbooks, scripts e treinamentos para mais de 150 profissionais. Também usei escuta de calls, feedback estruturado, análise de causa raiz e dados para diagnosticar lacunas e acompanhar planos de melhoria."
+        },
+        {
+          "question": "Como você aplicou IA a um fluxo comercial?",
+          "answer": "Tive ownership da ativação da IA nativa no CRM proprietário da Meta. Estruturei onboarding, materiais e três semanas de acompanhamento side-by-side. O uso cresceu de 4 para 10 prompts por dia por consultor (+150%), e a operação alcançou o primeiro lugar global em crescimento de adoção."
+        },
+        {
+          "question": "Qual é sua experiência com Salesloft, Salesforce e administração de sales tech?",
+          "answer": "Salesforce consta no meu repertório, mas não exerci função de administrador nem realizei provisionamento, permissões ou licenças. Também não usei Salesloft em produção. Minha experiência direta inclui CRMs proprietários Meta, Bitrix24, Sendpulse, HubSpot, automações e suporte à adoção; apresento essa base como transferível, não como administração já comprovada."
+        },
+        {
+          "question": "Qual é sua expectativa salarial?",
+          "answer": "Minha referência documentada para contratos no Brasil é de R$ 15.000 a R$ 22.000 por mês, dependendo do regime, benefícios e escopo. Reconheço que a faixa publicada de R$ 127 mil a R$ 150 mil anuais fica abaixo dessa referência e avaliaria o pacote total antes de uma decisão."
+        }
       ]
     },
     "en": {
       "cover_letter": "Hello Playlist team,\n\nThe opportunity to combine Revenue Enablement, sales content, technology adoption, and AI closely matches my experience supporting the Meta Project through Wipro. I led Sales Excellence and Sales Productivity pillars, translating product updates into value propositions, pitches, playbooks, and assets for 150+ professionals.\n\nI also drove native AI activation in Meta's proprietary CRM, from onboarding through three weeks of side-by-side coaching. This increased usage from 4 to 10 prompts per day (+150%) and made the operation #1 globally for adoption growth. In a pilot bootcamp, I reduced ramp-up from 6 to 3 months while achieving 100% completion, 90%+ quality, and 90% participant satisfaction.\n\nI can contribute hands-on enablement delivery, content, training, performance analysis, and collaboration across sales, marketing, and operations. My tool-administration experience is stronger in proprietary CRMs and automation than in Salesloft or formal license management, a gap I address transparently alongside a proven ability to learn systems quickly.\n\nKevin Augusto Vieira",
       "form_answers": [
-        {"question": "Describe your Revenue Enablement experience.", "answer": "At Wipro on the Meta Project, I led Sales Excellence and Sales Productivity, converting global updates into pitches, playbooks, scripts, and training for 150+ professionals. I also used call listening, structured feedback, root-cause analysis, and performance data to diagnose gaps and track improvement plans."},
-        {"question": "How have you applied AI to a sales workflow?", "answer": "I owned native AI activation in Meta's proprietary CRM. I structured onboarding, materials, and three weeks of side-by-side coaching. Usage increased from 4 to 10 prompts per consultant per day (+150%), and the operation ranked #1 globally for adoption growth."},
-        {"question": "What is your experience with Salesloft, Salesforce, and sales-tech administration?", "answer": "Salesforce is part of my skills profile, but I have not served as a Salesforce administrator or owned provisioning, permissions, or licenses. I have not used Salesloft in production. My direct experience includes Meta proprietary CRMs, Bitrix24, Sendpulse, HubSpot, automation, and adoption support; I present that as transferable experience rather than proven administration ownership."},
-        {"question": "What are your compensation expectations?", "answer": "My documented reference for Brazil-based contracts is BRL 15,000-22,000 per month depending on employment structure, benefits, and scope. I recognize that the published BRL 127,000-150,000 annual range is below that reference and would evaluate the total package before making a decision."}
+        {
+          "question": "Describe your Revenue Enablement experience.",
+          "answer": "At Wipro on the Meta Project, I led Sales Excellence and Sales Productivity, converting global updates into pitches, playbooks, scripts, and training for 150+ professionals. I also used call listening, structured feedback, root-cause analysis, and performance data to diagnose gaps and track improvement plans."
+        },
+        {
+          "question": "How have you applied AI to a sales workflow?",
+          "answer": "I owned native AI activation in Meta's proprietary CRM. I structured onboarding, materials, and three weeks of side-by-side coaching. Usage increased from 4 to 10 prompts per consultant per day (+150%), and the operation ranked #1 globally for adoption growth."
+        },
+        {
+          "question": "What is your experience with Salesloft, Salesforce, and sales-tech administration?",
+          "answer": "Salesforce is part of my skills profile, but I have not served as a Salesforce administrator or owned provisioning, permissions, or licenses. I have not used Salesloft in production. My direct experience includes Meta proprietary CRMs, Bitrix24, Sendpulse, HubSpot, automation, and adoption support; I present that as transferable experience rather than proven administration ownership."
+        },
+        {
+          "question": "What are your compensation expectations?",
+          "answer": "My documented reference for Brazil-based contracts is BRL 15,000-22,000 per month depending on employment structure, benefits, and scope. I recognize that the published BRL 127,000-150,000 annual range is below that reference and would evaluate the total package before making a decision."
+        }
       ]
     }
   },
   "evidence": {
     "skills": {
-      "pt": ["Sales Enablement Frameworks", "Sales Productivity", "Playbooks & Scripts Comerciais", "Escuta de Calls e Feedback Estruturado", "Gestão de Stakeholders", "Análise de Causa Raiz", "Implementação de IAs Nativas em Fluxos de Trabalho"],
-      "en": ["Sales Enablement Frameworks", "Sales Productivity", "Playbooks & Sales Scripts", "Call Listening & Structured Feedback", "Stakeholder Management", "Root Cause Analysis", "Native AI Implementation in Workflows"]
+      "pt": [
+        "Sales Enablement Frameworks",
+        "Sales Productivity",
+        "Playbooks & Scripts Comerciais",
+        "Escuta de Calls e Feedback Estruturado",
+        "Gestão de Stakeholders",
+        "Análise de Causa Raiz",
+        "Implementação de IAs Nativas em Fluxos de Trabalho"
+      ],
+      "en": [
+        "Sales Enablement Frameworks",
+        "Sales Productivity",
+        "Playbooks & Sales Scripts",
+        "Call Listening & Structured Feedback",
+        "Stakeholder Management",
+        "Root Cause Analysis",
+        "Native AI Implementation in Workflows"
+      ]
     }
   }
 }
