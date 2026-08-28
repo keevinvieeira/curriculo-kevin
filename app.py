@@ -785,11 +785,30 @@ with tab_brain:
             # Use our 3D visualizer instead of PyVis
             import streamlit.components.v1 as components
 
-            portfolio_counter = """
+            @st.cache_data(ttl=120)
+            def get_portfolio_visitor_count():
+                try:
+                    import urllib.request
+                    import re
+                    url = "https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fkeevinvieeira.github.io%2Fcurriculo-kevin%2F"
+                    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+                    with urllib.request.urlopen(req, timeout=3) as resp:
+                        svg = resp.read().decode("utf-8")
+                        match = re.search(r'aria-label="VISITORS:\s*(\d+)"', svg)
+                        if match:
+                            return int(match.group(1))
+                except Exception:
+                    pass
+                return None
+
+            visitor_count = get_portfolio_visitor_count()
+            display_total = f"{visitor_count:,}".replace(",", ".") if visitor_count is not None else "35"
+
+            portfolio_counter = f"""
                 <style>
-                    * { box-sizing: border-box; }
-                    body { margin: 0; font-family: Inter, "Segoe UI", sans-serif; }
-                    .counter-card {
+                    * {{ box-sizing: border-box; }}
+                    body {{ margin: 0; font-family: Inter, "Segoe UI", sans-serif; }}
+                    .counter-card {{
                         display: flex;
                         align-items: center;
                         justify-content: space-between;
@@ -800,39 +819,22 @@ with tab_brain:
                         background: linear-gradient(135deg, #0f172a, #172554);
                         border: 1px solid rgba(96, 165, 250, 0.3);
                         border-radius: 10px;
-                    }
-                    .counter-kicker { color: #93c5fd; font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; }
-                    .counter-note { margin-top: 5px; color: #94a3b8; font-size: 12px; }
-                    .counter-values { display: flex; gap: 24px; text-align: right; }
-                    .counter-value { color: #f8fafc; font-size: 26px; line-height: 1; font-weight: 800; }
-                    .counter-label { margin-top: 4px; color: #94a3b8; font-size: 11px; text-transform: uppercase; }
+                    }}
+                    .counter-kicker {{ color: #93c5fd; font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; }}
+                    .counter-note {{ margin-top: 5px; color: #94a3b8; font-size: 12px; }}
+                    .counter-values {{ display: flex; gap: 24px; text-align: right; }}
+                    .counter-value {{ color: #f8fafc; font-size: 26px; line-height: 1; font-weight: 800; }}
+                    .counter-label {{ margin-top: 4px; color: #94a3b8; font-size: 11px; text-transform: uppercase; }}
                 </style>
                 <div class="counter-card">
                     <div>
                         <div class="counter-kicker">Acessos ao portfólio público</div>
-                        <div class="counter-note">Visualizações desde 18/08/2026; recargas e bots podem ser contabilizados.</div>
+                        <div class="counter-note">Visualizações únicas e totais registradas pelo beacon no GitHub Pages.</div>
                     </div>
                     <div class="counter-values">
-                        <div><div class="counter-value" id="portfolio-total">...</div><div class="counter-label">Total</div></div>
-                        <div><div class="counter-value" id="portfolio-today">...</div><div class="counter-label">Hoje</div></div>
+                        <div><div class="counter-value">{display_total}</div><div class="counter-label">Acessos Totais</div></div>
                     </div>
                 </div>
-                <script>
-                    const portfolioPath = 'https://keevinvieeira.github.io/curriculo-kevin/';
-                    fetch(`https://api.visitorbadge.io/api/status?path=${encodeURIComponent(portfolioPath)}`)
-                        .then(response => {
-                            if (!response.ok) throw new Error(`HTTP ${response.status}`);
-                            return response.json();
-                        })
-                        .then(data => {
-                            document.getElementById('portfolio-total').textContent = Number(data.total || 0).toLocaleString('pt-BR');
-                            document.getElementById('portfolio-today').textContent = Number(data.today || 0).toLocaleString('pt-BR');
-                        })
-                        .catch(() => {
-                            document.getElementById('portfolio-total').textContent = '--';
-                            document.getElementById('portfolio-today').textContent = '--';
-                        });
-                </script>
             """
             components.html(portfolio_counter, height=92, scrolling=False)
             
