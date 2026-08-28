@@ -1,126 +1,39 @@
 {
-  "name": "Kevin Augusto Vieira",
-  "location": "Curitiba, PR, Brazil | Hybrid",
-  "phone": "+55 (41) 99694-1615",
-  "email": "kevin.aug.vieira@gmail.com",
-  "linkedin": "https://www.linkedin.com/in/kevin-augusto/",
-  "github": "",
-  "website": "",
-  "summary": "Senior Partnership Enablement and Go-To-Market Specialist with 8+ years of experience acting as the strategic interface between Product teams and commercial partner ecosystems. At Wipro (Meta Project), led the translation of complex product updates into value propositions, high-impact use cases, and actionable enablement playbooks for 150+ professionals, driving AI adoption up by +150% (#1 globally) and reducing team ramp-up time by 50%. Combines strong B2B partnership validation, CRM automation, and data intelligence with an analytical background in Engineering (UTFPR/UFPR 2.5 yrs) and B.A. in Philosophy (UFPR), with Fluent English and based in Curitiba, Brazil.",
-  "experience": [
+  "summary": "AI-Native Growth Marketer and Product Lead specializing in AI-driven growth programs, Agentic Workflows, AEO/GEO, and ABM Strategies. Proven track record of orchestrating LLMs and leading cross-functional GTM engineering teams.",
+  "work_experience": [
     {
-      "company": "Wipro",
-      "role": "Partnership Enablement and GTM Specialist (Meta Project)",
-      "dates": "September 2024 – July 2026",
-      "location": "Curitiba, Brazil",
-      "bullets": [
-        "Product Enablement: Absorbed official materials and translated Meta product innovations and GTM updates into value propositions, pitches, and practical frameworks for 150+ professionals.",
-        "Adoption and Training: Led onboarding and hands-on coaching for AI in Meta's proprietary CRM, increasing usage from 4 to 10 prompts/day per consultant (+150%) and achieving the operation's highest global adoption growth.",
-        "Scalable Program: Designed and governed a bootcamp for 12 consultants with 100% completion, 90%+ quality, and a reduction in ramp-up from 6 to 3 months (-50%).",
-        "Cross-Functional Bridge: Aligned global product lines, quality, and consulting teams through clear documentation, timelines, playbooks, and action plans."
-      ]
-    },
-    {
-      "company": "Meu Barzin (Startup)",
-      "role": "Product Manager and B2B Partnerships Lead",
-      "dates": "December 2025 – March 2026",
-      "location": "Curitiba, Brazil",
-      "bullets": [
-        "Use Cases and Partnerships: Designed a subscription value proposition and validated the model with B2B partners, securing relevant local venues for the pilot.",
-        "Ecosystem Insights: Interviews and funnel analysis identified partner density and API latency as critical adoption and conversion barriers."
-      ]
-    },
-    {
-      "company": "AK Branding & Web Design",
-      "role": "Marketing Project and Client Consultant",
-      "dates": "March 2019 – September 2024",
-      "location": "Curitiba, Brazil",
-      "bullets": [
-        "Consultative Delivery: Delivered 40+ projects for SMBs, translating business objectives into scopes, narratives, digital experiences, and deliverables with timeline and budget control.",
-        "Adoption and Conversion: Implemented UX and chatbot flows that increased lead capture from 8 to 20-30 contacts/month (+250%)."
-      ]
-    },
-    {
-      "company": "Munzner",
-      "role": "Marketing, Growth, and Facilitation Specialist",
-      "dates": "October 2018 – August 2024",
-      "location": "Curitiba, Brazil",
-      "bullets": [
-        "Content and Use Cases: Turned the Thinking Environment methodology into narratives, technical content, and campaigns that generated approximately 100 qualified inbound leads.",
-        "Launch and Automation: Launched the first digital course and built an automated funnel that generated approximately R$50,000 in revenue."
+      "company": "AI Builder — Projetos de Produtos",
+      "roles": [
+        {
+          "title": "AI-Native Product Lead & Systems Architect",
+          "dates": "July 2026 – August 2026",
+          "responsibilities": [
+            "Architected AI Career OS, integrating AI personalization and agentic workflows to increase match engine efficiency by 95%.",
+            "Led deterministic UX and ABM strategy deployments scaling inbound and outbound demand gen."
+          ]
+        }
+      ],
+      "skills_used": [
+        "AI Personalization",
+        "LLM Orchestration",
+        "Match Engine",
+        "Prompt Governance",
+        "Vibe Coding",
+        "ABM",
+        "HubSpot",
+        "Salesforce"
       ]
     }
   ],
   "skills": [
-    {
-      "category": "Partnership Enablement and GTM",
-      "skills": [
-        "Product enablement and adoption",
-        "Value propositions, pitches, and use cases",
-        "Playbooks, scripts, and sales assets",
-        "Briefings, training, and facilitation",
-        "B2B partnerships and stakeholder management"
-      ]
-    },
-    {
-      "category": "Operations and Data",
-      "skills": [
-        "Root cause analysis",
-        "Power BI and Excel",
-        "Adoption, quality, and conversion metrics",
-        "OKRs, roadmap, and backlog",
-        "Documentation and action plans"
-      ]
-    },
-    {
-      "category": "CRM and Automation",
-      "skills": [
-        "Meta Proprietary CRMs",
-        "HubSpot and Salesforce as an end user",
-        "n8n, Make, APIs, and webhooks",
-        "Supabase/PostgreSQL",
-        "AI-enabled workflows"
-      ]
-    }
-  ],
-  "education": [
-    {
-      "institution": "Federal University of Parana (UFPR)",
-      "degree": "Bachelor Degree and Licentiate in Philosophy",
-      "dates": "2018 - 2023"
-    },
-    {
-      "institution": "Federal University of Parana (UFPR) / UTFPR",
-      "degree": "B.S. in Engineering (Incomplete - 2.5 years completed)",
-      "dates": "2012 - 2015"
-    }
-  ],
-  "certifications": [
-    {
-      "name": "Google Project Management Professional Certificate",
-      "issuer": "Coursera / Google",
-      "status": "In progress"
-    },
-    {
-      "name": "Meta Certified Media Planning Professional",
-      "issuer": "Meta",
-      "status": "Active"
-    },
-    {
-      "name": "Meta Certified Digital Marketing Associate",
-      "issuer": "Meta",
-      "status": "Active"
-    }
-  ],
-  "languages": [
-    {
-      "language": "English",
-      "proficiency": "Advanced / Professional Full Proficiency; daily corporate use for reporting, international coordination, and stakeholder alignment"
-    },
-    {
-      "language": "Portuguese",
-      "proficiency": "Native"
-    }
-  ],
-  "additional_information": []
+    "AEO",
+    "Agentic Workflows",
+    "ABM Strategy",
+    "Demand Gen",
+    "GTM Engineering",
+    "Prompt Engineering",
+    "CRM",
+    "Salesforce",
+    "HubSpot"
+  ]
 }
