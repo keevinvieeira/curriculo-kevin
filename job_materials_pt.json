@@ -1,5 +1,9 @@
 {
-  "cover_letter": "HR Tech Co",
-  "email_pitch": "",
-  "interview_script": ""
+  "cover_letter": "Prezada equipe da HR Tech Co,\n\nEscrevo para manifestar meu grande interesse na posição de Growth Marketer na HR Tech Co. Com mais de 6 anos de experiência atuando na interseção entre marketing de crescimento B2B, arquitetura de sistemas com IA e operações de vendas, acompanho de perto como fluxos agênticos e IA generativa estão revolucionando a geração de demanda.\n\nRecentemente, como Líder de Produto e Arquiteto de Sistemas de IA no AI Career OS e Meu Barzin, liderei a orquestração de LLMs (Claude, GPT), desenvolvi motores de personalização baseados em sinais e atuei em estreita parceria com desenvolvedores técnicos. Na Wipro (Projeto Meta), liderei ativações de GTM e frameworks de ABM para 150+ profissionais, alcançando o 1º lugar global em crescimento de adoção de IA (+150%).\n\nEstou muito entusiasmado com a oportunidade de construir o playbook de crescimento com IA da HR Tech Co ao lado do seu GTM Engineer.\n\nAtenciosamente,\nKevin Augusto Vieira",
+  "form_answers": [
+    {
+      "question": "Por que você tem interesse na vaga na HR Tech Co?",
+      "answer": "A vaga combina perfeitamente minha experiência de 6+ anos em Growth B2B/ABM com minha liderança recente em arquitetura de produtos nativos em IA e colaboração direta com engenharia de GTM."
+    }
+  ]
 }

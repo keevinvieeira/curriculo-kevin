@@ -1,5 +1,13 @@
 {
-  "cover_letter": "HR Tech Co",
-  "email_pitch": "",
-  "interview_script": ""
+  "cover_letter": "Dear Hiring Team at HR Tech Co,\n\nI am writing to express my strong enthusiasm for the Growth Marketer role at HR Tech Co. Having spent the last 6+ years at the intersection of B2B growth marketing, AI systems architecture, and sales operations, I have seen firsthand how generative AI and agentic workflows are completely transforming demand generation.\n\nMost recently, as an AI-Native Product Lead and Systems Architect, I engineered the AI Career OS and lead GTM motions where I orchestrated LLMs (Claude, GPT), created signal-based personalization engines, and partnered closely with technical builders to deliver high-velocity releases. Previously, at Wipro (Meta Project), I led GTM enablement and ABM frameworks across 150+ professionals, scaling CRM AI adoption to rank #1 globally (+150%).\n\nWhat excites me most about HR Tech Co is the opportunity to own GTM strategy, shape the AI-driven growth playbook (AEO, de-anonymization, multi-channel prospecting), and partner directly with your GTM Engineer to translate high-level growth strategy into concrete, high-converting technical motions.\n\nI would love the opportunity to discuss how my hands-on experience with AI workflows, ABM strategies, and CRM data pipelines can help HR Tech Co accelerate its next phase of growth.\n\nBest regards,\nKevin Augusto Vieira",
+  "form_answers": [
+    {
+      "question": "Why are you interested in this role at HR Tech Co?",
+      "answer": "I am passionate about how AI is fundamentally restructuring B2B GTM motions. This role perfectly unites my background in B2B demand gen, ABM playbooks, and hands-on AI systems architecture alongside GTM Engineers."
+    },
+    {
+      "question": "Describe your experience partnering with technical teams or GTM Engineers.",
+      "answer": "In my recent projects (AI Career OS and Meu Barzin), I defined the product specs, prompts, and data schemas while working directly with engineering pipelines, ensuring fast feedback loops, strict data validation, and zero-hallucination user experiences."
+    }
+  ]
 }

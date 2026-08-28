@@ -1,39 +1,159 @@
 {
-  "summary": "AI-Native Growth Marketer and Product Lead specializing in AI-driven growth programs, Agentic Workflows, AEO/GEO, and ABM Strategies. Proven track record of orchestrating LLMs and leading cross-functional GTM engineering teams.",
-  "work_experience": [
+  "name": "Kevin Augusto Vieira",
+  "location": "Curitiba, PR, Brazil | Remote (LATAM)",
+  "phone": "+55 (41) 99694-1615",
+  "email": "kevin.aug.vieira@gmail.com",
+  "linkedin": "https://www.linkedin.com/in/kevin-augusto/",
+  "github": "",
+  "website": "",
+  "summary": "AI-Native Growth Marketer and GTM Systems Architect with 6+ years driving B2B demand generation, AI-driven growth programs, and ABM strategies. Specialized in bridging the gap between growth strategy and technical execution—partnering closely with GTM Engineers to build signal-based personalization at scale, agentic workflows, and high-converting inbound/outbound engines. Proven track record scaling AI tool adoption (#1 globally at Wipro/Meta), orchestrating LLMs (Claude, GPT, Gemini), and optimizing CRM pipelines across HubSpot and Salesforce.",
+  "experience": [
     {
       "company": "AI Builder — Projetos de Produtos",
-      "roles": [
-        {
-          "title": "AI-Native Product Lead & Systems Architect",
-          "dates": "July 2026 – August 2026",
-          "responsibilities": [
-            "Architected AI Career OS, integrating AI personalization and agentic workflows to increase match engine efficiency by 95%.",
-            "Led deterministic UX and ABM strategy deployments scaling inbound and outbound demand gen."
-          ]
-        }
-      ],
-      "skills_used": [
-        "AI Personalization",
-        "LLM Orchestration",
-        "Match Engine",
-        "Prompt Governance",
-        "Vibe Coding",
-        "ABM",
-        "HubSpot",
-        "Salesforce"
+      "role": "AI-Native Product Lead & Systems Architect (AI Career OS & 3D Brain)",
+      "dates": "July 2026 – Present",
+      "location": "Remote",
+      "bullets": [
+        "Conceived and architected AI Career OS, an AI-native data and matching engine utilizing LLM orchestration, GraphRAG, and prompt governance to achieve >95% precision in contextual matching.",
+        "Engineered generative AI pipelines for hyper-personalized output generation at scale, preventing model hallucinations through strict schema enforcement (SSOT).",
+        "Partnered as technical product lead utilizing AI-assisted development (Vibe Coding) and automated CI/CD pipelines, accelerating delivery speed by +10x."
+      ]
+    },
+    {
+      "company": "AI Builder — Projetos de Produtos",
+      "role": "Product & GTM Lead (Meu Barzin)",
+      "dates": "December 2025 – March 2026",
+      "location": "Remote",
+      "bullets": [
+        "Architected end-to-end B2B/B2C GTM strategy and frictionless acquisition funnel, generating 505 qualified top-of-funnel leads within 48h with zero initial media spend.",
+        "Deployed conversational AI agents with zero-hallucination guardrails, achieving a 22.3% repeat engagement rate and mapping user feedback directly into the product roadmap.",
+        "Integrated real-time database architecture (Supabase/PostgreSQL) with tracking pipelines, giving complete funnel visibility and CAC/LTV monitoring."
+      ]
+    },
+    {
+      "company": "Wipro (Projeto Meta)",
+      "role": "Marketing Operations & GTM Enablement Specialist",
+      "dates": "September 2024 – July 2026",
+      "location": "Curitiba, PR / Remote",
+      "bullets": [
+        "Led GTM activation, ABM frameworks, and sales enablement across 150+ Marketing Professionals, turning Meta product updates into high-performing pitch playbooks.",
+        "Ranked #1 globally in CRM AI tool adoption growth (+150%), coaching technical and commercial teams on embedding AI into live revenue motions.",
+        "Monitored multi-channel pipeline velocity, CRM data hygiene (Salesforce), and operational bottlenecks using Power BI and advanced conversion analytics."
+      ]
+    },
+    {
+      "company": "Munzner",
+      "role": "Marketing & Growth Specialist",
+      "dates": "October 2018 – August 2024",
+      "location": "Curitiba, PR",
+      "bullets": [
+        "Engineered and scaled a 10-stage inbound/outbound nurture funnel generating 10,000+ targeted visits and ~R$ 50k in high-ticket B2B pipeline.",
+        "Executed rapid A/B testing and CRO experiments across landing pages and email sequences, lifting lead conversion rates by +250%.",
+        "Designed ABM playbooks, ICP definitions, and audience segmentation connecting paid campaigns directly to closed-won revenue."
+      ]
+    },
+    {
+      "company": "AK Branding & Web Design",
+      "role": "Founder & Growth Consultant",
+      "dates": "March 2019 – September 2024",
+      "location": "Curitiba, PR",
+      "bullets": [
+        "Delivered growth strategy, brand positioning, and demand generation architectures for 20+ B2B clients and startups.",
+        "Managed paid media campaigns across Google Ads and Meta Ads, connecting ad engagement to CRM pipelines and maximizing ROAS."
       ]
     }
   ],
   "skills": [
-    "AEO",
-    "Agentic Workflows",
-    "ABM Strategy",
-    "Demand Gen",
-    "GTM Engineering",
-    "Prompt Engineering",
-    "CRM",
-    "Salesforce",
-    "HubSpot"
+    {
+      "category": "AI & Agentic Technologies",
+      "skills": [
+        "Claude",
+        "LLM Orchestration",
+        "Agentic Workflows",
+        "Prompt Engineering & Governance",
+        "AEO/GEO (AI Engine Optimization)",
+        "Personalization at Scale"
+      ]
+    },
+    {
+      "category": "Growth, ABM & Demand Generation",
+      "skills": [
+        "ABM Strategy",
+        "B2B Demand Gen",
+        "Multi-channel Prospecting",
+        "Inbound & Outbound Motions",
+        "Funnel Analytics & CRO",
+        "ICP Segmentation & Data Enrichment"
+      ]
+    },
+    {
+      "category": "Marketing Ops & CRM Systems",
+      "skills": [
+        "HubSpot",
+        "Salesforce",
+        "Marketing Operations",
+        "Revenue Analytics (CAC/LTV/ROAS)",
+        "Power BI",
+        "SQL & Supabase"
+      ]
+    },
+    {
+      "category": "Technical Collaboration & Execution",
+      "skills": [
+        "GTM Engineering Partnership",
+        "Rapid Experimentation & Prototyping",
+        "Technical PRDs & Specs",
+        "Data Architecture",
+        "Python Basics",
+        "CI/CD & Deployments"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Federal University of Parana (UFPR)",
+      "degree": "Bachelor Degree in Philosophy (Logic & Structural Thinking)",
+      "dates": "2018 – 2023"
+    },
+    {
+      "institution": "Federal University of Parana (UFPR) / UTFPR",
+      "degree": "B.S. in Engineering (2.5 years completed)",
+      "dates": "2012 – 2015"
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Google Project Management Professional Certificate",
+      "issuer": "Coursera / Google",
+      "status": "In progress"
+    },
+    {
+      "name": "Meta Certified Media Planning Professional",
+      "issuer": "Meta",
+      "status": "Active"
+    },
+    {
+      "name": "Meta Certified Digital Marketing Associate",
+      "issuer": "Meta",
+      "status": "Active"
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "proficiency": "Advanced / Professional Full Proficiency (Daily corporate use for technical specs, reporting and stakeholder alignment)"
+    },
+    {
+      "language": "Portuguese",
+      "proficiency": "Native"
+    },
+    {
+      "language": "Spanish",
+      "proficiency": "Basic"
+    }
+  ],
+  "additional_information": [
+    "Specialized in partnering with GTM Engineers to turn raw data and AI capabilities into high-leverage revenue motions.",
+    "Experienced in fast-paced startup and remote-first environments across LATAM and US timezones."
   ]
 }

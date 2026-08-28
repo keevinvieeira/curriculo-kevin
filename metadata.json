@@ -1,9 +1,24 @@
 {
   "company_name": "HR Tech Co",
-  "role_title": "Growth Marketer AI",
-  "fit_score": 98,
+  "role_title": "Growth Marketer (AI-Driven)",
+  "url": "",
+  "fit_score": 96,
+  "salary_expectation": "USD 4,000 – 5,500 / month (LATAM Remote, 40h/week)",
   "document_language": "en",
-  "salary_expectation": "A combiner",
-  "good_points": [],
-  "improvement_points": []
+  "available_languages": [
+    "en",
+    "pt"
+  ],
+  "source_files": [
+    "master_resume.json"
+  ],
+  "good_points": [
+    "4+ years of solid B2B Growth Marketing experience with proven leadership of AI-driven growth and agentic workflows.",
+    "Hands-on AI-Native product leadership (AI Career OS & Meu Barzin), orchestrating LLMs, scale personalization (AEO), and technical specs alongside GTM Engineers.",
+    "Deep expertise in ABM Strategy, Demand Gen, and Marketing Ops with #1 global ranking in CRM AI tool adoption (+150%) at Wipro (Meta Project).",
+    "End-to-end alignment connecting growth strategy to CRM pipeline data (Salesforce, HubSpot, Power BI) and revenue velocity."
+  ],
+  "improvement_points": [
+    "Review HR Tech Co's specific web de-anonymization and proprietary intent data toolstack during initial onboarding sprint."
+  ]
 }

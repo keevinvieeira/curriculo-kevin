@@ -1,74 +1,375 @@
 {
+  "id": "hr-tech-co-growth-marketer-ai",
   "metadata": {
     "company_name": "HR Tech Co",
-    "role_title": "Growth Marketer AI",
-    "fit_score": 98,
+    "role_title": "Growth Marketer (AI-Driven)",
+    "url": "",
+    "fit_score": 96,
+    "salary_expectation": "USD 4,000 – 5,500 / month (LATAM Remote, 40h/week)",
     "document_language": "en",
-    "salary_expectation": "A combiner",
-    "good_points": [],
-    "improvement_points": []
+    "available_languages": [
+      "en",
+      "pt"
+    ],
+    "source_files": [
+      "master_resume.json"
+    ],
+    "good_points": [
+      "4+ years of solid B2B Growth Marketing experience with proven leadership of AI-driven growth and agentic workflows.",
+      "Hands-on AI-Native product leadership (AI Career OS & Meu Barzin), orchestrating LLMs, scale personalization (AEO), and technical specs alongside GTM Engineers.",
+      "Deep expertise in ABM Strategy, Demand Gen, and Marketing Ops with #1 global ranking in CRM AI tool adoption (+150%) at Wipro (Meta Project).",
+      "End-to-end alignment connecting growth strategy to CRM pipeline data (Salesforce, HubSpot, Power BI) and revenue velocity."
+    ],
+    "improvement_points": [
+      "Review HR Tech Co's specific web de-anonymization and proprietary intent data toolstack during initial onboarding sprint."
+    ]
   },
   "triage": {
     "decision": "adapt",
-    "notes": "Testing the new 3D Career OS ontology graph"
-  },
-  "materials": {
-    "pt": {
-      "cover_letter": "HR Tech Co",
-      "email_pitch": "",
-      "interview_script": ""
-    },
-    "en": {
-      "cover_letter": "HR Tech Co",
-      "email_pitch": "",
-      "interview_script": ""
-    }
+    "notes": "Full fit with AI-Native Product Lead & Systems Architect and Wipro Meta GTM Enablement background."
   },
   "resume": {
     "en": {
-      "summary": "AI-Native Growth Marketer and Product Lead specializing in AI-driven growth programs, Agentic Workflows, AEO/GEO, and ABM Strategies. Proven track record of orchestrating LLMs and leading cross-functional GTM engineering teams.",
-      "work_experience": [
+      "name": "Kevin Augusto Vieira",
+      "location": "Curitiba, PR, Brazil | Remote (LATAM)",
+      "phone": "+55 (41) 99694-1615",
+      "email": "kevin.aug.vieira@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/kevin-augusto/",
+      "github": "",
+      "website": "",
+      "summary": "AI-Native Growth Marketer and GTM Systems Architect with 6+ years driving B2B demand generation, AI-driven growth programs, and ABM strategies. Specialized in bridging the gap between growth strategy and technical execution—partnering closely with GTM Engineers to build signal-based personalization at scale, agentic workflows, and high-converting inbound/outbound engines. Proven track record scaling AI tool adoption (#1 globally at Wipro/Meta), orchestrating LLMs (Claude, GPT, Gemini), and optimizing CRM pipelines across HubSpot and Salesforce.",
+      "experience": [
         {
           "company": "AI Builder — Projetos de Produtos",
-          "roles": [
-            {
-              "title": "AI-Native Product Lead & Systems Architect",
-              "dates": "July 2026 – August 2026",
-              "responsibilities": [
-                "Architected AI Career OS, integrating AI personalization and agentic workflows to increase match engine efficiency by 95%.",
-                "Led deterministic UX and ABM strategy deployments scaling inbound and outbound demand gen."
-              ]
-            }
-          ],
-          "skills_used": [
-            "AI Personalization",
-            "LLM Orchestration",
-            "Match Engine",
-            "Prompt Governance",
-            "Vibe Coding",
-            "ABM",
-            "HubSpot",
-            "Salesforce"
+          "role": "AI-Native Product Lead & Systems Architect (AI Career OS & 3D Brain)",
+          "dates": "July 2026 – Present",
+          "location": "Remote",
+          "bullets": [
+            "Conceived and architected AI Career OS, an AI-native data and matching engine utilizing LLM orchestration, GraphRAG, and prompt governance to achieve >95% precision in contextual matching.",
+            "Engineered generative AI pipelines for hyper-personalized output generation at scale, preventing model hallucinations through strict schema enforcement (SSOT).",
+            "Partnered as technical product lead utilizing AI-assisted development (Vibe Coding) and automated CI/CD pipelines, accelerating delivery speed by +10x."
+          ]
+        },
+        {
+          "company": "AI Builder — Projetos de Produtos",
+          "role": "Product & GTM Lead (Meu Barzin)",
+          "dates": "December 2025 – March 2026",
+          "location": "Remote",
+          "bullets": [
+            "Architected end-to-end B2B/B2C GTM strategy and frictionless acquisition funnel, generating 505 qualified top-of-funnel leads within 48h with zero initial media spend.",
+            "Deployed conversational AI agents with zero-hallucination guardrails, achieving a 22.3% repeat engagement rate and mapping user feedback directly into the product roadmap.",
+            "Integrated real-time database architecture (Supabase/PostgreSQL) with tracking pipelines, giving complete funnel visibility and CAC/LTV monitoring."
+          ]
+        },
+        {
+          "company": "Wipro (Projeto Meta)",
+          "role": "Marketing Operations & GTM Enablement Specialist",
+          "dates": "September 2024 – July 2026",
+          "location": "Curitiba, PR / Remote",
+          "bullets": [
+            "Led GTM activation, ABM frameworks, and sales enablement across 150+ Marketing Professionals, turning Meta product updates into high-performing pitch playbooks.",
+            "Ranked #1 globally in CRM AI tool adoption growth (+150%), coaching technical and commercial teams on embedding AI into live revenue motions.",
+            "Monitored multi-channel pipeline velocity, CRM data hygiene (Salesforce), and operational bottlenecks using Power BI and advanced conversion analytics."
+          ]
+        },
+        {
+          "company": "Munzner",
+          "role": "Marketing & Growth Specialist",
+          "dates": "October 2018 – August 2024",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Engineered and scaled a 10-stage inbound/outbound nurture funnel generating 10,000+ targeted visits and ~R$ 50k in high-ticket B2B pipeline.",
+            "Executed rapid A/B testing and CRO experiments across landing pages and email sequences, lifting lead conversion rates by +250%.",
+            "Designed ABM playbooks, ICP definitions, and audience segmentation connecting paid campaigns directly to closed-won revenue."
+          ]
+        },
+        {
+          "company": "AK Branding & Web Design",
+          "role": "Founder & Growth Consultant",
+          "dates": "March 2019 – September 2024",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Delivered growth strategy, brand positioning, and demand generation architectures for 20+ B2B clients and startups.",
+            "Managed paid media campaigns across Google Ads and Meta Ads, connecting ad engagement to CRM pipelines and maximizing ROAS."
           ]
         }
       ],
       "skills": [
-        "AEO",
-        "Agentic Workflows",
-        "ABM Strategy",
-        "Demand Gen",
-        "GTM Engineering",
-        "Prompt Engineering",
-        "CRM",
-        "Salesforce",
-        "HubSpot"
+        {
+          "category": "AI & Agentic Technologies",
+          "skills": [
+            "Claude",
+            "LLM Orchestration",
+            "Agentic Workflows",
+            "Prompt Engineering & Governance",
+            "AEO/GEO (AI Engine Optimization)",
+            "Personalization at Scale"
+          ]
+        },
+        {
+          "category": "Growth, ABM & Demand Generation",
+          "skills": [
+            "ABM Strategy",
+            "B2B Demand Gen",
+            "Multi-channel Prospecting",
+            "Inbound & Outbound Motions",
+            "Funnel Analytics & CRO",
+            "ICP Segmentation & Data Enrichment"
+          ]
+        },
+        {
+          "category": "Marketing Ops & CRM Systems",
+          "skills": [
+            "HubSpot",
+            "Salesforce",
+            "Marketing Operations",
+            "Revenue Analytics (CAC/LTV/ROAS)",
+            "Power BI",
+            "SQL & Supabase"
+          ]
+        },
+        {
+          "category": "Technical Collaboration & Execution",
+          "skills": [
+            "GTM Engineering Partnership",
+            "Rapid Experimentation & Prototyping",
+            "Technical PRDs & Specs",
+            "Data Architecture",
+            "Python Basics",
+            "CI/CD & Deployments"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "Federal University of Parana (UFPR)",
+          "degree": "Bachelor Degree in Philosophy (Logic & Structural Thinking)",
+          "dates": "2018 – 2023"
+        },
+        {
+          "institution": "Federal University of Parana (UFPR) / UTFPR",
+          "degree": "B.S. in Engineering (2.5 years completed)",
+          "dates": "2012 – 2015"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "Google Project Management Professional Certificate",
+          "issuer": "Coursera / Google",
+          "status": "In progress"
+        },
+        {
+          "name": "Meta Certified Media Planning Professional",
+          "issuer": "Meta",
+          "status": "Active"
+        },
+        {
+          "name": "Meta Certified Digital Marketing Associate",
+          "issuer": "Meta",
+          "status": "Active"
+        }
+      ],
+      "languages": [
+        {
+          "language": "English",
+          "proficiency": "Advanced / Professional Full Proficiency (Daily corporate use for technical specs, reporting and stakeholder alignment)"
+        },
+        {
+          "language": "Portuguese",
+          "proficiency": "Native"
+        },
+        {
+          "language": "Spanish",
+          "proficiency": "Basic"
+        }
+      ],
+      "additional_information": [
+        "Specialized in partnering with GTM Engineers to turn raw data and AI capabilities into high-leverage revenue motions.",
+        "Experienced in fast-paced startup and remote-first environments across LATAM and US timezones."
       ]
     },
     "pt": {
-      "summary": "AI-Native Growth Marketer and Product Lead...",
-      "work_experience": [],
-      "skills": []
+      "name": "Kevin Augusto Vieira",
+      "location": "Curitiba, PR, Brasil | Remoto",
+      "phone": "+55 (41) 99694-1615",
+      "email": "kevin.aug.vieira@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/kevin-augusto/",
+      "github": "",
+      "website": "",
+      "summary": "Growth Marketer e Especialista em GTM orientado a IA com 6+ anos de experiência liderando geração de demanda B2B, programas de crescimento impulsionados por IA e estratégias de ABM. Especializado na colaboração próxima com GTM Engineers para construir personalização em escala, fluxos agênticos e motores de aquisição de alta conversão.",
+      "experience": [
+        {
+          "company": "AI Builder — Projetos de Produtos",
+          "role": "Líder de Produto & Arquiteto de Sistemas com IA (AI Career OS & Cérebro 3D)",
+          "dates": "Julho 2026 – Presente",
+          "location": "Remoto",
+          "bullets": [
+            "Idealizou e arquitetou o AI Career OS, motor de matching ontológico utilizando orquestração de LLMs e GraphRAG com >95% de precisão contextual.",
+            "Construiu pipelines de IA generativa para personalização hiper-customizada em escala garantindo zero alucinações via tipagem estrita (SSOT).",
+            "Atuou como tech lead utilizando engenharia acelerada por IA (Vibe Coding), garantindo +10x de velocidade de entrega."
+          ]
+        },
+        {
+          "company": "AI Builder — Projetos de Produtos",
+          "role": "Gerente de Produto & GTM (Meu Barzin)",
+          "dates": "Dezembro 2025 – Março 2026",
+          "location": "Remoto",
+          "bullets": [
+            "Liderou estratégia de GTM e funil de aquisição sem atrito, capturando 505 leads qualificados de topo de funil em 48h com zero gasto em mídia.",
+            "Implementou agentes de IA conversacional com guardrails de zero alucinação, alcançando 22.3% de taxa de reengajamento recorrente.",
+            "Conectou dados em tempo real (Supabase/PostgreSQL) para rastreamento completo de conversão e métricas de CAC/LTV."
+          ]
+        },
+        {
+          "company": "Wipro (Projeto Meta)",
+          "role": "Especialista em Operações de Marketing / GTM e Sales Enablement",
+          "dates": "Setembro 2024 – Julho 2026",
+          "location": "Curitiba, PR / Remoto",
+          "bullets": [
+            "Liderou ativação de GTM, frameworks de ABM e capacitação para 150+ profissionais de marketing em ferramentas e metodologias Meta.",
+            "Alcançou a 1ª posição global em crescimento de adoção de ferramentas de IA no CRM (+150%), treinando times comerciais e técnicos.",
+            "Monitorou saúde de pipeline, funil multicanal e integração de dados no Salesforce/Power BI com foco em eficiência de receita."
+          ]
+        },
+        {
+          "company": "Munzner",
+          "role": "Especialista em Marketing & Growth",
+          "dates": "Outubro 2018 – Agosto 2024",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Estruturou funil de nutrição inbound/outbound em 10 etapas gerando 10.000+ visitas qualificadas e ~R$ 50k em vendas B2B high-ticket.",
+            "Conduziu testes A/B rápidos e otimização de taxa de conversão (CRO), aumentando a taxa de conversão em +250%.",
+            "Definiu estratégias de ABM e segmentação de ICP conectando engajamento de campanhas diretamente a faturamento."
+          ]
+        },
+        {
+          "company": "AK Branding & Web Design",
+          "role": "Fundador & Consultor de Marketing",
+          "dates": "Março 2019 – Setembro 2024",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Entregou consultoria estratégica de crescimento, posicionamento e arquitetura de demanda para 20+ clientes e startups.",
+            "Gerenciou campanhas de mídia paga (Google e Meta Ads) conectadas a CRMs para maximizar o ROAS."
+          ]
+        }
+      ],
+      "skills": [
+        {
+          "category": "Tecnologias de IA & Fluxos Agênticos",
+          "skills": [
+            "Claude",
+            "Orquestração de LLMs",
+            "Fluxos Agênticos",
+            "Engenharia e Governança de Prompts",
+            "AEO/GEO",
+            "Personalização em Escala"
+          ]
+        },
+        {
+          "category": "Growth, ABM & Geração de Demanda",
+          "skills": [
+            "Estratégia de ABM",
+            "Geração de Demanda B2B",
+            "Prospecção Multicanal",
+            "Funis Inbound e Outbound",
+            "Analytics de Funil & CRO",
+            "Segmentação de ICP & Enriquecimento"
+          ]
+        },
+        {
+          "category": "Operações de Marketing & CRMs",
+          "skills": [
+            "HubSpot",
+            "Salesforce",
+            "Marketing Operations",
+            "Métricas de Receita (CAC/LTV/ROAS)",
+            "Power BI",
+            "SQL & Supabase"
+          ]
+        },
+        {
+          "category": "Colaboração Técnica & Execução",
+          "skills": [
+            "Parceria com GTM Engineers",
+            "Experimentação Rápida",
+            "PRDs e Especificações Técnicas",
+            "Arquitetura de Dados",
+            "Noções de Python",
+            "CI/CD & Deploy"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "Universidade Federal do Paraná (UFPR)",
+          "degree": "Bacharelado e Licenciatura em Filosofia (Lógica e Pensamento Estrutural)",
+          "dates": "2018 – 2023"
+        },
+        {
+          "institution": "Universidade Federal do Paraná (UFPR) / UTFPR",
+          "degree": "Engenharias (2,5 anos concluídos)",
+          "dates": "2012 – 2015"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "Google Project Management Professional Certificate",
+          "issuer": "Coursera / Google",
+          "status": "Em andamento"
+        },
+        {
+          "name": "Meta Certified Media Planning Professional",
+          "issuer": "Meta",
+          "status": "Ativo"
+        },
+        {
+          "name": "Meta Certified Digital Marketing Associate",
+          "issuer": "Meta",
+          "status": "Ativo"
+        }
+      ],
+      "languages": [
+        {
+          "language": "Inglês",
+          "proficiency": "Avançado / Fluência Profissional Completa (Uso corporativo diário para alinhamentos técnicos e relatórios)"
+        },
+        {
+          "language": "Português",
+          "proficiency": "Nativo"
+        },
+        {
+          "language": "Espanhol",
+          "proficiency": "Básico"
+        }
+      ],
+      "additional_information": [
+        "Especialista em colaborar diretamente com GTM Engineers para transformar dados brutos e recursos de IA em alavancas de receita.",
+        "Experiência comprovada em ambientes de startups e trabalho 100% remoto focado no mercado LATAM/US."
+      ]
     }
   },
-  "id": "hr-tech-co-growth-marketer-ai"
+  "materials": {
+    "en": {
+      "cover_letter": "Dear Hiring Team at HR Tech Co,\n\nI am writing to express my strong enthusiasm for the Growth Marketer role at HR Tech Co. Having spent the last 6+ years at the intersection of B2B growth marketing, AI systems architecture, and sales operations, I have seen firsthand how generative AI and agentic workflows are completely transforming demand generation.\n\nMost recently, as an AI-Native Product Lead and Systems Architect, I engineered the AI Career OS and lead GTM motions where I orchestrated LLMs (Claude, GPT), created signal-based personalization engines, and partnered closely with technical builders to deliver high-velocity releases. Previously, at Wipro (Meta Project), I led GTM enablement and ABM frameworks across 150+ professionals, scaling CRM AI adoption to rank #1 globally (+150%).\n\nWhat excites me most about HR Tech Co is the opportunity to own GTM strategy, shape the AI-driven growth playbook (AEO, de-anonymization, multi-channel prospecting), and partner directly with your GTM Engineer to translate high-level growth strategy into concrete, high-converting technical motions.\n\nI would love the opportunity to discuss how my hands-on experience with AI workflows, ABM strategies, and CRM data pipelines can help HR Tech Co accelerate its next phase of growth.\n\nBest regards,\nKevin Augusto Vieira",
+      "form_answers": [
+        {
+          "question": "Why are you interested in this role at HR Tech Co?",
+          "answer": "I am passionate about how AI is fundamentally restructuring B2B GTM motions. This role perfectly unites my background in B2B demand gen, ABM playbooks, and hands-on AI systems architecture alongside GTM Engineers."
+        },
+        {
+          "question": "Describe your experience partnering with technical teams or GTM Engineers.",
+          "answer": "In my recent projects (AI Career OS and Meu Barzin), I defined the product specs, prompts, and data schemas while working directly with engineering pipelines, ensuring fast feedback loops, strict data validation, and zero-hallucination user experiences."
+        }
+      ]
+    },
+    "pt": {
+      "cover_letter": "Prezada equipe da HR Tech Co,\n\nEscrevo para manifestar meu grande interesse na posição de Growth Marketer na HR Tech Co. Com mais de 6 anos de experiência atuando na interseção entre marketing de crescimento B2B, arquitetura de sistemas com IA e operações de vendas, acompanho de perto como fluxos agênticos e IA generativa estão revolucionando a geração de demanda.\n\nRecentemente, como Líder de Produto e Arquiteto de Sistemas de IA no AI Career OS e Meu Barzin, liderei a orquestração de LLMs (Claude, GPT), desenvolvi motores de personalização baseados em sinais e atuei em estreita parceria com desenvolvedores técnicos. Na Wipro (Projeto Meta), liderei ativações de GTM e frameworks de ABM para 150+ profissionais, alcançando o 1º lugar global em crescimento de adoção de IA (+150%).\n\nEstou muito entusiasmado com a oportunidade de construir o playbook de crescimento com IA da HR Tech Co ao lado do seu GTM Engineer.\n\nAtenciosamente,\nKevin Augusto Vieira",
+      "form_answers": [
+        {
+          "question": "Por que você tem interesse na vaga na HR Tech Co?",
+          "answer": "A vaga combina perfeitamente minha experiência de 6+ anos em Growth B2B/ABM com minha liderança recente em arquitetura de produtos nativos em IA e colaboração direta com engenharia de GTM."
+        }
+      ]
+    }
+  }
 }
