@@ -534,67 +534,144 @@
         const companyPositions = new Map();
         const initialCamera = new THREE.Vector3(0, 14, 34);
 
-                let navigationHistory = [];
-        let isNavigatingHistory = false;
-        let currentViewState = null;
+                let navContext = {
+            companyId: null,
+            roleId: null,
+            functionId: null,
+            skillId: null,
+            metricId: null,
+            activeLevel: null
+        };
+
+        function getLinearParent(level, currentId) {
+            if (level === 'metric') {
+                if (navContext.skillId) {
+                    const s = getNode(navContext.skillId);
+                    if (s) return { level: 'skill', id: s.id, label: nodeLabel(s) };
+                }
+                const prodEdge = graphData.edges.find(e => e.type === 'PRODUCED_METRIC' && e.target === currentId);
+                if (prodEdge) {
+                    const func = getNode(prodEdge.source);
+                    if (func) {
+                        const skills = skillsForFunctions([func.id]);
+                        if (skills.length > 0) {
+                            return { level: 'skill', id: skills[0].id, label: nodeLabel(skills[0]) };
+                        }
+                        return { level: 'function', id: func.id, label: nodeLabel(func) };
+                    }
+                }
+                if (navContext.functionId) {
+                    const f = getNode(navContext.functionId);
+                    if (f) return { level: 'function', id: f.id, label: nodeLabel(f) };
+                }
+                if (navContext.roleId) {
+                    const r = getNode(navContext.roleId);
+                    if (r) return { level: 'role', id: r.id, label: nodeLabel(r) };
+                }
+                if (navContext.companyId) {
+                    const c = getNode(navContext.companyId);
+                    if (c) return { level: 'company', id: c.id, label: nodeLabel(c) };
+                }
+                return { level: 'fullView', id: null, label: t('fullView') };
+            }
+
+            if (level === 'skill') {
+                if (navContext.functionId) {
+                    const f = getNode(navContext.functionId);
+                    if (f) return { level: 'function', id: f.id, label: nodeLabel(f) };
+                }
+                const skill = getNode(currentId);
+                if (skill && skill.function_ids && skill.function_ids.length > 0) {
+                    if (navContext.companyId) {
+                        const match = skill.function_ids.find(fid => getNode(fid)?.company_id === navContext.companyId);
+                        const f = getNode(match || skill.function_ids[0]);
+                        if (f) return { level: 'function', id: f.id, label: nodeLabel(f) };
+                    } else {
+                        const f = getNode(skill.function_ids[0]);
+                        if (f) return { level: 'function', id: f.id, label: nodeLabel(f) };
+                    }
+                }
+                if (navContext.roleId) {
+                    const r = getNode(navContext.roleId);
+                    if (r) return { level: 'role', id: r.id, label: nodeLabel(r) };
+                }
+                if (navContext.companyId) {
+                    const c = getNode(navContext.companyId);
+                    if (c) return { level: 'company', id: c.id, label: nodeLabel(c) };
+                }
+                return { level: 'fullView', id: null, label: t('fullView') };
+            }
+
+            if (level === 'function') {
+                const func = getNode(currentId);
+                const roleId = func?.role_id || navContext.roleId;
+                if (roleId) {
+                    const r = getNode(roleId);
+                    if (r) return { level: 'role', id: r.id, label: nodeLabel(r) };
+                }
+                const compId = func?.company_id || navContext.companyId;
+                if (compId) {
+                    const c = getNode(compId);
+                    if (c) return { level: 'company', id: c.id, label: nodeLabel(c) };
+                }
+                return { level: 'fullView', id: null, label: t('fullView') };
+            }
+
+            if (level === 'role') {
+                const role = getNode(currentId);
+                const compId = role?.company_id || navContext.companyId;
+                if (compId) {
+                    const c = getNode(compId);
+                    if (c) return { level: 'company', id: c.id, label: nodeLabel(c) };
+                }
+                return { level: 'fullView', id: null, label: t('fullView') };
+            }
+
+            if (level === 'company') {
+                return { level: 'fullView', id: null, label: t('fullView') };
+            }
+
+            return { level: 'fullView', id: null, label: t('fullView') };
+        }
 
         function updateBackButton() {
             const backBtn = document.getElementById('detail-back');
             if (!backBtn) return;
-            if (navigationHistory.length > 0) {
+            if (navContext.activeLevel) {
+                const currentId = navContext[navContext.activeLevel + 'Id'] || selectedNodeId || selectedSkillId || selectedCompanyId;
+                const parent = getLinearParent(navContext.activeLevel, currentId);
                 backBtn.classList.add('visible');
                 backBtn.style.display = 'inline-flex';
-                const last = navigationHistory[navigationHistory.length - 1];
-                const prevTitle = last && last.title ? ` (${last.title})` : '';
-                backBtn.setAttribute('title', (currentLanguage === 'pt' ? 'Voltar para' : 'Back to') + prevTitle);
                 const labelElem = document.getElementById('detail-back-text');
-                if (labelElem) labelElem.textContent = t('back');
+                if (labelElem) {
+                    const prefix = currentLanguage === 'pt' ? 'Voltar para ' : 'Back to ';
+                    labelElem.textContent = prefix + parent.label;
+                }
+                backBtn.setAttribute('title', (currentLanguage === 'pt' ? 'Voltar para: ' : 'Back to: ') + parent.label);
             } else {
                 backBtn.classList.remove('visible');
                 backBtn.style.display = 'none';
             }
         }
 
-        function pushNavigationState(state) {
-            if (isNavigatingHistory) return;
-            if (currentViewState) {
-                if (currentViewState.action === state.action && currentViewState.id === state.id) {
-                    return;
-                }
-                navigationHistory.push(currentViewState);
-                if (navigationHistory.length > 50) navigationHistory.shift();
-            }
-            currentViewState = state;
-            updateBackButton();
-        }
-
         function navigateBack() {
-            if (navigationHistory.length === 0) {
+            if (!navContext.activeLevel) {
                 resetFullView();
                 return;
             }
-            const prevState = navigationHistory.pop();
-            isNavigatingHistory = true;
-            try {
-                currentViewState = prevState;
-                if (prevState.action === 'company') {
-                    focusOnCompany(prevState.id, false);
-                } else if (prevState.action === 'skill') {
-                    focusOnSkill(prevState.id, false);
-                } else if (prevState.action === 'node') {
-                    focusOnProfessionalNode(prevState.id, false);
-                } else if (prevState.action === 'category') {
-                    selectCategory(prevState.id);
-                } else if (prevState.action === 'type') {
-                    selectType(prevState.id);
-                } else if (prevState.action === 'fullView') {
-                    resetFullView(false);
-                }
-            } catch (err) {
-                console.error('Error in navigateBack:', err);
-            } finally {
-                isNavigatingHistory = false;
-                updateBackButton();
+            const currentId = navContext[navContext.activeLevel + 'Id'] || selectedNodeId || selectedSkillId || selectedCompanyId;
+            const parent = getLinearParent(navContext.activeLevel, currentId);
+
+            if (parent.level === 'skill') {
+                focusOnSkill(parent.id);
+            } else if (parent.level === 'function') {
+                focusOnProfessionalNode(parent.id);
+            } else if (parent.level === 'role') {
+                focusOnProfessionalNode(parent.id);
+            } else if (parent.level === 'company') {
+                focusOnCompany(parent.id);
+            } else {
+                resetFullView();
             }
         }
 
@@ -1080,13 +1157,16 @@
             buildLegend();
         }
 
-        function focusOnCompany(companyId, pushState = true) {
+        function focusOnCompany(companyId) {
             const companyMesh = nodeMeshes.get(companyId);
             if (!companyMesh) return;
-            const company = getNode(companyId);
-            if (pushState) {
-                pushNavigationState({ action: 'company', id: companyId, title: company ? nodeLabel(company) : companyId });
-            }
+            navContext.companyId = companyId;
+            navContext.roleId = null;
+            navContext.functionId = null;
+            navContext.skillId = null;
+            navContext.metricId = null;
+            navContext.activeLevel = 'company';
+
             selectedCompanyId = companyId;
             selectedCategory = null;
             selectedSkillId = null;
@@ -1231,13 +1311,30 @@
             });
         }
 
-        function focusOnSkill(skillId, pushState = true) {
+        function focusOnSkill(skillId) {
             const skill = getNode(skillId);
             const skillMesh = nodeMeshes.get(skillId);
             if (!skill || !skillMesh) return;
-            if (pushState) {
-                pushNavigationState({ action: 'skill', id: skillId, title: nodeLabel(skill) });
+
+            navContext.skillId = skillId;
+            navContext.metricId = null;
+            navContext.activeLevel = 'skill';
+            if (skill.function_ids && skill.function_ids.length > 0) {
+                if (!navContext.functionId || !skill.function_ids.includes(navContext.functionId)) {
+                    if (navContext.companyId) {
+                        const match = skill.function_ids.find(fid => getNode(fid)?.company_id === navContext.companyId);
+                        navContext.functionId = match || skill.function_ids[0];
+                    } else {
+                        navContext.functionId = skill.function_ids[0];
+                    }
+                }
+                const fNode = getNode(navContext.functionId);
+                if (fNode) {
+                    navContext.roleId = fNode.role_id || navContext.roleId;
+                    navContext.companyId = fNode.company_id || navContext.companyId;
+                }
             }
+
             selectedSkillId = skillId;
             selectedCompanyId = null;
             selectedCategory = null;
@@ -1314,14 +1411,45 @@
                 });
         }
 
-        function focusOnProfessionalNode(nodeId, pushState = true) {
+        function focusOnProfessionalNode(nodeId) {
             const node = getNode(nodeId);
             const nodeMesh = nodeMeshes.get(nodeId);
             if (!node || !nodeMesh || !['Role', 'Function', 'Metric'].includes(node.type)) return;
 
-            if (pushState) {
-                pushNavigationState({ action: 'node', id: nodeId, title: nodeLabel(node) });
+            if (node.type === 'Role') {
+                navContext.roleId = nodeId;
+                navContext.companyId = node.company_id || navContext.companyId;
+                navContext.functionId = null;
+                navContext.skillId = null;
+                navContext.metricId = null;
+                navContext.activeLevel = 'role';
+            } else if (node.type === 'Function') {
+                navContext.functionId = nodeId;
+                navContext.roleId = node.role_id || navContext.roleId;
+                navContext.companyId = node.company_id || navContext.companyId;
+                navContext.skillId = null;
+                navContext.metricId = null;
+                navContext.activeLevel = 'function';
+            } else if (node.type === 'Metric') {
+                navContext.metricId = nodeId;
+                navContext.companyId = node.company_id || navContext.companyId;
+                navContext.roleId = node.role_id || navContext.roleId;
+                const prodEdge = graphData.edges.find(e => e.type === 'PRODUCED_METRIC' && e.target === nodeId);
+                if (prodEdge) {
+                    const fNode = getNode(prodEdge.source);
+                    if (fNode) {
+                        navContext.functionId = fNode.id;
+                        navContext.roleId = fNode.role_id || navContext.roleId;
+                        navContext.companyId = fNode.company_id || navContext.companyId;
+                        const linkedSkills = skillsForFunctions([fNode.id]);
+                        if (linkedSkills.length > 0 && !navContext.skillId) {
+                            navContext.skillId = linkedSkills[0].id;
+                        }
+                    }
+                }
+                navContext.activeLevel = 'metric';
             }
+
             selectedNodeId = nodeId;
             selectedCompanyId = null;
             selectedCategory = null;
@@ -1451,11 +1579,15 @@
             }
         }
 
-        function resetFullView(clearHistory = true) {
-            if (clearHistory && !isNavigatingHistory) {
-                navigationHistory = [];
-                currentViewState = null;
-            }
+        function resetFullView() {
+            navContext = {
+                companyId: null,
+                roleId: null,
+                functionId: null,
+                skillId: null,
+                metricId: null,
+                activeLevel: null
+            };
             selectedCompanyId = null;
             selectedCategory = null;
             selectedSkillId = null;
