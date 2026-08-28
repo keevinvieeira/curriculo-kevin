@@ -681,7 +681,15 @@
             if (typeof value === 'string') return value;
             return value[currentLanguage] || value.pt || value.en || '';
         }
-        function nodeLabel(node) { return localized(node.labels) || node.label || node.id; }
+        function nodeLabel(node) {
+            if (!node) return '';
+            if (node.type === 'Metric') {
+                const val = localized(node.labels) || node.value || '';
+                const name = localized(node.names);
+                return name ? `${val} · ${name}` : val || node.id;
+            }
+            return localized(node.labels) || node.label || node.id;
+        }
         function getNode(id) { return graphData.nodes.find(node => node.id === id); }
         function connectedCompanyIds(node) {
             if (node.type === 'Company') return [node.id];
@@ -795,7 +803,7 @@
                 };
                 const labelColor = labelColorMap[node.type] || '#bfdbfe';
                 const label = createTextSprite(nodeLabel(node), labelColor);
-                label.position.set(0, size * 0.55, 0);
+                label.position.set(0, (node.size || 1) * 0.75 + 0.45, 0);
                 label.visible = node.type === 'Candidate' || node.type === 'Company';
                 label.userData.isNodeLabel = true;
                 mesh.add(label);
@@ -872,22 +880,46 @@
         function createTextSprite(text, color) {
             const canvas = document.createElement('canvas');
             const context = canvas.getContext('2d');
-            const fontSize = 30;
-            context.font = `600 ${fontSize}px Inter, Segoe UI, sans-serif`;
-            const width = Math.ceil(context.measureText(text).width + 28);
-            canvas.width = Math.max(128, width);
-            canvas.height = 52;
-            context.font = `600 ${fontSize}px Inter, Segoe UI, sans-serif`;
-            context.fillStyle = 'rgba(9, 10, 16, 0.78)';
-            context.roundRect(0, 4, canvas.width, 44, 10);
+            const fontSize = 34;
+            context.font = `600 ${fontSize}px Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif`;
+            const textMetrics = context.measureText(text);
+            const textWidth = Math.ceil(textMetrics.width);
+            const paddingX = 26;
+            const paddingY = 14;
+            canvas.width = Math.max(140, textWidth + paddingX * 2);
+            canvas.height = fontSize + paddingY * 2;
+
+            // Re-apply styles after dimension allocation
+            context.font = `600 ${fontSize}px Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif`;
+            context.fillStyle = 'rgba(9, 14, 28, 0.92)';
+            context.strokeStyle = color;
+            context.lineWidth = 2.5;
+            context.beginPath();
+            context.roundRect(2, 2, canvas.width - 4, canvas.height - 4, 10);
             context.fill();
+            context.stroke();
+
             context.fillStyle = color;
             context.textAlign = 'center';
             context.textBaseline = 'middle';
-            context.fillText(text, canvas.width / 2, 26);
+            context.fillText(text, canvas.width / 2, canvas.height / 2);
+
             const texture = new THREE.CanvasTexture(canvas);
-            const sprite = new THREE.Sprite(new THREE.SpriteMaterial({ map: texture, transparent: true, depthTest: false }));
-            sprite.scale.set(Math.min(7, canvas.width / 38), 1.3, 1);
+            texture.minFilter = THREE.LinearFilter;
+            texture.magFilter = THREE.LinearFilter;
+
+            const spriteMaterial = new THREE.SpriteMaterial({
+                map: texture,
+                transparent: true,
+                depthTest: false,
+                depthWrite: false
+            });
+            const sprite = new THREE.Sprite(spriteMaterial);
+
+            // World scale: preserve exact aspect ratio without any squishing!
+            const height3D = 1.15;
+            const aspect = canvas.width / canvas.height;
+            sprite.scale.set(height3D * aspect, height3D, 1);
             sprite.userData = { text, color, baseOpacity: 1 };
             return sprite;
         }
@@ -920,7 +952,7 @@
             const wasVisible = oldSprite?.visible ?? (mesh.userData.type === 'Candidate' || mesh.userData.type === 'Company');
             if (oldSprite) mesh.remove(oldSprite);
             const sprite = createTextSprite(text, color);
-            sprite.position.set(0, (mesh.userData.size || 1) * 0.55, 0);
+            sprite.position.set(0, (mesh.userData.size || 1) * 0.75 + 0.45, 0);
             sprite.visible = wasVisible;
             sprite.userData.isNodeLabel = true;
             mesh.add(sprite);
