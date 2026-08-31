@@ -30,7 +30,9 @@ try:
     from engine.automation.queue_actions import (
         approve_resume,
         discard_job,
+        list_awaiting_application_review,
         list_pending_approval,
+        mark_ready_to_submit,
         reprocess_job,
     )
     from engine.automation.ingestion import IngestionError
@@ -666,6 +668,63 @@ with tab_queue:
                             st.rerun()
                         except Exception as e:
                             st.error(f"Erro ao descartar: {e}")
+
+    st.markdown("---")
+    st.subheader("🧩 Revisão do preenchimento (Application Prep Agent)")
+    st.write(
+        "Vagas já preenchidas pelo Application Prep Agent "
+        "(`python scripts/run_application_agent.py`, rodado localmente). Nenhuma foi "
+        "enviada — revise os campos preenchidos e, principalmente, os pendentes "
+        "abaixo antes de marcar como pronta para envio. O envio em si continua sendo "
+        "um passo manual/separado (Gate #2, Fase 6)."
+    )
+
+    try:
+        review_jobs = list_awaiting_application_review()
+    except Exception as e:
+        review_jobs = []
+        st.error(f"Erro ao ler vagas aguardando revisão de preenchimento: {e}")
+
+    if not review_jobs:
+        st.info("Nenhuma vaga aguardando revisão de preenchimento no momento.")
+    else:
+        for job in review_jobs:
+            metadata = job.get("metadata", {})
+            session_summary = job.get("automation", {}).get("application_session", {})
+            job_id = job["id"]
+            company = metadata.get("company_name", "Empresa")
+            role = metadata.get("role_title", "Cargo")
+            filled = session_summary.get("filled", [])
+            pending = session_summary.get("human_required", [])
+
+            with st.expander(
+                f"🏢 {company} — {role}  ·  {len(filled)} preenchido(s), {len(pending)} pendente(s)",
+                expanded=False,
+            ):
+                if metadata.get("url"):
+                    st.markdown(f"🔗 [Ver formulário original]({metadata['url']})")
+
+                if filled:
+                    st.markdown("**✅ Preenchido automaticamente:**")
+                    for item in filled:
+                        st.markdown(
+                            f"- *{item.get('label', 'N/A')}* → {item.get('value', 'N/A')} "
+                            f"(fonte: `{item.get('source', 'N/A')}`)"
+                        )
+                if pending:
+                    st.markdown("**⚠️ Requer preenchimento manual:**")
+                    for item in pending:
+                        st.markdown(f"- *{item.get('label', 'N/A')}* ({item.get('field_type', 'N/A')})")
+
+                if st.button(
+                    "✅ Marcar como pronta para envio", key=f"queue_ready_{job_id}", use_container_width=True
+                ):
+                    try:
+                        mark_ready_to_submit(job_id)
+                        st.success(f"'{company} — {role}' marcada como READY_TO_SUBMIT.")
+                        st.rerun()
+                    except Exception as e:
+                        st.error(f"Erro ao marcar como pronta: {e}")
 
 # ====================
 # TAB 2: APPLICATIONS TRACKER

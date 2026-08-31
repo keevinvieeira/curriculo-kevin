@@ -12,7 +12,10 @@ from engine.automation.ingestion import IngestionError
 from engine.automation.queue_actions import (
     approve_resume,
     discard_job,
+    list_awaiting_application_review,
     list_pending_approval,
+    list_resume_approved,
+    mark_ready_to_submit,
     reprocess_job,
 )
 from engine.automation.state_machine import WorkflowStatus, get_workflow_status
@@ -162,6 +165,39 @@ def test_reprocess_job_reruns_adaptation_and_reaches_awaiting_approval(isolated_
     on_disk = job_store.load_job(job_data["id"])
     assert get_workflow_status(on_disk) == WorkflowStatus.AWAITING_RESUME_APPROVAL
     assert on_disk["resume"]["pt"]["summary"] == "Resumo atualizado."
+
+
+def test_list_resume_approved_only_returns_that_status(isolated_pipeline):
+    _, jobs_dir = isolated_pipeline
+    write_json(job_path("acme-pmm"), _seeded_job("acme-pmm", WorkflowStatus.RESUME_APPROVED))
+    write_json(job_path("beta-pmm"), _seeded_job("beta-pmm", WorkflowStatus.AWAITING_RESUME_APPROVAL))
+
+    result = list_resume_approved()
+
+    assert [job["id"] for job in result] == ["acme-pmm"]
+
+
+def test_list_awaiting_application_review_only_returns_that_status(isolated_pipeline):
+    _, jobs_dir = isolated_pipeline
+    write_json(job_path("acme-pmm"), _seeded_job("acme-pmm", WorkflowStatus.AWAITING_APPLICATION_REVIEW))
+    write_json(job_path("beta-pmm"), _seeded_job("beta-pmm", WorkflowStatus.RESUME_APPROVED))
+
+    result = list_awaiting_application_review()
+
+    assert [job["id"] for job in result] == ["acme-pmm"]
+
+
+def test_mark_ready_to_submit_transitions_and_persists(isolated_pipeline):
+    _, jobs_dir = isolated_pipeline
+    write_json(
+        job_path("acme-pmm"),
+        _seeded_job("acme-pmm", WorkflowStatus.AWAITING_APPLICATION_REVIEW),
+    )
+
+    mark_ready_to_submit("acme-pmm")
+
+    on_disk = job_store.load_job("acme-pmm")
+    assert get_workflow_status(on_disk) == WorkflowStatus.READY_TO_SUBMIT
 
 
 def test_reprocess_job_llm_failure_raises_ingestion_error(isolated_pipeline, monkeypatch):

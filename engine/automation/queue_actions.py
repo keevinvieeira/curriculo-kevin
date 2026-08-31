@@ -35,6 +35,33 @@ def list_pending_approval() -> List[Dict[str, Any]]:
     return pending
 
 
+def list_resume_approved() -> List[Dict[str, Any]]:
+    """Jobs approved for the Application Prep Agent to pick up (Fase 5) — not yet
+    run through it. `scripts/run_application_agent.py` is what actually consumes
+    this, not the Streamlit queue directly (a real browser run doesn't belong inside
+    a web request/response cycle)."""
+    return [job for job in list_jobs() if get_workflow_status(job) == WorkflowStatus.RESUME_APPROVED]
+
+
+def list_awaiting_application_review() -> List[Dict[str, Any]]:
+    """Jobs the Application Prep Agent already ran on — the second human gate's
+    review screen (fields filled + gaps left for the human) reads this."""
+    return [
+        job for job in list_jobs()
+        if get_workflow_status(job) == WorkflowStatus.AWAITING_APPLICATION_REVIEW
+    ]
+
+
+def mark_ready_to_submit(job_id: str) -> Dict[str, Any]:
+    """AWAITING_APPLICATION_REVIEW -> READY_TO_SUBMIT: the human confirms the filled
+    form (and any fields they completed by hand) looks correct. This is still not
+    permission to submit — that's the separate SUBMIT_APPROVED gate (Fase 6)."""
+    job = load_job(job_id)
+    transition(job, WorkflowStatus.READY_TO_SUBMIT)
+    write_json(job_path(job_id), job)
+    return job
+
+
 def approve_resume(job_id: str) -> Dict[str, Any]:
     """AWAITING_RESUME_APPROVAL -> RESUME_APPROVED. Never activates the job in
     Streamlit — approving the résumé and previewing/activating it are separate
