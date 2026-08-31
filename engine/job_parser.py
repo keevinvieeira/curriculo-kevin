@@ -12,11 +12,11 @@ from dataclasses import dataclass, field
 from pathlib import Path
 
 from pydantic import BaseModel, Field
-from google import genai
-from google.genai import types
 
+from llm_client import generate_structured
+from engine.graph_engine import GraphEngine
 from engine.schemas_graph import (
-    GraphEngine, NodeType, EdgeType,
+    NodeType, EdgeType, SkillCategory,
     JobPostingNode, RequirementNode, SkillNode, ToolNode,
     create_node, create_edge,
 )
@@ -132,33 +132,23 @@ SAÍDA: JSON estruturado conforme schema JobTriples.
 # ============================
 
 class JobPostingParser:
-    """Parses job descriptions using Gemini Structured Output."""
-    
+    """Parses job descriptions using LLM Structured Output (via OpenRouter, see llm_client.py)."""
+
     def __init__(self, api_key: Optional[str] = None):
-        self.client = genai.Client(api_key=api_key)
-        self.model = 'gemini-2.5-flash'
-    
+        self.api_key = api_key
+
     def parse_from_text(self, job_text: str, company_hint: str = "") -> ParsedJobPosting:
         """Parse job description text into structured requirements."""
-        
+
         prompt = JOB_PARSING_PROMPT
         if company_hint:
             prompt += f"\n\nDICA: Empresa aparente: {company_hint}"
-        
+
         prompt += f"\n\nDESCRIÇÃO DA VAGA:\n{job_text}"
-        
-        response = self.client.models.generate_content(
-            model=self.model,
-            contents=prompt,
-            config=types.GenerateContentConfig(
-                response_mime_type="application/json",
-                response_schema=ParsedJobPosting,
-                temperature=0.1,
-            ),
+
+        return generate_structured(
+            ParsedJobPosting, prompt, temperature=0.1, api_key=self.api_key
         )
-        
-        parsed = json.loads(response.text)
-        return ParsedJobPosting(**parsed)
     
     def parse_from_url(self, url: str) -> ParsedJobPosting:
         """Fetch and parse job from URL."""
@@ -191,8 +181,7 @@ class TripleExtractor:
     
     def __init__(self, graph_engine: GraphEngine, api_key: Optional[str] = None):
         self.engine = graph_engine
-        self.client = genai.Client(api_key=api_key)
-        self.model = 'gemini-2.5-flash'
+        self.api_key = api_key
         self._load_taxonomy()
     
     def _load_taxonomy(self):
@@ -234,19 +223,8 @@ class TripleExtractor:
         )
         
         prompt += f"\n\nREQUISITOS DA VAGA:\n{json.dumps([r.model_dump() for r in parsed_job.requirements], ensure_ascii=False, indent=2)}"
-        
-        response = self.client.models.generate_content(
-            model=self.model,
-            contents=prompt,
-            config=types.GenerateContentConfig(
-                response_mime_type="application/json",
-                response_schema=JobTriples,
-                temperature=0.1,
-            ),
-        )
-        
-        triples = json.loads(response.text)
-        return JobTriples(**triples)
+
+        return generate_structured(JobTriples, prompt, temperature=0.1, api_key=self.api_key)
 
 
 # ============================
@@ -457,5 +435,5 @@ if __name__ == "__main__":
     """
     
     # Note: Requires API key to run
-    print("Sample job ready for processing. Set GEMINI_API_KEY to run.")
+    print("Sample job ready for processing. Set OPENROUTER_API_KEY to run.")
     print(f"Sample text length: {len(sample_job)} chars")

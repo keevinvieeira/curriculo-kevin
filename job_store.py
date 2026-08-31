@@ -42,6 +42,24 @@ def load_job(job_id: str) -> dict[str, Any]:
     return read_json(job_path(job_id))
 
 
+def list_jobs() -> list[dict[str, Any]]:
+    """Load every job artifact under data/jobs/, skipping active.json (the pointer
+    file, not a job) and any file that fails to parse as a valid job object."""
+    if not JOBS_DIR.exists():
+        return []
+    jobs = []
+    for path in sorted(JOBS_DIR.glob("*.json")):
+        if path == ACTIVE_POINTER:
+            continue
+        try:
+            job = read_json(path)
+        except (json.JSONDecodeError, OSError):
+            continue
+        if isinstance(job, dict) and job.get("id"):
+            jobs.append(job)
+    return jobs
+
+
 def load_active_job() -> dict[str, Any] | None:
     if not ACTIVE_POINTER.exists():
         return None

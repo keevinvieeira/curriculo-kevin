@@ -1,0 +1,6 @@
+{
+  "_comment": "Boards do radar (engine/automation/radar.py). Preencha com os slugs reais das empresas que você quer monitorar — o slug é o trecho do próprio board público na URL (ex.: https://boards.greenhouse.io/acme -> \"acme\"; https://jobs.lever.co/beta-co -> \"beta-co\"; https://jobs.ashbyhq.com/gamma -> \"gamma\"). Vazio por padrão — scripts/run_automation_cycle.py não inventa empresas para monitorar.",
+  "greenhouse_boards": [],
+  "lever_accounts": [],
+  "ashby_boards": []
+}

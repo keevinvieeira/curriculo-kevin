@@ -81,6 +81,7 @@ python scripts/activate_job.py <slug-da-vaga> --validate
 - Toda adaptacao e compilacao de PDFs deve ser imediatamente sincronizada via `git push origin main` para deploy automatico no projeto online.
 - Nao e necessario iniciar ou manter servidores locais do Streamlit em segundo plano; o fluxo oficial e direto no projeto online e no GitHub.
 - Sempre inclua os links clicaveis para download dos PDFs gerados e o link web do repositorio no GitHub: `https://github.com/keevinvieeira/curriculo-kevin`.
+- **Excecao explicita — camada de automacao (`engine/automation/`, `engine/application/`, `scripts/run_automation_cycle.py`, `scripts/run_application_agent.py`, `scripts/run_submit_agent.py`):** esta regra de `git push origin main` NAO se aplica a essa camada. A automacao trabalha sempre em branch propria e PR (ver README.md secao 5) — nada gerado pelo radar/adaptacao automatica pode ir direto para `main`, porque isso redeployaria o app publico antes de qualquer revisao humana. Se voce (IA) estiver operando dentro do fluxo de automacao, ignore esta secao 6 e siga README.md secao 5 em vez disso.
 
 ## Criterios de Qualidade
 
