@@ -1,0 +1,74 @@
+name: Career OS — Automation Radar Cycle
+
+# Cloud half of the automation layer (Fase 7): radar -> dedupe -> score -> adapt,
+# entirely unattended, stopping at the first human gate (AWAITING_RESUME_APPROVAL).
+# Deliberately never pushes to main: everything it produces lands on a dedicated
+# branch via a pull request, so a scheduled run can never redeploy the public app
+# (see AGENTS.md's "git push origin main" step, which this workflow must NOT do)
+# before a human has reviewed a single adapted résumé.
+#
+# The other half — the Application Prep Agent (scripts/run_application_agent.py) and
+# the submit agent (scripts/run_submit_agent.py) — needs a real local browser
+# session (and, for any ATS requiring login, the user's own cookies), so it
+# deliberately stays local-only and is not part of this workflow. See README.md's
+# "Automação" section for the full split.
+
+on:
+  schedule:
+    # 07:00 America/Sao_Paulo (UTC-3), on weekdays — adjust to taste. Cron is UTC.
+    - cron: "0 10 * * 1-5"
+  workflow_dispatch:
+    inputs:
+      max_jobs:
+        description: "Cap on jobs adapted this run"
+        required: false
+        default: "5"
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: automation-radar-cycle
+  cancel-in-progress: false
+
+jobs:
+  radar-cycle:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run automation cycle
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          OPENROUTER_MODEL: ${{ secrets.OPENROUTER_MODEL }}
+        run: |
+          python scripts/run_automation_cycle.py \
+            --max-jobs "${{ github.event.inputs.max_jobs || '5' }}" \
+            --no-pdf
+
+      - name: Open/update pull request with newly discovered jobs
+        uses: peter-evans/create-pull-request@v6
+        with:
+          commit-message: "chore(automation): radar cycle — novas vagas descobertas"
+          branch: automation/radar-cycle
+          delete-branch: false
+          title: "Radar de vagas: novas candidaturas para revisão"
+          body: |
+            Gerado automaticamente por `.github/workflows/automation_cycle.yml`
+            (`scripts/run_automation_cycle.py`). Nenhuma candidatura foi enviada —
+            estas vagas estão em `AWAITING_RESUME_APPROVAL`, aguardando revisão na
+            aba "Fila de Aprovação (Radar)" do Streamlit (rode localmente para
+            revisar antes de aprovar).
+          add-paths: |
+            data/jobs/*.json
+          labels: automation
