@@ -75,7 +75,9 @@ def test_generate_structured_returns_model_instance(monkeypatch):
         value: str
 
     fake = _FakeLLMClient(canned_response=Dummy(value="ok"))
-    monkeypatch.setattr(llm_client, "get_llm_client", lambda api_key=None, model=None: fake)
+    monkeypatch.setattr(
+        llm_client, "get_llm_client", lambda api_key=None, model=None, base_url=None: fake
+    )
 
     result = llm_client.generate_structured(Dummy, "some prompt", temperature=0.4)
 

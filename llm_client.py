@@ -46,7 +46,22 @@ DEFAULT_MODEL = "anthropic/claude-opus-5"
 T = TypeVar("T", bound=BaseModel)
 
 
-def get_llm_client(api_key: Optional[str] = None, model: Optional[str] = None) -> Any:
+def resolve_base_url(base_url: Optional[str] = None) -> str:
+    """Base URL for the OpenAI-compatible endpoint, in precedence order:
+    explicit argument > OPENROUTER_BASE_URL env var > OpenRouter's own URL.
+
+    The override exists for two real cases: pointing at a corporate gateway/proxy that
+    speaks the same API, and pointing the test suite at a local stub server so the
+    HTTP wiring itself can be exercised offline (see tests/test_llm_client_http.py).
+    """
+    return base_url or os.getenv("OPENROUTER_BASE_URL") or OPENROUTER_BASE_URL
+
+
+def get_llm_client(
+    api_key: Optional[str] = None,
+    model: Optional[str] = None,
+    base_url: Optional[str] = None,
+) -> Any:
     """Return an instructor-patched client wired to OpenRouter.
 
     Raises RuntimeError if `instructor` isn't installed, or ValueError if no API key
@@ -67,7 +82,7 @@ def get_llm_client(api_key: Optional[str] = None, model: Optional[str] = None) -
     resolved_model = model or os.getenv("OPENROUTER_MODEL", DEFAULT_MODEL)
     return instructor.from_provider(
         f"openrouter/{resolved_model}",
-        base_url=OPENROUTER_BASE_URL,
+        base_url=resolve_base_url(base_url),
         api_key=key,
         async_client=False,
     )
@@ -80,13 +95,14 @@ def generate_structured(
     temperature: float = 0.2,
     api_key: Optional[str] = None,
     model: Optional[str] = None,
+    base_url: Optional[str] = None,
 ) -> T:
     """Run a single-turn structured-output completion, returning a validated Pydantic model.
 
     Thin wrapper so call sites (utils.py, engine/job_parser.py) don't each re-implement
     client construction + error handling.
     """
-    client = get_llm_client(api_key=api_key, model=model)
+    client = get_llm_client(api_key=api_key, model=model, base_url=base_url)
     return client.create(
         messages=[{"role": "user", "content": prompt}],
         response_model=response_model,
