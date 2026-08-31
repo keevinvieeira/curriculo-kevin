@@ -62,6 +62,25 @@ def mark_ready_to_submit(job_id: str) -> Dict[str, Any]:
     return job
 
 
+def list_ready_to_submit() -> List[Dict[str, Any]]:
+    """Jobs whose filled application was already reviewed and confirmed correct —
+    waiting on Gate #2 itself (the plan's "aprovar envio")."""
+    return [job for job in list_jobs() if get_workflow_status(job) == WorkflowStatus.READY_TO_SUBMIT]
+
+
+def approve_submit(job_id: str) -> Dict[str, Any]:
+    """READY_TO_SUBMIT -> SUBMIT_APPROVED: Gate #2 itself. This is the one explicit
+    action in the whole pipeline that authorizes engine.application.submit to
+    actually click the real Submit button for this job — nothing upstream of this
+    call can reach SUBMIT_APPROVED any other way (see TRANSITIONS in
+    state_machine.py), and nothing downstream (submit_application()) will run
+    without it."""
+    job = load_job(job_id)
+    transition(job, WorkflowStatus.SUBMIT_APPROVED)
+    write_json(job_path(job_id), job)
+    return job
+
+
 def approve_resume(job_id: str) -> Dict[str, Any]:
     """AWAITING_RESUME_APPROVAL -> RESUME_APPROVED. Never activates the job in
     Streamlit — approving the résumé and previewing/activating it are separate

@@ -29,9 +29,11 @@ try:
     from components.brain_insights import render_brain_insights
     from engine.automation.queue_actions import (
         approve_resume,
+        approve_submit,
         discard_job,
         list_awaiting_application_review,
         list_pending_approval,
+        list_ready_to_submit,
         mark_ready_to_submit,
         reprocess_job,
     )
@@ -725,6 +727,49 @@ with tab_queue:
                         st.rerun()
                     except Exception as e:
                         st.error(f"Erro ao marcar como pronta: {e}")
+
+    st.markdown("---")
+    st.subheader("🚀 Gate #2 — Aprovar Envio")
+    st.write(
+        "Última confirmação antes de qualquer candidatura ser realmente enviada. "
+        "Aprovar aqui autoriza `python scripts/run_submit_agent.py` a clicar no "
+        "botão de envio real desta vaga na próxima vez que rodar — nada é enviado "
+        "só por clicar neste botão."
+    )
+
+    try:
+        ready_jobs = list_ready_to_submit()
+    except Exception as e:
+        ready_jobs = []
+        st.error(f"Erro ao ler vagas prontas para envio: {e}")
+
+    if not ready_jobs:
+        st.info("Nenhuma vaga aguardando aprovação de envio no momento.")
+    else:
+        for job in ready_jobs:
+            metadata = job.get("metadata", {})
+            job_id = job["id"]
+            company = metadata.get("company_name", "Empresa")
+            role = metadata.get("role_title", "Cargo")
+
+            with st.expander(f"🏢 {company} — {role}", expanded=False):
+                if metadata.get("url"):
+                    st.markdown(f"🔗 [Ver formulário original]({metadata['url']})")
+                st.warning(
+                    "Confirme que revisou todos os campos preenchidos e pendentes "
+                    "antes de aprovar o envio."
+                )
+                if st.button(
+                    "🚀 Aprovar envio (autoriza o robô a enviar)",
+                    key=f"queue_submit_approve_{job_id}",
+                    use_container_width=True,
+                ):
+                    try:
+                        approve_submit(job_id)
+                        st.success(f"'{company} — {role}' aprovada para envio (SUBMIT_APPROVED).")
+                        st.rerun()
+                    except Exception as e:
+                        st.error(f"Erro ao aprovar envio: {e}")
 
 # ====================
 # TAB 2: APPLICATIONS TRACKER

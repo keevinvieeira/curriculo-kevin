@@ -11,9 +11,11 @@ import utils
 from engine.automation.ingestion import IngestionError
 from engine.automation.queue_actions import (
     approve_resume,
+    approve_submit,
     discard_job,
     list_awaiting_application_review,
     list_pending_approval,
+    list_ready_to_submit,
     list_resume_approved,
     mark_ready_to_submit,
     reprocess_job,
@@ -198,6 +200,26 @@ def test_mark_ready_to_submit_transitions_and_persists(isolated_pipeline):
 
     on_disk = job_store.load_job("acme-pmm")
     assert get_workflow_status(on_disk) == WorkflowStatus.READY_TO_SUBMIT
+
+
+def test_list_ready_to_submit_only_returns_that_status(isolated_pipeline):
+    _, jobs_dir = isolated_pipeline
+    write_json(job_path("acme-pmm"), _seeded_job("acme-pmm", WorkflowStatus.READY_TO_SUBMIT))
+    write_json(job_path("beta-pmm"), _seeded_job("beta-pmm", WorkflowStatus.AWAITING_APPLICATION_REVIEW))
+
+    result = list_ready_to_submit()
+
+    assert [job["id"] for job in result] == ["acme-pmm"]
+
+
+def test_approve_submit_transitions_and_persists(isolated_pipeline):
+    _, jobs_dir = isolated_pipeline
+    write_json(job_path("acme-pmm"), _seeded_job("acme-pmm", WorkflowStatus.READY_TO_SUBMIT))
+
+    approve_submit("acme-pmm")
+
+    on_disk = job_store.load_job("acme-pmm")
+    assert get_workflow_status(on_disk) == WorkflowStatus.SUBMIT_APPROVED
 
 
 def test_reprocess_job_llm_failure_raises_ingestion_error(isolated_pipeline, monkeypatch):
