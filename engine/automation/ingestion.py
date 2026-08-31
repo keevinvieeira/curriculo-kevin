@@ -33,7 +33,7 @@ from engine.automation.state_machine import (
     transition,
 )
 from engine.job_pipeline import JobPipeline
-from job_store import slugify
+from job_store import job_path, slugify, write_json
 
 
 class IngestionError(Exception):
@@ -80,6 +80,10 @@ def build_job_skeleton(posting: RawJobPosting, score: ScoreResult) -> Dict[str, 
     }
     ensure_automation_block(job_data, source=f"radar:{posting.source}")
     job_data["automation"]["fit_score_breakdown"] = score.breakdown
+    # Kept so the approval queue's "Reprocessar" action (Fase 4) can re-run adaptation
+    # later without re-fetching the posting — the JD text itself isn't part of the
+    # validate_job()-checked schema, so storing it here is additive/safe.
+    job_data["automation"]["source_description"] = posting.description
     return job_data
 
 
@@ -130,6 +134,12 @@ def adapt_and_ingest(
         raise IngestionError(str(exc), job_data) from exc
 
     transition(job_data, WorkflowStatus.AWAITING_RESUME_APPROVAL)
+    # `process_job_artifact` already wrote job_data to disk, but at that point
+    # workflow_status was still VALIDATING — the transition above only mutated the
+    # in-memory dict. Re-persist so data/jobs/<slug>.json reflects the real final
+    # status; otherwise the Streamlit approval queue (which reads straight from disk)
+    # would never see this job as AWAITING_RESUME_APPROVAL.
+    write_json(job_path(job_data["id"]), job_data)
     result["job_data"] = job_data
     return result
 

@@ -7,6 +7,8 @@ tmp_path so this never touches the real repo's job artifacts.
 """
 from __future__ import annotations
 
+import json
+
 import pytest
 
 import engine.job_pipeline as job_pipeline_module
@@ -100,6 +102,7 @@ def test_build_job_skeleton_sets_explicit_fit_score(posting, passing_score):
     job_data = build_job_skeleton(posting, passing_score)
     assert job_data["metadata"]["fit_score"] == passing_score.total
     assert job_data["automation"]["fit_score_breakdown"] == passing_score.breakdown
+    assert job_data["automation"]["source_description"] == posting.description
     assert get_workflow_status(job_data) == WorkflowStatus.DISCOVERED
 
 
@@ -119,6 +122,27 @@ def test_adapt_and_ingest_reaches_awaiting_resume_approval(
     assert not (jobs_dir / "active.json").exists()
     # o artefato versionado deve existir de verdade em data/jobs/<slug>.json
     assert (jobs_dir / f"{job_data['id']}.json").exists()
+
+
+def test_adapt_and_ingest_persists_final_status_to_disk(
+    posting, passing_score, isolated_pipeline, monkeypatch
+):
+    """Regression guard: process_job_artifact() writes the artifact to disk while
+    workflow_status is still VALIDATING (it saves *before* adapt_and_ingest's own
+    transition to AWAITING_RESUME_APPROVAL runs). The on-disk data/jobs/<slug>.json
+    must reflect the final status — the Streamlit approval queue reads straight from
+    disk, so a job stuck showing VALIDATING there would never appear as pending
+    approval."""
+    pipeline, jobs_dir = isolated_pipeline
+    _patch_llm(monkeypatch, posting.company)
+
+    result = adapt_and_ingest(
+        posting, passing_score, master_resume={}, pipeline=pipeline, generate_pdfs=False
+    )
+
+    job_data = result["job_data"]
+    on_disk = json.loads((jobs_dir / f"{job_data['id']}.json").read_text(encoding="utf-8"))
+    assert on_disk["automation"]["workflow_status"] == WorkflowStatus.AWAITING_RESUME_APPROVAL.value
 
 
 def test_adapt_and_ingest_never_auto_activates_even_if_pipeline_default_changes(

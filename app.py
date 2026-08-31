@@ -25,8 +25,15 @@ try:
         AdaptedResume,
         JobMaterials
     )
-    from job_store import load_active_job
+    from job_store import activate_job, load_active_job
     from components.brain_insights import render_brain_insights
+    from engine.automation.queue_actions import (
+        approve_resume,
+        discard_job,
+        list_pending_approval,
+        reprocess_job,
+    )
+    from engine.automation.ingestion import IngestionError
 except Exception as e:
     st.error(f"⚠️ Erro ao carregar módulos (ImportError): {e}")
     st.exception(e)
@@ -320,8 +327,9 @@ else:
     st.sidebar.info(f"Fonte: {_source_label}")
 
 # Main Workspace Layout
-tab_studio, tab_tracker, tab_brain, tab_editor = st.tabs([
-    "🎯 Estúdio de Adaptação", 
+tab_studio, tab_queue, tab_tracker, tab_brain, tab_editor = st.tabs([
+    "🎯 Estúdio de Adaptação",
+    "📥 Fila de Aprovação (Radar)",
     "📊 Painel de Vagas & Processos",
     "🧠 Visualizador Neural",
     "📝 Editor do Currículo Mestre"
@@ -552,6 +560,112 @@ with tab_studio:
                         st.write(item.answer)
             else:
                 st.write("Respostas de formulário não geradas.")
+
+# ====================
+# TAB 1.5: AUTOMATION APPROVAL QUEUE (Fase 4 / Sprint C)
+# ====================
+with tab_queue:
+    st.subheader("📥 Fila de Aprovação — Vagas Descobertas pelo Radar")
+    st.write(
+        "Vagas encontradas e adaptadas automaticamente pelo radar, aguardando sua "
+        "aprovação do currículo/materiais (Gate #1). Nada aqui foi enviado a lugar "
+        "nenhum — a inscrição real tem um segundo gate próprio, depois que o "
+        "Application Prep Agent preencher o formulário."
+    )
+
+    try:
+        pending_jobs = list_pending_approval()
+    except Exception as e:
+        pending_jobs = []
+        st.error(f"Erro ao ler a fila de aprovação: {e}")
+
+    if not pending_jobs:
+        st.info(
+            "Nenhuma vaga aguardando aprovação no momento. Rode "
+            "`python scripts/run_automation_cycle.py` para o radar buscar novas vagas."
+        )
+    else:
+        st.caption(f"{len(pending_jobs)} vaga(s) aguardando aprovação, mais recente primeiro.")
+        for job in pending_jobs:
+            metadata = job.get("metadata", {})
+            automation = job.get("automation", {})
+            job_id = job["id"]
+            company = metadata.get("company_name", "Empresa")
+            role = metadata.get("role_title", "Cargo")
+            fit_score = metadata.get("fit_score", "N/A")
+            breakdown = automation.get("fit_score_breakdown") or {}
+
+            with st.expander(f"🏢 {company} — {role}  ·  Fit: {fit_score}", expanded=False):
+                col_info, col_actions = st.columns([2, 1])
+
+                with col_info:
+                    st.markdown(
+                        f"**Localização:** {metadata.get('location', 'N/A')} &nbsp;|&nbsp; "
+                        f"**Modelo:** {metadata.get('work_model', 'N/A')}"
+                    )
+                    st.markdown(f"**Salário/expectativa:** {metadata.get('salary_expectation', 'N/A')}")
+                    if metadata.get("url"):
+                        st.markdown(f"🔗 [Ver vaga original]({metadata['url']})")
+                    st.markdown(
+                        f"**Descoberta em:** {automation.get('discovered_at', 'N/A')} "
+                        f"via `{automation.get('source', 'N/A')}`"
+                    )
+                    if breakdown:
+                        st.markdown(
+                            "**Composição do score:** "
+                            + ", ".join(f"{k}: {v}" for k, v in breakdown.items())
+                        )
+                    if automation.get("last_error"):
+                        st.warning(f"Última falha registrada: {automation['last_error']}")
+
+                    resume_pt = job.get("resume", {}).get("pt", {})
+                    if resume_pt.get("summary"):
+                        st.markdown("**Resumo adaptado (PT):**")
+                        st.write(resume_pt["summary"])
+                    materials_pt = job.get("materials", {}).get("pt", {})
+                    if materials_pt.get("cover_letter"):
+                        with st.expander("📄 Carta de apresentação (PT)"):
+                            st.write(materials_pt["cover_letter"])
+
+                with col_actions:
+                    if st.button("👁️ Revisar (ativar no Estúdio)", key=f"queue_review_{job_id}", use_container_width=True):
+                        try:
+                            master_resume_for_activate = load_master_resume()
+                            activate_job(job_id, master_resume_for_activate)
+                            st.session_state.adapted_resume = None
+                            st.session_state.job_materials = None
+                            st.success(f"'{company} — {role}' ativado. Veja na aba Estúdio de Adaptação.")
+                            st.rerun()
+                        except Exception as e:
+                            st.error(f"Erro ao ativar vaga para revisão: {e}")
+
+                    if st.button("✅ Aprovar currículo", key=f"queue_approve_{job_id}", use_container_width=True):
+                        try:
+                            approve_resume(job_id)
+                            st.success(f"Currículo de '{company} — {role}' aprovado (RESUME_APPROVED).")
+                            st.rerun()
+                        except Exception as e:
+                            st.error(f"Erro ao aprovar: {e}")
+
+                    if st.button("🔄 Reprocessar", key=f"queue_reprocess_{job_id}", use_container_width=True):
+                        try:
+                            master_resume_for_reprocess = load_master_resume()
+                            with st.spinner("Rodando adaptação novamente via LLM..."):
+                                reprocess_job(job_id, master_resume_for_reprocess)
+                            st.success(f"'{company} — {role}' reprocessado com sucesso.")
+                            st.rerun()
+                        except IngestionError as e:
+                            st.error(f"Falha ao reprocessar (job marcado como FAILED): {e}")
+                        except Exception as e:
+                            st.error(f"Erro ao reprocessar: {e}")
+
+                    if st.button("🗑️ Descartar", key=f"queue_discard_{job_id}", use_container_width=True):
+                        try:
+                            discard_job(job_id)
+                            st.success(f"'{company} — {role}' descartado.")
+                            st.rerun()
+                        except Exception as e:
+                            st.error(f"Erro ao descartar: {e}")
 
 # ====================
 # TAB 2: APPLICATIONS TRACKER
