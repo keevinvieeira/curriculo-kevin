@@ -1,0 +1,4 @@
+# Dependências de desenvolvimento/teste — não necessárias para rodar o app em produção.
+-r requirements.txt
+pytest>=8.0.0
+pytest-mock>=3.14.0

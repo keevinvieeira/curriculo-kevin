@@ -9,16 +9,11 @@ from bs4 import BeautifulSoup
 from dotenv import load_dotenv
 
 try:
-    from google import genai
-    from google.genai import types
-except Exception:
-    genai = None
-    types = None
-
-try:
     from xhtml2pdf import pisa
 except Exception:
     pisa = None
+
+from llm_client import generate_structured
 
 # Load environment variables
 load_dotenv()
@@ -95,15 +90,6 @@ class JobMaterials(BaseModel):
     cover_letter: str = Field(description="A tailored, professional cover letter for the role.")
     form_answers: List[FormAnswer] = Field(description="A list of helpful prepared responses for common application form questions.")
 
-def get_client(api_key: Optional[str] = None):
-    """Initialize and return the Google GenAI client."""
-    if genai is None:
-        raise RuntimeError("google-genai não está instalado neste ambiente.")
-    key = api_key or os.getenv("GEMINI_API_KEY")
-    if not key:
-        raise ValueError("Gemini API Key not found. Please set the GEMINI_API_KEY in your environment, .env file, or enter it in the app.")
-    return genai.Client(api_key=key)
-
 def load_master_resume(filepath: str = "master_resume.json") -> Dict[str, Any]:
     """Load the master resume JSON database."""
     if not os.path.exists(filepath):
@@ -149,15 +135,18 @@ def fetch_job_description_from_url(url: str) -> str:
     except Exception as e:
         raise ValueError(f"Erro ao acessar a URL: {str(e)}. Tente copiar e colar a descrição manualmente.")
 
-def adapt_resume_with_gemini(
+def adapt_resume_with_llm(
     master_resume: Dict[str, Any],
     job_description: str,
     target_lang: str,
     api_key: Optional[str] = None
 ) -> AdaptedResume:
-    """Use Gemini API to adapt the master resume to the job description."""
-    client = get_client(api_key)
-    
+    """Use an LLM (via OpenRouter) to adapt the master resume to the job description.
+
+    Renamed from adapt_resume_with_gemini() when the project moved off a direct Gemini
+    dependency onto OpenRouter (see llm_client.py). No other module called the old name,
+    so this rename is safe.
+    """
     lang_name = "Português" if target_lang.lower() in ["pt", "português", "portugues"] else "English"
     
     prompt = f"""
@@ -189,18 +178,7 @@ def adapt_resume_with_gemini(
     Gere a resposta estruturada contendo o currículo adaptado completo em {lang_name}.
     """
 
-    response = client.models.generate_content(
-        model='gemini-2.5-flash',
-        contents=prompt,
-        config=types.GenerateContentConfig(
-            response_mime_type="application/json",
-            response_schema=AdaptedResume,
-            temperature=0.2,
-        ),
-    )
-    
-    adapted_json = json.loads(response.text)
-    return AdaptedResume(**adapted_json)
+    return generate_structured(AdaptedResume, prompt, temperature=0.2, api_key=api_key)
 
 def generate_job_materials(
     master_resume: Dict[str, Any],
@@ -208,9 +186,7 @@ def generate_job_materials(
     target_lang: str,
     api_key: Optional[str] = None
 ) -> JobMaterials:
-    """Use Gemini API to generate a cover letter and form answers matching the job description."""
-    client = get_client(api_key)
-    
+    """Use an LLM (via OpenRouter) to generate a cover letter and form answers matching the job description."""
     lang_name = "Português" if target_lang.lower() in ["pt", "português", "portugues"] else "English"
     
     prompt = f"""
@@ -232,18 +208,7 @@ def generate_job_materials(
     Gere a resposta estruturada contendo a carta de apresentação e as respostas para formulários em {lang_name}.
     """
 
-    response = client.models.generate_content(
-        model='gemini-2.5-flash',
-        contents=prompt,
-        config=types.GenerateContentConfig(
-            response_mime_type="application/json",
-            response_schema=JobMaterials,
-            temperature=0.3,
-        ),
-    )
-    
-    materials_json = json.loads(response.text)
-    return JobMaterials(**materials_json)
+    return generate_structured(JobMaterials, prompt, temperature=0.3, api_key=api_key)
 
 def render_html_resume(adapted_resume: AdaptedResume, target_lang: str = "pt", template_path: str = "templates/resume_theme.html") -> str:
     """Render the adapted resume data into the HTML template."""
