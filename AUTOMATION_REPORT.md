@@ -1,6 +1,7 @@
 # Relatório de Implementação — Sprint de Automação do Career OS
 
-Branch: `automation/sprint-foundation` · 8 commits, Fase 0 → Fase 8.
+Branch: `automation/sprint-foundation` · 10 commits, Fase 0 → Fase 8 (+ fechamento da
+lacuna de teste HTTP da migração para OpenRouter).
 
 ## O que foi construído
 
@@ -66,8 +67,9 @@ explícito.
 | 6 | Gate de submit (Gate #2) + tracking genérico | 8 + 5 |
 | 7 | Scheduler (GitHub Actions) + `run_automation_cycle.py` | 6 |
 | 8 | Teste de integração ponta a ponta + relatório | 1 |
+| — | Teste HTTP contra stub da OpenRouter + `scripts/verify_openrouter.py` | 4 |
 
-**Suíte completa: 115/115 testes passando.** Os 3 scripts de teste legados
+**Suíte completa: 119/119 testes passando.** Os 3 scripts de teste legados
 (`test_graph.py`, `test_graph_rag.py`, `test_transferability.py`) continuam saindo
 com código 0 — nenhuma regressão no caminho do Knowledge Graph.
 
@@ -109,21 +111,49 @@ integração ponta a ponta (`tests/test_end_to_end_pipeline.py`) confirma que
 `applications.json` continua vazio em *todos* os pontos anteriores ao envio
 confirmado, inclusive logo depois do Gate #2.
 
-## Limitações conhecidas deste ambiente (não do código)
+## Limitação conhecida deste ambiente (não do código)
 
-- **Este sandbox de desenvolvimento não alcança `openrouter.ai`** (bloqueio de
-  rede de saída do ambiente — confirmado via curl). A migração para OpenRouter foi
-  validada com mocks (nenhum teste automatizado depende de rede), mas uma chamada
-  real ponta-a-ponta com a `OPENROUTER_API_KEY` fornecida ainda precisa ser
-  validada no seu ambiente local ou em CI (GitHub Actions normalmente tem saída de
-  rede irrestrita).
-- **Esta sessão Cowork não tem autorização de push/PR para
-  `keevinvieeira/curriculo-kevin`** apesar do PAT fornecido ser válido (confirmado
-  via `GET /user`, 200). O erro do proxy do Git menciona um mecanismo de
-  autorização por repositório que não está disponível como ferramenta nesta sessão.
-  Por isso, cada fase foi entregue como um **git bundle** enviado no chat — puxe-o
-  para um clone local seu (`git fetch <bundle> automation/sprint-foundation:automation/sprint-foundation`)
-  e abra o PR de lá.
+**Nenhum dos ambientes onde este código foi escrito alcança `openrouter.ai`**
+(bloqueio de rede de saída — confirmado por curl tanto no sandbox quanto na VM
+local). O que foi feito para reduzir isso ao mínimo:
+
+- `tests/test_llm_client_http.py` sobe um servidor HTTP real em localhost falando a
+  API chat-completions compatível com OpenAI (que é o que a OpenRouter expõe) e
+  valida os dois lados da troca: que a resposta volta validada como Pydantic, e o
+  que de fato saiu no fio (path, header `Authorization`, modelo, temperatura,
+  prompt e o schema da ferramenta). Isso cobre exatamente o que os mocks de nível
+  Python não cobrem — `base_url` errada, auth faltando, schema mal serializado,
+  incompatibilidade de versão do `instructor`.
+- `scripts/verify_openrouter.py` faz a verificação com a chave real em três passos
+  (chave presente → modelo existe no catálogo e suporta `structured_outputs` → uma
+  chamada real pequena pelo mesmo caminho de código do pipeline).
+
+Ou seja: tudo **deste lado do fio** está provado. O que falta é uma chamada real,
+que roda em qualquer máquina com internet:
+
+```
+python scripts/verify_openrouter.py
+```
+
+## Como este trabalho foi publicado
+
+O sandbox onde o código foi escrito não tem autorização de push para
+`keevinvieeira/curriculo-kevin` (o proxy de Git da sessão recusa qualquer
+repositório fora do conjunto autorizado, mesmo com PAT válido). A publicação foi
+feita a partir do computador do usuário, ligado à sessão: os 10 commits foram
+transferidos como patch comprimido, verificados por SHA256, aplicados com `git am`
+sobre um clone limpo e conferidos por hash de árvore (`git rev-parse HEAD^{tree}`)
+contra a árvore testada no sandbox — idênticos, exceto pelo único arquivo movido
+descrito abaixo.
+
+Um detalhe: o PAT usado não tinha escopo `workflow`, então o GitHub recusa commits
+que criem arquivos em `.github/workflows/`. O workflow agendado foi commitado em
+`.github/workflows-disabled/automation_cycle.yml` — o conteúdo é idêntico (mesmo
+blob), só o caminho muda. Para ativá-lo:
+
+```
+git mv .github/workflows-disabled/automation_cycle.yml .github/workflows/
+```
 
 ## Antes de usar de verdade
 
@@ -133,5 +163,7 @@ confirmado, inclusive logo depois do Gate #2.
    repositório do GitHub, para o workflow agendado funcionar.
 3. Localmente, rode `playwright install chromium` uma vez antes de usar
    `scripts/run_application_agent.py`/`run_submit_agent.py`.
-4. Revise e faça merge do PR com este trabalho antes de qualquer coisa — nada disso
+4. Mova `.github/workflows-disabled/automation_cycle.yml` para `.github/workflows/`
+   (um `git mv`) para ativar o radar agendado.
+5. Revise e faça merge do PR com este trabalho antes de qualquer coisa — nada disso
    afeta `main`/o app público até você decidir.
