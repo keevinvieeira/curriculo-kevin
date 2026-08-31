@@ -16,13 +16,20 @@ def test_normalize_url_strips_tracking_params_and_trailing_slash():
 
 
 def test_extract_ats_id_greenhouse():
-    assert extract_ats_id("https://boards.greenhouse.io/acme/jobs/6789012") == "6789012"
-    assert extract_ats_id("https://acme.com/apply?gh_jid=6789012") == "6789012"
+    assert extract_ats_id("https://boards.greenhouse.io/acme/jobs/6789012") == "greenhouse:acme:6789012"
+    assert extract_ats_id("https://acme.com/apply?gh_jid=6789012") == "greenhouse:acme.com:6789012"
+
+
+def test_extract_ats_id_greenhouse_same_job_number_different_boards_do_not_collide():
+    """Regression guard: Greenhouse job numbers are only unique per board, not globally."""
+    acme_id = extract_ats_id("https://boards.greenhouse.io/acme/jobs/1")
+    gamma_id = extract_ats_id("https://boards.greenhouse.io/gamma/jobs/1")
+    assert acme_id != gamma_id
 
 
 def test_extract_ats_id_lever():
     url = "https://jobs.lever.co/acme/1a2b3c4d-1a2b-1a2b-1a2b-1a2b3c4d5e6f"
-    assert extract_ats_id(url) == "1a2b3c4d-1a2b-1a2b-1a2b-1a2b3c4d5e6f"
+    assert extract_ats_id(url) == "lever:acme:1a2b3c4d-1a2b-1a2b-1a2b-1a2b3c4d5e6f"
 
 
 def test_extract_ats_id_unknown_returns_none():

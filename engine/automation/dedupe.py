@@ -40,26 +40,43 @@ def normalize_url(url: str) -> str:
     return normalized.lower()
 
 
+# Cada padrão produz um id JÁ namespaced (prefixo:contexto:id) para nunca colidir
+# entre empresas diferentes. Greenhouse em particular reusa números de vaga pequenos
+# por board (o job "#1" da Acme não tem nada a ver com o job "#1" da Gamma) — por
+# isso o token do board entra no id, não só o número.
 _ATS_ID_PATTERNS = [
-    # Greenhouse: /jobs/1234567 ou ?gh_jid=1234567
-    re.compile(r"greenhouse\.io/[^/]+/jobs/(\d+)", re.IGNORECASE),
-    re.compile(r"[?&]gh_jid=(\d+)", re.IGNORECASE),
-    # Lever: postings são UUIDs no final da URL
-    re.compile(r"jobs\.lever\.co/[^/]+/([0-9a-f-]{36})", re.IGNORECASE),
-    # Ashby: id UUID no final, ou /?jid=<uuid>
-    re.compile(r"ashbyhq\.com/[^/]+/([0-9a-f-]{36})", re.IGNORECASE),
-    re.compile(r"[?&]jid=([0-9a-f-]{36})", re.IGNORECASE),
+    ("greenhouse", re.compile(r"greenhouse\.io/([^/]+)/jobs/(\d+)", re.IGNORECASE)),
+    ("lever", re.compile(r"jobs\.lever\.co/([^/]+)/([0-9a-f-]{36})", re.IGNORECASE)),
+    ("ashby", re.compile(r"ashbyhq\.com/([^/]+)/([0-9a-f-]{36})", re.IGNORECASE)),
+]
+# Padrões sem o board/company no path (widget embutido na própria página da empresa) —
+# aqui o host da URL entra no lugar do board token, pelo mesmo motivo.
+_ATS_ID_QUERY_PATTERNS = [
+    ("greenhouse", re.compile(r"[?&]gh_jid=(\d+)", re.IGNORECASE)),
+    ("ashby", re.compile(r"[?&]jid=([0-9a-f-]{36})", re.IGNORECASE)),
 ]
 
 
 def extract_ats_id(url: str) -> Optional[str]:
-    """Best-effort extraction of a stable ATS posting id from a URL. None if not recognized."""
+    """Best-effort extraction of a stable, namespaced ATS posting id from a URL.
+
+    Returns something like "greenhouse:acme:6789012" or "lever:acme:<uuid>" — never a
+    bare number/uuid, so two different companies' postings can never collide just
+    because their ATS happened to assign the same numeric id or the URL embeds the
+    id without a company slug in the path. None if the URL isn't a recognized ATS link.
+    """
     if not url:
         return None
-    for pattern in _ATS_ID_PATTERNS:
+    for prefix, pattern in _ATS_ID_PATTERNS:
         match = pattern.search(url)
         if match:
-            return match.group(1).lower()
+            board, posting_id = match.group(1), match.group(2)
+            return f"{prefix}:{board.lower()}:{posting_id.lower()}"
+    host = urlsplit(url).netloc.lower()
+    for prefix, pattern in _ATS_ID_QUERY_PATTERNS:
+        match = pattern.search(url)
+        if match:
+            return f"{prefix}:{host}:{match.group(1).lower()}"
     return None
 
 
