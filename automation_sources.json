@@ -1,6 +1,17 @@
 {
-  "_comment": "Boards do radar (engine/automation/radar.py). Preencha com os slugs reais das empresas que você quer monitorar — o slug é o trecho do próprio board público na URL (ex.: https://boards.greenhouse.io/acme -> \"acme\"; https://jobs.lever.co/beta-co -> \"beta-co\"; https://jobs.ashbyhq.com/gamma -> \"gamma\"). Vazio por padrão — scripts/run_automation_cycle.py não inventa empresas para monitorar.",
-  "greenhouse_boards": [],
+  "_comment": "Boards do radar (engine/automation/radar.py). Um slug errado NAO derruba os outros: o ciclo reporta 'greenhouse -> <slug>: 404' e segue.",
+  "_verificado_em": "2026-08-31 - todos os slugs abaixo foram testados board a board e responderam com vagas reais. Removidos por 404: hotmart, pipefy, cloudwalk, creditas, loft, olist, deel.",
+  "_nota_eua": "anthropic, openai, scaleai e perplexity existem, mas as vagas sao quase todas presenciais nos EUA - passariam no gate e consumiriam o teto do ciclo com posicoes inacessiveis do Brasil. Ficam de fora ate o scoring saber exigir Brasil/LatAm.",
+  "greenhouse_boards": [
+    "gympass",
+    "vtex",
+    "quintoandar",
+    "ebanx",
+    "nubank",
+    "gitlab"
+  ],
   "lever_accounts": [],
-  "ashby_boards": []
+  "ashby_boards": [
+    "sandboxaq"
+  ]
 }

@@ -1549,5 +1549,53 @@
     "fit_score": 94,
     "salary_expectation": "R$ 15.000 - R$ 20.000 /mês (CLT | Presencial Curitiba)",
     "notes": "Orquestração de estratégia de marca, trade marketing, CRM, calendários sazonais e gestão de agências para cliente varejo/omnichannel em Curitiba. Fit 94%."
+  },
+  {
+    "id": "50",
+    "company": "Starian",
+    "role": "Product Marketing (Pleno/Sênior — a confirmar)",
+    "date_applied": "2026-09-09",
+    "status": "Entrevista",
+    "notes": "Convocado para entrevista de PMM na Starian — entrevista marcada para 10/09/2026. Não confirmado se é a vaga Pleno (gupy 12374141) ou Sênior (0304). NÃO reaplicar: já está em processo.",
+    "url": "https://starian.gupy.io/jobs/12374141",
+    "current_stage": "Entrevista",
+    "fit_score": 93,
+    "salary_expectation": "Não divulgado",
+    "good_points": [
+      "GTM, análise de mercado/concorrência, métricas e enablement — aderência forte ao histórico marketing + produto.",
+      "Uso prático de IA em Product Marketing (LLMs no dia a dia, RAG, automação).",
+      "Cases de posicionamento e lançamento reenquadráveis em linguagem explícita de PMM/GTM."
+    ],
+    "improvement_points": [
+      "Traduzir os cases anteriores para linguagem formal de Product Marketing SaaS B2B.",
+      "Reforçar experiência de empacotamento (packaging) e métricas de produto."
+    ],
+    "stages": [
+      {
+        "name": "Candidatura",
+        "status": "Concluído",
+        "date": ""
+      },
+      {
+        "name": "Triagem (Screening)",
+        "status": "Concluído",
+        "date": ""
+      },
+      {
+        "name": "Entrevista de RH",
+        "status": "Pendente",
+        "date": "2026-09-10"
+      },
+      {
+        "name": "Entrevista Técnica",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Proposta (Offer)",
+        "status": "Pendente",
+        "date": ""
+      }
+    ]
   }
 ]

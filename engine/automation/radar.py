@@ -34,6 +34,32 @@ import requests
 REQUEST_TIMEOUT_SECONDS = 15
 
 
+def _prettify_slug(slug: str) -> str:
+    """"wildlife-studios" -> "Wildlife Studios". Fallback para quando a API do ATS não
+    expõe o nome de exibição da empresa — melhor do que gravar o slug cru em
+    `metadata.company_name`, que é o nome que a carta de apresentação precisa citar
+    (`job_store.validate_job` reprova carta que não menciona a empresa-alvo)."""
+    return re.sub(r"[-_]+", " ", slug or "").strip().title() or slug
+
+
+def _fetch_json(session, url: str, label: str, errors: List[str]) -> Optional[Any]:
+    """GET + parse do JSON, registrando a falha em `errors` em vez de propagá-la.
+
+    Existe porque um board inválido no meio da lista (slug errado, empresa que trocou
+    de ATS, rate limit pontual) não pode derrubar a fonte inteira e descartar as vagas
+    dos boards que já tinham respondido — que era exatamente o que acontecia com o
+    raise_for_status() solto dentro do loop, contrariando o contrato documentado em
+    JobSource.discover ("skip it and keep going").
+    """
+    try:
+        response = session.get(url, timeout=REQUEST_TIMEOUT_SECONDS)
+        response.raise_for_status()
+        return response.json()
+    except Exception as exc:  # noqa: BLE001 - falha de um board vira aviso, não exceção
+        errors.append(f"{label}: {exc}")
+        return None
+
+
 @dataclass
 class RawJobPosting:
     """A normalized posting, before scoring/dedupe/adaptation happen."""
@@ -79,20 +105,38 @@ class GreenhouseSource(JobSource):
     def __init__(self, board_tokens: List[str], session: Optional[requests.Session] = None):
         self.board_tokens = board_tokens
         self.session = session or requests.Session()
+        self.board_errors: List[str] = []
+        self._name_cache: Dict[str, str] = {}
+
+    def _company_name(self, token: str) -> str:
+        """Nome de exibição da empresa via metadados do board (uma chamada por token,
+        cacheada). Best-effort: se falhar, cai no slug embelezado — por isso os erros
+        vão para uma lista descartada, e não para board_errors, que é reservada às
+        falhas que realmente custaram vagas."""
+        if token in self._name_cache:
+            return self._name_cache[token]
+        payload = _fetch_json(
+            self.session, f"https://boards-api.greenhouse.io/v1/boards/{token}", token, []
+        )
+        name = (payload or {}).get("name") or _prettify_slug(token)
+        self._name_cache[token] = name
+        return name
 
     def discover(self) -> List[RawJobPosting]:
         postings: List[RawJobPosting] = []
+        self.board_errors = []
         for token in self.board_tokens:
             url = f"https://boards-api.greenhouse.io/v1/boards/{token}/jobs?content=true"
-            response = self.session.get(url, timeout=REQUEST_TIMEOUT_SECONDS)
-            response.raise_for_status()
-            payload = response.json()
+            payload = _fetch_json(self.session, url, token, self.board_errors)
+            if payload is None:
+                continue
+            company_name = self._company_name(token)
             for job in payload.get("jobs", []):
                 location = job.get("location")
                 location_str = location.get("name", "") if isinstance(location, dict) else (location or "")
                 postings.append(
                     RawJobPosting(
-                        company=token,
+                        company=company_name,
                         title=job.get("title", ""),
                         url=job.get("absolute_url", ""),
                         description=job.get("content", "") or "",
@@ -118,14 +162,18 @@ class LeverSource(JobSource):
     def __init__(self, accounts: List[str], session: Optional[requests.Session] = None):
         self.accounts = accounts
         self.session = session or requests.Session()
+        self.board_errors: List[str] = []
 
     def discover(self) -> List[RawJobPosting]:
         postings: List[RawJobPosting] = []
+        self.board_errors = []
         for account in self.accounts:
             url = f"https://api.lever.co/v0/postings/{account}?mode=json"
-            response = self.session.get(url, timeout=REQUEST_TIMEOUT_SECONDS)
-            response.raise_for_status()
-            for job in response.json():
+            payload = _fetch_json(self.session, url, account, self.board_errors)
+            if payload is None:
+                continue
+            company_name = _prettify_slug(account)
+            for job in payload:
                 categories = job.get("categories", {}) or {}
                 created_at_ms = job.get("createdAt")
                 posted_at = None
@@ -136,7 +184,7 @@ class LeverSource(JobSource):
                 workplace_type = (job.get("workplaceType") or "").lower()
                 postings.append(
                     RawJobPosting(
-                        company=account,
+                        company=company_name,
                         title=job.get("text", ""),
                         url=job.get("hostedUrl", "") or job.get("applyUrl", ""),
                         description=job.get("descriptionPlain", "") or job.get("description", "") or "",
@@ -173,6 +221,7 @@ class AshbySource(JobSource):
     def __init__(self, board_names: List[str], session: Optional[requests.Session] = None):
         self.board_names = board_names
         self.session = session or requests.Session()
+        self.board_errors: List[str] = []
 
     @staticmethod
     def _first(job: Dict[str, Any], keys: tuple) -> Optional[Any]:
@@ -183,15 +232,17 @@ class AshbySource(JobSource):
 
     def discover(self) -> List[RawJobPosting]:
         postings: List[RawJobPosting] = []
+        self.board_errors = []
         for board in self.board_names:
             url = f"https://api.ashbyhq.com/posting-api/job-board/{board}"
-            response = self.session.get(url, timeout=REQUEST_TIMEOUT_SECONDS)
-            response.raise_for_status()
-            payload = response.json()
+            payload = _fetch_json(self.session, url, board, self.board_errors)
+            if payload is None:
+                continue
+            company_name = payload.get("name") or _prettify_slug(board)
             for job in payload.get("jobs", []):
                 postings.append(
                     RawJobPosting(
-                        company=board,
+                        company=company_name,
                         title=self._first(job, self._TITLE_KEYS) or "",
                         url=self._first(job, self._URL_KEYS) or "",
                         description=self._first(job, self._DESCRIPTION_KEYS) or "",
@@ -241,4 +292,10 @@ def discover_all(sources: List[JobSource]) -> tuple[List[RawJobPosting], List[So
             postings.extend(source.discover())
         except Exception as exc:  # noqa: BLE001 - deliberately broad, isolate per source
             errors.append(SourceError(source_name=source.name, error=str(exc)))
+        # Falhas de boards individuais (slug errado, empresa que trocou de ATS, rate
+        # limit) não interrompem a fonte, mas precisam aparecer no relatório do ciclo —
+        # sem isso um slug digitado errado ficaria silenciosamente sem vaga nenhuma,
+        # indistinguível de "essa empresa não tem vaga aberta agora".
+        for board_error in getattr(source, "board_errors", []):
+            errors.append(SourceError(source_name=source.name, error=board_error))
     return postings, errors
