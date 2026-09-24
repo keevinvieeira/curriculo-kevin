@@ -253,6 +253,7 @@ def list_applications(status: Optional[list[str]] = None, sem_resposta: bool = F
             "sem_resposta": app.get("status") == "Candidatado" and idle is not None and idle >= sem_resposta_dias,
             "fit": app.get("fit_score"),
             "url": app.get("url"),
+            "slug_vaga": app.get("source_job_id"),
             "historico": app.get("status_history", []),
         })
 
@@ -273,3 +274,16 @@ def list_applications(status: Optional[list[str]] = None, sem_resposta: bool = F
         rows = [r for r in rows if needle in f"{r['empresa']} {r['cargo']}".casefold()]
     rows.sort(key=lambda r: r["ultima_movimentacao"] or "", reverse=True)
     return {"funil": funnel, "total_filtrado": len(rows), "candidaturas": rows}
+
+
+# --- saved jobs ---------------------------------------------------------------
+
+def read_job(slug: str, idioma: str = "ambos") -> dict[str, Any]:
+    from job_store import job_path, load_job
+
+    if not job_path(slug).exists():
+        known = sorted(job["id"] for job in list_jobs())
+        raise ValueError(f"vaga não encontrada: {slug}. Salvas: {known}")
+    job = load_job(slug)
+    return job if idioma == "ambos" else _pick_language(job, idioma)
+

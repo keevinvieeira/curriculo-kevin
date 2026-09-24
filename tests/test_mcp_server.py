@@ -131,7 +131,10 @@ def test_tools_are_exposed_read_only():
             return tools, result
 
     tools, result = _run_in_thread(scenario)
-    assert set(tools) == {"ler_master_resume", "vagas_novas", "listar_candidaturas"}
-    assert all(tool.annotations.read_only_hint for tool in tools.values())
+    read = {"ler_master_resume", "vagas_novas", "listar_candidaturas", "ler_vaga", "validar_adaptacao"}
+    write = {"salvar_adaptacao", "gerar_pdf", "registrar_candidatura", "atualizar_status"}
+    assert set(tools) == read | write
+    assert all(tools[name].annotations.read_only_hint for name in read)
+    assert not any(tools[name].annotations.read_only_hint for name in write)
     assert not result.is_error
     assert result.structured_content["candidaturas"][0]["empresa"] == "Starian"

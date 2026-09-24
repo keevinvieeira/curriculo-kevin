@@ -54,6 +54,7 @@ def register_application(
     job: Dict[str, Any],
     submitted_at: str,
     application_meta: Optional[Dict[str, Any]] = None,
+    history_source: str = "agent",
 ) -> Dict[str, Any]:
     """Add (or update) applications.json's entry for a job that was genuinely
     submitted. Intended to be called exactly once, right after
@@ -92,7 +93,7 @@ def register_application(
                 or (bare_application_id is not None and entry.get("id") == bare_application_id)
             ):
                 entry["source_job_id"] = job["id"]
-                set_status(entry, "Candidatado", date=applied_date, source="agent")
+                set_status(entry, "Candidatado", date=applied_date, source=history_source)
                 entry["date_applied"] = applied_date
                 entry.update(application_meta)
                 _write_applications(applications)
@@ -108,7 +109,7 @@ def register_application(
         "role": metadata.get("role_title", ""),
         "date_applied": applied_date,
         "status": "Candidatado",
-        "status_history": new_history(applied_date, "agent"),
+        "status_history": new_history(applied_date, history_source),
         "notes": f"Candidatura enviada automaticamente pelo Application Prep Agent em {applied_date}.",
         "url": metadata.get("url", ""),
         "current_stage": "Candidatura",
