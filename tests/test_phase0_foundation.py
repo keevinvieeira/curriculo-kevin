@@ -125,3 +125,13 @@ def test_every_application_has_history_ending_in_current_status():
     for app in read_json(ROOT / "applications.json"):
         assert app["status_history"][-1]["status"] == app["status"], app["id"]
         assert app["status_history"][0]["status"] == "Candidatado", app["id"]
+
+
+# --- founder title: warning, never a blocker ---------------------------------
+
+def test_founder_title_warns_but_does_not_block(master):
+    from job_store import job_warnings, load_job, validate_job
+
+    job = load_job("pethealth-gtm-engineer-senior-graph")
+    assert validate_job(job, master) == []
+    assert any("título funcional" in w for w in job_warnings(job))

@@ -121,11 +121,15 @@ itens novos e nunca renumera os existentes.
 2. faltar `resume`/`materials` em pt e en;
 3. `triage.decision` ≠ adapt|hold|discard;
 4. faltar `summary` no resume;
-5. houver título proibido (founder/co-founder) no resume;
-6. a carta não citar a empresa-alvo;
-7. alguma skill em `evidence.skills` não existir no master;
-8. (v2) o mapa de evidências citar ID inexistente, marcar requisito como coberto sem
+5. a carta não citar a empresa-alvo;
+6. alguma skill em `evidence.skills` não existir no master;
+7. (v2) o mapa de evidências citar ID inexistente, marcar requisito como coberto sem
    evidência, ou deixar `partial`/`gap` sem entrada em `evidence.gaps`.
+
+`job_store.job_warnings(job)` lista avisos que **não bloqueiam** ativação nem
+candidatura. Hoje: título de fundador/cofundador no resume adaptado — prefira o título
+funcional (ex.: "Consultor de Projetos de Marketing"), porque "fundador" diz pouco
+sobre a função exercida.
 
 ### Passo F — Ativar no Streamlit
 `python -m scripts.activate_job <slug> --validate`

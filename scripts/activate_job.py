@@ -7,7 +7,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 
-from job_store import activate_job, clone_job, create_from_active, load_active_job, read_json, validate_job
+from job_store import activate_job, clone_job, create_from_active, job_warnings, load_active_job, read_json, validate_job
 
 
 def main() -> None:
@@ -42,6 +42,8 @@ def main() -> None:
         errors = validate_job(job, read_json(ROOT / "master_resume.json"))
         if errors:
             raise SystemExit("\n".join(errors))
+        for warning in job_warnings(job):
+            print(f"AVISO: {warning}")
         print(f"Validated {job['id']}")
 
 
