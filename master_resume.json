@@ -42,6 +42,7 @@
   ],
   "work_experience": [
     {
+      "id": "exp-ai-builder",
       "company": "AI Builder — Projetos de Produtos",
       "location": {
         "pt": "Curitiba, PR",
@@ -49,6 +50,7 @@
       },
       "projects": [
         {
+          "id": "proj-ai-career-os",
           "name": "AI Career OS & Cérebro Profissional 3D",
           "description": {
             "pt": "Ecossistema Completo de Gestão de Carreira, Motor de Match e Visualizador Ontológico",
@@ -64,6 +66,7 @@
           },
           "bullets": [
             {
+              "id": "ai-career-os-b01",
               "tags": [
                 "data_architecture",
                 "ssot",
@@ -74,6 +77,7 @@
               "en": "AI Career OS — Master Resume & Data Architecture (SSOT): Conceived the single source of truth structured in JSON, ensuring 100% data governance, strict typing, and zero language model hallucinations for the professional history."
             },
             {
+              "id": "ai-career-os-b02",
               "tags": [
                 "match_engine",
                 "gap_analysis",
@@ -84,6 +88,7 @@
               "en": "AI Career OS — Match Engine & Fit Score: Architected a real-time inference engine to calculate adherence (Fit Score %) for senior roles, mapping gaps and generating strategic diagnostics for interviews (>95% accuracy)."
             },
             {
+              "id": "ai-career-os-b03",
               "tags": [
                 "ai_personalization",
                 "prompt_engineering",
@@ -93,6 +98,7 @@
               "en": "AI Career OS — AI Resume Builder & Hyper-Personalization: Developed a generative pipeline for dynamic recreation of hyper-personalized resumes and cover letters without allowing deviation from the master database context."
             },
             {
+              "id": "ai-career-os-b04",
               "tags": [
                 "document_engineering",
                 "html_css",
@@ -103,6 +109,7 @@
               "en": "AI Career OS — Typographical Pipeline for ATS: Designed an HTML/CSS ➔ PDF rendering engine with dynamic typographical density adjustment for bilingual single-page (A4) formatting optimized for ATS bots."
             },
             {
+              "id": "ai-career-os-b05",
               "tags": [
                 "product_operations",
                 "funnel_analytics",
@@ -113,6 +120,7 @@
               "en": "AI Career OS — ATS Tracker Panel (Funnel Management): Developed an analytical dashboard for application tracking, ensuring 100% visibility into conversion rates (Screening, HR, Technical, Offer) and centralized notes."
             },
             {
+              "id": "ai-career-os-b06",
               "tags": [
                 "knowledge_graphs",
                 "data_modeling",
@@ -123,6 +131,7 @@
               "en": "3D Career Brain — Ontological Graph Modeling: Structured a relational career ontology with 355 nodes and 451 typed directed edges, hierarchically connecting companies, functions, and business impacts."
             },
             {
+              "id": "ai-career-os-b07",
               "tags": [
                 "graph_rag",
                 "semantic_search",
@@ -133,6 +142,7 @@
               "en": "3D Career Brain — GraphRAG Semantic Engine: Built a Python pipeline for vector search, semantic distance calculation, and taxonomy, enabling the algorithmic skill transferability engine."
             },
             {
+              "id": "ai-career-os-b08",
               "tags": [
                 "webgl",
                 "three_js",
@@ -143,6 +153,7 @@
               "en": "3D Career Brain — Spatial UX Engineering in WebGL/Three.js: Implemented an in-browser 3D renderer grouping nodes into interactive clusters (Force-Directed Graph) with maximum graphical fluidity."
             },
             {
+              "id": "ai-career-os-b09",
               "tags": [
                 "deterministic_ux",
                 "product_discovery",
@@ -152,6 +163,7 @@
               "en": "3D Career Brain — Deterministic Navigation Design: Created a strict linear hierarchical traversal algorithm and interface (Company ➔ Role ➔ Function ➔ Skill ➔ Metric), ensuring 0 inconsistent jumps and preventing cognitive disorientation."
             },
             {
+              "id": "ai-career-os-b10",
               "tags": [
                 "ai_assisted_engineering",
                 "prompt_governance",
@@ -196,6 +208,7 @@
           ]
         },
         {
+          "id": "proj-bussola-da-rotina",
           "name": "Bússola da Rotina",
           "description": {
             "pt": "Web App de Produtividade Cirúrgica & Gestão de Carga Cognitiva",
@@ -212,6 +225,7 @@
           },
           "bullets": [
             {
+              "id": "bussola-da-rotina-b01",
               "tags": [
                 "product_discovery",
                 "product_strategy",
@@ -223,6 +237,7 @@
               "en": "Bússola da Rotina — 0-to-1 Product Discovery & Methodology: Conceived and led end-to-end the productivity and mental ergonomics Web App, designing the proprietary Bússola Methodology combining Timeblocking, WIP limits, and cognitive load balancing with complete PRD and roadmap."
             },
             {
+              "id": "bussola-da-rotina-b02",
               "tags": [
                 "ai",
                 "ai_implementation",
@@ -234,6 +249,7 @@
               "en": "Bússola da Rotina — AI Tech Leadership & Accelerated Engineering (+10x): Acted as Tech Lead orchestrating intelligent AI agents as operational pair programmers, building a complete 5,700+ line SPA with 10x delivery speedup and over 95% engineering cost savings."
             },
             {
+              "id": "bussola-da-rotina-b03",
               "tags": [
                 "database",
                 "realtime_data",
@@ -245,6 +261,7 @@
               "en": "Bússola da Rotina — Real-Time Data Architecture & Concurrency Resolution: Configured cloud infrastructure on Firebase (Firestore NoSQL & Auth) and diagnosed complex concurrency edge cases (race conditions between optimistic local writes and remote snapshots via hasPendingWrites), ensuring 100% data integrity."
             },
             {
+              "id": "bussola-da-rotina-b04",
               "tags": [
                 "ux_ui",
                 "ux",
@@ -271,6 +288,7 @@
           ]
         },
         {
+          "id": "proj-meu-barzin",
           "name": "Meu Barzin",
           "description": {
             "pt": "Marketplace e Assistente de Experiências Gastronômicas com IA",
@@ -286,6 +304,7 @@
           },
           "bullets": [
             {
+              "id": "meu-barzin-b01",
               "tags": [
                 "product_strategy",
                 "monetization",
@@ -295,6 +314,7 @@
               "en": "Meu Barzin — MVP Conception: Conceptualized the conversational WhatsApp ecosystem integrated with 'Meu Barzin Pass' (R.90 monthly subscription with buy-one-get-one deals at local bars), designing the monetization business model and validating B2B partnership value."
             },
             {
+              "id": "meu-barzin-b02",
               "tags": [
                 "product_architecture",
                 "ux",
@@ -305,6 +325,7 @@
               "en": "Meu Barzin — Conversational Architecture & UX: Designed intelligent conversation flows via ManyChat and n8n, integrating RAG and 'Zero Hallucination' rules to enable the AI agent (mascot Capizin, Bar Sommelier) to search and recommend venues without errors."
             },
             {
+              "id": "meu-barzin-b03",
               "tags": [
                 "data_strategy",
                 "web_scraping",
@@ -314,6 +335,7 @@
               "en": "Meu Barzin — Data Scraping & Cleansing: Mapped, extracted, and cleansed data from nearly 200 bars in Curitiba via web scraping to build a reliable RAG database in Supabase hosted over a VPS."
             },
             {
+              "id": "meu-barzin-b04",
               "tags": [
                 "sql",
                 "postgresql",
@@ -325,6 +347,7 @@
               "en": "Meu Barzin — Databases and CRM: Built database structures and CRM prototypes using Supabase/PostgreSQL and NocoDB, working with data modeling, organization, and exploration to support digital products and operations."
             },
             {
+              "id": "meu-barzin-b05",
               "tags": [
                 "growth",
                 "funnel",
@@ -334,6 +357,7 @@
               "en": "Meu Barzin — Demand Gen & Metrics: Captured 505 qualified top-of-funnel leads via organic and paid campaigns (growing Instagram to 2,000+ followers), achieving a 22.3% high-engagement rate (users interacting 4+ times with the AI)."
             },
             {
+              "id": "meu-barzin-b06",
               "tags": [
                 "business_development",
                 "sales",
@@ -343,6 +367,7 @@
               "en": "Meu Barzin — B2B Business Development: Led direct sales outreach and partner pitching, securing critical pilot partnerships with top Curitiba venues like Gal Gastrobar and Officina."
             },
             {
+              "id": "meu-barzin-b07",
               "tags": [
                 "discovery",
                 "cro"
@@ -371,6 +396,7 @@
       ],
       "roles": [
         {
+          "id": "ai-builder-role-01",
           "title": {
             "pt": "AI-Native Product Lead & Systems Architect (Cérebro Profissional 3D & AI Career OS)",
             "en": "AI-Native Product Lead & Systems Architect (3D Career Brain & AI Career OS)"
@@ -385,6 +411,8 @@
           ],
           "responsibilities": [
             {
+              "id": "ai-career-os-r01",
+              "same_as": "ai-career-os-b01",
               "pt": "Master Resume & Arquitetura de Dados (SSOT): Concebeu a fonte única de verdade estruturada em JSON, garantindo 100% de governança de dados, tipagem estrita e zero alucinações de modelos de linguagem para o histórico profissional.",
               "en": "Master Resume & Data Architecture (SSOT): Conceived the single source of truth structured in JSON, ensuring 100% data governance, strict typing, and zero language model hallucinations for the professional history.",
               "skills": [
@@ -404,6 +432,8 @@
               ]
             },
             {
+              "id": "ai-career-os-r02",
+              "same_as": "ai-career-os-b02",
               "pt": "Motor de Match Engine & Fit Score: Arquitetou motor de inferência em tempo real para cálculo de aderência (Fit Score em %) de vagas sênior, mapeamento de gaps e diagnósticos estratégicos para entrevistas.",
               "en": "Match Engine & Fit Score: Architected a real-time inference engine to calculate adherence (Fit Score %) for senior roles, mapping gaps and generating strategic diagnostics for interviews.",
               "skills": [
@@ -423,6 +453,8 @@
               ]
             },
             {
+              "id": "ai-career-os-r03",
+              "same_as": "ai-career-os-b03",
               "pt": "AI Resume Builder & Hiper-Personalização: Desenvolveu pipeline generativo para recriação de currículos e cartas de apresentação hiper-personalizadas sem permitir fuga do contexto da base mestre.",
               "en": "AI Resume Builder & Hyper-Personalization: Developed a generative pipeline for recreating hyper-personalized resumes and cover letters without allowing deviation from the master database context.",
               "skills": [
@@ -433,6 +465,8 @@
               "metrics": []
             },
             {
+              "id": "ai-career-os-r04",
+              "same_as": "ai-career-os-b04",
               "pt": "Pipeline Tipográfico para ATS (Document Engineering): Projetou motor de renderização HTML/CSS ➔ PDF com ajuste dinâmico de densidade tipográfica para formatação em página única (A4) bilíngue otimizada para robôs ATS.",
               "en": "Typographical Pipeline for ATS (Document Engineering): Designed an HTML/CSS ➔ PDF rendering engine with dynamic typographical density adjustment for bilingual single-page (A4) formatting optimized for ATS bots.",
               "skills": [
@@ -452,6 +486,8 @@
               ]
             },
             {
+              "id": "ai-career-os-r05",
+              "same_as": "ai-career-os-b05",
               "pt": "Painel ATS Tracker (Gestão de Funil): Desenvolveu dashboard analítico para rastreamento de candidaturas, taxas de conversão (Screening, RH, Técnica, Proposta) e centralização de anotações.",
               "en": "ATS Tracker Panel (Funnel Management): Developed an analytical dashboard for tracking applications, conversion rates (Screening, HR, Technical, Offer), and centralizing interview notes.",
               "skills": [
@@ -471,6 +507,8 @@
               ]
             },
             {
+              "id": "ai-career-os-r06",
+              "same_as": "ai-career-os-b06",
               "pt": "Modelagem Ontológica de Grafos: Estruturou ontologia relacional de carreira com mais de 350 nós e 450 arestas direcionadas tipadas, conectando hierarquicamente empresas, funções e impactos.",
               "en": "Ontological Graph Modeling: Structured a relational career ontology with over 350 nodes and 450 typed directed edges, hierarchically connecting companies, functions, and business impacts.",
               "skills": [
@@ -490,6 +528,8 @@
               ]
             },
             {
+              "id": "ai-career-os-r07",
+              "same_as": "ai-career-os-b07",
               "pt": "Motor Semântico GraphRAG: Construiu pipeline em Python para busca vetorial, cálculo de distâncias semânticas e taxonomia, viabilizando o motor de transferabilidade de habilidades.",
               "en": "GraphRAG Semantic Engine: Built a Python pipeline for vector search, semantic distance calculation, and taxonomy, enabling the skill transferability engine.",
               "skills": [
@@ -501,6 +541,8 @@
               "metrics": []
             },
             {
+              "id": "ai-career-os-r08",
+              "same_as": "ai-career-os-b08",
               "pt": "Engenharia de UX Espacial em WebGL/Three.js: Implementou renderizador tridimensional no navegador agrupando nós em clusters interativos (Force-Directed Graph) com máxima fluidez gráfica.",
               "en": "Spatial UX Engineering in WebGL/Three.js: Implemented an in-browser 3D renderer grouping nodes into interactive clusters (Force-Directed Graph) with maximum graphical fluidity.",
               "skills": [
@@ -512,6 +554,8 @@
               "metrics": []
             },
             {
+              "id": "ai-career-os-r09",
+              "same_as": "ai-career-os-b09",
               "pt": "Design de Navegação Determinística: Criou algoritmo de travessia e interface hierárquica estrita linear (Empresa ➔ Cargo ➔ Função ➔ Skill ➔ Métrica), impedindo desorientação cognitiva.",
               "en": "Deterministic Navigation Design: Created a strict linear hierarchical traversal algorithm and interface (Company ➔ Role ➔ Function ➔ Skill ➔ Metric), preventing cognitive disorientation.",
               "skills": [
@@ -530,6 +574,8 @@
               ]
             },
             {
+              "id": "ai-career-os-r10",
+              "same_as": "ai-career-os-b10",
               "pt": "Orquestração de IA & Vibe Coding: Atuou como Tech Lead orquestrando IA generativa (Antigravity), conduzindo testes automatizados em Python e mantendo fluxo contínuo de deploy em nuvem.",
               "en": "AI Orchestration & Vibe Coding: Acted as Tech Lead orchestrating generative AI (Antigravity), conducting automated testing in Python, and maintaining continuous cloud deployment.",
               "skills": [
@@ -574,6 +620,7 @@
           }
         },
         {
+          "id": "ai-builder-role-02",
           "title": {
             "pt": "Líder de Produto & Arquiteto de Sistemas com IA (Bússola da Rotina)",
             "en": "AI Product Lead & Systems Architect (Bússola da Rotina)"
@@ -584,6 +631,7 @@
           }
         },
         {
+          "id": "ai-builder-role-03",
           "title": {
             "pt": "Gerente de Produto & GTM (Meu Barzin)",
             "en": "Product Manager & GTM Lead (Meu Barzin)"
@@ -596,6 +644,7 @@
       ],
       "bullets": [
         {
+          "id": "ai-career-os-b01",
           "tags": [
             "data_architecture",
             "ssot",
@@ -606,6 +655,7 @@
           "en": "AI Career OS — Master Resume & Data Architecture (SSOT): Conceived the single source of truth structured in JSON, ensuring 100% data governance, strict typing, and zero language model hallucinations for the professional history."
         },
         {
+          "id": "ai-career-os-b02",
           "tags": [
             "match_engine",
             "gap_analysis",
@@ -616,6 +666,7 @@
           "en": "AI Career OS — Match Engine & Fit Score: Architected a real-time inference engine to calculate adherence (Fit Score %) for senior roles, mapping gaps and generating strategic diagnostics for interviews (>95% accuracy)."
         },
         {
+          "id": "ai-career-os-b03",
           "tags": [
             "ai_personalization",
             "prompt_engineering",
@@ -625,6 +676,7 @@
           "en": "AI Career OS — AI Resume Builder & Hyper-Personalization: Developed a generative pipeline for dynamic recreation of hyper-personalized resumes and cover letters without allowing deviation from the master database context."
         },
         {
+          "id": "ai-career-os-b04",
           "tags": [
             "document_engineering",
             "html_css",
@@ -635,6 +687,7 @@
           "en": "AI Career OS — Typographical Pipeline for ATS: Designed an HTML/CSS ➔ PDF rendering engine with dynamic typographical density adjustment for bilingual single-page (A4) formatting optimized for ATS bots."
         },
         {
+          "id": "ai-career-os-b05",
           "tags": [
             "product_operations",
             "funnel_analytics",
@@ -645,6 +698,7 @@
           "en": "AI Career OS — ATS Tracker Panel (Funnel Management): Developed an analytical dashboard for application tracking, ensuring 100% visibility into conversion rates (Screening, HR, Technical, Offer) and centralized notes."
         },
         {
+          "id": "ai-career-os-b06",
           "tags": [
             "knowledge_graphs",
             "data_modeling",
@@ -655,6 +709,7 @@
           "en": "3D Career Brain — Ontological Graph Modeling: Structured a relational career ontology with 355 nodes and 451 typed directed edges, hierarchically connecting companies, functions, and business impacts."
         },
         {
+          "id": "ai-career-os-b07",
           "tags": [
             "graph_rag",
             "semantic_search",
@@ -665,6 +720,7 @@
           "en": "3D Career Brain — GraphRAG Semantic Engine: Built a Python pipeline for vector search, semantic distance calculation, and taxonomy, enabling the algorithmic skill transferability engine."
         },
         {
+          "id": "ai-career-os-b08",
           "tags": [
             "webgl",
             "three_js",
@@ -675,6 +731,7 @@
           "en": "3D Career Brain — Spatial UX Engineering in WebGL/Three.js: Implemented an in-browser 3D renderer grouping nodes into interactive clusters (Force-Directed Graph) with maximum graphical fluidity."
         },
         {
+          "id": "ai-career-os-b09",
           "tags": [
             "deterministic_ux",
             "product_discovery",
@@ -684,6 +741,7 @@
           "en": "3D Career Brain — Deterministic Navigation Design: Created a strict linear hierarchical traversal algorithm and interface (Company ➔ Role ➔ Function ➔ Skill ➔ Metric), ensuring 0 inconsistent jumps and preventing cognitive disorientation."
         },
         {
+          "id": "ai-career-os-b10",
           "tags": [
             "ai_assisted_engineering",
             "prompt_governance",
@@ -694,6 +752,7 @@
           "en": "AI Career OS — AI Orchestration & Vibe Coding: Acted as Tech Lead orchestrating generative AI (Antigravity), conducting automated testing, and maintaining continuous cloud deployment, ensuring +10x engineering speedup."
         },
         {
+          "id": "bussola-da-rotina-b01",
           "tags": [
             "product_discovery",
             "product_strategy",
@@ -705,6 +764,7 @@
           "en": "Bússola da Rotina — 0-to-1 Product Discovery & Methodology: Conceived and led end-to-end the productivity and mental ergonomics Web App, designing the proprietary Bússola Methodology combining Timeblocking, WIP limits, and cognitive load balancing with complete PRD and roadmap."
         },
         {
+          "id": "bussola-da-rotina-b02",
           "tags": [
             "ai",
             "ai_implementation",
@@ -716,6 +776,7 @@
           "en": "Bússola da Rotina — AI Tech Leadership & Accelerated Engineering (+10x): Acted as Tech Lead orchestrating intelligent AI agents as operational pair programmers, building a complete 5,700+ line SPA with 10x delivery speedup and over 95% engineering cost savings."
         },
         {
+          "id": "bussola-da-rotina-b03",
           "tags": [
             "database",
             "realtime_data",
@@ -727,6 +788,7 @@
           "en": "Bússola da Rotina — Real-Time Data Architecture & Concurrency Resolution: Configured cloud infrastructure on Firebase (Firestore NoSQL & Auth) and diagnosed complex concurrency edge cases (race conditions between optimistic local writes and remote snapshots via hasPendingWrites), ensuring 100% data integrity."
         },
         {
+          "id": "bussola-da-rotina-b04",
           "tags": [
             "ux_ui",
             "ux",
@@ -738,6 +800,7 @@
           "en": "Bússola da Rotina — Frictionless UX Decisions, Analytics & UAT: Designed the Analytics dashboard for habit telemetry and made critical frictionless UX decisions (deliberately eliminating drag-and-drop in favor of deterministic controls), conducting hands-on user acceptance testing (UAT)."
         },
         {
+          "id": "meu-barzin-b01",
           "tags": [
             "product_strategy",
             "monetization",
@@ -747,6 +810,7 @@
           "en": "Meu Barzin — MVP Conception: Conceptualized the conversational WhatsApp ecosystem integrated with 'Meu Barzin Pass' (R.90 monthly subscription with buy-one-get-one deals at local bars), designing the monetization business model and validating B2B partnership value."
         },
         {
+          "id": "meu-barzin-b02",
           "tags": [
             "product_architecture",
             "ux",
@@ -757,6 +821,7 @@
           "en": "Meu Barzin — Conversational Architecture & UX: Designed intelligent conversation flows via ManyChat and n8n, integrating RAG and 'Zero Hallucination' rules to enable the AI agent (mascot Capizin, Bar Sommelier) to search and recommend venues without errors."
         },
         {
+          "id": "meu-barzin-b03",
           "tags": [
             "data_strategy",
             "web_scraping",
@@ -766,6 +831,7 @@
           "en": "Meu Barzin — Data Scraping & Cleansing: Mapped, extracted, and cleansed data from nearly 200 bars in Curitiba via web scraping to build a reliable RAG database in Supabase hosted over a VPS."
         },
         {
+          "id": "meu-barzin-b04",
           "tags": [
             "sql",
             "postgresql",
@@ -777,6 +843,7 @@
           "en": "Meu Barzin — Databases and CRM: Built database structures and CRM prototypes using Supabase/PostgreSQL and NocoDB, working with data modeling, organization, and exploration to support digital products and operations."
         },
         {
+          "id": "meu-barzin-b05",
           "tags": [
             "growth",
             "funnel",
@@ -786,6 +853,7 @@
           "en": "Meu Barzin — Demand Gen & Metrics: Captured 505 qualified top-of-funnel leads via organic and paid campaigns (growing Instagram to 2,000+ followers), achieving a 22.3% high-engagement rate (users interacting 4+ times with the AI)."
         },
         {
+          "id": "meu-barzin-b06",
           "tags": [
             "business_development",
             "sales",
@@ -795,6 +863,7 @@
           "en": "Meu Barzin — B2B Business Development: Led direct sales outreach and partner pitching, securing critical pilot partnerships with top Curitiba venues like Gal Gastrobar and Officina."
         },
         {
+          "id": "meu-barzin-b07",
           "tags": [
             "discovery",
             "cro"
@@ -805,6 +874,7 @@
       ]
     },
     {
+      "id": "exp-wipro",
       "company": "Wipro",
       "project": "Meta",
       "location": {
@@ -813,6 +883,7 @@
       },
       "roles": [
         {
+          "id": "wipro-role-01",
           "title": {
             "pt": "Especialista em Operações de Marketing / GTM e Sales Enablement (Projeto Meta)",
             "en": "Marketing Operations / Sales Enablement & GTM Specialist (Meta Project)"
@@ -825,6 +896,7 @@
       ],
       "bullets": [
         {
+          "id": "wipro-b01",
           "tags": [
             "sales_enablement",
             "marketing",
@@ -834,6 +906,7 @@
           "en": "Responsible for executing enablement activations, adoption strategies, and tactical product positioning to drive sales productivity and revenue growth for Project Libra (Meta)."
         },
         {
+          "id": "wipro-b02",
           "tags": [
             "technical_reference",
             "marketing",
@@ -843,6 +916,7 @@
           "en": "Act as the operation's technical reference for Meta ad strategies, absorbing official client materials and strategically replicating product innovations and Go-to-Market (GTM) strategies for 150+ Meta Marketing Pros."
         },
         {
+          "id": "wipro-b03",
           "tags": [
             "sales_enablement",
             "leadership"
@@ -851,6 +925,7 @@
           "en": "Lead Sales Excellence and Sales Productivity pillars, translating Meta product portfolio updates into clear value propositions, sales pitches, and practical commercial frameworks for frontline teams."
         },
         {
+          "id": "wipro-b04",
           "tags": [
             "training",
             "crm",
@@ -860,6 +935,7 @@
           "en": "Provide technical training to the team on Meta internal tools, driving onboarding and replicating training programs on proprietary CRMs and practical native AI implementations."
         },
         {
+          "id": "wipro-b05",
           "tags": [
             "ai_implementation",
             "crm_enablement",
@@ -869,6 +945,7 @@
           "en": "AI CRM Ownership, Activation, and Record Adoption: Owned native AI activation and adoption within Meta's proprietary CRM, from onboarding through 3 weeks of hands-on side-by-side coaching. Structured use cases, prompts, workshops, role plays, and frontline best-practice sharing. Increased usage from 4 to 10 prompts/day per consultant (+150%), making the operation #1 globally for adoption growth while improving contextual prompt quality during live calls."
         },
         {
+          "id": "wipro-b06",
           "tags": [
             "product_feedback",
             "voice_of_customer",
@@ -879,6 +956,7 @@
           "en": "Product Feedback Loop: Consolidated usage feedback, call listening, and frontline observations into feature-level reports discussed in bi-weekly meetings with Meta global stakeholders and other vendors. Recommended improvements to AI summary and email features, including interaction context, tone control, and offered solutions tied to advertiser metrics; global managers indicated implementations resulting from this feedback."
         },
         {
+          "id": "wipro-b07",
           "tags": [
             "coaching",
             "sales",
@@ -888,6 +966,7 @@
           "en": "Conduct continuous monitoring, coaching, and development for marketing/sales agents through active quality assurance, call listening, and structured feedback loops focused on sales performance and service excellence."
         },
         {
+          "id": "wipro-b08",
           "tags": [
             "ops",
             "root_cause_analysis",
@@ -897,6 +976,7 @@
           "en": "Applied root cause analysis to identify team knowledge gaps, coordinating diagnosis, design, and follow-up of corrective action plans while building playbooks, scripts, and sales enablement materials."
         },
         {
+          "id": "wipro-b09",
           "tags": [
             "sales",
             "methodology",
@@ -906,6 +986,7 @@
           "en": "Implement structured sales methodologies and frameworks, ensuring operational alignment with the OCIR framework and Meta's proprietary quality assurance methodology."
         },
         {
+          "id": "wipro-b10",
           "tags": [
             "project_management",
             "pmo",
@@ -919,6 +1000,7 @@
           "en": "Next Level Bootcamp Pilot & Ramp-up Reduction: Conceived and led a post-onboarding internal program for 12 Meta Marketing Pros, based on Power BI diagnosis and new-hire feedback about the gap between initial certification and the commercial routine. Structured a modular learning path for communication, negotiation, and argumentation with facilitators, role plays, challenges, approval criteria, and digital badges. The pilot reached 100% completion and indicated a reduction in historical ramp-up from about 6 to 3 months (-50%), with 90%+ quality audit scores on initial reviews and 90% consultant CSAT; participants who remained in the operation reached Top Performer performance."
         },
         {
+          "id": "wipro-b11",
           "tags": [
             "product_feedback",
             "voice_of_customer",
@@ -930,6 +1012,7 @@
           "en": "Product Cycle and Continuous Improvement: Led kickoff, development, and pilot task management with Enablement, Quality, Data, Sales, and Marketing stakeholders, using PMO controls, backlog, scheduling, and skill-level self-assessment forms. Facilitated part of the learning path, presented results to leadership, and ran feedback sessions with participants and the internal team; prioritized pre-class materials as an improvement for a next version, which was interrupted by layoffs rather than pilot failure."
         },
         {
+          "id": "wipro-b12",
           "tags": [
             "cross_functional",
             "collaboration",
@@ -939,6 +1022,7 @@
           "en": "Cross-Functional Collaboration: Acted as the strategic bridge between global product lines, quality assurance, and outsourced consultant teams to maintain clear project documentation, manage timelines, and align deliverables with core business objectives."
         },
         {
+          "id": "wipro-b13",
           "tags": [
             "agile",
             "okr",
@@ -951,6 +1035,7 @@
           "en": "Agile Governance and Training Squad: Participated in the squad responsible for the enablement program, using daily meetings, OKRs, roadmap, and backlog to organize weekly tasks and prioritize requests from clients, managers, leaders, and internal consultants."
         },
         {
+          "id": "wipro-b14",
           "tags": [
             "data",
             "analytics",
@@ -960,6 +1045,7 @@
           "en": "Performance Reporting: Partnered with the MIS data team to leverage Power BI and Excel dashboards, translating complex operational data into actionable progress reports and performance reviews for senior leadership."
         },
         {
+          "id": "wipro-b15",
           "tags": [
             "compliance",
             "security",
@@ -972,6 +1058,7 @@
       ]
     },
     {
+      "id": "exp-ak-branding",
       "company": "AK Branding & Web Design",
       "location": {
         "pt": "Curitiba, PR",
@@ -979,6 +1066,7 @@
       },
       "roles": [
         {
+          "id": "ak-branding-role-01",
           "title": {
             "pt": "Fundador & Consultor de Projetos de Marketing",
             "en": "Founder & Marketing Project Consultant"
@@ -991,6 +1079,7 @@
       ],
       "bullets": [
         {
+          "id": "ak-branding-b01",
           "tags": [
             "agency_management",
             "branding",
@@ -1000,6 +1089,7 @@
           "en": "Boutique Agency Leadership & Volume: Sustained a steady deal closure and project delivery cadence of 2 high-value contracts every 3 months across 5 years (40+ custom projects delivered), overseeing everything from brand positioning to web architecture for SMBs."
         },
         {
+          "id": "ak-branding-b02",
           "tags": [
             "cro",
             "chatbots",
@@ -1009,6 +1099,7 @@
           "en": "Conversion Rate Optimization (CRO) & Chatbots: Implemented chatbot interfaces and UX flows that boosted monthly lead capture from 8 to 20-30 contacts/month (+250%) on client websites, and designed real estate LPs generating 5 qualified leads/day."
         },
         {
+          "id": "ak-branding-b03",
           "tags": [
             "ab_testing",
             "growth",
@@ -1019,6 +1110,7 @@
           "en": "Growth Experimentation: Planned and executed A/B tests across paid campaigns, landing pages, and web experiences to validate acquisition and conversion hypotheses, informing adjustments to creative, messaging, and digital journeys."
         },
         {
+          "id": "ak-branding-b04",
           "tags": [
             "e_commerce",
             "monetization",
@@ -1028,6 +1120,7 @@
           "en": "0-to-1 E-Commerce Monetization: Built a custom e-commerce platform from scratch that achieved R$ 10,000 in revenue within its first 3 months operating 100% organically ($0 ad spend) driven purely by strategic Instagram positioning."
         },
         {
+          "id": "ak-branding-b05",
           "tags": [
             "ux_ui",
             "web_development",
@@ -1040,6 +1133,7 @@
           "en": "100% Technical LGPD Compliance: Before the adoption of AI tools, researched Brazilian data protection requirements, authored custom privacy policies and terms of use, and designed and implemented the visual experience for cookie banners and consent flows. This consulting work strengthened his technical authority with clients."
         },
         {
+          "id": "ak-branding-b06",
           "tags": [
             "budget",
             "controls",
@@ -1051,6 +1145,7 @@
       ]
     },
     {
+      "id": "exp-munzner",
       "company": "Munzner",
       "location": {
         "pt": "Curitiba, PR",
@@ -1058,6 +1153,7 @@
       },
       "roles": [
         {
+          "id": "munzner-role-01",
           "title": {
             "pt": "Marketing & Growth Specialist",
             "en": "Marketing & Growth Specialist"
@@ -1070,6 +1166,7 @@
       ],
       "bullets": [
         {
+          "id": "munzner-b01",
           "tags": [
             "infoproduct",
             "e_learning",
@@ -1080,6 +1177,7 @@
           "en": "0-to-1 Infoproduct & Tripwire ROI Strategy: Designed and launched the brand's first digital course (MasterStudy LMS/WordPress) as an entry-level tripwire offer for the pioneer Thinking Environment methodology, owning the pricing and packaging of the offer — including a 1-hour mentoring order bump that lifted average order value and ROI. Secured 50 sales in the first 2 months with a 1.0x-1.5x ROI, self-sustaining customer acquisition."
         },
         {
+          "id": "munzner-b02",
           "tags": [
             "crm",
             "automation",
@@ -1090,6 +1188,7 @@
           "en": "Automated High-Ticket Nurturing Funnel (~R$ 50k Revenue): Built an automated 10-stage email nurturing funnel (Bitrix24/Sendpulse) attracting 10,000+ visits, converting ~10 enrollments for R$ 5,000 in-person masterclasses (~R$ 50k high-ticket revenue driven via automation)."
         },
         {
+          "id": "munzner-b03",
           "tags": [
             "monetization",
             "crm",
@@ -1100,6 +1199,7 @@
           "en": "Monetization Measurement: Tracked channels, acquisition paths, and CRM data to evaluate funnel conversion, revenue, and ROI, guiding adjustments to campaigns, content, and monetization strategies."
         },
         {
+          "id": "munzner-b04",
           "tags": [
             "inbound",
             "seo",
@@ -1109,6 +1209,7 @@
           "en": "Inbound Organic SEO & Content Marketing: Authored ~10 strategic technical blog articles on the Thinking Environment methodology, generating ~1,000 organic visits and ~100 qualified high-value leads (~10% visitor-to-lead conversion rate)."
         },
         {
+          "id": "munzner-b05",
           "tags": [
             "thinking_environment",
             "narratives",
@@ -1120,6 +1221,7 @@
       ]
     },
     {
+      "id": "exp-conversas-brasileiras",
       "company": "Conversas Brasileiras",
       "location": {
         "pt": "Curitiba, PR",
@@ -1127,6 +1229,7 @@
       },
       "roles": [
         {
+          "id": "conversas-brasileiras-role-01",
           "title": {
             "pt": "Especialista em Marketing de Comunidades",
             "en": "Community Marketing Specialist"
@@ -1139,6 +1242,7 @@
       ],
       "bullets": [
         {
+          "id": "conversas-brasileiras-b01",
           "tags": [
             "social_innovation",
             "facilitation",
@@ -1148,6 +1252,7 @@
           "en": "The 'Conversas Brasileiras' was a social and experimental initiative aimed at creating dialogue spaces, fostering critical thinking, and activating collective intelligence through human facilitation methodologies and social innovation."
         },
         {
+          "id": "conversas-brasileiras-b02",
           "tags": [
             "community_management",
             "content_creation"
@@ -1156,6 +1261,7 @@
           "en": "Community Management & Engagement: Conceptualized and led the project end-to-end, creating strategic content and communication channels to attract, engage, and retain members aligned with the ecosystem's purpose."
         },
         {
+          "id": "conversas-brasileiras-b03",
           "tags": [
             "facilitation",
             "collective_intelligence",
@@ -1165,6 +1271,7 @@
           "en": "Facilitation & Collective Intelligence: Planned and moderated 5 community event editions across the city (average of 20 participants per meeting, engaging 100+ total attendees) utilizing Art of Hosting and Thinking Environment frameworks (Fishbowl dynamics and dialogue circles)."
         },
         {
+          "id": "conversas-brasileiras-b04",
           "tags": [
             "business_development",
             "partnerships",
@@ -1174,6 +1281,7 @@
           "en": "Business Development & B2B Partnerships: Strategic prospecting and negotiation with local venues like co-workings and cultural centers, securing the necessary infrastructure for meetings through mutual-benefit partnerships."
         },
         {
+          "id": "conversas-brasileiras-b05",
           "tags": [
             "business_models",
             "experimentation",
@@ -1185,6 +1293,7 @@
       ]
     },
     {
+      "id": "exp-alvesa-transportes",
       "company": "Alvesa Transportes Logística Ltda.",
       "location": {
         "pt": "Curitiba, PR",
@@ -1192,6 +1301,7 @@
       },
       "roles": [
         {
+          "id": "alvesa-transportes-role-01",
           "title": {
             "pt": "Administrative Assistant",
             "en": "Administrative Assistant"
@@ -1204,6 +1314,7 @@
       ],
       "bullets": [
         {
+          "id": "alvesa-transportes-b01",
           "tags": [
             "admin",
             "finance",
@@ -1213,6 +1324,7 @@
           "en": "Supported financial operations, including controlling revenues and expenses, payroll, taxes, and accounts payable."
         },
         {
+          "id": "alvesa-transportes-b02",
           "tags": [
             "logistics",
             "coordination",
@@ -1222,6 +1334,7 @@
           "en": "Coordinated logistical schedules, tracked cargo, and assigned drivers."
         },
         {
+          "id": "alvesa-transportes-b03",
           "tags": [
             "marketing",
             "social_media"
@@ -1230,6 +1343,7 @@
           "en": "Supported marketing efforts by creating social media content and coordinating basic campaigns."
         },
         {
+          "id": "alvesa-transportes-b04",
           "tags": [
             "admin",
             "support",
@@ -1243,6 +1357,7 @@
   ],
   "education": [
     {
+      "id": "edu-ufpr-filosofia",
       "institution": "Universidade Federal do Paraná (UFPR)",
       "degree": {
         "pt": "Bacharelado e Licenciatura em Filosofia",
@@ -1251,6 +1366,7 @@
       "dates": "2018 - 2023"
     },
     {
+      "id": "edu-ufpr-utfpr-engenharia",
       "institution": "Universidade Federal do Paraná (UFPR) / UTFPR",
       "degree": {
         "pt": "Bacharelado em Engenharia (Incompleto - 2,5 anos cursados)",
@@ -1261,6 +1377,7 @@
   ],
   "certifications": [
     {
+      "id": "cert-google-project-management",
       "name": "Google Project Management Professional Certificate",
       "issuer": "Coursera / Google",
       "status": {
@@ -1269,6 +1386,7 @@
       }
     },
     {
+      "id": "cert-meta-certified-media-planning-professional",
       "name": "Meta Certified Media Planning Professional",
       "issuer": "Meta",
       "status": {
@@ -1277,6 +1395,7 @@
       }
     },
     {
+      "id": "cert-meta-certified-digital-marketing-associate",
       "name": "Meta Certified Digital Marketing Associate",
       "issuer": "Meta",
       "status": {
@@ -1285,6 +1404,7 @@
       }
     },
     {
+      "id": "cert-thinking-environment-facilitador",
       "name": "Facilitador de Thinking Environment",
       "issuer": "Munzner",
       "status": {
@@ -1293,6 +1413,7 @@
       }
     },
     {
+      "id": "cert-thinking-partnership",
       "name": "Thinking Partnership",
       "issuer": "Munzner",
       "status": {
@@ -1301,6 +1422,7 @@
       }
     },
     {
+      "id": "cert-thinking-environment-fundamentos",
       "name": "Fundamentos do Thinking Environment",
       "issuer": "Munzner",
       "status": {
@@ -1309,6 +1431,7 @@
       }
     },
     {
+      "id": "cert-founderspm-mentoria-pm",
       "name": "Programa de Mentoria em Project Management",
       "issuer": "FoundersPM",
       "status": {
@@ -1509,28 +1632,34 @@
   "languages": {
     "pt": [
       {
+        "id": "lang-english",
         "language": "Inglês",
         "proficiency": "Avançado / Profissional (Uso diário corporativo para relatórios, coordenação internacional e alinhamento de stakeholders)"
       },
       {
+        "id": "lang-spanish",
         "language": "Espanhol",
         "proficiency": "Básico"
       },
       {
+        "id": "lang-portuguese",
         "language": "Português",
         "proficiency": "Nativo"
       }
     ],
     "en": [
       {
+        "id": "lang-english",
         "language": "English",
         "proficiency": "Advanced / Professional Full Proficiency (Daily corporate use for technical reporting, international team coordination, and stakeholder alignment)"
       },
       {
+        "id": "lang-spanish",
         "language": "Spanish",
         "proficiency": "Basic"
       },
       {
+        "id": "lang-portuguese",
         "language": "Portuguese",
         "proficiency": "Native"
       }
@@ -1552,6 +1681,7 @@
   },
   "volunteer_experience": [
     {
+      "id": "vol-global-shapers-community",
       "organization": "Global Shapers Community (World Economic Forum)",
       "role": {
         "pt": "Shaper / Líder de Projetos de Inovação Social",
@@ -1565,6 +1695,7 @@
       }
     },
     {
+      "id": "vol-teto-brasil",
       "organization": "TETO Brasil",
       "role": {
         "pt": "Embaixador Voluntário & Mobilização Comunitária",
@@ -1578,6 +1709,7 @@
       }
     },
     {
+      "id": "vol-fundacao-estudar",
       "organization": "Fundação Estudar",
       "role": {
         "pt": "Embaixador de Educação & Desenvolvimento de Lideranças",

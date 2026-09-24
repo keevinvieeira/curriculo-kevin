@@ -5,6 +5,13 @@
     "role": "AI Sales Enablement Specialist",
     "date_applied": "2026-07-21",
     "status": "Candidatado",
+    "status_history": [
+      {
+        "status": "Candidatado",
+        "date": "2026-07-21",
+        "source": "migration"
+      }
+    ],
     "notes": "Vaga em inglês. Enviei o currículo adaptado de 1 página e a carta de apresentação gerada.",
     "url": "https://www.linkedin.com/jobs/view/4435987908/",
     "current_stage": "Candidatura",
@@ -53,6 +60,13 @@
     "role": "Especialista de Product Marketing (Jornadas)",
     "date_applied": "2026-07-21",
     "status": "Candidatado",
+    "status_history": [
+      {
+        "status": "Candidatado",
+        "date": "2026-07-21",
+        "source": "migration"
+      }
+    ],
     "notes": "Vaga em português via Inhire. Submeti o currículo focado em jornadas de adoção e automações com n8n.",
     "url": "https://lwsa.inhire.app/bling/vagas/a2d6a2f2-8fdf-4477-98c4-ab15516b7264/bling-or-especialista-de-product-marketing-or-jornadas-or-remoto?source=linkedin",
     "current_stage": "Candidatura",
@@ -101,6 +115,13 @@
     "role": "B2B GTM and Growth Marketer (AI-First)",
     "date_applied": "2026-07-21",
     "status": "Candidatado",
+    "status_history": [
+      {
+        "status": "Candidatado",
+        "date": "2026-07-21",
+        "source": "migration"
+      }
+    ],
     "notes": "Vaga 100% remota com forte foco em GTM B2B, Growth Marketing, campanhas outbound, ICP e criação de fluxos de trabalho inteligentes e automações com IA.",
     "url": "https://www.linkedin.com/jobs/view/4439841688/",
     "current_stage": "Candidatura",
@@ -149,6 +170,13 @@
     "role": "Senior Marketing Specialist",
     "date_applied": "2026-07-21",
     "status": "Candidatado",
+    "status_history": [
+      {
+        "status": "Candidatado",
+        "date": "2026-07-21",
+        "source": "migration"
+      }
+    ],
     "notes": "Vaga em inglês. Remoto no fuso EST. Foco em geração de leads inbound orgânicos, Elementor/Wordpress e testes A/B.",
     "url": "https://www.linkedin.com/jobs/view/metrobi-senior-marketing-specialist/",
     "current_stage": "Candidatura",
@@ -197,6 +225,13 @@
     "role": "Staff Product Manager - Occupational Health (New Ventures)",
     "date_applied": "2026-07-22",
     "status": "Candidatado",
+    "status_history": [
+      {
+        "status": "Candidatado",
+        "date": "2026-07-22",
+        "source": "migration"
+      }
+    ],
     "notes": "Vaga Staff PM 0-to-1 com foco em Saúde Ocupacional na vertical de New Ventures. Requer bagagem de conformidade de dados e postura AI-native.",
     "url": "https://job-boards.greenhouse.io/gympass/jobs/8638136002?gh_src=709aee8b2us",
     "current_stage": "Candidatura",
@@ -245,6 +280,13 @@
     "role": "Staff Analyst, Product & Marketing",
     "date_applied": "2026-07-23",
     "status": "Candidatado",
+    "status_history": [
+      {
+        "status": "Candidatado",
+        "date": "2026-07-23",
+        "source": "migration"
+      }
+    ],
     "notes": "Vaga Staff Analytics em HealthTech/Telehealth listada no AshbyHQ. Foco em experimentos A/B, otimização de funil de conversão, LTV/Churn, SQL/Python e Looker.",
     "url": "https://jobs.ashbyhq.com/hims-and-hers/278d5f46-3f95-4336-ad65-29e4f3e0add9/application",
     "current_stage": "Candidatura",
@@ -294,6 +336,13 @@
     "role": "Senior Product Manager: Donor Intelligence",
     "date_applied": "2026-07-23",
     "status": "Candidatado",
+    "status_history": [
+      {
+        "status": "Candidatado",
+        "date": "2026-07-23",
+        "source": "migration"
+      }
+    ],
     "notes": "Vaga Senior PM para os produtos de IA Momentum e Insights da Virtuous (CRM para ONGs). Exige perfil AI-forward operator, prototipagem e alinhamento com filantropia.",
     "url": "https://jobs.ashbyhq.com/virtuous/5adb678f-b36e-42fc-8ce2-688ff583f4cf",
     "current_stage": "Candidatura",
@@ -343,6 +392,13 @@
     "role": "Marketing Tech, Ops & AI Manager",
     "date_applied": "2026-07-24",
     "status": "Candidatado",
+    "status_history": [
+      {
+        "status": "Candidatado",
+        "date": "2026-07-24",
+        "source": "migration"
+      }
+    ],
     "notes": "Vaga global de liderança em MarTech, Operações & IA na gigante fintech Thunes via Greenhouse. Exige perfil AI Champion, automações de workflow (n8n, Clay, Zapier), enriquecimento de dados e atribuição de receita.",
     "url": "https://www.thunes.com/jobs/?gh_jid=7811473003",
     "current_stage": "Candidatura",
@@ -392,6 +448,13 @@
     "role": "Senior Product Manager - Consumer",
     "date_applied": "2026-07-24",
     "status": "Candidatado",
+    "status_history": [
+      {
+        "status": "Candidatado",
+        "date": "2026-07-24",
+        "source": "migration"
+      }
+    ],
     "notes": "Vaga Senior PM na Kraken (Payward) para o time de Consumer Trading via AshbyHQ. Requer experiência com prototipagem prática usando ferramentas de IA (Claude Code, Cursor), análise de funil (SQL) e visão de produto de consumo.",
     "url": "https://jobs.ashbyhq.com/kraken.com/2bb8eb65-0d23-4371-a45d-0cd7c17bb602",
     "current_stage": "Candidatura",
@@ -441,6 +504,13 @@
     "role": "AI Technical Product Manager",
     "date_applied": "2026-07-24",
     "status": "Candidatado",
+    "status_history": [
+      {
+        "status": "Candidatado",
+        "date": "2026-07-24",
+        "source": "migration"
+      }
+    ],
     "notes": "Vaga de AI Technical Product Manager na consultoria AI-native Applaudo Studios via SmartRecruiters. Requer 5+ anos como PM/PO, vivência prática em Generative AI, LLMs, RAG, AI Agents, Prompt Engineering e Responsible AI.",
     "url": "https://jobs.smartrecruiters.com/ApplaudoStudios/744000138920758",
     "current_stage": "Candidatura",
@@ -490,6 +560,13 @@
     "role": "Staff Product Manager - Products & Services",
     "date_applied": "2026-07-24",
     "status": "Candidatado",
+    "status_history": [
+      {
+        "status": "Candidatado",
+        "date": "2026-07-24",
+        "source": "migration"
+      }
+    ],
     "notes": "Vaga de Staff Product Manager na OpenLoop Health via AshbyHQ. Liderança sênior de produto (IC) focada nos motores de Patient CRM e Patient 360, estruturando contexto e histórico de usuários para alimentar capacidades AI-First (priorização de follow-up, winback, suporte proativo e recomendações).",
     "url": "https://jobs.ashbyhq.com/openloophealth/532e69f6-d165-482f-8900-641210d57538",
     "current_stage": "Candidatura",
@@ -539,6 +616,13 @@
     "role": "Senior B2B Growth Marketing Specialist",
     "date_applied": "2026-07-24",
     "status": "Candidatado",
+    "status_history": [
+      {
+        "status": "Candidatado",
+        "date": "2026-07-24",
+        "source": "migration"
+      }
+    ],
     "notes": "Vaga na Tamara (primeiro unicórnio fintech da Arábia Saudita) em Dubai via Greenhouse. Foco em estratégias de crescimento B2B, aquisição de parceiros/merchants além de mídia paga, experimentação (Hypothesis-Test-Learn-Scale) e automação de funil.",
     "url": "https://job-boards.eu.greenhouse.io/tamara/jobs/4823149101",
     "current_stage": "Candidatura",
@@ -588,6 +672,13 @@
     "role": "Marketing Specialist",
     "date_applied": "2026-07-24",
     "status": "Candidatado",
+    "status_history": [
+      {
+        "status": "Candidatado",
+        "date": "2026-07-24",
+        "source": "migration"
+      }
+    ],
     "notes": "Vaga de Marketing Specialist na PSI CRO (Organização de Pesquisa Clínica global) via SmartRecruiters. Foco em programas de e-mail B2B, gestão do HubSpot, qualificação de leads inbound para o time de Business Development, criação de conteúdo e dashboards de desempenho.",
     "url": "https://jobs.smartrecruiters.com/PSICRO/744000139118089",
     "current_stage": "Candidatura",
@@ -637,6 +728,13 @@
     "role": "Growth & GTM Lead (AI Venture Studio)",
     "date_applied": "2026-07-29",
     "status": "Candidatado",
+    "status_history": [
+      {
+        "status": "Candidatado",
+        "date": "2026-07-29",
+        "source": "migration"
+      }
+    ],
     "notes": "Vaga na Mudita Studios (Venture Studio focado em lançar startups AI-native com fundo de $125M) via LinkedIn. Liderança de estratégia GTM para múltiplas empresas do portfólio, experimentos de crescimento rápido (PLG, loops virais, automação, hacks), funis de aquisição e dashboards de métricas.",
     "url": "https://www.linkedin.com/jobs/view/4443058738/",
     "current_stage": "Candidatura",
@@ -685,6 +783,13 @@
     "url": "https://www.geekhunter.com/pt/seazone/jobs/product-marketing--ai-creator--1",
     "date_applied": "2026-07-31",
     "status": "Candidatado",
+    "status_history": [
+      {
+        "status": "Candidatado",
+        "date": "2026-07-31",
+        "source": "migration"
+      }
+    ],
     "resume_used": "adapted_resume_pt.json",
     "notes": "Focus on GTM, AI (ChatGPT, Claude), Meta Ads, Power BI, and A/B Testing. Adapted narrative to highlight AI in CRM bootcamp and GTM strategy.",
     "salary_expectation": "R$ 12.000 - R$ 16.000 /mês (CLT)",
@@ -697,6 +802,13 @@
     "role": "Analista de Marketing de Produto e IA (Sênior)",
     "date_applied": "2026-08-06",
     "status": "Candidatado",
+    "status_history": [
+      {
+        "status": "Candidatado",
+        "date": "2026-08-06",
+        "source": "migration"
+      }
+    ],
     "url": "https://www.linkedin.com/jobs/view/4450264430/",
     "fit_score": 97,
     "salary_expectation": "R$ 11.000 - R$ 15.000 /mês (CLT / Híbrido Curitiba)",
@@ -708,6 +820,13 @@
     "role": "Especialista em Go-to-Market (GTM) - ERP",
     "date_applied": "2026-08-06",
     "status": "Candidatado",
+    "status_history": [
+      {
+        "status": "Candidatado",
+        "date": "2026-08-06",
+        "source": "migration"
+      }
+    ],
     "url": "https://olist.inhire.app/vagas/43429609-6d26-4485-89f2-1d1b51d56b39/especialista-em-go-to-market-or-erp?source=linkedin",
     "fit_score": 98,
     "salary_expectation": "R$ 13.000 - R$ 17.000 /mês (CLT / Híbrido Curitiba)",
@@ -720,6 +839,13 @@
     "role": "Product Manager II",
     "date_applied": "2026-08-06",
     "status": "Candidatado",
+    "status_history": [
+      {
+        "status": "Candidatado",
+        "date": "2026-08-06",
+        "source": "migration"
+      }
+    ],
     "url": "https://arcoeducacao.gupy.io/",
     "fit_score": 95,
     "salary_expectation": "R$ 15.000 - R$ 19.000 /mês (CLT / Remoto)",
@@ -731,6 +857,13 @@
     "role": "Sales & Partner Enablement Specialist",
     "date_applied": "2026-08-06",
     "status": "Candidatado",
+    "status_history": [
+      {
+        "status": "Candidatado",
+        "date": "2026-08-06",
+        "source": "migration"
+      }
+    ],
     "url": "https://www.nuvemshop.com.br/carreiras",
     "fit_score": 99,
     "salary_expectation": "R$ 13.000 - R$ 17.000 /mês (CLT / Remoto)",
@@ -743,6 +876,13 @@
     "role": "Product Owner",
     "date_applied": "2026-08-06",
     "status": "Candidatado",
+    "status_history": [
+      {
+        "status": "Candidatado",
+        "date": "2026-08-06",
+        "source": "migration"
+      }
+    ],
     "url": "https://www.ltm.com.br/",
     "fit_score": 96,
     "salary_expectation": "R$ 14.000 - R$ 18.000 /mês (Contrato 3 Anos / Remoto + Curitiba)",
@@ -754,6 +894,13 @@
     "role": "Especialista de Produtos",
     "date_applied": "2026-08-06",
     "status": "Candidatado",
+    "status_history": [
+      {
+        "status": "Candidatado",
+        "date": "2026-08-06",
+        "source": "migration"
+      }
+    ],
     "url": "https://bernoulli.gupy.io/",
     "fit_score": 95,
     "salary_expectation": "R$ 11.000 - R$ 14.000 /mês (CLT / Remoto)",
@@ -765,6 +912,13 @@
     "role": "AI Growth Hacker",
     "date_applied": "2026-08-06",
     "status": "Candidatado",
+    "status_history": [
+      {
+        "status": "Candidatado",
+        "date": "2026-08-06",
+        "source": "migration"
+      }
+    ],
     "url": "https://econodata.gupy.io/",
     "fit_score": 98,
     "salary_expectation": "R$ 12.000 - R$ 16.000 /mês (CLT / Remoto)",
@@ -776,6 +930,13 @@
     "role": "Senior Partnership Enablement Specialist",
     "date_applied": "2026-08-14",
     "status": "Candidatado",
+    "status_history": [
+      {
+        "status": "Candidatado",
+        "date": "2026-08-14",
+        "source": "migration"
+      }
+    ],
     "url": "https://infobip.wd3.myworkdayjobs.com/en-US/InfobipCareers/job/Curitiba-Brazil/Senior-partnership-enablement-specialist_JR104822",
     "fit_score": 97,
     "salary_expectation": "BRL 14,000-18,000 gross/month (CLT, hybrid in Curitiba)",
@@ -788,6 +949,13 @@
     "role": "Analista de Projetos/Categorias Pleno",
     "date_applied": "2026-08-14",
     "status": "Candidatado",
+    "status_history": [
+      {
+        "status": "Candidatado",
+        "date": "2026-08-14",
+        "source": "migration"
+      }
+    ],
     "url": "https://talents.mbrf.com/job/Curitiba-Analista-de-ProjetosCategorias-Pleno-Curitiba-PR-PR-82305-100/1335668062/?src=LinkedIn",
     "fit_score": 78,
     "salary_expectation": "R$ 7.000 a R$ 8.500/mês (CLT, Curitiba)",
@@ -799,6 +967,13 @@
     "role": "Marketing Team Lead",
     "date_applied": "2026-08-14",
     "status": "Candidatado",
+    "status_history": [
+      {
+        "status": "Candidatado",
+        "date": "2026-08-14",
+        "source": "migration"
+      }
+    ],
     "url": "",
     "fit_score": 72,
     "salary_expectation": "USD 75,000-90,000/year (remote, Americas; target: USD 85,000/year)",
@@ -810,6 +985,13 @@
     "role": "Especialista de Produto | Monetização e Crescimento",
     "date_applied": "2026-08-14",
     "status": "Candidatado",
+    "status_history": [
+      {
+        "status": "Candidatado",
+        "date": "2026-08-14",
+        "source": "migration"
+      }
+    ],
     "url": "",
     "fit_score": 82,
     "salary_expectation": "R$ 13.000 a R$ 17.000/mês (CLT, remoto Brasil; alvo: R$ 15.000/mês)",
@@ -821,6 +1003,13 @@
     "role": "Product Marketing Manager - Americas",
     "date_applied": "2026-08-14",
     "status": "Candidatado",
+    "status_history": [
+      {
+        "status": "Candidatado",
+        "date": "2026-08-14",
+        "source": "migration"
+      }
+    ],
     "url": "",
     "fit_score": 78,
     "salary_expectation": "USD 55,000-70,000/year (remote Brazil; target: USD 65,000/year)",
@@ -832,6 +1021,13 @@
     "role": "Gerente de Produto",
     "date_applied": "2026-08-14",
     "status": "Candidatado",
+    "status_history": [
+      {
+        "status": "Candidatado",
+        "date": "2026-08-14",
+        "source": "migration"
+      }
+    ],
     "url": "",
     "fit_score": 66,
     "salary_expectation": "R$ 16.000 a R$ 21.000/mês (CLT, remoto Brasil; alvo: R$ 18.000/mês)",
@@ -843,6 +1039,13 @@
     "role": "Operations / Growth Specialist - Noa Notes",
     "date_applied": "2026-08-14",
     "status": "Candidatado",
+    "status_history": [
+      {
+        "status": "Candidatado",
+        "date": "2026-08-14",
+        "source": "migration"
+      }
+    ],
     "url": "",
     "fit_score": 91,
     "salary_expectation": "R$ 14.000 a R$ 18.000/mês (CLT, remoto ou híbrido Curitiba; alvo: R$ 16.000/mês)",
@@ -854,6 +1057,13 @@
     "role": "Product Marketing Specialist",
     "date_applied": "2026-08-14",
     "status": "Candidatado",
+    "status_history": [
+      {
+        "status": "Candidatado",
+        "date": "2026-08-14",
+        "source": "migration"
+      }
+    ],
     "url": "",
     "fit_score": 84,
     "salary_expectation": "USD 3,100-4,250/month (contractor, remote Brazil; target: USD 4,000/month)",
@@ -865,6 +1075,13 @@
     "role": "Senior Project Manager - Marketing",
     "date_applied": "2026-08-14",
     "status": "Candidatado",
+    "status_history": [
+      {
+        "status": "Candidatado",
+        "date": "2026-08-14",
+        "source": "migration"
+      }
+    ],
     "url": "",
     "fit_score": 94,
     "salary_expectation": "USD 4,500-6,000/month (remote; target: USD 5,500/month)",
@@ -876,6 +1093,13 @@
     "role": "Marketing Generalist / Growth / Marketing Operations",
     "date_applied": "2026-08-14",
     "status": "Candidatado",
+    "status_history": [
+      {
+        "status": "Candidatado",
+        "date": "2026-08-14",
+        "source": "migration"
+      }
+    ],
     "url": "",
     "fit_score": 97,
     "salary_expectation": "USD 3,500-5,000/month (remote Brazil; target: USD 4,500/month)",
@@ -887,6 +1111,13 @@
     "role": "Growth Product Manager",
     "date_applied": "2026-08-14",
     "status": "Candidatado",
+    "status_history": [
+      {
+        "status": "Candidatado",
+        "date": "2026-08-14",
+        "source": "migration"
+      }
+    ],
     "url": "",
     "fit_score": 91,
     "salary_expectation": "USD 4,500-6,500/month (remote Brazil; target: USD 5,500/month)",
@@ -898,6 +1129,13 @@
     "role": "Lifecycle Marketing Specialist (B2B & B2C)",
     "date_applied": "2026-08-14",
     "status": "Candidatado",
+    "status_history": [
+      {
+        "status": "Candidatado",
+        "date": "2026-08-14",
+        "source": "migration"
+      }
+    ],
     "url": "",
     "fit_score": 86,
     "salary_expectation": "USD 3,500-5,000/month (remote global; target: USD 4,500/month)",
@@ -909,6 +1147,13 @@
     "role": "AI Native Go-to-Market (GTM) Specialist",
     "date_applied": "2026-08-14",
     "status": "Candidatado",
+    "status_history": [
+      {
+        "status": "Candidatado",
+        "date": "2026-08-14",
+        "source": "migration"
+      }
+    ],
     "url": "",
     "fit_score": 92,
     "salary_expectation": "EUR 3,000 net/month plus performance-based bonus",
@@ -920,6 +1165,13 @@
     "role": "AI Productivity & Adoption Consultant",
     "date_applied": "2026-08-18",
     "status": "Candidatado",
+    "status_history": [
+      {
+        "status": "Candidatado",
+        "date": "2026-08-18",
+        "source": "migration"
+      }
+    ],
     "notes": "Candidatura enviada em 18/08/2026. Materiais PT/EN disponíveis no artefato versionado xtrategus-ai-productivity-adoption-consultant.",
     "url": "https://br.linkedin.com/jobs/view/ai-productivity-adoption-consultant-at-xtrategus-4452268828",
     "current_stage": "Candidatura",
@@ -970,6 +1222,13 @@
     "role": "Revenue Operations Specialist - Remote work | REF#300572",
     "date_applied": "2026-08-18",
     "status": "Candidatado",
+    "status_history": [
+      {
+        "status": "Candidatado",
+        "date": "2026-08-18",
+        "source": "migration"
+      }
+    ],
     "notes": "Candidatura enviada em 18/08/2026. Materiais PT/EN disponíveis no artefato versionado bairesdev-revenue-operations-specialist.",
     "url": "https://br.linkedin.com/jobs/view/revenue-operations-specialist-remote-work-ref%23300572-at-bairesdev-4449089476",
     "current_stage": "Candidatura",
@@ -1020,6 +1279,13 @@
     "role": "Especialista de Sales Enablement",
     "date_applied": "2026-08-18",
     "status": "Candidatado",
+    "status_history": [
+      {
+        "status": "Candidatado",
+        "date": "2026-08-18",
+        "source": "migration"
+      }
+    ],
     "notes": "Candidatura enviada em 18/08/2026. Materiais PT/EN disponíveis no artefato versionado grupo-ric-especialista-sales-enablement.",
     "url": "https://br.linkedin.com/jobs/view/especialista-de-sales-enablement-at-grupo-ric-paran%C3%A1-4445200147",
     "current_stage": "Candidatura",
@@ -1071,6 +1337,13 @@
     "role": "GTM & Revenue Operations Specialist | NOA",
     "date_applied": "2026-08-18",
     "status": "Candidatado",
+    "status_history": [
+      {
+        "status": "Candidatado",
+        "date": "2026-08-18",
+        "source": "migration"
+      }
+    ],
     "notes": "Candidatura enviada em 18/08/2026. Materiais PT/EN disponíveis no artefato versionado doctoralia-noa-gtm-revenue-operations-specialist.",
     "url": "https://br.linkedin.com/jobs/view/gtm-revenue-operations-specialist-noa-at-doctoralia-brasil-4439274127",
     "current_stage": "Candidatura",
@@ -1122,6 +1395,13 @@
     "role": "Revenue Enablement Specialist",
     "date_applied": "2026-08-18",
     "status": "Candidatado",
+    "status_history": [
+      {
+        "status": "Candidatado",
+        "date": "2026-08-18",
+        "source": "migration"
+      }
+    ],
     "notes": "Candidatura enviada em 18/08/2026. Materiais PT/EN disponíveis no artefato versionado playlist-revenue-enablement-specialist.",
     "url": "https://www.playlist.com/careers/opportunities/4705948006",
     "current_stage": "Candidatura",
@@ -1173,6 +1453,13 @@
     "role": "AI Transformation Manager",
     "date_applied": "2026-08-18",
     "status": "Candidatado",
+    "status_history": [
+      {
+        "status": "Candidatado",
+        "date": "2026-08-18",
+        "source": "migration"
+      }
+    ],
     "notes": "Candidatura enviada em 18/08/2026. Materiais PT/EN disponíveis no artefato versionado modaxo-ai-transformation-manager.",
     "url": "https://modaxo.wd3.myworkdayjobs.com/modaxo/job/Brazil---Remote/AI-Transformation-Manager_R57794-1",
     "current_stage": "Candidatura",
@@ -1224,6 +1511,13 @@
     "role": "Analista de RevOps Sênior - ABM & IA",
     "date_applied": "2026-08-18",
     "status": "Candidatado",
+    "status_history": [
+      {
+        "status": "Candidatado",
+        "date": "2026-08-18",
+        "source": "migration"
+      }
+    ],
     "notes": "Candidatura enviada em 18/08/2026. Materiais PT/EN disponíveis no artefato versionado rd-station-revops-senior-abm-ia.",
     "url": "https://br.linkedin.com/jobs/view/analista-de-revops-s%C3%AAnior-abm-ia-rd-station-remoto-at-rd-station-4447168958",
     "current_stage": "Candidatura",
@@ -1275,6 +1569,13 @@
     "role": "Marketing Operations & Project Manager",
     "date_applied": "2026-08-18",
     "status": "Candidatado",
+    "status_history": [
+      {
+        "status": "Candidatado",
+        "date": "2026-08-18",
+        "source": "migration"
+      }
+    ],
     "notes": "Candidatura enviada em 18/08/2026. Materiais PT/EN disponíveis no artefato versionado next-level-growth-marketing-operations-project-manager.",
     "url": "https://br.linkedin.com/jobs/view/marketing-operations-project-manager-at-next-level-growth-4454347116",
     "current_stage": "Candidatura",
@@ -1325,6 +1626,13 @@
     "role": "RevOps Consultant",
     "date_applied": "2026-08-18",
     "status": "Candidatado",
+    "status_history": [
+      {
+        "status": "Candidatado",
+        "date": "2026-08-18",
+        "source": "migration"
+      }
+    ],
     "notes": "Candidatura enviada em 18/08/2026. Materiais PT/EN disponíveis no artefato versionado revblack-revops-consultant.",
     "url": "https://br.linkedin.com/jobs/view/revops-consultant-at-revblack-4453588250",
     "current_stage": "Candidatura",
@@ -1375,6 +1683,13 @@
     "role": "GTM Program Manager | Revenue Operations",
     "date_applied": "2026-08-18",
     "status": "Candidatado",
+    "status_history": [
+      {
+        "status": "Candidatado",
+        "date": "2026-08-18",
+        "source": "migration"
+      }
+    ],
     "notes": "Candidatura enviada em 18/08/2026. Materiais PT/EN disponíveis no artefato versionado wellhub-gtm-program-manager-revenue-operations.",
     "url": "https://job-boards.greenhouse.io/gympass/jobs/8696872002",
     "current_stage": "Candidatura",
@@ -1428,6 +1743,13 @@
     "role": "Revenue Strategy Mid Analyst",
     "date_applied": "2026-08-18",
     "status": "Candidatado",
+    "status_history": [
+      {
+        "status": "Candidatado",
+        "date": "2026-08-18",
+        "source": "migration"
+      }
+    ],
     "notes": "Candidatura enviada em 18/08/2026. Materiais PT/EN disponíveis no artefato versionado ebanx-revenue-strategy-mid-analyst.",
     "url": "https://job-boards.greenhouse.io/ebanx/jobs/7787387003",
     "current_stage": "Candidatura",
@@ -1481,6 +1803,13 @@
     "role": "Especialista em Automação e IA",
     "date_applied": "2026-08-18",
     "status": "Candidatado",
+    "status_history": [
+      {
+        "status": "Candidatado",
+        "date": "2026-08-18",
+        "source": "migration"
+      }
+    ],
     "notes": "Candidatura enviada em 18/08/2026. Materiais PT/EN disponíveis no artefato versionado techne-especialista-automacao-ia.",
     "url": "https://techne.gupy.io/jobs/11862700",
     "current_stage": "Candidatura",
@@ -1534,6 +1863,13 @@
     "role": "Distrito de Produto — Liderança",
     "date_applied": "2026-08-19",
     "status": "Candidatado",
+    "status_history": [
+      {
+        "status": "Candidatado",
+        "date": "2026-08-19",
+        "source": "migration"
+      }
+    ],
     "url": "https://toiah.com.br/jobs/fcThQZtAplfQuUlfTnuM",
     "fit_score": 96,
     "salary_expectation": "A combinar (PJ / CLT | Híbrido Curitiba)",
@@ -1545,6 +1881,13 @@
     "role": "Gerência de Marketing",
     "date_applied": "2026-08-19",
     "status": "Candidatado",
+    "status_history": [
+      {
+        "status": "Candidatado",
+        "date": "2026-08-19",
+        "source": "migration"
+      }
+    ],
     "url": "https://evermonte.com/job/gerencia-de-marketing-curitiba-pr/",
     "fit_score": 94,
     "salary_expectation": "R$ 15.000 - R$ 20.000 /mês (CLT | Presencial Curitiba)",
@@ -1556,6 +1899,24 @@
     "role": "Product Marketing Sênior",
     "date_applied": "2026-09-09",
     "status": "Entrevista",
+    "status_history": [
+      {
+        "status": "Candidatado",
+        "date": "2026-09-09",
+        "source": "migration"
+      },
+      {
+        "status": "Triagem",
+        "date": null,
+        "source": "migration",
+        "note": "data não registrada no histórico original"
+      },
+      {
+        "status": "Entrevista",
+        "date": "2026-09-10",
+        "source": "migration"
+      }
+    ],
     "notes": "1ª entrevista (Talentos/RH) feita em 10/09/2026 e correu bem, na percepção do Kevin. Vaga confirmada como PMM Sênior. Próxima rodada será com o gestor (informado por Marcelo, recrutador/talentos) — ainda sem data. E-mail de follow-up/agradecimento enviado. NÃO reaplicar: já está em processo.",
     "url": "https://starian.gupy.io/jobs/12374141",
     "current_stage": "Entrevista com Gestor (aguardando agendamento)",
@@ -1609,6 +1970,23 @@
     "role": "Product Marketing Associate, Rewards",
     "date_applied": "2026-09-15",
     "status": "Entrevista",
+    "status_history": [
+      {
+        "status": "Candidatado",
+        "date": "2026-09-15",
+        "source": "migration"
+      },
+      {
+        "status": "Triagem",
+        "date": "2026-09-17",
+        "source": "migration"
+      },
+      {
+        "status": "Entrevista",
+        "date": "2026-09-17",
+        "source": "migration"
+      }
+    ],
     "notes": "Aplicado via Greenhouse com currículo adaptado (Kevin_Augusto_Vieira_Sezzle_PMM_Rewards_EN) + carta de apresentação. Pretensão informada: US$ 2.500/mês (dentro da faixa da vaga US$2.000-2.900). Vaga fintech/consumer, exige uso de LLMs. IRA informado 80-89. Inglês C1. | ATUALIZAÇÃO 17/09/2026: passou para a fase de ENTREVISTA (convite por e-mail). Entrevista em inglês. Kevin quer melhorar a confiança em entrevistas em inglês.",
     "url": "https://job-boards.greenhouse.io/sezzle/jobs/7985989003",
     "current_stage": "Entrevista (em inglês)",
@@ -1652,6 +2030,13 @@
     "role": "Remote Sales & Marketing Operations Specialist - Brazil",
     "date_applied": "2026-09-15",
     "status": "Candidatado",
+    "status_history": [
+      {
+        "status": "Candidatado",
+        "date": "2026-09-15",
+        "source": "migration"
+      }
+    ],
     "notes": "Aplicado via Lever com currículo adaptado (Kevin_Augusto_Vieira_Brafton_Sales_Marketing_Ops_EN). Contractor full-time, 100% remoto Brasil. Pretensão informada: USD 4.000-6.000/mês. Não foi indicado por funcionário. Perguntas de anos de HubSpot/Salesforce respondidas conforme experiência real (CRM mais forte: proprietário da Meta, Bitrix24, RD Station, Supabase).",
     "url": "https://jobs.lever.co/brafton/5328476e-5dd1-4446-bfff-f93de18f79e9",
     "current_stage": "Candidatado",
@@ -1695,6 +2080,18 @@
     "role": "GTM Engineer / AI Engineer",
     "date_applied": "2026-09-15",
     "status": "Triagem",
+    "status_history": [
+      {
+        "status": "Candidatado",
+        "date": "2026-09-15",
+        "source": "migration"
+      },
+      {
+        "status": "Triagem",
+        "date": "2026-09-15",
+        "source": "migration"
+      }
+    ],
     "notes": "Aplicado com currículo adaptado (Kevin_Augusto_Vieira_GlobalTalentCo_GTM_AI_Engineer_EN). JÁ AVANÇOU: fez testes online exigidos, incluindo gravar um vídeo em inglês sobre um caso de GTM/sales — citou o case do Meu Barzin. Pretensão discutida: USD 60-72k/ano (~USD 5-5,5k/mês). Remoto LATAM/Brasil + equity.",
     "url": "https://jobs.ashbyhq.com/the-global-talent-co/141a52e8-050a-4761-8d5d-746f1a592efb",
     "current_stage": "Testes online + vídeo concluídos",
@@ -1737,6 +2134,13 @@
     "role": "Go To Market Engineer",
     "date_applied": "2026-09-15",
     "status": "Candidatado",
+    "status_history": [
+      {
+        "status": "Candidatado",
+        "date": "2026-09-15",
+        "source": "migration"
+      }
+    ],
     "notes": "Aplicado via Lever com currículo adaptado (Kevin_Augusto_Vieira_Yuno_GTM_Engineer_EN). Pretensão informada: USD 5.000-6.000 bruto/mês (~USD 60-72k/ano), aberto a discutir com equity. Fintech de orquestração de pagamentos, remoto Américas.",
     "url": "https://jobs.lever.co/yuno/9a93d9ed-185c-4707-bffe-6561ef225890",
     "current_stage": "Candidatado",
@@ -1778,6 +2182,24 @@
     "role": "Analista de Projetos (nível a confirmar, pleno/sr)",
     "date_applied": "2026-09-15",
     "status": "Rejeitado",
+    "status_history": [
+      {
+        "status": "Candidatado",
+        "date": "2026-09-15",
+        "source": "migration"
+      },
+      {
+        "status": "Entrevista",
+        "date": "2026-09-18",
+        "source": "migration",
+        "note": "data mais antiga registrada; houve etapa anterior sem data"
+      },
+      {
+        "status": "Rejeitado",
+        "date": "2026-09-23",
+        "source": "migration"
+      }
+    ],
     "notes": "Chegou por INDICAÇÃO de uma amiga. Software/serviços B2B (ERP, cloud, dados, segurança, automação, datacenter, dev sob medida), 18+ anos. Currículo de Gestão de Projetos entregue (suavizado, sem travessão). 1ª entrevista com RH, depois 2ª PRESENCIAL com o gestor Matheus (18/09/2026), correu bem, gostou do ambiente. Entrosamento fácil (ambos fazem jiu-jitsu). Salário NÃO divulgado; Kevin não perguntou pois Matheus disse que a sequência é com o RH (onde salário deve entrar). Gaps que apareceram: nao conhece Fluig (plataforma TOTVS de BPM/automacao, uma das frentes deles) e nao tem experiencia com TI/Infra; Kevin foi honesto e ancorou no digital/software. Time enxuto: 80+ projetos com só Matheus + 1 analista (sinal de sobrecarga OU oportunidade). Próximo passo: RH (ver se avança ou se ja é proposta). [ATUALIZACAO 23/09/2026] Negativa da empresa apos a rodada com o gestor. Nao deram feedback. Leitura do proprio Kevin: para a area de PROJETOS ele ainda nao é 100% fit com o curriculo atual; faltou experiencia de gestao de MULTIPROJETOS, que ele acredita ser um requisito central da vaga.",
     "url": "https://softwaresul.com.br/",
     "current_stage": "Encerrado (negativa)",

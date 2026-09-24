@@ -1,0 +1,89 @@
+{
+  "skills": {
+    "pt": [],
+    "en": []
+  },
+  "requirements": [
+    {
+      "id": "req-01",
+      "text": "Excellent written and verbal English communication",
+      "priority": "must_have",
+      "knockout": true,
+      "status": "partial",
+      "evidence_ids": ["lang-english"],
+      "note": "Inglês documentado como avançado/profissional com uso corporativo diário — não como fluente."
+    },
+    {
+      "id": "req-02",
+      "text": "AI tools expertise and technical curiosity",
+      "priority": "must_have",
+      "knockout": true,
+      "status": "covered",
+      "evidence_ids": ["wipro-b05", "meu-barzin-b02", "ai-career-os-b10"],
+      "note": "Adoção de IA no CRM da Meta (+150%), agente RAG com n8n e orquestração de IA generativa no Career OS."
+    },
+    {
+      "id": "req-03",
+      "text": "Experience in Revenue Operations, Sales Operations, Marketing Operations, Technical Product Management, or Project Management",
+      "priority": "must_have",
+      "status": "covered",
+      "evidence_ids": ["wipro-b01", "wipro-b03", "wipro-b11"],
+      "note": "Marketing Ops / Sales Enablement e gestão de projeto na Wipro (Meta). O termo RevOps não aparece no master."
+    },
+    {
+      "id": "req-04",
+      "text": "Workflow automation using CRM, sales engagement, or orchestration platforms",
+      "priority": "must_have",
+      "status": "covered",
+      "evidence_ids": ["meu-barzin-b02", "meu-barzin-b04", "munzner-b02"]
+    },
+    {
+      "id": "req-05",
+      "text": "Analytical work with SQL/Excel and experimentation",
+      "priority": "must_have",
+      "status": "partial",
+      "evidence_ids": ["wipro-b14", "ak-branding-b03"]
+    },
+    {
+      "id": "req-06",
+      "text": "Operate Clay, Salesloft, and Salesforce as regional subject-matter expert",
+      "priority": "must_have",
+      "status": "gap",
+      "evidence_ids": []
+    },
+    {
+      "id": "req-07",
+      "text": "Run A/B experiments and outbound pilots",
+      "priority": "nice_to_have",
+      "status": "covered",
+      "evidence_ids": ["ak-branding-b03", "wipro-b10"]
+    },
+    {
+      "id": "req-08",
+      "text": "Coordinate Sales, Marketing, Strategy, technical teams, and Revenue Operations",
+      "priority": "must_have",
+      "status": "covered",
+      "evidence_ids": ["wipro-b12", "wipro-b11"]
+    }
+  ],
+  "gaps": [
+    {
+      "requirement_id": "req-01",
+      "severity": "high",
+      "detail": "Vaga exige inglês fluente; o master documenta avançado/profissional.",
+      "mitigation": "Declarar Advanced/Professional no formulário; nunca marcar Fluent."
+    },
+    {
+      "requirement_id": "req-05",
+      "severity": "medium",
+      "detail": "SQL documentado apenas como exploração básica de dados.",
+      "mitigation": "Ancorar em Power BI/Excel e experimentação A/B; não afirmar SQL avançado."
+    },
+    {
+      "requirement_id": "req-06",
+      "severity": "high",
+      "detail": "Clay e Salesloft não constam no master; expectativa é de especialista.",
+      "mitigation": "Apresentar como competência transferível (n8n, CRM, automação) — nunca como experiência direta."
+    }
+  ]
+}

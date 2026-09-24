@@ -108,6 +108,13 @@ Estrutura de `data/jobs/<slug>.json` (ver exemplo em `data/jobs/modaxo-ai-transf
 `evidence.skills` deve listar **apenas** skills que existem literalmente em
 `master_resume.json` (casefold) — é o que `validate_job` checa.
 
+**Formato v2 (`"schema_version": 2`)** — acrescenta a `evidence` o mapa de evidências:
+`requirements` (cada requisito → `status` covered/partial/gap + `evidence_ids` do
+master) e `gaps` (severidade + mitigação). Especificação e exemplo em
+`data/schemas/job_artifact_v2.md`. Os IDs citáveis (`wipro-b05`, `lang-english`…) estão
+no próprio `master_resume.json`; `python -m scripts.assign_master_ids` atribui IDs só a
+itens novos e nunca renumera os existentes.
+
 ### Passo E — Validar (obrigatório, determinístico)
 `job_store.validate_job(job, master_resume)` falha se:
 1. faltar `metadata.company_name` ou `role_title`;
@@ -116,7 +123,9 @@ Estrutura de `data/jobs/<slug>.json` (ver exemplo em `data/jobs/modaxo-ai-transf
 4. faltar `summary` no resume;
 5. houver título proibido (founder/co-founder) no resume;
 6. a carta não citar a empresa-alvo;
-7. alguma skill em `evidence.skills` não existir no master.
+7. alguma skill em `evidence.skills` não existir no master;
+8. (v2) o mapa de evidências citar ID inexistente, marcar requisito como coberto sem
+   evidência, ou deixar `partial`/`gap` sem entrada em `evidence.gaps`.
 
 ### Passo F — Ativar no Streamlit
 `python -m scripts.activate_job <slug> --validate`
@@ -128,6 +137,11 @@ Estrutura de `data/jobs/<slug>.json` (ver exemplo em `data/jobs/modaxo-ai-transf
 ### Passo G — Visualizar
 `streamlit run app.py` → aba **Estúdio de Adaptação** mostra o currículo ativo;
 botão "Registrar no Painel" adiciona a `applications.json`.
+
+Cada registro de `applications.json` mantém `status` (valor atual) e
+`status_history`: lista de `{status, date, source, note}`. O app e o agente registram
+cada transição via `application_history.set_status`; datas desconhecidas ficam `null`
+(nunca inventadas). Migração dos registros antigos: `scripts/migrate_applications_history.py`.
 
 ---
 

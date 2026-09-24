@@ -5,6 +5,8 @@ import re
 import datetime
 from urllib.parse import urlparse
 
+from application_history import new_history, set_status, sync_history
+
 # Page configuration for a premium, clean look
 st.set_page_config(
     page_title="Master Resume Adaptation Studio",
@@ -183,6 +185,8 @@ def load_applications():
     return []
 
 def save_applications(apps):
+    for app_entry in apps:
+        sync_history(app_entry, source="app")
     try:
         with open(APPLICATIONS_FILE, "w", encoding="utf-8") as f:
             json.dump(apps, f, ensure_ascii=False, indent=2)
@@ -481,6 +485,7 @@ with tab_studio:
                             "role": role_title,
                             "date_applied": today_str,
                             "status": "Candidatado",
+                            "status_history": new_history(today_str, "app"),
                             "notes": "Adicionado automaticamente a partir do estúdio de adaptação.",
                             "url": metadata.get("url", ""),
                             "current_stage": "Candidatura",
@@ -843,6 +848,7 @@ with tab_tracker:
                         "role": new_role,
                         "date_applied": today_str,
                         "status": "Candidatado",
+                        "status_history": new_history(today_str, "app"),
                         "notes": new_notes,
                         "url": new_url,
                         "current_stage": "Candidatura",
@@ -955,7 +961,7 @@ with tab_tracker:
                         key=f"status_{app['id']}"
                     )
                     if new_status != app["status"]:
-                        apps[orig_idx]["status"] = new_status
+                        set_status(apps[orig_idx], new_status, source="app")
                         save_applications(apps)
                         st.rerun()
                         
@@ -977,11 +983,11 @@ with tab_tracker:
                             # Auto-adjust general status depending on checked steps
                             if checked:
                                 if stage["name"] == "Entrevista de RH" or stage["name"] == "Entrevista Técnica":
-                                    apps[orig_idx]["status"] = "Entrevista"
+                                    set_status(apps[orig_idx], "Entrevista", source="app")
                                 elif stage["name"] == "Proposta (Offer)":
-                                    apps[orig_idx]["status"] = "Proposta"
+                                    set_status(apps[orig_idx], "Proposta", source="app")
                                 elif stage["name"] == "Triagem (Screening)" and apps[orig_idx]["status"] == "Candidatado":
-                                    apps[orig_idx]["status"] = "Triagem"
+                                    set_status(apps[orig_idx], "Triagem", source="app")
                             
                             save_applications(apps)
                             st.rerun()

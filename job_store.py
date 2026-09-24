@@ -9,12 +9,25 @@ from copy import deepcopy
 from pathlib import Path
 from typing import Any
 
+from resume_ids import build_index
+
 
 ROOT = Path(__file__).resolve().parent
 JOBS_DIR = ROOT / "data" / "jobs"
 ACTIVE_POINTER = JOBS_DIR / "active.json"
 LANGUAGES = ("pt", "en")
 FORBIDDEN_TITLES = ("founder", "co-founder", "fundador", "cofundador")
+
+# v2 = evidence map (requirements -> master IDs + gaps). Artifacts without
+# schema_version are v1 and stay valid; see data/schemas/job_artifact_v2.md.
+SCHEMA_VERSION = 2
+REQUIREMENT_PRIORITIES = {"must_have", "nice_to_have"}
+REQUIREMENT_STATUSES = {"covered", "partial", "gap"}
+GAP_SEVERITIES = {"blocker", "high", "medium", "low"}
+
+
+def empty_evidence() -> dict[str, Any]:
+    return {"skills": {"pt": [], "en": []}, "requirements": [], "gaps": []}
 
 
 def read_json(path: Path) -> Any:
@@ -132,6 +145,52 @@ def validate_job(job: dict[str, Any], master_resume: dict[str, Any]) -> list[str
             if skill.casefold() not in master_skills:
                 errors.append(f"evidence.skills.{language} contains skill absent from master resume: {skill}")
 
+    errors.extend(validate_evidence_map(job.get("evidence", {}), master_resume))
+    return errors
+
+
+def validate_evidence_map(evidence: dict[str, Any], master_resume: dict[str, Any]) -> list[str]:
+    """Checks evidence.requirements / evidence.gaps (v2). Absent or empty lists are
+    accepted so v1 artifacts and freshly created drafts keep validating."""
+    requirements = evidence.get("requirements") or []
+    gaps = evidence.get("gaps") or []
+    if not requirements and not gaps:
+        return []
+
+    errors: list[str] = []
+    index = build_index(master_resume)
+    req_ids: set[str] = set()
+    gap_req_ids = {gap.get("requirement_id") for gap in gaps}
+    for req in requirements:
+        rid = req.get("id")
+        where = f"evidence.requirements[{rid}]"
+        if not rid or rid in req_ids:
+            errors.append(f"{where}: id missing or duplicated")
+        req_ids.add(rid)
+        if not req.get("text"):
+            errors.append(f"{where}: text is required")
+        if req.get("priority") not in REQUIREMENT_PRIORITIES:
+            errors.append(f"{where}: priority must be must_have or nice_to_have")
+        status = req.get("status")
+        if status not in REQUIREMENT_STATUSES:
+            errors.append(f"{where}: status must be covered, partial, or gap")
+        evidence_ids = req.get("evidence_ids") or []
+        if status in {"covered", "partial"} and not evidence_ids:
+            errors.append(f"{where}: {status} requires at least one evidence_id")
+        if status == "gap" and evidence_ids:
+            errors.append(f"{where}: gap must not cite evidence_ids")
+        if status in {"partial", "gap"} and rid not in gap_req_ids:
+            errors.append(f"{where}: {status} requirement needs an entry in evidence.gaps")
+        for evidence_id in evidence_ids:
+            if evidence_id not in index:
+                errors.append(f"{where}: evidence_id not found in master resume: {evidence_id}")
+
+    for gap in gaps:
+        where = f"evidence.gaps[{gap.get('requirement_id')}]"
+        if gap.get("requirement_id") not in req_ids:
+            errors.append(f"{where}: requirement_id does not match any requirement")
+        if gap.get("severity") not in GAP_SEVERITIES:
+            errors.append(f"{where}: severity must be blocker, high, medium, or low")
     return errors
 
 
@@ -158,11 +217,12 @@ def activate_job(job_id: str, master_resume: dict[str, Any] | None = None) -> di
 def create_from_active(job_id: str, triage: dict[str, Any] | None = None) -> dict[str, Any]:
     job = {
         "id": slugify(job_id),
+        "schema_version": SCHEMA_VERSION,
         "metadata": read_json(ROOT / "metadata.json"),
         "triage": triage or {"decision": "adapt", "blockers": [], "notes": []},
         "resume": {language: read_json(ROOT / f"adapted_resume_{language}.json") for language in LANGUAGES},
         "materials": {language: read_json(ROOT / f"job_materials_{language}.json") for language in LANGUAGES},
-        "evidence": {"skills": {"pt": [], "en": []}},
+        "evidence": empty_evidence(),
     }
     write_json(job_path(job["id"]), job)
     return job
