@@ -52,7 +52,8 @@ def test_unknown_section_is_explained():
 
 def test_classify_jobs_buckets_and_orders_by_fit():
     rows = [
-        {"Empresa": "Starian", "Cargo": "Product Marketing Sênior", "Link": "https://starian.gupy.io/jobs/12374141"},
+        {"Empresa": "Starian", "Cargo": "Analista de PMM Pl",
+         "Link": "https://starian.gupy.io/jobs/12374141?jobBoardSource=gupy_public_page"},
         {"company": "Olist", "title": "Especialista GTM ERP"},
         {"Empresa": "Foo", "Vaga": "Product Manager"},
         {"Empresa": "Beta", "Cargo": "RevOps", "Fit": "72%"},
@@ -60,13 +61,18 @@ def test_classify_jobs_buckets_and_orders_by_fit():
         {"Empresa": "Gama", "Cargo": "PMM", "Fit": 0.91},  # repeated row in the sheet
         {"Empresa": "Delta", "Cargo": "Ops"},
         {"Empresa": "", "Cargo": "Sem empresa"},
+        {"Empresa": "Docplanner", "Cargo": "Product Ops", "Status no Radar": "Encerrada", "Aplicada": "FALSE"},
+        {"Empresa": "Zeta", "Cargo": "PMM", "Aplicada": "TRUE"},
+        {"Empresa": "Acme", "Cargo": "Head of Growth"},
     ]
     result = queries.classify_jobs(rows, JOBS, APPLICATIONS)
-    assert [r["empresa"] for r in result["novas"]] == ["Gama", "Beta", "Delta"]
+    assert [r["empresa"] for r in result["novas"]] == ["Gama", "Beta", "Delta", "Acme"]
+    assert result["novas"][-1]["atencao"].startswith("Candidatura em aberto na mesma empresa: #2")
     assert result["novas"][0]["fit"] == 91.0
-    assert [r["match"] for r in result["ja_aplicadas"]] == ["application:1"]
+    assert queries._parse_fit("9,5") == 95.0 and queries._parse_fit(87) == 87.0
+    assert [r["match"] for r in result["ja_aplicadas"]] == ["application:1", "planilha: Aplicada"]
     assert [r["match"] for r in result["ja_adaptadas"]] == ["olist-gtm"]
-    assert [r["match"] for r in result["descartadas"]] == ["foo-pm"]
+    assert [r["match"] for r in result["descartadas"]] == ["foo-pm", "planilha: Encerrada"]
     assert len(result["incompletas"]) == 1
 
 

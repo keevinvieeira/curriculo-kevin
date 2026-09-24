@@ -262,6 +262,9 @@ Escolher o que destacar e escrever a adaptação continuam com o Claude.
 | `vagas_novas` | Recebe as linhas da planilha (`vagas`) ou lê um `.xlsx`/`.csv` local (`planilha` ou `CAREER_OS_PLANILHA`); separa novas (ordenadas por fit), já adaptadas, descartadas e já aplicadas |
 | `listar_candidaturas` | Funil por status + lista filtrável, com histórico datado e "sem resposta" derivado (Candidatado parado há N dias, padrão 14) |
 
+Ambiente próprio (só o que o servidor precisa):
+`uv venv .venv --python 3.11` e `uv pip install --python .venv/Scripts/python.exe mcp openpyxl pydantic rapidfuzz`.
+
 Rodar: `python -m mcp_server` (na raiz do repo) ou `python <repo>/mcp_server` de qualquer
 pasta. Registro no Claude Desktop (`%APPDATA%\Claude\claude_desktop_config.json`):
 
@@ -269,7 +272,7 @@ pasta. Registro no Claude Desktop (`%APPDATA%\Claude\claude_desktop_config.json`
 {
   "mcpServers": {
     "career-os": {
-      "command": "<caminho do python com as dependências>",
+      "command": "C:\Users\kevin\Developer\curriculo-kevin\.venv\Scripts\python.exe",
       "args": ["C:\\Users\\kevin\\Developer\\curriculo-kevin\\mcp_server"]
     }
   }
@@ -277,3 +280,9 @@ pasta. Registro no Claude Desktop (`%APPDATA%\Claude\claude_desktop_config.json`
 ```
 
 Depende do pacote `mcp` (SDK oficial, v2) — ver `requirements.txt`.
+
+**Planilha de vagas:** "Radar de Vagas — Kevin" (Google Sheets). No Claude Desktop, o
+Claude lê a planilha pelo conector do Google Drive e passa as linhas em `vagas`.
+`vagas_novas` respeita as colunas `Aplicada` (TRUE → já aplicada) e `Status no Radar`
+("Encerrada" → descartada), normaliza o fit 0–10 da planilha para 0–100 e marca com
+`atencao` vagas novas de empresas onde já existe candidatura em aberto.

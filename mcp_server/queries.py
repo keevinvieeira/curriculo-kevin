@@ -12,7 +12,7 @@ import re
 from pathlib import Path
 from typing import Any, Iterable, Optional
 
-from engine.automation.dedupe import find_duplicate
+from engine.automation.dedupe import find_duplicate, normalize_tokens
 from job_store import ROOT, list_jobs, read_json
 from resume_ids import build_index
 
@@ -93,7 +93,10 @@ _COLUMN_ALIASES = {
     "cargo": ("cargo", "vaga", "role", "title", "titulo", "título", "role_title", "posicao", "posição"),
     "url": ("url", "link", "link da vaga", "job_url"),
     "fit": ("fit", "fit_score", "score", "match", "aderencia", "aderência"),
+    "aplicada": ("aplicada", "applied", "candidatura enviada"),
+    "status_planilha": ("status no radar", "status", "situação", "situacao"),
 }
+_CLOSED_WORDS = ("encerrad", "fechad", "expirad", "descartad", "closed")
 
 
 def _canonical(row: dict[str, Any]) -> dict[str, Any]:
@@ -102,7 +105,8 @@ def _canonical(row: dict[str, Any]) -> dict[str, Any]:
     for field, aliases in _COLUMN_ALIASES.items():
         out[field] = next((lowered[a] for a in aliases if lowered.get(a) not in (None, "")), None)
     out["fit"] = _parse_fit(out["fit"])
-    for field in ("empresa", "cargo", "url"):
+    out["aplicada"] = str(out["aplicada"]).strip().casefold() in {"true", "sim", "yes", "x", "1", "verdadeiro"}
+    for field in ("empresa", "cargo", "url", "status_planilha"):
         out[field] = str(out[field]).strip() if out[field] is not None else ""
     out["dados"] = {str(k): v for k, v in row.items() if k is not None}
     return out
@@ -112,9 +116,18 @@ def _parse_fit(value: Any) -> Optional[float]:
     if value is None or value == "":
         return None
     if isinstance(value, (int, float)):
-        return float(value) * (100 if 0 < value <= 1 else 1)
-    match = re.search(r"\d+(?:[.,]\d+)?", str(value))
-    return float(match.group().replace(",", ".")) if match else None
+        number = float(value)
+    else:
+        match = re.search(r"\d+(?:[.,]\d+)?", str(value))
+        if not match:
+            return None
+        number = float(match.group().replace(",", "."))
+    # Normalize to 0-100: 0.93 and 9.3 (0-10 scale, as in the Radar sheet) both mean 93.
+    if 0 < number <= 1:
+        return number * 100
+    if number <= 10:
+        return number * 10
+    return number
 
 
 def read_sheet(path: Path) -> list[dict[str, Any]]:
@@ -137,9 +150,15 @@ def classify_jobs(rows: Iterable[dict[str, Any]], jobs: list[dict[str, Any]],
                      or job.get("automation", {}).get("workflow_status") in {"DISCARDED", "EXPIRED"}}
     result: dict[str, list[dict[str, Any]]] = {"novas": [], "ja_adaptadas": [], "descartadas": [],
                                                "ja_aplicadas": [], "incompletas": []}
+    open_by_company: dict[frozenset, list[dict[str, Any]]] = {}
+    for app in applications:
+        if app.get("status") not in {"Rejeitado", "Desistente"}:
+            open_by_company.setdefault(frozenset(normalize_tokens(app.get("company", ""))), []).append(app)
     seen_in_batch: set[tuple[str, str]] = set()
     for raw in rows:
         row = _canonical(raw)
+        if not row["empresa"] and not row["cargo"]:
+            continue  # blank spreadsheet row
         if not row["empresa"] or not row["cargo"]:
             result["incompletas"].append(row)
             continue
@@ -148,6 +167,12 @@ def classify_jobs(rows: Iterable[dict[str, Any]], jobs: list[dict[str, Any]],
             continue
         seen_in_batch.add(key)
 
+        if row["aplicada"]:
+            result["ja_aplicadas"].append({**row, "match": "planilha: Aplicada"})
+            continue
+        if any(word in row["status_planilha"].casefold() for word in _CLOSED_WORDS):
+            result["descartadas"].append({**row, "match": f"planilha: {row['status_planilha']}"})
+            continue
         applied = find_duplicate(url=row["url"], company=row["empresa"], role=row["cargo"],
                                  existing_jobs=[], existing_applications=applications)
         if applied:
@@ -160,6 +185,10 @@ def classify_jobs(rows: Iterable[dict[str, Any]], jobs: list[dict[str, Any]],
         elif known:
             result["ja_adaptadas"].append({**row, "match": known})
         else:
+            same_company = open_by_company.get(frozenset(normalize_tokens(row["empresa"])), [])
+            if same_company:
+                row["atencao"] = "Candidatura em aberto na mesma empresa: " + "; ".join(
+                    f"#{a.get('id')} {a.get('role')} ({a.get('status')})" for a in same_company)
             result["novas"].append(row)
 
     result["novas"].sort(key=lambda r: (r["fit"] is None, -(r["fit"] or 0)))
@@ -184,6 +213,8 @@ def new_jobs(vagas: Optional[list[dict[str, Any]]] = None, planilha: Optional[st
 
     classified = classify_jobs(vagas, list_jobs(), read_json(APPLICATIONS_PATH))
     slim = lambda rows: [{k: r[k] for k in ("empresa", "cargo", "url", "fit", "match") if k in r} for r in rows]
+    for row in classified["novas"]:
+        row.pop("aplicada", None)
     return {
         "resumo": {k: len(v) for k, v in classified.items()},
         "novas": classified["novas"][:limite],
