@@ -1553,12 +1553,12 @@
   {
     "id": "50",
     "company": "Starian",
-    "role": "Product Marketing (Pleno/Sênior — a confirmar)",
+    "role": "Product Marketing Sênior",
     "date_applied": "2026-09-09",
     "status": "Entrevista",
-    "notes": "Convocado para entrevista de PMM na Starian — entrevista marcada para 10/09/2026. Não confirmado se é a vaga Pleno (gupy 12374141) ou Sênior (0304). NÃO reaplicar: já está em processo.",
+    "notes": "1ª entrevista (Talentos/RH) feita em 10/09/2026 e correu bem, na percepção do Kevin. Vaga confirmada como PMM Sênior. Próxima rodada será com o gestor (informado por Marcelo, recrutador/talentos) — ainda sem data. E-mail de follow-up/agradecimento enviado. NÃO reaplicar: já está em processo.",
     "url": "https://starian.gupy.io/jobs/12374141",
-    "current_stage": "Entrevista",
+    "current_stage": "Entrevista com Gestor (aguardando agendamento)",
     "fit_score": 93,
     "salary_expectation": "Não divulgado",
     "good_points": [
@@ -1582,9 +1582,14 @@
         "date": ""
       },
       {
-        "name": "Entrevista de RH",
-        "status": "Pendente",
+        "name": "Entrevista de Talentos (RH)",
+        "status": "Concluído",
         "date": "2026-09-10"
+      },
+      {
+        "name": "Entrevista com Gestor",
+        "status": "Pendente",
+        "date": ""
       },
       {
         "name": "Entrevista Técnica",
@@ -1597,5 +1602,221 @@
         "date": ""
       }
     ]
+  },
+  {
+    "id": "51",
+    "company": "Sezzle",
+    "role": "Product Marketing Associate, Rewards",
+    "date_applied": "2026-09-15",
+    "status": "Entrevista",
+    "notes": "Aplicado via Greenhouse com currículo adaptado (Kevin_Augusto_Vieira_Sezzle_PMM_Rewards_EN) + carta de apresentação. Pretensão informada: US$ 2.500/mês (dentro da faixa da vaga US$2.000-2.900). Vaga fintech/consumer, exige uso de LLMs. IRA informado 80-89. Inglês C1. | ATUALIZAÇÃO 17/09/2026: passou para a fase de ENTREVISTA (convite por e-mail). Entrevista em inglês. Kevin quer melhorar a confiança em entrevistas em inglês.",
+    "url": "https://job-boards.greenhouse.io/sezzle/jobs/7985989003",
+    "current_stage": "Entrevista (em inglês)",
+    "fit_score": 94,
+    "salary_expectation": "US$ 2.500/mês (faixa da vaga: US$ 2.000-2.900)",
+    "good_points": [
+      "Uso prático obrigatório de LLMs — forte aderência (adoção de IA na Meta, RAG no Meu Barzin).",
+      "Pesquisa qual/quant e diagnóstico de funil (caso dos 43,9% de drop).",
+      "Background de assinatura/consumer e posicionamento."
+    ],
+    "improvement_points": [
+      "Vaga junior (1-2 anos) e remuneração abaixo da expectativa histórica dele.",
+      "Pediu histórico escolar (transcripts) e GPA — perfil entry-level."
+    ],
+    "stages": [
+      {
+        "name": "Candidatura",
+        "status": "Concluído",
+        "date": "2026-09-15"
+      },
+      {
+        "name": "Triagem (Screening)",
+        "status": "Concluído",
+        "date": "2026-09-17"
+      },
+      {
+        "name": "Entrevista",
+        "status": "Em andamento",
+        "date": "2026-09-17"
+      },
+      {
+        "name": "Proposta (Offer)",
+        "status": "Pendente",
+        "date": ""
+      }
+    ]
+  },
+  {
+    "id": "52",
+    "company": "Brafton",
+    "role": "Remote Sales & Marketing Operations Specialist - Brazil",
+    "date_applied": "2026-09-15",
+    "status": "Candidatado",
+    "notes": "Aplicado via Lever com currículo adaptado (Kevin_Augusto_Vieira_Brafton_Sales_Marketing_Ops_EN). Contractor full-time, 100% remoto Brasil. Pretensão informada: USD 4.000-6.000/mês. Não foi indicado por funcionário. Perguntas de anos de HubSpot/Salesforce respondidas conforme experiência real (CRM mais forte: proprietário da Meta, Bitrix24, RD Station, Supabase).",
+    "url": "https://jobs.lever.co/brafton/5328476e-5dd1-4446-bfff-f93de18f79e9",
+    "current_stage": "Candidatado",
+    "fit_score": 92,
+    "salary_expectation": "USD 4.000-6.000/mês (não divulgado pela vaga)",
+    "good_points": [
+      "Aderência excepcional: CRM, automação, lead lifecycle, GA4/GTM, APIs, Make/Zapier, dashboards e IA.",
+      "Nível e stack muito próximos da experiência real.",
+      "100% remoto no Brasil, inglês avançado (C1)."
+    ],
+    "improvement_points": [
+      "HubSpot e Salesforce são conhecidos, mas não foram os CRMs de uso mais profundo.",
+      "Precisa evidenciar tracking/attribution e resultados mensuráveis."
+    ],
+    "stages": [
+      {
+        "name": "Candidatura",
+        "status": "Concluído",
+        "date": "2026-09-15"
+      },
+      {
+        "name": "Triagem (Screening)",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Entrevista",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Proposta (Offer)",
+        "status": "Pendente",
+        "date": ""
+      }
+    ]
+  },
+  {
+    "id": "53",
+    "company": "The Global Talent Co.",
+    "role": "GTM Engineer / AI Engineer",
+    "date_applied": "2026-09-15",
+    "status": "Triagem",
+    "notes": "Aplicado com currículo adaptado (Kevin_Augusto_Vieira_GlobalTalentCo_GTM_AI_Engineer_EN). JÁ AVANÇOU: fez testes online exigidos, incluindo gravar um vídeo em inglês sobre um caso de GTM/sales — citou o case do Meu Barzin. Pretensão discutida: USD 60-72k/ano (~USD 5-5,5k/mês). Remoto LATAM/Brasil + equity.",
+    "url": "https://jobs.ashbyhq.com/the-global-talent-co/141a52e8-050a-4761-8d5d-746f1a592efb",
+    "current_stage": "Testes online + vídeo concluídos",
+    "fit_score": 93,
+    "salary_expectation": "USD 60.000-72.000/ano + equity (faixa da vaga: USD 45k-95k)",
+    "good_points": [
+      "GTM + Make/n8n + CRM + APIs + LLMs, perfil builder.",
+      "Case do Meu Barzin citado no vídeo — GTM 0→1 forte.",
+      "Prioridade máxima do radar."
+    ],
+    "improvement_points": [
+      "Pedem Salesforce, Python/scripting e data pipelines mais fortes."
+    ],
+    "stages": [
+      {
+        "name": "Candidatura",
+        "status": "Concluído",
+        "date": "2026-09-15"
+      },
+      {
+        "name": "Testes online + vídeo (case GTM)",
+        "status": "Concluído",
+        "date": "2026-09-15"
+      },
+      {
+        "name": "Entrevista",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Proposta (Offer)",
+        "status": "Pendente",
+        "date": ""
+      }
+    ]
+  },
+  {
+    "id": "54",
+    "company": "Yuno",
+    "role": "Go To Market Engineer",
+    "date_applied": "2026-09-15",
+    "status": "Candidatado",
+    "notes": "Aplicado via Lever com currículo adaptado (Kevin_Augusto_Vieira_Yuno_GTM_Engineer_EN). Pretensão informada: USD 5.000-6.000 bruto/mês (~USD 60-72k/ano), aberto a discutir com equity. Fintech de orquestração de pagamentos, remoto Américas.",
+    "url": "https://jobs.lever.co/yuno/9a93d9ed-185c-4707-bffe-6561ef225890",
+    "current_stage": "Candidatado",
+    "fit_score": 91,
+    "salary_expectation": "USD 5.000-6.000 bruto/mês (não divulgado pela vaga)",
+    "good_points": [
+      "Agentes de IA, automações (Make/n8n/Zapier), APIs, CRM — perfil builder.",
+      "Traduzir fricção de pré-vendas em sistemas escaláveis."
+    ],
+    "improvement_points": [
+      "Pedem 3+ anos em GTM/Sales/Solutions Engineering e scripting Python/JS."
+    ],
+    "stages": [
+      {
+        "name": "Candidatura",
+        "status": "Concluído",
+        "date": "2026-09-15"
+      },
+      {
+        "name": "Triagem (Screening)",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Entrevista",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Proposta (Offer)",
+        "status": "Pendente",
+        "date": ""
+      }
+    ]
+  },
+  {
+    "id": "55",
+    "company": "Software Sul",
+    "role": "Analista de Projetos (nível a confirmar, pleno/sr)",
+    "date_applied": "2026-09-15",
+    "status": "Rejeitado",
+    "notes": "Chegou por INDICAÇÃO de uma amiga. Software/serviços B2B (ERP, cloud, dados, segurança, automação, datacenter, dev sob medida), 18+ anos. Currículo de Gestão de Projetos entregue (suavizado, sem travessão). 1ª entrevista com RH, depois 2ª PRESENCIAL com o gestor Matheus (18/09/2026), correu bem, gostou do ambiente. Entrosamento fácil (ambos fazem jiu-jitsu). Salário NÃO divulgado; Kevin não perguntou pois Matheus disse que a sequência é com o RH (onde salário deve entrar). Gaps que apareceram: nao conhece Fluig (plataforma TOTVS de BPM/automacao, uma das frentes deles) e nao tem experiencia com TI/Infra; Kevin foi honesto e ancorou no digital/software. Time enxuto: 80+ projetos com só Matheus + 1 analista (sinal de sobrecarga OU oportunidade). Próximo passo: RH (ver se avança ou se ja é proposta). [ATUALIZACAO 23/09/2026] Negativa da empresa apos a rodada com o gestor. Nao deram feedback. Leitura do proprio Kevin: para a area de PROJETOS ele ainda nao é 100% fit com o curriculo atual; faltou experiencia de gestao de MULTIPROJETOS, que ele acredita ser um requisito central da vaga.",
+    "url": "https://softwaresul.com.br/",
+    "current_stage": "Encerrado (negativa)",
+    "fit_score": 70,
+    "salary_expectation": "R$ 7.500 - 10.000 (não divulgado pela vaga)",
+    "good_points": [
+      "Indicação (confiança já construída).",
+      "Entrosamento com o gestor (jiu-jitsu).",
+      "Perfil digital/software alinhado a boa parte do que a empresa faz.",
+      "Provas fortes de PMO/entrega (bootcamp Meta, 40+ projetos AK)."
+    ],
+    "improvement_points": [
+      "Menor prioridade do Kevin: é projetos, nao produto (produto é a alavanca de carreira que ele quer).",
+      "Nao vem de software enterprise classico (ERP/Fluig/infra/PMBOK).",
+      "Time muito enxuto pra 80+ projetos: avaliar risco de sobrecarga.",
+      "Gap central para projetos: falta experiencia formal de gestao de MULTIPROJETOS em paralelo (leitura do Kevin sobre a negativa)."
+    ],
+    "stages": [
+      {
+        "name": "Entrevista RH",
+        "status": "Concluído",
+        "date": ""
+      },
+      {
+        "name": "Entrevista com Gestor (Matheus, presencial)",
+        "status": "Concluído",
+        "date": "2026-09-18"
+      },
+      {
+        "name": "RH / Proposta",
+        "status": "Encerrado",
+        "date": "2026-09-23"
+      },
+      {
+        "name": "Negativa",
+        "status": "Concluído",
+        "date": "2026-09-23"
+      }
+    ],
+    "date_rejected": "2026-09-23"
   }
 ]

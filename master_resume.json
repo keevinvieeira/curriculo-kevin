@@ -347,8 +347,8 @@
                 "discovery",
                 "cro"
               ],
-              "pt": "Meu Barzin — Mapeamento de Gargalos de Conversão: Conduziu entrevistas qualitativas e mapeamentos de funil que identificaram que a falta de liquidez de parceiros na oferta e atritos de latência de API (43,9% de drop na primeira mensagem) eram os principais impeditivos para a conversão de assinaturas.",
-              "en": "Meu Barzin — Conversion Bottleneck Mapping: Conducted qualitative user interviews and funnel mappings that revealed that lack of merchant partner density (supply liquidity) and API processing latency (43.9% first-message dropout) were the primary conversion barriers for subscription growth."
+              "pt": "Meu Barzin — Mapeamento de Gargalos de Conversão: Para entender o abandono, extraiu e organizou as conversas de WhatsApp dos usuários e usou IA para analisar os padrões, identificando que a latência de API (43,9% de drop na primeira mensagem) e a falta de liquidez de parceiros na oferta eram os principais impeditivos para a conversão de assinaturas.",
+              "en": "Meu Barzin — Conversion Bottleneck Mapping: To understand drop-off, extracted and organized users' WhatsApp conversations and used AI to analyze the patterns, identifying that API latency (43.9% first-message dropout) and low merchant/partner supply liquidity were the primary barriers to subscription conversion."
             }
           ],
           "skills": [
@@ -799,8 +799,8 @@
             "discovery",
             "cro"
           ],
-          "pt": "Meu Barzin — Mapeamento de Gargalos de Conversão: Conduziu entrevistas qualitativas e mapeamentos de funil que identificaram que a falta de liquidez de parceiros na oferta e atritos de latência de API (43,9% de drop na primeira mensagem) eram os principais impeditivos para a conversão de assinaturas.",
-          "en": "Meu Barzin — Conversion Bottleneck Mapping: Conducted qualitative user interviews and funnel mappings that revealed that lack of merchant partner density (supply liquidity) and API processing latency (43.9% first-message dropout) were the primary conversion barriers for subscription growth."
+          "pt": "Meu Barzin — Mapeamento de Gargalos de Conversão: Para entender o abandono, extraiu e organizou as conversas de WhatsApp dos usuários e usou IA para analisar os padrões, identificando que a latência de API (43,9% de drop na primeira mensagem) e a falta de liquidez de parceiros na oferta eram os principais impeditivos para a conversão de assinaturas.",
+          "en": "Meu Barzin — Conversion Bottleneck Mapping: To understand drop-off, extracted and organized users' WhatsApp conversations and used AI to analyze the patterns, identifying that API latency (43.9% first-message dropout) and low merchant/partner supply liquidity were the primary barriers to subscription conversion."
         }
       ]
     },
