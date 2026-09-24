@@ -272,7 +272,7 @@ pasta. Registro no Claude Desktop (`%APPDATA%\Claude\claude_desktop_config.json`
 {
   "mcpServers": {
     "career-os": {
-      "command": "C:\Users\kevin\Developer\curriculo-kevin\.venv\Scripts\python.exe",
+      "command": "C:\\Users\\kevin\\Developer\\curriculo-kevin\\.venv\\Scripts\\python.exe",
       "args": ["C:\\Users\\kevin\\Developer\\curriculo-kevin\\mcp_server"]
     }
   }
