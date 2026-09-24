@@ -247,3 +247,33 @@ Fluxo típico ponta a ponta:
 - Localmente, `playwright install chromium` precisa ser rodado uma vez antes de usar
   `run_application_agent.py`/`run_submit_agent.py` (o ambiente de desenvolvimento
   deste projeto já vem com o Chromium pré-instalado; a sua máquina não).
+
+---
+
+## 6. Servidor MCP (Fase 1 — somente leitura)
+
+O Career OS também roda como servidor MCP local (`mcp_server/`), para o Claude usar
+direto na conversa. O servidor não raciocina: lê, deduplica e reporta de forma exata.
+Escolher o que destacar e escrever a adaptação continuam com o Claude.
+
+| Ferramenta | O que faz |
+|---|---|
+| `ler_master_resume` | Itens citáveis `{id, tipo, empresa, texto}` (padrão) ou o JSON completo, filtrável por seção e idioma |
+| `vagas_novas` | Recebe as linhas da planilha (`vagas`) ou lê um `.xlsx`/`.csv` local (`planilha` ou `CAREER_OS_PLANILHA`); separa novas (ordenadas por fit), já adaptadas, descartadas e já aplicadas |
+| `listar_candidaturas` | Funil por status + lista filtrável, com histórico datado e "sem resposta" derivado (Candidatado parado há N dias, padrão 14) |
+
+Rodar: `python -m mcp_server` (na raiz do repo) ou `python <repo>/mcp_server` de qualquer
+pasta. Registro no Claude Desktop (`%APPDATA%\Claude\claude_desktop_config.json`):
+
+```json
+{
+  "mcpServers": {
+    "career-os": {
+      "command": "<caminho do python com as dependências>",
+      "args": ["C:\\Users\\kevin\\Developer\\curriculo-kevin\\mcp_server"]
+    }
+  }
+}
+```
+
+Depende do pacote `mcp` (SDK oficial, v2) — ver `requirements.txt`.
