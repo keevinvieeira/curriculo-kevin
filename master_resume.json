@@ -343,8 +343,8 @@
         "nocodb",
         "supabase"
        ],
-       "pt": "Meu Barzin — Bancos de Dados e CRM: Estruturou bases e protótipos de CRM utilizando Supabase/PostgreSQL e NocoDB, trabalhando com modelagem, organização e exploração de dados para apoiar operações e produtos digitais.",
-       "en": "Meu Barzin — Databases and CRM: Built database structures and CRM prototypes using Supabase/PostgreSQL and NocoDB, working with data modeling, organization, and exploration to support digital products and operations."
+       "pt": "Meu Barzin — Bancos de Dados e CRM: Estruturou bases e protótipos de CRM utilizando Supabase/PostgreSQL, trabalhando com modelagem, organização e exploração de dados para apoiar operações e produtos digitais.",
+       "en": "Meu Barzin — Databases and CRM: Built database structures and CRM prototypes using Supabase/PostgreSQL, working with data modeling, organization, and exploration to support digital products and operations."
       },
       {
        "id": "meu-barzin-b05",
@@ -385,7 +385,6 @@
       "WhatsApp API",
       "Supabase",
       "PostgreSQL",
-      "NocoDB",
       "Web Scraping",
       "B2B Business Development",
       "Demand Generation",
