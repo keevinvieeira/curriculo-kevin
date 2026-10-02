@@ -1898,7 +1898,7 @@
     "company": "Starian",
     "role": "Product Marketing Sênior",
     "date_applied": "2026-09-09",
-    "status": "Entrevista",
+    "status": "Rejeitado",
     "status_history": [
       {
         "status": "Candidatado",
@@ -1917,9 +1917,9 @@
         "source": "migration"
       }
     ],
-    "notes": "1ª entrevista (Talentos/RH) feita em 10/09/2026 e correu bem, na percepção do Kevin. Vaga confirmada como PMM Sênior. Próxima rodada será com o gestor (informado por Marcelo, recrutador/talentos) — ainda sem data. E-mail de follow-up/agradecimento enviado. NÃO reaplicar: já está em processo.",
+    "notes": "1ª entrevista (Talentos/RH) feita em 10/09/2026 e correu bem, na percepção do Kevin. Vaga confirmada como PMM Sênior. Próxima rodada será com o gestor (informado por Marcelo, recrutador/talentos) — ainda sem data. E-mail de follow-up/agradecimento enviado. NÃO reaplicar: já está em processo. [ATUALIZACAO 29/09/2026] Negativa apos a entrevista com a gestora (Gabi). Recrutador (48 3202-4770) avisou por WhatsApp: a Gabi optou por outro caminho, MAS gostou muito da conversa e vai manter o Kevin em pipeline para indicar assim que surgir oportunidade similar. Ou seja, porta fica aberta na Starian/Softplan. Era a vaga TOP de prioridade do Kevin (remota, PMM, core). Vale manter relacionamento com o recrutador.",
     "url": "https://starian.gupy.io/jobs/12374141",
-    "current_stage": "Entrevista com Gestor (aguardando agendamento)",
+    "current_stage": "Encerrado (negativa apos entrevista com a gestora)",
     "fit_score": 93,
     "salary_expectation": "Não divulgado",
     "good_points": [
@@ -1961,8 +1961,15 @@
         "name": "Proposta (Offer)",
         "status": "Pendente",
         "date": ""
+      },
+      {
+        "name": "Negativa (mantido em pipeline)",
+        "status": "Concluído",
+        "date": "2026-09-29"
       }
-    ]
+    ],
+    "date_rejected": "2026-09-29",
+    "pipeline_futuro": true
   },
   {
     "id": "51",
@@ -2240,5 +2247,38 @@
       }
     ],
     "date_rejected": "2026-09-23"
+  },
+  {
+    "id": "56",
+    "company": "Grupo OLX",
+    "role": "Product Manager - Trust & Safety",
+    "date_applied": "2026-09-29",
+    "status": "Aplicado",
+    "notes": "Vaga do Radar (PT). Gupy (mesmo sistema da Starian). Aposta de TRANSICAO para Produto (Kevin nao tem titulo formal de PM, mas tem cases fortes de produto/dados). Aberta ate 02/11/2026. Respondeu o campo aberto \"Fale sobre voce\" com resposta que conecta a trajetoria (Meta 4->10, Meu Barzin analise de comportamento com IA, formacao em Filosofia/etica) ao desafio de Trust & Safety.",
+    "url": "https://vemsergrupoolx.gupy.io/jobs/12212638",
+    "current_stage": "Candidatura enviada (aguardando triagem)",
+    "fit_score": 81,
+    "salary_expectation": "Nao divulgado",
+    "good_points": [
+      "Sistema Gupy familiar (mesmo da Starian).",
+      "Conecta com o lado de produto + analise de dados de comportamento.",
+      "Formacao em Filosofia (etica/pensamento critico) casa com Trust & Safety."
+    ],
+    "improvement_points": [
+      "Menor fit da fila PT (8,1): pede experiencia formal como Product Manager de produto digital.",
+      "E um stretch/transicao para Produto, nao PMM puro."
+    ],
+    "stages": [
+      {
+        "name": "Candidatura enviada",
+        "status": "Concluído",
+        "date": "2026-09-29"
+      },
+      {
+        "name": "Triagem",
+        "status": "Pendente",
+        "date": ""
+      }
+    ]
   }
 ]
