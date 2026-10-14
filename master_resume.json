@@ -374,6 +374,20 @@
        ],
        "pt": "Meu Barzin — Mapeamento de Gargalos de Conversão: Para entender o abandono, extraiu e organizou as conversas de WhatsApp dos usuários e usou IA para analisar os padrões, identificando que a latência de API (43,9% de drop na primeira mensagem) e a falta de liquidez de parceiros na oferta eram os principais impeditivos para a conversão de assinaturas.",
        "en": "Meu Barzin — Conversion Bottleneck Mapping: To understand drop-off, extracted and organized users' WhatsApp conversations and used AI to analyze the patterns, identifying that API latency (43.9% first-message dropout) and low merchant/partner supply liquidity were the primary barriers to subscription conversion."
+      },
+      {
+       "id": "meu-barzin-b08",
+       "tags": [
+        "icp",
+        "segmentation",
+        "customer_research",
+        "b2b_prospecting",
+        "partnerships",
+        "gtm",
+        "social_selling"
+       ],
+       "pt": "Meu Barzin (ICP e Prospecção Orientados por Demanda): Definiu o perfil de público e de parceiros a partir de sinais reais, sem achismo. Antes de recomendar um bar, o assistente perguntava ao usuário o que ele buscava (ambiente, comida, bebida), e a análise das conversas mostrou que a maioria das buscas era por bares de rock e cerveja artesanal. Na prospecção B2B, marcou bares nos stories e no feed do Instagram e priorizou os que geravam engajamento do público (comentários, curtidas e compartilhamentos), abordando-os com a porta já aberta; foi assim que fechou parcerias como Gal Gastrobar e Officina.",
+       "en": "Meu Barzin (Demand-Led ICP and Prospecting): Defined the target audience and partner profile from real signals rather than assumptions. Before recommending a bar, the assistant asked users what they were looking for (atmosphere, food, drinks), and conversation analysis showed most searches were for rock bars and craft beer. For B2B prospecting, tagged bars in Instagram stories and feed posts and prioritized those that drew audience engagement (comments, likes and shares), approaching them with an open door; this is how partnerships such as Gal Gastrobar and Officina were signed."
       }
      ],
      "skills": [
