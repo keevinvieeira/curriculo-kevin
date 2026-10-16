@@ -388,6 +388,19 @@
        ],
        "pt": "Meu Barzin (ICP e Prospecção Orientados por Demanda): Definiu o perfil de público e de parceiros a partir de sinais reais, sem achismo. Antes de recomendar um bar, o assistente perguntava ao usuário o que ele buscava (ambiente, comida, bebida), e a análise das conversas mostrou que a maioria das buscas era por bares de rock e cerveja artesanal. Na prospecção B2B, marcou bares nos stories e no feed do Instagram e priorizou os que geravam engajamento do público (comentários, curtidas e compartilhamentos), abordando-os com a porta já aberta; foi assim que fechou parcerias como Gal Gastrobar e Officina.",
        "en": "Meu Barzin (Demand-Led ICP and Prospecting): Defined the target audience and partner profile from real signals rather than assumptions. Before recommending a bar, the assistant asked users what they were looking for (atmosphere, food, drinks), and conversation analysis showed most searches were for rock bars and craft beer. For B2B prospecting, tagged bars in Instagram stories and feed posts and prioritized those that drew audience engagement (comments, likes and shares), approaching them with an open door; this is how partnerships such as Gal Gastrobar and Officina were signed."
+      },
+      {
+       "id": "meu-barzin-b09",
+       "tags": [
+        "competitive_analysis",
+        "positioning",
+        "customer_research",
+        "user_interviews",
+        "pricing",
+        "gtm"
+       ],
+       "pt": "Meu Barzin (Análise Competitiva, Posicionamento e Pesquisa com Usuários): Mapeou os principais concorrentes em Curitiba (Tour Curitiba, app com pacotes de vouchers em restaurantes pré-definidos, e Duo Gourmet) e posicionou o Meu Barzin pela recomendação com IA no WhatsApp e por um preço muito menor, viabilizado por uma estrutura de custo quase zero. Conduziu pesquisas com usuários sobre o que achavam da solução e por que não compravam o Pass, e descobriu que a proposta era atraente, mas que o número baixo de bares parceiros ainda impedia a compra.",
+       "en": "Meu Barzin (Competitive Analysis, Positioning and User Research): Mapped the main competitors in Curitiba (Tour Curitiba, an app selling voucher bundles for preset restaurants, and Duo Gourmet) and positioned Meu Barzin on AI-powered recommendations over WhatsApp and a much lower price, enabled by a near-zero cost structure. Ran user research on how people saw the solution and why they didn't buy the Pass, finding the offer was attractive but the small number of partner bars still held back purchases."
       }
      ],
      "skills": [
@@ -1153,6 +1166,30 @@
      ],
      "pt": "Controles de Orçamento e Cronograma: Controlou escopos de projetos e orçamentos financeiros para múltiplas contas concorrentes, coordenando fluxos de trabalho internos e gerenciando execução de recursos especializados para evitar gargalos.",
      "en": "Budget & Timeline Controls: Controlled project scopes and financial budgets for multiple concurrent accounts, coordinating internal workflows and managing specialized resource execution to prevent project roadblocks."
+    },
+    {
+     "id": "ak-branding-b07",
+     "tags": [
+      "pricing",
+      "packaging",
+      "monetization",
+      "offer_design",
+      "b2b_sales"
+     ],
+     "pt": "Precificação e Empacotamento de Serviços: Estruturou a oferta da agência em pacotes escalonados (básico, avançado e completo), da landing page one page ao site institucional com várias páginas e ao pacote completo com site, CRM, criação de conteúdo e anúncios, com o valor crescendo conforme o escopo e a comparação entre níveis orientando a decisão do cliente.",
+     "en": "Service Pricing and Packaging: Structured the agency's offer into tiered packages (basic, advanced and complete), from a one-page landing page to a multi-page corporate website and a full package with website, CRM, content creation and ads, with price scaling by scope and side-by-side tier comparison guiding the client's decision."
+    },
+    {
+     "id": "ak-branding-b08",
+     "tags": [
+      "b2b_sales",
+      "pipeline",
+      "referral",
+      "win_rate",
+      "business_development"
+     ],
+     "pt": "Pipeline B2B por Indicação: Construiu toda a carteira da agência por indicação, sem investir em mídia paga para a própria aquisição de clientes, com taxa estimada de fechamento de 40% a 60% das propostas enviadas (2 a 3 a cada 5).",
+     "en": "Referral-Driven B2B Pipeline: Built the agency's entire client base through referrals, with no paid media spent on its own client acquisition, closing an estimated 40% to 60% of proposals sent (2 to 3 out of every 5)."
     }
    ]
   },
