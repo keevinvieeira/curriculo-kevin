@@ -1682,17 +1682,22 @@
     "company": "Wellhub",
     "role": "GTM Program Manager | Revenue Operations",
     "date_applied": "2026-08-18",
-    "status": "Candidatado",
+    "status": "Entrevista",
     "status_history": [
       {
         "status": "Candidatado",
         "date": "2026-08-18",
         "source": "migration"
+      },
+      {
+        "status": "Entrevista",
+        "date": "2026-10-07",
+        "source": "cowork"
       }
     ],
-    "notes": "Candidatura enviada em 18/08/2026. Materiais PT/EN disponíveis no artefato versionado wellhub-gtm-program-manager-revenue-operations.",
+    "notes": "Candidatura enviada em 18/08/2026. Materiais PT/EN disponíveis no artefato versionado wellhub-gtm-program-manager-revenue-operations. | ANDAMENTO 07/10/2026: PASSOU na entrevista de RH (parte da entrevista foi em ingles e foi bem). Proxima fase: entrevista com o gestor e um(a) responsavel da Europa. DESAFIO DA VAGA revelado: a Wellhub esta expandindo para o mercado europeu e precisa de um GTM para estruturar, testar, automatizar e identificar o que funciona no Brasil e nao funciona na Europa. Veio por indicacao de amigo.",
     "url": "https://job-boards.greenhouse.io/gympass/jobs/8696872002",
-    "current_stage": "Candidatura",
+    "current_stage": "Aprovado no RH; proxima: entrevista final com gestor + responsavel da Europa",
     "fit_score": 80,
     "salary_expectation": "Not disclosed; exclusively CLT",
     "good_points": [
@@ -1733,6 +1738,16 @@
       {
         "name": "Proposta (Offer)",
         "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Entrevista RH",
+        "status": "Concluído",
+        "date": "2026-10-07"
+      },
+      {
+        "name": "Entrevista final (gestor + Europa)",
+        "status": "A agendar",
         "date": ""
       }
     ]
@@ -1915,6 +1930,12 @@
         "status": "Entrevista",
         "date": "2026-09-10",
         "source": "migration"
+      },
+      {
+        "status": "Rejeitado",
+        "date": null,
+        "source": "cowork",
+        "note": "data não registrada"
       }
     ],
     "notes": "1ª entrevista (Talentos/RH) feita em 10/09/2026 e correu bem, na percepção do Kevin. Vaga confirmada como PMM Sênior. Próxima rodada será com o gestor (informado por Marcelo, recrutador/talentos) — ainda sem data. E-mail de follow-up/agradecimento enviado. NÃO reaplicar: já está em processo. [ATUALIZACAO 29/09/2026] Negativa apos a entrevista com a gestora (Gabi). Recrutador (48 3202-4770) avisou por WhatsApp: a Gabi optou por outro caminho, MAS gostou muito da conversa e vai manter o Kevin em pipeline para indicar assim que surgir oportunidade similar. Ou seja, porta fica aberta na Starian/Softplan. Era a vaga TOP de prioridade do Kevin (remota, PMM, core). Vale manter relacionamento com o recrutador.",
@@ -2253,7 +2274,7 @@
     "company": "Grupo OLX",
     "role": "Product Manager - Trust & Safety",
     "date_applied": "2026-09-29",
-    "status": "Aplicado",
+    "status": "Candidatado",
     "notes": "Vaga do Radar (PT). Gupy (mesmo sistema da Starian). Aposta de TRANSICAO para Produto (Kevin nao tem titulo formal de PM, mas tem cases fortes de produto/dados). Aberta ate 02/11/2026. Respondeu o campo aberto \"Fale sobre voce\" com resposta que conecta a trajetoria (Meta 4->10, Meu Barzin analise de comportamento com IA, formacao em Filosofia/etica) ao desafio de Trust & Safety.",
     "url": "https://vemsergrupoolx.gupy.io/jobs/12212638",
     "current_stage": "Candidatura enviada (aguardando triagem)",
@@ -2276,6 +2297,1037 @@
       },
       {
         "name": "Triagem",
+        "status": "Pendente",
+        "date": ""
+      }
+    ],
+    "status_history": [
+      {
+        "status": "Candidatado",
+        "date": "2026-09-29",
+        "source": "migration"
+      }
+    ]
+  },
+  {
+    "id": "57",
+    "company": "Starian",
+    "role": "Pessoa Analista de Revenue Operations (RevOps) Pl (Remoto) - 7392",
+    "date_applied": "2026-10-02",
+    "status": "Candidatado",
+    "notes": "Trilha 1 (RevOps, ponto forte do Kevin). 100% remoto, PT, nivel pleno. Candidatou-se em 02/10/2026. IMPORTANTE: a Starian ja havia rejeitado o Kevin na vaga de PMM (id 50), mas o recrutador (48 3202-4770) disse que o manteria no pipe para oportunidades similares; vale avisar o recrutador sobre esta candidatura de RevOps. Respondeu o campo aberto de IA (casos Meta 4->10, Meu Barzin, CRM com agente de IA) e a apresentacao focada em CRM/automacao/IA.",
+    "url": "https://starian.gupy.io/jobs/12197392",
+    "current_stage": "Candidatura enviada (aguardando triagem)",
+    "fit_score": 92,
+    "salary_expectation": "Nao divulgado",
+    "good_points": [
+      "RevOps e o ponto mais forte do Kevin (CRM + automacao + IA).",
+      "100% remoto em portugues, nivel pleno bem calibrado.",
+      "Recrutador da Starian ja o conhece e prometeu mante-lo no pipe."
+    ],
+    "improvement_points": [
+      "Evidenciar experiencia formal configurando CRM e diagnosticando falhas de integracao/workflow em producao."
+    ],
+    "stages": [
+      {
+        "name": "Candidatura enviada",
+        "status": "Concluído",
+        "date": "2026-10-02"
+      },
+      {
+        "name": "Triagem",
+        "status": "Pendente",
+        "date": ""
+      }
+    ],
+    "status_history": [
+      {
+        "status": "Candidatado",
+        "date": "2026-10-02",
+        "source": "migration"
+      }
+    ]
+  },
+  {
+    "id": "58",
+    "company": "Loadsmart",
+    "role": "Marketing Demand Generation Manager (Brazil)",
+    "date_applied": "2026-10-02",
+    "status": "Candidatado",
+    "notes": "Trilha 2 (Growth/Demand Gen). Remoto, PJ/Independent Contractor, posting em ingles, 5+ anos demand gen B2B. Respondeu secao de AI usage (Claude diario + LLMs + n8n; casos Meta 4->10 e Meu Barzin funil 44%). Pretensao PJ internacional ~US$5k/mes (US$60k/ano). ATENCAO: CV EN enviado SEM a experiencia Wipro/Meta (erro apontado pelo Kevin; corrigido no fluxo daqui pra frente, Wipro volta como ancora).",
+    "url": "https://jobs.lever.co/loadsmart/8c6f77bd-4c25-427c-b779-6ec7a8d68591",
+    "current_stage": "Candidatura enviada (aguardando triagem)",
+    "fit_score": 89,
+    "salary_expectation": "US$ 60.000/ano (PJ, ~US$5k/mes)",
+    "good_points": [
+      "Full-funnel e funil forte, com dados e IA.",
+      "Remoto no Brasil, localizacao EN/PT.",
+      "Usa Claude no fluxo (empresa tambem usa Claude)."
+    ],
+    "improvement_points": [
+      "Google Ads e ferramentas (SEMrush, ZoomInfo) sao mais leves no historico; paid dele e mais Meta.",
+      "Evidenciar resultados mensuraveis de pipeline/demand gen."
+    ],
+    "stages": [
+      {
+        "name": "Candidatura enviada",
+        "status": "Concluído",
+        "date": "2026-10-02"
+      },
+      {
+        "name": "Triagem",
+        "status": "Pendente",
+        "date": ""
+      }
+    ],
+    "status_history": [
+      {
+        "status": "Candidatado",
+        "date": "2026-10-02",
+        "source": "migration"
+      }
+    ]
+  },
+  {
+    "id": "59",
+    "company": "Entrepreneur Cooperative (cliente: investment management firm, EUA)",
+    "role": "Agentic GTM Lead - Growth Engineering & Demand Generation",
+    "date_applied": "2026-10-02",
+    "status": "Entrevista",
+    "notes": "Trilha 2 (AI GTM / Growth Engineering). Remoto LATAM, overlap forte com US Eastern Time, US$2.500-3.500/mes. CV EN com Wipro/Meta como ancora (case de adocao de IA). Portfolio no formulario: GitHub (github.com/keevinvieeira) + 3D Career Brain ao vivo (keevinvieeira.github.io/curriculo-kevin). Pretensao US$3.500/mes (teto da faixa declarada). Idiomas: PT nativo, EN avancado. Start: immediately. | RETORNO 05/10/2026: convite para entrevista (primeira conversa de 30 min). Link de agendamento: https://wix.to/QMVA7wp (via talent@hireemerald.com). | 12/10: Valentina remarcou para sexta 16/10 10:00 CDT. Prep publicada (artefato Prep Emerald).",
+    "url": "https://operatorequity.applytojob.com/apply/pUngrfyOjw/Agentic-GTM-Lead-Growth-Engineering-Demand-Generation",
+    "current_stage": "Primeira conversa (30 min) com Valentina Barajas (Emerald), 16/10/2026 10:00 CDT (12:00 Brasília)",
+    "fit_score": 94,
+    "salary_expectation": "US$ 3.500/mes",
+    "good_points": [
+      "Forte overlap com perfil builder: agentes de IA, n8n, RAG, automacao e demand gen.",
+      "Remoto LATAM com CV e portfolio builder (GitHub + 3D).",
+      "Autonomia e mentalidade de dono, valorizadas na vaga."
+    ],
+    "improvement_points": [
+      "Gap real em SQL/Python hands-on de engenharia (o dele e mais builder assistido por IA / Supabase).",
+      "Sem background em investimentos/asset management, marcado como importante na vaga.",
+      "Barra tecnica mais alta que o 9,4 do radar sugeria; stretch legitimo."
+    ],
+    "stages": [
+      {
+        "name": "Candidatura enviada",
+        "status": "Concluído",
+        "date": "2026-10-02"
+      },
+      {
+        "name": "Triagem",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Primeira conversa (30 min)",
+        "status": "Agendada",
+        "date": "2026-10-16"
+      }
+    ],
+    "status_history": [
+      {
+        "status": "Candidatado",
+        "date": "2026-10-02",
+        "source": "migration"
+      },
+      {
+        "status": "Entrevista",
+        "date": "2026-10-05",
+        "source": "cowork"
+      }
+    ]
+  },
+  {
+    "id": "60",
+    "company": "Teachable (Hotmart)",
+    "role": "Senior Product Manager I",
+    "date_applied": "2026-10-02",
+    "status": "Candidatado",
+    "notes": "Vaga de PM de plataforma/extensibilidade (API-first, MCP, developer tools), Sao Paulo remote-first. Diferente da vaga de Customer Marketing (essa estava encerrada). CV EN com cara de PM (discovery JTBD/OST/CSD + APIs/MCP/builder + GTM tecnico, Wipro ancora). Enviou cover letter encarando de frente o requisito de MCP/API-first, diferencial raro. Portfolio: GitHub + 3D Career Brain. STRETCH legitimo: gap = experiencia FORMAL de PM dono de produto API/plataforma; forte = repertorio builder/MCP atual (esta construindo um MCP).",
+    "url": "https://job-boards.eu.greenhouse.io/teachablecareers/jobs/4978944101",
+    "current_stage": "Candidatura enviada (aguardando triagem)",
+    "fit_score": 78,
+    "salary_expectation": "Nao divulgado",
+    "good_points": [
+      "Repertorio de MCP/API-first/builder, raro num perfil de produto.",
+      "Discovery forte (JTBD, OST, CSD) e GTM de produto tecnico.",
+      "Marca forte (Hotmart/Teachable), remote-first."
+    ],
+    "improvement_points": [
+      "Sem cargo formal de PM dono de um produto de API/plataforma.",
+      "Nivel senior de PM, concorrencia com PMs de carreira.",
+      "Confirmar aceite de Curitiba remoto (vaga lista Sao Paulo)."
+    ],
+    "stages": [
+      {
+        "name": "Candidatura enviada",
+        "status": "Concluído",
+        "date": "2026-10-02"
+      },
+      {
+        "name": "Triagem",
+        "status": "Pendente",
+        "date": ""
+      }
+    ],
+    "status_history": [
+      {
+        "status": "Candidatado",
+        "date": "2026-10-02",
+        "source": "migration"
+      }
+    ]
+  },
+  {
+    "id": "61",
+    "company": "AMBOSS",
+    "role": "Growth Marketing Specialist - Brazil",
+    "date_applied": "2026-10-02",
+    "status": "Candidatado",
+    "notes": "Trilha growth / healthtech. 100% remoto Brasil. Candidatou-se no fluxo assistido em 02/10/2026; registro criado nesta revisao da planilha (tinha ficado sem registro no applications.json).",
+    "url": "https://jobs.ashbyhq.com/amboss/fc1dd9e7-5182-485d-8397-0647cdf1c005/",
+    "current_stage": "Candidatura enviada (aguardando triagem)",
+    "fit_score": 91,
+    "salary_expectation": "Nao divulgado",
+    "good_points": [
+      "CRM, Meta, WhatsApp, SEO/SEM e aquisicao a retencao.",
+      "100% remoto no Brasil, senioridade bem calibrada."
+    ],
+    "improvement_points": [
+      "Sem historico direto em medical education/ENAMED.",
+      "Evidenciar metricas multicanal e ingles forte."
+    ],
+    "stages": [
+      {
+        "name": "Candidatura enviada",
+        "status": "Concluído",
+        "date": "2026-10-02"
+      },
+      {
+        "name": "Triagem",
+        "status": "Pendente",
+        "date": ""
+      }
+    ],
+    "status_history": [
+      {
+        "status": "Candidatado",
+        "date": "2026-10-02",
+        "source": "migration"
+      }
+    ]
+  },
+  {
+    "id": "62",
+    "company": "Instructure",
+    "role": "Growth Marketing Manager, Foundry",
+    "date_applied": "2026-10-02",
+    "status": "Rejeitado",
+    "notes": "Confirmacao de candidatura por e-mail (Ashby) em 02/10/2026. ATENCAO: vaga era US-only; Kevin aplicou mesmo com o alerta de bloqueio geografico. Full-stack growth/PMM, fit de conteudo otimo. Aguardar retorno. | RETORNO 05/10/2026: REJEITADO. Motivo: so consideram candidatos que moram na regiao da vaga (US-only), exatamente o alerta previo.",
+    "url": "https://jobs.ashbyhq.com/instructure/b1a6ac86-c886-4ea2-8839-c5285f1415d4",
+    "current_stage": "Rejeitado (bloqueio geografico, US-only)",
+    "fit_score": 88,
+    "salary_expectation": "Nao divulgado",
+    "good_points": [
+      "Full-stack marketer: positioning, demand gen, conteudo, lifecycle, 0-to-1."
+    ],
+    "improvement_points": [
+      "Vaga US-only; possivel bloqueio geografico do Brasil."
+    ],
+    "stages": [
+      {
+        "name": "Candidatura enviada",
+        "status": "Concluído",
+        "date": "2026-10-02"
+      },
+      {
+        "name": "Triagem",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Rejeitado (geografico)",
+        "status": "Concluído",
+        "date": "2026-10-05"
+      }
+    ],
+    "status_history": [
+      {
+        "status": "Candidatado",
+        "date": "2026-10-02",
+        "source": "migration"
+      },
+      {
+        "status": "Rejeitado",
+        "date": null,
+        "source": "migration",
+        "note": "data não registrada no histórico original"
+      }
+    ]
+  },
+  {
+    "id": "63",
+    "company": "Saipos",
+    "role": "Senior Product Marketing Manager (PMM)",
+    "date_applied": "2026-09-29",
+    "status": "Triagem",
+    "notes": "Candidatou-se (via Gupy) e esta AVANCANDO: e-mails de 29/09/2026 convidando para etapa de fit cultural / conhecer melhor o candidato. Registro criado nesta revisao (tinha ficado sem registro).",
+    "url": "https://saipos.gupy.io/job/eyJqb2JJZCI6MTIzMDI0ODgsInNvdXJjZSI6Imd1cHlfcG9ydGFsIn0%3D",
+    "current_stage": "Em processo (fit cultural / etapas iniciais)",
+    "fit_score": 84,
+    "salary_expectation": "Nao divulgado",
+    "good_points": [
+      "PMM SaaS B2B (foodtech), GTM, pesquisa, posicionamento, adocao."
+    ],
+    "improvement_points": [
+      "Senioridade formal em PMM e o principal gap a sustentar."
+    ],
+    "stages": [
+      {
+        "name": "Candidatura enviada",
+        "status": "Concluído",
+        "date": "2026-09-29"
+      },
+      {
+        "name": "Fit cultural / etapas iniciais",
+        "status": "Em andamento",
+        "date": "2026-09-29"
+      }
+    ],
+    "status_history": [
+      {
+        "status": "Candidatado",
+        "date": "2026-09-29",
+        "source": "migration"
+      },
+      {
+        "status": "Triagem",
+        "date": null,
+        "source": "cowork",
+        "note": "data não registrada"
+      }
+    ]
+  },
+  {
+    "id": "64",
+    "company": "ZapSign (via Skill Consultoria)",
+    "role": "Product Marketing Manager (PMM) Pleno",
+    "date_applied": "2026-10-05",
+    "status": "Candidatado",
+    "notes": "PMM Pleno SaaS B2B (assinatura eletronica), 100% remoto, CLT, em portugues. Alvo exato do radar. Inauguraria a disciplina de Product Marketing na ZapSign. CV PT de PMM com Wipro ancora. Aplicada via Gupy (login do Kevin). Pretensao sugerida R$10k/mes (faixa 9-11k).",
+    "url": "https://skillconsultoria.gupy.io/jobs/12460560",
+    "current_stage": "Candidatura enviada (aguardando triagem)",
+    "fit_score": 92,
+    "salary_expectation": "R$ 10.000/mes (CLT, sugerido)",
+    "good_points": [
+      "PMM puro, nivel pleno, 100% remoto em portugues.",
+      "SaaS B2B, GTM e lancamentos, no core do perfil.",
+      "Chance de estruturar a disciplina de PMM do zero."
+    ],
+    "improvement_points": [
+      "Evidenciar cases formais de PMM/GTM em SaaS B2B."
+    ],
+    "stages": [
+      {
+        "name": "Candidatura enviada",
+        "status": "Concluído",
+        "date": "2026-10-05"
+      },
+      {
+        "name": "Triagem",
+        "status": "Pendente",
+        "date": ""
+      }
+    ],
+    "status_history": [
+      {
+        "status": "Candidatado",
+        "date": "2026-10-05",
+        "source": "migration"
+      }
+    ]
+  },
+  {
+    "id": "65",
+    "company": "Casar.com",
+    "role": "Analista de Martech & Marketing Operations Senior",
+    "date_applied": "2026-10-05",
+    "status": "Candidatado",
+    "notes": "Trilha 1 (martech/marketing ops, ponto forte builder). 100% remoto ou hibrido 1x/sem, PT. CRM, GA4, pixels, integracoes, funil de aquisicao, Make/n8n, SQL, Power BI. GAP: Salesforce e a ferramenta central deles e nao e o dia a dia do Kevin (compensa com HubSpot/RD Station). Pretensao sugerida R$11k. CV PT martech/ops com Wipro ancora. Via Gupy.",
+    "url": "https://casarcom.gupy.io/jobs/12318139",
+    "current_stage": "Candidatura enviada (aguardando triagem)",
+    "fit_score": 94,
+    "salary_expectation": "R$ 11.000/mes (CLT, sugerido)",
+    "good_points": [
+      "Martech/ops e o core builder do Kevin: CRM, automacao, integracoes, dados.",
+      "100% remoto em portugues.",
+      "Stack (GA4, n8n, SQL, Power BI) muito proximo do real."
+    ],
+    "improvement_points": [
+      "Salesforce central (gap), compensar com CRMs equivalentes.",
+      "Evidenciar tracking/atribuicao e resultados mensuraveis."
+    ],
+    "stages": [
+      {
+        "name": "Candidatura enviada",
+        "status": "Concluído",
+        "date": "2026-10-05"
+      },
+      {
+        "name": "Triagem",
+        "status": "Pendente",
+        "date": ""
+      }
+    ],
+    "status_history": [
+      {
+        "status": "Candidatado",
+        "date": "2026-10-05",
+        "source": "migration"
+      }
+    ]
+  },
+  {
+    "id": "66",
+    "company": "Gaudium",
+    "role": "Analista de Product Marketing Sênior",
+    "date_applied": "2026-10-05",
+    "status": "Candidatado",
+    "notes": "PMM Senior SaaS B2B, 100% remoto PT, CLT. Faixa divulgada R$7.979,76-9.974,70; pediu R$9.900 (topo). MAIOR fit do radar (9,6). GAP: pricing/packaging formal (eles valorizam); compensar com experiencia pratica de monetizacao (assinatura Meu Barzin, tripwire Munzner, propostas AKBW). CV PT PMM com Wipro ancora. Respondeu pergunta de diferencial sobre BI (Power BI na Wipro/MIS, GA, Looker, dashboards proprios). Via Gupy.",
+    "url": "https://gaudium.gupy.io/jobs/12524526",
+    "current_stage": "Candidatura enviada (aguardando triagem)",
+    "fit_score": 96,
+    "salary_expectation": "R$ 9.900/mes (CLT, topo da faixa divulgada)",
+    "good_points": [
+      "Maior fit do radar: pesquisa de cliente, posicionamento, adocao, monetizacao.",
+      "100% remoto em portugues, faixa salarial divulgada.",
+      "Forte em dados/BI e IA, pediram como diferencial."
+    ],
+    "improvement_points": [
+      "Pricing/packaging FORMAL e o gap; sustentar com experiencia pratica.",
+      "Evidenciar senioridade formal em PMM com cases de impacto."
+    ],
+    "stages": [
+      {
+        "name": "Candidatura enviada",
+        "status": "Concluído",
+        "date": "2026-10-05"
+      },
+      {
+        "name": "Triagem",
+        "status": "Pendente",
+        "date": ""
+      }
+    ],
+    "status_history": [
+      {
+        "status": "Candidatado",
+        "date": "2026-10-05",
+        "source": "migration"
+      }
+    ]
+  },
+  {
+    "id": "67",
+    "company": "Shift",
+    "role": "Analista de Marketing de Produtos",
+    "date_applied": "2026-10-05",
+    "status": "Candidatado",
+    "notes": "PMM / Marketing de Produtos em healthtech SaaS, home office PT, nivel analista/pleno (acessivel). GTM, posicionamento, proposta de valor, adocao, enablement, pesquisa, CRM/automacao. Afinidade com saude/bem-estar (projeto Wellness Protocol). Pretensao R$9k. CV PT PMM com Wipro ancora. Via Gupy.",
+    "url": "https://shift.gupy.io/job/eyJqb2JJZCI6MTE5MjcyOTAsInNvdXJjZSI6Imd1cHlfcG9ydGFsIn0%3D",
+    "current_stage": "Candidatura enviada (aguardando triagem)",
+    "fit_score": 88,
+    "salary_expectation": "R$ 9.000/mes (sugerido)",
+    "good_points": [
+      "PMM nivel acessivel, home office em portugues.",
+      "Interseccao com saude/wellness.",
+      "GTM, pesquisa e adocao no core do perfil."
+    ],
+    "improvement_points": [
+      "Confirmar aceite de Filosofia na formacao.",
+      "Evidenciar cases de PMM em SaaS."
+    ],
+    "stages": [
+      {
+        "name": "Candidatura enviada",
+        "status": "Concluído",
+        "date": "2026-10-05"
+      },
+      {
+        "name": "Triagem",
+        "status": "Pendente",
+        "date": ""
+      }
+    ],
+    "status_history": [
+      {
+        "status": "Candidatado",
+        "date": "2026-10-05",
+        "source": "migration"
+      }
+    ]
+  },
+  {
+    "id": "68",
+    "company": "Asaas",
+    "role": "AI Product Manager - IAN",
+    "date_applied": "2026-10-05",
+    "status": "Candidatado",
+    "notes": "AI Product Manager em fintech: agente de IA no WhatsApp (produto IAN), remoto PT, CLT. Stretch Product+IA com forte match builder (Meu Barzin: agente conversacional WhatsApp com ManyChat/n8n/RAG). GAP: experiencia FORMAL como PM (vender projetos proprios como ownership de produto). Pretensao R$11k. CV PT AI PM com AI Builder liderando + Wipro ancora. Via Gupy.",
+    "url": "https://asaas.gupy.io/jobs/12584929",
+    "current_stage": "Candidatura enviada (aguardando triagem)",
+    "fit_score": 91,
+    "salary_expectation": "R$ 11.000/mes (sugerido)",
+    "good_points": [
+      "Produto deles (agente de IA no WhatsApp) e exatamente o que o Kevin ja construiu.",
+      "APIs, automacao, LLMs, experimentacao no core do perfil builder.",
+      "Remoto em portugues."
+    ],
+    "improvement_points": [
+      "Sem cargo formal de Product Manager; vender ownership dos projetos proprios.",
+      "Fintech/regulacao e SQL como diferenciais a reforcar."
+    ],
+    "stages": [
+      {
+        "name": "Candidatura enviada",
+        "status": "Concluído",
+        "date": "2026-10-05"
+      },
+      {
+        "name": "Triagem",
+        "status": "Pendente",
+        "date": ""
+      }
+    ],
+    "status_history": [
+      {
+        "status": "Candidatado",
+        "date": "2026-10-05",
+        "source": "migration"
+      }
+    ]
+  },
+  {
+    "id": "69",
+    "company": "Altrio Consulting",
+    "role": "Growth Marketing Specialist",
+    "date_applied": "2026-10-05",
+    "status": "Candidatado",
+    "notes": "Growth Marketing B2B SaaS, remoto LATAM (Brasil/Colombia), processo em ingles. Cliente e uma SaaS dos EUA do setor automotivo/funilaria (nicho fora do historico do Kevin). HubSpot obrigatorio, multicanal, IA, 3+ anos. Candidatura por E-MAIL (careers@altrioconsulting.com); rascunho criado no Gmail com CV EN anexado e Kevin enviou. CV EN de growth/demand gen com Wipro ancora.",
+    "url": "https://altrioconsulting.com/growth-marketing-specialist",
+    "current_stage": "Candidatura enviada por e-mail",
+    "fit_score": 87,
+    "salary_expectation": "A confirmar (BRL/CLT ~R$10k ou USD/contractor)",
+    "good_points": [
+      "Growth B2B SaaS hands-on, HubSpot, multicanal, IA, remoto LATAM.",
+      "Perfil builder e entrepreneurial que eles pedem."
+    ],
+    "improvement_points": [
+      "Setor do cliente (automotivo/funilaria) e nicho novo.",
+      "Evidenciar MQL/SQL/pipeline mensuraveis e ingles forte."
+    ],
+    "stages": [
+      {
+        "name": "Candidatura enviada (e-mail)",
+        "status": "Concluído",
+        "date": "2026-10-05"
+      }
+    ],
+    "status_history": [
+      {
+        "status": "Candidatado",
+        "date": "2026-10-05",
+        "source": "migration"
+      }
+    ]
+  },
+  {
+    "id": "70",
+    "company": "Ploomes",
+    "role": "Analista de Product Marketing Pleno",
+    "date_applied": "2026-10-05",
+    "status": "Triagem",
+    "notes": "PMM Pleno em CRM SaaS B2B (maior CRM da America Latina). RESSALVA: hibrido em Sao Paulo 2x/semana (Kevin esta em Curitiba) - confirmar disposicao de deslocamento. PMM puro: positioning, messaging, lancamentos, ICP/personas, concorrencia, JTBD. Pretensao R$10k. CV PT PMM com Wipro ancora. Via Gupy. | ANDAMENTO 05/10/2026: avancou, etapa de Teste de Raciocinio Logico desbloqueada e PENDENTE (recrutador ja lembrou). Kevin precisa realizar o teste.",
+    "url": "https://ploomes.gupy.io/jobs/12605655",
+    "current_stage": "Teste de Raciocinio Logico (pendente)",
+    "fit_score": 90,
+    "salary_expectation": "R$ 10.000/mes (sugerido)",
+    "good_points": [
+      "PMM puro nivel pleno, universo CRM/venda consultiva (afinidade).",
+      "Fit funcional altissimo."
+    ],
+    "improvement_points": [
+      "Hibrido em Sao Paulo reduz conveniencia (Curitiba).",
+      "Evidenciar experiencia previa em PMM de software."
+    ],
+    "stages": [
+      {
+        "name": "Candidatura enviada",
+        "status": "Concluído",
+        "date": "2026-10-05"
+      },
+      {
+        "name": "Triagem",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Teste de Raciocinio Logico",
+        "status": "Pendente",
+        "date": "2026-10-05"
+      }
+    ],
+    "status_history": [
+      {
+        "status": "Candidatado",
+        "date": "2026-10-05",
+        "source": "migration"
+      },
+      {
+        "status": "Triagem",
+        "date": null,
+        "source": "cowork",
+        "note": "data não registrada"
+      }
+    ]
+  },
+  {
+    "id": "71",
+    "company": "Jobgether (cliente: plataforma de audio generativo com IA)",
+    "role": "GTM / Growth Manager",
+    "date_applied": "2026-10-09",
+    "status": "Candidatado",
+    "notes": "Cliente confidencial via Jobgether: plataforma de audio generativo com IA, dados licenciados. Remoto BR, EN, US$120-150k/ano + equity, 5+ anos, lideranca. Foco: growth, aquisicao B2C, GTM, pricing/conversao, tecnologia agentica/automacao. GAP: dominio audio/musica e vies B2C. CV EN growth com Wipro ancora. Lever simples.",
+    "url": "https://jobs.lever.co/jobgether/ccc69861-e469-4461-83e7-59d5e0302b86",
+    "current_stage": "Candidatura enviada",
+    "fit_score": 95,
+    "salary_expectation": "US$ 120.000-150.000/ano + equity",
+    "good_points": [
+      "Growth + IA agentica + experimentacao.",
+      "Remoto BR em USD alto."
+    ],
+    "improvement_points": [
+      "Dominio audio/musica; vies B2C."
+    ],
+    "stages": [
+      {
+        "name": "Candidatura enviada",
+        "status": "Concluído",
+        "date": "2026-10-09"
+      }
+    ],
+    "status_history": [
+      {
+        "status": "Candidatado",
+        "date": "2026-10-09",
+        "source": "migration"
+      }
+    ]
+  },
+  {
+    "id": "72",
+    "company": "Clicksign",
+    "role": "Especialista de CRM",
+    "date_applied": "2026-10-09",
+    "status": "Candidatado",
+    "notes": "Trilha 1 (CRM/martech). SaaS B2B de assinatura eletronica (universo da ZapSign), 100% remoto, PT. Inscricoes ate 30/10. CV PT CRM/martech com Wipro ancora. Pretensao R$10k. Via Gupy.",
+    "url": "https://clicksign.gupy.io/jobs/12385116",
+    "current_stage": "Candidatura enviada",
+    "fit_score": 88,
+    "salary_expectation": "R$ 10.000/mes (sugerido)",
+    "good_points": [
+      "CRM/martech e o dia a dia do Kevin.",
+      "100% remoto, SaaS B2B conhecido.",
+      "Automacao, integracoes e dados no core."
+    ],
+    "improvement_points": [
+      "Evidenciar operacao de CRM em escala e governanca de dados."
+    ],
+    "stages": [
+      {
+        "name": "Candidatura enviada",
+        "status": "Concluído",
+        "date": "2026-10-09"
+      },
+      {
+        "name": "Triagem",
+        "status": "Pendente",
+        "date": ""
+      }
+    ],
+    "status_history": [
+      {
+        "status": "Candidatado",
+        "date": "2026-10-09",
+        "source": "migration"
+      }
+    ]
+  },
+  {
+    "id": "73",
+    "company": "QuintoAndar",
+    "role": "Especialista de CRM - Marketing Cloud",
+    "date_applied": "2026-10-12",
+    "status": "Candidatado",
+    "status_history": [
+      {
+        "status": "Candidatado",
+        "date": "2026-10-12",
+        "source": "assisted-apply"
+      }
+    ],
+    "notes": "Aplicado via Greenhouse (job-boards.greenhouse.io/quintoandar, req 1607) com CV adaptado Kevin_Augusto_Vieira_QuintoAndar_Especialista_CRM_Marketing_Cloud_PT. Presencial em SP (Vila Leopoldina), hibrido, Kevin mora em Curitiba: confirmar disponibilidade. Gap principal: Salesforce Marketing Cloud (Journey Builder/Automation Studio), sem experiencia no curriculo. Sem cobranca/recuperacao de credito.",
+    "url": "https://job-boards.greenhouse.io/quintoandar/jobs/4359915009",
+    "current_stage": "Candidatado",
+    "fit_score": 60,
+    "salary_expectation": "R$ 15.000-22.000/mes (PJ, do curriculo mestre); vaga nao divulga salario",
+    "good_points": [
+      "Automacao de jornadas e CRM (Meta AI CRM, Munzner funil automatizado).",
+      "Testes A/B e design de experimentos (AK Branding).",
+      "Leitura de funil e relatorios para lideranca (Wipro, Power BI)."
+    ],
+    "improvement_points": [
+      "Salesforce Marketing Cloud (Journey Builder, Automation Studio) ausente no curriculo.",
+      "Sem experiencia em cobranca/recuperacao de credito (desejavel).",
+      "Hibrido em SP: Kevin esta em Curitiba."
+    ],
+    "stages": [
+      {
+        "name": "Candidatura",
+        "status": "Concluído",
+        "date": "2026-10-12"
+      },
+      {
+        "name": "Triagem (Screening)",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Entrevista",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Proposta (Offer)",
+        "status": "Pendente",
+        "date": ""
+      }
+    ]
+  },
+  {
+    "id": "74",
+    "company": "QuintoAndar",
+    "role": "Analista de Operacoes Comerciais 3 (Senior - Marketplace B2B)",
+    "date_applied": "2026-10-12",
+    "status": "Candidatado",
+    "status_history": [
+      {
+        "status": "Candidatado",
+        "date": "2026-10-12",
+        "source": "assisted-apply"
+      }
+    ],
+    "notes": "Aplicado via Greenhouse (req QuintoAndar, Supply 3P, 100% remoto Brasil, preferencia SP/BH para encontros a cada 2-3 meses). CV: Kevin_Augusto_Vieira_QuintoAndar_Analista_Operacoes_Comerciais_Marketplace_B2B_PT. Processo: Triagem, DG, Hiring Manager, Stakeholder, Offer. Gaps: sem experiencia imobiliaria/marketplace no master (EBV Imoveis a validar), atendimento via tickets/WhatsApp em volume a confirmar.",
+    "url": "https://job-boards.greenhouse.io/quintoandar/jobs/4380719009",
+    "current_stage": "Candidatado",
+    "fit_score": 60,
+    "salary_expectation": "Pendente (campo obrigatorio no formulario, confirmar com Kevin)",
+    "good_points": [
+      "Excel e Google Sheets avancados, SQL basico.",
+      "Analise de causa raiz e melhoria de processos (Wipro).",
+      "Relacionamento B2B e gestao de stakeholders (AK Branding)."
+    ],
+    "improvement_points": [
+      "Sem experiencia imobiliaria ou marketplace no master (validar EBV).",
+      "Atendimento direto via WhatsApp so documentado no Meu Barzin."
+    ],
+    "stages": [
+      {
+        "name": "Candidatura",
+        "status": "Concluído",
+        "date": "2026-10-12"
+      },
+      {
+        "name": "Triagem (Screening)",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Entrevista",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Proposta (Offer)",
+        "status": "Pendente",
+        "date": ""
+      }
+    ]
+  },
+  {
+    "id": "75",
+    "company": "EBANX",
+    "role": "Key Account Manager | Growth Enterprise",
+    "date_applied": "2026-10-12",
+    "status": "Candidatado",
+    "status_history": [
+      {
+        "status": "Candidatado",
+        "date": "2026-10-12",
+        "source": "assisted-apply"
+      }
+    ],
+    "notes": "Aplicado via Greenhouse (Curitiba ou SP, on-site, viagem ate 30%). CV: Kevin_Augusto_Vieira_EBANX_Key_Account_Manager_Growth_Enterprise_PT. Fit baixo: exige experiencia em pagamentos e AM/BD com cota batida. Gap principal: pagamentos.",
+    "url": "https://job-boards.greenhouse.io/ebanx/jobs/7997416003",
+    "current_stage": "Candidatado",
+    "fit_score": 25,
+    "salary_expectation": "Pendente (confirmar com Kevin)",
+    "good_points": [
+      "Relacionamento B2B e funil (AK Branding, Munzner).",
+      "Enablement comercial e frameworks de venda (Wipro)."
+    ],
+    "improvement_points": [
+      "Sem experiencia em pagamentos (must-have).",
+      "Sem historico de AM/BD com cota.",
+      "Exige viagem ate 30% e ingles fluente testado."
+    ],
+    "stages": [
+      {
+        "name": "Candidatura",
+        "status": "Concluído",
+        "date": "2026-10-12"
+      },
+      {
+        "name": "Triagem (Screening)",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Entrevista",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Proposta (Offer)",
+        "status": "Pendente",
+        "date": ""
+      }
+    ]
+  },
+  {
+    "id": "76",
+    "company": "Toradex",
+    "role": "Product Marketing Manager - SaaS B2B",
+    "date_applied": "2026-10-12",
+    "status": "Candidatado",
+    "status_history": [
+      {
+        "status": "Candidatado",
+        "date": "2026-10-12",
+        "source": "assisted-apply"
+      }
+    ],
+    "notes": "Aplicado via Greenhouse (Campinas-SP, hibrido). CV em ingles: Kevin_Augusto_Vieira_Toradex_PMM_SaaS_B2B_EN. Vaga exige 3+ anos de PMM formal em B2B tecnico e ingles fluente. Gap principal: anos de PMM formal e modelo hibrido em Campinas (Kevin mora em Curitiba).",
+    "url": "https://job-boards.greenhouse.io/toradex/jobs/8005695003",
+    "current_stage": "Candidatado",
+    "fit_score": 88,
+    "salary_expectation": "Pendente (confirmar com Kevin)",
+    "good_points": [
+      "Posicionamento, mensagens e storytelling tecnico (Munzner, Wipro).",
+      "Lancamentos, enablement e GTM com discovery estruturado.",
+      "Automacao e IA para marketing (GitHub, n8n, APIs)."
+    ],
+    "improvement_points": [
+      "Menos de 3 anos de PMM formal em B2B tecnico (must-have).",
+      "Modelo hibrido em Campinas-SP, morando em Curitiba.",
+      "Ingles fluente precisa ser comprovado na entrevista."
+    ],
+    "stages": [
+      {
+        "name": "Candidatura",
+        "status": "Concluído",
+        "date": "2026-10-12"
+      },
+      {
+        "name": "Triagem (Screening)",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Entrevista",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Proposta (Offer)",
+        "status": "Pendente",
+        "date": ""
+      }
+    ]
+  },
+  {
+    "id": "77",
+    "company": "ClassPass / Playlist",
+    "role": "Acquisition & Lifecycle Marketing Manager",
+    "date_applied": "2026-10-12",
+    "status": "Candidatado",
+    "status_history": [
+      {
+        "status": "Candidatado",
+        "date": "2026-10-12",
+        "source": "assisted-apply"
+      }
+    ],
+    "notes": "Aplicado via formulario Greenhouse embutido na pagina da Playlist (Brasil, remoto, salario nao isento). CV em ingles: Kevin_Augusto_Vieira_ClassPass_Lifecycle_Acquisition_Manager_EN. Vaga foca em reativacao e leads por canais proprios (e-mail, push, in-app, SMS) com Braze. Gaps: Braze, push/in-app/SMS, reativacao em escala, SQL basico. Respostas de formulario preparadas (lifecycle program e performance management), sem previsao nem metas documentadas.",
+    "url": "https://www.playlist.com/careers/opportunities/4691247006",
+    "current_stage": "Candidatado",
+    "fit_score": 60,
+    "salary_expectation": "Pendente (confirmar com Kevin)",
+    "good_points": [
+      "Funil e nutricao por e-mail automatizada (Munzner, 10 etapas).",
+      "Captacao de leads e engajamento (Meu Barzin, 505 leads, 22,3% engajamento).",
+      "A/B testing e CRO (AK Branding)."
+    ],
+    "improvement_points": [
+      "Sem Braze nem experiencia com push, in-app e SMS.",
+      "Sem reativacao de usuarios em escala.",
+      "SQL apenas basico."
+    ],
+    "stages": [
+      {
+        "name": "Candidatura",
+        "status": "Concluído",
+        "date": "2026-10-12"
+      },
+      {
+        "name": "Triagem (Screening)",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Entrevista",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Proposta (Offer)",
+        "status": "Pendente",
+        "date": ""
+      }
+    ]
+  },
+  {
+    "id": "78",
+    "company": "Tractian",
+    "role": "Senior Product Marketing Manager",
+    "date_applied": "2026-10-12",
+    "status": "Candidatado",
+    "status_history": [
+      {
+        "status": "Candidatado",
+        "date": "2026-10-12",
+        "source": "kevin-confirmou"
+      }
+    ],
+    "notes": "Kevin se inscreveu em 2026-10-12. Formulario tem corte: 5+ anos de Product Marketing ou GTM B2B (sim/nao). Fit real estimado perto de 5 (planilha marca 9,0). Vaga remota, base Sao Paulo. CV em ingles usado: Kevin_Augusto_Vieira_Tractian_Senior_PMM_EN.",
+    "url": "https://careers.tractian.com/jobs/am9icG9zdDreHWmUVqytpwoyHRmciCGh/apply",
+    "current_stage": "Candidatado",
+    "fit_score": 50,
+    "salary_expectation": "Pendente (confirmar com Kevin)",
+    "good_points": [
+      "Product marketing e GTM em B2B tecnico (Wipro, Munzner).",
+      "Posicionamento, enablement e discovery estruturado."
+    ],
+    "improvement_points": [
+      "Possivelmente abaixo de 5 anos de PMM formal (requisito de corte).",
+      "Pouca experiencia documentada com industria e produto de manutencao."
+    ],
+    "stages": [
+      {
+        "name": "Candidatura",
+        "status": "Concluído",
+        "date": "2026-10-12"
+      },
+      {
+        "name": "Triagem (Screening)",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Entrevista",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Proposta (Offer)",
+        "status": "Pendente",
+        "date": ""
+      }
+    ]
+  },
+  {
+    "id": "79",
+    "company": "RD Station",
+    "role": "Product Manager Sênior - IA (RD Conversas)",
+    "date_applied": "2026-10-14",
+    "status": "Candidatado",
+    "status_history": [
+      {
+        "status": "Candidatado",
+        "date": "2026-10-14",
+        "source": "cowork"
+      }
+    ],
+    "notes": "Remoto Brasil, PT. Time RD Conversas (chatbot, automação e IA). Etapas: Aplicação, Mindsight, TA, Desafio Técnico, Entrevista Técnica, Final, BP Interview, Offer. CV: Kevin_Augusto_Vieira_RDStation_PM_Senior_IA_PT.pdf. Formulário: IA avançada (desenvolve soluções), case de IA = diagnóstico de abandono do Meu Barzin; marcou participação em processo RD nos últimos 6 meses (RevOps, id 42).",
+    "url": "https://job-boards.greenhouse.io/rdstation/jobs/8779414002",
+    "current_stage": "Candidatura",
+    "fit_score": 60,
+    "salary_expectation": "",
+    "good_points": [
+      "Produto conversacional real (Meu Barzin: WhatsApp, ManyChat, n8n, RAG), diferencial explícito da vaga.",
+      "IA além de texto: agentes, RAG, motor de match em Python (Career OS).",
+      "Loop de feedback de produto com stakeholders globais da Meta e adoção de IA +150%."
+    ],
+    "improvement_points": [
+      "Sem cargo formal de PM em empresa com squad de engenharia; vaga é sênior.",
+      "Pouca evidência em retenção, NPS e Customer Success.",
+      "Preparar para o desafio técnico: roadmap, priorização e métricas de produto conversacional."
+    ],
+    "stages": [
+      {
+        "name": "Candidatura",
+        "status": "Concluído",
+        "date": "2026-10-14"
+      },
+      {
+        "name": "Mindsight",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Talent Acquisition",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Desafio Técnico",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Entrevista Técnica",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Entrevista Final",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Proposta (Offer)",
         "status": "Pendente",
         "date": ""
       }
