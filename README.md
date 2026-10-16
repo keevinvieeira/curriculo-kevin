@@ -108,15 +108,28 @@ Estrutura de `data/jobs/<slug>.json` (ver exemplo em `data/jobs/modaxo-ai-transf
 `evidence.skills` deve listar **apenas** skills que existem literalmente em
 `master_resume.json` (casefold) — é o que `validate_job` checa.
 
+**Formato v2 (`"schema_version": 2`)** — acrescenta a `evidence` o mapa de evidências:
+`requirements` (cada requisito → `status` covered/partial/gap + `evidence_ids` do
+master) e `gaps` (severidade + mitigação). Especificação e exemplo em
+`data/schemas/job_artifact_v2.md`. Os IDs citáveis (`wipro-b05`, `lang-english`…) estão
+no próprio `master_resume.json`; `python -m scripts.assign_master_ids` atribui IDs só a
+itens novos e nunca renumera os existentes.
+
 ### Passo E — Validar (obrigatório, determinístico)
 `job_store.validate_job(job, master_resume)` falha se:
 1. faltar `metadata.company_name` ou `role_title`;
 2. faltar `resume`/`materials` em pt e en;
 3. `triage.decision` ≠ adapt|hold|discard;
 4. faltar `summary` no resume;
-5. houver título proibido (founder/co-founder) no resume;
-6. a carta não citar a empresa-alvo;
-7. alguma skill em `evidence.skills` não existir no master.
+5. a carta não citar a empresa-alvo;
+6. alguma skill em `evidence.skills` não existir no master;
+7. (v2) o mapa de evidências citar ID inexistente, marcar requisito como coberto sem
+   evidência, ou deixar `partial`/`gap` sem entrada em `evidence.gaps`.
+
+`job_store.job_warnings(job)` lista avisos que **não bloqueiam** ativação nem
+candidatura. Hoje: título de fundador/cofundador no resume adaptado — prefira o título
+funcional (ex.: "Consultor de Projetos de Marketing"), porque "fundador" diz pouco
+sobre a função exercida.
 
 ### Passo F — Ativar no Streamlit
 `python -m scripts.activate_job <slug> --validate`
@@ -128,6 +141,11 @@ Estrutura de `data/jobs/<slug>.json` (ver exemplo em `data/jobs/modaxo-ai-transf
 ### Passo G — Visualizar
 `streamlit run app.py` → aba **Estúdio de Adaptação** mostra o currículo ativo;
 botão "Registrar no Painel" adiciona a `applications.json`.
+
+Cada registro de `applications.json` mantém `status` (valor atual) e
+`status_history`: lista de `{status, date, source, note}`. O app e o agente registram
+cada transição via `application_history.set_status`; datas desconhecidas ficam `null`
+(nunca inventadas). Migração dos registros antigos: `scripts/migrate_applications_history.py`.
 
 ---
 
@@ -229,3 +247,60 @@ Fluxo típico ponta a ponta:
 - Localmente, `playwright install chromium` precisa ser rodado uma vez antes de usar
   `run_application_agent.py`/`run_submit_agent.py` (o ambiente de desenvolvimento
   deste projeto já vem com o Chromium pré-instalado; a sua máquina não).
+
+---
+
+## 6. Servidor MCP
+
+O Career OS também roda como servidor MCP local (`mcp_server/`), para o Claude usar
+direto na conversa. O servidor não raciocina: lê, deduplica e reporta de forma exata.
+Escolher o que destacar e escrever a adaptação continuam com o Claude.
+
+| Ferramenta | O que faz |
+|---|---|
+| `ler_master_resume` | Itens citáveis `{id, tipo, empresa, texto}` (padrão) ou o JSON completo, filtrável por seção e idioma |
+| `vagas_novas` | Recebe as linhas da planilha (`vagas`) ou lê um `.xlsx`/`.csv` local (`planilha` ou `CAREER_OS_PLANILHA`); separa novas (ordenadas por fit), já adaptadas, descartadas e já aplicadas |
+| `listar_candidaturas` | Funil por status + lista filtrável, com histórico datado e "sem resposta" derivado (Candidatado parado há N dias, padrão 14) |
+| `ler_vaga` | Uma vaga salva em `data/jobs` (metadados, currículo, materiais, mapa de evidências) |
+| `validar_adaptacao` | Guardrail anti-invenção (`grounding.py`), ver abaixo; devolve `{ok, erros, avisos}` |
+| `salvar_adaptacao` | Valida e grava `data/jobs/<slug>.json` (v2); não grava com erro nem sobrescreve sem `sobrescrever=true` |
+| `gerar_pdf` | PDFs do currículo e da carta em `exports/curriculos_vagas/<slug>/`, só se a vaga validar |
+| `registrar_candidatura` | Marca como aplicada em `applications.json` (só após o Kevin confirmar o envio); não duplica |
+| `atualizar_status` | Muda o status com data e nota no histórico |
+
+Prompts: `rotina_diaria` (Radar → vagas novas → adapta → valida → PDFs → fila por fit) e
+`preparar_entrevista` (dossiê da empresa + roteiro ancorado em IDs do master). O servidor
+nunca envia candidatura: login, CAPTCHA e o clique final ficam com o Kevin.
+
+**Guardrail (`grounding.validate_adaptation`)** — bloqueia (erro): bullet sem
+`evidence.bullet_sources` ou com ID inexistente; número num bullet que não aparece nos IDs
+citados (43,9% ≡ 43.9%, 50k ≡ 50.000); número no resumo que não existe no master; empresa
+fora do master; cargo que não compartilha ao menos metade das palavras com um título do
+master daquela empresa (PT↔EN equivalentes, ex. Especialista ≡ Specialist); mapa de
+evidências vazio ou inválido. Avisa (não bloqueia): palavras de cargo fora do título do
+master, skills e termos com cara de ferramenta/sigla que não aparecem no master.
+
+Ambiente próprio (só o que o servidor precisa):
+`uv venv .venv --python 3.11` e `uv pip install --python .venv/Scripts/python.exe mcp openpyxl pydantic rapidfuzz`.
+
+Rodar: `python -m mcp_server` (na raiz do repo) ou `python <repo>/mcp_server` de qualquer
+pasta. Registro no Claude Desktop (`%APPDATA%\Claude\claude_desktop_config.json`):
+
+```json
+{
+  "mcpServers": {
+    "career-os": {
+      "command": "C:\\Users\\kevin\\Developer\\curriculo-kevin\\.venv\\Scripts\\python.exe",
+      "args": ["C:\\Users\\kevin\\Developer\\curriculo-kevin\\mcp_server"]
+    }
+  }
+}
+```
+
+Depende do pacote `mcp` (SDK oficial, v2) — ver `requirements.txt`.
+
+**Planilha de vagas:** "Radar de Vagas — Kevin" (Google Sheets). No Claude Desktop, o
+Claude lê a planilha pelo conector do Google Drive e passa as linhas em `vagas`.
+`vagas_novas` respeita as colunas `Aplicada` (TRUE → já aplicada) e `Status no Radar`
+("Encerrada" → descartada), normaliza o fit 0–10 da planilha para 0–100 e marca com
+`atencao` vagas novas de empresas onde já existe candidatura em aberto.

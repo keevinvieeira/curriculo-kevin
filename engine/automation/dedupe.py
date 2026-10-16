@@ -18,7 +18,7 @@ from urllib.parse import urlsplit, urlunsplit, parse_qsl, urlencode
 
 _TRACKING_PARAMS = {
     "utm_source", "utm_medium", "utm_campaign", "utm_term", "utm_content",
-    "gh_src", "ref", "ref_id", "trk", "source", "fbclid", "gclid",
+    "gh_src", "ref", "ref_id", "trk", "source", "fbclid", "gclid", "jobboardsource",
 }
 _STOPWORDS = {"at", "de", "do", "da", "em", "or", "e", "and", "the", "a", "o", "para", "in"}
 

@@ -45,7 +45,7 @@ Se houver apenas um link, tente obter a descricao com as ferramentas disponiveis
 - O idioma principal do anuncio deve ser `metadata.document_language`.
 - Produza curriculos ATS concisos, priorizando Wipro, Meu Barzin, AK Branding e Munzner conforme a relevancia.
 - Reescreva bullets para destacar aderencia, mas preserve fatos, datas, empresas e metricas comprovadas.
-- Cargos adaptados devem descrever a funcao real e nao podem conter `Founder`, `Co-Founder`, `Fundador` ou `Cofundador`, conforme `job_store.py`.
+- Cargos adaptados devem descrever a funcao real: use o titulo funcional em vez de `Founder`, `Co-Founder`, `Fundador` ou `Cofundador` (fundador diz pouco sobre a funcao). `job_store.job_warnings` avisa, mas isso nunca bloqueia a ativacao nem a candidatura.
 - Skills declaradas em `evidence.skills` devem existir literalmente no idioma correspondente de `master_resume.json`.
 
 ### 4. Gerar materiais

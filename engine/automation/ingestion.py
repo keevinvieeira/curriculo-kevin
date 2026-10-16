@@ -33,7 +33,7 @@ from engine.automation.state_machine import (
     transition,
 )
 from engine.job_pipeline import JobPipeline
-from job_store import job_path, slugify, write_json
+from job_store import SCHEMA_VERSION, empty_evidence, job_path, slugify, write_json
 
 
 class IngestionError(Exception):
@@ -54,6 +54,7 @@ def build_job_skeleton(posting: RawJobPosting, score: ScoreResult) -> Dict[str, 
     slug = slugify(f"{posting.company}-{posting.title}")
     job_data: Dict[str, Any] = {
         "id": slug,
+        "schema_version": SCHEMA_VERSION,
         "metadata": {
             "company_name": posting.company,
             "role_title": posting.title,
@@ -76,7 +77,7 @@ def build_job_skeleton(posting: RawJobPosting, score: ScoreResult) -> Dict[str, 
                 f"(categorias: {', '.join(score.matched_categories) or 'nenhuma'})."
             ),
         },
-        "evidence": {"skills": {"pt": [], "en": []}},
+        "evidence": empty_evidence(),
     }
     ensure_automation_block(job_data, source=f"radar:{posting.source}")
     job_data["automation"]["fit_score_breakdown"] = score.breakdown
