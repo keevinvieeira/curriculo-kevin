@@ -50,6 +50,71 @@
    },
    "projects": [
     {
+     "id": "proj-crm-odonto",
+     "name": "CRM Odontológico com IA",
+     "description": {
+      "pt": "CRM self-hosted com agente de IA no WhatsApp para um consultório odontológico",
+      "en": "Self-hosted CRM with a WhatsApp AI agent for a dental clinic"
+     },
+     "role": {
+      "pt": "Builder de CRM, Automação e Agente de IA",
+      "en": "CRM, Automation and AI Agent Builder"
+     },
+     "dates": {
+      "pt": "2026 – Presente",
+      "en": "2026 – Present"
+     },
+     "skills": [
+      "AI Agents",
+      "LLM (OpenRouter)",
+      "WhatsApp",
+      "NocoDB",
+      "PostgreSQL",
+      "Google Calendar API",
+      "Cloudflare Tunnel/Access",
+      "GitHub Actions",
+      "VPS",
+      "LGPD"
+     ],
+     "bullets": [
+      {
+       "id": "crm-odonto-b01",
+       "tags": [
+        "ai_agents",
+        "crm",
+        "automation",
+        "revops",
+        "production"
+       ],
+       "pt": "CRM Odontológico com IA em Produção: Construiu para um consultório odontológico um CRM self-hosted com pipeline Kanban (NocoDB sobre Postgres) e o Hermes, agente de IA 24/7 no WhatsApp integrado ao Google Agenda, que atende e agenda pacientes, dispara confirmações automáticas de consulta e gera orçamentos que só saem com aprovação humana.",
+       "en": "AI-Powered Dental CRM in Production: Built a self-hosted CRM for a dental clinic with a Kanban pipeline (NocoDB on Postgres) and Hermes, a 24/7 WhatsApp AI agent integrated with Google Calendar that answers and books patients, sends automatic appointment confirmations and drafts quotes that only go out after human approval."
+      },
+      {
+       "id": "crm-odonto-b02",
+       "tags": [
+        "infrastructure",
+        "governance",
+        "lgpd",
+        "responsible_ai",
+        "devops"
+       ],
+       "pt": "Infraestrutura e Governança de IA: Opera a stack em VPS própria (Postgres, NocoDB, Cloudflare Tunnel/Access, bridge de WhatsApp e LLM via OpenRouter) com deploy por GitHub Actions; o agente roda em sandbox e com ferramentas limitadas, e o prontuário por áudio é transcrito localmente, sem o áudio clínico sair do servidor, em linha com a LGPD.",
+       "en": "Infrastructure and AI Governance: Runs the stack on a private VPS (Postgres, NocoDB, Cloudflare Tunnel/Access, a WhatsApp bridge and LLMs via OpenRouter) with GitHub Actions deployment; the agent runs sandboxed with limited tools, and voice notes for patient records are transcribed locally so clinical audio never leaves the server, in line with Brazil's LGPD."
+      },
+      {
+       "id": "crm-odonto-b03",
+       "tags": [
+        "cost_reduction",
+        "build_vs_buy",
+        "revops",
+        "tool_stack"
+       ],
+       "pt": "Redução de Custo de Stack: Desenhou a solução para substituir Kommo e n8n Cloud (US$ 100-145/mês) por uma stack própria com custo alvo de US$ 14-18/mês, cerca de 85% menos.",
+       "en": "Stack Cost Reduction: Designed the solution to replace Kommo and n8n Cloud (US$100-145/month) with an in-house stack targeting US$14-18/month, about 85% less."
+      }
+     ]
+    },
+    {
      "id": "proj-ai-career-os",
      "name": "AI Career OS & Cérebro Profissional 3D",
      "description": {
