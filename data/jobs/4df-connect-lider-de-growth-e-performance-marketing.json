@@ -1,0 +1,317 @@
+{
+  "id": "4df-connect-lider-de-growth-e-performance-marketing",
+  "metadata": {
+    "company_name": "4DF Connect",
+    "role_title": "Líder de Growth e Performance Marketing",
+    "url": "https://www.geekhunter.com/pt/confidential/jobs/lider-de-growth-e-performance-marketing-2",
+    "fit_score": 87,
+    "salary_expectation": "R$ 7.000 – R$ 7.840/mês (CLT / 100% Remoto)",
+    "document_language": "pt",
+    "available_languages": [
+      "pt",
+      "en"
+    ],
+    "location": "Brasil · 100% Remoto (CLT)",
+    "employment_type": "CLT / Tempo integral",
+    "deadline": "01/02/2027",
+    "source_files": [
+      "master_resume.json"
+    ],
+    "good_points": [
+      "Estruturação de growth do zero: AK Branding (Meta Ads, CRO +250%, LPs gerando 5 leads/dia), Meu Barzin (505 leads) e Munzner (~R$ 50k em receita automatizada).",
+      "Certificações ativas Meta Media Planning Professional e Digital Marketing Associate + referência técnica em estratégias Meta Ads para 150+ profissionais na Wipro.",
+      "Liderança e capacitação de times comprovada no Next Level Bootcamp (12 consultores, 100% conclusão) e painéis em Power BI/Excel com MIS."
+    ],
+    "improvement_points": [
+      "Aprofundar operação direta de Google Ads e dashboards no Looker (além de Power BI e Meta Ads já dominados), além de formalizar histórico de gestão direta de equipe."
+    ]
+  },
+  "triage": {
+    "decision": "adapt",
+    "blockers": [],
+    "notes": [
+      "Fit 87, GeekHunter aberta até 01/02/2027, 100% remoto CLT."
+    ],
+    "gaps": []
+  },
+  "resume": {
+    "pt": {
+      "name": "Kevin Augusto Vieira",
+      "location": "Curitiba, PR | 100% Remoto",
+      "phone": "+55 (41) 99694-1615",
+      "email": "kevin.aug.vieira@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/kevin-augusto/",
+      "github": "",
+      "website": "",
+      "summary": "Líder de Growth e Performance Marketing com mais de 8 anos estruturando máquinas de aquisição B2B e B2C do zero, combinando mídia paga (Meta Ads Certificado), otimização de conversão (CRO), automação de CRM e inteligência de dados. Na Wipro (Projeto Meta), atuou como referência técnica para 150+ profissionais e liderou programa de capacitação reduzindo ramp-up em 50%. Na AK Branding e Munzner, elevou captação de leads em +250%, escalou funis automatizados (~R$ 50k) e gerenciou 40+ projetos com foco em ROI.",
+      "experience": [
+        {
+          "company": "Wipro Brasil",
+          "role": "Líder de Capacitação Técnica & Referência em Estratégias Meta (Projeto Meta)",
+          "dates": "Setembro 2024 – Julho 2026",
+          "location": "Curitiba, PR / Remoto",
+          "bullets": [
+            "Referência Técnica em Mídia & GTM: Atuou como referência técnica da operação em estratégias de anúncios na Meta para 150+ Marketing Pros, traduzindo evoluções de plataforma em pitches e planos comerciais.",
+            "Liderança de Programa & Ramp-up (-50%): Idealizou e liderou o Next Level Bootcamp para 12 consultores com 100% de conclusão, 90%+ de qualidade e redução do ramp-up de 6 para 3 meses.",
+            "Data Analytics & IA (+150%): Explorou painéis em Power BI e Excel junto ao time de MIS para orientar planos de ação e liderou a adoção de IA no CRM (+150%, #1 global)."
+          ]
+        },
+        {
+          "company": "AK Branding & Web Design",
+          "role": "Líder de Growth, Performance e Projetos Digitais",
+          "dates": "Março 2019 – Setembro 2024",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Performance & Experimentação (+250% Leads): Planejou e executou campanhas em Meta Ads, testes A/B em criativos e landing pages, elevando a captação de 8 para 20–30 leads/mês (+250%) e gerando 5 leads qualificados/dia em LPs imobiliárias.",
+            "Empacotamento & Pipeline B2B (40+ Contas): Estruturou oferta escalonada em pacotes (básico, avançado e completo) atingindo 40%–60% de fechamento em propostas orgânicas por indicação.",
+            "Crescimento Orgânico 0→1: Lançou e-commerce do zero com R$ 10.000 em vendas nos 3 primeiros meses sem investimento em mídia paga."
+          ]
+        },
+        {
+          "company": "Munzner",
+          "role": "Especialista em Growth e Aquisição Automatizada",
+          "dates": "Outubro 2018 – Agosto 2024",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Funil de Aquisição (~R$ 50k): Construiu funil automatizado de 10 etapas (Sendpulse) e artigos de SEO (~10% de conversão visitor-to-lead), atraindo 10.000+ visitas e ~R$ 50 mil em receita.",
+            "Pricing, Order Bump & ROI: Lançou o 1º produto digital com order bump de 1h de mentoria, garantindo 50 vendas em 2 meses e ROI de 1.0x–1.5x."
+          ]
+        },
+        {
+          "company": "AI Builder — Projetos de Produtos",
+          "role": "Líder de Produto & Growth (Meu Barzin & AI Career OS)",
+          "dates": "Dezembro 2025 – Agosto 2026",
+          "location": "Remoto",
+          "bullets": [
+            "Geração de Demanda & Funil (505 Leads): Captou 505 leads qualificados e escalou base social (2.000+ seguidores) com funil conversacional no WhatsApp/n8n atingindo 22,3% de usuários altamente engajados.",
+            "Engenharia de Dados & IA: Modelou bases em Supabase/PostgreSQL e orquestrou fluxos de IA que aceleraram entregas digitais em +10x."
+          ]
+        }
+      ],
+      "skills": [
+        {
+          "category": "Growth & Performance Marketing",
+          "skills": [
+            "Meta Ads (Certificado Media Planning & Digital Marketing)",
+            "Geração de Demanda B2B e Funil Full-Funnel",
+            "Testes A/B e Otimização de Conversão (CRO)",
+            "Landing Pages e WordPress / Elementor",
+            "Métricas de Performance (CTR, CPL, CAC, LTV, ROAS, MQL→SQL)"
+          ]
+        },
+        {
+          "category": "Liderança, Dados & BI",
+          "skills": [
+            "Treinamento e Habilitação de Times (Bootcamps & Facilitação)",
+            "Power BI, Excel Avançado e Google Analytics",
+            "Análise de Causa Raiz e OKRs",
+            "Gestão de Orçamento e Cronogramas (PMO/Ágil)"
+          ]
+        },
+        {
+          "category": "CRM, Automação & IA",
+          "skills": [
+            "RD Station, Sendpulse, Bitrix24 e CRMs Meta",
+            "n8n, Make, APIs e Webhooks",
+            "Supabase / PostgreSQL",
+            "Engenharia de Prompt e Workflows de IA"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "Universidade Federal do Paraná (UFPR)",
+          "degree": "Bacharelado e Licenciatura em Filosofia",
+          "dates": "2018 - 2023"
+        },
+        {
+          "institution": "Universidade Federal do Paraná (UFPR) / UTFPR",
+          "degree": "Bacharelado em Engenharia (Incompleto - 2,5 anos cursados)",
+          "dates": "2012 - 2015"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "Meta Certified Media Planning Professional",
+          "issuer": "Meta",
+          "status": "Ativo"
+        },
+        {
+          "name": "Meta Certified Digital Marketing Associate",
+          "issuer": "Meta",
+          "status": "Ativo"
+        },
+        {
+          "name": "Google Project Management Professional Certificate",
+          "issuer": "Coursera / Google",
+          "status": "Em andamento"
+        }
+      ],
+      "languages": [
+        {
+          "language": "Português",
+          "proficiency": "Nativo"
+        },
+        {
+          "language": "Inglês",
+          "proficiency": "Avançado / Fluente (uso corporativo diário em alinhamentos, documentação e relatórios internacionais)"
+        }
+      ],
+      "additional_information": [
+        "Inglês avançado para comunicação corporativa diária, relatórios e alinhamento técnico."
+      ]
+    },
+    "en": {
+      "name": "Kevin Augusto Vieira",
+      "location": "Curitiba, PR, Brazil | 100% Remote",
+      "phone": "+55 (41) 99694-1615",
+      "email": "kevin.aug.vieira@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/kevin-augusto/",
+      "github": "",
+      "website": "",
+      "summary": "Growth & Performance Marketing Lead with 8+ years building B2B/B2C acquisition engines from zero—combining certified paid media (Meta Ads), CRO experimentation, CRM automation, and BI telemetry. At Wipro (Meta Project), served as technical reference for Meta ad strategies across 150+ pros and led training cohorts cutting ramp-up by 50%. Across AK Branding and Munzner, lifted leads by +250% and scaled automated funnels generating ~R$ 50k in revenue.",
+      "experience": [
+        {
+          "company": "Wipro Brazil",
+          "role": "Technical Enablement Lead & Meta Ads Reference (Meta Project)",
+          "dates": "September 2024 – July 2026",
+          "location": "Curitiba, Brazil / Remote",
+          "bullets": [
+            "Paid Media & GTM Technical Reference: Served as technical reference for Meta ad strategies across 150+ Marketing Pros, translating product updates into commercial frameworks.",
+            "Cohort Leadership & Ramp-up (-50%): Designed and led the Next Level Bootcamp for 12 consultants (100% completion, 90%+ quality, halving ramp-up from 6 to 3 months).",
+            "Data Analytics & AI Adoption (+150%): Partnered with MIS using Power BI and Excel dashboards to guide corrective actions and drove #1 global CRM AI adoption (+150%)."
+          ]
+        },
+        {
+          "company": "AK Branding & Web Design",
+          "role": "Growth, Performance & Digital Projects Lead",
+          "dates": "March 2019 – September 2024",
+          "location": "Curitiba, Brazil",
+          "bullets": [
+            "Performance & Experimentation (+250% Leads): Managed Meta Ads, creative A/B tests, and landing pages, lifting lead capture from 8 to 20–30/month (+250%) and driving 5 qualified leads/day on real estate LPs.",
+            "Packaging & Referral B2B Pipeline (40+ Accounts): Built tiered packages (basic, advanced, complete), sustaining a 40%–60% referral proposal close rate across 40+ B2B/B2C accounts.",
+            "0-to-1 Organic Scale: Built an e-commerce store generating R$ 10k in 3 months organically ($0 ad spend)."
+          ]
+        },
+        {
+          "company": "Munzner",
+          "role": "Growth & Automated Acquisition Specialist",
+          "dates": "October 2018 – August 2024",
+          "location": "Curitiba, Brazil",
+          "bullets": [
+            "Acquisition Funnel (~R$ 50k): Engineered a 10-stage automated funnel (Sendpulse) and SEO blog (~10% visitor-to-lead conversion) generating 10,000+ visits and ~R$ 50k revenue.",
+            "Pricing, Order Bump & ROI: Launched the first digital course with a 1h mentoring order bump, achieving 50 sales in 2 months (1.0x–1.5x ROI) tracked via CRM."
+          ]
+        },
+        {
+          "company": "AI Builder — Product Projects",
+          "role": "Product & Growth Lead (Meu Barzin & AI Career OS)",
+          "dates": "December 2025 – August 2026",
+          "location": "Remote",
+          "bullets": [
+            "Demand Generation (505 Leads): Captured 505 qualified leads and grew social channels (2,000+ followers) with a WhatsApp/n8n AI funnel hitting 22.3% high engagement.",
+            "Data & AI Engineering: Modeled Supabase/PostgreSQL databases and orchestrated AI workflows delivering +10x execution speed."
+          ]
+        }
+      ],
+      "skills": [
+        {
+          "category": "Growth & Performance Marketing",
+          "skills": [
+            "Meta Ads (Certified Media Planning & Digital Marketing)",
+            "B2B Demand Generation & Full-Funnel Strategy",
+            "A/B Testing & Conversion Rate Optimization (CRO)",
+            "Landing Pages & WordPress / Elementor",
+            "Performance Metrics (CTR, CPL, CAC, LTV, ROAS, MQL→SQL)"
+          ]
+        },
+        {
+          "category": "Leadership, Data & BI",
+          "skills": [
+            "Team Coaching, Bootcamps & Facilitation",
+            "Power BI, Advanced Excel & Google Analytics",
+            "Root Cause Analysis & OKRs",
+            "Budget & Timeline Management (PMO/Agile)"
+          ]
+        },
+        {
+          "category": "CRM, Automation & AI",
+          "skills": [
+            "RD Station, Sendpulse, Bitrix24 & Meta CRMs",
+            "n8n, Make, APIs & Webhooks",
+            "Supabase / PostgreSQL",
+            "Prompt Engineering & AI Workflows"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "Federal University of Parana (UFPR)",
+          "degree": "Bachelor Degree and Licentiate in Philosophy",
+          "dates": "2018 - 2023"
+        },
+        {
+          "institution": "Federal University of Parana (UFPR) / UTFPR",
+          "degree": "B.S. in Engineering (Incomplete - 2.5 years completed)",
+          "dates": "2012 - 2015"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "Meta Certified Media Planning Professional",
+          "issuer": "Meta",
+          "status": "Active"
+        },
+        {
+          "name": "Meta Certified Digital Marketing Associate",
+          "issuer": "Meta",
+          "status": "Active"
+        },
+        {
+          "name": "Google Project Management Professional Certificate",
+          "issuer": "Coursera / Google",
+          "status": "In progress"
+        }
+      ],
+      "languages": [
+        {
+          "language": "Portuguese",
+          "proficiency": "Native"
+        },
+        {
+          "language": "English",
+          "proficiency": "Advanced / Fluent (daily corporate use in international stakeholder alignment and reporting)"
+        }
+      ],
+      "additional_information": [
+        "Advanced English for daily corporate reporting and technical alignment."
+      ]
+    }
+  },
+  "materials": {
+    "pt": {
+      "cover_letter": "Olá, time da 4DF Connect!\n\nFiquei bastante animado ao ver a vaga de Líder de Growth e Performance Marketing no GeekHunter. Estruturar frentes de crescimento do zero unindo mídia, análise de funil, CRM e orientação de time é exatamente o eixo onde tenho entregado meus resultados mais consistentes.\n\nNa Wipro (Projeto Meta), fui referência técnica em estratégias de anúncios da Meta para 150+ profissionais, trabalhei em parceria com o time de dados em Power BI e liderei o Next Level Bootcamp com 100% de conclusão e redução de 50% no ramp-up dos consultores. Em paralelo, gerenciei campanhas de Meta Ads, testes A/B e otimização de landing pages na AK Branding (+250% em captação de leads), estruturei funil automatizado que gerou ~R$ 50 mil na Munzner e captei 505 leads no piloto do Meu Barzin.\n\nSerá um prazer conversar com vocês da 4DF Connect para detalhar esses números e entender os objetivos atuais de crescimento da operação!\n\nUm abraço,\nKevin Augusto Vieira",
+      "form_answers": [
+        {
+          "question": "Qual sua experiência estruturando operações de growth, mídia e orientação de times?",
+          "answer": "Na AK Branding, liderei mais de 40 projetos digitais operando Meta Ads, testes A/B e CRO (elevando leads em +250% e gerando 5 leads/dia em LPs B2B/imobiliárias). Na Wipro (Projeto Meta), atuei como referência técnica em Meta Ads para 150+ profissionais e liderei o Next Level Bootcamp para 12 consultores, alcançando 100% de conclusão e -50% de tempo de ramp-up."
+        }
+      ]
+    },
+    "en": {
+      "cover_letter": "Hi 4DF Connect team!\n\nI was thrilled to find the Growth and Performance Marketing Lead role. Building growth engines from scratch by connecting paid acquisition, funnel analytics, CRM automation, and team coaching is where I have consistently delivered impact.\n\nAt Wipro (Meta Project), I served as technical reference for Meta ad strategies across 150+ pros, partnered with MIS on Power BI diagnostics, and led a bootcamp achieving 100% completion and a 50% ramp-up reduction. Across AK Branding, Munzner, and Meu Barzin, I managed Meta Ads and A/B experiments (+250% leads), built automated funnels generating ~R$ 50k, and captured 505 qualified pilot leads.\n\nI would love to connect with 4DF Connect to share more details and learn about your growth roadmap!\n\nBest regards,\nKevin Augusto Vieira",
+      "form_answers": [
+        {
+          "question": "Describe your experience structuring growth operations and mentoring teams.",
+          "answer": "At AK Branding I led 40+ projects running Meta Ads, A/B tests, and CRO (+250% leads). At Wipro (Meta Project), I mentored 150+ professionals on Meta ad strategies and led the Next Level Bootcamp for 12 consultants (100% completion, -50% ramp-up)."
+        }
+      ]
+    }
+  },
+  "evidence": {
+    "skills": {
+      "pt": [],
+      "en": []
+    }
+  }
+}

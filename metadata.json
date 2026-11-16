@@ -1,24 +1,28 @@
 {
-  "company_name": "HR Tech Co",
-  "role_title": "Growth Marketer (AI-Driven)",
-  "url": "",
-  "fit_score": 96,
-  "salary_expectation": "USD 4,000 – 5,500 / month (LATAM Remote, 40h/week)",
-  "document_language": "en",
+  "company_name": "Logcomex",
+  "role_title": "Especialista em RevOps",
+  "url": "https://logcomex.gupy.io/jobs/12730007",
+  "fit_score": 92,
+  "salary_expectation": "A negociar (CLT / Curitiba ou Remoto)",
+  "document_language": "pt",
   "available_languages": [
-    "en",
-    "pt"
+    "pt",
+    "en"
   ],
+  "location": "Brasil · Curitiba (sede) / Modelo a confirmar",
+  "employment_type": "Tempo integral",
+  "deadline": "31/12/2026",
   "source_files": [
     "master_resume.json"
   ],
   "good_points": [
-    "4+ years of solid B2B Growth Marketing experience with proven leadership of AI-driven growth and agentic workflows.",
-    "Hands-on AI-Native product leadership (AI Career OS & Meu Barzin), orchestrating LLMs, scale personalization (AEO), and technical specs alongside GTM Engineers.",
-    "Deep expertise in ABM Strategy, Demand Gen, and Marketing Ops with #1 global ranking in CRM AI tool adoption (+150%) at Wipro (Meta Project).",
-    "End-to-end alignment connecting growth strategy to CRM pipeline data (Salesforce, HubSpot, Power BI) and revenue velocity."
+    "Integração rara de operações de CRM/GTM (Wipro/Meta: +150% adoção #1 global) com CRM self-hosted em produção (NocoDB sobre Postgres, agente Hermes no WhatsApp/Google Agenda) e economia de ~85% de stack.",
+    "Governança de dados e arquitetura SSOT estruturada no AI Career OS (100% integridade de schema) e atuação de Product Owner/Tech Lead em projetos próprios.",
+    "Análise de funil ponta a ponta, SQL básico e painéis no Power BI com time MIS na Wipro, além de pipelines n8n, Make, APIs/webhooks e Supabase/PostgreSQL no Meu Barzin.",
+    "Residente em Curitiba/PR (cidade-sede da Logcomex), disponível para presencial, híbrido ou remoto."
   ],
   "improvement_points": [
-    "Review HR Tech Co's specific web de-anonymization and proprietary intent data toolstack during initial onboarding sprint."
+    "Aprofundar administração avançada de HubSpot/Salesforce e governança de objetos customizados em produção.",
+    "Consolidar rotinas em Metabase e fluxos de RevOps estruturados no Jira; confirmar modalidade de trabalho (remoto x híbrido em Curitiba)."
   ]
 }

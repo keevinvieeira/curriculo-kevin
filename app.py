@@ -27,7 +27,7 @@ try:
         AdaptedResume,
         JobMaterials
     )
-    from job_store import activate_job, load_active_job
+    from job_store import JOBS_DIR, activate_job, load_active_job
     from components.brain_insights import render_brain_insights
     from engine.automation.queue_actions import (
         approve_resume,
@@ -214,6 +214,66 @@ elif "master_resume.json" in metadata.get("source_files", []):
 
 # Sidebar settings
 st.sidebar.markdown("<h2 style='color:#1a365d;'>⚙️ Configurações</h2>", unsafe_allow_html=True)
+
+def load_available_jobs():
+    jobs_list = []
+    if not JOBS_DIR.exists():
+        return jobs_list
+    for path in JOBS_DIR.glob("*.json"):
+        if path.name == "active.json":
+            continue
+        try:
+            with path.open("r", encoding="utf-8") as f:
+                data = json.load(f)
+            if not isinstance(data, dict):
+                continue
+            meta = data.get("metadata")
+            if not isinstance(meta, dict):
+                continue
+            company = meta.get("company_name")
+            role = meta.get("role_title")
+            if not company or not role or not isinstance(data.get("resume"), dict) or not isinstance(data.get("materials"), dict):
+                continue
+            fit_raw = meta.get("fit_score", 0)
+            try:
+                fit_val = int(round(float(fit_raw)))
+            except (TypeError, ValueError):
+                fit_val = 0
+            jobs_list.append({
+                "id": data.get("id") or path.stem,
+                "company": company,
+                "role": role,
+                "fit_score": fit_val,
+            })
+        except Exception:
+            continue
+    jobs_list.sort(key=lambda item: (-item["fit_score"], item["company"].casefold(), item["role"].casefold()))
+    return jobs_list
+
+available_jobs = load_available_jobs()
+if available_jobs:
+    st.sidebar.markdown("<h3 style='color:#1a365d; font-size:1rem;'>📂 Selecionar Vaga Adaptada</h3>", unsafe_allow_html=True)
+    job_ids = [item["id"] for item in available_jobs]
+    job_labels = {
+        item["id"]: f"[{item['fit_score']}%] {item['company']} — {item['role']}"
+        for item in available_jobs
+    }
+    current_job_id = active_job.get("id") if active_job else None
+    default_job_idx = job_ids.index(current_job_id) if current_job_id in job_ids else 0
+    selected_job_id = st.sidebar.selectbox(
+        "Escolha uma vaga salva:",
+        options=job_ids,
+        index=default_job_idx,
+        key=f"job_selector_{current_job_id or 'none'}",
+        format_func=lambda jid: job_labels.get(jid, jid),
+        help="Alterna imediatamente o currículo, análise de fit, carta e respostas carregados no estúdio."
+    )
+    if selected_job_id and selected_job_id != current_job_id:
+        activate_job(selected_job_id)
+        st.session_state.adapted_resume = None
+        st.session_state.job_materials = None
+        st.session_state.last_loaded_context = None
+        st.rerun()
 
 # Idioma do Documento (PT / EN)
 st.sidebar.markdown("<h3 style='color:#1a365d; font-size:1rem;'>🌐 Idioma do Currículo</h3>", unsafe_allow_html=True)

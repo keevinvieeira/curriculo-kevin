@@ -1,132 +1,100 @@
 {
   "name": "Kevin Augusto Vieira",
-  "location": "Curitiba, PR, Brasil | Remoto",
+  "location": "Curitiba, PR | Disponível para Híbrido ou Remoto",
   "phone": "+55 (41) 99694-1615",
   "email": "kevin.aug.vieira@gmail.com",
   "linkedin": "https://www.linkedin.com/in/kevin-augusto/",
   "github": "",
   "website": "",
-  "summary": "Growth Marketer e Especialista em GTM orientado a IA com 6+ anos de experiência liderando geração de demanda B2B, programas de crescimento impulsionados por IA e estratégias de ABM. Especializado na colaboração próxima com GTM Engineers para construir personalização em escala, fluxos agênticos e motores de aquisição de alta conversão.",
+  "summary": "Especialista em Revenue Operations (RevOps), CRM e Automação com mais de 8 anos unindo estratégia comercial, governança de dados e arquitetura de sistemas. No Projeto Meta (Wipro), liderou a adoção de IA no CRM proprietário (#1 global, +150%) e estruturou análises de funil com o time de dados (MIS/Power BI), reduzindo o ramp-up comercial em 50%. Combina experiência prática com APIs, webhooks, n8n, Make e bancos Supabase/PostgreSQL com mentalidade de Product Owner em projetos digitais e base analítica em Engenharia (2,5 anos, UFPR/UTFPR) e Filosofia (UFPR).",
   "experience": [
     {
       "company": "AI Builder — Projetos de Produtos",
-      "role": "Líder de Produto & Arquiteto de Sistemas com IA (AI Career OS & Cérebro 3D)",
-      "dates": "Julho 2026 – Presente",
-      "location": "Remoto",
+      "role": "Arquiteto de Sistemas & Builder de CRM com IA (CRM Odontológico, AI Career OS & Meu Barzin)",
+      "dates": "Dezembro 2025 – Agosto 2026",
+      "location": "Curitiba, PR",
       "bullets": [
-        "Idealizou e arquitetou o AI Career OS, motor de matching ontológico utilizando orquestração de LLMs e GraphRAG com >95% de precisão contextual.",
-        "Construiu pipelines de IA generativa para personalização hiper-customizada em escala garantindo zero alucinações via tipagem estrita (SSOT).",
-        "Atuou como tech lead utilizando engenharia acelerada por IA (Vibe Coding), garantindo +10x de velocidade de entrega."
+        "CRM Odontológico Self-Hosted & Eficiência (-85% Custo): Construiu em VPS própria um CRM Kanban (NocoDB sobre Postgres) com agente de IA 24/7 no WhatsApp (Hermes) integrado ao Google Agenda e deploy via GitHub Actions, substituindo Kommo/n8n Cloud (US$ 100–145/mês para US$ 14–18/mês).",
+        "Governança SSOT, APIs & Webhooks (AI Career OS & Meu Barzin): Concebeu arquitetura SSOT em JSON Schema (100% governança) e conectou bancos Supabase/PostgreSQL via n8n, webhooks e APIs (ManyChat/WhatsApp + RAG), captando 505 leads com 22,3% de usuários altamente engajados.",
+        "Diagnóstico de Funil & Latência: Analisou logs de conversas e funil identificando gargalos de latência de API por trás de 43,9% de abandono inicial para orientar backlog de produto."
       ]
     },
     {
-      "company": "AI Builder — Projetos de Produtos",
-      "role": "Gerente de Produto & GTM (Meu Barzin)",
-      "dates": "Dezembro 2025 – Março 2026",
-      "location": "Remoto",
-      "bullets": [
-        "Liderou estratégia de GTM e funil de aquisição sem atrito, capturando 505 leads qualificados de topo de funil em 48h com zero gasto em mídia.",
-        "Implementou agentes de IA conversacional com guardrails de zero alucinação, alcançando 22.3% de taxa de reengajamento recorrente.",
-        "Conectou dados em tempo real (Supabase/PostgreSQL) para rastreamento completo de conversão e métricas de CAC/LTV."
-      ]
-    },
-    {
-      "company": "Wipro (Projeto Meta)",
-      "role": "Especialista em Operações de Marketing / GTM e Sales Enablement",
+      "company": "Wipro Brasil",
+      "role": "Especialista em Operações de Marketing / GTM e CRM (Projeto Meta)",
       "dates": "Setembro 2024 – Julho 2026",
-      "location": "Curitiba, PR / Remoto",
+      "location": "Curitiba, PR",
       "bullets": [
-        "Liderou ativação de GTM, frameworks de ABM e capacitação para 150+ profissionais de marketing em ferramentas e metodologias Meta.",
-        "Alcançou a 1ª posição global em crescimento de adoção de ferramentas de IA no CRM (+150%), treinando times comerciais e técnicos.",
-        "Monitorou saúde de pipeline, funil multicanal e integração de dados no Salesforce/Power BI com foco em eficiência de receita."
+        "CRM Enablement & Adoção Recorde (#1 Global): Liderou a ativação de IA nativa no CRM proprietário para 150+ profissionais, elevando o uso de 4 para 10 prompts/dia (+150%, 1º lugar global) com workshops e side-by-side coaching.",
+        "Data Analytics & Redução de Ramp-up (-50%): Em parceria com o time de dados (MIS), explorou painéis de Power BI e Excel para diagnosticar lacunas de conversão e liderar o Next Level Bootcamp, reduzindo o ramp-up de 6 para 3 meses (90%+ qualidade).",
+        "Governança Ágil & Processos Comerciais: Geriu backlog, OKRs e planos de ação corretivos via análise de causa raiz, além de atuar na governança e segurança de compartilhamento de dados (BCP)."
       ]
     },
     {
       "company": "Munzner",
-      "role": "Especialista em Marketing & Growth",
+      "role": "Especialista em Marketing Operations, CRM e Growth",
       "dates": "Outubro 2018 – Agosto 2024",
       "location": "Curitiba, PR",
       "bullets": [
-        "Estruturou funil de nutrição inbound/outbound em 10 etapas gerando 10.000+ visitas qualificadas e ~R$ 50k em vendas B2B high-ticket.",
-        "Conduziu testes A/B rápidos e otimização de taxa de conversão (CRO), aumentando a taxa de conversão em +250%.",
-        "Definiu estratégias de ABM e segmentação de ICP conectando engajamento de campanhas diretamente a faturamento."
+        "Automação de CRM & Receita (~R$ 50k): Estruturou funil automatizado em 10 etapas (Sendpulse) que gerou 10.000+ visitas e ~R$ 50 mil em receita high-ticket.",
+        "Mensuração de Funil & ROI: Acompanhou caminhos de aquisição e dados de CRM para otimizar conversão e sustentar ROI de 1.0x a 1.5x no lançamento do produto digital (50 vendas em 2 meses)."
       ]
     },
     {
       "company": "AK Branding & Web Design",
-      "role": "Fundador & Consultor de Marketing",
+      "role": "Consultor de Projetos Digitais, Funis e Analytics",
       "dates": "Março 2019 – Setembro 2024",
       "location": "Curitiba, PR",
       "bullets": [
-        "Entregou consultoria estratégica de crescimento, posicionamento e arquitetura de demanda para 20+ clientes e startups.",
-        "Gerenciou campanhas de mídia paga (Google e Meta Ads) conectadas a CRMs para maximizar o ROAS."
+        "Operação Consultiva & Pipeline B2B (40+ Projetos): Gerenciou escopo, empacotamento escalonado e cronograma de 40+ entregas com 40%–60% de conversão em propostas por indicação e 100% conformidade LGPD.",
+        "CRO & Experimentação (+250%): Implementou fluxos digitais, chatbots e testes A/B que elevaram a captação de leads de 8 para 20–30 contatos/mês (+250%)."
       ]
     }
   ],
   "skills": [
     {
-      "category": "Tecnologias de IA & Fluxos Agênticos",
+      "category": "RevOps, CRM & Governança",
       "skills": [
-        "Claude",
-        "Orquestração de LLMs",
-        "Fluxos Agênticos",
-        "Engenharia e Governança de Prompts",
-        "AEO/GEO",
-        "Personalização em Escala"
+        "Mapeamento de Funil (MQL/SQL)",
+        "Governança de Dados & SSOT",
+        "CRMs Meta, RD Station, Sendpulse, Bitrix24",
+        "Análise de Causa Raiz",
+        "OKRs, Backlog e Documentação"
       ]
     },
     {
-      "category": "Growth, ABM & Geração de Demanda",
+      "category": "Integrações, Dados & Automação",
       "skills": [
-        "Estratégia de ABM",
-        "Geração de Demanda B2B",
-        "Prospecção Multicanal",
-        "Funis Inbound e Outbound",
-        "Analytics de Funil & CRO",
-        "Segmentação de ICP & Enriquecimento"
+        "n8n e Make",
+        "APIs REST e Webhooks",
+        "Supabase / PostgreSQL e NocoDB",
+        "SQL Básico e Modelagem de Dados",
+        "Power BI, Excel e Google Sheets Avançados"
       ]
     },
     {
-      "category": "Operações de Marketing & CRMs",
+      "category": "GTM, Produto & IA",
       "skills": [
-        "HubSpot",
-        "Salesforce",
-        "Marketing Operations",
-        "Métricas de Receita (CAC/LTV/ROAS)",
-        "Power BI",
-        "SQL & Supabase"
-      ]
-    },
-    {
-      "category": "Colaboração Técnica & Execução",
-      "skills": [
-        "Parceria com GTM Engineers",
-        "Experimentação Rápida",
-        "PRDs e Especificações Técnicas",
-        "Arquitetura de Dados",
-        "Noções de Python",
-        "CI/CD & Deploy"
+        "Product Ownership & Discovery",
+        "Engenharia de Prompt & Fluxos com IA",
+        "GTM e Sales Enablement",
+        "UTM Tracking e Mensuração de ROI/CAC/LTV"
       ]
     }
   ],
   "education": [
     {
       "institution": "Universidade Federal do Paraná (UFPR)",
-      "degree": "Bacharelado e Licenciatura em Filosofia (Lógica e Pensamento Estrutural)",
-      "dates": "2018 – 2023"
+      "degree": "Bacharelado e Licenciatura em Filosofia",
+      "dates": "2018 - 2023"
     },
     {
       "institution": "Universidade Federal do Paraná (UFPR) / UTFPR",
-      "degree": "Engenharias (2,5 anos concluídos)",
-      "dates": "2012 – 2015"
+      "degree": "Bacharelado em Engenharia (Incompleto - 2,5 anos cursados)",
+      "dates": "2012 - 2015"
     }
   ],
   "certifications": [
-    {
-      "name": "Google Project Management Professional Certificate",
-      "issuer": "Coursera / Google",
-      "status": "Em andamento"
-    },
     {
       "name": "Meta Certified Media Planning Professional",
       "issuer": "Meta",
@@ -136,24 +104,24 @@
       "name": "Meta Certified Digital Marketing Associate",
       "issuer": "Meta",
       "status": "Ativo"
+    },
+    {
+      "name": "Google Project Management Professional Certificate",
+      "issuer": "Coursera / Google",
+      "status": "Em andamento"
     }
   ],
   "languages": [
-    {
-      "language": "Inglês",
-      "proficiency": "Avançado / Fluência Profissional Completa (Uso corporativo diário para alinhamentos técnicos e relatórios)"
-    },
     {
       "language": "Português",
       "proficiency": "Nativo"
     },
     {
-      "language": "Espanhol",
-      "proficiency": "Básico"
+      "language": "Inglês",
+      "proficiency": "Avançado / Fluente (uso corporativo diário em alinhamentos, documentação e relatórios internacionais)"
     }
   ],
   "additional_information": [
-    "Especialista em colaborar diretamente com GTM Engineers para transformar dados brutos e recursos de IA em alavancas de receita.",
-    "Experiência comprovada em ambientes de startups e trabalho 100% remoto focado no mercado LATAM/US."
+    "Baseado em Curitiba/PR com disponibilidade imediata para modelo remoto ou híbrido/presencial na região."
   ]
 }

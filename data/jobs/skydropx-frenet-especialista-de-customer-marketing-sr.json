@@ -1,0 +1,313 @@
+{
+  "id": "skydropx-frenet-especialista-de-customer-marketing-sr",
+  "metadata": {
+    "company_name": "Skydropx (Frenet)",
+    "role_title": "Especialista de Customer Marketing (Lifecycle, Engagement e CRM) Sr",
+    "url": "https://www.linkedin.com/jobs/view/4489823346",
+    "fit_score": 90,
+    "salary_expectation": "A negociar (CLT / Curitiba Híbrido)",
+    "document_language": "pt",
+    "available_languages": [
+      "pt",
+      "en"
+    ],
+    "location": "Curitiba, PR · Híbrido (CLT)",
+    "employment_type": "CLT / Tempo integral",
+    "deadline": "Ativa no LinkedIn",
+    "source_files": [
+      "master_resume.json"
+    ],
+    "good_points": [
+      "Ciclo de vida e réguas multicanal comprovados: funil automatizado de e-mail em 10 etapas (~R$ 50k) na Munzner + fluxos de WhatsApp com IA (22,3% alto engajamento) no Meu Barzin.",
+      "Adoção, onboarding e GTM para base no Projeto Meta (Wipro): +150% de adoção no CRM (#1 global), -50% de ramp-up (6 para 3 meses) e 90% CSAT.",
+      "Copywriting, testes A/B (+250% leads) e disponibilidade imediata para o modelo híbrido em Curitiba."
+    ],
+    "improvement_points": [
+      "Adaptar fluxos já operados em Sendpulse, RD Station e ManyChat/n8n para a plataforma específica de CRM/engagement utilizada pela Skydropx (Frenet)."
+    ]
+  },
+  "triage": {
+    "decision": "adapt",
+    "blockers": [],
+    "notes": [
+      "Fit 90, Curitiba híbrido (Aldeia Coworking), foco em Customer Marketing, Lifecycle, CRM e IA."
+    ],
+    "gaps": []
+  },
+  "resume": {
+    "pt": {
+      "name": "Kevin Augusto Vieira",
+      "location": "Curitiba, PR | Disponível para Híbrido",
+      "phone": "+55 (41) 99694-1615",
+      "email": "kevin.aug.vieira@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/kevin-augusto/",
+      "github": "",
+      "website": "",
+      "summary": "Especialista Sênior em Customer Marketing, Lifecycle e CRM com mais de 8 anos arquitetando jornadas de onboarding, adoção, engajamento e retenção apoiadas por automação e IA. No Projeto Meta (Wipro), reduziu o tempo de ramp-up em 50% (90% CSAT) e elevou a adoção de IA no CRM em +150% (#1 global). Estruturou réguas de e-mail de 10 etapas (~R$ 50k em receita na Munzner) e fluxos conversacionais no WhatsApp (22,3% de reengajamento recorrente no Meu Barzin). Baseado em Curitiba.",
+      "experience": [
+        {
+          "company": "Wipro Brasil",
+          "role": "Especialista em Adoção, Enablement & GTM (Projeto Meta)",
+          "dates": "Setembro 2024 – Julho 2026",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Adoção & Engajamento (+150%, #1 Global): Liderou ativação de IA nativa no CRM proprietário via onboarding, workshops e bibliotecas de prompts, elevando o uso de 4 para 10 prompts/dia por consultor.",
+            "Jornada de Onboarding (-50% Tempo): Idealizou trilha modular de capacitação (Next Level Bootcamp) com 100% de conclusão, 90% CSAT e redução do ramp-up de 6 para 3 meses.",
+            "GTM de Lançamentos & Voz do Cliente: Traduziu novidades de produto em pitches e materiais de adoção para 150+ profissionais e reportou feedbacks bi-weekly para evolução do produto."
+          ]
+        },
+        {
+          "company": "Munzner",
+          "role": "Especialista em Lifecycle, CRM e Automação",
+          "dates": "Outubro 2018 – Agosto 2024",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Réguas Multietapa & Receita (~R$ 50k): Construiu funil automatizado em 10 etapas (Sendpulse) gerando 10.000+ acessos e ~R$ 50 mil em vendas high-ticket.",
+            "Cross-sell & Order Bump: Lançou curso digital com order bump de 1h de mentoria (50 vendas nos primeiros 2 meses, ROI 1.0x–1.5x), elevando o ticket médio."
+          ]
+        },
+        {
+          "company": "AI Builder — Projetos de Produtos",
+          "role": "Product & Lifecycle Lead (CRM Odontológico Hermes & Meu Barzin)",
+          "dates": "Dezembro 2025 – Agosto 2026",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Agente 24/7 no WhatsApp & CRM em Produção (Hermes): Construiu CRM self-hosted (NocoDB sobre Postgres) com agente de IA 24/7 no WhatsApp integrado ao Google Agenda disparando confirmações automáticas e orçamentos com aprovação humana (-85% custo de stack).",
+            "Jornadas WhatsApp & Retenção (Meu Barzin): Desenhou atendimento automatizado no WhatsApp (ManyChat/n8n/RAG) captando 505 leads com 22,3% de reengajamento e mapeou atritos de latência (43,9% de drop inicial)."
+          ]
+        },
+        {
+          "company": "AK Branding & Web Design",
+          "role": "Consultor de CRO, Copywriting e Experiência Digital",
+          "dates": "Março 2019 – Setembro 2024",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Chatbots, UX & A/B Tests (+250%): Criou fluxos conversacionais e testes A/B em páginas que ampliaram a captação de leads em +250% em contas B2B e B2C.",
+            "Retenção de Carteira & Entrega (40+ Projetos): Conduziu posicionamento, copywriting e entregas contínuas para mais de 40 PMEs com controle de escopo e prazos."
+          ]
+        }
+      ],
+      "skills": [
+        {
+          "category": "Customer Marketing & Lifecycle",
+          "skills": [
+            "Onboarding, Adoção e Retenção de Base",
+            "Réguas Multicanal (E-mail, WhatsApp, Fluxos In-App/Web)",
+            "GTM de Lançamentos para Clientes",
+            "Voz do Cliente (VoC) e Análise de Churn/Fricção",
+            "Copywriting e Narrativas de Valor"
+          ]
+        },
+        {
+          "category": "CRM, Automação & IA",
+          "skills": [
+            "Sendpulse, RD Station, Bitrix24 e CRMs Meta",
+            "ManyChat, n8n, Make, APIs e Webhooks",
+            "IA Generativa e Guardrails em Comunicação",
+            "Supabase / PostgreSQL e NocoDB"
+          ]
+        },
+        {
+          "category": "Analytics & Experimentação",
+          "skills": [
+            "Testes A/B e CRO",
+            "Power BI, Excel e Google Analytics",
+            "Métricas de Lifecycle (Engajamento, CAC, LTV, ROI, CSAT)"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "Universidade Federal do Paraná (UFPR)",
+          "degree": "Bacharelado e Licenciatura em Filosofia",
+          "dates": "2018 - 2023"
+        },
+        {
+          "institution": "Universidade Federal do Paraná (UFPR) / UTFPR",
+          "degree": "Bacharelado em Engenharia (Incompleto - 2,5 anos cursados)",
+          "dates": "2012 - 2015"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "Meta Certified Media Planning Professional",
+          "issuer": "Meta",
+          "status": "Ativo"
+        },
+        {
+          "name": "Meta Certified Digital Marketing Associate",
+          "issuer": "Meta",
+          "status": "Ativo"
+        },
+        {
+          "name": "Google Project Management Professional Certificate",
+          "issuer": "Coursera / Google",
+          "status": "Em andamento"
+        }
+      ],
+      "languages": [
+        {
+          "language": "Português",
+          "proficiency": "Nativo"
+        },
+        {
+          "language": "Inglês",
+          "proficiency": "Avançado / Profissional"
+        }
+      ],
+      "additional_information": [
+        "Residente em Curitiba/PR com disponibilidade imediata para o modelo híbrido presencial."
+      ]
+    },
+    "en": {
+      "name": "Kevin Augusto Vieira",
+      "location": "Curitiba, PR, Brazil | Available for Hybrid",
+      "phone": "+55 (41) 99694-1615",
+      "email": "kevin.aug.vieira@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/kevin-augusto/",
+      "github": "",
+      "website": "",
+      "summary": "Senior Customer Marketing, Lifecycle & CRM Specialist with 8+ years designing onboarding, adoption, engagement, and retention journeys powered by automation and AI. At Wipro (Meta Project), halved onboarding ramp-up (90% CSAT) and drove +150% CRM AI adoption (#1 globally). Built 10-stage automated email funnels (~R$ 50k revenue at Munzner) and WhatsApp AI journeys (22.3% repeat engagement at Meu Barzin). Based in Curitiba.",
+      "experience": [
+        {
+          "company": "Wipro Brazil",
+          "role": "Adoption, Enablement & GTM Specialist (Meta Project)",
+          "dates": "September 2024 – July 2026",
+          "location": "Curitiba, Brazil",
+          "bullets": [
+            "Adoption & Engagement (+150%, #1 Global): Owned native AI activation in Meta's CRM via workshops and prompt playbooks, increasing usage from 4 to 10 prompts/day.",
+            "Onboarding Journey (-50% Ramp-up): Designed the Next Level Bootcamp achieving 100% completion, 90% CSAT, and cutting ramp-up from 6 to 3 months.",
+            "Base GTM & Voice of Customer: Translated product updates into commercial pitches for 150+ pros and delivered bi-weekly product feedback loops."
+          ]
+        },
+        {
+          "company": "Munzner",
+          "role": "Lifecycle, CRM & Automation Specialist",
+          "dates": "October 2018 – August 2024",
+          "location": "Curitiba, Brazil",
+          "bullets": [
+            "Multistage Journeys & Revenue (~R$ 50k): Built a 10-stage automated email sequence (Sendpulse) driving 10,000+ visits and ~R$ 50k in high-ticket conversions.",
+            "Upsell & Order Bump: Launched a digital entry course with a 1h mentoring order bump (50 sales in 2 months, 1.0x–1.5x ROI), lifting average ticket and ROI."
+          ]
+        },
+        {
+          "company": "AI Builder — Product Projects",
+          "role": "Product & Lifecycle Lead (AI Dental CRM Hermes & Meu Barzin)",
+          "dates": "December 2025 – August 2026",
+          "location": "Curitiba, Brazil",
+          "bullets": [
+            "24/7 WhatsApp Lifecycle Agent (Hermes): Built a self-hosted CRM (NocoDB on Postgres) with a 24/7 WhatsApp AI agent integrated with Google Calendar for automated confirmations and human-approved quotes (-85% stack cost).",
+            "WhatsApp AI Journeys (Meu Barzin): Built conversational flows on WhatsApp (ManyChat/n8n/RAG) capturing 505 leads with 22.3% repeat engagement while diagnosing a 43.9% API latency drop."
+          ]
+        },
+        {
+          "company": "AK Branding & Web Design",
+          "role": "CRO, Copywriting & Digital Experience Consultant",
+          "dates": "March 2019 – September 2024",
+          "location": "Curitiba, Brazil",
+          "bullets": [
+            "Chatbots, UX & A/B Tests (+250%): Implemented conversational bots and landing page tests increasing monthly leads by +250%.",
+            "Client Retention (40+ Projects): Managed copywriting, positioning, and ongoing digital deliveries for 40+ SMBs."
+          ]
+        }
+      ],
+      "skills": [
+        {
+          "category": "Customer Marketing & Lifecycle",
+          "skills": [
+            "Onboarding, Adoption & Retention",
+            "Multichannel Journeys (Email, WhatsApp, Web Flows)",
+            "Customer-Base GTM Launches",
+            "Voice of Customer & Friction Analysis",
+            "Copywriting & Value Narratives"
+          ]
+        },
+        {
+          "category": "CRM, Automation & AI",
+          "skills": [
+            "Sendpulse, RD Station, Bitrix24 & Meta CRMs",
+            "ManyChat, n8n, Make, APIs & Webhooks",
+            "Generative AI & Zero-Hallucination Messaging",
+            "Supabase / PostgreSQL & NocoDB"
+          ]
+        },
+        {
+          "category": "Analytics & Experimentation",
+          "skills": [
+            "A/B Testing & CRO",
+            "Power BI, Excel & Google Analytics",
+            "Lifecycle Metrics (Engagement, CAC, LTV, ROI, CSAT)"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "Federal University of Parana (UFPR)",
+          "degree": "Bachelor Degree and Licentiate in Philosophy",
+          "dates": "2018 - 2023"
+        },
+        {
+          "institution": "Federal University of Parana (UFPR) / UTFPR",
+          "degree": "B.S. in Engineering (Incomplete - 2.5 years completed)",
+          "dates": "2012 - 2015"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "Meta Certified Media Planning Professional",
+          "issuer": "Meta",
+          "status": "Active"
+        },
+        {
+          "name": "Meta Certified Digital Marketing Associate",
+          "issuer": "Meta",
+          "status": "Active"
+        },
+        {
+          "name": "Google Project Management Professional Certificate",
+          "issuer": "Coursera / Google",
+          "status": "In progress"
+        }
+      ],
+      "languages": [
+        {
+          "language": "Portuguese",
+          "proficiency": "Native"
+        },
+        {
+          "language": "English",
+          "proficiency": "Advanced / Professional Proficiency"
+        }
+      ],
+      "additional_information": [
+        "Based in Curitiba, PR, immediately available for hybrid on-site collaboration."
+      ]
+    }
+  },
+  "materials": {
+    "pt": {
+      "cover_letter": "Olá, time da Skydropx (Frenet)!\n\nFiquei muito empolgado ao ver a vaga de Especialista de Customer Marketing (Lifecycle, Engagement e CRM) Sr aqui em Curitiba. O foco em réguas multicanal por e-mail e WhatsApp, GTM para a base, IA aplicada e proximidade com CS traduz exatamente o tipo de problema que mais gosto de resolver.\n\nNos últimos anos, estruturei uma régua automatizada de 10 etapas em e-mail que gerou cerca de R$ 50 mil na Munzner, criei fluxos conversacionais no WhatsApp com IA no Meu Barzin (alcançando 22,3% de usuários altamente engajados) e, na Wipro/Projeto Meta, liderei programas de adoção no CRM que atingiram +150% de crescimento (#1 global) e cortaram o tempo de ramp-up pela metade com 90% de CSAT.\n\nMoro em Curitiba e tenho disponibilidade total para o formato híbrido. Será um prazer conversar com vocês sobre como acelerar adoção, retenção e expansão na base da Skydropx (Frenet)!\n\nUm abraço,\nKevin Augusto Vieira",
+      "form_answers": [
+        {
+          "question": "Qual sua experiência construindo réguas de lifecycle por e-mail, WhatsApp e IA?",
+          "answer": "Na Munzner, criei e otimizei um funil automatizado de 10 etapas no Sendpulse que gerou 10.000+ visitas e ~R$ 50 mil em receita. No CRM Odontológico com IA, construí em produção um CRM self-hosted (NocoDB sobre Postgres) com o agente Hermes 24/7 no WhatsApp integrado ao Google Agenda disparando confirmações automáticas; no Meu Barzin, estruturei jornadas no WhatsApp via ManyChat/n8n/RAG (22,3% de reengajamento recorrente); e na Wipro/Meta liderei adoção de IA em CRM (+150%, #1 global)."
+        }
+      ]
+    },
+    "en": {
+      "cover_letter": "Hi Skydropx (Frenet) team!\n\nI was excited to spot the Senior Customer Marketing Specialist opening right here in Curitiba. Building multichannel email/WhatsApp journeys, customer-base GTM launches, and AI-enabled lifecycle flows alongside CS aligns directly with my background.\n\nAt Munzner, I built a 10-stage automated email sequence generating ~R$ 50k; at Meu Barzin, I engineered WhatsApp AI journeys reaching 22.3% high repeat engagement; and at Wipro (Meta Project), I led CRM AI adoption programs ranking #1 globally (+150%) while cutting ramp-up by 50% (90% CSAT).\n\nBased in Curitiba and ready for the hybrid setup, I would love to discuss how I can drive retention, adoption, and expansion at Skydropx (Frenet)!\n\nBest regards,\nKevin Augusto Vieira",
+      "form_answers": [
+        {
+          "question": "Describe your experience building email, WhatsApp, and AI lifecycle journeys.",
+          "answer": "At Munzner I ran a 10-stage automated email nurturing funnel generating ~R$ 50k. At Meu Barzin I built WhatsApp AI journeys with ManyChat, n8n, Supabase, and RAG achieving 22.3% repeat engagement, and at Wipro/Meta I led CRM AI adoption (+150%, #1 globally)."
+        }
+      ]
+    }
+  },
+  "evidence": {
+    "skills": {
+      "pt": [],
+      "en": []
+    }
+  }
+}

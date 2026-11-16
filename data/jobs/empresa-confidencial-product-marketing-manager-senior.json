@@ -1,0 +1,316 @@
+{
+  "id": "empresa-confidencial-product-marketing-manager-senior",
+  "metadata": {
+    "company_name": "Empresa Confidencial",
+    "role_title": "Product Marketing Manager Sênior",
+    "url": "https://br.linkedin.com/jobs/view/product-marketing-manager-s%C3%AAnior-at-empresa-confidencial-4484883363",
+    "fit_score": 92,
+    "salary_expectation": "A negociar (Remoto Brasil)",
+    "document_language": "pt",
+    "available_languages": [
+      "pt",
+      "en"
+    ],
+    "location": "Brasil · 100% Remoto",
+    "employment_type": "Tempo integral",
+    "deadline": "Ativa no LinkedIn",
+    "source_files": [
+      "master_resume.json"
+    ],
+    "good_points": [
+      "Experiência direta em GTM, posicionamento e sales enablement no Projeto Meta (Wipro) para 150+ profissionais (+150% adoção de IA, -50% ramp-up).",
+      "Construção prática de vendas e atendimento por mensageria com IA no WhatsApp e CRM (Meu Barzin: 505 leads, 22,3% usuários recorrentes).",
+      "Lançamentos 0→1 com mensuração de monetização e ROI na Munzner (LMS 50 vendas em 2 meses; funil automatizado ~R$ 50 mil).",
+      "40+ projetos consultivos de posicionamento de marca, copy e conversão web (+250% leads) na AK Branding."
+    ],
+    "improvement_points": [
+      "Formalizar cases de pricing/packaging e análise estruturada de win/loss em contexto SaaS B2B enterprise durante as entrevistas."
+    ]
+  },
+  "triage": {
+    "decision": "adapt",
+    "blockers": [],
+    "notes": [
+      "Fit 92, vaga ativa no LinkedIn 100% remota focada em PMM, GTM, CRM e mensageria com IA."
+    ],
+    "gaps": []
+  },
+  "resume": {
+    "pt": {
+      "name": "Kevin Augusto Vieira",
+      "location": "Curitiba, PR | Remoto",
+      "phone": "+55 (41) 99694-1615",
+      "email": "kevin.aug.vieira@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/kevin-augusto/",
+      "github": "",
+      "website": "",
+      "summary": "Product Marketing Manager e Especialista em Go-To-Market (GTM) com mais de 8 anos traduzindo soluções digitais complexas em posicionamento claro, narrativas de valor e adoção em escala. No Projeto Meta (Wipro), atuou na linha de frente do enablement comercial e GTM para 150+ profissionais, elevando a adoção de IA no CRM em +150% (#1 global) e reduzindo o ramp-up em 50%. Une vivência prática em mensageria conversacional com IA (WhatsApp/CRM), lançamentos 0→1 e pesquisa com usuários para impulsionar conversão e receita.",
+      "experience": [
+        {
+          "company": "Wipro Brasil",
+          "role": "Product Marketing & Sales Enablement Specialist (Projeto Meta)",
+          "dates": "Setembro 2024 – Julho 2026",
+          "location": "Curitiba, PR / Remoto",
+          "bullets": [
+            "GTM & Posicionamento de Produto: Absorveu materiais globais da Meta e traduziu atualizações de produto em propostas de valor, pitches e playbooks comerciais para 150+ consultores.",
+            "Adoção & CRM com IA (#1 Global): Liderou o onboarding e capacitação prática de IA nativa no CRM, aumentando o uso em +150% (4 para 10 prompts/dia) e consolidando feedbacks de uso em relatórios bi-weekly para times globais de produto.",
+            "Enablement Escalável (-50% Ramp-up): Estruturou o piloto Next Level Bootcamp com diagnóstico em Power BI e análise de auditorias, cortando o ramp-up de 6 para 3 meses com 90%+ de qualidade e 90% CSAT."
+          ]
+        },
+        {
+          "company": "AI Builder — Projetos de Produtos",
+          "role": "Product & GTM Lead (Meu Barzin & CRM Odontológico com IA)",
+          "dates": "Dezembro 2025 – Agosto 2026",
+          "location": "Remoto",
+          "bullets": [
+            "GTM, Posicionamento Competitivo & IA no WhatsApp: Posicionou o Meu Barzin frente a players locais (Tour Curitiba, Duo Gourmet) com assinatura de R$ 19,90/mês e agente no WhatsApp (ManyChat/n8n/RAG), captando 505 leads e identificando via pesquisa com usuários barreiras de liquidez e latência (43,9% de drop inicial).",
+            "CRM Odontológico com IA (Hermes): Entregou CRM self-hosted em produção (NocoDB sobre Postgres) com agente Hermes 24/7 no WhatsApp integrado ao Google Agenda e orçamentos com aprovação humana, reduzindo custos de stack em ~85% (US$ 100–145/mês para US$ 14–18/mês)."
+          ]
+        },
+        {
+          "company": "AK Branding & Web Design",
+          "role": "Consultor de Posicionamento de Marca e Product Marketing",
+          "dates": "Março 2019 – Setembro 2024",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Posicionamento, Empacotamento & Pipeline B2B (40+ Projetos): Estruturou oferta escalonada em pacotes (básico, avançado e completo) atingindo 40%–60% de conversão de propostas orgânicas por indicação.",
+            "Conversão & Lançamento Orgânico: Implementou UX e chatbots elevando leads de 8 para 20–30/mês (+250%) e lançou e-commerce do zero faturando R$ 10 mil nos primeiros 3 meses de forma 100% orgânica."
+          ]
+        },
+        {
+          "company": "Munzner",
+          "role": "Especialista em Marketing de Produto e Growth",
+          "dates": "Outubro 2018 – Agosto 2024",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Lançamento 0→1 & Pricing/Packaging: Concebeu, precificou e empacotou o 1º produto digital (LMS/WordPress) com order bump de 1h de mentoria, alcançando 50 vendas em 2 meses (ROI 1.0x–1.5x).",
+            "Funil Automatizado (~R$ 50k): Construiu régua de 10 etapas (Sendpulse) e conteúdo SEO (~10% visitor-to-lead) que geraram 10.000+ acessos e ~R$ 50 mil em receita high-ticket."
+          ]
+        }
+      ],
+      "skills": [
+        {
+          "category": "Product Marketing & GTM",
+          "skills": [
+            "Posicionamento e Proposta de Valor",
+            "Go-to-Market (GTM) e Lançamentos",
+            "Sales Enablement e Playbooks",
+            "Pesquisa com Usuários e Voz do Cliente",
+            "Modelos de Monetização e Assinatura"
+          ]
+        },
+        {
+          "category": "Mensageria, CRM & IA",
+          "skills": [
+            "Vendas e Jornadas via WhatsApp (ManyChat/n8n)",
+            "Agentes de IA e RAG com Zero Alucinação",
+            "CRMs Meta, RD Station, Sendpulse, Bitrix24",
+            "Engenharia de Prompt e Workflows Generativos"
+          ]
+        },
+        {
+          "category": "Dados & Experimentação",
+          "skills": [
+            "Testes A/B e CRO",
+            "Power BI, Excel e Analytics de Produto",
+            "Métricas de Funil (CAC, LTV, Churn, ROI)",
+            "Gestão Ágil (OKRs, Roadmap, Backlog)"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "Universidade Federal do Paraná (UFPR)",
+          "degree": "Bacharelado e Licenciatura em Filosofia",
+          "dates": "2018 - 2023"
+        },
+        {
+          "institution": "Universidade Federal do Paraná (UFPR) / UTFPR",
+          "degree": "Bacharelado em Engenharia (Incompleto - 2,5 anos cursados)",
+          "dates": "2012 - 2015"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "Meta Certified Media Planning Professional",
+          "issuer": "Meta",
+          "status": "Ativo"
+        },
+        {
+          "name": "Meta Certified Digital Marketing Associate",
+          "issuer": "Meta",
+          "status": "Ativo"
+        },
+        {
+          "name": "Google Project Management Professional Certificate",
+          "issuer": "Coursera / Google",
+          "status": "Em andamento"
+        }
+      ],
+      "languages": [
+        {
+          "language": "Português",
+          "proficiency": "Nativo"
+        },
+        {
+          "language": "Inglês",
+          "proficiency": "Avançado / Fluente (uso corporativo diário em alinhamentos, documentação e relatórios internacionais)"
+        }
+      ],
+      "additional_information": [
+        "Disponibilidade integral para atuação 100% remota em todo o Brasil."
+      ]
+    },
+    "en": {
+      "name": "Kevin Augusto Vieira",
+      "location": "Curitiba, PR, Brazil | Remote",
+      "phone": "+55 (41) 99694-1615",
+      "email": "kevin.aug.vieira@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/kevin-augusto/",
+      "github": "",
+      "website": "",
+      "summary": "Senior Product Marketing Manager & Go-To-Market (GTM) Specialist with 8+ years translating complex digital products into clear positioning, compelling value narratives, and scalable adoption. At Wipro (Meta Project), led commercial enablement and GTM playbooks for 150+ professionals, driving #1 global growth in CRM AI adoption (+150%) and cutting team ramp-up by 50%. Combines hands-on experience in AI-powered messaging (WhatsApp/CRM), 0-to-1 launches, and user research to accelerate conversion and revenue.",
+      "experience": [
+        {
+          "company": "Wipro Brazil",
+          "role": "Product Marketing & Sales Enablement Specialist (Meta Project)",
+          "dates": "September 2024 – July 2026",
+          "location": "Curitiba, Brazil / Remote",
+          "bullets": [
+            "GTM & Product Positioning: Translated Meta global product updates into clear value propositions, sales pitches, and actionable playbooks for 150+ consultants.",
+            "AI CRM Adoption (#1 Global): Owned native AI activation and hands-on coaching in CRM, lifting usage by +150% (4 to 10 prompts/day) while feeding structured user insights back to global product teams bi-weekly.",
+            "Scalable Enablement (-50% Ramp-up): Designed the Next Level Bootcamp using Power BI diagnostics, cutting ramp-up from 6 to 3 months with 90%+ audit quality and 90% CSAT."
+          ]
+        },
+        {
+          "company": "AI Builder — Product Projects",
+          "role": "Product & GTM Lead (Meu Barzin & AI Dental CRM)",
+          "dates": "December 2025 – August 2026",
+          "location": "Remote",
+          "bullets": [
+            "GTM, Competitive Positioning & WhatsApp AI: Positioned Meu Barzin against local players (Tour Curitiba, Duo Gourmet) with an R$ 19.90/mo subscription and WhatsApp AI agent (ManyChat/n8n/RAG), capturing 505 leads and uncovering supply liquidity and API latency barriers (43.9% first-message drop).",
+            "AI-Powered Dental CRM (Hermes): Built a self-hosted production CRM (NocoDB on Postgres) with a 24/7 WhatsApp AI agent integrated with Google Calendar and human-approved quotes, cutting stack costs by ~85% (US$ 100–145/mo down to US$ 14–18/mo)."
+          ]
+        },
+        {
+          "company": "AK Branding & Web Design",
+          "role": "Brand Positioning & Product Marketing Consultant",
+          "dates": "March 2019 – September 2024",
+          "location": "Curitiba, Brazil",
+          "bullets": [
+            "Positioning, Packaging & B2B Pipeline (40+ Projects): Structured tiered service packages (basic, advanced, complete), sustaining a 40%–60% referral proposal close rate across 40+ clients.",
+            "Conversion & Organic Launch: Built UX and chatbots boosting leads from 8 to 20–30/month (+250%) and launched a 0-to-1 e-commerce store generating R$ 10k in 3 months organically."
+          ]
+        },
+        {
+          "company": "Munzner",
+          "role": "Product Marketing & Growth Specialist",
+          "dates": "October 2018 – August 2024",
+          "location": "Curitiba, Brazil",
+          "bullets": [
+            "0-to-1 Launch & Pricing/Packaging: Designed, priced, and packaged the first digital course (LMS/WordPress) with a 1-hour mentoring order bump, achieving 50 sales in 2 months (1.0x–1.5x ROI).",
+            "Automated Funnel (~R$ 50k): Built a 10-stage nurturing sequence (Sendpulse) and SEO content (~10% visitor-to-lead) generating 10,000+ visits and ~R$ 50k in high-ticket sales."
+          ]
+        }
+      ],
+      "skills": [
+        {
+          "category": "Product Marketing & GTM",
+          "skills": [
+            "Positioning & Value Proposition",
+            "Go-to-Market (GTM) & Launches",
+            "Sales Enablement & Playbooks",
+            "User Research & Voice of Customer",
+            "Subscription & Monetization Models"
+          ]
+        },
+        {
+          "category": "Messaging, CRM & AI",
+          "skills": [
+            "WhatsApp Journeys & Conversational Sales (ManyChat/n8n)",
+            "Zero-Hallucination AI Agents & RAG",
+            "Meta CRMs, RD Station, Sendpulse, Bitrix24",
+            "Prompt Engineering & Generative Workflows"
+          ]
+        },
+        {
+          "category": "Data & Experimentation",
+          "skills": [
+            "A/B Testing & CRO",
+            "Power BI, Excel & Product Analytics",
+            "Funnel Metrics (CAC, LTV, Churn, ROI)",
+            "Agile Planning (OKRs, Roadmap, Backlog)"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "Federal University of Parana (UFPR)",
+          "degree": "Bachelor Degree and Licentiate in Philosophy",
+          "dates": "2018 - 2023"
+        },
+        {
+          "institution": "Federal University of Parana (UFPR) / UTFPR",
+          "degree": "B.S. in Engineering (Incomplete - 2.5 years completed)",
+          "dates": "2012 - 2015"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "Meta Certified Media Planning Professional",
+          "issuer": "Meta",
+          "status": "Active"
+        },
+        {
+          "name": "Meta Certified Digital Marketing Associate",
+          "issuer": "Meta",
+          "status": "Active"
+        },
+        {
+          "name": "Google Project Management Professional Certificate",
+          "issuer": "Coursera / Google",
+          "status": "In progress"
+        }
+      ],
+      "languages": [
+        {
+          "language": "Portuguese",
+          "proficiency": "Native"
+        },
+        {
+          "language": "English",
+          "proficiency": "Advanced / Fluent (daily corporate use in international stakeholder alignment and reporting)"
+        }
+      ],
+      "additional_information": [
+        "Fully available for 100% remote work across Brazil."
+      ]
+    }
+  },
+  "materials": {
+    "pt": {
+      "cover_letter": "Olá, time responsável pela vaga na Empresa Confidencial!\n\nQuando li os detalhes da posição de Product Marketing Manager Sênior, reconheci imediatamente a exata interseção onde construí minha carreira nos últimos anos: GTM, vendas consultivas e mensageria com IA apoiada por CRM.\n\nNa Wipro (Projeto Meta), fui a ponte entre atualizações globais de produto e mais de 150 profissionais na ponta, criando propostas de valor, playbooks e treinamentos que elevaram a adoção de IA no CRM em +150% (#1 global) e cortaram o tempo de ramp-up pela metade. Em paralelo, desenhei e operei do zero no Meu Barzin uma jornada comercial completa no WhatsApp com agente de IA, RAG e modelo de assinatura, além de liderar lançamentos digitais na Munzner e 40+ projetos de posicionamento na AK Branding.\n\nVai ser ótimo conversar para conhecer melhor os desafios de produto da Empresa Confidencial e mostrar como posso transformar diferenciais técnicos em receita e adoção!\n\nUm abraço,\nKevin Augusto Vieira",
+      "form_answers": [
+        {
+          "question": "Qual sua experiência conectando Product Marketing, CRM e mensageria com IA?",
+          "answer": "Na Wipro (Projeto Meta), liderei a adoção da IA nativa no CRM (+150%, #1 global) e estruturei pitches de produto para 150+ profissionais. No Meu Barzin, arquitetei um funil de aquisição e conversão via WhatsApp (ManyChat + n8n + RAG sem alucinação) integrado ao banco Supabase, captando 505 leads com 22,3% de alto engajamento."
+        }
+      ]
+    },
+    "en": {
+      "cover_letter": "Hi Hiring Team at Empresa Confidencial!\n\nReading through the Senior Product Marketing Manager opening immediately caught my attention because it sits right at the intersection of my strongest track record: GTM, sales enablement, CRM, and AI-driven messaging.\n\nAt Wipro (Meta Project), I translated global product releases into value propositions and playbooks for 150+ professionals, ranking #1 globally in CRM AI adoption growth (+150%) and halving onboarding ramp-up. Hands-on, I also built an end-to-end WhatsApp AI conversational funnel and subscription product at Meu Barzin, alongside 0-to-1 digital launches at Munzner and 40+ positioning projects at AK Branding.\n\nI would love to connect with Empresa Confidencial to discuss how I can turn your product differentiators into clear narratives, adoption, and revenue!\n\nBest regards,\nKevin Augusto Vieira",
+      "form_answers": [
+        {
+          "question": "How do you connect Product Marketing, CRM, and AI messaging?",
+          "answer": "At Wipro (Meta Project), I owned native AI CRM enablement (+150% growth, #1 globally) and product positioning for 150+ commercial pros. At Meu Barzin, I built a WhatsApp conversational funnel (ManyChat + n8n + zero-hallucination RAG) connected to Supabase, generating 505 leads with 22.3% repeat engagement."
+        }
+      ]
+    }
+  },
+  "evidence": {
+    "skills": {
+      "pt": [],
+      "en": []
+    }
+  }
+}

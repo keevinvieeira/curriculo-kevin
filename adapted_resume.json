@@ -1,159 +1,127 @@
 {
   "name": "Kevin Augusto Vieira",
-  "location": "Curitiba, PR, Brazil | Remote (LATAM)",
+  "location": "Curitiba, PR | Disponível para Híbrido ou Remoto",
   "phone": "+55 (41) 99694-1615",
   "email": "kevin.aug.vieira@gmail.com",
   "linkedin": "https://www.linkedin.com/in/kevin-augusto/",
   "github": "",
   "website": "",
-  "summary": "AI-Native Growth Marketer and GTM Systems Architect with 6+ years driving B2B demand generation, AI-driven growth programs, and ABM strategies. Specialized in bridging the gap between growth strategy and technical execution—partnering closely with GTM Engineers to build signal-based personalization at scale, agentic workflows, and high-converting inbound/outbound engines. Proven track record scaling AI tool adoption (#1 globally at Wipro/Meta), orchestrating LLMs (Claude, GPT, Gemini), and optimizing CRM pipelines across HubSpot and Salesforce.",
+  "summary": "Especialista em Revenue Operations (RevOps), CRM e Automação com mais de 8 anos unindo estratégia comercial, governança de dados e arquitetura de sistemas. No Projeto Meta (Wipro), liderou a adoção de IA no CRM proprietário (#1 global, +150%) e estruturou análises de funil com o time de dados (MIS/Power BI), reduzindo o ramp-up comercial em 50%. Combina experiência prática com APIs, webhooks, n8n, Make e bancos Supabase/PostgreSQL com mentalidade de Product Owner em projetos digitais e base analítica em Engenharia (2,5 anos, UFPR/UTFPR) e Filosofia (UFPR).",
   "experience": [
     {
       "company": "AI Builder — Projetos de Produtos",
-      "role": "AI-Native Product Lead & Systems Architect (AI Career OS & 3D Brain)",
-      "dates": "July 2026 – Present",
-      "location": "Remote",
+      "role": "Arquiteto de Sistemas & Builder de CRM com IA (CRM Odontológico, AI Career OS & Meu Barzin)",
+      "dates": "Dezembro 2025 – Agosto 2026",
+      "location": "Curitiba, PR",
       "bullets": [
-        "Conceived and architected AI Career OS, an AI-native data and matching engine utilizing LLM orchestration, GraphRAG, and prompt governance to achieve >95% precision in contextual matching.",
-        "Engineered generative AI pipelines for hyper-personalized output generation at scale, preventing model hallucinations through strict schema enforcement (SSOT).",
-        "Partnered as technical product lead utilizing AI-assisted development (Vibe Coding) and automated CI/CD pipelines, accelerating delivery speed by +10x."
+        "CRM Odontológico Self-Hosted & Eficiência (-85% Custo): Construiu em VPS própria um CRM Kanban (NocoDB sobre Postgres) com agente de IA 24/7 no WhatsApp (Hermes) integrado ao Google Agenda e deploy via GitHub Actions, substituindo Kommo/n8n Cloud (US$ 100–145/mês para US$ 14–18/mês).",
+        "Governança SSOT, APIs & Webhooks (AI Career OS & Meu Barzin): Concebeu arquitetura SSOT em JSON Schema (100% governança) e conectou bancos Supabase/PostgreSQL via n8n, webhooks e APIs (ManyChat/WhatsApp + RAG), captando 505 leads com 22,3% de usuários altamente engajados.",
+        "Diagnóstico de Funil & Latência: Analisou logs de conversas e funil identificando gargalos de latência de API por trás de 43,9% de abandono inicial para orientar backlog de produto."
       ]
     },
     {
-      "company": "AI Builder — Projetos de Produtos",
-      "role": "Product & GTM Lead (Meu Barzin)",
-      "dates": "December 2025 – March 2026",
-      "location": "Remote",
+      "company": "Wipro Brasil",
+      "role": "Especialista em Operações de Marketing / GTM e CRM (Projeto Meta)",
+      "dates": "Setembro 2024 – Julho 2026",
+      "location": "Curitiba, PR",
       "bullets": [
-        "Architected end-to-end B2B/B2C GTM strategy and frictionless acquisition funnel, generating 505 qualified top-of-funnel leads within 48h with zero initial media spend.",
-        "Deployed conversational AI agents with zero-hallucination guardrails, achieving a 22.3% repeat engagement rate and mapping user feedback directly into the product roadmap.",
-        "Integrated real-time database architecture (Supabase/PostgreSQL) with tracking pipelines, giving complete funnel visibility and CAC/LTV monitoring."
-      ]
-    },
-    {
-      "company": "Wipro (Projeto Meta)",
-      "role": "Marketing Operations & GTM Enablement Specialist",
-      "dates": "September 2024 – July 2026",
-      "location": "Curitiba, PR / Remote",
-      "bullets": [
-        "Led GTM activation, ABM frameworks, and sales enablement across 150+ Marketing Professionals, turning Meta product updates into high-performing pitch playbooks.",
-        "Ranked #1 globally in CRM AI tool adoption growth (+150%), coaching technical and commercial teams on embedding AI into live revenue motions.",
-        "Monitored multi-channel pipeline velocity, CRM data hygiene (Salesforce), and operational bottlenecks using Power BI and advanced conversion analytics."
+        "CRM Enablement & Adoção Recorde (#1 Global): Liderou a ativação de IA nativa no CRM proprietário para 150+ profissionais, elevando o uso de 4 para 10 prompts/dia (+150%, 1º lugar global) com workshops e side-by-side coaching.",
+        "Data Analytics & Redução de Ramp-up (-50%): Em parceria com o time de dados (MIS), explorou painéis de Power BI e Excel para diagnosticar lacunas de conversão e liderar o Next Level Bootcamp, reduzindo o ramp-up de 6 para 3 meses (90%+ qualidade).",
+        "Governança Ágil & Processos Comerciais: Geriu backlog, OKRs e planos de ação corretivos via análise de causa raiz, além de atuar na governança e segurança de compartilhamento de dados (BCP)."
       ]
     },
     {
       "company": "Munzner",
-      "role": "Marketing & Growth Specialist",
-      "dates": "October 2018 – August 2024",
+      "role": "Especialista em Marketing Operations, CRM e Growth",
+      "dates": "Outubro 2018 – Agosto 2024",
       "location": "Curitiba, PR",
       "bullets": [
-        "Engineered and scaled a 10-stage inbound/outbound nurture funnel generating 10,000+ targeted visits and ~R$ 50k in high-ticket B2B pipeline.",
-        "Executed rapid A/B testing and CRO experiments across landing pages and email sequences, lifting lead conversion rates by +250%.",
-        "Designed ABM playbooks, ICP definitions, and audience segmentation connecting paid campaigns directly to closed-won revenue."
+        "Automação de CRM & Receita (~R$ 50k): Estruturou funil automatizado em 10 etapas (Sendpulse) que gerou 10.000+ visitas e ~R$ 50 mil em receita high-ticket.",
+        "Mensuração de Funil & ROI: Acompanhou caminhos de aquisição e dados de CRM para otimizar conversão e sustentar ROI de 1.0x a 1.5x no lançamento do produto digital (50 vendas em 2 meses)."
       ]
     },
     {
       "company": "AK Branding & Web Design",
-      "role": "Founder & Growth Consultant",
-      "dates": "March 2019 – September 2024",
+      "role": "Consultor de Projetos Digitais, Funis e Analytics",
+      "dates": "Março 2019 – Setembro 2024",
       "location": "Curitiba, PR",
       "bullets": [
-        "Delivered growth strategy, brand positioning, and demand generation architectures for 20+ B2B clients and startups.",
-        "Managed paid media campaigns across Google Ads and Meta Ads, connecting ad engagement to CRM pipelines and maximizing ROAS."
+        "Operação Consultiva & Pipeline B2B (40+ Projetos): Gerenciou escopo, empacotamento escalonado e cronograma de 40+ entregas com 40%–60% de conversão em propostas por indicação e 100% conformidade LGPD.",
+        "CRO & Experimentação (+250%): Implementou fluxos digitais, chatbots e testes A/B que elevaram a captação de leads de 8 para 20–30 contatos/mês (+250%)."
       ]
     }
   ],
   "skills": [
     {
-      "category": "AI & Agentic Technologies",
+      "category": "RevOps, CRM & Governança",
       "skills": [
-        "Claude",
-        "LLM Orchestration",
-        "Agentic Workflows",
-        "Prompt Engineering & Governance",
-        "AEO/GEO (AI Engine Optimization)",
-        "Personalization at Scale"
+        "Mapeamento de Funil (MQL/SQL)",
+        "Governança de Dados & SSOT",
+        "CRMs Meta, RD Station, Sendpulse, Bitrix24",
+        "Análise de Causa Raiz",
+        "OKRs, Backlog e Documentação"
       ]
     },
     {
-      "category": "Growth, ABM & Demand Generation",
+      "category": "Integrações, Dados & Automação",
       "skills": [
-        "ABM Strategy",
-        "B2B Demand Gen",
-        "Multi-channel Prospecting",
-        "Inbound & Outbound Motions",
-        "Funnel Analytics & CRO",
-        "ICP Segmentation & Data Enrichment"
+        "n8n e Make",
+        "APIs REST e Webhooks",
+        "Supabase / PostgreSQL e NocoDB",
+        "SQL Básico e Modelagem de Dados",
+        "Power BI, Excel e Google Sheets Avançados"
       ]
     },
     {
-      "category": "Marketing Ops & CRM Systems",
+      "category": "GTM, Produto & IA",
       "skills": [
-        "HubSpot",
-        "Salesforce",
-        "Marketing Operations",
-        "Revenue Analytics (CAC/LTV/ROAS)",
-        "Power BI",
-        "SQL & Supabase"
-      ]
-    },
-    {
-      "category": "Technical Collaboration & Execution",
-      "skills": [
-        "GTM Engineering Partnership",
-        "Rapid Experimentation & Prototyping",
-        "Technical PRDs & Specs",
-        "Data Architecture",
-        "Python Basics",
-        "CI/CD & Deployments"
+        "Product Ownership & Discovery",
+        "Engenharia de Prompt & Fluxos com IA",
+        "GTM e Sales Enablement",
+        "UTM Tracking e Mensuração de ROI/CAC/LTV"
       ]
     }
   ],
   "education": [
     {
-      "institution": "Federal University of Parana (UFPR)",
-      "degree": "Bachelor Degree in Philosophy (Logic & Structural Thinking)",
-      "dates": "2018 – 2023"
+      "institution": "Universidade Federal do Paraná (UFPR)",
+      "degree": "Bacharelado e Licenciatura em Filosofia",
+      "dates": "2018 - 2023"
     },
     {
-      "institution": "Federal University of Parana (UFPR) / UTFPR",
-      "degree": "B.S. in Engineering (2.5 years completed)",
-      "dates": "2012 – 2015"
+      "institution": "Universidade Federal do Paraná (UFPR) / UTFPR",
+      "degree": "Bacharelado em Engenharia (Incompleto - 2,5 anos cursados)",
+      "dates": "2012 - 2015"
     }
   ],
   "certifications": [
     {
-      "name": "Google Project Management Professional Certificate",
-      "issuer": "Coursera / Google",
-      "status": "In progress"
-    },
-    {
       "name": "Meta Certified Media Planning Professional",
       "issuer": "Meta",
-      "status": "Active"
+      "status": "Ativo"
     },
     {
       "name": "Meta Certified Digital Marketing Associate",
       "issuer": "Meta",
-      "status": "Active"
+      "status": "Ativo"
+    },
+    {
+      "name": "Google Project Management Professional Certificate",
+      "issuer": "Coursera / Google",
+      "status": "Em andamento"
     }
   ],
   "languages": [
     {
-      "language": "English",
-      "proficiency": "Advanced / Professional Full Proficiency (Daily corporate use for technical specs, reporting and stakeholder alignment)"
+      "language": "Português",
+      "proficiency": "Nativo"
     },
     {
-      "language": "Portuguese",
-      "proficiency": "Native"
-    },
-    {
-      "language": "Spanish",
-      "proficiency": "Basic"
+      "language": "Inglês",
+      "proficiency": "Avançado / Fluente (uso corporativo diário em alinhamentos, documentação e relatórios internacionais)"
     }
   ],
   "additional_information": [
-    "Specialized in partnering with GTM Engineers to turn raw data and AI capabilities into high-leverage revenue motions.",
-    "Experienced in fast-paced startup and remote-first environments across LATAM and US timezones."
+    "Baseado em Curitiba/PR com disponibilidade imediata para modelo remoto ou híbrido/presencial na região."
   ]
 }

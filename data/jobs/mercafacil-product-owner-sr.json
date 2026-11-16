@@ -1,0 +1,313 @@
+{
+  "id": "mercafacil-product-owner-sr",
+  "metadata": {
+    "company_name": "Mercafacil",
+    "role_title": "Product Owner Sr",
+    "url": "https://mercafacil.gupy.io/jobs/12824785?jobBoardSource=gupy_public_page",
+    "fit_score": 85,
+    "salary_expectation": "A negociar (CLT / 100% Remoto)",
+    "document_language": "pt",
+    "available_languages": [
+      "pt",
+      "en"
+    ],
+    "location": "Brasil · 100% Remoto (CLT)",
+    "employment_type": "CLT / Tempo integral",
+    "deadline": "31/12/2026",
+    "source_files": [
+      "master_resume.json"
+    ],
+    "good_points": [
+      "Liderança 0→1 e arquitetura de produtos com IA: PRDs, roadmaps completos, protótipos e fluxos sem alucinação (AI Career OS, Bússola da Rotina, Meu Barzin).",
+      "Domínio de IA aplicada a CRM e mensageria multicanal (WhatsApp via ManyChat/n8n/RAG, e-mail automatizado de 10 etapas) + dados (Supabase, GraphRAG).",
+      "Vivência em squad ágil (dailies, OKRs, backlog, UAT) e Product Feedback Loop bi-weekly com times globais de produto na Wipro/Meta."
+    ],
+    "improvement_points": [
+      "Formalizar vivência com ferramentas corporativas de gestão como Jira em squads de engenharia tradicionais e contextos específicos de CRM de varejo/supermercados."
+    ]
+  },
+  "triage": {
+    "decision": "adapt",
+    "blockers": [],
+    "notes": [
+      "Fit 85, Gupy aberta até 31/12/2026, 100% remoto CLT, foco em IA de Marketing Intelligence (SMS, e-mail, push, WhatsApp)."
+    ],
+    "gaps": []
+  },
+  "resume": {
+    "pt": {
+      "name": "Kevin Augusto Vieira",
+      "location": "Curitiba, PR | 100% Remoto",
+      "phone": "+55 (41) 99694-1615",
+      "email": "kevin.aug.vieira@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/kevin-augusto/",
+      "github": "",
+      "website": "",
+      "summary": "Product Owner & AI Product Lead com sólida experiência conduzindo discovery 0→1, PRDs, priorização de backlog, prototipação com IA e entrega ágil de produtos digitais orientados a CRM e Marketing Intelligence. Idealizou e arquitetou ecossistemas nativos em IA (AI Career OS, Bússola da Rotina e Meu Barzin), unindo RAG, WhatsApp, n8n e validação com usuários (UAT). Na Wipro (Projeto Meta), atuou em squad ágil (OKRs, backlog) e conduziu loops contínuos de feedback com stakeholders globais de Produto.",
+      "experience": [
+        {
+          "company": "AI Builder — Projetos de Produtos",
+          "role": "Product Owner / AI-Native Product Lead (CRM Odontológico Hermes, AI Career OS & Meu Barzin)",
+          "dates": "Dezembro 2025 – Agosto 2026",
+          "location": "Remoto",
+          "bullets": [
+            "CRM com IA em Produção (-85% Custo): Entregou CRM Kanban self-hosted (NocoDB sobre Postgres em VPS com Cloudflare Tunnel) e agente Hermes 24/7 no WhatsApp integrado ao Google Agenda com aprovação humana em orçamentos e transcrição local LGPD (US$ 14–18/mês vs US$ 100–145/mês).",
+            "Discovery 0→1, PRDs & UAT (Bússola & AI Career OS): Concebeu SPA de 5.700+ linhas em Firebase e motor GraphRAG (>95% precisão, arquitetura SSOT), assinando PRDs, roadmaps e decisões anti-atrito.",
+            "WhatsApp RAG & Conversão (Meu Barzin): Projetou agente conversacional (ManyChat/n8n/Supabase) captando 505 leads e 22,3% de reengajamento recorrente, diagnosticando 43,9% de drop por latência."
+          ]
+        },
+        {
+          "company": "Wipro Brasil",
+          "role": "Product Operations & Enablement Lead (Projeto Meta)",
+          "dates": "Setembro 2024 – Julho 2026",
+          "location": "Curitiba, PR / Remoto",
+          "bullets": [
+            "Product Feedback Loop Global: Consolidou escuta de usuários e observação de campo em relatórios por funcionalidade em reuniões bi-weekly com stakeholders globais da Meta, recomendando melhorias de tom e contexto implementadas em recursos de IA do CRM.",
+            "Squad Ágil & Next Level Bootcamp: Geriu backlog, dailies, OKRs e roadmap para entregar o piloto Next Level Bootcamp (-50% ramp-up, 100% conclusão, 90% CSAT) a partir de diagnóstico em Power BI.",
+            "Adoção de IA no CRM (+150%): Liderou a ativação de IA no CRM para 150+ profissionais, alcançando o 1º lugar global em crescimento de adoção."
+          ]
+        },
+        {
+          "company": "Munzner",
+          "role": "Especialista em Produto Digital e Automação de CRM",
+          "dates": "Outubro 2018 – Agosto 2024",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Lançamento de Produto LMS (0→1): Concebeu, precificou e empacotou o 1º curso digital em WordPress/LMS com order bump de 1h de mentoria, garantindo 50 vendas nos 2 primeiros meses (ROI 1.0x–1.5x).",
+            "Jornada Automatizada (~R$ 50k): Arquitetou régua de e-mail em 10 etapas (Sendpulse) convertendo 10.000+ visitas em ~R$ 50 mil de receita."
+          ]
+        },
+        {
+          "company": "AK Branding & Web Design",
+          "role": "Consultor de Projetos Digitais e UX",
+          "dates": "Março 2019 – Setembro 2024",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Gestão de Escopo & Entregas (40+ Projetos): Definiu escopos, cronogramas e orçamentos de mais de 40 projetos web, chatbots e e-commerce, aumentando leads em +250%."
+          ]
+        }
+      ],
+      "skills": [
+        {
+          "category": "Product Ownership & Gestão Ágil",
+          "skills": [
+            "Product Discovery 0→1 e PRDs",
+            "Gestão de Backlog, Roadmap e Priorização",
+            "Scrum, Kanban, Dailies e OKRs",
+            "UAT (Testes de Aceitação) e Análise de Causa Raiz",
+            "Voice of Customer e Product Feedback Loop"
+          ]
+        },
+        {
+          "category": "IA, CRM & Marketing Intelligence",
+          "skills": [
+            "Orquestração de LLMs e RAG (Zero Alucinação)",
+            "Fluxos Conversacionais WhatsApp / ManyChat / n8n",
+            "Automações de CRM e Réguas de E-mail",
+            "Supabase / PostgreSQL, Firebase e Webhooks"
+          ]
+        },
+        {
+          "category": "Dados & Design",
+          "skills": [
+            "Power BI, Excel e Google Analytics",
+            "UX/UI e Design Anti-Atrito (Figma / Prototipação)",
+            "Métricas de Produto (Adoção, Conversão, CSAT, Retenção)"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "Universidade Federal do Paraná (UFPR)",
+          "degree": "Bacharelado e Licenciatura em Filosofia",
+          "dates": "2018 - 2023"
+        },
+        {
+          "institution": "Universidade Federal do Paraná (UFPR) / UTFPR",
+          "degree": "Bacharelado em Engenharia (Incompleto - 2,5 anos cursados)",
+          "dates": "2012 - 2015"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "Meta Certified Media Planning Professional",
+          "issuer": "Meta",
+          "status": "Ativo"
+        },
+        {
+          "name": "Meta Certified Digital Marketing Associate",
+          "issuer": "Meta",
+          "status": "Ativo"
+        },
+        {
+          "name": "Google Project Management Professional Certificate",
+          "issuer": "Coursera / Google",
+          "status": "Em andamento"
+        }
+      ],
+      "languages": [
+        {
+          "language": "Português",
+          "proficiency": "Nativo"
+        },
+        {
+          "language": "Inglês",
+          "proficiency": "Avançado / Profissional"
+        }
+      ],
+      "additional_information": [
+        "Certificado em andamento: Google Project Management Professional Certificate."
+      ]
+    },
+    "en": {
+      "name": "Kevin Augusto Vieira",
+      "location": "Curitiba, PR, Brazil | 100% Remote",
+      "phone": "+55 (41) 99694-1615",
+      "email": "kevin.aug.vieira@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/kevin-augusto/",
+      "github": "",
+      "website": "",
+      "summary": "Product Owner & AI Product Lead experienced in 0-to-1 discovery, PRDs, backlog prioritization, AI prototyping, and agile delivery for CRM and Marketing Intelligence products. Architected AI-native systems (AI Career OS, Bússola da Rotina, Meu Barzin) integrating RAG, WhatsApp, n8n, and hands-on UAT. At Wipro (Meta Project), worked in agile squads (OKRs, backlog) and ran bi-weekly product feedback loops with Meta global stakeholders.",
+      "experience": [
+        {
+          "company": "AI Builder — Product Projects",
+          "role": "Product Owner / AI-Native Product Lead (AI Dental CRM Hermes, AI Career OS & Meu Barzin)",
+          "dates": "December 2025 – August 2026",
+          "location": "Remote",
+          "bullets": [
+            "Production AI CRM (-85% Cost): Built a self-hosted Kanban CRM (NocoDB on Postgres over private VPS/Cloudflare Tunnel) with a 24/7 WhatsApp AI agent (Hermes) synced to Google Calendar, human-in-the-loop quote approvals, and LGPD-compliant local voice transcription (US$ 14–18/mo vs. US$ 100–145/mo).",
+            "0-to-1 Discovery, PRDs & UAT (Bússola & AI Career OS): Built a 5,700+ line Firebase SPA and GraphRAG engine (>95% accuracy, SSOT architecture), owning PRDs, roadmaps, and frictionless UX decisions.",
+            "WhatsApp RAG & Conversion (Meu Barzin): Engineered a conversational agent (ManyChat/n8n/Supabase) driving 505 leads and 22.3% repeat engagement while pinpointing a 43.9% API latency drop."
+          ]
+        },
+        {
+          "company": "Wipro Brazil",
+          "role": "Product Operations & Enablement Lead (Meta Project)",
+          "dates": "September 2024 – July 2026",
+          "location": "Curitiba, Brazil / Remote",
+          "bullets": [
+            "Global Product Feedback Loop: Synthesized frontline usage into feature-level reports reviewed bi-weekly with Meta global product teams, shaping context and tone improvements in AI CRM summaries.",
+            "Agile Squad & Bootcamp Pilot: Managed backlog, dailies, OKRs, and roadmap for the Next Level Bootcamp (-50% ramp-up, 100% completion, 90% CSAT) informed by Power BI telemetry.",
+            "CRM AI Adoption (+150%): Owned AI activation for 150+ pros, ranking #1 globally in adoption growth."
+          ]
+        },
+        {
+          "company": "Munzner",
+          "role": "Digital Product & CRM Automation Specialist",
+          "dates": "October 2018 – August 2024",
+          "location": "Curitiba, Brazil",
+          "bullets": [
+            "LMS Product Launch (0→1): Designed, priced, and packaged the first digital course (WordPress/LMS) with a 1h mentoring order bump, securing 50 sales in 2 months (1.0x–1.5x ROI).",
+            "Automated Journey (~R$ 50k): Built a 10-stage email automation sequence (Sendpulse) turning 10,000+ visits into ~R$ 50k revenue."
+          ]
+        },
+        {
+          "company": "AK Branding & Web Design",
+          "role": "Digital Projects & UX Consultant",
+          "dates": "March 2019 – September 2024",
+          "location": "Curitiba, Brazil",
+          "bullets": [
+            "Scope & Delivery (40+ Projects): Managed scopes, budgets, and timelines across 40+ web, chatbot, and e-commerce builds (+250% leads)."
+          ]
+        }
+      ],
+      "skills": [
+        {
+          "category": "Product Ownership & Agile",
+          "skills": [
+            "0-to-1 Product Discovery & PRDs",
+            "Backlog Management, Roadmaps & Prioritization",
+            "Scrum, Kanban, Dailies & OKRs",
+            "UAT & Root Cause Analysis",
+            "Voice of Customer & Product Feedback Loops"
+          ]
+        },
+        {
+          "category": "AI, CRM & Marketing Intelligence",
+          "skills": [
+            "LLM Orchestration & Zero-Hallucination RAG",
+            "WhatsApp / ManyChat / n8n Conversational Flows",
+            "CRM Automation & Email Journeys",
+            "Supabase / PostgreSQL, Firebase & Webhooks"
+          ]
+        },
+        {
+          "category": "Data & UX",
+          "skills": [
+            "Power BI, Excel & Google Analytics",
+            "Frictionless UX/UI & Prototyping (Figma)",
+            "Product Metrics (Adoption, Conversion, CSAT, Retention)"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "Federal University of Parana (UFPR)",
+          "degree": "Bachelor Degree and Licentiate in Philosophy",
+          "dates": "2018 - 2023"
+        },
+        {
+          "institution": "Federal University of Parana (UFPR) / UTFPR",
+          "degree": "B.S. in Engineering (Incomplete - 2.5 years completed)",
+          "dates": "2012 - 2015"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "Meta Certified Media Planning Professional",
+          "issuer": "Meta",
+          "status": "Active"
+        },
+        {
+          "name": "Meta Certified Digital Marketing Associate",
+          "issuer": "Meta",
+          "status": "Active"
+        },
+        {
+          "name": "Google Project Management Professional Certificate",
+          "issuer": "Coursera / Google",
+          "status": "In progress"
+        }
+      ],
+      "languages": [
+        {
+          "language": "Portuguese",
+          "proficiency": "Native"
+        },
+        {
+          "language": "English",
+          "proficiency": "Advanced / Professional Proficiency"
+        }
+      ],
+      "additional_information": [
+        "Currently completing Google Project Management Professional Certificate."
+      ]
+    }
+  },
+  "materials": {
+    "pt": {
+      "cover_letter": "Olá, time da Mercafacil!\n\nFiquei muito entusiasmado com a vaga de Product Owner Sr focada em IA de Marketing Intelligence (SMS, e-mail, push e WhatsApp). É raro ver uma posição que conecte tão diretamente gestão ágil de produto com o que já construí na prática em IA generativa, CRM e jornadas conversacionais.\n\nNos meus projetos recentes como AI Product Lead (CRM Odontológico Hermes, AI Career OS, Bússola da Rotina e Meu Barzin), escrevi PRDs e roadmaps completos, implantei CRM self-hosted com agente 24/7 no WhatsApp integrado ao Google Agenda e orçamentos com aprovação humana (-85% custo de stack), prototipei soluções 0→1 com RAG anti-alucinação e conduzi UAT com foco em engajamento. Além disso, na Wipro (Projeto Meta), atuei em squad ágil com OKRs e conduzi loops bi-weekly de feedback diretamente com stakeholders globais de produto, levando a adoção de IA no CRM ao #1 lugar global (+150%).\n\nAdoraria conversar com o time da Mercafacil sobre como priorizar e escalar produtos de Marketing Intelligence com IA que gerem resultado real no dia a dia dos clientes!\n\nUm abraço,\nKevin Augusto Vieira",
+      "form_answers": [
+        {
+          "question": "Conte sobre sua experiência conduzindo discovery, backlog e produtos com IA e CRM.",
+          "answer": "No AI Career OS e no Bússola da Rotina, conduzi todo o ciclo 0→1 (PRD, roadmap, modelagem de dados SSOT/Firebase, prototipação assistida por IA e UAT). No Meu Barzin, arquitetei produto e jornadas no WhatsApp com RAG/n8n/Supabase (505 leads, 22,3% reengajamento). Na Wipro (Projeto Meta), participei de squad ágil (dailies, backlog, OKRs) e liderei o feedback loop de recursos de IA no CRM junto aos times globais."
+        }
+      ]
+    },
+    "en": {
+      "cover_letter": "Hi Mercafacil team!\n\nThe Senior Product Owner opening focused on AI Marketing Intelligence (SMS, email, push, WhatsApp) immediately caught my attention—it unites agile product ownership directly with my hands-on work in generative AI, CRM automation, and conversational workflows.\n\nAcross AI Career OS, Bússola da Rotina, and Meu Barzin, I owned 0-to-1 PRDs, roadmaps, backlogs, production prototypes (including a WhatsApp RAG agent built on ManyChat, n8n, and Supabase), and UAT. Previously at Wipro (Meta Project), I worked inside an agile squad and led bi-weekly product feedback loops with global product teams while driving #1 global CRM AI adoption (+150%).\n\nI would love to chat with Mercafacil about prioritizing and scaling AI Marketing Intelligence products!\n\nBest regards,\nKevin Augusto Vieira",
+      "form_answers": [
+        {
+          "question": "Describe your experience managing discovery, backlog, and AI/CRM products.",
+          "answer": "On AI Career OS and Bússola da Rotina I owned 0-to-1 discovery, PRDs, roadmaps, data modeling, and UAT. On Meu Barzin I built a WhatsApp AI RAG product (505 leads, 22.3% repeat engagement), and at Wipro/Meta I managed agile squad backlogs and global AI feature feedback loops."
+        }
+      ]
+    }
+  },
+  "evidence": {
+    "skills": {
+      "pt": [],
+      "en": []
+    }
+  }
+}

@@ -1,0 +1,291 @@
+{
+  "id": "positivo-tecnologia-analista-de-marketing-pl-performance",
+  "metadata": {
+    "company_name": "Positivo Tecnologia",
+    "role_title": "Analista de Marketing PL (Performance)",
+    "url": "https://positivotecnologia.gupy.io/job/eyJqb2JJZCI6MTIyODY5MjYsInNvdXJjZSI6Imd1cHlfcG9ydGFsIn0=",
+    "fit_score": 85,
+    "salary_expectation": "A negociar (CLT / Curitiba Híbrido)",
+    "document_language": "pt",
+    "available_languages": [
+      "pt",
+      "en"
+    ],
+    "location": "Curitiba, PR · Híbrido",
+    "employment_type": "CLT / Tempo integral",
+    "deadline": "30/11/2026",
+    "source_files": [
+      "master_resume.json"
+    ],
+    "good_points": [
+      "Certificações oficiais Meta Media Planning Professional & Digital Marketing Associate + referência técnica em estratégias Meta Ads para 150+ pros na Wipro.",
+      "Histórico sólido em landing pages, testes A/B e CRO (+250% de captação de leads e 5 leads/dia) na AK Branding + 505 leads no Meu Barzin.",
+      "Experiência em RD Station, Sendpulse, Power BI e agentes de IA/n8n; residente em Curitiba/PR para o modelo híbrido."
+    ],
+    "improvement_points": [
+      "Aprofundar operação direta de Google Ads, mídia programática e rotinas de CRM no Pipedrive em paralelo ao domínio consolidado de Meta Ads e RD Station."
+    ]
+  },
+  "triage": {
+    "decision": "adapt",
+    "blockers": [],
+    "notes": [
+      "Fit 85, Gupy aberta até 30/11/2026, Curitiba híbrido."
+    ],
+    "gaps": []
+  },
+  "resume": {
+    "pt": {
+      "name": "Kevin Augusto Vieira",
+      "location": "Curitiba, PR | Disponível para Híbrido",
+      "phone": "+55 (41) 99694-1615",
+      "email": "kevin.aug.vieira@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/kevin-augusto/",
+      "github": "",
+      "website": "",
+      "summary": "Analista de Marketing de Performance e Growth com mais de 8 anos gerando demanda qualificada, otimizando funis de conversão (CRO) e operando estratégias de mídia paga certificadas pela Meta. Na Wipro (Projeto Meta), atuou como referência técnica em anúncios Meta para 150+ profissionais e liderou adoção de IA no CRM (#1 global, +150%). Na AK Branding e Munzner, combinou Meta Ads, testes A/B, RD Station/Sendpulse e Power BI para multiplicar leads em +250% e gerar ~R$ 50 mil em receita automatizada. Baseado em Curitiba.",
+      "experience": [
+        {
+          "company": "Wipro Brasil",
+          "role": "Referência Técnica em Meta Ads & Marketing Ops (Projeto Meta)",
+          "dates": "Setembro 2024 – Julho 2026",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Estratégias de Mídia Meta: Atuou como referência técnica em campanhas na Meta, traduzindo inovações de produto e GTM para mais de 150 Meta Marketing Pros.",
+            "IA no CRM & Auditoria de Qualidade (+150%): Elevou o uso de IA no CRM em +150% (#1 global) e utilizou painéis Power BI/Excel junto ao time MIS para diagnosticar desempenho e qualidade (90%+)."
+          ]
+        },
+        {
+          "company": "AK Branding & Web Design",
+          "role": "Especialista em Performance, Meta Ads e CRO",
+          "dates": "Março 2019 – Setembro 2024",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Meta Ads & Testes A/B (+250% Leads): Executou campanhas pagas na Meta e testes A/B em criativos e landing pages, elevando a geração de leads de 8 para 20–30 contatos/mês (+250%) e entregando 5 leads qualificados/dia em LPs imobiliárias.",
+            "Gestão de Orçamento & Entrega: Controlou escopos, verbas e cronogramas para mais de 40 projetos B2B e B2C com adequação técnica LGPD."
+          ]
+        },
+        {
+          "company": "Munzner",
+          "role": "Especialista em Marketing Digital, Nutrição e ROI",
+          "dates": "Outubro 2018 – Agosto 2024",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Funil de Leads & Receita (~R$ 50k): Construiu régua automatizada de 10 etapas (Sendpulse / RD Station) e conteúdo SEO (~10% visitor-to-lead), atraindo 10.000+ visitas e ~R$ 50 mil em vendas.",
+            "Análise de Aquisição & ROI: Lançou curso digital (50 vendas em 2 meses, ROI 1.0x–1.5x), rastreando canais de aquisição e conversão por etapa do funil."
+          ]
+        },
+        {
+          "company": "AI Builder — Projetos de Produtos",
+          "role": "Especialista em Growth, IA e Automação (Meu Barzin)",
+          "dates": "Dezembro 2025 – Março 2026",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Aquisição & WhatsApp Automatizado (505 Leads): Captou 505 leads qualificados combinando campanhas e fluxos automatizados em n8n/ManyChat/Supabase, atingindo 22,3% de alto engajamento."
+          ]
+        }
+      ],
+      "skills": [
+        {
+          "category": "Mídia Paga & Performance",
+          "skills": [
+            "Meta Ads (Certificado Media Planning & Digital Marketing)",
+            "Testes A/B de Criativos e Páginas",
+            "Landing Pages e Otimização de Conversão (CRO)",
+            "Métricas de Performance (CTR, CPL, CAC, ROAS, MQL→SQL)"
+          ]
+        },
+        {
+          "category": "Analytics, CRM & Automação",
+          "skills": [
+            "Power BI, Excel e Google Analytics",
+            "UTM Tracking e Mensuração Multicanal",
+            "RD Station, Sendpulse e CRMs Meta",
+            "n8n, Make, Chatbots e Fluxos de IA"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "Universidade Federal do Paraná (UFPR)",
+          "degree": "Bacharelado e Licenciatura em Filosofia",
+          "dates": "2018 - 2023"
+        },
+        {
+          "institution": "Universidade Federal do Paraná (UFPR) / UTFPR",
+          "degree": "Bacharelado em Engenharia (Incompleto - 2,5 anos cursados)",
+          "dates": "2012 - 2015"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "Meta Certified Media Planning Professional",
+          "issuer": "Meta",
+          "status": "Ativo"
+        },
+        {
+          "name": "Meta Certified Digital Marketing Associate",
+          "issuer": "Meta",
+          "status": "Ativo"
+        },
+        {
+          "name": "Google Project Management Professional Certificate",
+          "issuer": "Coursera / Google",
+          "status": "Em andamento"
+        }
+      ],
+      "languages": [
+        {
+          "language": "Português",
+          "proficiency": "Nativo"
+        },
+        {
+          "language": "Inglês",
+          "proficiency": "Avançado / Profissional"
+        }
+      ],
+      "additional_information": [
+        "Residente em Curitiba/PR com disponibilidade imediata para modelo híbrido."
+      ]
+    },
+    "en": {
+      "name": "Kevin Augusto Vieira",
+      "location": "Curitiba, PR, Brazil | Available for Hybrid",
+      "phone": "+55 (41) 99694-1615",
+      "email": "kevin.aug.vieira@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/kevin-augusto/",
+      "github": "",
+      "website": "",
+      "summary": "Performance & Growth Marketing Analyst with 8+ years driving qualified lead generation, landing page CRO, and Meta-certified paid media strategies. At Wipro (Meta Project), served as technical reference for Meta Ads strategies across 150+ pros and drove #1 global CRM AI adoption (+150%). Across AK Branding and Munzner, leveraged Meta Ads, A/B testing, RD Station/Sendpulse, and Power BI to grow leads by +250% and automate ~R$ 50k in revenue. Based in Curitiba.",
+      "experience": [
+        {
+          "company": "Wipro Brazil",
+          "role": "Meta Ads Technical Reference & Marketing Ops (Meta Project)",
+          "dates": "September 2024 – July 2026",
+          "location": "Curitiba, Brazil",
+          "bullets": [
+            "Meta Media Strategy: Acted as technical reference for Meta ad strategies, translating product and GTM updates for 150+ Meta Marketing Pros.",
+            "AI CRM & Quality Analytics (+150%): Drove +150% growth in CRM AI usage (#1 globally) and partnered with MIS on Power BI/Excel dashboards sustaining 90%+ audit quality."
+          ]
+        },
+        {
+          "company": "AK Branding & Web Design",
+          "role": "Performance Marketing, Meta Ads & CRO Specialist",
+          "dates": "March 2019 – September 2024",
+          "location": "Curitiba, Brazil",
+          "bullets": [
+            "Meta Ads & A/B Tests (+250% Leads): Managed paid campaigns and A/B experiments across ads and landing pages, raising monthly leads from 8 to 20–30 (+250%) and driving 5 qualified leads/day on real estate LPs.",
+            "Budget & Project Control: Managed budgets, scopes, and timelines across 40+ B2B/B2C digital projects with full LGPD compliance."
+          ]
+        },
+        {
+          "company": "Munzner",
+          "role": "Digital Marketing, Nurturing & ROI Specialist",
+          "dates": "October 2018 – August 2024",
+          "location": "Curitiba, Brazil",
+          "bullets": [
+            "Lead Funnel & Revenue (~R$ 50k): Built a 10-stage automated funnel (Sendpulse / RD Station) and SEO content (~10% visitor-to-lead) generating 10,000+ visits and ~R$ 50k in sales.",
+            "Acquisition & ROI Tracking: Launched a digital course (50 sales in 2 months, 1.0x–1.5x ROI) tracking channels and CRM funnel conversion."
+          ]
+        },
+        {
+          "company": "AI Builder — Product Projects",
+          "role": "Growth, AI & Automation Specialist (Meu Barzin)",
+          "dates": "December 2025 – March 2026",
+          "location": "Curitiba, Brazil",
+          "bullets": [
+            "Acquisition & WhatsApp Automation (505 Leads): Captured 505 qualified leads combining campaigns with n8n/ManyChat/Supabase workflows reaching 22.3% high engagement."
+          ]
+        }
+      ],
+      "skills": [
+        {
+          "category": "Paid Media & Performance",
+          "skills": [
+            "Meta Ads (Certified Media Planning & Digital Marketing)",
+            "Creative & Landing Page A/B Testing",
+            "Landing Pages & Conversion Optimization (CRO)",
+            "Performance Metrics (CTR, CPL, CAC, ROAS, MQL→SQL)"
+          ]
+        },
+        {
+          "category": "Analytics, CRM & Automation",
+          "skills": [
+            "Power BI, Excel & Google Analytics",
+            "UTM Tracking & Cross-Channel Attribution",
+            "RD Station, Sendpulse & Meta CRMs",
+            "n8n, Make, Chatbots & AI Workflows"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "Federal University of Parana (UFPR)",
+          "degree": "Bachelor Degree and Licentiate in Philosophy",
+          "dates": "2018 - 2023"
+        },
+        {
+          "institution": "Federal University of Parana (UFPR) / UTFPR",
+          "degree": "B.S. in Engineering (Incomplete - 2.5 years completed)",
+          "dates": "2012 - 2015"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "Meta Certified Media Planning Professional",
+          "issuer": "Meta",
+          "status": "Active"
+        },
+        {
+          "name": "Meta Certified Digital Marketing Associate",
+          "issuer": "Meta",
+          "status": "Active"
+        },
+        {
+          "name": "Google Project Management Professional Certificate",
+          "issuer": "Coursera / Google",
+          "status": "In progress"
+        }
+      ],
+      "languages": [
+        {
+          "language": "Portuguese",
+          "proficiency": "Native"
+        },
+        {
+          "language": "English",
+          "proficiency": "Advanced / Professional Proficiency"
+        }
+      ],
+      "additional_information": [
+        "Based in Curitiba, PR, immediately available for hybrid work."
+      ]
+    }
+  },
+  "materials": {
+    "pt": {
+      "cover_letter": "Olá, time da Positivo Tecnologia!\n\nFiquei muito empolgado ao encontrar a oportunidade de Analista de Marketing PL com foco em Performance aqui em Curitiba — especialmente para uma empresa paranaense que é referência nacional em tecnologia.\n\nNos últimos anos, uni execução prática em performance com automação e dados: sou certificado oficialmente pela Meta (Media Planning e Digital Marketing), fui referência técnica em estratégias de Meta Ads para 150+ profissionais na Wipro (Projeto Meta), aumentei em +250% a captação de leads com Meta Ads, landing pages e testes A/B na AK Branding e estruturei funis automatizados no RD Station/Sendpulse que geraram ~R$ 50 mil em receita na Munzner — além de automatizar fluxos de aquisição com n8n e IA no Meu Barzin (505 leads).\n\nMoro em Curitiba e estou disponível para o formato híbrido. Será um prazer conversar com vocês sobre como acelerar geração de leads e ROI na Positivo Tecnologia!\n\nUm abraço,\nKevin Augusto Vieira",
+      "form_answers": [
+        {
+          "question": "Qual sua experiência com Meta Ads, CRO, analytics e automações de marketing?",
+          "answer": "Sou certificado como Meta Media Planning Professional e atuei na Wipro (Projeto Meta) como referência técnica em anúncios Meta para 150+ consultores, usando painéis Power BI/MIS no dia a dia. Na AK Branding, geri Meta Ads, landing pages e testes A/B que elevaram a captação de leads em +250%, e na Munzner/Meu Barzin conectei RD Station, Sendpulse e n8n para automatizar nutrição e rastreamento de funil."
+        }
+      ]
+    },
+    "en": {
+      "cover_letter": "Hi Positivo Tecnologia team!\n\nI was thrilled to find the Performance Marketing Analyst opening here in Curitiba. Joining a leading Brazilian technology company where performance media, CRM analytics, and AI workflows intersect is an ideal match.\n\nI hold active Meta Media Planning & Digital Marketing certifications, served as technical Meta Ads reference for 150+ pros at Wipro (Meta Project), boosted lead generation by +250% via Meta Ads and CRO experiments at AK Branding, and built automated RD Station/Sendpulse funnels generating ~R$ 50k at Munzner—alongside n8n AI acquisition flows (505 leads) at Meu Barzin.\n\nBased in Curitiba and ready for the hybrid model, I would love to discuss how I can drive qualified demand and ROI at Positivo Tecnologia!\n\nBest regards,\nKevin Augusto Vieira",
+      "form_answers": [
+        {
+          "question": "What is your experience with Meta Ads, CRO, analytics, and automation?",
+          "answer": "I am a Meta Certified Media Planning Professional and acted as Meta Ads technical reference for 150+ consultants at Wipro using Power BI/MIS telemetry. At AK Branding I ran Meta Ads and landing page A/B tests (+250% leads), and at Munzner/Meu Barzin I integrated RD Station, Sendpulse, and n8n automation."
+        }
+      ]
+    }
+  },
+  "evidence": {
+    "skills": {
+      "pt": [],
+      "en": []
+    }
+  }
+}

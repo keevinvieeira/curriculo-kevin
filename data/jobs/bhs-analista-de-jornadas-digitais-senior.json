@@ -1,0 +1,287 @@
+{
+  "id": "bhs-analista-de-jornadas-digitais-senior",
+  "metadata": {
+    "company_name": "BHS",
+    "role_title": "Analista de Jornadas Digitais Sênior",
+    "url": "https://bhs.gupy.io/job/eyJqb2JJZCI6MTI4NTkzNjcsInNvdXJjZSI6Imd1cHlfcG9ydGFsIn0=",
+    "fit_score": 80,
+    "salary_expectation": "A negociar (CLT / Remoto Brasil)",
+    "document_language": "pt",
+    "available_languages": [
+      "pt",
+      "en"
+    ],
+    "location": "Brasil · 100% Remoto",
+    "employment_type": "Tempo integral",
+    "deadline": "08/01/2027",
+    "source_files": [
+      "master_resume.json"
+    ],
+    "good_points": [
+      "Desenho prático de jornadas conversacionais no WhatsApp e chatbots com IA (Meu Barzin via ManyChat/n8n/RAG/Supabase com 22,3% alto engajamento; AK Branding +250% leads).",
+      "Construção de jornadas automatizadas de 10 etapas em CRM (~R$ 50k na Munzner) e UX anti-atrito (Bússola da Rotina).",
+      "Diagnóstico analítico de gargalos em jornadas (43,9% drop na 1ª mensagem no Meu Barzin; Power BI e análise de causa raiz na Wipro/Meta)."
+    ],
+    "improvement_points": [
+      "Aprofundar SQL Server corporativo e rituais de homologação em larga escala enterprise."
+    ]
+  },
+  "triage": {
+    "decision": "adapt",
+    "blockers": [],
+    "notes": [
+      "Fit 80, Gupy publicada em 09/11/2026 com prazo até 08/01/2027, 100% remoto."
+    ],
+    "gaps": []
+  },
+  "resume": {
+    "pt": {
+      "name": "Kevin Augusto Vieira",
+      "location": "Curitiba, PR | 100% Remoto",
+      "phone": "+55 (41) 99694-1615",
+      "email": "kevin.aug.vieira@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/kevin-augusto/",
+      "github": "",
+      "website": "",
+      "summary": "Analista Sênior de Jornadas Digitais, Automação Conversacional e UX com mais de 8 anos projetando fluxos de relacionamento em WhatsApp, chatbots com IA, CRM e web. Criou arquiteturas conversacionais integrando ManyChat, n8n, APIs, RAG e Supabase (22,3% de usuários altamente engajados no Meu Barzin), implementou chatbots que ampliaram leads em +250% (AK Branding) e liderou adoção de IA no CRM (+150%, #1 global) e análise de causa raiz na Wipro (Projeto Meta).",
+      "experience": [
+        {
+          "company": "AI Builder — Projetos de Produtos",
+          "role": "Arquiteto de Jornadas Digitais & Fluxos Conversacionais (CRM Odontológico Hermes & Meu Barzin)",
+          "dates": "Dezembro 2025 – Agosto 2026",
+          "location": "Remoto",
+          "bullets": [
+            "Jornada 24/7 WhatsApp & Agenda (CRM Odontológico): Construiu CRM self-hosted (NocoDB sobre Postgres em VPS própria) com agente Hermes no WhatsApp integrado ao Google Agenda para agendamento, confirmações automáticas e orçamentos com aprovação humana (-85% custo).",
+            "Jornadas WhatsApp & Diagnóstico de Atrito (Meu Barzin): Desenhou fluxos via ManyChat, n8n e RAG em Supabase (505 leads, 22,3% reengajamento), identificando latência de API atrás de 43,9% de drop inicial.",
+            "UX Anti-Atrito & UAT: Projetou jornadas determinísticas e testes de aceitação (UAT) no Bússola da Rotina e AI Career OS."
+          ]
+        },
+        {
+          "company": "Wipro Brasil",
+          "role": "Especialista em Jornadas de CRM, IA e Qualidade (Projeto Meta)",
+          "dates": "Setembro 2024 – Julho 2026",
+          "location": "Curitiba, PR / Remoto",
+          "bullets": [
+            "Otimização de Jornadas no CRM (+150%): Liderou a ativação de IA nativa no CRM para 150+ profissionais (#1 global em crescimento), consolidando feedbacks de uso em relatórios bi-weekly para times de produto.",
+            "Análise de Causa Raiz & Power BI: Utilizou Power BI/Excel e auditorias (90%+ qualidade) para diagnosticar gargalos e reduzir o tempo de ramp-up de 6 para 3 meses (-50%)."
+          ]
+        },
+        {
+          "company": "AK Branding & Web Design",
+          "role": "Consultor de Jornadas Web, Chatbots e CRO",
+          "dates": "Março 2019 – Setembro 2024",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Chatbots & Conversão (+250%): Implementou interfaces de chatbot e jornadas web com testes A/B para 40+ clientes, elevando a captação de 8 para 20–30 leads/mês (+250%)."
+          ]
+        },
+        {
+          "company": "Munzner",
+          "role": "Especialista em Jornadas Automatizadas & CRM",
+          "dates": "Outubro 2018 – Agosto 2024",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Jornada Multietapa (~R$ 50k): Estruturou fluxo automatizado de 10 etapas (Sendpulse) conectando 10.000+ visitas a ~R$ 50 mil em receita."
+          ]
+        }
+      ],
+      "skills": [
+        {
+          "category": "Jornadas Digitais & Canais Conversacionais",
+          "skills": [
+            "Arquitetura de Jornadas WhatsApp e Chatbots",
+            "ManyChat, Botpress, n8n e Make",
+            "IA Conversacional, RAG e Guardrails",
+            "UX/UI e Mapeamento de Atritos"
+          ]
+        },
+        {
+          "category": "CRM, Dados & Qualidade",
+          "skills": [
+            "RD Station, Sendpulse, Bitrix24 e CRMs Meta",
+            "Integrações via APIs REST e Webhooks",
+            "Supabase / PostgreSQL e SQL Básico",
+            "Power BI, Análise de Causa Raiz e Testes A/B"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "Universidade Federal do Paraná (UFPR)",
+          "degree": "Bacharelado e Licenciatura em Filosofia",
+          "dates": "2018 - 2023"
+        },
+        {
+          "institution": "Universidade Federal do Paraná (UFPR) / UTFPR",
+          "degree": "Bacharelado em Engenharia (Incompleto - 2,5 anos cursados)",
+          "dates": "2012 - 2015"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "Meta Certified Media Planning Professional",
+          "issuer": "Meta",
+          "status": "Ativo"
+        },
+        {
+          "name": "Meta Certified Digital Marketing Associate",
+          "issuer": "Meta",
+          "status": "Ativo"
+        },
+        {
+          "name": "Google Project Management Professional Certificate",
+          "issuer": "Coursera / Google",
+          "status": "Em andamento"
+        }
+      ],
+      "languages": [
+        {
+          "language": "Português",
+          "proficiency": "Nativo"
+        },
+        {
+          "language": "Inglês",
+          "proficiency": "Avançado / Profissional"
+        }
+      ],
+      "additional_information": []
+    },
+    "en": {
+      "name": "Kevin Augusto Vieira",
+      "location": "Curitiba, PR, Brazil | 100% Remote",
+      "phone": "+55 (41) 99694-1615",
+      "email": "kevin.aug.vieira@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/kevin-augusto/",
+      "github": "",
+      "website": "",
+      "summary": "Senior Digital Journeys, Conversational Automation & UX Analyst with 8+ years designing customer flows across WhatsApp, AI chatbots, CRM, and web experiences. Engineered conversational journeys integrating ManyChat, n8n, APIs, RAG, and Supabase (22.3% repeat engagement at Meu Barzin), deployed chatbots driving +250% leads (AK Branding), and led CRM AI adoption (+150%, #1 globally) and root cause diagnostics at Wipro (Meta Project).",
+      "experience": [
+        {
+          "company": "AI Builder — Product Projects",
+          "role": "Digital Journeys & Conversational Flows Architect (AI Dental CRM Hermes & Meu Barzin)",
+          "dates": "December 2025 – August 2026",
+          "location": "Remote",
+          "bullets": [
+            "24/7 WhatsApp & Scheduling Journey (AI Dental CRM): Built a self-hosted CRM (NocoDB on Postgres over private VPS) with Hermes, a 24/7 WhatsApp AI agent synced with Google Calendar for bookings, confirmations, and human-approved quotes (-85% cost).",
+            "WhatsApp Journeys & Friction Diagnostics (Meu Barzin): Engineered ManyChat/n8n/Supabase RAG flows (505 leads, 22.3% repeat engagement) and pinpointed API latency behind a 43.9% first-message dropout.",
+            "Frictionless UX & UAT: Designed deterministic user journeys and conducted UAT across Bússola da Rotina and AI Career OS."
+          ]
+        },
+        {
+          "company": "Wipro Brazil",
+          "role": "CRM Journeys, AI & Quality Specialist (Meta Project)",
+          "dates": "September 2024 – July 2026",
+          "location": "Curitiba, Brazil / Remote",
+          "bullets": [
+            "CRM Workflow Optimization (+150%): Owned native CRM AI adoption across 150+ pros (#1 global growth) and delivered bi-weekly feature feedback loops to global product teams.",
+            "Root Cause Analysis & Power BI: Leveraged Power BI/Excel and quality audits (90%+) to cut onboarding ramp-up from 6 to 3 months (-50%)."
+          ]
+        },
+        {
+          "company": "AK Branding & Web Design",
+          "role": "Web Journeys, Chatbots & CRO Consultant",
+          "dates": "March 2019 – September 2024",
+          "location": "Curitiba, Brazil",
+          "bullets": [
+            "Chatbots & Conversion (+250%): Deployed chatbots and A/B-tested web journeys across 40+ projects, boosting leads from 8 to 20–30/month (+250%)."
+          ]
+        },
+        {
+          "company": "Munzner",
+          "role": "Automated Journeys & CRM Specialist",
+          "dates": "October 2018 – August 2024",
+          "location": "Curitiba, Brazil",
+          "bullets": [
+            "Multistage Journey (~R$ 50k): Built a 10-stage automated sequence (Sendpulse) turning 10,000+ visits into ~R$ 50k revenue."
+          ]
+        }
+      ],
+      "skills": [
+        {
+          "category": "Digital Journeys & Conversational Channels",
+          "skills": [
+            "WhatsApp & Chatbot Journey Architecture",
+            "ManyChat, Botpress, n8n & Make",
+            "Conversational AI, RAG & Guardrails",
+            "UX/UI & Friction Mapping"
+          ]
+        },
+        {
+          "category": "CRM, Data & Quality",
+          "skills": [
+            "RD Station, Sendpulse, Bitrix24 & Meta CRMs",
+            "REST API & Webhook Integrations",
+            "Supabase / PostgreSQL & Basic SQL",
+            "Power BI, Root Cause Analysis & A/B Testing"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "Federal University of Parana (UFPR)",
+          "degree": "Bachelor Degree and Licentiate in Philosophy",
+          "dates": "2018 - 2023"
+        },
+        {
+          "institution": "Federal University of Parana (UFPR) / UTFPR",
+          "degree": "B.S. in Engineering (Incomplete - 2.5 years completed)",
+          "dates": "2012 - 2015"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "Meta Certified Media Planning Professional",
+          "issuer": "Meta",
+          "status": "Active"
+        },
+        {
+          "name": "Meta Certified Digital Marketing Associate",
+          "issuer": "Meta",
+          "status": "Active"
+        },
+        {
+          "name": "Google Project Management Professional Certificate",
+          "issuer": "Coursera / Google",
+          "status": "In progress"
+        }
+      ],
+      "languages": [
+        {
+          "language": "Portuguese",
+          "proficiency": "Native"
+        },
+        {
+          "language": "English",
+          "proficiency": "Advanced / Professional Proficiency"
+        }
+      ],
+      "additional_information": []
+    }
+  },
+  "materials": {
+    "pt": {
+      "cover_letter": "Olá, time da BHS!\n\nFiquei muito animado ao ver a vaga de Analista de Jornadas Digitais Sênior na BHS. Construir fluxos digitais sem atrito conectando WhatsApp, CRM, APIs e análise de conversão é exatamente o eixo central dos projetos que liderei recentemente.\n\nNo CRM Odontológico com IA (Hermes) e no Meu Barzin, arquitetei jornadas completas no WhatsApp em produção: CRM Kanban em NocoDB sobre Postgres com agente 24/7 integrado ao Google Agenda para confirmações e orçamentos com aprovação humana (-85% custo), além de fluxos ManyChat/n8n/Supabase com RAG (505 leads; 22,3% de usuários recorrentes) e diagnóstico de gargalo de 43,9% de drop inicial ligado à latência de API. Somo a isso chatbots e testes A/B que elevaram leads em +250% na AK Branding, réguas automatizadas de 10 etapas na Munzner (~R$ 50 mil) e análise de causa raiz com Power BI na Wipro (Projeto Meta).\n\nSerá um prazer conversar com vocês da BHS sobre como evoluir e escalar a conversão das jornadas digitais dos seus clientes!\n\nUm abraço,\nKevin Augusto Vieira",
+      "form_answers": [
+        {
+          "question": "Conte sobre uma jornada digital ou conversacional que você otimizou com dados.",
+          "answer": "No Meu Barzin, desenhei a jornada no WhatsApp (ManyChat + n8n + Supabase + RAG) e, ao cruzar métricas de funil com entrevistas qualitativas, identifiquei que 43,9% do abandono na primeira mensagem vinha da latência de resposta de API e liquidez de oferta, orientando melhorias diretas no fluxo e mantendo 22,3% de alto engajamento recorrente."
+        }
+      ]
+    },
+    "en": {
+      "cover_letter": "Hi BHS team!\n\nI was excited to see the Senior Digital Journeys Analyst opening at BHS. Designing frictionless digital journeys connecting WhatsApp, CRM, APIs, and conversion telemetry is right at the core of my recent product and growth work.\n\nAt Meu Barzin, I built an end-to-end WhatsApp conversational journey integrating ManyChat, n8n, Supabase, and RAG (505 leads, 22.3% repeat engagement) and diagnosed a 43.9% first-message API latency bottleneck. I pair this with +250% lead growth from chatbots/CRO at AK Branding, a 10-stage automated funnel (~R$ 50k) at Munzner, and Power BI root cause analysis at Wipro (Meta Project).\n\nI would love to connect with BHS to discuss how I can optimize and scale your digital journeys!\n\nBest regards,\nKevin Augusto Vieira",
+      "form_answers": [
+        {
+          "question": "Share a digital or conversational journey you optimized using data.",
+          "answer": "At Meu Barzin I built a WhatsApp journey (ManyChat/n8n/Supabase/RAG) and paired funnel metrics with qualitative interviews to uncover a 43.9% first-message dropout caused by API latency, guiding flow improvements that sustained 22.3% high repeat engagement."
+        }
+      ]
+    }
+  },
+  "evidence": {
+    "skills": {
+      "pt": [],
+      "en": []
+    }
+  }
+}

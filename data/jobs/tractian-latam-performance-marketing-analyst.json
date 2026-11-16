@@ -1,0 +1,291 @@
+{
+  "id": "tractian-latam-performance-marketing-analyst",
+  "metadata": {
+    "company_name": "Tractian",
+    "role_title": "LATAM Performance Marketing Analyst",
+    "url": "https://careers.tractian.com/jobs/am9icG9zdDrDTgUGqUVCP9sgFODqPU3G/apply",
+    "fit_score": 81,
+    "salary_expectation": "A negociar (Remoto-first)",
+    "document_language": "en",
+    "available_languages": [
+      "pt",
+      "en"
+    ],
+    "location": "Remoto-first (Ref. SP; Curitiba a confirmar)",
+    "employment_type": "Tempo integral",
+    "deadline": "Ativa no portal Tractian",
+    "source_files": [
+      "master_resume.json"
+    ],
+    "good_points": [
+      "Perfil analítico orientado a primeiros princípios (2,5 anos em Engenharia + Bacharelado em Filosofia pela UFPR) com Inglês fluente.",
+      "Certificações ativas Meta Ads + referência técnica em campanhas Meta para 150+ profissionais (Wipro/Meta) e testes A/B/CRO (+250% leads na AK Branding).",
+      "Integração de dados de funil, CRM, Power BI/Excel e automações (n8n/Supabase) conectando aquisição à conversão."
+    ],
+    "improvement_points": [
+      "Aprofundar Google Ads / Paid Search em escala B2B industrial e ferramentas de BI como Tableau/Sigma; confirmar aceitação de trabalho 100% remoto a partir de Curitiba."
+    ]
+  },
+  "triage": {
+    "decision": "adapt",
+    "blockers": [],
+    "notes": [
+      "Fit 81, formulário ativo na Tractian (inglês recomendado dado título/escopo LATAM)."
+    ],
+    "gaps": []
+  },
+  "resume": {
+    "pt": {
+      "name": "Kevin Augusto Vieira",
+      "location": "Curitiba, PR | Remoto-first",
+      "phone": "+55 (41) 99694-1615",
+      "email": "kevin.aug.vieira@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/kevin-augusto/",
+      "github": "",
+      "website": "",
+      "summary": "Analista de Performance Marketing & Growth orientado por dados e primeiros princípios, com mais de 8 anos estruturando campanhas B2B/B2C, experimentação A/B, landing pages de alta conversão e análise de funil de receita. Certificado pela Meta e referência técnica para 150+ profissionais no Projeto Meta (Wipro), une execução prática em mídia paga (Meta Ads), automação CRM/n8n e Power BI a uma base analítica em Engenharia (2,5 anos) e Filosofia (UFPR), com Inglês fluente.",
+      "experience": [
+        {
+          "company": "Wipro Brasil",
+          "role": "Referência Técnica em Meta Ads & Performance Analytics (Projeto Meta)",
+          "dates": "Setembro 2024 – Julho 2026",
+          "location": "Curitiba, PR / Remoto",
+          "bullets": [
+            "Estratégias de Performance Meta: Atuou como referência técnica para 150+ Meta Marketing Pros em estratégias de anúncios e posicionamento orientados a retorno comercial.",
+            "BI, Funis & Causa Raiz: Em parceria com o time MIS (Power BI/Excel), analisou indicadores operacionais para identificar gargalos e criar o Next Level Bootcamp (-50% ramp-up, 90%+ qualidade).",
+            "Adoção de IA no CRM (+150%): Escalou o uso de IA no CRM ao #1 lugar global (+150%) com comunicação executiva bilíngue."
+          ]
+        },
+        {
+          "company": "AK Branding & Web Design",
+          "role": "Consultor de Performance Marketing, Paid Social e CRO",
+          "dates": "Março 2019 – Setembro 2024",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Paid Social & Testes A/B (+250% Leads): Executou campanhas em Meta Ads, testes A/B em criativos e landing pages, elevando leads de 8 para 20–30/mês (+250%) e gerando 5 leads qualificados/dia em LPs imobiliárias.",
+            "Controle de Orçamento & B2B (40+ Contas): Gerenciou verbas, escopos e performance de mais de 40 projetos B2B e B2C."
+          ]
+        },
+        {
+          "company": "Munzner",
+          "role": "Especialista em Growth, Funis e ROI",
+          "dates": "Outubro 2018 – Agosto 2024",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Mensuração de Receita & ROI (~R$ 50k): Conectou aquisição orgânica (~10% visitor-to-lead) e funil automatizado de 10 etapas (Sendpulse), gerando 10.000+ visitas, ~R$ 50 mil em vendas e ROI de 1.0x–1.5x em lançamento digital."
+          ]
+        },
+        {
+          "company": "AI Builder — Projetos de Produtos",
+          "role": "Growth & Systems Builder (Meu Barzin & AI Career OS)",
+          "dates": "Dezembro 2025 – Agosto 2026",
+          "location": "Remoto",
+          "bullets": [
+            "Aquisição & Dados em Tempo Real (505 Leads): Captou 505 leads combinando mídia/orgânico a bancos Supabase/PostgreSQL e n8n, diagnosticando atritos de conversão no funil."
+          ]
+        }
+      ],
+      "skills": [
+        {
+          "category": "Performance Marketing & CRO",
+          "skills": [
+            "Meta Ads (Media Planning Professional & Digital Marketing Associate)",
+            "Testes A/B e Design de Experimentos",
+            "Otimização de Landing Pages (CRO)",
+            "Métricas de Funil (CTR, CPL, CAC, LTV, ROAS, MQL→SQL)"
+          ]
+        },
+        {
+          "category": "Analytics, BI & Automação",
+          "skills": [
+            "Power BI, Excel e Google Sheets Avançados",
+            "Google Analytics e UTM Tracking",
+            "SQL Básico e Supabase / PostgreSQL",
+            "n8n, Make, APIs/Webhooks e IA Generativa"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "Universidade Federal do Paraná (UFPR)",
+          "degree": "Bacharelado e Licenciatura em Filosofia",
+          "dates": "2018 - 2023"
+        },
+        {
+          "institution": "Universidade Federal do Paraná (UFPR) / UTFPR",
+          "degree": "Bacharelado em Engenharia (Incompleto - 2,5 anos cursados)",
+          "dates": "2012 - 2015"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "Meta Certified Media Planning Professional",
+          "issuer": "Meta",
+          "status": "Ativo"
+        },
+        {
+          "name": "Meta Certified Digital Marketing Associate",
+          "issuer": "Meta",
+          "status": "Ativo"
+        },
+        {
+          "name": "Google Project Management Professional Certificate",
+          "issuer": "Coursera / Google",
+          "status": "Em andamento"
+        }
+      ],
+      "languages": [
+        {
+          "language": "Português",
+          "proficiency": "Nativo"
+        },
+        {
+          "language": "Inglês",
+          "proficiency": "Avançado / Fluente (uso corporativo diário em alinhamentos, documentação e relatórios internacionais)"
+        }
+      ],
+      "additional_information": [
+        "Inglês fluente; formação analítica combinando 2,5 anos em Engenharia (UFPR/UTFPR) e Filosofia (UFPR)."
+      ]
+    },
+    "en": {
+      "name": "Kevin Augusto Vieira",
+      "location": "Curitiba, PR, Brazil | Remote-first",
+      "phone": "+55 (41) 99694-1615",
+      "email": "kevin.aug.vieira@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/kevin-augusto/",
+      "github": "",
+      "website": "",
+      "summary": "Data-driven Performance Marketing & Growth Analyst grounded in first-principles thinking, with 8+ years building B2B/B2C paid social campaigns, A/B experimentation, high-converting landing pages, and full-funnel revenue analytics. Meta Certified and former technical ad strategy reference for 150+ pros at Wipro (Meta Project), pairing Power BI/Excel analytics and n8n/Supabase automation with Engineering coursework (2.5 yrs), a Philosophy degree (UFPR), and fluent English.",
+      "experience": [
+        {
+          "company": "Wipro Brazil",
+          "role": "Meta Ads Technical Reference & Performance Analytics (Meta Project)",
+          "dates": "September 2024 – July 2026",
+          "location": "Curitiba, Brazil / Remote",
+          "bullets": [
+            "Meta Paid Strategy: Served as technical reference for 150+ Meta Marketing Pros on ad strategies, value propositions, and commercial performance frameworks.",
+            "BI, Funnels & Root Cause Analysis: Partnered with the MIS data team (Power BI/Excel) to identify bottlenecks and launch the Next Level Bootcamp (-50% ramp-up, 90%+ quality).",
+            "CRM AI Adoption (+150%): Scaled native CRM AI adoption to #1 globally (+150%) while collaborating in bilingual international reporting."
+          ]
+        },
+        {
+          "company": "AK Branding & Web Design",
+          "role": "Performance Marketing, Paid Social & CRO Consultant",
+          "dates": "March 2019 – September 2024",
+          "location": "Curitiba, Brazil",
+          "bullets": [
+            "Paid Social & A/B Experiments (+250% Leads): Executed Meta Ads campaigns and A/B tests across creatives and LPs, lifting monthly leads from 8 to 20–30 (+250%) and driving 5 qualified leads/day on real estate LPs.",
+            "Budget & B2B Delivery (40+ Accounts): Controlled project budgets, scopes, and performance across 40+ B2B/B2C engagements."
+          ]
+        },
+        {
+          "company": "Munzner",
+          "role": "Growth, Funnel Analytics & ROI Specialist",
+          "dates": "October 2018 – August 2024",
+          "location": "Curitiba, Brazil",
+          "bullets": [
+            "Revenue & ROI Attribution (~R$ 50k): Paired organic SEO (~10% visitor-to-lead) with a 10-stage automated funnel (Sendpulse), generating 10,000+ visits, ~R$ 50k revenue, and 1.0x–1.5x digital launch ROI."
+          ]
+        },
+        {
+          "company": "AI Builder — Product Projects",
+          "role": "Growth & Systems Builder (Meu Barzin & AI Career OS)",
+          "dates": "December 2025 – August 2026",
+          "location": "Remote",
+          "bullets": [
+            "Acquisition & Real-Time Funnel Data (505 Leads): Captured 505 qualified leads combining campaigns with Supabase/PostgreSQL and n8n pipelines to pinpoint conversion bottlenecks."
+          ]
+        }
+      ],
+      "skills": [
+        {
+          "category": "Performance Marketing & CRO",
+          "skills": [
+            "Meta Ads (Certified Media Planning & Digital Marketing)",
+            "A/B Testing & Experiment Design",
+            "Landing Page Conversion Optimization (CRO)",
+            "Funnel Metrics (CTR, CPL, CAC, LTV, ROAS, MQL→SQL)"
+          ]
+        },
+        {
+          "category": "Analytics, BI & Automation",
+          "skills": [
+            "Power BI, Advanced Excel & Google Sheets",
+            "Google Analytics & UTM Attribution",
+            "Basic SQL & Supabase / PostgreSQL",
+            "n8n, Make, APIs/Webhooks & Generative AI"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "Federal University of Parana (UFPR)",
+          "degree": "Bachelor Degree and Licentiate in Philosophy",
+          "dates": "2018 - 2023"
+        },
+        {
+          "institution": "Federal University of Parana (UFPR) / UTFPR",
+          "degree": "B.S. in Engineering (Incomplete - 2.5 years completed)",
+          "dates": "2012 - 2015"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "Meta Certified Media Planning Professional",
+          "issuer": "Meta",
+          "status": "Active"
+        },
+        {
+          "name": "Meta Certified Digital Marketing Associate",
+          "issuer": "Meta",
+          "status": "Active"
+        },
+        {
+          "name": "Google Project Management Professional Certificate",
+          "issuer": "Coursera / Google",
+          "status": "In progress"
+        }
+      ],
+      "languages": [
+        {
+          "language": "Portuguese",
+          "proficiency": "Native"
+        },
+        {
+          "language": "English",
+          "proficiency": "Advanced / Fluent (daily corporate use in international stakeholder alignment and reporting)"
+        }
+      ],
+      "additional_information": [
+        "Fluent English; first-principles analytical training combining 2.5 years of Engineering coursework (UFPR/UTFPR) and Philosophy (UFPR)."
+      ]
+    }
+  },
+  "materials": {
+    "pt": {
+      "cover_letter": "Olá, time da Tractian!\n\nAcompanho a trajetória de crescimento acelerado da Tractian na América Latina e me identifiquei muito com a cultura orientada a primeiros princípios, velocidade de execução e rigor analítico na vaga de LATAM Performance Marketing Analyst.\n\nSou certificado pela Meta em Media Planning, fui referência técnica em estratégias de anúncios para 150+ profissionais no Projeto Meta (Wipro) e executei campanhas de Meta Ads com testes A/B contínuos de criativos e landing pages na AK Branding (+250% em geração de leads). Somo a isso mensuração de funil ponta a ponta no Power BI, SQL básico/Supabase, n8n e inglês fluente para colaborar em escala regional.\n\nSerá um prazer conversar com vocês da Tractian sobre como transformar experimentos de mídia e funil em pipeline qualificado!\n\nUm abraço,\nKevin Augusto Vieira",
+      "form_answers": [
+        {
+          "question": "Describe an experimentation or performance marketing win backed by data.",
+          "answer": "At AK Branding, I ran systematic A/B tests across Meta Ads creatives and landing page UX/chatbots, lifting qualified lead capture from 8 to 20–30 leads/month (+250%) and reaching 5 qualified leads/day on B2B/real estate landing pages. At Munzner, I paired organic SEO (~10% visitor-to-lead) with a 10-stage automated nurturing sequence generating 10,000+ visits and ~R$ 50k in attributed revenue."
+        }
+      ]
+    },
+    "en": {
+      "cover_letter": "Hi Tractian team!\n\nFollowing Tractian's rapid expansion across LATAM, I was drawn immediately to the LATAM Performance Marketing Analyst role—especially your culture of first-principles thinking, relentless experimentation, and revenue-backed marketing.\n\nI hold active Meta Media Planning & Digital Marketing certifications, served as Meta Ads technical strategy reference for 150+ Marketing Pros at Wipro (Meta Project), and drove +250% lead conversion lifts through Meta Ads and landing page A/B testing at AK Branding. Combined with Power BI funnel diagnostics, n8n/Supabase automation, Engineering/Philosophy analytical training, and fluent English, I thrive turning acquisition experiments into qualified pipeline.\n\nI would love to connect with the Tractian team to discuss how I can contribute to your LATAM growth targets!\n\nBest regards,\nKevin Augusto Vieira",
+      "form_answers": [
+        {
+          "question": "How do you connect paid performance campaigns to full-funnel revenue metrics?",
+          "answer": "By instrumenting UTM tracking, CRM lifecycle stages, and BI telemetry from impression to conversion. At Munzner I tracked acquisition paths end-to-end across 10,000+ visits (~R$ 50k revenue and 1.0x–1.5x digital launch ROI), and at Wipro/Meta I worked with MIS Power BI dashboards to diagnose conversion bottlenecks."
+        }
+      ]
+    }
+  },
+  "evidence": {
+    "skills": {
+      "pt": [],
+      "en": []
+    }
+  }
+}

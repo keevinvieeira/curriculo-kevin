@@ -1,0 +1,315 @@
+{
+  "id": "umbler-especialista-em-seo-e-geo-senior",
+  "metadata": {
+    "company_name": "Umbler",
+    "role_title": "Especialista em SEO e GEO, Sênior",
+    "url": "https://umbler.pandape.infojobs.com.br/Detail/3856485",
+    "fit_score": 90,
+    "salary_expectation": "A negociar (Remoto PJ)",
+    "document_language": "pt",
+    "available_languages": [
+      "pt",
+      "en"
+    ],
+    "location": "Brasil · 100% Remoto (PJ)",
+    "employment_type": "PJ / Tempo integral",
+    "deadline": "Ativa no Pandapé",
+    "source_files": [
+      "master_resume.json"
+    ],
+    "good_points": [
+      "Combinação rara de SEO orgânico/arquitetura web (Munzner ~10% visitor-to-lead; AK Branding 40+ projetos WordPress + e-commerce R$ 10k 100% orgânico) com engenharia prática de IA/RAG.",
+      "Experiência hands-on em RAG, busca semântica vetorial, grafos ontológicos (GraphRAG) e JSON Schema/SSOT no AI Career OS e Meu Barzin.",
+      "Governança editorial anti-alucinação aplicada a fluxos generativos com revisão humana e APIs/n8n."
+    ],
+    "improvement_points": [
+      "Evidenciar estudos contínuos em ferramentas avançadas de crawling/SEO técnico (logs de servidor, Ahrefs/Semrush/Screaming Frog) e mensuração direta de citações em LLMs (GEO)."
+    ]
+  },
+  "triage": {
+    "decision": "adapt",
+    "blockers": [],
+    "notes": [
+      "Fit 90, vaga aberta no Pandapé Infojobs 100% remota PJ."
+    ],
+    "gaps": []
+  },
+  "resume": {
+    "pt": {
+      "name": "Kevin Augusto Vieira",
+      "location": "Curitiba, PR | 100% Remoto",
+      "phone": "+55 (41) 99694-1615",
+      "email": "kevin.aug.vieira@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/kevin-augusto/",
+      "github": "",
+      "website": "",
+      "summary": "Especialista em SEO, Arquitetura Digital e IA Generativa (GEO/AEO) com mais de 8 anos estruturando ativos orgânicos de alta conversão, arquitetura web e sistemas baseados em RAG e busca semântica. Uniu SEO e conteúdo de alta conversão (~10% visitor-to-lead na Munzner; e-commerce orgânico com R$ 10k iniciais sem mídia na AK Branding) com arquitetura prática de GraphRAG, JSON Schema e agentes anti-alucinação (AI Career OS e Meu Barzin), garantindo autoridade digital e governança editorial rigorosa.",
+      "experience": [
+        {
+          "company": "AI Builder — Projetos de Produtos",
+          "role": "Arquiteto de Sistemas de IA, Busca Semântica & RAG (AI Career OS & Meu Barzin)",
+          "dates": "Dezembro 2025 – Agosto 2026",
+          "location": "Remoto",
+          "bullets": [
+            "Busca Semântica & GraphRAG: Construiu pipeline em Python para busca vetorial, cálculo de distâncias semânticas e taxonomia ontológica (355+ nós e 451+ arestas no Cérebro 3D), entendendo na prática como motores de IA recuperam e ranqueiam contexto.",
+            "Governança Editorial Anti-Alucinação (SSOT): Arquitetou geração de conteúdo com tipagem estrita JSON Schema (AI Career OS) e base RAG higienizada via web scraping (~200 registros no Supabase) com guardrails de zero alucinação (Meu Barzin).",
+            "Pipelines Automatizados (n8n/APIs): Orquestrou workflows de dados, captura orgânica (505 leads; 2.000+ seguidores) e monitoramento de engajamento (22,3% recorrente)."
+          ]
+        },
+        {
+          "company": "AK Branding & Web Design",
+          "role": "Consultor de Arquitetura Web, SEO e Conversão Digital",
+          "dates": "Março 2019 – Setembro 2024",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Arquitetura Web & WordPress (40+ Projetos): Projetou e entregou mais de 40 sites, landing pages e e-commerces em WordPress/Elementor com foco em UX, performance e conformidade técnica LGPD.",
+            "Crescimento 100% Orgânico (R$ 0 Mídia): Desenvolveu e lançou loja virtual do zero que atingiu R$ 10.000 em vendas nos 3 primeiros meses exclusivamente via posicionamento orgânico.",
+            "CRO & Experimentação (+250%): Conduziu testes A/B em páginas e fluxos digitais que aumentaram a captação orgânica/direta de 8 para 20–30 leads/mês (+250%) e 5 leads qualificados/dia em LPs imobiliárias."
+          ]
+        },
+        {
+          "company": "Munzner",
+          "role": "Especialista em Inbound Marketing, SEO e Conteúdo",
+          "dates": "Outubro 2018 – Agosto 2024",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "SEO Orgânico (~10% de Conversão): Redigiu artigos técnicos estratégicos gerando ~1.000 visitas orgânicas e ~100 leads qualificados de alto ticket (~10% de conversão visitante-para-lead).",
+            "Aquisição & Funil Automatizado (~R$ 50k): Conectou tráfego orgânico (10.000+ acessos acumulados) a funil automatizado de 10 etapas, convertendo ~R$ 50 mil em receita."
+          ]
+        },
+        {
+          "company": "Wipro Brasil",
+          "role": "Especialista em Enablement de Conteúdo, IA e Qualidade (Projeto Meta)",
+          "dates": "Setembro 2024 – Julho 2026",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Qualidade & Governança de IA (+150%): Estruturou bibliotecas de prompts e critérios de contexto/tom para IA generativa, elevando a adoção em +150% (#1 global) com 90%+ de pontuação em auditorias de qualidade.",
+            "Análise de Causa Raiz & Power BI: Utilizou Google Search Console/GA em projetos digitais e Power BI/Excel na operação para diagnosticar gargalos e melhorar eficiência."
+          ]
+        }
+      ],
+      "skills": [
+        {
+          "category": "SEO & Arquitetura Web",
+          "skills": [
+            "SEO On-Page e Estratégia de Conteúdo",
+            "Arquitetura de Informação e WordPress/Elementor",
+            "Google Search Console e Google Analytics",
+            "CRO e Testes A/B em Landing Pages",
+            "HTML5 / CSS3 e Estruturação Semântica"
+          ]
+        },
+        {
+          "category": "GEO, IA Generativa & RAG",
+          "skills": [
+            "RAG e Busca Semântica Vetorial (GraphRAG)",
+            "Governança Editorial e Anti-Alucinação (SSOT)",
+            "JSON Schema e Dados Estruturados",
+            "Engenharia de Prompt Profissional",
+            "Orquestração de LLMs (Claude / ChatGPT)"
+          ]
+        },
+        {
+          "category": "Automação & Dados",
+          "skills": [
+            "n8n, Make, APIs REST e Webhooks",
+            "Web Scraping e Higienização de Dados",
+            "Python para Pipelines de Dados",
+            "Supabase / PostgreSQL e Power BI"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "Universidade Federal do Paraná (UFPR)",
+          "degree": "Bacharelado e Licenciatura em Filosofia",
+          "dates": "2018 - 2023"
+        },
+        {
+          "institution": "Universidade Federal do Paraná (UFPR) / UTFPR",
+          "degree": "Bacharelado em Engenharia (Incompleto - 2,5 anos cursados)",
+          "dates": "2012 - 2015"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "Meta Certified Media Planning Professional",
+          "issuer": "Meta",
+          "status": "Ativo"
+        },
+        {
+          "name": "Meta Certified Digital Marketing Associate",
+          "issuer": "Meta",
+          "status": "Ativo"
+        },
+        {
+          "name": "Google Project Management Professional Certificate",
+          "issuer": "Coursera / Google",
+          "status": "Em andamento"
+        }
+      ],
+      "languages": [
+        {
+          "language": "Português",
+          "proficiency": "Nativo"
+        },
+        {
+          "language": "Inglês",
+          "proficiency": "Avançado / Profissional"
+        }
+      ],
+      "additional_information": []
+    },
+    "en": {
+      "name": "Kevin Augusto Vieira",
+      "location": "Curitiba, PR, Brazil | 100% Remote",
+      "phone": "+55 (41) 99694-1615",
+      "email": "kevin.aug.vieira@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/kevin-augusto/",
+      "github": "",
+      "website": "",
+      "summary": "SEO, Web Architecture & Generative Engine Optimization (GEO/AEO) Specialist with 8+ years building high-converting organic web assets and RAG/semantic search architectures. Combines proven organic SEO conversion (~10% visitor-to-lead at Munzner; R$ 10k 0-to-1 organic e-commerce launch at AK Branding) with hands-on GraphRAG, JSON Schema data structuring, and zero-hallucination AI pipelines (AI Career OS & Meu Barzin).",
+      "experience": [
+        {
+          "company": "AI Builder — Product Projects",
+          "role": "AI Systems, Semantic Search & RAG Architect (AI Career OS & Meu Barzin)",
+          "dates": "December 2025 – August 2026",
+          "location": "Remote",
+          "bullets": [
+            "Semantic Search & GraphRAG: Built a Python pipeline for vector search, semantic distance scoring, and ontological taxonomy (355+ nodes / 451+ edges in 3D Career Brain), deeply understanding how AI engines retrieve and cite structured entities.",
+            "Anti-Hallucination Editorial Governance (SSOT): Architected strict JSON Schema content pipelines (AI Career OS) and cleansed RAG databases via web scraping (~200 records in Supabase) with zero-hallucination guardrails (Meu Barzin).",
+            "Automated Content & Data Pipelines (n8n/APIs): Built workflows driving 505 organic/paid leads, 2,000+ Instagram followers, and a 22.3% repeat engagement rate."
+          ]
+        },
+        {
+          "company": "AK Branding & Web Design",
+          "role": "Web Architecture, SEO & Conversion Consultant",
+          "dates": "March 2019 – September 2024",
+          "location": "Curitiba, Brazil",
+          "bullets": [
+            "Web Architecture & WordPress (40+ Projects): Delivered 40+ custom websites, landing pages, and e-commerce builds in WordPress/Elementor focused on UX, structure, and LGPD compliance.",
+            "100% Organic Growth ($0 Ad Spend): Launched an e-commerce store from zero reaching R$ 10,000 in revenue in its first 3 months purely through organic positioning.",
+            "CRO & A/B Testing (+250%): Ran landing page and UX experiments boosting monthly lead capture from 8 to 20–30 leads (+250%) and generating 5 qualified leads/day on real estate LPs."
+          ]
+        },
+        {
+          "company": "Munzner",
+          "role": "Inbound Marketing, SEO & Content Specialist",
+          "dates": "October 2018 – August 2024",
+          "location": "Curitiba, Brazil",
+          "bullets": [
+            "Organic SEO (~10% Conversion): Authored technical blog content driving ~1,000 organic visits and ~100 qualified high-value leads (~10% visitor-to-lead conversion).",
+            "Organic Funnel Revenue (~R$ 50k): Connected 10,000+ organic/nurtured visits to an automated 10-stage sequence yielding ~R$ 50k in high-ticket sales."
+          ]
+        },
+        {
+          "company": "Wipro Brazil",
+          "role": "Content, AI Enablement & Quality Specialist (Meta Project)",
+          "dates": "September 2024 – July 2026",
+          "location": "Curitiba, Brazil",
+          "bullets": [
+            "AI Quality & Prompt Governance (+150%): Built prompt libraries and tone/context guardrails for generative AI tools, raising adoption by +150% (#1 globally) with 90%+ quality audit scores.",
+            "Root Cause Analysis & Telemetry: Paired Google Analytics/Search Console tracking with Power BI and Excel dashboards to optimize conversion funnels."
+          ]
+        }
+      ],
+      "skills": [
+        {
+          "category": "SEO & Web Architecture",
+          "skills": [
+            "On-Page SEO & Content Strategy",
+            "Information Architecture & WordPress/Elementor",
+            "Google Search Console & Google Analytics",
+            "CRO & Landing Page A/B Testing",
+            "HTML5 / CSS3 & Semantic Structure"
+          ]
+        },
+        {
+          "category": "GEO, Generative AI & RAG",
+          "skills": [
+            "RAG & Vector Semantic Search (GraphRAG)",
+            "Zero-Hallucination Governance (SSOT)",
+            "JSON Schema & Structured Data",
+            "Professional Prompt Engineering",
+            "LLM Orchestration (Claude / ChatGPT)"
+          ]
+        },
+        {
+          "category": "Automation & Data",
+          "skills": [
+            "n8n, Make, REST APIs & Webhooks",
+            "Web Scraping & Data Cleansing",
+            "Python Data Pipelines",
+            "Supabase / PostgreSQL & Power BI"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "Federal University of Parana (UFPR)",
+          "degree": "Bachelor Degree and Licentiate in Philosophy",
+          "dates": "2018 - 2023"
+        },
+        {
+          "institution": "Federal University of Parana (UFPR) / UTFPR",
+          "degree": "B.S. in Engineering (Incomplete - 2.5 years completed)",
+          "dates": "2012 - 2015"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "Meta Certified Media Planning Professional",
+          "issuer": "Meta",
+          "status": "Active"
+        },
+        {
+          "name": "Meta Certified Digital Marketing Associate",
+          "issuer": "Meta",
+          "status": "Active"
+        },
+        {
+          "name": "Google Project Management Professional Certificate",
+          "issuer": "Coursera / Google",
+          "status": "In progress"
+        }
+      ],
+      "languages": [
+        {
+          "language": "Portuguese",
+          "proficiency": "Native"
+        },
+        {
+          "language": "English",
+          "proficiency": "Advanced / Professional Proficiency"
+        }
+      ],
+      "additional_information": []
+    }
+  },
+  "materials": {
+    "pt": {
+      "cover_letter": "Olá, time da Umbler!\n\nQuando encontrei a vaga de Especialista em SEO e GEO, Sênior na Umbler, me identifiquei na hora — porque ela junta exatamente os dois mundos em que tenho mergulhado: aquisição orgânica/arquitetura web e engenharia prática de IA com RAG e governança semântica.\n\nNa área digital e de conteúdo, construí mais de 40 sites e landing pages em WordPress/Elementor na AK Branding (incluindo um e-commerce lançado do zero que faturou R$ 10 mil nos primeiros 3 meses sem gastar com anúncios) e alcancei ~10% de conversão visitor-to-lead via SEO orgânico na Munzner. Nos últimos meses, fui além da teoria de IA: arquitetei pipelines em Python com GraphRAG, busca vetorial, JSON Schema (SSOT) e regras estritas anti-alucinação no AI Career OS e no Meu Barzin, entendendo na prática o que faz modelos generativos recuperarem informações confiáveis.\n\nAdoraria bater um papo com vocês sobre como posicionar a Umbler tanto nos buscadores tradicionais quanto nas respostas geradas por IA!\n\nUm abraço,\nKevin Augusto Vieira",
+      "form_answers": [
+        {
+          "question": "Como sua experiência com SEO se conecta à otimização para IA generativa (GEO)?",
+          "answer": "Aliei anos construindo arquitetura web em WordPress/SEO (chegando a ~10% de conversão visitor-to-lead na Munzner) à construção prática de pipelines de RAG, busca vetorial e JSON Schema (AI Career OS e Meu Barzin). Isso me dá clareza técnica de como LLMs recuperam, estruturam e validam entidades confiáveis sem alucinação."
+        }
+      ]
+    },
+    "en": {
+      "cover_letter": "Hi Umbler team!\n\nComing across the Senior SEO & GEO Specialist role at Umbler immediately stood out to me—it sits squarely at the intersection of organic web acquisition and practical RAG/AI architecture.\n\nAcross AK Branding and Munzner, I built 40+ WordPress sites and landing pages (including a 0-to-1 e-commerce store hitting R$ 10k organically in 3 months) and achieved ~10% visitor-to-lead conversion via technical blog SEO. More recently, I engineered Python GraphRAG vector search pipelines, JSON Schema SSOT governance, and zero-hallucination RAG workflows for AI Career OS and Meu Barzin—giving me hands-on insight into how generative engines retrieve and cite structured content.\n\nI would love to chat about how I can help Umbler capture organic authority across both search engines and AI answers!\n\nBest regards,\nKevin Augusto Vieira",
+      "form_answers": [
+        {
+          "question": "How does your SEO experience connect to Generative Engine Optimization (GEO)?",
+          "answer": "I combine 8+ years of WordPress/SEO architecture (~10% visitor-to-lead at Munzner) with hands-on implementation of Python GraphRAG, vector search, and strict JSON Schema SSOT pipelines—bridging traditional content structure with how LLMs retrieve and cite entities."
+        }
+      ]
+    }
+  },
+  "evidence": {
+    "skills": {
+      "pt": [],
+      "en": []
+    }
+  }
+}

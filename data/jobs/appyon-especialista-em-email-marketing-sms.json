@@ -1,0 +1,287 @@
+{
+  "id": "appyon-especialista-em-email-marketing-sms",
+  "metadata": {
+    "company_name": "Appyon",
+    "role_title": "Especialista em Email Marketing & SMS",
+    "url": "https://appyon.factorialhr.com.br/job_posting/especialista-em-email-marketing-sms-319963",
+    "fit_score": 80,
+    "salary_expectation": "A negociar (PJ / Remoto Brasil)",
+    "document_language": "pt",
+    "available_languages": [
+      "pt",
+      "en"
+    ],
+    "location": "Brasil · 100% Remoto (PJ)",
+    "employment_type": "PJ / Tempo integral",
+    "deadline": "Ativa no Factorial HR",
+    "source_files": [
+      "master_resume.json"
+    ],
+    "good_points": [
+      "Experiência comprovada em régua automatizada de e-mail marketing em 10 etapas no Sendpulse (~R$ 50 mil em vendas high-ticket e 10.000+ acessos na Munzner).",
+      "Testes A/B e otimização de copy/conversão (+250% leads na AK Branding) + modelos de assinatura/monetização recorrente (Meu Barzin Pass e tripwire LMS).",
+      "Otimização de prompts e qualidade de e-mail por IA no CRM na Wipro/Meta (+150% adoção #1 global)."
+    ],
+    "improvement_points": [
+      "Aprofundar operações específicas de SMS marketing e governança de entregabilidade/reputação de IP para bases de 200k–500k leads/mês."
+    ]
+  },
+  "triage": {
+    "decision": "adapt",
+    "blockers": [],
+    "notes": [
+      "Fit 80, Factorial HR ativa, foco em Email Marketing, automação, testes A/B e assinaturas."
+    ],
+    "gaps": []
+  },
+  "resume": {
+    "pt": {
+      "name": "Kevin Augusto Vieira",
+      "location": "Curitiba, PR | 100% Remoto",
+      "phone": "+55 (41) 99694-1615",
+      "email": "kevin.aug.vieira@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/kevin-augusto/",
+      "github": "",
+      "website": "",
+      "summary": "Especialista em Email Marketing, Automação de Funis e Mensageria com mais de 8 anos estruturando réguas de relacionamento, copywriting orientado à conversão, testes A/B e modelos de assinatura. Na Munzner, construiu um funil automatizado de e-mail em 10 etapas (Sendpulse) que gerou 10.000+ visitas e ~R$ 50 mil em receita, além de lançar produto de entrada com order bump (ROI de 1.0x–1.5x). Na Wipro (Projeto Meta), liderou melhorias e adoção de e-mail/resumos por IA no CRM (+150%, #1 global).",
+      "experience": [
+        {
+          "company": "Munzner",
+          "role": "Especialista em Email Marketing, Automação e Monetização",
+          "dates": "Outubro 2018 – Agosto 2024",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Funil Automatizado de 10 Etapas (~R$ 50k): Arquitetou régua automatizada de e-mail marketing (Sendpulse) que nutriu 10.000+ acessos e converteu ~R$ 50 mil em vendas high-ticket.",
+            "Conversão, Order Bump & Lançamento Digital: Criou produto digital de entrada (LMS/WordPress) com order bump de 1h de mentoria gerando 50 vendas nos primeiros 2 meses (ROI 1.0x–1.5x).",
+            "Copywriting & Inbound (~10%): Redigiu conteúdos técnicos e sequências de nutrição com taxa de ~10% de conversão visitante-para-lead."
+          ]
+        },
+        {
+          "company": "Wipro Brasil",
+          "role": "Especialista em CRM, E-mail com IA e Otimização (Projeto Meta)",
+          "dates": "Setembro 2024 – Julho 2026",
+          "location": "Curitiba, PR / Remoto",
+          "bullets": [
+            "Qualidade de E-mails por IA & Adoção (+150%): Liderou a adoção de recursos de IA no CRM (#1 global, +150%) e recomendou diretamente melhorias de controle de tom e contexto em geração de e-mails para stakeholders globais da Meta.",
+            "Análise de Dados & Auditoria: Garantiu 90%+ de qualidade em auditorias de comunicação comercial usando feedback loops e painéis Power BI/Excel."
+          ]
+        },
+        {
+          "company": "AI Builder — Projetos de Produtos",
+          "role": "Especialista em Assinatura, Mensageria & Automação (Meu Barzin)",
+          "dates": "Dezembro 2025 – Março 2026",
+          "location": "Remoto",
+          "bullets": [
+            "Funil de Assinatura & Mensageria: Estruturou o 'Meu Barzin Pass' (assinatura R$ 19,90/mês) e fluxos automatizados em ManyChat/n8n/WhatsApp, captando 505 leads e alcançando 22,3% de usuários altamente engajados."
+          ]
+        },
+        {
+          "company": "AK Branding & Web Design",
+          "role": "Consultor de Copywriting, Landing Pages e Testes A/B",
+          "dates": "Março 2019 – Setembro 2024",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Testes A/B & CRO (+250%): Executou testes A/B em mensagens, anúncios e páginas para 40+ clientes, elevando a captação de leads em +250%."
+          ]
+        }
+      ],
+      "skills": [
+        {
+          "category": "Email Marketing, Copywriting & Conversão",
+          "skills": [
+            "Réguas Automatizadas e Nutrição Multietapa",
+            "Copywriting e Narrativas de Conversão",
+            "Testes A/B e Otimização de Funil (CRO)",
+            "Modelos de Assinatura e Tripwire"
+          ]
+        },
+        {
+          "category": "Plataformas, Automação & Dados",
+          "skills": [
+            "Sendpulse, RD Station, Bitrix24 e CRMs Meta",
+            "n8n, Make, ManyChat e APIs/Webhooks",
+            "Power BI, Excel, UTM Tracking e ROI/LTV",
+            "Engenharia de Prompt para E-mails com IA"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "Universidade Federal do Paraná (UFPR)",
+          "degree": "Bacharelado e Licenciatura em Filosofia",
+          "dates": "2018 - 2023"
+        },
+        {
+          "institution": "Universidade Federal do Paraná (UFPR) / UTFPR",
+          "degree": "Bacharelado em Engenharia (Incompleto - 2,5 anos cursados)",
+          "dates": "2012 - 2015"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "Meta Certified Media Planning Professional",
+          "issuer": "Meta",
+          "status": "Ativo"
+        },
+        {
+          "name": "Meta Certified Digital Marketing Associate",
+          "issuer": "Meta",
+          "status": "Ativo"
+        },
+        {
+          "name": "Google Project Management Professional Certificate",
+          "issuer": "Coursera / Google",
+          "status": "Em andamento"
+        }
+      ],
+      "languages": [
+        {
+          "language": "Português",
+          "proficiency": "Nativo"
+        },
+        {
+          "language": "Inglês",
+          "proficiency": "Avançado / Profissional"
+        }
+      ],
+      "additional_information": []
+    },
+    "en": {
+      "name": "Kevin Augusto Vieira",
+      "location": "Curitiba, PR, Brazil | 100% Remote",
+      "phone": "+55 (41) 99694-1615",
+      "email": "kevin.aug.vieira@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/kevin-augusto/",
+      "github": "",
+      "website": "",
+      "summary": "Email Marketing, Funnel Automation & Messaging Specialist with 8+ years building nurturing sequences, conversion-focused copywriting, A/B experiments, and subscription acquisition funnels. At Munzner, engineered a 10-stage automated email sequence (Sendpulse) driving 10,000+ visits and ~R$ 50k in revenue alongside an order-bump digital launch (1.0x–1.5x ROI). At Wipro (Meta Project), led CRM AI email/summary adoption (+150%, #1 globally).",
+      "experience": [
+        {
+          "company": "Munzner",
+          "role": "Email Marketing, Automation & Monetization Specialist",
+          "dates": "October 2018 – August 2024",
+          "location": "Curitiba, Brazil",
+          "bullets": [
+            "10-Stage Automated Email Funnel (~R$ 50k): Built an automated nurturing sequence (Sendpulse) attracting 10,000+ visits and converting ~R$ 50k in high-ticket sales.",
+            "Conversion, Order Bump & Launch: Launched an entry digital course (LMS/WordPress) with a 1h mentoring order bump securing 50 sales in 2 months (1.0x–1.5x ROI).",
+            "Copywriting & Inbound (~10%): Authored technical content and nurturing sequences achieving ~10% visitor-to-lead conversion."
+          ]
+        },
+        {
+          "company": "Wipro Brazil",
+          "role": "CRM, AI Email & Optimization Specialist (Meta Project)",
+          "dates": "September 2024 – July 2026",
+          "location": "Curitiba, Brazil / Remote",
+          "bullets": [
+            "AI Email Quality & Adoption (+150%): Drove +150% CRM AI adoption (#1 globally) and provided direct product feedback on tone and context controls for AI-generated emails to Meta global stakeholders.",
+            "Data & Quality Audits: Maintained 90%+ communication audit quality supported by Power BI and Excel dashboards."
+          ]
+        },
+        {
+          "company": "AI Builder — Product Projects",
+          "role": "Subscription, Messaging & Automation Specialist (Meu Barzin)",
+          "dates": "December 2025 – March 2026",
+          "location": "Remote",
+          "bullets": [
+            "Subscription & Messaging Funnel: Structured 'Meu Barzin Pass' (R$ 19.90/mo subscription) with automated ManyChat/n8n/WhatsApp flows capturing 505 leads and 22.3% repeat engagement."
+          ]
+        },
+        {
+          "company": "AK Branding & Web Design",
+          "role": "Copywriting, Landing Pages & A/B Testing Consultant",
+          "dates": "March 2019 – September 2024",
+          "location": "Curitiba, Brazil",
+          "bullets": [
+            "A/B Testing & CRO (+250%): Ran A/B tests on messaging, creatives, and landing pages across 40+ projects, lifting lead capture by +250%."
+          ]
+        }
+      ],
+      "skills": [
+        {
+          "category": "Email Marketing, Copywriting & Conversion",
+          "skills": [
+            "Automated Nurturing & Multistage Sequences",
+            "Conversion Copywriting & Storytelling",
+            "A/B Testing & Funnel Optimization (CRO)",
+            "Subscription & Tripwire Monetization"
+          ]
+        },
+        {
+          "category": "Platforms, Automation & Data",
+          "skills": [
+            "Sendpulse, RD Station, Bitrix24 & Meta CRMs",
+            "n8n, Make, ManyChat & APIs/Webhooks",
+            "Power BI, Excel, UTM Tracking & ROI/LTV",
+            "Prompt Engineering for AI Email Workflows"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "Federal University of Parana (UFPR)",
+          "degree": "Bachelor Degree and Licentiate in Philosophy",
+          "dates": "2018 - 2023"
+        },
+        {
+          "institution": "Federal University of Parana (UFPR) / UTFPR",
+          "degree": "B.S. in Engineering (Incomplete - 2.5 years completed)",
+          "dates": "2012 - 2015"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "Meta Certified Media Planning Professional",
+          "issuer": "Meta",
+          "status": "Active"
+        },
+        {
+          "name": "Meta Certified Digital Marketing Associate",
+          "issuer": "Meta",
+          "status": "Active"
+        },
+        {
+          "name": "Google Project Management Professional Certificate",
+          "issuer": "Coursera / Google",
+          "status": "In progress"
+        }
+      ],
+      "languages": [
+        {
+          "language": "Portuguese",
+          "proficiency": "Native"
+        },
+        {
+          "language": "English",
+          "proficiency": "Advanced / Professional Proficiency"
+        }
+      ],
+      "additional_information": []
+    }
+  },
+  "materials": {
+    "pt": {
+      "cover_letter": "Olá, time da Appyon!\n\nFiquei muito animado ao encontrar a vaga de Especialista em Email Marketing & SMS na Appyon. Trabalhar réguas automatizadas com foco em conversão, testes A/B constantes e receita recorrente em assinatura é exatamente onde já entreguei resultados concretos.\n\nNa Munzner, criei do zero uma régua automatizada de e-mail em 10 etapas (Sendpulse) que movimentou 10.000+ acessos e gerou cerca de R$ 50 mil em vendas high-ticket, além de um lançamento digital com order bump e ROI autossustentável. Somo a isso experiência prática desenhando fluxos de mensageria para assinatura no Meu Barzin, testes A/B de copy e conversão na AK Branding (+250% em leads) e otimização de e-mails assistidos por IA no CRM na Wipro/Meta (+150% adoção #1 global).\n\nAdoraria conversar com vocês da Appyon sobre como escalar métricas de abertura, clique e conversão nas réguas de relacionamento!\n\nUm abraço,\nKevin Augusto Vieira",
+      "form_answers": [
+        {
+          "question": "Qual foi sua principal entrega estruturando réguas de e-mail e testes de conversão?",
+          "answer": "Na Munzner, estruturei um funil automatizado de e-mail marketing em 10 etapas (Sendpulse) integrado a páginas de conversão e oferta digital com order bump de 1h de mentoria, gerando 10.000+ acessos, 50 vendas iniciais e ~R$ 50 mil em receita, complementado por testes A/B de copy e landing pages (+250% leads na AK Branding)."
+        }
+      ]
+    },
+    "en": {
+      "cover_letter": "Hi Appyon team!\n\nI was thrilled to find the Email Marketing & SMS Specialist opening at Appyon. Building automated nurturing sequences backed by continuous A/B testing and recurring subscription monetization is directly aligned with my track record.\n\nAt Munzner, I built a 10-stage automated email sequence (Sendpulse) driving 10,000+ visits and ~R$ 50k in high-ticket sales, alongside a self-sustaining digital launch. I pair this with subscription messaging flows at Meu Barzin, A/B copy and landing page tests at AK Branding (+250% leads), and CRM AI email optimization at Wipro/Meta (+150% adoption #1 globally).\n\nI would love to chat with Appyon about scaling engagement and conversion across your lifecycle channels!\n\nBest regards,\nKevin Augusto Vieira",
+      "form_answers": [
+        {
+          "question": "What has been your strongest achievement with automated email funnels and testing?",
+          "answer": "At Munzner I built a 10-stage automated email nurturing sequence (Sendpulse) that generated 10,000+ visits and ~R$ 50k in revenue, paired with systematic A/B testing of copy and landing pages (+250% leads at AK Branding)."
+        }
+      ]
+    }
+  },
+  "evidence": {
+    "skills": {
+      "pt": [],
+      "en": []
+    }
+  }
+}

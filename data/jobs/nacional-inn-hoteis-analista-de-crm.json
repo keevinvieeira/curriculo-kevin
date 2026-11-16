@@ -1,0 +1,289 @@
+{
+  "id": "nacional-inn-hoteis-analista-de-crm",
+  "metadata": {
+    "company_name": "Nacional Inn Hotéis",
+    "role_title": "Analista de CRM",
+    "url": "https://trabalhenacionalinn.vagas.solides.com.br/vaga/950844",
+    "fit_score": 80,
+    "salary_expectation": "A negociar (PJ / Remoto Brasil)",
+    "document_language": "pt",
+    "available_languages": [
+      "pt",
+      "en"
+    ],
+    "location": "Brasil · 100% Remoto (PJ)",
+    "employment_type": "PJ / Tempo integral",
+    "deadline": "Ativa no Sólides",
+    "source_files": [
+      "master_resume.json"
+    ],
+    "good_points": [
+      "CRM self-hosted em produção (NocoDB sobre Postgres, agente Hermes 24/7 no WhatsApp integrado ao Google Agenda) reduzindo custos em ~85%, somado a RD Station e Sendpulse (~R$ 50k na Munzner).",
+      "Experiência em WhatsApp/automações (Meu Barzin: Supabase/ManyChat/n8n com 505 leads, 22,3% engajamento) e landing pages/CRO (+250% na AK Branding).",
+      "Visão de Marketing Operations, coordenação de demandas e Power BI na Wipro (Projeto Meta) e na AK Branding (40+ projetos)."
+    ],
+    "improvement_points": [
+      "Aprofundar métricas e sazonalidade específicas do setor hoteleiro e rotinas de supervisão operacional ampla de marketing."
+    ]
+  },
+  "triage": {
+    "decision": "adapt",
+    "blockers": [],
+    "notes": [
+      "Fit 80, Sólides ativa, foco em RD Station, réguas, WhatsApp, LPs e Marketing Ops."
+    ],
+    "gaps": []
+  },
+  "resume": {
+    "pt": {
+      "name": "Kevin Augusto Vieira",
+      "location": "Curitiba, PR | 100% Remoto",
+      "phone": "+55 (41) 99694-1615",
+      "email": "kevin.aug.vieira@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/kevin-augusto/",
+      "github": "",
+      "website": "",
+      "summary": "Analista de CRM e Operações de Marketing com mais de 8 anos estruturando réguas de relacionamento (RD Station, Sendpulse, NocoDB sobre Postgres), landing pages de alta conversão, fluxos de WhatsApp com IA e análises de funil. Entregou CRM self-hosted em produção com agente 24/7 no WhatsApp integrado ao Google Agenda (-85% custo), estruturou funil automatizado de 10 etapas na Munzner (~R$ 50k) e alcançou o #1 lugar global em adoção de IA no CRM na Wipro (+150%).",
+      "experience": [
+        {
+          "company": "Munzner",
+          "role": "Especialista em CRM, Automação e Funis Digitais",
+          "dates": "Outubro 2018 – Agosto 2024",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Réguas no CRM & Receita (~R$ 50k): Construiu funil automatizado de 10 etapas (Sendpulse / RD Station) atraindo 10.000+ visitas e convertendo ~R$ 50 mil em vendas.",
+            "Mensuração de ROI & Conversão: Monitorou caminhos de aquisição e base de CRM para otimizar campanhas, conteúdo SEO (~10% conversão) e lançamento digital com order bump (50 vendas em 2 meses)."
+          ]
+        },
+        {
+          "company": "Wipro Brasil",
+          "role": "Especialista em Operações de Marketing & CRM (Projeto Meta)",
+          "dates": "Setembro 2024 – Julho 2026",
+          "location": "Curitiba, PR / Remoto",
+          "bullets": [
+            "Adoção de IA no CRM (#1 Global): Liderou ativação de IA nativa no CRM para 150+ profissionais, elevando o uso de 4 para 10 prompts/dia (+150%) com workshops e playbooks práticos.",
+            "Coordenação Operacional & BI: Gerenciou planos de ação, análise de causa raiz e painéis de Power BI/Excel para sustentar 90%+ de qualidade e reduzir ramp-up em 50%."
+          ]
+        },
+        {
+          "company": "AI Builder — Projetos de Produtos",
+          "role": "Builder de CRM com IA & WhatsApp (CRM Odontológico Hermes & Meu Barzin)",
+          "dates": "Dezembro 2025 – Agosto 2026",
+          "location": "Remoto",
+          "bullets": [
+            "CRM Self-Hosted & Agente Hermes (-85% Custo): Construiu CRM Kanban em NocoDB sobre Postgres integrado ao Google Agenda e agente WhatsApp 24/7 (confirmações automáticas e orçamentos com aprovação humana), substituindo Kommo/n8n Cloud de US$ 100–145/mês por US$ 14–18/mês.",
+            "WhatsApp & Supabase (Meu Barzin): Integrou WhatsApp, ManyChat, n8n e Supabase/PostgreSQL para captação automatizada (505 leads; 22,3% de reengajamento recorrente)."
+          ]
+        },
+        {
+          "company": "AK Branding & Web Design",
+          "role": "Consultor de Landing Pages, CRO e Operações de Marketing",
+          "dates": "Março 2019 – Setembro 2024",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Landing Pages, Chatbots & CRO (+250%): Projetou páginas de captura, fluxos de chatbot e testes A/B em campanhas (Meta Ads), elevando a geração de leads em +250%.",
+            "Coordenação & Empacotamento (40+ Contas): Estruturou pacotes escalonados e organizou fluxos de trabalho, cronogramas e orçamentos para 40+ entregas digitais."
+          ]
+        }
+      ],
+      "skills": [
+        {
+          "category": "CRM & Automação de Relacionamento",
+          "skills": [
+            "RD Station, Sendpulse, Bitrix24 e CRMs Meta",
+            "Réguas de Nutrição, Reativação e Retenção",
+            "WhatsApp Automatizado (ManyChat, n8n, Make)",
+            "Supabase / PostgreSQL e NocoDB"
+          ]
+        },
+        {
+          "category": "Landing Pages, Mídia & Operações",
+          "skills": [
+            "WordPress / Elementor e Landing Pages (CRO)",
+            "Meta Ads e Testes A/B",
+            "Power BI, Excel, Google Analytics e UTM Tracking",
+            "Gestão de Demandas, Cronogramas e Prazos"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "Universidade Federal do Paraná (UFPR)",
+          "degree": "Bacharelado e Licenciatura em Filosofia",
+          "dates": "2018 - 2023"
+        },
+        {
+          "institution": "Universidade Federal do Paraná (UFPR) / UTFPR",
+          "degree": "Bacharelado em Engenharia (Incompleto - 2,5 anos cursados)",
+          "dates": "2012 - 2015"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "Meta Certified Media Planning Professional",
+          "issuer": "Meta",
+          "status": "Ativo"
+        },
+        {
+          "name": "Meta Certified Digital Marketing Associate",
+          "issuer": "Meta",
+          "status": "Ativo"
+        },
+        {
+          "name": "Google Project Management Professional Certificate",
+          "issuer": "Coursera / Google",
+          "status": "Em andamento"
+        }
+      ],
+      "languages": [
+        {
+          "language": "Português",
+          "proficiency": "Nativo"
+        },
+        {
+          "language": "Inglês",
+          "proficiency": "Avançado / Profissional"
+        }
+      ],
+      "additional_information": []
+    },
+    "en": {
+      "name": "Kevin Augusto Vieira",
+      "location": "Curitiba, PR, Brazil | 100% Remote",
+      "phone": "+55 (41) 99694-1615",
+      "email": "kevin.aug.vieira@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/kevin-augusto/",
+      "github": "",
+      "website": "",
+      "summary": "CRM & Marketing Operations Analyst with 8+ years building lifecycle sequences (RD Station, Sendpulse, NocoDB/Postgres), high-converting landing pages, WhatsApp AI workflows, and funnel telemetry. Built a self-hosted production CRM with a 24/7 WhatsApp booking agent (-85% cost), engineered a 10-stage Sendpulse sequence (~R$ 50k at Munzner), and ranked #1 globally in CRM AI adoption (+150%) at Wipro.",
+      "experience": [
+        {
+          "company": "Munzner",
+          "role": "CRM, Automation & Digital Funnels Specialist",
+          "dates": "October 2018 – August 2024",
+          "location": "Curitiba, Brazil",
+          "bullets": [
+            "CRM Sequences & Revenue (~R$ 50k): Built a 10-stage automated sequence (Sendpulse / RD Station) attracting 10,000+ visits and ~R$ 50k in sales.",
+            "ROI & Conversion Tracking: Monitored acquisition channels and CRM data to optimize SEO (~10% conversion) and a digital product launch with mentoring order bump (50 sales in 2 months)."
+          ]
+        },
+        {
+          "company": "Wipro Brazil",
+          "role": "Marketing Operations & CRM Specialist (Meta Project)",
+          "dates": "September 2024 – July 2026",
+          "location": "Curitiba, Brazil / Remote",
+          "bullets": [
+            "CRM AI Adoption (#1 Global): Led native CRM AI activation for 150+ professionals, raising daily usage from 4 to 10 prompts/day (+150%) with workshops and playbooks.",
+            "Operational Coordination & BI: Managed action plans, root cause diagnostics, and Power BI/Excel dashboards sustaining 90%+ quality and 50% faster ramp-up."
+          ]
+        },
+        {
+          "company": "AI Builder — Product Projects",
+          "role": "AI CRM & WhatsApp Builder (AI Dental CRM Hermes & Meu Barzin)",
+          "dates": "December 2025 – August 2026",
+          "location": "Remote",
+          "bullets": [
+            "Self-Hosted CRM & Hermes Agent (-85% Cost): Built a Kanban CRM on NocoDB/Postgres integrated with Google Calendar and a 24/7 WhatsApp booking/confirmation AI agent, cutting stack costs from US$ 100–145/mo to US$ 14–18/mo.",
+            "WhatsApp & Supabase (Meu Barzin): Connected WhatsApp, ManyChat, n8n, and Supabase/PostgreSQL for automated lead nurturing reaching 505 leads and 22.3% repeat engagement."
+          ]
+        },
+        {
+          "company": "AK Branding & Web Design",
+          "role": "Landing Pages, CRO & Marketing Operations Consultant",
+          "dates": "March 2019 – September 2024",
+          "location": "Curitiba, Brazil",
+          "bullets": [
+            "Landing Pages, Chatbots & CRO (+250%): Built high-converting LPs, chatbots, and Meta Ads A/B tests lifting monthly lead capture by +250%.",
+            "Project Coordination & Packaging (40+ Accounts): Built tiered packages and managed workflows, timelines, and budgets across 40+ digital accounts."
+          ]
+        }
+      ],
+      "skills": [
+        {
+          "category": "CRM & Lifecycle Automation",
+          "skills": [
+            "RD Station, Sendpulse, Bitrix24 & Meta CRMs",
+            "Nurturing, Reactivation & Retention Sequences",
+            "WhatsApp Automation (ManyChat, n8n, Make)",
+            "Supabase / PostgreSQL & NocoDB"
+          ]
+        },
+        {
+          "category": "Landing Pages, Media & Ops",
+          "skills": [
+            "WordPress / Elementor & Landing Pages (CRO)",
+            "Meta Ads & A/B Testing",
+            "Power BI, Excel, Google Analytics & UTM Tracking",
+            "Workflow, Timeline & Delivery Management"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "Federal University of Parana (UFPR)",
+          "degree": "Bachelor Degree and Licentiate in Philosophy",
+          "dates": "2018 - 2023"
+        },
+        {
+          "institution": "Federal University of Parana (UFPR) / UTFPR",
+          "degree": "B.S. in Engineering (Incomplete - 2.5 years completed)",
+          "dates": "2012 - 2015"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "Meta Certified Media Planning Professional",
+          "issuer": "Meta",
+          "status": "Active"
+        },
+        {
+          "name": "Meta Certified Digital Marketing Associate",
+          "issuer": "Meta",
+          "status": "Active"
+        },
+        {
+          "name": "Google Project Management Professional Certificate",
+          "issuer": "Coursera / Google",
+          "status": "In progress"
+        }
+      ],
+      "languages": [
+        {
+          "language": "Portuguese",
+          "proficiency": "Native"
+        },
+        {
+          "language": "English",
+          "proficiency": "Advanced / Professional Proficiency"
+        }
+      ],
+      "additional_information": []
+    }
+  },
+  "materials": {
+    "pt": {
+      "cover_letter": "Olá, time da Nacional Inn Hotéis!\n\nFiquei muito animado ao encontrar a vaga de Analista de CRM na Nacional Inn Hotéis. Unir operação de CRM (RD Station, réguas automatizadas), landing pages, WhatsApp e acompanhamento operacional de marketing conversa diretamente com o que venho fazendo nos últimos 8 anos.\n\nNa Munzner, estruturei um funil automatizado de 10 etapas em CRM (Sendpulse / RD Station) que gerou 10.000+ visitas e cerca de R$ 50 mil em receita. Na Wipro (Projeto Meta), liderei a adoção de IA no CRM (+150%, #1 global) e coordenei fluxos operacionais com Power BI. Além disso, implantei em produção um CRM self-hosted em NocoDB sobre Postgres com o agente Hermes 24/7 no WhatsApp integrado ao Google Agenda (-85% custo de stack), entreguei mais de 40 projetos na AK Branding (+250% em leads) e criei fluxos inteligentes no WhatsApp com n8n e Supabase no Meu Barzin (505 leads).\n\nSerá um prazer conversar com vocês sobre como organizar réguas, aumentar conversões diretas e apoiar a operação de marketing da Nacional Inn Hotéis!\n\nUm abraço,\nKevin Augusto Vieira",
+      "form_answers": [
+        {
+          "question": "Qual sua experiência operando CRM, réguas automatizadas e landing pages?",
+          "answer": "Opero ferramentas como RD Station, Sendpulse e Bitrix24 há mais de 6 anos, tendo criado na Munzner um funil automatizado de 10 etapas no Sendpulse que gerou ~R$ 50 mil em receita. Também construí em produção um CRM Kanban em NocoDB sobre Postgres integrado ao WhatsApp e Google Agenda (agente Hermes, -85% custo), mais de 40 projetos de landing pages e chatbots na AK Branding (+250% em leads) e fluxos automatizados no Meu Barzin com ManyChat, n8n e Supabase."
+        }
+      ]
+    },
+    "en": {
+      "cover_letter": "Hi Nacional Inn Hotéis team!\n\nI was thrilled to find the CRM Analyst role at Nacional Inn Hotéis. Bringing together CRM lifecycle automation (RD Station, Sendpulse, NocoDB/Postgres), landing pages, WhatsApp AI workflows, and marketing operations support aligns directly with my 8+ years of experience.\n\nAt Munzner, I built a 10-stage automated Sendpulse funnel generating 10,000+ visits and ~R$ 50k in sales; at Wipro (Meta Project), I ranked #1 globally in CRM AI adoption (+150%) while managing Power BI operational reporting; and recently I deployed a production self-hosted CRM (NocoDB on Postgres with a 24/7 WhatsApp AI booking agent cutting costs by ~85%), alongside 40+ LP/CRO projects (+250% leads) at AK Branding and Supabase/n8n WhatsApp flows (505 leads) at Meu Barzin.\n\nI would love to connect and discuss how I can drive direct engagement and conversions at Nacional Inn Hotéis!\n\nBest regards,\nKevin Augusto Vieira",
+      "form_answers": [
+        {
+          "question": "What is your experience with CRM automation, lifecycle sequences, and landing pages?",
+          "answer": "I have 6+ years working with RD Station, Sendpulse, and Bitrix24—including a 10-stage Sendpulse sequence at Munzner driving ~R$ 50k—plus a self-hosted NocoDB/Postgres CRM with a 24/7 WhatsApp booking agent (Hermes), 40+ landing page/CRO projects (+250% leads at AK Branding), and ManyChat/n8n/Supabase flows at Meu Barzin."
+        }
+      ]
+    }
+  },
+  "evidence": {
+    "skills": {
+      "pt": [],
+      "en": []
+    }
+  }
+}

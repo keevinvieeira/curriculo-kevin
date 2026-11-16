@@ -1,0 +1,325 @@
+{
+  "id": "logcomex-especialista-em-revops",
+  "metadata": {
+    "company_name": "Logcomex",
+    "role_title": "Especialista em RevOps",
+    "url": "https://logcomex.gupy.io/jobs/12730007",
+    "fit_score": 92,
+    "salary_expectation": "A negociar (CLT / Curitiba ou Remoto)",
+    "document_language": "pt",
+    "available_languages": [
+      "pt",
+      "en"
+    ],
+    "location": "Brasil · Curitiba (sede) / Modelo a confirmar",
+    "employment_type": "Tempo integral",
+    "deadline": "31/12/2026",
+    "source_files": [
+      "master_resume.json"
+    ],
+    "good_points": [
+      "Integração rara de operações de CRM/GTM (Wipro/Meta: +150% adoção #1 global) com CRM self-hosted em produção (NocoDB sobre Postgres, agente Hermes no WhatsApp/Google Agenda) e economia de ~85% de stack.",
+      "Governança de dados e arquitetura SSOT estruturada no AI Career OS (100% integridade de schema) e atuação de Product Owner/Tech Lead em projetos próprios.",
+      "Análise de funil ponta a ponta, SQL básico e painéis no Power BI com time MIS na Wipro, além de pipelines n8n, Make, APIs/webhooks e Supabase/PostgreSQL no Meu Barzin.",
+      "Residente em Curitiba/PR (cidade-sede da Logcomex), disponível para presencial, híbrido ou remoto."
+    ],
+    "improvement_points": [
+      "Aprofundar administração avançada de HubSpot/Salesforce e governança de objetos customizados em produção.",
+      "Consolidar rotinas em Metabase e fluxos de RevOps estruturados no Jira; confirmar modalidade de trabalho (remoto x híbrido em Curitiba)."
+    ]
+  },
+  "triage": {
+    "decision": "adapt",
+    "blockers": [],
+    "notes": [
+      "Top 1 nacional do Radar de Vagas (Fit 92), aberta no Gupy até 31/12/2026."
+    ],
+    "gaps": []
+  },
+  "resume": {
+    "pt": {
+      "name": "Kevin Augusto Vieira",
+      "location": "Curitiba, PR | Disponível para Híbrido ou Remoto",
+      "phone": "+55 (41) 99694-1615",
+      "email": "kevin.aug.vieira@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/kevin-augusto/",
+      "github": "",
+      "website": "",
+      "summary": "Especialista em Revenue Operations (RevOps), CRM e Automação com mais de 8 anos unindo estratégia comercial, governança de dados e arquitetura de sistemas. No Projeto Meta (Wipro), liderou a adoção de IA no CRM proprietário (#1 global, +150%) e estruturou análises de funil com o time de dados (MIS/Power BI), reduzindo o ramp-up comercial em 50%. Combina experiência prática com APIs, webhooks, n8n, Make e bancos Supabase/PostgreSQL com mentalidade de Product Owner em projetos digitais e base analítica em Engenharia (2,5 anos, UFPR/UTFPR) e Filosofia (UFPR).",
+      "experience": [
+        {
+          "company": "AI Builder — Projetos de Produtos",
+          "role": "Arquiteto de Sistemas & Builder de CRM com IA (CRM Odontológico, AI Career OS & Meu Barzin)",
+          "dates": "Dezembro 2025 – Agosto 2026",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "CRM Odontológico Self-Hosted & Eficiência (-85% Custo): Construiu em VPS própria um CRM Kanban (NocoDB sobre Postgres) com agente de IA 24/7 no WhatsApp (Hermes) integrado ao Google Agenda e deploy via GitHub Actions, substituindo Kommo/n8n Cloud (US$ 100–145/mês para US$ 14–18/mês).",
+            "Governança SSOT, APIs & Webhooks (AI Career OS & Meu Barzin): Concebeu arquitetura SSOT em JSON Schema (100% governança) e conectou bancos Supabase/PostgreSQL via n8n, webhooks e APIs (ManyChat/WhatsApp + RAG), captando 505 leads com 22,3% de usuários altamente engajados.",
+            "Diagnóstico de Funil & Latência: Analisou logs de conversas e funil identificando gargalos de latência de API por trás de 43,9% de abandono inicial para orientar backlog de produto."
+          ]
+        },
+        {
+          "company": "Wipro Brasil",
+          "role": "Especialista em Operações de Marketing / GTM e CRM (Projeto Meta)",
+          "dates": "Setembro 2024 – Julho 2026",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "CRM Enablement & Adoção Recorde (#1 Global): Liderou a ativação de IA nativa no CRM proprietário para 150+ profissionais, elevando o uso de 4 para 10 prompts/dia (+150%, 1º lugar global) com workshops e side-by-side coaching.",
+            "Data Analytics & Redução de Ramp-up (-50%): Em parceria com o time de dados (MIS), explorou painéis de Power BI e Excel para diagnosticar lacunas de conversão e liderar o Next Level Bootcamp, reduzindo o ramp-up de 6 para 3 meses (90%+ qualidade).",
+            "Governança Ágil & Processos Comerciais: Geriu backlog, OKRs e planos de ação corretivos via análise de causa raiz, além de atuar na governança e segurança de compartilhamento de dados (BCP)."
+          ]
+        },
+        {
+          "company": "Munzner",
+          "role": "Especialista em Marketing Operations, CRM e Growth",
+          "dates": "Outubro 2018 – Agosto 2024",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Automação de CRM & Receita (~R$ 50k): Estruturou funil automatizado em 10 etapas (Sendpulse) que gerou 10.000+ visitas e ~R$ 50 mil em receita high-ticket.",
+            "Mensuração de Funil & ROI: Acompanhou caminhos de aquisição e dados de CRM para otimizar conversão e sustentar ROI de 1.0x a 1.5x no lançamento do produto digital (50 vendas em 2 meses)."
+          ]
+        },
+        {
+          "company": "AK Branding & Web Design",
+          "role": "Consultor de Projetos Digitais, Funis e Analytics",
+          "dates": "Março 2019 – Setembro 2024",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Operação Consultiva & Pipeline B2B (40+ Projetos): Gerenciou escopo, empacotamento escalonado e cronograma de 40+ entregas com 40%–60% de conversão em propostas por indicação e 100% conformidade LGPD.",
+            "CRO & Experimentação (+250%): Implementou fluxos digitais, chatbots e testes A/B que elevaram a captação de leads de 8 para 20–30 contatos/mês (+250%)."
+          ]
+        }
+      ],
+      "skills": [
+        {
+          "category": "RevOps, CRM & Governança",
+          "skills": [
+            "Mapeamento de Funil (MQL/SQL)",
+            "Governança de Dados & SSOT",
+            "CRMs Meta, RD Station, Sendpulse, Bitrix24",
+            "Análise de Causa Raiz",
+            "OKRs, Backlog e Documentação"
+          ]
+        },
+        {
+          "category": "Integrações, Dados & Automação",
+          "skills": [
+            "n8n e Make",
+            "APIs REST e Webhooks",
+            "Supabase / PostgreSQL e NocoDB",
+            "SQL Básico e Modelagem de Dados",
+            "Power BI, Excel e Google Sheets Avançados"
+          ]
+        },
+        {
+          "category": "GTM, Produto & IA",
+          "skills": [
+            "Product Ownership & Discovery",
+            "Engenharia de Prompt & Fluxos com IA",
+            "GTM e Sales Enablement",
+            "UTM Tracking e Mensuração de ROI/CAC/LTV"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "Universidade Federal do Paraná (UFPR)",
+          "degree": "Bacharelado e Licenciatura em Filosofia",
+          "dates": "2018 - 2023"
+        },
+        {
+          "institution": "Universidade Federal do Paraná (UFPR) / UTFPR",
+          "degree": "Bacharelado em Engenharia (Incompleto - 2,5 anos cursados)",
+          "dates": "2012 - 2015"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "Meta Certified Media Planning Professional",
+          "issuer": "Meta",
+          "status": "Ativo"
+        },
+        {
+          "name": "Meta Certified Digital Marketing Associate",
+          "issuer": "Meta",
+          "status": "Ativo"
+        },
+        {
+          "name": "Google Project Management Professional Certificate",
+          "issuer": "Coursera / Google",
+          "status": "Em andamento"
+        }
+      ],
+      "languages": [
+        {
+          "language": "Português",
+          "proficiency": "Nativo"
+        },
+        {
+          "language": "Inglês",
+          "proficiency": "Avançado / Fluente (uso corporativo diário em alinhamentos, documentação e relatórios internacionais)"
+        }
+      ],
+      "additional_information": [
+        "Baseado em Curitiba/PR com disponibilidade imediata para modelo remoto ou híbrido/presencial na região."
+      ]
+    },
+    "en": {
+      "name": "Kevin Augusto Vieira",
+      "location": "Curitiba, PR, Brazil | Available for Hybrid or Remote",
+      "phone": "+55 (41) 99694-1615",
+      "email": "kevin.aug.vieira@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/kevin-augusto/",
+      "github": "",
+      "website": "",
+      "summary": "Revenue Operations (RevOps), CRM, and Automation Specialist with 8+ years bridging commercial strategy, data governance, and technical systems architecture. At Wipro (Meta Project), ranked #1 globally for CRM AI adoption (+150%) and partnered with MIS data teams on Power BI funnel diagnostics that cut commercial ramp-up by 50%. Combines hands-on experience with APIs, webhooks, n8n, Make, and Supabase/PostgreSQL with a Product Owner mindset and an analytical background in Engineering (2.5 yrs, UFPR/UTFPR) and Philosophy (UFPR).",
+      "experience": [
+        {
+          "company": "AI Builder — Product Projects",
+          "role": "Systems Architect & AI CRM Builder (Dental CRM, AI Career OS & Meu Barzin)",
+          "dates": "December 2025 – August 2026",
+          "location": "Curitiba, Brazil",
+          "bullets": [
+            "Self-Hosted AI Dental CRM (-85% Cost): Built a self-hosted Kanban CRM on NocoDB/Postgres in a private VPS with a 24/7 WhatsApp AI agent (Hermes) integrated with Google Calendar and GitHub Actions deployment, replacing Kommo/n8n Cloud (US$ 100–145/mo down to US$ 14–18/mo).",
+            "SSOT Governance, APIs & Webhooks (AI Career OS & Meu Barzin): Architected strict JSON Schema data governance (100% integrity) and connected Supabase/PostgreSQL via n8n, webhooks, and APIs (WhatsApp/ManyChat + RAG), capturing 505 leads with 22.3% repeat engagement.",
+            "Funnel & Latency Diagnostics: Extracted and analyzed conversation logs uncovering API latency bottlenecks behind a 43.9% first-message drop to guide product priorities."
+          ]
+        },
+        {
+          "company": "Wipro Brazil",
+          "role": "Marketing / GTM Operations & CRM Specialist (Meta Project)",
+          "dates": "September 2024 – July 2026",
+          "location": "Curitiba, Brazil",
+          "bullets": [
+            "CRM Enablement & Record Adoption (#1 Global): Owned native AI activation inside Meta's proprietary CRM for 150+ professionals, raising daily usage from 4 to 10 prompts/day (+150%, #1 globally) via workshops and side-by-side coaching.",
+            "Data Analytics & Ramp-up Reduction (-50%): Partnered with the MIS data team using Power BI and Excel dashboards to diagnose conversion gaps and lead the Next Level Bootcamp, cutting ramp-up from 6 to 3 months (90%+ audit quality).",
+            "Agile Governance & Commercial Processes: Managed backlog, OKRs, and corrective action plans via root cause analysis, plus restricted data-sharing governance (BCP)."
+          ]
+        },
+        {
+          "company": "Munzner",
+          "role": "Marketing Operations, CRM & Growth Specialist",
+          "dates": "October 2018 – August 2024",
+          "location": "Curitiba, Brazil",
+          "bullets": [
+            "CRM Automation & Revenue (~R$ 50k): Built a 10-stage automated email nurturing funnel (Sendpulse) driving 10,000+ visits and ~R$ 50k in high-ticket revenue.",
+            "Funnel & ROI Measurement: Tracked acquisition paths and CRM metrics to optimize conversion and sustain a 1.0x–1.5x ROI on the first digital product launch (50 sales in 2 months)."
+          ]
+        },
+        {
+          "company": "AK Branding & Web Design",
+          "role": "Digital Projects, Funnels & Analytics Consultant",
+          "dates": "March 2019 – September 2024",
+          "location": "Curitiba, Brazil",
+          "bullets": [
+            "Consultative Delivery & B2B Pipeline (40+ Projects): Structured tiered packages and managed scopes/budgets across 40+ deliveries with a 40%–60% referral proposal close rate and 100% LGPD compliance.",
+            "CRO & Experimentation (+250%): Implemented digital journeys, chatbots, and A/B tests lifting lead capture from 8 to 20–30 leads/month (+250%)."
+          ]
+        }
+      ],
+      "skills": [
+        {
+          "category": "RevOps, CRM & Governance",
+          "skills": [
+            "Funnel Mapping (MQL/SQL)",
+            "Data Governance & SSOT",
+            "Meta CRMs, RD Station, Sendpulse, Bitrix24",
+            "Root Cause Analysis",
+            "OKRs, Backlog & Documentation"
+          ]
+        },
+        {
+          "category": "Integrations, Data & Automation",
+          "skills": [
+            "n8n & Make",
+            "REST APIs & Webhooks",
+            "Supabase / PostgreSQL & NocoDB",
+            "Basic SQL & Data Modeling",
+            "Power BI, Advanced Excel & Google Sheets"
+          ]
+        },
+        {
+          "category": "GTM, Product & AI",
+          "skills": [
+            "Product Ownership & Discovery",
+            "Prompt Engineering & AI Workflows",
+            "GTM & Sales Enablement",
+            "UTM Tracking & ROI/CAC/LTV Measurement"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "Federal University of Parana (UFPR)",
+          "degree": "Bachelor Degree and Licentiate in Philosophy",
+          "dates": "2018 - 2023"
+        },
+        {
+          "institution": "Federal University of Parana (UFPR) / UTFPR",
+          "degree": "B.S. in Engineering (Incomplete - 2.5 years completed)",
+          "dates": "2012 - 2015"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "Meta Certified Media Planning Professional",
+          "issuer": "Meta",
+          "status": "Active"
+        },
+        {
+          "name": "Meta Certified Digital Marketing Associate",
+          "issuer": "Meta",
+          "status": "Active"
+        },
+        {
+          "name": "Google Project Management Professional Certificate",
+          "issuer": "Coursera / Google",
+          "status": "In progress"
+        }
+      ],
+      "languages": [
+        {
+          "language": "Portuguese",
+          "proficiency": "Native"
+        },
+        {
+          "language": "English",
+          "proficiency": "Advanced / Fluent (daily corporate use in international stakeholder alignment and reporting)"
+        }
+      ],
+      "additional_information": [
+        "Based in Curitiba, PR, with immediate availability for remote or hybrid/on-site work in Curitiba."
+      ]
+    }
+  },
+  "materials": {
+    "pt": {
+      "cover_letter": "Olá, time da Logcomex!\n\nFiquei muito animado ao encontrar a vaga de Especialista em RevOps aqui em Curitiba. Acompanho a evolução da Logcomex como referência em inteligência para comércio exterior e vejo um encaixe direto entre os desafios de arquitetura de receita da vaga e o que construí nos últimos anos.\n\nMeu diferencial está em unir visão comercial e de produto com execução técnica em CRM, dados e automações. Na Wipro (Projeto Meta), atuei junto a 150+ profissionais e ao time de dados (MIS/Power BI) para destravar produtividade no CRM proprietário, levando a operação ao #1 lugar global em crescimento de adoção de IA (+150%) e reduzindo o ramp-up pela metade. Em projetos recentes, construí do zero um CRM self-hosted em produção (NocoDB sobre Postgres em VPS com agente Hermes no WhatsApp integrado ao Google Agenda, reduzindo custos em ~85%), além de pipelines conectando Supabase/PostgreSQL, APIs, webhooks e n8n e governança estrita de dados (SSOT) no AI Career OS.\n\nMoro em Curitiba e seria um prazer conversar com vocês sobre como estruturar processos, integrações e visibilidade de funil para acelerar ainda mais a operação da Logcomex!\n\nUm abraço,\nKevin Augusto Vieira",
+      "form_answers": [
+        {
+          "question": "Qual sua experiência com CRM, automações e integrações via API/Webhooks?",
+          "answer": "Opero plataformas de CRM e automação há mais de 6 anos (Sendpulse, RD Station, Bitrix24 e CRMs proprietários da Meta). Na arquitetura técnica, construí em produção um CRM Kanban self-hosted em NocoDB sobre Postgres com agente de IA 24/7 no WhatsApp integrado ao Google Agenda (~85% de economia frente a Kommo + n8n Cloud), além de bancos Supabase/PostgreSQL no Meu Barzin conectados via n8n, webhooks e APIs REST e um funil de 10 etapas no Sendpulse que gerou ~R$ 50 mil na Munzner."
+        },
+        {
+          "question": "Como você conecta análise de dados ao ganho de eficiência do funil comercial?",
+          "answer": "No Projeto Meta (Wipro), trabalhei diretamente com o time de dados (MIS) interpretando painéis em Power BI e Excel para identificar gargalos entre treinamento e entrega comercial. Esse diagnóstico originou o Next Level Bootcamp, que reduziu o ramp-up de 6 para 3 meses com 90%+ de qualidade em auditorias."
+        }
+      ]
+    },
+    "en": {
+      "cover_letter": "Hi Logcomex team!\n\nI was thrilled to come across the Especialista em RevOps opening here in Curitiba. Logcomex's trajectory in trade intelligence is inspiring, and I see a direct match between the role's revenue architecture challenges and my hands-on background.\n\nMy strength lies in bridging commercial/product thinking with practical CRM engineering, data governance, and workflow automation. At Wipro (Meta Project), I worked alongside MIS data teams and 150+ frontline professionals to optimize CRM workflows—ranking #1 globally in CRM AI adoption (+150%) and cutting ramp-up time by 50%. In my recent builds, I deployed a self-hosted production CRM (NocoDB on Postgres with a 24/7 WhatsApp AI agent integrated with Google Calendar, cutting stack cost by ~85%), alongside Supabase/PostgreSQL pipelines via REST APIs, webhooks, and n8n, plus strict SSOT data schemas in AI Career OS.\n\nI am based in Curitiba and would love to chat about how I can help scale Logcomex's RevOps integrations, data governance, and funnel visibility!\n\nBest regards,\nKevin Augusto Vieira",
+      "form_answers": [
+        {
+          "question": "What is your experience with CRM, automation, and API/Webhook integrations?",
+          "answer": "I have 6+ years working with CRM systems (Sendpulse, RD Station, Bitrix24, Meta's proprietary CRMs) and automated pipelines. Technically, I built a self-hosted Kanban CRM using NocoDB on Postgres with a 24/7 WhatsApp AI agent integrated with Google Calendar (~85% cost reduction vs. Kommo + n8n Cloud), Supabase/PostgreSQL integrations via n8n, REST APIs, and webhooks, and a 10-stage Sendpulse funnel generating ~R$ 50k at Munzner."
+        }
+      ]
+    }
+  },
+  "evidence": {
+    "skills": {
+      "pt": [],
+      "en": []
+    }
+  }
+}

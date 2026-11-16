@@ -1,0 +1,313 @@
+{
+  "id": "grupo-olx-especialista-em-fidelizacao-e-engajamento-b2b",
+  "metadata": {
+    "company_name": "Grupo OLX",
+    "role_title": "Especialista em Fidelização e Engajamento (B2B)",
+    "url": "https://vemsergrupoolx.gupy.io/job/eyJqb2JJZCI6MTI4NDUwNDIsInNvdXJjZSI6Imd1cHlfcG9ydGFsIn0=",
+    "fit_score": 85,
+    "salary_expectation": "A negociar (Remoto Brasil)",
+    "document_language": "pt",
+    "available_languages": [
+      "pt",
+      "en"
+    ],
+    "location": "Brasil · Majoritariamente Remoto",
+    "employment_type": "Tempo integral",
+    "deadline": "10/01/2027",
+    "source_files": [
+      "master_resume.json"
+    ],
+    "good_points": [
+      "Desenho de programa recorrente com benefícios e parceiros B2B no Meu Barzin Pass (assinatura R$ 19,90 'Compre 1, Leve 2', prospecção de parceiros e diagnóstico de liquidez da oferta).",
+      "Experiência em programas de engajamento e gamificação com badges digitais no Next Level Bootcamp (90% CSAT, 100% conclusão) e adoção recorde (+150%) na Wipro/Meta.",
+      "Atuação prévia com landing pages imobiliárias (5 leads/dia) e 40+ entregas B2B na AK Branding + CRM/automações."
+    ],
+    "improvement_points": [
+      "Aprofundar mecânicas formais de programas loyalty em grande escala (regras de pontos, tiers, orçamento de premiação e gestão direta de fornecedores de benefícios)."
+    ]
+  },
+  "triage": {
+    "decision": "adapt",
+    "blockers": [],
+    "notes": [
+      "Fit 85, Gupy aberta até 10/01/2027, foco B2B retenção/fidelização (imóveis/autos)."
+    ],
+    "gaps": []
+  },
+  "resume": {
+    "pt": {
+      "name": "Kevin Augusto Vieira",
+      "location": "Curitiba, PR | Remoto",
+      "phone": "+55 (41) 99694-1615",
+      "email": "kevin.aug.vieira@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/kevin-augusto/",
+      "github": "",
+      "website": "",
+      "summary": "Especialista em Engajamento, Retenção e Programas B2B com mais de 8 anos conectando estratégia de negócios, CRM, produto e parceiros. Concebeu o modelo de assinatura e benefícios B2B do Meu Barzin Pass (com foco em liquidez e recorrência), liderou iniciativas de engajamento e certificação com badges na Wipro/Projeto Meta (+150% adoção #1 global, 90% CSAT) e conduziu 40+ projetos consultivos para PMEs na AK Branding, incluindo geração qualificada para o setor imobiliário.",
+      "experience": [
+        {
+          "company": "AI Builder — Projetos de Produtos",
+          "role": "Product & B2B Partnerships Lead (Meu Barzin)",
+          "dates": "Dezembro 2025 – Março 2026",
+          "location": "Curitiba, PR / Remoto",
+          "bullets": [
+            "Programa de Benefícios & Prospecção por Sinais: Concebeu o 'Meu Barzin Pass' (assinatura R$ 19,90/mês) e prospectou parceiros B2B usando sinais de engajamento social no Instagram para fechar bares âncora (Gal Gastrobar, Officina).",
+            "Engajamento & Pesquisa de Liquidez: Alcançou 505 leads e 22,3% de reengajamento no WhatsApp (n8n/ManyChat/Supabase), identificando por entrevistas que a densidade de parceiros B2B era o fator decisivo de conversão."
+          ]
+        },
+        {
+          "company": "Wipro Brasil",
+          "role": "Especialista em Engajamento, Adoção & Enablement (Projeto Meta)",
+          "dates": "Setembro 2024 – Julho 2026",
+          "location": "Curitiba, PR / Remoto",
+          "bullets": [
+            "Programas de Engajamento & Badges Digitais: Idealizou o Next Level Bootcamp com trilhas modulares, desafios, critérios objetivos e badges digitais, alcançando 100% de conclusão, 90% CSAT e -50% de ramp-up.",
+            "Adoção & Parceria com Produto (#1 Global): Elevou a adoção de IA no CRM em +150% para 150+ profissionais e conduziu o Product Feedback Loop bi-weekly conectando usuários da ponta a stakeholders globais de produto.",
+            "Análise de Dados (MIS/Power BI): Utilizou painéis de Power BI e Excel para acompanhar indicadores de engajamento, qualidade (90%+) e causa raiz de gargalos."
+          ]
+        },
+        {
+          "company": "AK Branding & Web Design",
+          "role": "Consultor de Marketing B2B, Web & Conversão",
+          "dates": "Março 2019 – Setembro 2024",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Projetos B2B, Imóveis & Indicações: Entregou 40+ projetos B2B/B2C com pipeline 100% orgânico por indicação (40%–60% de fechamento), incluindo LPs imobiliárias gerando 5 leads qualificados/dia.",
+            "Retenção & CRO (+250%): Implementou jornadas digitais e fluxos de conversão que elevaram a captação de 8 para 20–30 leads/mês (+250%)."
+          ]
+        },
+        {
+          "company": "Munzner",
+          "role": "Especialista em CRM, Retenção e Monetização",
+          "dates": "Outubro 2018 – Agosto 2024",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Jornadas Automatizadas (~R$ 50k): Desenhou funil automatizado de relacionamento em 10 etapas (Sendpulse) atraindo 10.000+ acessos e gerando ~R$ 50 mil em receita recorrente/high-ticket.",
+            "Monetização & Order Bump: Lançou produto digital de entrada com order bump de 1h de mentoria (50 vendas em 2 meses, ROI 1.0x–1.5x) com acompanhamento contínuo no CRM."
+          ]
+        }
+      ],
+      "skills": [
+        {
+          "category": "Fidelização, Engajamento & Parceiros B2B",
+          "skills": [
+            "Desenho de Programas de Benefícios e Assinatura",
+            "Prospecção e Validação com Parceiros B2B",
+            "Gamificação e Certificação com Badges Digitais",
+            "Onboarding, Retenção e Voz do Cliente",
+            "Coordenação Multifuncional com Produto"
+          ]
+        },
+        {
+          "category": "CRM, Automação & Dados",
+          "skills": [
+            "RD Station, Sendpulse, Bitrix24 e CRMs Meta",
+            "n8n, Make, APIs, Webhooks e Supabase",
+            "Power BI, Excel e Google Analytics",
+            "Métricas de Negócio (Engajamento, CAC, LTV, Churn, CSAT, ROI)"
+          ]
+        },
+        {
+          "category": "Gestão & Execução",
+          "skills": [
+            "Business Case e Discovery (0→1)",
+            "Gestão de Cronogramas, Orçamento e Fornecedores",
+            "OKRs, Backlog e Metodologias Ágeis"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "Universidade Federal do Paraná (UFPR)",
+          "degree": "Bacharelado e Licenciatura em Filosofia",
+          "dates": "2018 - 2023"
+        },
+        {
+          "institution": "Universidade Federal do Paraná (UFPR) / UTFPR",
+          "degree": "Bacharelado em Engenharia (Incompleto - 2,5 anos cursados)",
+          "dates": "2012 - 2015"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "Meta Certified Media Planning Professional",
+          "issuer": "Meta",
+          "status": "Ativo"
+        },
+        {
+          "name": "Meta Certified Digital Marketing Associate",
+          "issuer": "Meta",
+          "status": "Ativo"
+        },
+        {
+          "name": "Google Project Management Professional Certificate",
+          "issuer": "Coursera / Google",
+          "status": "Em andamento"
+        }
+      ],
+      "languages": [
+        {
+          "language": "Português",
+          "proficiency": "Nativo"
+        },
+        {
+          "language": "Inglês",
+          "proficiency": "Avançado / Profissional"
+        }
+      ],
+      "additional_information": [
+        "Disponível para atuação remota com deslocamentos eventuais quando necessário."
+      ]
+    },
+    "en": {
+      "name": "Kevin Augusto Vieira",
+      "location": "Curitiba, PR, Brazil | Remote",
+      "phone": "+55 (41) 99694-1615",
+      "email": "kevin.aug.vieira@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/kevin-augusto/",
+      "github": "",
+      "website": "",
+      "summary": "B2B Engagement, Retention & Loyalty Specialist with 8+ years uniting business strategy, CRM journeys, product collaboration, and partner ecosystems. Conceptualized the Meu Barzin Pass B2B partner benefits and subscription model, led gamified enablement programs with digital badges at Wipro/Meta (+150% CRM adoption #1 globally, 90% CSAT), and delivered 40+ B2B/B2C digital projects including real estate lead generation.",
+      "experience": [
+        {
+          "company": "AI Builder — Product Projects",
+          "role": "Product & B2B Partnerships Lead (Meu Barzin)",
+          "dates": "December 2025 – March 2026",
+          "location": "Curitiba, Brazil / Remote",
+          "bullets": [
+            "B2B Benefits & Demand-Led Prospecting: Designed 'Meu Barzin Pass' (R$ 19.90/mo recurring membership) and closed anchor B2B bar partners (Gal Gastrobar, Officina) by prioritizing Instagram engagement signals.",
+            "Engagement & Liquidity Analysis: Drove 505 leads and a 22.3% repeat WhatsApp engagement rate (n8n/ManyChat/Supabase), finding partner supply density to be the main purchase driver."
+          ]
+        },
+        {
+          "company": "Wipro Brazil",
+          "role": "Engagement, Adoption & Enablement Specialist (Meta Project)",
+          "dates": "September 2024 – July 2026",
+          "location": "Curitiba, Brazil / Remote",
+          "bullets": [
+            "Engagement Programs & Digital Badges: Designed the Next Level Bootcamp with challenges and digital badges achieving 100% completion, 90% CSAT, and 50% faster ramp-up.",
+            "Adoption & Product Alignment (#1 Global): Boosted CRM AI adoption by +150% across 150+ pros and ran bi-weekly feedback loops directly with global Product stakeholders.",
+            "Data Analysis (MIS/Power BI): Leveraged Power BI and Excel dashboards to monitor engagement, quality (90%+), and root causes of drop-off."
+          ]
+        },
+        {
+          "company": "AK Branding & Web Design",
+          "role": "B2B Marketing, Web & Conversion Consultant",
+          "dates": "March 2019 – September 2024",
+          "location": "Curitiba, Brazil",
+          "bullets": [
+            "B2B Referrals & Real Estate Vertical: Delivered 40+ B2B/B2C projects with a 40%–60% referral close rate, including real estate landing pages driving 5 qualified leads/day.",
+            "Retention & CRO (+250%): Built UX and conversion flows lifting lead capture from 8 to 20–30 leads/month (+250%)."
+          ]
+        },
+        {
+          "company": "Munzner",
+          "role": "CRM, Retention & Monetization Specialist",
+          "dates": "October 2018 – August 2024",
+          "location": "Curitiba, Brazil",
+          "bullets": [
+            "Automated Journeys (~R$ 50k): Built a 10-stage automated nurturing sequence (Sendpulse) driving 10,000+ visits and ~R$ 50k in high-ticket conversions.",
+            "Monetization & Order Bump: Launched an entry digital course with a 1h mentoring order bump (50 sales in 2 months, 1.0x–1.5x ROI) tracked via CRM."
+          ]
+        }
+      ],
+      "skills": [
+        {
+          "category": "B2B Loyalty, Engagement & Partners",
+          "skills": [
+            "Membership & Partner Benefits Program Design",
+            "B2B Partner Prospecting & Onboarding",
+            "Gamification & Digital Badge Programs",
+            "Retention, Onboarding & Voice of Customer",
+            "Cross-Functional Alignment with Product"
+          ]
+        },
+        {
+          "category": "CRM, Automation & Data",
+          "skills": [
+            "RD Station, Sendpulse, Bitrix24 & Meta CRMs",
+            "n8n, Make, APIs, Webhooks & Supabase",
+            "Power BI, Excel & Google Analytics",
+            "Engagement, CAC, LTV, Churn, CSAT & ROI Metrics"
+          ]
+        },
+        {
+          "category": "Program Management",
+          "skills": [
+            "Business Cases & 0-to-1 Discovery",
+            "Timelines, Budget & Vendor Coordination",
+            "OKRs, Backlog & Agile Execution"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "Federal University of Parana (UFPR)",
+          "degree": "Bachelor Degree and Licentiate in Philosophy",
+          "dates": "2018 - 2023"
+        },
+        {
+          "institution": "Federal University of Parana (UFPR) / UTFPR",
+          "degree": "B.S. in Engineering (Incomplete - 2.5 years completed)",
+          "dates": "2012 - 2015"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "Meta Certified Media Planning Professional",
+          "issuer": "Meta",
+          "status": "Active"
+        },
+        {
+          "name": "Meta Certified Digital Marketing Associate",
+          "issuer": "Meta",
+          "status": "Active"
+        },
+        {
+          "name": "Google Project Management Professional Certificate",
+          "issuer": "Coursera / Google",
+          "status": "In progress"
+        }
+      ],
+      "languages": [
+        {
+          "language": "Portuguese",
+          "proficiency": "Native"
+        },
+        {
+          "language": "English",
+          "proficiency": "Advanced / Professional Proficiency"
+        }
+      ],
+      "additional_information": [
+        "Available for predominantly remote work with occasional travel if needed."
+      ]
+    }
+  },
+  "materials": {
+    "pt": {
+      "cover_letter": "Olá, time do Grupo OLX!\n\nFiquei muito animado ao ver a vaga de Especialista em Fidelização e Engajamento (B2B) no Grupo OLX. Conectar proposta de valor recorrente para parceiros B2B, mecânicas de engajamento, CRM e produto é justamente o tipo de desafio em que já atuei na prática.\n\nNo Meu Barzin, desenhei do zero um modelo de assinatura com benefícios recorrentes ('Meu Barzin Pass'), prospectei parceiros B2B locais e conduzi pesquisas para equilibrar liquidez e retenção. Antes disso, na Wipro (Projeto Meta), criei trilhas de engajamento com desafios e badges digitais (90% de CSAT e 100% de conclusão) e elevei em +150% a adoção de IA no CRM (#1 global), além de já ter criado landing pages de alta conversão para o setor imobiliário na AK Branding.\n\nAdoraria conversar com vocês para compartilhar esses cases e ajudar a evoluir os programas de fidelização B2B do Grupo OLX!\n\nUm abraço,\nKevin Augusto Vieira",
+      "form_answers": [
+        {
+          "question": "Qual sua experiência estruturando programas de engajamento, benefícios ou retenção B2B?",
+          "answer": "No Meu Barzin, estruturei o programa de assinatura com benefícios 'Meu Barzin Pass', prospectando e fechando parceiros B2B para o piloto e monitorando engajamento recorrente no WhatsApp (22,3% de usuários interagindo 4+ vezes). Na Wipro (Projeto Meta), criei o Next Level Bootcamp com desafios práticos e badges digitais (100% conclusão, 90% CSAT) e alcancei o #1 lugar global em crescimento de adoção de ferramentas no CRM (+150%)."
+        }
+      ]
+    },
+    "en": {
+      "cover_letter": "Hi Grupo OLX team!\n\nI was thrilled to see the B2B Loyalty & Engagement Specialist opening at Grupo OLX. Combining recurring B2B partner value propositions, engagement mechanics, CRM automation, and product collaboration directly matches my recent work.\n\nAt Meu Barzin, I designed a membership and B2B partner-perks model ('Meu Barzin Pass') from scratch, onboarding local partners and analyzing liquidity drivers behind retention. Previously, at Wipro (Meta Project), I built gamified engagement tracks with digital badges (90% CSAT, 100% completion) and drove #1 global CRM adoption growth (+150%), alongside real estate lead-generation projects at AK Branding.\n\nI would love to chat about how I can help evolve Grupo OLX's B2B loyalty and engagement programs!\n\nBest regards,\nKevin Augusto Vieira",
+      "form_answers": [
+        {
+          "question": "Share your experience with B2B engagement, benefits, or retention programs.",
+          "answer": "At Meu Barzin I designed the 'Meu Barzin Pass' B2B partner-perks membership and tracked recurring engagement (22.3% repeat users). At Wipro/Meta I launched the Next Level Bootcamp with digital badges (100% completion, 90% CSAT) and drove +150% CRM adoption growth (#1 globally)."
+        }
+      ]
+    }
+  },
+  "evidence": {
+    "skills": {
+      "pt": [],
+      "en": []
+    }
+  }
+}
