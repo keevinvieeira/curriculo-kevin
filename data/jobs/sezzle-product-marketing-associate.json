@@ -1,0 +1,287 @@
+{
+  "id": "sezzle-product-marketing-associate",
+  "metadata": {
+    "company_name": "Sezzle",
+    "role_title": "Product Marketing Associate, Banking & Lending",
+    "url": "https://job-boards.greenhouse.io/sezzle/jobs/8042055003",
+    "fit_score": 85,
+    "salary_expectation": "US$ 2,400/mo (LATAM remote full-time)",
+    "document_language": "en",
+    "available_languages": [
+      "en",
+      "pt"
+    ],
+    "location": "Remote · LATAM / Brazil",
+    "employment_type": "Full-time",
+    "deadline": "Open (verified 2026-11-17)",
+    "good_points": [
+      "Direct GTM positioning & sales enablement experience at Wipro/Meta across 150+ specialists (+150% adoption, -50% ramp-up, 90% CSAT).",
+      "0-to-1 product packaging & messaging across Munzner (LMS 50 sales in 2 mos), AK Branding (40+ tiered-package builds, +250% leads), and Meu Barzin Pass subscription."
+    ],
+    "improvement_points": [
+      "Note application explicitly requires unofficial university transcripts upload + bachelor's GPA & reCAPTCHA on Greenhouse."
+    ]
+  },
+  "triage": {
+    "decision": "adapt",
+    "fit_score": 85,
+    "rationale": "Direct GTM positioning & sales enablement experience at Wipro/Meta across 150+ specialists (+150% adoption, -50% ramp-up, 90% CSAT)."
+  },
+  "resume": {
+    "en": {
+      "name": "Kevin Augusto Vieira",
+      "location": "Curitiba, PR, Brazil | 100% Remote",
+      "phone": "+55 (41) 99694-1615",
+      "email": "kevin.aug.vieira@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/kevin-augusto/",
+      "github": "https://github.com/keevinvieeira",
+      "website": "https://keevinvieeira.github.io/curriculo-kevin/",
+      "summary": "Product Marketing & GTM Specialist with 8+ years crafting clear product positioning, value messaging, sales enablement playbooks, and acquisition experiments. At Wipro (Meta Project), translated global product updates into pitches and training for 150+ professionals (+150% adoption #1 globally, -50% ramp-up). Built 0-to-1 product packaging at Munzner (1.0x–1.5x ROI) and drove +250% lead conversion lifts at AK Branding.",
+      "experience": [
+        {
+          "company": "Wipro Brazil (Meta Project)",
+          "role": "GTM Operations, Paid Media & Enablement Specialist",
+          "dates": "September 2024 – July 2026",
+          "location": "Curitiba, Brazil / Remote",
+          "bullets": [
+            "Paid Media & GTM Reference: Served as technical Meta Ads strategy reference for 150+ Marketing Pros, translating global updates into commercial pitches and GTM playbooks.",
+            "CRM AI Adoption (+150%, #1 Global) & BI Analytics: Boosted daily AI usage by +150% and partnered with MIS on Power BI and Excel funnel diagnostics to cut onboarding ramp-up by 50% (90%+ audit quality).",
+            "Cross-Functional Agile Governance: Managed squad backlogs, OKRs, root cause action plans, and restricted BCP data-sharing compliance."
+          ]
+        },
+        {
+          "company": "AI Builder — Product Projects",
+          "role": "AI Systems Architect & Product Builder (Hermes CRM, AI Career OS & Meu Barzin)",
+          "dates": "December 2025 – August 2026",
+          "location": "Remote",
+          "bullets": [
+            "Production AI CRM & Audio Workflows (Hermes): Built a self-hosted Kanban CRM (NocoDB on PostgreSQL via VPS/Cloudflare Tunnel/GitHub Actions) with a 24/7 WhatsApp AI agent synced to Google Calendar, human-approved quotes, and LGPD local audio transcription (~85% stack savings: US$ 14–18/mo vs. US$ 100–145/mo).",
+            "Anti-Hallucination Governance & GraphRAG (AI Career OS): Architected Python vector semantic search + ontological GraphRAG (355+ nodes, 451+ edges) and strict JSON Schema SSOT pipelines achieving >95% matching precision and +10x workflow speed.",
+            "WhatsApp RAG & Funnel Diagnostics (Meu Barzin): Built ManyChat + n8n + cleansed Supabase/PostgreSQL RAG (~200 records) driving 505 leads, 2,000+ social followers, and 22.3% repeat engagement while uncovering a 43.9% first-message API latency bottleneck."
+          ]
+        },
+        {
+          "company": "AK Branding & Web Design",
+          "role": "Performance Marketing, CRO & Digital Projects Consultant",
+          "dates": "March 2019 – September 2024",
+          "location": "Curitiba, Brazil",
+          "bullets": [
+            "Paid Social & CRO Experiments (+250% Leads): Managed Meta Ads campaigns, landing page A/B testing, and chatbots lifting lead capture from 8 to 20–30 leads/month (+250%) and driving 5 qualified leads/day on real estate landing pages.",
+            "0-to-1 Organic Growth & Tiered Packaging (40+ Accounts): Delivered 40+ B2B/B2C web/e-commerce projects (100% LGPD), launched an organic e-commerce store generating R$ 10k in 3 months ($0 ad spend), and maintained a 40%–60% referral proposal close rate."
+          ]
+        },
+        {
+          "company": "Munzner",
+          "role": "Lifecycle CRM, Growth & Funnel Analytics Specialist",
+          "dates": "October 2018 – August 2024",
+          "location": "Curitiba, Brazil",
+          "bullets": [
+            "10-Stage Automated Email Funnel (~R$ 50k): Built an automated email nurturing sequence (Sendpulse) and SEO content (~10% visitor-to-lead across ~1,000 organic visits -> ~100 leads), scaling to 10,000+ visits and ~R$ 50k in high-ticket sales.",
+            "0-to-1 Digital Product & Packaging: Designed, priced, and launched an LMS/WordPress digital course with a 1-hour mentoring order bump, generating 50 sales in 2 months (1.0x–1.5x ROI) tracked via CRM."
+          ]
+        }
+      ],
+      "skills": [
+        {
+          "category": "Product Marketing & GTM",
+          "skills": [
+            "Product Positioning & Messaging",
+            "GTM Launches & Sales Enablement",
+            "Pricing, Packaging & Subscription Models",
+            "Customer Research & Friction Analysis",
+            "Copywriting & Conversion Storytelling"
+          ]
+        },
+        {
+          "category": "Growth, CRM & Analytics",
+          "skills": [
+            "Landing Page CRO & A/B Testing",
+            "Meta Ads (Certified Media Planning)",
+            "Email Nurturing (Sendpulse / RD Station)",
+            "Power BI, Funnel Telemetry & Fluent English"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "Federal University of Parana (UFPR)",
+          "degree": "Bachelor Degree and Licentiate in Philosophy",
+          "dates": "2018 - 2023"
+        },
+        {
+          "institution": "Federal University of Parana (UFPR) / UTFPR",
+          "degree": "B.S. in Engineering (Incomplete - 2.5 years completed)",
+          "dates": "2012 - 2015"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "Meta Certified Media Planning Professional",
+          "issuer": "Meta",
+          "status": "Active"
+        },
+        {
+          "name": "Meta Certified Digital Marketing Associate",
+          "issuer": "Meta",
+          "status": "Active"
+        },
+        {
+          "name": "Google Project Management Professional Certificate",
+          "issuer": "Coursera / Google",
+          "status": "In progress"
+        }
+      ],
+      "languages": [
+        {
+          "language": "Portuguese",
+          "proficiency": "Native"
+        },
+        {
+          "language": "English",
+          "proficiency": "Advanced / Fluent (daily corporate alignment and international reporting)"
+        }
+      ],
+      "additional_information": [
+        "Fluent English (daily international corporate reporting); Native Brazilian Portuguese; immediate full-time/contract remote availability."
+      ]
+    },
+    "pt": {
+      "name": "Kevin Augusto Vieira",
+      "location": "Curitiba, PR · Remoto Internacional",
+      "phone": "+55 (41) 99694-1615",
+      "email": "kevin.aug.vieira@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/kevin-augusto/",
+      "github": "https://github.com/keevinvieeira",
+      "website": "https://keevinvieeira.github.io/curriculo-kevin/",
+      "summary": "Product Marketing & GTM Specialist with 8+ years crafting clear product positioning, value messaging, sales enablement playbooks, and acquisition experiments. At Wipro (Meta Project), translated global product updates into pitches and training for 150+ professionals (+150% adoption #1 globally, -50% ramp-up). Built 0-to-1 product packaging at Munzner (1.0x–1.5x ROI) and drove +250% lead conversion lifts at AK Branding.",
+      "experience": [
+        {
+          "company": "AI Builder — Projetos de Produtos",
+          "role": "Arquiteto de Sistemas de IA, CRM e Growth",
+          "dates": "Dezembro 2025 – Agosto 2026",
+          "location": "Remoto",
+          "bullets": [
+            "CRM Odontológico com IA (Hermes): Construiu CRM Kanban self-hosted (NocoDB sobre Postgres) com agente Hermes 24/7 no WhatsApp integrado ao Google Agenda e transcrição local de áudio LGPD (-85% custo de stack).",
+            "AI Career OS & Meu Barzin: Arquitetou pipelines GraphRAG + JSON Schema SSOT (>95% precisão, +10x velocidade) e jornadas WhatsApp via ManyChat/n8n/Supabase RAG (505 leads, 22,3% alto engajamento)."
+          ]
+        },
+        {
+          "company": "Wipro Brasil (Projeto Meta)",
+          "role": "Especialista em Enablement de IA, CRM e Operações GTM",
+          "dates": "Setembro 2024 – Julho 2026",
+          "location": "Curitiba, PR / Remoto",
+          "bullets": [
+            "Adoção de IA no CRM (#1 Global, +150%): Liderou ativação de IA nativa no CRM para 150+ profissionais e reportou melhorias de tom/contexto para times globais da Meta.",
+            "Bootcamp & Analytics MIS (-50% Ramp-up): Criou o Next Level Bootcamp com diagnósticos em Power BI/Excel (100% conclusão, 90%+ qualidade, 90% CSAT)."
+          ]
+        },
+        {
+          "company": "Munzner",
+          "role": "Especialista em CRM, Inbound SEO e Growth",
+          "dates": "Outubro 2018 – Agosto 2024",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Funil Automatizado (~R$ 50k): Criou sequência de 10 etapas no Sendpulse + SEO (~10% visitor-to-lead) gerando 10.000+ visitas e ~R$ 50 mil em vendas high-ticket."
+          ]
+        },
+        {
+          "company": "AK Branding & Web Design",
+          "role": "Consultor de Performance, CRO e Projetos Digitais",
+          "dates": "Março 2019 – Setembro 2024",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Mídia Paga & CRO (+250% Leads): Geriu Meta Ads, testes A/B e 40+ entregas B2B/B2C com 40%–60% de fechamento por indicação e e-commerce orgânico (R$ 10k em 3 meses)."
+          ]
+        }
+      ],
+      "skills": [
+        {
+          "category": "Growth, GTM & CRM",
+          "skills": [
+            "Meta Ads (Certificado)",
+            "Lifecycle & Sendpulse/RD Station",
+            "Product Marketing & GTM",
+            "CRO & Testes A/B"
+          ]
+        },
+        {
+          "category": "IA, Dados & Automação",
+          "skills": [
+            "Prompt Engineering & AI Evals",
+            "GraphRAG & SSOT JSON Schema",
+            "n8n, ManyChat, APIs & Webhooks",
+            "Supabase/PostgreSQL & Power BI"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "Universidade Federal do Paraná (UFPR)",
+          "degree": "Bacharelado e Licenciatura em Filosofia",
+          "dates": "2018 - 2023"
+        },
+        {
+          "institution": "Universidade Federal do Paraná (UFPR) / UTFPR",
+          "degree": "Bacharelado em Engenharia (Incompleto - 2,5 anos cursados)",
+          "dates": "2012 - 2015"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "Meta Certified Media Planning Professional",
+          "issuer": "Meta",
+          "status": "Ativo"
+        },
+        {
+          "name": "Meta Certified Digital Marketing Associate",
+          "issuer": "Meta",
+          "status": "Ativo"
+        },
+        {
+          "name": "Google Project Management Professional Certificate",
+          "issuer": "Coursera / Google",
+          "status": "Em andamento"
+        }
+      ],
+      "languages": [
+        {
+          "language": "Português",
+          "proficiency": "Nativo"
+        },
+        {
+          "language": "Inglês",
+          "proficiency": "Avançado / Fluente (uso corporativo diário internacional)"
+        }
+      ],
+      "additional_information": [
+        "Inglês fluente para atuação internacional 100% remota."
+      ]
+    }
+  },
+  "materials": {
+    "en": {
+      "cover_letter": "Hi Sezzle team!\n\nI was excited to apply for the Product Marketing Associate, Banking & Lending role. Having spent 8+ years at the intersection of growth marketing, CRM/RevOps, and practical AI workflows, your focus aligns directly with the outcomes I have delivered.\n\nAt Wipro (Meta Project), I ranked #1 globally in CRM AI adoption (+150% across 150+ professionals) and partnered with MIS data teams on Power BI diagnostics to cut ramp-up by 50% (90% CSAT). Across Munzner, AK Branding, and my recent AI builds (Hermes NocoDB/Postgres CRM, AI Career OS GraphRAG/SSOT, and Meu Barzin WhatsApp RAG), I scaled automated funnels (~R$ 50k), lifted leads by +250%, and cut production stack costs by ~85%.\n\nI would welcome the chance to discuss how I can contribute to Sezzle!\n\nBest regards,\nKevin Augusto Vieira",
+      "form_answers": [
+        {
+          "question": "Describe a product positioning or GTM enablement initiative you drove.",
+          "answer": "At Wipro (Meta Project), I translated complex global product updates into actionable pitches, playbooks, and training for 150+ commercial pros—driving #1 global growth in CRM AI adoption (+150%) and cutting ramp-up by 50% (90% CSAT) while delivering bi-weekly customer insights to global product teams. At Munzner, I positioned and launched an entry digital product with a 1h mentoring order bump achieving 50 sales in 2 months."
+        }
+      ]
+    },
+    "pt": {
+      "cover_letter": "Olá, time da Sezzle!\n\nFiquei muito animado com a vaga de Product Marketing Associate, Banking & Lending. Com mais de 8 anos unindo growth marketing, CRM/RevOps e fluxos práticos com IA (incluindo #1 lugar global em adoção de IA no CRM na Wipro/Meta, funil de ~R$ 50 mil na Munzner, +250% de leads na AK Branding e CRM self-hosted em produção no projeto Hermes), seria um prazer contribuir com os resultados da Sezzle.\n\nUm abraço,\nKevin Augusto Vieira",
+      "form_answers": [
+        {
+          "question": "Describe a product positioning or GTM enablement initiative you drove.",
+          "answer": "At Wipro (Meta Project), I translated complex global product updates into actionable pitches, playbooks, and training for 150+ commercial pros—driving #1 global growth in CRM AI adoption (+150%) and cutting ramp-up by 50% (90% CSAT) while delivering bi-weekly customer insights to global product teams. At Munzner, I positioned and launched an entry digital product with a 1h mentoring order bump achieving 50 sales in 2 months."
+        }
+      ]
+    }
+  },
+  "evidence": {
+    "skills": {
+      "pt": [],
+      "en": []
+    }
+  }
+}

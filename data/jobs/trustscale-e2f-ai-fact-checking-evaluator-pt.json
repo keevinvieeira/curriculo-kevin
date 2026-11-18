@@ -1,0 +1,287 @@
+{
+  "id": "trustscale-e2f-ai-fact-checking-evaluator-pt",
+  "metadata": {
+    "company_name": "TrustScale (e2f)",
+    "role_title": "AI Fact-Checking & Response Evaluation Reviewer (Portuguese)",
+    "url": "https://apply.clearcompany.com/e2finc?jobId=6fa693d9-6174-2eeb-acac-a78eebc5ce13",
+    "fit_score": 87,
+    "salary_expectation": "Competitive USD freelance hourly",
+    "document_language": "en",
+    "available_languages": [
+      "en",
+      "pt"
+    ],
+    "location": "Remote · Brazil",
+    "employment_type": "Freelance / Part-time",
+    "deadline": "Open (verified 2026-11-17)",
+    "good_points": [
+      "Zero-hallucination AI engineering (SSOT JSON Schema, cleansed RAG DB, Python validation) + native Brazilian Portuguese + UFPR Philosophy analytical logic.",
+      "90%+ quality auditing experience and bi-weekly LLM tone/context feedback at Wipro (Meta Project)."
+    ],
+    "improvement_points": [
+      "Clear alignment on pt-BR precision, bilingual EN/PT fluency, and structured rubric grading."
+    ]
+  },
+  "triage": {
+    "decision": "adapt",
+    "fit_score": 87,
+    "rationale": "Zero-hallucination AI engineering (SSOT JSON Schema, cleansed RAG DB, Python validation) + native Brazilian Portuguese + UFPR Philosophy analytical logic."
+  },
+  "resume": {
+    "en": {
+      "name": "Kevin Augusto Vieira",
+      "location": "Curitiba, PR, Brazil | 100% Remote",
+      "phone": "+55 (41) 99694-1615",
+      "email": "kevin.aug.vieira@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/kevin-augusto/",
+      "github": "https://github.com/keevinvieeira",
+      "website": "https://keevinvieeira.github.io/curriculo-kevin/",
+      "summary": "AI Fact-Checking, Grounding & Evaluation Specialist combining native Brazilian Portuguese, fluent English, academic training in Logic/Philosophy (UFPR) and Engineering coursework (2.5 yrs), and hands-on anti-hallucination AI governance. Built strict JSON Schema SSOT validation pipelines (AI Career OS) and cleansed RAG knowledge bases with zero-hallucination guardrails (Meu Barzin), alongside 90%+ quality auditing at Wipro (Meta Project).",
+      "experience": [
+        {
+          "company": "AI Builder — Product Projects",
+          "role": "AI Systems Architect & Product Builder (Hermes CRM, AI Career OS & Meu Barzin)",
+          "dates": "December 2025 – August 2026",
+          "location": "Remote",
+          "bullets": [
+            "Production AI CRM & Audio Workflows (Hermes): Built a self-hosted Kanban CRM (NocoDB on PostgreSQL via VPS/Cloudflare Tunnel/GitHub Actions) with a 24/7 WhatsApp AI agent synced to Google Calendar, human-approved quotes, and LGPD local audio transcription (~85% stack savings: US$ 14–18/mo vs. US$ 100–145/mo).",
+            "Anti-Hallucination Governance & GraphRAG (AI Career OS): Architected Python vector semantic search + ontological GraphRAG (355+ nodes, 451+ edges) and strict JSON Schema SSOT pipelines achieving >95% matching precision and +10x workflow speed.",
+            "WhatsApp RAG & Funnel Diagnostics (Meu Barzin): Built ManyChat + n8n + cleansed Supabase/PostgreSQL RAG (~200 records) driving 505 leads, 2,000+ social followers, and 22.3% repeat engagement while uncovering a 43.9% first-message API latency bottleneck."
+          ]
+        },
+        {
+          "company": "Wipro Brazil (Meta Project)",
+          "role": "AI Enablement, CRM & GTM Operations Specialist",
+          "dates": "September 2024 – July 2026",
+          "location": "Curitiba, Brazil / Remote",
+          "bullets": [
+            "Record AI Adoption (#1 Global): Led native generative AI activation inside Meta's proprietary CRM across 150+ professionals, lifting usage from 4 to 10 prompts/day (+150%, #1 globally) through prompt playbooks and coaching.",
+            "AI Quality & Product Loops: Conducted 90%+ quality audits and delivered bi-weekly product feedback reports to global stakeholders, shaping tone and context guardrails for AI-generated emails and summaries.",
+            "Scalable Enablement (-50% Ramp-up): Partnered with the MIS data team (Power BI/Excel) to design and run the Next Level Bootcamp for 12 consultants (100% completion, 90% CSAT, cutting ramp-up from 6 to 3 months)."
+          ]
+        },
+        {
+          "company": "AK Branding & Web Design",
+          "role": "Performance Marketing, CRO & Digital Projects Consultant",
+          "dates": "March 2019 – September 2024",
+          "location": "Curitiba, Brazil",
+          "bullets": [
+            "Paid Social & CRO Experiments (+250% Leads): Managed Meta Ads campaigns, landing page A/B testing, and chatbots lifting lead capture from 8 to 20–30 leads/month (+250%) and driving 5 qualified leads/day on real estate landing pages.",
+            "0-to-1 Organic Growth & Tiered Packaging (40+ Accounts): Delivered 40+ B2B/B2C web/e-commerce projects (100% LGPD), launched an organic e-commerce store generating R$ 10k in 3 months ($0 ad spend), and maintained a 40%–60% referral proposal close rate."
+          ]
+        },
+        {
+          "company": "Munzner",
+          "role": "Lifecycle CRM, Growth & Funnel Analytics Specialist",
+          "dates": "October 2018 – August 2024",
+          "location": "Curitiba, Brazil",
+          "bullets": [
+            "10-Stage Automated Email Funnel (~R$ 50k): Built an automated email nurturing sequence (Sendpulse) and SEO content (~10% visitor-to-lead across ~1,000 organic visits -> ~100 leads), scaling to 10,000+ visits and ~R$ 50k in high-ticket sales.",
+            "0-to-1 Digital Product & Packaging: Designed, priced, and launched an LMS/WordPress digital course with a 1-hour mentoring order bump, generating 50 sales in 2 months (1.0x–1.5x ROI) tracked via CRM."
+          ]
+        }
+      ],
+      "skills": [
+        {
+          "category": "AI Fact-Checking & Evaluation",
+          "skills": [
+            "Source Grounding & Hallucination Detection",
+            "Rubric-Based Quality Auditing (90%+ QA)",
+            "Context, Tone & Factuality Evaluation",
+            "JSON Schema & SSOT Data Validation",
+            "RAG Database Cleansing & Structuring"
+          ]
+        },
+        {
+          "category": "Languages & Analytical Foundation",
+          "skills": [
+            "Native Brazilian Portuguese Editing & Writing",
+            "Fluent English (Daily International Reporting)",
+            "Formal Logic & Critical Analysis (UFPR Philosophy)",
+            "Engineering Quantitative Reasoning (2.5 yrs)"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "Federal University of Parana (UFPR)",
+          "degree": "Bachelor Degree and Licentiate in Philosophy",
+          "dates": "2018 - 2023"
+        },
+        {
+          "institution": "Federal University of Parana (UFPR) / UTFPR",
+          "degree": "B.S. in Engineering (Incomplete - 2.5 years completed)",
+          "dates": "2012 - 2015"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "Meta Certified Media Planning Professional",
+          "issuer": "Meta",
+          "status": "Active"
+        },
+        {
+          "name": "Meta Certified Digital Marketing Associate",
+          "issuer": "Meta",
+          "status": "Active"
+        },
+        {
+          "name": "Google Project Management Professional Certificate",
+          "issuer": "Coursera / Google",
+          "status": "In progress"
+        }
+      ],
+      "languages": [
+        {
+          "language": "Portuguese",
+          "proficiency": "Native"
+        },
+        {
+          "language": "English",
+          "proficiency": "Advanced / Fluent (daily corporate alignment and international reporting)"
+        }
+      ],
+      "additional_information": [
+        "Fluent English (daily international corporate reporting); Native Brazilian Portuguese; immediate full-time/contract remote availability."
+      ]
+    },
+    "pt": {
+      "name": "Kevin Augusto Vieira",
+      "location": "Curitiba, PR · Remoto Internacional",
+      "phone": "+55 (41) 99694-1615",
+      "email": "kevin.aug.vieira@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/kevin-augusto/",
+      "github": "https://github.com/keevinvieeira",
+      "website": "https://keevinvieeira.github.io/curriculo-kevin/",
+      "summary": "AI Fact-Checking, Grounding & Evaluation Specialist combining native Brazilian Portuguese, fluent English, academic training in Logic/Philosophy (UFPR) and Engineering coursework (2.5 yrs), and hands-on anti-hallucination AI governance. Built strict JSON Schema SSOT validation pipelines (AI Career OS) and cleansed RAG knowledge bases with zero-hallucination guardrails (Meu Barzin), alongside 90%+ quality auditing at Wipro (Meta Project).",
+      "experience": [
+        {
+          "company": "AI Builder — Projetos de Produtos",
+          "role": "Arquiteto de Sistemas de IA, CRM e Growth",
+          "dates": "Dezembro 2025 – Agosto 2026",
+          "location": "Remoto",
+          "bullets": [
+            "CRM Odontológico com IA (Hermes): Construiu CRM Kanban self-hosted (NocoDB sobre Postgres) com agente Hermes 24/7 no WhatsApp integrado ao Google Agenda e transcrição local de áudio LGPD (-85% custo de stack).",
+            "AI Career OS & Meu Barzin: Arquitetou pipelines GraphRAG + JSON Schema SSOT (>95% precisão, +10x velocidade) e jornadas WhatsApp via ManyChat/n8n/Supabase RAG (505 leads, 22,3% alto engajamento)."
+          ]
+        },
+        {
+          "company": "Wipro Brasil (Projeto Meta)",
+          "role": "Especialista em Enablement de IA, CRM e Operações GTM",
+          "dates": "Setembro 2024 – Julho 2026",
+          "location": "Curitiba, PR / Remoto",
+          "bullets": [
+            "Adoção de IA no CRM (#1 Global, +150%): Liderou ativação de IA nativa no CRM para 150+ profissionais e reportou melhorias de tom/contexto para times globais da Meta.",
+            "Bootcamp & Analytics MIS (-50% Ramp-up): Criou o Next Level Bootcamp com diagnósticos em Power BI/Excel (100% conclusão, 90%+ qualidade, 90% CSAT)."
+          ]
+        },
+        {
+          "company": "Munzner",
+          "role": "Especialista em CRM, Inbound SEO e Growth",
+          "dates": "Outubro 2018 – Agosto 2024",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Funil Automatizado (~R$ 50k): Criou sequência de 10 etapas no Sendpulse + SEO (~10% visitor-to-lead) gerando 10.000+ visitas e ~R$ 50 mil em vendas high-ticket."
+          ]
+        },
+        {
+          "company": "AK Branding & Web Design",
+          "role": "Consultor de Performance, CRO e Projetos Digitais",
+          "dates": "Março 2019 – Setembro 2024",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Mídia Paga & CRO (+250% Leads): Geriu Meta Ads, testes A/B e 40+ entregas B2B/B2C com 40%–60% de fechamento por indicação e e-commerce orgânico (R$ 10k em 3 meses)."
+          ]
+        }
+      ],
+      "skills": [
+        {
+          "category": "Growth, GTM & CRM",
+          "skills": [
+            "Meta Ads (Certificado)",
+            "Lifecycle & Sendpulse/RD Station",
+            "Product Marketing & GTM",
+            "CRO & Testes A/B"
+          ]
+        },
+        {
+          "category": "IA, Dados & Automação",
+          "skills": [
+            "Prompt Engineering & AI Evals",
+            "GraphRAG & SSOT JSON Schema",
+            "n8n, ManyChat, APIs & Webhooks",
+            "Supabase/PostgreSQL & Power BI"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "Universidade Federal do Paraná (UFPR)",
+          "degree": "Bacharelado e Licenciatura em Filosofia",
+          "dates": "2018 - 2023"
+        },
+        {
+          "institution": "Universidade Federal do Paraná (UFPR) / UTFPR",
+          "degree": "Bacharelado em Engenharia (Incompleto - 2,5 anos cursados)",
+          "dates": "2012 - 2015"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "Meta Certified Media Planning Professional",
+          "issuer": "Meta",
+          "status": "Ativo"
+        },
+        {
+          "name": "Meta Certified Digital Marketing Associate",
+          "issuer": "Meta",
+          "status": "Ativo"
+        },
+        {
+          "name": "Google Project Management Professional Certificate",
+          "issuer": "Coursera / Google",
+          "status": "Em andamento"
+        }
+      ],
+      "languages": [
+        {
+          "language": "Português",
+          "proficiency": "Nativo"
+        },
+        {
+          "language": "Inglês",
+          "proficiency": "Avançado / Fluente (uso corporativo diário internacional)"
+        }
+      ],
+      "additional_information": [
+        "Inglês fluente para atuação internacional 100% remota."
+      ]
+    }
+  },
+  "materials": {
+    "en": {
+      "cover_letter": "Hi TrustScale (e2f) team!\n\nI was excited to apply for the AI Fact-Checking & Response Evaluation Reviewer (Portuguese) role. Having spent 8+ years at the intersection of growth marketing, CRM/RevOps, and practical AI workflows, your focus aligns directly with the outcomes I have delivered.\n\nAt Wipro (Meta Project), I ranked #1 globally in CRM AI adoption (+150% across 150+ professionals) and partnered with MIS data teams on Power BI diagnostics to cut ramp-up by 50% (90% CSAT). Across Munzner, AK Branding, and my recent AI builds (Hermes NocoDB/Postgres CRM, AI Career OS GraphRAG/SSOT, and Meu Barzin WhatsApp RAG), I scaled automated funnels (~R$ 50k), lifted leads by +250%, and cut production stack costs by ~85%.\n\nI would welcome the chance to discuss how I can contribute to TrustScale (e2f)!\n\nBest regards,\nKevin Augusto Vieira",
+      "form_answers": [
+        {
+          "question": "How do you approach fact-checking and evaluating AI-generated Portuguese responses?",
+          "answer": "I apply strict source-grounding and Single Source of Truth (SSOT) verification: checking every claim, number, entity, and nuance against authoritative sources before rating tone, helpfulness, and Portuguese fluency. I built automated JSON Schema SSOT and zero-hallucination RAG guardrails on AI Career OS and Meu Barzin, and conducted 90%+ quality communication audits at Wipro (Meta Project)."
+        }
+      ]
+    },
+    "pt": {
+      "cover_letter": "Olá, time da TrustScale (e2f)!\n\nFiquei muito animado com a vaga de AI Fact-Checking & Response Evaluation Reviewer (Portuguese). Com mais de 8 anos unindo growth marketing, CRM/RevOps e fluxos práticos com IA (incluindo #1 lugar global em adoção de IA no CRM na Wipro/Meta, funil de ~R$ 50 mil na Munzner, +250% de leads na AK Branding e CRM self-hosted em produção no projeto Hermes), seria um prazer contribuir com os resultados da TrustScale (e2f).\n\nUm abraço,\nKevin Augusto Vieira",
+      "form_answers": [
+        {
+          "question": "How do you approach fact-checking and evaluating AI-generated Portuguese responses?",
+          "answer": "I apply strict source-grounding and Single Source of Truth (SSOT) verification: checking every claim, number, entity, and nuance against authoritative sources before rating tone, helpfulness, and Portuguese fluency. I built automated JSON Schema SSOT and zero-hallucination RAG guardrails on AI Career OS and Meu Barzin, and conducted 90%+ quality communication audits at Wipro (Meta Project)."
+        }
+      ]
+    }
+  },
+  "evidence": {
+    "skills": {
+      "pt": [],
+      "en": []
+    }
+  }
+}

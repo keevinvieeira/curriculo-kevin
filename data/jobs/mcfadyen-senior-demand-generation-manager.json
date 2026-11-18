@@ -1,0 +1,287 @@
+{
+  "id": "mcfadyen-senior-demand-generation-manager",
+  "metadata": {
+    "company_name": "McFadyen Digital",
+    "role_title": "Senior Demand Generation Manager - Remote",
+    "url": "https://careers.mcfadyen.com/jobs/7eb46e08-13b7-4b84-9deb-3fb5b1c9e337/apply",
+    "fit_score": 83,
+    "salary_expectation": "Competitive USD/CLT full-time remote",
+    "document_language": "en",
+    "available_languages": [
+      "en",
+      "pt"
+    ],
+    "location": "Remote · Brazil (São Paulo base / Remote)",
+    "employment_type": "Full-time",
+    "deadline": "Open (verified 2026-11-17)",
+    "good_points": [
+      "Proven B2B demand gen & digital/e-commerce track record: AK Branding (40+ accounts, Meta Ads +250% leads, 40%–60% referral pipeline), Munzner (~10% SEO VTL, ~R$ 50k funnel).",
+      "Wipro/Meta technical Meta Ads reference for 150+ pros + Power BI/MIS attribution & n8n/CRM pipelines."
+    ],
+    "improvement_points": [
+      "Frame Google Ads/LinkedIn Ads/enterprise ABM as complementary to proven Meta Ads Certified, B2B CRO, SEO, and CRM demand engines."
+    ]
+  },
+  "triage": {
+    "decision": "adapt",
+    "fit_score": 83,
+    "rationale": "Proven B2B demand gen & digital/e-commerce track record: AK Branding (40+ accounts, Meta Ads +250% leads, 40%–60% referral pipeline), Munzner (~10% SEO VTL, ~R$ 50k funnel)."
+  },
+  "resume": {
+    "en": {
+      "name": "Kevin Augusto Vieira",
+      "location": "Curitiba, PR, Brazil | 100% Remote",
+      "phone": "+55 (41) 99694-1615",
+      "email": "kevin.aug.vieira@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/kevin-augusto/",
+      "github": "https://github.com/keevinvieeira",
+      "website": "https://keevinvieeira.github.io/curriculo-kevin/",
+      "summary": "Senior Demand Generation & Growth Manager with 8+ years driving B2B/B2C pipeline through paid social (Meta Certified), landing page CRO (+250% leads), technical SEO (~10% visitor-to-lead), and automated multi-stage CRM funnels (~R$ 50k revenue). Served as Meta Ads technical strategy reference for 150+ Marketing Pros at Wipro (Meta Project) and delivered 40+ B2B/e-commerce digital projects at AK Branding.",
+      "experience": [
+        {
+          "company": "Wipro Brazil (Meta Project)",
+          "role": "GTM Operations, Paid Media & Enablement Specialist",
+          "dates": "September 2024 – July 2026",
+          "location": "Curitiba, Brazil / Remote",
+          "bullets": [
+            "Paid Media & GTM Reference: Served as technical Meta Ads strategy reference for 150+ Marketing Pros, translating global updates into commercial pitches and GTM playbooks.",
+            "CRM AI Adoption (+150%, #1 Global) & BI Analytics: Boosted daily AI usage by +150% and partnered with MIS on Power BI and Excel funnel diagnostics to cut onboarding ramp-up by 50% (90%+ audit quality).",
+            "Cross-Functional Agile Governance: Managed squad backlogs, OKRs, root cause action plans, and restricted BCP data-sharing compliance."
+          ]
+        },
+        {
+          "company": "AI Builder — Product Projects",
+          "role": "AI Systems Architect & Product Builder (Hermes CRM, AI Career OS & Meu Barzin)",
+          "dates": "December 2025 – August 2026",
+          "location": "Remote",
+          "bullets": [
+            "Production AI CRM & Audio Workflows (Hermes): Built a self-hosted Kanban CRM (NocoDB on PostgreSQL via VPS/Cloudflare Tunnel/GitHub Actions) with a 24/7 WhatsApp AI agent synced to Google Calendar, human-approved quotes, and LGPD local audio transcription (~85% stack savings: US$ 14–18/mo vs. US$ 100–145/mo).",
+            "Anti-Hallucination Governance & GraphRAG (AI Career OS): Architected Python vector semantic search + ontological GraphRAG (355+ nodes, 451+ edges) and strict JSON Schema SSOT pipelines achieving >95% matching precision and +10x workflow speed.",
+            "WhatsApp RAG & Funnel Diagnostics (Meu Barzin): Built ManyChat + n8n + cleansed Supabase/PostgreSQL RAG (~200 records) driving 505 leads, 2,000+ social followers, and 22.3% repeat engagement while uncovering a 43.9% first-message API latency bottleneck."
+          ]
+        },
+        {
+          "company": "AK Branding & Web Design",
+          "role": "Performance Marketing, CRO & Digital Projects Consultant",
+          "dates": "March 2019 – September 2024",
+          "location": "Curitiba, Brazil",
+          "bullets": [
+            "Paid Social & CRO Experiments (+250% Leads): Managed Meta Ads campaigns, landing page A/B testing, and chatbots lifting lead capture from 8 to 20–30 leads/month (+250%) and driving 5 qualified leads/day on real estate landing pages.",
+            "0-to-1 Organic Growth & Tiered Packaging (40+ Accounts): Delivered 40+ B2B/B2C web/e-commerce projects (100% LGPD), launched an organic e-commerce store generating R$ 10k in 3 months ($0 ad spend), and maintained a 40%–60% referral proposal close rate."
+          ]
+        },
+        {
+          "company": "Munzner",
+          "role": "Lifecycle CRM, Growth & Funnel Analytics Specialist",
+          "dates": "October 2018 – August 2024",
+          "location": "Curitiba, Brazil",
+          "bullets": [
+            "10-Stage Automated Email Funnel (~R$ 50k): Built an automated email nurturing sequence (Sendpulse) and SEO content (~10% visitor-to-lead across ~1,000 organic visits -> ~100 leads), scaling to 10,000+ visits and ~R$ 50k in high-ticket sales.",
+            "0-to-1 Digital Product & Packaging: Designed, priced, and launched an LMS/WordPress digital course with a 1-hour mentoring order bump, generating 50 sales in 2 months (1.0x–1.5x ROI) tracked via CRM."
+          ]
+        }
+      ],
+      "skills": [
+        {
+          "category": "B2B Demand Generation & Paid Media",
+          "skills": [
+            "Meta Ads (Certified Media Planning)",
+            "B2B Lead Gen, Funnels & E-commerce GTM",
+            "Landing Page CRO & A/B Experimentation",
+            "Inbound SEO (~10% VTL) & Content Funnels",
+            "Email Nurturing & Automated Sequences"
+          ]
+        },
+        {
+          "category": "RevOps, BI & Automation",
+          "skills": [
+            "CRM Automation (Sendpulse, RD Station, Meta)",
+            "n8n, Make, REST APIs & Supabase/PostgreSQL",
+            "Power BI, Google Analytics & UTM Attribution",
+            "Pipeline Telemetry (CAC, LTV, ROI, MQL→SQL)"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "Federal University of Parana (UFPR)",
+          "degree": "Bachelor Degree and Licentiate in Philosophy",
+          "dates": "2018 - 2023"
+        },
+        {
+          "institution": "Federal University of Parana (UFPR) / UTFPR",
+          "degree": "B.S. in Engineering (Incomplete - 2.5 years completed)",
+          "dates": "2012 - 2015"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "Meta Certified Media Planning Professional",
+          "issuer": "Meta",
+          "status": "Active"
+        },
+        {
+          "name": "Meta Certified Digital Marketing Associate",
+          "issuer": "Meta",
+          "status": "Active"
+        },
+        {
+          "name": "Google Project Management Professional Certificate",
+          "issuer": "Coursera / Google",
+          "status": "In progress"
+        }
+      ],
+      "languages": [
+        {
+          "language": "Portuguese",
+          "proficiency": "Native"
+        },
+        {
+          "language": "English",
+          "proficiency": "Advanced / Fluent (daily corporate alignment and international reporting)"
+        }
+      ],
+      "additional_information": [
+        "Fluent English (daily international corporate reporting); Native Brazilian Portuguese; immediate full-time/contract remote availability."
+      ]
+    },
+    "pt": {
+      "name": "Kevin Augusto Vieira",
+      "location": "Curitiba, PR · Remoto Internacional",
+      "phone": "+55 (41) 99694-1615",
+      "email": "kevin.aug.vieira@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/kevin-augusto/",
+      "github": "https://github.com/keevinvieeira",
+      "website": "https://keevinvieeira.github.io/curriculo-kevin/",
+      "summary": "Senior Demand Generation & Growth Manager with 8+ years driving B2B/B2C pipeline through paid social (Meta Certified), landing page CRO (+250% leads), technical SEO (~10% visitor-to-lead), and automated multi-stage CRM funnels (~R$ 50k revenue). Served as Meta Ads technical strategy reference for 150+ Marketing Pros at Wipro (Meta Project) and delivered 40+ B2B/e-commerce digital projects at AK Branding.",
+      "experience": [
+        {
+          "company": "AI Builder — Projetos de Produtos",
+          "role": "Arquiteto de Sistemas de IA, CRM e Growth",
+          "dates": "Dezembro 2025 – Agosto 2026",
+          "location": "Remoto",
+          "bullets": [
+            "CRM Odontológico com IA (Hermes): Construiu CRM Kanban self-hosted (NocoDB sobre Postgres) com agente Hermes 24/7 no WhatsApp integrado ao Google Agenda e transcrição local de áudio LGPD (-85% custo de stack).",
+            "AI Career OS & Meu Barzin: Arquitetou pipelines GraphRAG + JSON Schema SSOT (>95% precisão, +10x velocidade) e jornadas WhatsApp via ManyChat/n8n/Supabase RAG (505 leads, 22,3% alto engajamento)."
+          ]
+        },
+        {
+          "company": "Wipro Brasil (Projeto Meta)",
+          "role": "Especialista em Enablement de IA, CRM e Operações GTM",
+          "dates": "Setembro 2024 – Julho 2026",
+          "location": "Curitiba, PR / Remoto",
+          "bullets": [
+            "Adoção de IA no CRM (#1 Global, +150%): Liderou ativação de IA nativa no CRM para 150+ profissionais e reportou melhorias de tom/contexto para times globais da Meta.",
+            "Bootcamp & Analytics MIS (-50% Ramp-up): Criou o Next Level Bootcamp com diagnósticos em Power BI/Excel (100% conclusão, 90%+ qualidade, 90% CSAT)."
+          ]
+        },
+        {
+          "company": "Munzner",
+          "role": "Especialista em CRM, Inbound SEO e Growth",
+          "dates": "Outubro 2018 – Agosto 2024",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Funil Automatizado (~R$ 50k): Criou sequência de 10 etapas no Sendpulse + SEO (~10% visitor-to-lead) gerando 10.000+ visitas e ~R$ 50 mil em vendas high-ticket."
+          ]
+        },
+        {
+          "company": "AK Branding & Web Design",
+          "role": "Consultor de Performance, CRO e Projetos Digitais",
+          "dates": "Março 2019 – Setembro 2024",
+          "location": "Curitiba, PR",
+          "bullets": [
+            "Mídia Paga & CRO (+250% Leads): Geriu Meta Ads, testes A/B e 40+ entregas B2B/B2C com 40%–60% de fechamento por indicação e e-commerce orgânico (R$ 10k em 3 meses)."
+          ]
+        }
+      ],
+      "skills": [
+        {
+          "category": "Growth, GTM & CRM",
+          "skills": [
+            "Meta Ads (Certificado)",
+            "Lifecycle & Sendpulse/RD Station",
+            "Product Marketing & GTM",
+            "CRO & Testes A/B"
+          ]
+        },
+        {
+          "category": "IA, Dados & Automação",
+          "skills": [
+            "Prompt Engineering & AI Evals",
+            "GraphRAG & SSOT JSON Schema",
+            "n8n, ManyChat, APIs & Webhooks",
+            "Supabase/PostgreSQL & Power BI"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "Universidade Federal do Paraná (UFPR)",
+          "degree": "Bacharelado e Licenciatura em Filosofia",
+          "dates": "2018 - 2023"
+        },
+        {
+          "institution": "Universidade Federal do Paraná (UFPR) / UTFPR",
+          "degree": "Bacharelado em Engenharia (Incompleto - 2,5 anos cursados)",
+          "dates": "2012 - 2015"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "Meta Certified Media Planning Professional",
+          "issuer": "Meta",
+          "status": "Ativo"
+        },
+        {
+          "name": "Meta Certified Digital Marketing Associate",
+          "issuer": "Meta",
+          "status": "Ativo"
+        },
+        {
+          "name": "Google Project Management Professional Certificate",
+          "issuer": "Coursera / Google",
+          "status": "Em andamento"
+        }
+      ],
+      "languages": [
+        {
+          "language": "Português",
+          "proficiency": "Nativo"
+        },
+        {
+          "language": "Inglês",
+          "proficiency": "Avançado / Fluente (uso corporativo diário internacional)"
+        }
+      ],
+      "additional_information": [
+        "Inglês fluente para atuação internacional 100% remota."
+      ]
+    }
+  },
+  "materials": {
+    "en": {
+      "cover_letter": "Hi McFadyen Digital team!\n\nI was excited to apply for the Senior Demand Generation Manager - Remote role. Having spent 8+ years at the intersection of growth marketing, CRM/RevOps, and practical AI workflows, your focus aligns directly with the outcomes I have delivered.\n\nAt Wipro (Meta Project), I ranked #1 globally in CRM AI adoption (+150% across 150+ professionals) and partnered with MIS data teams on Power BI diagnostics to cut ramp-up by 50% (90% CSAT). Across Munzner, AK Branding, and my recent AI builds (Hermes NocoDB/Postgres CRM, AI Career OS GraphRAG/SSOT, and Meu Barzin WhatsApp RAG), I scaled automated funnels (~R$ 50k), lifted leads by +250%, and cut production stack costs by ~85%.\n\nI would welcome the chance to discuss how I can contribute to McFadyen Digital!\n\nBest regards,\nKevin Augusto Vieira",
+      "form_answers": [
+        {
+          "question": "How do you build and measure a full-funnel B2B demand generation engine?",
+          "answer": "I connect targeted acquisition, conversion optimization, and CRM attribution end-to-end: at AK Branding I paired Meta Ads and A/B-tested landing pages across 40+ accounts lifting leads by +250%; at Munzner I built a ~10% visitor-to-lead SEO flow feeding a 10-stage Sendpulse funnel generating ~R$ 50k; and at Wipro/Meta I partnered with MIS using Power BI dashboards to optimize pipeline efficiency."
+        }
+      ]
+    },
+    "pt": {
+      "cover_letter": "Olá, time da McFadyen Digital!\n\nFiquei muito animado com a vaga de Senior Demand Generation Manager - Remote. Com mais de 8 anos unindo growth marketing, CRM/RevOps e fluxos práticos com IA (incluindo #1 lugar global em adoção de IA no CRM na Wipro/Meta, funil de ~R$ 50 mil na Munzner, +250% de leads na AK Branding e CRM self-hosted em produção no projeto Hermes), seria um prazer contribuir com os resultados da McFadyen Digital.\n\nUm abraço,\nKevin Augusto Vieira",
+      "form_answers": [
+        {
+          "question": "How do you build and measure a full-funnel B2B demand generation engine?",
+          "answer": "I connect targeted acquisition, conversion optimization, and CRM attribution end-to-end: at AK Branding I paired Meta Ads and A/B-tested landing pages across 40+ accounts lifting leads by +250%; at Munzner I built a ~10% visitor-to-lead SEO flow feeding a 10-stage Sendpulse funnel generating ~R$ 50k; and at Wipro/Meta I partnered with MIS using Power BI dashboards to optimize pipeline efficiency."
+        }
+      ]
+    }
+  },
+  "evidence": {
+    "skills": {
+      "pt": [],
+      "en": []
+    }
+  }
+}

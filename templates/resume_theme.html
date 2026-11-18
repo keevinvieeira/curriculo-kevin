@@ -216,8 +216,14 @@
             {% if location %}{{ location }}{% endif %}
             {% if phone %}&nbsp;&nbsp;|&nbsp;&nbsp;{{ phone }}{% endif %}
             {% if email %}&nbsp;&nbsp;|&nbsp;&nbsp;{{ email }}{% endif %}
-            {% if linkedin %}&nbsp;&nbsp;|&nbsp;&nbsp;<a href="{{ linkedin }}">linkedin.com/in/kevin-augusto/</a>{% endif %}
         </div>
+        {% if linkedin or github or website %}
+        <div class="contact-info" style="margin-top: 2px;">
+            {% if linkedin %}<a href="{{ linkedin }}">linkedin.com/in/kevin-augusto/</a>{% endif %}
+            {% if github %}{% if linkedin %}&nbsp;&nbsp;|&nbsp;&nbsp;{% endif %}<a href="{{ github }}">{{ github | replace('https://', '') | replace('http://', '') }}</a>{% endif %}
+            {% if website %}{% if linkedin or github %}&nbsp;&nbsp;|&nbsp;&nbsp;{% endif %}<a href="{{ website }}">{{ website | replace('https://', '') | replace('http://', '') }}</a>{% endif %}
+        </div>
+        {% endif %}
     </div>
 
     <!-- 2. SUMMARY (sem título de seção, igual ao modelo) -->
