@@ -1997,7 +1997,7 @@
     "company": "Sezzle",
     "role": "Product Marketing Associate, Rewards",
     "date_applied": "2026-09-15",
-    "status": "Entrevista",
+    "status": "Desistente",
     "status_history": [
       {
         "status": "Candidatado",
@@ -2013,11 +2013,17 @@
         "status": "Entrevista",
         "date": "2026-09-17",
         "source": "migration"
+      },
+      {
+        "status": "Desistente",
+        "date": "2026-11-18",
+        "source": "manual",
+        "note": "Entrevista com RH realizada; candidato optou por não continuar no processo."
       }
     ],
-    "notes": "Aplicado via Greenhouse com currículo adaptado (Kevin_Augusto_Vieira_Sezzle_PMM_Rewards_EN) + carta de apresentação. Pretensão informada: US$ 2.500/mês (dentro da faixa da vaga US$2.000-2.900). Vaga fintech/consumer, exige uso de LLMs. IRA informado 80-89. Inglês C1. | ATUALIZAÇÃO 17/09/2026: passou para a fase de ENTREVISTA (convite por e-mail). Entrevista em inglês. Kevin quer melhorar a confiança em entrevistas em inglês.",
+    "notes": "Aplicado via Greenhouse com currículo adaptado (Kevin_Augusto_Vieira_Sezzle_PMM_Rewards_EN) + carta de apresentação. Pretensão informada: US$ 2.500/mês (dentro da faixa da vaga US$2.000-2.900). Vaga fintech/consumer, exige uso de LLMs. IRA informado 80-89. Inglês C1. | ATUALIZAÇÃO 17/09/2026: passou para a fase de ENTREVISTA (convite por e-mail). Entrevista em inglês. Kevin quer melhorar a confiança em entrevistas em inglês. | ATUALIZAÇÃO (registrado em 18/11/2026): entrevista com RH realizada; candidato decidiu não continuar no processo.",
     "url": "https://job-boards.greenhouse.io/sezzle/jobs/7985989003",
-    "current_stage": "Entrevista (em inglês)",
+    "current_stage": "Encerrado — Desistente após entrevista com RH",
     "fit_score": 94,
     "salary_expectation": "US$ 2.500/mês (faixa da vaga: US$ 2.000-2.900)",
     "good_points": [
@@ -2041,9 +2047,14 @@
         "date": "2026-09-17"
       },
       {
-        "name": "Entrevista",
-        "status": "Em andamento",
+        "name": "Entrevista de RH (em inglês)",
+        "status": "Concluído",
         "date": "2026-09-17"
+      },
+      {
+        "name": "Desistência do candidato",
+        "status": "Concluído",
+        "date": "2026-11-18"
       },
       {
         "name": "Proposta (Offer)",
@@ -3323,6 +3334,293 @@
       },
       {
         "name": "Entrevista Final",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Proposta (Offer)",
+        "status": "Pendente",
+        "date": ""
+      }
+    ]
+  },
+  {
+    "id": "80",
+    "company": "Clara",
+    "role": "Product Marketing Specialist, Brasil",
+    "date_applied": "2026-11-18",
+    "status": "Candidatado",
+    "status_history": [
+      {
+        "status": "Candidatado",
+        "date": "2026-11-18",
+        "source": "mcp"
+      }
+    ],
+    "notes": "Enviado via Greenhouse com curriculo_en.pdf",
+    "url": "https://job-boards.greenhouse.io/clara/jobs/5283621007",
+    "current_stage": "Candidatura",
+    "fit_score": 89,
+    "salary_expectation": "R$ 15.000 - R$ 22.000 /mês (a alinhar considerando modelo CLT + ESOP em SP)",
+    "good_points": [
+      "Forte aderência ao núcleo da vaga: GTM, posicionamento, propostas de valor, playbooks/scripts de Sales Enablement para 150+ consultores no Projeto Meta (Wipro).",
+      "Uso diário comprovado de IA em produção e workflows (Hermes WhatsApp AI Agent, AI Career OS, adoção de IA no CRM da Meta +150%).",
+      "Experiência em análise competitiva, pesquisa com usuários, precificação/empacotamento e métricas de ativação/conversão (Meu Barzin, Munzner, AK Branding)."
+    ],
+    "improvement_points": [
+      "Localização e modelo: vaga híbrida em São Paulo/SP; Kevin reside em Curitiba/PR (necessário avaliar disposição de mudança/deslocamento).",
+      "Fintech/pagamentos corporativos B2B: experiência anterior vem de Big Tech/Ads (Meta via Wipro), agência PME, educação e saúde — posicionar como transferível.",
+      "Inglês documentado no master como Avançado/Profissional (uso corporativo diário), não 'Fluent'.",
+      "Vaga pede 2-4 anos de PMM/Growth; Kevin tem 8+ anos totais de marketing/GTM/enablement."
+    ],
+    "source_job_id": "clara-product-marketing-specialist-brasil",
+    "stages": [
+      {
+        "name": "Candidatura",
+        "status": "Concluído",
+        "date": "2026-11-18"
+      },
+      {
+        "name": "Triagem (Screening)",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Entrevista de RH",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Entrevista Técnica",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Proposta (Offer)",
+        "status": "Pendente",
+        "date": ""
+      }
+    ]
+  },
+  {
+    "id": "81",
+    "company": "Clara",
+    "role": "Sales Enablement Specialist (Especialista em Capacitação de Vendas)",
+    "date_applied": "2026-11-18",
+    "status": "Candidatado",
+    "status_history": [
+      {
+        "status": "Candidatado",
+        "date": "2026-11-18",
+        "source": "mcp"
+      }
+    ],
+    "notes": "Enviado via Greenhouse com curriculo_en.pdf (confirmado na tela confirmation)",
+    "url": "https://job-boards.greenhouse.io/clara/jobs/5272406007",
+    "current_stage": "Candidatura",
+    "fit_score": 87,
+    "salary_expectation": "R$ 15.000 - R$ 22.000 /mês (a alinhar considerando modelo CLT + ESOP em SP)",
+    "good_points": [
+      "Match direto com Sales Academy e redução de ramp-up de 3 meses: na Wipro (Projeto Meta), criou o piloto Next Level Bootcamp reduzindo ramp-up de ~6 para 3 meses (-50%) com 100% de conclusão e 90% CSAT.",
+      "Combina design instrucional/facilitação (Thinking Environment, Art of Hosting, Munzner LMS) com construção real de apps/automações com IA e no-code/low-code (n8n, NocoDB, Bússola da Rotina).",
+      "Experiência em métricas de qualidade/auditoria, escuta de calls e painéis de desempenho em Power BI e Excel."
+    ],
+    "improvement_points": [
+      "Administração avançada de HubSpot (atribuição de territórios/book of business): HubSpot consta no master, mas a operação diária de grande escala na Wipro foi em CRM proprietário da Meta.",
+      "Plataformas específicas listadas (Amplemarket, Bubble, Glide, Lessonly): não constam literalmente no master (experiência equivalente em n8n, Make, Notion, MasterStudy LMS e Vibe Coding).",
+      "Localização híbrida em São Paulo/SP (reside em Curitiba/PR) e inglês Avançado/Profissional."
+    ],
+    "source_job_id": "clara-sales-enablement-specialist",
+    "stages": [
+      {
+        "name": "Candidatura",
+        "status": "Concluído",
+        "date": "2026-11-18"
+      },
+      {
+        "name": "Triagem (Screening)",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Entrevista de RH",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Entrevista Técnica",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Proposta (Offer)",
+        "status": "Pendente",
+        "date": ""
+      }
+    ]
+  },
+  {
+    "id": "82",
+    "company": "Clara",
+    "role": "AI CRM Analyst",
+    "date_applied": "2026-11-18",
+    "status": "Candidatado",
+    "status_history": [
+      {
+        "status": "Candidatado",
+        "date": "2026-11-18",
+        "source": "mcp"
+      }
+    ],
+    "notes": "Enviado via Greenhouse com curriculo_en.pdf (confirmado na tela confirmation)",
+    "url": "https://job-boards.greenhouse.io/clara/jobs/5283288007",
+    "current_stage": "Candidatura",
+    "fit_score": 86,
+    "salary_expectation": "R$ 15.000 - R$ 22.000 /mês (a alinhar considerando modelo CLT + ESOP)",
+    "good_points": [
+      "Match forte na interseção CRM + IA + Automação: construiu CRM self-hosted com agente de IA no WhatsApp em produção (NocoDB/Postgres/OpenRouter), fluxos n8n/ManyChat/Supabase e funil automatizado de 10 etapas.",
+      "Comprovação analítica de funil e experimentos: diagnóstico de drop de 43,9% via análise de conversas com IA, testes A/B (AK Branding) e painéis Power BI/Excel (Wipro).",
+      "Experiência em governança/LGPD e qualidade de dados (BCP/compliance na Wipro, consentimento LGPD na AK, transcrição local no CRM Odontológico)."
+    ],
+    "improvement_points": [
+      "Customer.io e Braze não constam no master (experiência documentada em Sendpulse, RD Station, HubSpot, ManyChat, n8n, Make e CRM proprietário Meta).",
+      "SQL consta apenas como nível básico / exploração de dados (nice-to-have na vaga).",
+      "Modelo híbrido em São Paulo/SP (reside em Curitiba/PR) e inglês Avançado/Profissional."
+    ],
+    "source_job_id": "clara-ai-crm-analyst",
+    "stages": [
+      {
+        "name": "Candidatura",
+        "status": "Concluído",
+        "date": "2026-11-18"
+      },
+      {
+        "name": "Triagem (Screening)",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Entrevista de RH",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Entrevista Técnica",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Proposta (Offer)",
+        "status": "Pendente",
+        "date": ""
+      }
+    ]
+  },
+  {
+    "id": "83",
+    "company": "Omie",
+    "role": "Especialista de Marketing de Produto (IA, Posicionamento e Go-to-Market)",
+    "date_applied": "2026-11-18",
+    "status": "Candidatado",
+    "status_history": [
+      {
+        "status": "Candidatado",
+        "date": "2026-11-18",
+        "source": "mcp"
+      }
+    ],
+    "notes": "Enviado via Gupy (texto de apresentacao + 3 habilidades; Gupy manteve pretensao anterior travada em 7500)",
+    "url": "https://carreirasomie.gupy.io/job/eyJqb2JJZCI6MTI3MjU1MTEsInNvdXJjZSI6Imd1cHlfcG9ydGFsIn0%3D?jobBoardSource=gupy_portal",
+    "current_stage": "Candidatura",
+    "fit_score": 85,
+    "salary_expectation": "R$ 15.000 - R$ 22.000 /mês (a alinhar considerando pacote CLT de benefícios)",
+    "good_points": [
+      "Match excepcional com a pauta da vaga: agentes de IA em produção (Hermes, Meu Barzin RAG), Single Source of Truth ('Company Brain' / AI Career OS SSOT em JSON), automações n8n/Make e adoção de IA em CRM (+150% na Wipro/Meta).",
+      "Experiência em atendimento a PMEs brasileiras (40+ projetos na AK Branding), precificação/empacotamento em pacotes escalonados e Sales Enablement para 150+ consultores.",
+      "Inglês avançado e noções práticas de Python, APIs/webhooks e SQL básico atendem bem aos desejáveis."
+    ],
+    "improvement_points": [
+      "Localização híbrida em São Paulo/SP (reside em Curitiba/PR; frequência presencial não informada no anúncio).",
+      "MCP (Model Context Protocol) não consta literalmente no master como experiência de GTM de produto — posicionar conhecimento de agentes, RAG, APIs/webhooks e SSOT como base técnica.",
+      "Mercado de ERP e contabilidade para PMEs / Databricks não constam diretamente no master (experiência com PMEs vem de projetos web/marketing/CRM na AK Branding e CRM Odontológico)."
+    ],
+    "source_job_id": "omie-especialista-de-marketing-de-produto-ia",
+    "stages": [
+      {
+        "name": "Candidatura",
+        "status": "Concluído",
+        "date": "2026-11-18"
+      },
+      {
+        "name": "Triagem (Screening)",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Entrevista de RH",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Entrevista Técnica",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Proposta (Offer)",
+        "status": "Pendente",
+        "date": ""
+      }
+    ]
+  },
+  {
+    "id": "84",
+    "company": "Docplanner (Doctoralia)",
+    "role": "AI Native Marketer, Noa Notes (PLG)",
+    "date_applied": "2026-11-18",
+    "status": "Candidatado",
+    "status_history": [
+      {
+        "status": "Candidatado",
+        "date": "2026-11-18",
+        "source": "mcp"
+      }
+    ],
+    "notes": "Enviado via Ashby com curriculo_en.pdf",
+    "url": "https://jobs.ashbyhq.com/docplanner/1b893107-cfd0-4f95-93b5-d7236221dfd5/application",
+    "current_stage": "Candidatura",
+    "fit_score": 85,
+    "salary_expectation": "R$ 15.000 - R$ 22.000 /mês (Brasil) | $4,000 - $6,000 USD /mês (Internacional)",
+    "good_points": [
+      "Match raro de localização e contexto: remoto no Brasil com hub opcional em Curitiba (cidade de Kevin) + experiência recente em saúde com proteção de áudio clínico (CRM Odontológico com transcrição local LGPD).",
+      "Perfil '360 AI-Native Growth Builder' exato: constrói landing pages, testa anúncios Meta e A/B, cria réguas de e-mail/WhatsApp, produz com IA diariamente e mede CAC/ROI.",
+      "Referência técnica de Meta Ads na Wipro (Projeto Meta) para 150+ consultores + certificações Meta ativas."
+    ],
+    "improvement_points": [
+      "ATENÇÃO: já existem 2 candidaturas abertas na Doctoralia em applications.json (#29 Operations/Growth Specialist - Noa Notes e #39 GTM & RevOps Specialist | NOA). Confirmar se faz sentido aplicar nesta frente PLG.",
+      "Inglês exigido como 'Fluent English': master documenta Avançado/Profissional; Espanhol é Básico.",
+      "Google Ads (YouTube/PMax), TikTok Ads, Amplitude e Meta Conversion API (CAPI) não constam literalmente no master (experiência direta é em Meta Ads, Google Analytics, UTM tracking, Power BI e HubSpot).",
+      "Orçamento de mídia pago em escala (milhares de euros/mês) e SaaS PLG puro não estão detalhados no master (mídia paga validada em escala de PMEs e infoprodutos)."
+    ],
+    "source_job_id": "docplanner-doctoralia-ai-native-marketer-noa-notes-plg",
+    "stages": [
+      {
+        "name": "Candidatura",
+        "status": "Concluído",
+        "date": "2026-11-18"
+      },
+      {
+        "name": "Triagem (Screening)",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Entrevista de RH",
+        "status": "Pendente",
+        "date": ""
+      },
+      {
+        "name": "Entrevista Técnica",
         "status": "Pendente",
         "date": ""
       },
