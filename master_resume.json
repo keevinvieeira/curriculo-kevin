@@ -73,6 +73,8 @@
       "Google Calendar API",
       "Cloudflare Tunnel/Access",
       "GitHub Actions",
+      "Docker",
+      "AppSec / API Auth",
       "VPS",
       "LGPD"
      ],
@@ -111,6 +113,18 @@
        ],
        "pt": "Redução de Custo de Stack: Desenhou a solução para substituir Kommo e n8n Cloud (US$ 100-145/mês) por uma stack própria com custo alvo de US$ 14-18/mês, cerca de 85% menos.",
        "en": "Stack Cost Reduction: Designed the solution to replace Kommo and n8n Cloud (US$100-145/month) with an in-house stack targeting US$14-18/month, about 85% less."
+      },
+      {
+       "id": "crm-odonto-b04",
+       "tags": [
+        "kanban",
+        "docker",
+        "security",
+        "api_auth",
+        "healthcare"
+       ],
+       "pt": "CRM Odontológico com IA — Operação Clínica e Hardening de API: Estruturou funil Kanban de 8 etapas integrado a prontuário e orçamentos em Docker (docker-compose + systemd + Uptime Kuma), restringiu lembretes para evitar envio no mesmo dia da consulta e protegeu /painel e /v1/dashboard/* com autenticação via Cloudflare Access JWT ou CRM_API_TOKEN.",
+       "en": "AI-Powered Dental CRM — Clinical Workflow & API Hardening: Structured an 8-stage Kanban workflow integrated with patient records and treatment quotes in Docker (docker-compose + systemd + Uptime Kuma), fixed scheduling guardrails to block same-day appointment reminders, and enforced Cloudflare Access JWT or CRM_API_TOKEN authentication on /painel and /v1/dashboard/*."
       }
      ]
     },
@@ -279,7 +293,6 @@
       "pt": "Web App de Produtividade Cirúrgica & Gestão de Carga Cognitiva",
       "en": "Surgical Productivity & Cognitive Load Management Web App"
      },
-     "url": "https://github.com/keevinvieeira/rotina-bussola",
      "role": {
       "pt": "Líder de Produto & Arquiteto de Sistemas com IA",
       "en": "AI Product Lead & Systems Architect"
@@ -336,6 +349,18 @@
        ],
        "pt": "Bússola da Rotina — Decisões de UX Anti-Atrito, Analytics e UAT: Projetou a aba de Analytics com telemetria de hábitos e tomou decisões críticas de UX para eliminação de atrito (remoção consciente de drag-and-drop em favor de seletores precisos), conduzindo testes reais de aceitação do usuário (UAT).",
        "en": "Bússola da Rotina — Frictionless UX Decisions, Analytics & UAT: Designed the Analytics dashboard for habit telemetry and made critical frictionless UX decisions (deliberately eliminating drag-and-drop in favor of deterministic controls), conducting hands-on user acceptance testing (UAT)."
+      },
+      {
+       "id": "bussola-da-rotina-b05",
+       "tags": [
+        "mobile_first",
+        "ux_ui",
+        "realtime_data",
+        "frontend",
+        "deployment"
+       ],
+       "pt": "Bússola da Rotina — Evolução Mobile-First e Sincronização de Configurações: Refatorou a interface para arquitetura mobile-first com ações de projetos adaptadas a dispositivos móveis e corrigiu a sincronização em tempo real de configurações entre cliente e backend (Firebase + Cloudflare Workers).",
+       "en": "Bússola da Rotina — Mobile-First Refactor & Real-Time Settings Sync: Refactored the interface to a mobile-first architecture with mobile-adapted project actions and fixed real-time settings synchronization between client and backend (Firebase + Cloudflare Workers)."
       }
      ],
      "skills": [
@@ -355,6 +380,7 @@
     {
      "id": "proj-meu-barzin",
      "name": "Meu Barzin",
+     "url": "https://keevinvieeira.github.io/case-meu-barzin/",
      "description": {
       "pt": "Marketplace e Assistente de Experiências Gastronômicas com IA",
       "en": "AI-Powered Venue & Nightlife Marketplace"
@@ -466,10 +492,23 @@
        ],
        "pt": "Meu Barzin (Análise Competitiva, Posicionamento e Pesquisa com Usuários): Mapeou os principais concorrentes em Curitiba (Tour Curitiba, app com pacotes de vouchers em restaurantes pré-definidos, e Duo Gourmet) e posicionou o Meu Barzin pela recomendação com IA no WhatsApp e por um preço muito menor, viabilizado por uma estrutura de custo quase zero. Conduziu pesquisas com usuários sobre o que achavam da solução e por que não compravam o Pass, e descobriu que a proposta era atraente, mas que o número baixo de bares parceiros ainda impedia a compra.",
        "en": "Meu Barzin (Competitive Analysis, Positioning and User Research): Mapped the main competitors in Curitiba (Tour Curitiba, an app selling voucher bundles for preset restaurants, and Duo Gourmet) and positioned Meu Barzin on AI-powered recommendations over WhatsApp and a much lower price, enabled by a near-zero cost structure. Ran user research on how people saw the solution and why they didn't buy the Pass, finding the offer was attractive but the small number of partner bars still held back purchases."
+      },
+      {
+       "id": "meu-barzin-b10",
+       "tags": [
+        "product_discovery",
+        "prioritization",
+        "portfolio",
+        "case_study",
+        "gtm"
+       ],
+       "pt": "Meu Barzin — Case Study Público de Product Discovery: Documentou e publicou o ciclo completo de descoberta, experimentação e GTM (GitHub Pages e PMRadar) utilizando Opportunity Solution Tree (OST), matriz SCALE de priorização e Hypothesis Canvas.",
+       "en": "Meu Barzin — Published Product Discovery Case Study: Documented and published the full discovery, experimentation, and GTM cycle (GitHub Pages and PMRadar) using Opportunity Solution Tree (OST), SCALE prioritization matrix, and Hypothesis Canvas."
       }
      ],
      "skills": [
       "Product Strategy",
+      "Product Discovery (OST / SCALE / Hypothesis Canvas)",
       "MVP Conception",
       "RAG Architecture",
       "ManyChat",
@@ -482,6 +521,336 @@
       "Demand Generation",
       "Funnel Bottleneck Mapping",
       "CRO"
+     ]
+    },
+    {
+     "id": "proj-wellness-protocol",
+     "name": "Wellness Protocol — Content OS & Blog",
+     "description": {
+      "pt": "Plataforma editorial multi-canal com IA, aprovação humana e blog em Next.js na edge",
+      "en": "AI-assisted multi-channel editorial operations platform and Next.js edge blog"
+     },
+     "role": {
+      "pt": "Arquiteto de Produto & Operação Editorial com IA",
+      "en": "AI Product & Content Operations Architect"
+     },
+     "dates": {
+      "pt": "2026 – Presente",
+      "en": "2026 – Present"
+     },
+     "skills": [
+      "Python",
+      "Next.js",
+      "TypeScript",
+      "React",
+      "Cloudflare Workers",
+      "OpenNext",
+      "Editorial Operations",
+      "Instagram Workflows",
+      "AppSec",
+      "Automated Testing"
+     ],
+     "bullets": [
+      {
+       "id": "wellness-protocol-b01",
+       "tags": [
+        "content_ops",
+        "python",
+        "ai_workflows",
+        "automation",
+        "multichannel"
+       ],
+       "pt": "Wellness Protocol Content OS — Pipeline Editorial Multi-Canal: Desenvolveu operação editorial em Python com estúdios de produção para carrosséis e Reels, dashboard de revisão/aprovação humana e orquestração de agendamentos para blog, newsletter e Instagram (incluindo polling de comentários em modo managed e testes automatizados).",
+       "en": "Wellness Protocol Content OS — Multi-Channel Editorial Pipeline: Built a Python editorial operations platform with Carousel and Reels production studios, human review/approval dashboard, and multi-channel scheduling for blog, newsletter, and Instagram (including comment polling fallback in managed mode and automated tests)."
+      },
+      {
+       "id": "wellness-protocol-b02",
+       "tags": [
+        "nextjs",
+        "typescript",
+        "cloudflare_workers",
+        "publishing",
+        "security"
+       ],
+       "pt": "Wellness Protocol Blog — Frontend Edge & Hardening de Admin: Implementou o portal editorial em Next.js, React e TypeScript empacotado via OpenNext para Cloudflare Workers com renderização Markdown (gray-matter/react-markdown) e corrigiu vulnerabilidade de autenticação no painel administrativo usando comparação em tempo constante para ADMIN_PASSWORD.",
+       "en": "Wellness Protocol Blog — Edge Frontend & Admin Hardening: Built the editorial publishing site in Next.js, React, and TypeScript bundled via OpenNext for Cloudflare Workers with Markdown rendering (gray-matter/react-markdown), and hardened admin authentication using constant-time comparison for ADMIN_PASSWORD."
+      }
+     ]
+    },
+    {
+     "id": "proj-site-ebv",
+     "name": "EBV Imóveis — Plataforma Web & CRM",
+     "url": "https://github.com/keevinvieeira/site-ebv",
+     "description": {
+      "pt": "Plataforma imobiliária, qualificação pré-WhatsApp, CRM customizado e ativos Meta Ads na edge",
+      "en": "Real-estate web platform, pre-WhatsApp lead qualification, custom CRM, and Meta Ads assets on the edge"
+     },
+     "role": {
+      "pt": "Builder de Produto Web, CRM & Aquisição",
+      "en": "Web Product, CRM & Acquisition Builder"
+     },
+     "dates": {
+      "pt": "2026",
+      "en": "2026"
+     },
+     "skills": [
+      "Cloudflare Workers",
+      "SQL Migrations",
+      "CRM",
+      "Lead Qualification",
+      "Event Tracking",
+      "Technical SEO",
+      "Meta Ads Creatives"
+     ],
+     "bullets": [
+      {
+       "id": "site-ebv-b01",
+       "tags": [
+        "crm",
+        "cloudflare_workers",
+        "sql",
+        "lead_qualification",
+        "cro"
+       ],
+       "pt": "EBV Imóveis — Plataforma Web, CRM e Qualificação Pré-WhatsApp: Construiu site imobiliário e módulo de CRM customizado sobre Cloudflare Workers com migrações SQL, formulário de qualificação pré-WhatsApp, rastreamento de cliques por botão (tracking.js) e SEO técnico (sitemap.xml e robots.txt).",
+       "en": "EBV Imóveis — Web Platform, Custom CRM & Pre-WhatsApp Qualification: Built a real-estate website and custom CRM module on Cloudflare Workers with SQL migrations, a pre-WhatsApp lead qualification form, per-button event tracking (tracking.js), and technical SEO (sitemap.xml and robots.txt)."
+      },
+      {
+       "id": "site-ebv-b02",
+       "tags": [
+        "paid_media",
+        "creatives",
+        "remarketing",
+        "performance"
+       ],
+       "pt": "EBV Imóveis — Criativos Meta Ads & Remarketing na Edge: Produziu e otimizou variações de vídeo Reels (teste de gancho) e peças de remarketing para campanhas Meta comprimidas abaixo do limite de 25 MB de ativos do Cloudflare Workers.",
+       "en": "EBV Imóveis — Meta Ads Creatives & Edge Asset Delivery: Produced and optimized Reels creative variations and remarketing assets for Meta campaigns compressed below Cloudflare Workers' 25 MB asset ceiling."
+      }
+     ]
+    },
+    {
+     "id": "proj-e-prognus",
+     "name": "E-Prognus — Engenharia B2B, SEO Local & CRM",
+     "description": {
+      "pt": "Plataforma B2B de engenharia elétrica com SEO local em Curitiba, backend SQL e CRM protegido",
+      "en": "B2B electrical engineering platform with Curitiba local SEO pages, SQL backend, and protected CRM"
+     },
+     "role": {
+      "pt": "Arquiteto de Produto B2B, SEO Local & CRM",
+      "en": "B2B Product, Local SEO & CRM Architect"
+     },
+     "dates": {
+      "pt": "2026",
+      "en": "2026"
+     },
+     "skills": [
+      "B2B Growth",
+      "Local SEO",
+      "Vite",
+      "Tailwind CSS",
+      "Cloudflare Workers / Functions",
+      "SQL Schema",
+      "Cloudflare Access",
+      "WhatsApp Qualification"
+     ],
+     "bullets": [
+      {
+       "id": "e-prognus-b01",
+       "tags": [
+        "b2b",
+        "local_seo",
+        "frontend",
+        "lead_qualification"
+       ],
+       "pt": "E-Prognus — Arquitetura Web B2B e SEO Local: Desenvolveu páginas de captura verticalizadas para engenharia elétrica em Curitiba (laudos elétricos, perícias, vistoria Copel e wallbox em condomínios) com Vite 8, Tailwind compilado e modal de qualificação para WhatsApp.",
+       "en": "E-Prognus — B2B Web Architecture & Local SEO: Built verticalized service capture pages for electrical engineering in Curitiba (electrical reports, technical inspections, Copel compliance, and condo EV chargers) with Vite 8, compiled Tailwind CSS, and a WhatsApp qualification modal."
+      },
+      {
+       "id": "e-prognus-b02",
+       "tags": [
+        "crm",
+        "sql",
+        "cloudflare_access",
+        "security",
+        "b2b"
+       ],
+       "pt": "E-Prognus — Backend SQL de CRM/Propostas & Proteção de API: Estruturou schema SQL e painel administrativo serverless via Cloudflare Functions, protegendo todas as rotas /api com validação obrigatória de Cloudflare Access.",
+       "en": "E-Prognus — Serverless SQL CRM Backend & API Protection: Structured the SQL schema and serverless admin interface via Cloudflare Functions, enforcing verified Cloudflare Access authentication across all /api routes."
+      }
+     ]
+    },
+    {
+     "id": "proj-product-lead-os",
+     "name": "Product Lead OS (AI-PM & GTM Skill)",
+     "url": "https://github.com/keevinvieeira/product-lead-os",
+     "description": {
+      "pt": "Skill open-source de Product Management, Product Marketing e Go-to-Market para agentes de IA",
+      "en": "Open-source Product Management, Product Marketing, and Go-to-Market skill for AI agents"
+     },
+     "role": {
+      "pt": "Criador & Autor de Metodologia AI-PM/GTM",
+      "en": "AI-PM & GTM Framework Author"
+     },
+     "dates": {
+      "pt": "2026",
+      "en": "2026"
+     },
+     "skills": [
+      "Product Discovery",
+      "Go-to-Market (GTM)",
+      "Opportunity Solution Tree (OST)",
+      "SCALE Framework",
+      "Hypothesis Canvas",
+      "ICP Strategy",
+      "Prompt Engineering"
+     ],
+     "bullets": [
+      {
+       "id": "product-lead-os-b01",
+       "tags": [
+        "product_management",
+        "pmm",
+        "gtm",
+        "ost",
+        "ai_tooling"
+       ],
+       "pt": "Product Lead OS — Copiloto Open-Source de PM, PMM & GTM: Codificou skill modular de IA estruturando três frentes operacionais (lançamento 0→1 com Opportunity Solution Tree, priorização interativa SCALE e Hypothesis Canvas; rollout anti feature creep; diagnóstico crítico de funil), incluindo página interativa de estratégia B2B e ICP.",
+       "en": "Product Lead OS — Open-Source PM, PMM & GTM Copilot: Built a modular AI skill codifying three operational modes (0-to-1 validation with Opportunity Solution Tree, interactive SCALE scoring, and Hypothesis Canvas; anti-feature-creep rollout; and root-cause funnel diagnostics), including an interactive B2B ICP & strategy web artifact."
+      }
+     ]
+    },
+    {
+     "id": "proj-yamas-niyamas-ai",
+     "name": "Yamas & Niyamas AI (Open Research)",
+     "url": "https://github.com/keevinvieeira/yamas-niyamas-ai",
+     "description": {
+      "pt": "Open syllabus e laboratório de prompts sobre alinhamento ético de LLMs, governança e mitigação de alucinações",
+      "en": "Open syllabus and prompt laboratory on LLM ethical alignment, governance, and hallucination mitigation"
+     },
+     "role": {
+      "pt": "Pesquisador de Alinhamento & Governança de IA",
+      "en": "AI Alignment & Governance Researcher"
+     },
+     "dates": {
+      "pt": "2026",
+      "en": "2026"
+     },
+     "skills": [
+      "AI Alignment",
+      "AI Governance",
+      "Hallucination Mitigation",
+      "RAG Abstention Logic",
+      "TypeScript",
+      "Prompt Lab",
+      "Technical Research"
+     ],
+     "bullets": [
+      {
+       "id": "yamas-niyamas-ai-b01",
+       "tags": [
+        "ai_alignment",
+        "ai_governance",
+        "rag",
+        "research",
+        "llm"
+       ],
+       "pt": "Yamas & Niyamas AI — Pesquisa em Alinhamento, Abstinência em RAG & Governança de LLMs: Publicou open syllabus com 13 fichamentos acadêmicos (incluindo mitigação de alucinações em RAG corporativo e lógica de abstenção), análise comparativa de fronteira (Anthropic Claude's Constitution vs. Microsoft Humanist AI) e laboratório de prompts em TypeScript.",
+       "en": "Yamas & Niyamas AI — LLM Alignment, RAG Abstention & Governance Research: Published an open research syllabus with 13 academic reading syntheses (including corporate RAG hallucination mitigation and abstention logic), a frontier comparison (Anthropic Claude's Constitution vs. Microsoft Humanist AI), and a TypeScript prompt lab."
+      }
+     ]
+    },
+    {
+     "id": "proj-fincasal-ai",
+     "name": "FinCasal AI — PWA FinTech para Casais",
+     "description": {
+      "pt": "PWA de gestão financeira para casais com IndexedDB offline-first, sync serverless e chat IA",
+      "en": "Couple personal finance PWA with offline-first IndexedDB, serverless sync, and AI chat parser"
+     },
+     "role": {
+      "pt": "Builder de Produto FinTech PWA & IA",
+      "en": "FinTech PWA & AI Product Builder"
+     },
+     "dates": {
+      "pt": "2026",
+      "en": "2026"
+     },
+     "skills": [
+      "React",
+      "Vite",
+      "PWA",
+      "IndexedDB",
+      "Cloudflare Workers / Functions",
+      "Conversational AI",
+      "Gamification",
+      "CORS & Auth Hardening"
+     ],
+     "bullets": [
+      {
+       "id": "fincasal-ai-b01",
+       "tags": [
+        "fintech",
+        "pwa",
+        "react",
+        "ai_chat",
+        "security"
+       ],
+       "pt": "FinCasal AI — PWA Offline-First, Chat Financeiro e Hardening de Sync: Construiu PWA financeiro para casais em React e Vite (IndexedDB + Cloudflare Functions) com rebalanceamento de orçamento, gamificação por missões, parser conversacional em PT-BR para lançamentos financeiros e endurecimento de segurança (remoção de endpoint debug, CORS same-origin e autenticação em api/sync).",
+       "en": "FinCasal AI — Offline-First PWA, Financial AI Parser & Sync Hardening: Built a couple's finance PWA in React and Vite (IndexedDB + Cloudflare Functions) featuring budget rebalancing, mission gamification, a PT-BR conversational transaction parser, and security hardening (removing debug endpoint, enforcing same-origin CORS, and requiring auth on api/sync)."
+      }
+     ]
+    },
+    {
+     "id": "proj-agentic-tooling-and-seo",
+     "name": "Agentic Tooling, AppSec & Healthcare SEO",
+     "url": "https://github.com/keevinvieeira/ai-development-router",
+     "description": {
+      "pt": "Skills open-source de roteamento de custo/risco para agentes e AppSec (SAST), além de deploys web em saúde com SEO e LGPD",
+      "en": "Open-source agent cost/risk routing and AppSec (SAST) skills plus SEO/LGPD healthcare web deployments"
+     },
+     "role": {
+      "pt": "Arquiteto de Tooling Agêntico, AppSec & SEO",
+      "en": "Agentic Tooling, AppSec & SEO Architect"
+     },
+     "dates": {
+      "pt": "2026",
+      "en": "2026"
+     },
+     "skills": [
+      "Agent Cost Routing",
+      "AppSec (SAST)",
+      "Secret Scanning",
+      "Python",
+      "Technical SEO",
+      "Schema.org",
+      "Google Search Console",
+      "Cloudflare Pages",
+      "LGPD Compliance"
+     ],
+     "bullets": [
+      {
+       "id": "agentic-tooling-and-seo-b01",
+       "tags": [
+        "ai_tooling",
+        "finops",
+        "appsec",
+        "sast",
+        "python"
+       ],
+       "pt": "Agentic Tooling & AppSec (ai-development-router & app-security-agent): Publicou skill neutra a provedores para roteamento N1–N4 separando planejamento, execução e revisão com medição de custo por feature entregue, além de skill defensiva de AppSec com scanner Python (security_scan.py) para SAST (DOM XSS/eval/CORS), detecção de vazamento de segredos e higiene de repositórios.",
+       "en": "Agentic Tooling & AppSec (ai-development-router & app-security-agent): Published a provider-neutral N1–N4 work routing skill separating planning, execution, and review while tracking cost per accepted feature, alongside a defensive AppSec skill and Python scanner (security_scan.py) covering SAST (DOM XSS/eval/CORS), secret-leak detection, and repository hygiene."
+      },
+      {
+       "id": "agentic-tooling-and-seo-b02",
+       "tags": [
+        "seo",
+        "lgpd",
+        "cloudflare_pages",
+        "healthcare",
+        "web_development"
+       ],
+       "pt": "Portais de Saúde com SEO Técnico & LGPD (Dra. Milena Miranda & Dra. Kimberly Vieira): Lançou sites profissionais em produção (GitHub Pages / Cloudflare Pages) com Google Search Console, sitemap.xml, robots.txt, URLs canônicas, dados estruturados (Schema.org/OpenGraph), banner de consentimento de cookies e política de privacidade LGPD.",
+       "en": "Healthcare Sites with Technical SEO & LGPD Compliance (Dra. Milena Miranda & Dra. Kimberly Vieira): Launched production healthcare sites (GitHub Pages / Cloudflare Pages) with Google Search Console, sitemap.xml, robots.txt, canonical tags, Schema.org/OpenGraph metadata, cookie consent banners, and LGPD privacy policies."
+      }
      ]
     }
    ],
@@ -731,6 +1100,94 @@
       "pt": "Dezembro 2025 – Março 2026",
       "en": "December 2025 – March 2026"
      }
+    },
+    {
+     "id": "ai-builder-role-04",
+     "title": {
+      "pt": "Builder de CRM, Automação e Agente de IA (CRM Odontológico com IA)",
+      "en": "CRM, Automation and AI Agent Builder (CRM Odontológico com IA)"
+     },
+     "dates": {
+      "pt": "2026 – Presente",
+      "en": "2026 – Present"
+     }
+    },
+    {
+     "id": "ai-builder-role-05",
+     "title": {
+      "pt": "Arquiteto de Produto & Operação Editorial com IA (Wellness Protocol)",
+      "en": "AI Product & Content Operations Architect (Wellness Protocol)"
+     },
+     "dates": {
+      "pt": "2026 – Presente",
+      "en": "2026 – Present"
+     }
+    },
+    {
+     "id": "ai-builder-role-06",
+     "title": {
+      "pt": "Builder de Produto Web, CRM & Aquisição (EBV Imóveis)",
+      "en": "Web Product, CRM & Acquisition Builder (EBV Imóveis)"
+     },
+     "dates": {
+      "pt": "2026",
+      "en": "2026"
+     }
+    },
+    {
+     "id": "ai-builder-role-07",
+     "title": {
+      "pt": "Arquiteto de Produto B2B, SEO Local & CRM (E-Prognus)",
+      "en": "B2B Product, Local SEO & CRM Architect (E-Prognus)"
+     },
+     "dates": {
+      "pt": "2026",
+      "en": "2026"
+     }
+    },
+    {
+     "id": "ai-builder-role-08",
+     "title": {
+      "pt": "Criador & Autor de Metodologia AI-PM/GTM (Product Lead OS)",
+      "en": "AI-PM & GTM Framework Author (Product Lead OS)"
+     },
+     "dates": {
+      "pt": "2026",
+      "en": "2026"
+     }
+    },
+    {
+     "id": "ai-builder-role-09",
+     "title": {
+      "pt": "Pesquisador de Alinhamento & Governança de IA (Yamas & Niyamas AI)",
+      "en": "AI Alignment & Governance Researcher (Yamas & Niyamas AI)"
+     },
+     "dates": {
+      "pt": "2026",
+      "en": "2026"
+     }
+    },
+    {
+     "id": "ai-builder-role-10",
+     "title": {
+      "pt": "Builder de Produto FinTech PWA & IA (FinCasal AI)",
+      "en": "FinTech PWA & AI Product Builder (FinCasal AI)"
+     },
+     "dates": {
+      "pt": "2026",
+      "en": "2026"
+     }
+    },
+    {
+     "id": "ai-builder-role-11",
+     "title": {
+      "pt": "Arquiteto de Tooling Agêntico, AppSec & SEO",
+      "en": "Agentic Tooling, AppSec & SEO Architect"
+     },
+     "dates": {
+      "pt": "2026",
+      "en": "2026"
+     }
     }
    ],
    "bullets": [
@@ -960,6 +1417,172 @@
      ],
      "pt": "Meu Barzin — Mapeamento de Gargalos de Conversão: Para entender o abandono, extraiu e organizou as conversas de WhatsApp dos usuários e usou IA para analisar os padrões, identificando que a latência de API (43,9% de drop na primeira mensagem) e a falta de liquidez de parceiros na oferta eram os principais impeditivos para a conversão de assinaturas.",
      "en": "Meu Barzin — Conversion Bottleneck Mapping: To understand drop-off, extracted and organized users' WhatsApp conversations and used AI to analyze the patterns, identifying that API latency (43.9% first-message dropout) and low merchant/partner supply liquidity were the primary barriers to subscription conversion."
+    },
+    {
+     "id": "meu-barzin-b10",
+     "tags": [
+      "product_discovery",
+      "prioritization",
+      "portfolio",
+      "case_study",
+      "gtm"
+     ],
+     "pt": "Meu Barzin — Case Study Público de Product Discovery: Documentou e publicou o ciclo completo de descoberta, experimentação e GTM (GitHub Pages e PMRadar) utilizando Opportunity Solution Tree (OST), matriz SCALE de priorização e Hypothesis Canvas.",
+     "en": "Meu Barzin — Published Product Discovery Case Study: Documented and published the full discovery, experimentation, and GTM cycle (GitHub Pages and PMRadar) using Opportunity Solution Tree (OST), SCALE prioritization matrix, and Hypothesis Canvas."
+    },
+    {
+     "id": "crm-odonto-b04",
+     "tags": [
+      "kanban",
+      "docker",
+      "security",
+      "api_auth",
+      "healthcare"
+     ],
+     "pt": "CRM Odontológico com IA — Operação Clínica e Hardening de API: Estruturou funil Kanban de 8 etapas integrado a prontuário e orçamentos em Docker (docker-compose + systemd + Uptime Kuma), restringiu lembretes para evitar envio no mesmo dia da consulta e protegeu /painel e /v1/dashboard/* com autenticação via Cloudflare Access JWT ou CRM_API_TOKEN.",
+     "en": "AI-Powered Dental CRM — Clinical Workflow & API Hardening: Structured an 8-stage Kanban workflow integrated with patient records and treatment quotes in Docker (docker-compose + systemd + Uptime Kuma), fixed scheduling guardrails to block same-day appointment reminders, and enforced Cloudflare Access JWT or CRM_API_TOKEN authentication on /painel and /v1/dashboard/*."
+    },
+    {
+     "id": "bussola-da-rotina-b05",
+     "tags": [
+      "mobile_first",
+      "ux_ui",
+      "realtime_data",
+      "frontend",
+      "deployment"
+     ],
+     "pt": "Bússola da Rotina — Evolução Mobile-First e Sincronização de Configurações: Refatorou a interface para arquitetura mobile-first com ações de projetos adaptadas a dispositivos móveis e corrigiu a sincronização em tempo real de configurações entre cliente e backend (Firebase + Cloudflare Workers).",
+     "en": "Bússola da Rotina — Mobile-First Refactor & Real-Time Settings Sync: Refactored the interface to a mobile-first architecture with mobile-adapted project actions and fixed real-time settings synchronization between client and backend (Firebase + Cloudflare Workers)."
+    },
+    {
+     "id": "wellness-protocol-b01",
+     "tags": [
+      "content_ops",
+      "python",
+      "ai_workflows",
+      "automation",
+      "multichannel"
+     ],
+     "pt": "Wellness Protocol Content OS — Pipeline Editorial Multi-Canal: Desenvolveu operação editorial em Python com estúdios de produção para carrosséis e Reels, dashboard de revisão/aprovação humana e orquestração de agendamentos para blog, newsletter e Instagram (incluindo polling de comentários em modo managed e testes automatizados).",
+     "en": "Wellness Protocol Content OS — Multi-Channel Editorial Pipeline: Built a Python editorial operations platform with Carousel and Reels production studios, human review/approval dashboard, and multi-channel scheduling for blog, newsletter, and Instagram (including comment polling fallback in managed mode and automated tests)."
+    },
+    {
+     "id": "wellness-protocol-b02",
+     "tags": [
+      "nextjs",
+      "typescript",
+      "cloudflare_workers",
+      "publishing",
+      "security"
+     ],
+     "pt": "Wellness Protocol Blog — Frontend Edge & Hardening de Admin: Implementou o portal editorial em Next.js, React e TypeScript empacotado via OpenNext para Cloudflare Workers com renderização Markdown (gray-matter/react-markdown) e corrigiu vulnerabilidade de autenticação no painel administrativo usando comparação em tempo constante para ADMIN_PASSWORD.",
+     "en": "Wellness Protocol Blog — Edge Frontend & Admin Hardening: Built the editorial publishing site in Next.js, React, and TypeScript bundled via OpenNext for Cloudflare Workers with Markdown rendering (gray-matter/react-markdown), and hardened admin authentication using constant-time comparison for ADMIN_PASSWORD."
+    },
+    {
+     "id": "site-ebv-b01",
+     "tags": [
+      "crm",
+      "cloudflare_workers",
+      "sql",
+      "lead_qualification",
+      "cro"
+     ],
+     "pt": "EBV Imóveis — Plataforma Web, CRM e Qualificação Pré-WhatsApp: Construiu site imobiliário e módulo de CRM customizado sobre Cloudflare Workers com migrações SQL, formulário de qualificação pré-WhatsApp, rastreamento de cliques por botão (tracking.js) e SEO técnico (sitemap.xml e robots.txt).",
+     "en": "EBV Imóveis — Web Platform, Custom CRM & Pre-WhatsApp Qualification: Built a real-estate website and custom CRM module on Cloudflare Workers with SQL migrations, a pre-WhatsApp lead qualification form, per-button event tracking (tracking.js), and technical SEO (sitemap.xml and robots.txt)."
+    },
+    {
+     "id": "site-ebv-b02",
+     "tags": [
+      "paid_media",
+      "creatives",
+      "remarketing",
+      "performance"
+     ],
+     "pt": "EBV Imóveis — Criativos Meta Ads & Remarketing na Edge: Produziu e otimizou variações de vídeo Reels (teste de gancho) e peças de remarketing para campanhas Meta comprimidas abaixo do limite de 25 MB de ativos do Cloudflare Workers.",
+     "en": "EBV Imóveis — Meta Ads Creatives & Edge Asset Delivery: Produced and optimized Reels creative variations and remarketing assets for Meta campaigns compressed below Cloudflare Workers' 25 MB asset ceiling."
+    },
+    {
+     "id": "e-prognus-b01",
+     "tags": [
+      "b2b",
+      "local_seo",
+      "frontend",
+      "lead_qualification"
+     ],
+     "pt": "E-Prognus — Arquitetura Web B2B e SEO Local: Desenvolveu páginas de captura verticalizadas para engenharia elétrica em Curitiba (laudos elétricos, perícias, vistoria Copel e wallbox em condomínios) com Vite 8, Tailwind compilado e modal de qualificação para WhatsApp.",
+     "en": "E-Prognus — B2B Web Architecture & Local SEO: Built verticalized service capture pages for electrical engineering in Curitiba (electrical reports, technical inspections, Copel compliance, and condo EV chargers) with Vite 8, compiled Tailwind CSS, and a WhatsApp qualification modal."
+    },
+    {
+     "id": "e-prognus-b02",
+     "tags": [
+      "crm",
+      "sql",
+      "cloudflare_access",
+      "security",
+      "b2b"
+     ],
+     "pt": "E-Prognus — Backend SQL de CRM/Propostas & Proteção de API: Estruturou schema SQL e painel administrativo serverless via Cloudflare Functions, protegendo todas as rotas /api com validação obrigatória de Cloudflare Access.",
+     "en": "E-Prognus — Serverless SQL CRM Backend & API Protection: Structured the SQL schema and serverless admin interface via Cloudflare Functions, enforcing verified Cloudflare Access authentication across all /api routes."
+    },
+    {
+     "id": "product-lead-os-b01",
+     "tags": [
+      "product_management",
+      "pmm",
+      "gtm",
+      "ost",
+      "ai_tooling"
+     ],
+     "pt": "Product Lead OS — Copiloto Open-Source de PM, PMM & GTM: Codificou skill modular de IA estruturando três frentes operacionais (lançamento 0→1 com Opportunity Solution Tree, priorização interativa SCALE e Hypothesis Canvas; rollout anti feature creep; diagnóstico crítico de funil), incluindo página interativa de estratégia B2B e ICP.",
+     "en": "Product Lead OS — Open-Source PM, PMM & GTM Copilot: Built a modular AI skill codifying three operational modes (0-to-1 validation with Opportunity Solution Tree, interactive SCALE scoring, and Hypothesis Canvas; anti-feature-creep rollout; and root-cause funnel diagnostics), including an interactive B2B ICP & strategy web artifact."
+    },
+    {
+     "id": "yamas-niyamas-ai-b01",
+     "tags": [
+      "ai_alignment",
+      "ai_governance",
+      "rag",
+      "research",
+      "llm"
+     ],
+     "pt": "Yamas & Niyamas AI — Pesquisa em Alinhamento, Abstinência em RAG & Governança de LLMs: Publicou open syllabus com 13 fichamentos acadêmicos (incluindo mitigação de alucinações em RAG corporativo e lógica de abstenção), análise comparativa de fronteira (Anthropic Claude's Constitution vs. Microsoft Humanist AI) e laboratório de prompts em TypeScript.",
+     "en": "Yamas & Niyamas AI — LLM Alignment, RAG Abstention & Governance Research: Published an open research syllabus with 13 academic reading syntheses (including corporate RAG hallucination mitigation and abstention logic), a frontier comparison (Anthropic Claude's Constitution vs. Microsoft Humanist AI), and a TypeScript prompt lab."
+    },
+    {
+     "id": "fincasal-ai-b01",
+     "tags": [
+      "fintech",
+      "pwa",
+      "react",
+      "ai_chat",
+      "security"
+     ],
+     "pt": "FinCasal AI — PWA Offline-First, Chat Financeiro e Hardening de Sync: Construiu PWA financeiro para casais em React e Vite (IndexedDB + Cloudflare Functions) com rebalanceamento de orçamento, gamificação por missões, parser conversacional em PT-BR para lançamentos financeiros e endurecimento de segurança (remoção de endpoint debug, CORS same-origin e autenticação em api/sync).",
+     "en": "FinCasal AI — Offline-First PWA, Financial AI Parser & Sync Hardening: Built a couple's finance PWA in React and Vite (IndexedDB + Cloudflare Functions) featuring budget rebalancing, mission gamification, a PT-BR conversational transaction parser, and security hardening (removing debug endpoint, enforcing same-origin CORS, and requiring auth on api/sync)."
+    },
+    {
+     "id": "agentic-tooling-and-seo-b01",
+     "tags": [
+      "ai_tooling",
+      "finops",
+      "appsec",
+      "sast",
+      "python"
+     ],
+     "pt": "Agentic Tooling & AppSec (ai-development-router & app-security-agent): Publicou skill neutra a provedores para roteamento N1–N4 separando planejamento, execução e revisão com medição de custo por feature entregue, além de skill defensiva de AppSec com scanner Python (security_scan.py) para SAST (DOM XSS/eval/CORS), detecção de vazamento de segredos e higiene de repositórios.",
+     "en": "Agentic Tooling & AppSec (ai-development-router & app-security-agent): Published a provider-neutral N1–N4 work routing skill separating planning, execution, and review while tracking cost per accepted feature, alongside a defensive AppSec skill and Python scanner (security_scan.py) covering SAST (DOM XSS/eval/CORS), secret-leak detection, and repository hygiene."
+    },
+    {
+     "id": "agentic-tooling-and-seo-b02",
+     "tags": [
+      "seo",
+      "lgpd",
+      "cloudflare_pages",
+      "healthcare",
+      "web_development"
+     ],
+     "pt": "Portais de Saúde com SEO Técnico & LGPD (Dra. Milena Miranda & Dra. Kimberly Vieira): Lançou sites profissionais em produção (GitHub Pages / Cloudflare Pages) com Google Search Console, sitemap.xml, robots.txt, URLs canônicas, dados estruturados (Schema.org/OpenGraph), banner de consentimento de cookies e política de privacidade LGPD.",
+     "en": "Healthcare Sites with Technical SEO & LGPD Compliance (Dra. Milena Miranda & Dra. Kimberly Vieira): Launched production healthcare sites (GitHub Pages / Cloudflare Pages) with Google Search Console, sitemap.xml, robots.txt, canonical tags, Schema.org/OpenGraph metadata, cookie consent banners, and LGPD privacy policies."
     }
    ]
   },
@@ -1646,6 +2269,18 @@
      "Adobe Creative Suite",
      "Office"
     ]
+   },
+   {
+    "category": "Produto Digital, Engenharia Web & Segurança",
+    "skills": [
+     "Product Discovery (OST, SCALE, Hypothesis Canvas)",
+     "SEO Técnico (Schema.org, Sitemap, Canonical, OpenGraph)",
+     "Next.js / React / TypeScript / Vite",
+     "Cloudflare Workers, Pages, Functions & Access",
+     "SQL Migrations & IndexedDB (Offline-First PWA)",
+     "Docker / systemd & GitHub Actions",
+     "Alinhamento de IA, Lógica de Abstenção em RAG & AppSec (SAST)"
+    ]
    }
   ],
   "en": [
@@ -1739,6 +2374,18 @@
      "Figma",
      "Adobe Creative Suite",
      "MS Office"
+    ]
+   },
+   {
+    "category": "Digital Product, Web Engineering & Security",
+    "skills": [
+     "Product Discovery (OST, SCALE, Hypothesis Canvas)",
+     "Technical SEO (Schema.org, Sitemap, Canonical, OpenGraph)",
+     "Next.js / React / TypeScript / Vite",
+     "Cloudflare Workers, Pages, Functions & Access",
+     "SQL Migrations & IndexedDB (Offline-First PWA)",
+     "Docker / systemd & GitHub Actions",
+     "AI Alignment, RAG Abstention Logic & AppSec (SAST)"
     ]
    }
   ]
