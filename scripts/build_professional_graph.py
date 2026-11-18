@@ -28,30 +28,50 @@ CATEGORIES = {
 
 CATEGORY_TAGS = {
     "product": {
-        "business_model", "business_models", "discovery", "product_discovery", "e_commerce", "experimentation",
-        "learning", "monetization", "pricing", "prd", "product_architecture", "product_feedback",
-        "product_strategy", "ux", "ux_ui", "frictionless_ux", "voice_of_customer", "web_design", "web_development",
-        "zero_to_one", "product_operations", "ats", "deterministic_ux", "spatial_ui", "interaction_design",
+        "business_model", "business_models", "case_study", "competitive_analysis", "customer_research",
+        "discovery", "product_discovery", "product_management", "e_commerce", "experimentation",
+        "fintech", "frontend", "healthcare", "learning", "mobile_first", "monetization", "offer_design",
+        "ost", "portfolio", "positioning", "pricing", "prd", "product_architecture", "product_feedback",
+        "product_strategy", "pwa", "react", "tool_stack", "typescript", "user_interviews", "ux", "ux_ui",
+        "frictionless_ux", "voice_of_customer", "web_design", "web_development", "zero_to_one",
+        "product_operations", "ats", "deterministic_ux", "spatial_ui", "interaction_design",
     },
     "growth": {
         "ab_testing", "acquisition", "ads", "agency_management", "branding", "content_creation",
-        "content_marketing", "copywriting", "cro", "email_marketing", "funnel", "growth",
-        "inbound", "infoproduct", "lead_generation", "marketing", "narratives", "paid_media",
-        "seo", "social_media", "tripwire", "volume",
+        "content_marketing", "content_ops", "copywriting", "creatives", "cro", "email_marketing",
+        "funnel", "growth", "gtm", "icp", "inbound", "infoproduct", "lead_generation", "local_seo",
+        "marketing", "multichannel", "narratives", "packaging", "paid_media", "publishing", "referral",
+        "remarketing", "segmentation", "seo", "social_media", "social_selling", "tripwire", "volume",
     },
-    "ai": {"ai", "ai_implementation", "automation", "chatbots", "prompt_engineering", "rapid_prototyping", "ai_personalization", "llm_orchestration", "graph_rag", "semantic_search", "skill_transferability", "prompt_governance", "ai_assisted_engineering", "match_engine"},
+    "ai": {
+        "ai", "ai_agents", "ai_chat", "ai_implementation", "ai_tooling", "ai_workflows", "automation",
+        "chatbots", "llm", "prompt_engineering", "rag", "rapid_prototyping", "research",
+        "ai_personalization", "llm_orchestration", "graph_rag", "semantic_search",
+        "skill_transferability", "prompt_governance", "ai_assisted_engineering", "match_engine",
+    },
     "data": {
         "analytics", "data", "data_strategy", "database", "metrics", "nocodb", "postgresql", "power_bi",
-        "realtime_data", "revenue_analytics", "roi", "sql", "supabase", "tracking", "web_scraping", "data_architecture", "ssot", "json_schema", "data_governance", "knowledge_graphs", "data_modeling", "graph_theory", "gap_analysis", "funnel_analytics",
+        "realtime_data", "revenue_analytics", "roi", "sql", "supabase", "tracking", "web_scraping",
+        "data_architecture", "ssot", "json_schema", "data_governance", "knowledge_graphs",
+        "data_modeling", "graph_theory", "gap_analysis", "funnel_analytics",
     },
     "sales": {
-        "b2b", "business_development", "client_consulting", "coaching", "crm", "crm_enablement", "high_ticket",
-        "methodology", "partnerships", "playbooks", "product_positioning", "sales",
-        "sales_enablement", "technical_reference", "training",
+        "b2b", "b2b_prospecting", "b2b_sales", "build_vs_buy", "business_development",
+        "client_consulting", "coaching", "cost_reduction", "crm", "crm_enablement", "high_ticket",
+        "lead_qualification", "methodology", "partnerships", "pipeline", "playbooks", "pmm",
+        "product_positioning", "revops", "sales", "sales_enablement", "technical_reference",
+        "training", "win_rate",
+    },
+    "operations": {
+        "agile", "backlog", "budget", "cloudflare_pages", "cloudflare_workers", "coordination",
+        "deployment", "devops", "docker", "finops", "infrastructure", "kanban", "nextjs", "okr",
+        "ops", "performance", "pmo", "production", "project_management", "timeline",
     },
     "quality": {
-        "bcp", "compliance", "controls", "documentation", "governance", "legal_research", "lgpd",
-        "quality_assurance", "root_cause_analysis", "security", "technical_writing", "uat",
+        "ai_alignment", "ai_governance", "api_auth", "appsec", "bcp", "cloudflare_access",
+        "compliance", "controls", "documentation", "governance", "legal_research", "lgpd",
+        "quality_assurance", "responsible_ai", "root_cause_analysis", "sast", "security",
+        "technical_writing", "uat",
     },
     "facilitation": {
         "art_of_hosting", "collective_intelligence", "community", "community_management",
@@ -123,37 +143,96 @@ PT_SKILLS = {
     "interaction_design": "Interaction Design", "deterministic_ux": "Navegação Determinística", 
     "ai_assisted_engineering": "Vibe Coding (AI Engineering)", "prompt_governance": "Prompt Governance", 
     "ci_cd": "CI/CD Online-First", "test_automation": "Test Automation",
+    "ai_agents": "Agentes de IA", "ai_alignment": "Alinhamento de IA",
+    "ai_chat": "Chat com IA", "ai_governance": "Governança de IA",
+    "ai_tooling": "Tooling Agêntico", "ai_workflows": "Fluxos com IA",
+    "api_auth": "Autenticação de API", "appsec": "AppSec",
+    "b2b_prospecting": "Prospecção B2B", "b2b_sales": "Vendas B2B",
+    "build_vs_buy": "Build vs. Buy", "case_study": "Case Study",
+    "cloudflare_access": "Cloudflare Access", "cloudflare_pages": "Cloudflare Pages",
+    "cloudflare_workers": "Cloudflare Workers", "competitive_analysis": "Análise Competitiva",
+    "content_ops": "Operação Editorial (Content Ops)", "cost_reduction": "Redução de Custos",
+    "creatives": "Criativos de Alta Conversão", "customer_research": "Pesquisa com Usuários",
+    "deployment": "Deploy em Nuvem", "devops": "DevOps",
+    "docker": "Docker", "finops": "FinOps (Custos IA)",
+    "fintech": "FinTech", "frontend": "Engenharia Frontend",
+    "gtm": "Go-to-Market (GTM)", "healthcare": "HealthTech & Clínicas",
+    "icp": "Definição de ICP", "infrastructure": "Infraestrutura Cloud/VPS",
+    "kanban": "Kanban", "lead_qualification": "Qualificação de Leads",
+    "llm": "LLMs (Modelos de Linguagem)", "local_seo": "SEO Local",
+    "mobile_first": "Design Mobile-First", "multichannel": "Operação Multicanal",
+    "nextjs": "Next.js", "offer_design": "Design de Oferta",
+    "ost": "Opportunity Solution Tree (OST)", "packaging": "Empacotamento de Oferta",
+    "performance": "Performance Web", "pipeline": "Gestão de Pipeline",
+    "pmm": "Product Marketing (PMM)", "portfolio": "Portfólio de Produto",
+    "positioning": "Posicionamento", "product_management": "Product Management",
+    "production": "Sistemas em Produção", "publishing": "Publicação Digital",
+    "pwa": "PWA (Progressive Web App)", "rag": "Arquitetura RAG",
+    "react": "React", "referral": "Aquisição por Indicação",
+    "remarketing": "Remarketing", "research": "Pesquisa Aplicada",
+    "responsible_ai": "IA Responsável", "revops": "Revenue Operations (RevOps)",
+    "sast": "SAST (Análise Estática)", "segmentation": "Segmentação",
+    "social_selling": "Social Selling", "tool_stack": "Arquitetura de Tool Stack",
+    "typescript": "TypeScript", "user_interviews": "Entrevistas com Usuários",
+    "win_rate": "Win Rate",
 }
 
 EN_OVERRIDES = {
     "ab_testing": "A/B Testing", "admin": "Administration", "ai": "Artificial Intelligence",
-    "b2b": "B2B", "bcp": "Business Continuity Planning", "crm": "CRM", "cro": "Conversion Optimization",
-    "e_commerce": "E-commerce", "e_learning": "E-learning", "email_marketing": "Email Marketing",
-    "high_ticket": "High Ticket", "lgpd": "LGPD", "nocodb": "NocoDB", "okr": "OKRs",
-    "ops": "Operations", "pmo": "PMO", "postgresql": "PostgreSQL", "power_bi": "Power BI",
-    "prd": "PRD & Requirements Architecture", "product_discovery": "Product Discovery",
-    "rapid_prototyping": "Rapid Prototyping", "realtime_data": "Real-Time Data Architecture",
-    "database": "Database Architecture", "frictionless_ux": "Frictionless UX Design", "uat": "User Acceptance Testing (UAT)",
-    "prompt_engineering": "Prompt Engineering", "roi": "ROI", "seo": "SEO", "sql": "SQL",
-    "supabase": "Supabase", "ux": "User Experience", "ux_ui": "UX/UI", "web_scraping": "Web Scraping",
-    "voice_of_customer": "Voice of Customer", "zero_to_one": "0-to-1 Building",
+    "ai_agents": "AI Agents", "ai_alignment": "AI Alignment", "ai_chat": "Conversational AI Chat",
+    "ai_governance": "AI Governance", "ai_tooling": "Agentic AI Tooling", "ai_workflows": "AI Workflows",
+    "api_auth": "API Authentication", "appsec": "AppSec", "b2b": "B2B",
+    "b2b_prospecting": "B2B Prospecting", "b2b_sales": "B2B Sales",
+    "bcp": "Business Continuity Planning", "build_vs_buy": "Build vs. Buy",
+    "content_ops": "Content Operations", "crm": "CRM", "cro": "Conversion Optimization",
+    "devops": "DevOps", "e_commerce": "E-commerce", "e_learning": "E-learning",
+    "email_marketing": "Email Marketing", "finops": "FinOps (AI Cost Routing)",
+    "fintech": "FinTech", "frontend": "Frontend Engineering", "gtm": "Go-to-Market (GTM)",
+    "healthcare": "Healthcare Systems", "high_ticket": "High Ticket", "icp": "ICP Definition",
+    "lgpd": "LGPD", "llm": "LLMs", "local_seo": "Local SEO",
+    "mobile_first": "Mobile-First Design", "multichannel": "Multi-Channel Operations",
+    "nextjs": "Next.js", "nocodb": "NocoDB", "okr": "OKRs", "ops": "Operations",
+    "ost": "Opportunity Solution Tree (OST)", "performance": "Web Performance",
+    "pmm": "Product Marketing (PMM)", "pmo": "PMO", "postgresql": "PostgreSQL",
+    "power_bi": "Power BI", "prd": "PRD & Requirements Architecture",
+    "product_discovery": "Product Discovery", "publishing": "Digital Publishing",
+    "pwa": "PWA", "rag": "RAG Architecture", "rapid_prototyping": "Rapid Prototyping",
+    "realtime_data": "Real-Time Data Architecture", "research": "Applied Research",
+    "revops": "Revenue Operations (RevOps)", "database": "Database Architecture",
+    "frictionless_ux": "Frictionless UX Design", "sast": "SAST (Static Security Analysis)",
+    "uat": "User Acceptance Testing (UAT)", "prompt_engineering": "Prompt Engineering",
+    "roi": "ROI", "seo": "SEO", "sql": "SQL", "supabase": "Supabase",
+    "typescript": "TypeScript", "ux": "User Experience", "ux_ui": "UX/UI",
+    "web_scraping": "Web Scraping", "voice_of_customer": "Voice of Customer",
+    "zero_to_one": "0-to-1 Building",
 }
 
 # Curated, source-linked outcomes. Values and descriptions come from the cited master bullet.
 METRICS = {
     "AI Builder — Projetos de Produtos": [
+        # AI Career OS
+        ("ai-career-os-b01", "100%", "governança SSOT sem alucinação", "zero-hallucination SSOT governance"),
+        ("ai-career-os-b02", ">95%", "precisão do Fit Score no Match Engine", "Match Engine Fit Score accuracy"),
+        ("ai-career-os-b09", "0 Saltos", "navegação determinística sem quebra de hierarquia", "deterministic navigation without hierarchy breakage"),
+        ("ai-career-os-b10", "+10x", "aceleração no ciclo de engenharia com IA", "engineering cycle speedup with AI"),
+        # CRM Odontológico com IA
+        ("crm-odonto-b01", "24/7", "atendimento e agendamento no WhatsApp", "24/7 WhatsApp AI patient scheduling"),
+        ("crm-odonto-b03", "~85%", "redução de custo de stack (US$ 14-18/mês)", "stack cost reduction (US$ 14-18/mo)"),
+        ("crm-odonto-b04", "8 etapas", "funil clínico Kanban self-hosted", "self-hosted clinical Kanban pipeline"),
         # Bússola da Rotina
-        (0, "0→1", "concepção de metodologia autoral", "0-to-1 methodology conception"),
-        (1, "+10x", "velocidade de desenvolvimento vs tradicional", "development velocity vs traditional"),
-        (1, ">95%", "economia de custos de engenharia", "engineering cost savings"),
-        (1, "5.700+", "linhas de código em SPA nativa", "lines of code in native SPA"),
-        (2, "100%", "estabilidade de dados em tempo real", "real-time data stability"),
+        ("bussola-da-rotina-b01", "0→1", "concepção de metodologia autoral", "0-to-1 methodology conception"),
+        ("bussola-da-rotina-b02", "+10x", "velocidade de desenvolvimento vs tradicional", "development velocity vs traditional"),
+        ("bussola-da-rotina-b02", ">95%", "economia de custos de engenharia", "engineering cost savings"),
+        ("bussola-da-rotina-b02", "5.700+", "linhas de código em SPA nativa", "lines of code in native SPA"),
+        ("bussola-da-rotina-b03", "100%", "estabilidade de dados em tempo real", "real-time data stability"),
         # Meu Barzin
-        (6, "~200", "bares mapeados via web scraping", "venues mapped via web scraping"),
-        (8, "505", "leads qualificados capturados", "qualified leads captured"),
-        (8, "2.000+", "seguidores no Instagram", "Instagram followers"),
-        (8, "22,3%", "usuários altamente engajados", "highly engaged users"),
-        (10, "43,9%", "abandono na primeira mensagem (otimizado)", "first-message dropout (optimized)"),
+        ("meu-barzin-b03", "~200", "bares mapeados via web scraping", "venues mapped via web scraping"),
+        ("meu-barzin-b05", "505", "leads qualificados capturados", "qualified leads captured"),
+        ("meu-barzin-b05", "2.000+", "seguidores no Instagram", "Instagram followers"),
+        ("meu-barzin-b05", "22,3%", "usuários altamente engajados", "highly engaged users"),
+        ("meu-barzin-b07", "43,9%", "abandono na primeira mensagem (otimizado)", "first-message dropout (optimized)"),
+        # Yamas & Niyamas AI
+        ("yamas-niyamas-ai-b01", "13", "fichamentos em alinhamento e abstenção RAG", "AI alignment & RAG abstention syntheses"),
     ],
     "Wipro": [
         (1, "150+", "profissionais capacitados", "professionals enabled"),
@@ -259,9 +338,28 @@ def build_graph(master: dict[str, Any]) -> dict[str, Any]:
         edges.append({"source": "candidate", "target": company_id, "type": "WORKED_AT"})
 
         # Process Projects if present
+        project_role_master_ids = {
+            "proj-ai-career-os": "ai-builder-role-01",
+            "proj-bussola-da-rotina": "ai-builder-role-02",
+            "proj-meu-barzin": "ai-builder-role-03",
+            "proj-crm-odonto": "ai-builder-role-04",
+            "proj-wellness-protocol": "ai-builder-role-05",
+            "proj-site-ebv": "ai-builder-role-06",
+            "proj-e-prognus": "ai-builder-role-07",
+            "proj-product-lead-os": "ai-builder-role-08",
+            "proj-yamas-niyamas-ai": "ai-builder-role-09",
+            "proj-fincasal-ai": "ai-builder-role-10",
+            "proj-agentic-tooling-and-seo": "ai-builder-role-11",
+        }
+        proj_master_to_node: dict[str, str] = {}
+        bullet_to_proj_master: dict[str, str] = {}
         if "projects" in item:
             for proj in item["projects"]:
                 proj_id = f"project-{slug(proj['name'])}"
+                proj_master_to_node[proj["id"]] = proj_id
+                for pb in proj.get("bullets", []):
+                    if pb.get("id"):
+                        bullet_to_proj_master[pb["id"]] = proj["id"]
                 add_node({
                     "id": proj_id,
                     "type": "Project",
@@ -275,8 +373,11 @@ def build_graph(master: dict[str, Any]) -> dict[str, Any]:
                 })
                 edges.append({"source": company_id, "target": proj_id, "type": "HAS_PROJECT"})
 
+        role_master_to_node: dict[str, str] = {}
         for role_index, role in enumerate(item["roles"]):
             role_id = f"role-{slug(company)}-{role_index + 1}"
+            if role.get("id"):
+                role_master_to_node[role["id"]] = role_id
             add_node({
                 "id": role_id,
                 "type": "Role",
@@ -287,18 +388,34 @@ def build_graph(master: dict[str, Any]) -> dict[str, Any]:
                 "color": "#a78bfa",
             })
             edges.append({"source": company_id, "target": role_id, "type": "HAS_ROLE"})
-            # Link Project to Role if AI Builder
-            if company == "AI Builder — Projetos de Produtos":
-                if role_index == 0:
-                    edges.append({"source": "project-bussola-da-rotina", "target": role_id, "type": "HAS_ROLE"})
-                elif role_index == 1:
-                    edges.append({"source": "project-meu-barzin", "target": role_id, "type": "HAS_ROLE"})
+
+        if company == "AI Builder — Projetos de Produtos":
+            for proj_master_id, role_master_id in project_role_master_ids.items():
+                p_node = proj_master_to_node.get(proj_master_id)
+                r_node = role_master_to_node.get(role_master_id)
+                if p_node and r_node:
+                    edges.append({"source": p_node, "target": r_node, "type": "HAS_ROLE"})
+
+        combined_bullets: list[dict[str, Any]] = list(item["bullets"])
+        seen_bullet_ids = {b.get("id") for b in combined_bullets if b.get("id")}
+        for proj in item.get("projects", []):
+            for pb in proj.get("bullets", []):
+                pb_id = pb.get("id")
+                if pb_id and pb_id not in seen_bullet_ids:
+                    combined_bullets.append(pb)
+                    seen_bullet_ids.add(pb_id)
 
         primary_role_id = f"role-{slug(company)}-1"
-        for bullet_index, bullet in enumerate(item["bullets"], 1):
+        if "bullet_lookup" not in locals():
+            bullet_lookup: dict[tuple[str, Any], tuple[str, str, str | None, dict[str, Any]]] = {}
+
+        for bullet_index, bullet in enumerate(combined_bullets, 1):
+            b_id = bullet.get("id", "")
             if company == "AI Builder — Projetos de Produtos":
-                current_role_id = f"role-{slug(company)}-1" if bullet_index <= 4 else f"role-{slug(company)}-2"
-                current_proj_id = "project-bussola-da-rotina" if bullet_index <= 4 else "project-meu-barzin"
+                proj_master_id = bullet_to_proj_master.get(b_id)
+                current_proj_id = proj_master_to_node.get(proj_master_id) if proj_master_id else None
+                role_master_id = project_role_master_ids.get(proj_master_id or "")
+                current_role_id = role_master_to_node.get(role_master_id, primary_role_id)
             else:
                 current_role_id = primary_role_id
                 current_proj_id = None
@@ -321,6 +438,11 @@ def build_graph(master: dict[str, Any]) -> dict[str, Any]:
             edges.append({"source": current_role_id, "target": function_id, "type": "HAS_FUNCTION"})
             if current_proj_id:
                 edges.append({"source": current_proj_id, "target": function_id, "type": "HAS_FUNCTION"})
+
+            info = (function_id, current_role_id, current_proj_id, bullet)
+            bullet_lookup[(company, bullet_index - 1)] = info
+            if b_id:
+                bullet_lookup[(company, b_id)] = info
 
             for tag in set(bullet["tags"]):
                 if tag not in PT_SKILLS:
@@ -363,17 +485,10 @@ def build_graph(master: dict[str, Any]) -> dict[str, Any]:
     for item in work:
         company = item["company"]
         company_id = company_ids[company]
-        for metric_index, (bullet_index, value, name_pt, name_en) in enumerate(METRICS.get(company, []), 1):
-            bullet = item["bullets"][bullet_index]
-            if company == "AI Builder — Projetos de Produtos":
-                current_role_id = f"role-{slug(company)}-1" if bullet_index < 4 else f"role-{slug(company)}-2"
-                current_proj_id = "project-bussola-da-rotina" if bullet_index < 4 else "project-meu-barzin"
-            else:
-                current_role_id = primary_role_id
-                current_proj_id = None
+        for metric_index, (bullet_ref, value, name_pt, name_en) in enumerate(METRICS.get(company, []), 1):
+            function_id, current_role_id, current_proj_id, bullet = bullet_lookup[(company, bullet_ref)]
 
             metric_id = f"metric-{slug(company)}-{metric_index}"
-            function_id = f"function-{slug(company)}-{bullet_index + 1}"
             add_node({
                 "id": metric_id,
                 "type": "Metric",
